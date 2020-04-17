@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+awsebcli = "*"
+
+[packages]
+numpy = "*"
+scikit-learn = "*"
+flask = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.7"
