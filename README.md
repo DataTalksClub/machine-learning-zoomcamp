@@ -110,6 +110,14 @@ Work in progress
 * Installing and configuring the Kaggle command line interface tool for accessing datasets from Kaggle
 * Creating an EC2 machine on AWS using the web interface and the command-line interface
 
+No code
+
+Articles from [mlbookcamp.com](https://mlbookcamp.com):
+
+* [Creating an AWS account](https://mlbookcamp.com/article/aws)
+* [Renting an EC2 instance](https://mlbookcamp.com/article/aws-ec2)
+
+
 ## Appendix B: Introduction to Python
 
 * Basic python syntax: variables and control-flow structures
@@ -118,6 +126,12 @@ Work in progress
 * Reusability: functions, classes and importing code
 * Package management: using pip for installing libraries
 * Running python scripts 
+
+Code: [appendix-b-python.ipynb](appendix-b-python.ipynb)
+
+Articles from [mlbookcamp.com](https://mlbookcamp.com):
+
+* [Introduction to Python](https://mlbookcamp.com/article/python)
 
 
 ## Appendix C: Introduction to NumPy and Linear Algebra
@@ -128,6 +142,12 @@ Work in progress
 * Multiplication in linear algebra: vector-vector, matrix-vector and matrix-matrix multiplications
 * Finding the inverse of a matrix and solving the normal equation
 
+Code: [appendix-c-numpy.ipynb](appendix-c-numpy.ipynb)
+
+Articles from [mlbookcamp.com](https://mlbookcamp.com):
+
+* [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
+
 
 ## Appendix C: Introduction to Pandas
 
@@ -137,6 +157,7 @@ Work in progress
 * Working with missing values
 * Sorting and grouping
 
+Code: [appendix-d-pandas.ipynb](appendix-d-pandas.ipynb)
 
 ## Appendix D: AWS SageMaker
 
