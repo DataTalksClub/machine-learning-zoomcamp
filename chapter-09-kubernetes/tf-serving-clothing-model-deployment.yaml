@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tf-serving-clothing-model
+  labels:
+    app: tf-serving-clothing-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tf-serving-clothing-model
+  template:
+    metadata:
+      labels:
+        app: tf-serving-clothing-model
+    spec:
+      containers:
+      - name: tf-serving-clothing-model
+        image: XXXXXXXXXXXX.dkr.ecr.eu-west-1.amazonaws.com/model-serving:tf-serving-clothing-model
+        ports:
+          - containerPort: 8500

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tf-serving-clothing-model
+  labels:
+    app: tf-serving-clothing-model
+spec:
+  ports:
+    - port: 8500
+      targetPort: 8500
+      protocol: TCP
+      name: http
+  selector:
+    app: tf-serving-clothing-model

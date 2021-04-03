@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serving-gateway
+  labels:
+    app: serving-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: serving-gateway
+  template:
+    metadata:
+      labels:
+        app: serving-gateway
+    spec:
+      containers:
+      - name: serving-gateway
+        image: XXXXXXXXXXXX.dkr.ecr.eu-west-1.amazonaws.com/model-serving:serving-gateway
+        ports:
+          - containerPort: 9696
+        env:
+          - name: TF_SERVING_HOST
+            value: "tf-serving-clothing-model.default.svc.cluster.local:8500"
