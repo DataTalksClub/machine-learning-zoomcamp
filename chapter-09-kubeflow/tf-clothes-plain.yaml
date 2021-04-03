@@ -1,0 +1,10 @@
+apiVersion: "serving.kubeflow.org/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "clothing-model"
+spec:
+  default:
+    predictor:
+      serviceAccountName: sa
+      tensorflow:
+        storageUri: "s3://mlbookcamp-models-alexey/clothing-model"

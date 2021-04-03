@@ -1,0 +1,22 @@
+apiVersion: "serving.kubeflow.org/v1alpha2"
+kind: "InferenceService"
+metadata:
+  name: "clothing-model"
+spec:
+  default:
+    predictor:
+      serviceAccountName: sa
+      tensorflow:
+        storageUri: "s3://mlbookcamp-models-alexey/clothing-model"
+    transformer:
+      custom:
+        container:
+          image: "agrigorev/kfserving-keras-transformer:0.0.1"
+          name: user-container
+          env:
+            - name: MODEL_INPUT_SIZE
+              value: "299,299"
+            - name: KERAS_MODEL_NAME
+              value: "xception"
+            - name: MODEL_LABELS
+              value: "dress,hat,longsleeve,outwear,pants,shirt,shoes,shorts,skirt,t-shirt"
