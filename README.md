@@ -5,7 +5,7 @@ The code from the Machine Learning Bookcamp book
 Useful links: 
 
 * [https://mlbookcamp.com](https://mlbookcamp.com): supplimentary materials
-* [https://datatalks.club/](https://datatalks.club/): the place to talk about data (and the book: join the `#ml-bookcamp` channel to ask questions about the book and report any problems)
+* [https://datatalks.club](https://datatalks.club): the place to talk about data (and the book: join the `#ml-bookcamp` channel to ask questions about the book and report any problems)
 
 
 
@@ -111,6 +111,13 @@ Kubeflow:
 * Using Kubeflow and KFServing for simplifying the deployment process
 
 Code: [chapter-09-kubeflow](chapter-09-kubeflow)
+
+
+Articles from [mlbookcamp.com](https://mlbookcamp.com):
+
+* [Creating an EKS Cluster](https://mlbookcamp.com/article/eks)
+* [Creating a KFServing Cluster on EKS](https://mlbookcamp.com/article/kfserving-eks-install)
+* [KFServing Transformers](https://mlbookcamp.com/article/kfserving-transformers)
 
 # Appendices 
 
