@@ -4,8 +4,8 @@ The code from the Machine Learning Bookcamp book
 
 Useful links: 
 
-* [https://mlbookcamp.com](https://mlbookcamp.com) - supplimentary materials
-* [https://datatalks.club/](https://datatalks.club/) - the place to talk about data and the book (join the `#ml-bookcamp` channel)
+* [https://mlbookcamp.com](https://mlbookcamp.com): supplimentary materials
+* [https://datatalks.club/](https://datatalks.club/): the place to talk about data (and the book: join the `#ml-bookcamp` channel to ask questions about the book and report any problems)
 
 
 
@@ -98,8 +98,19 @@ Code: [chapter-08-serverless](chapter-08-serverless)
 
 ## Chapter 9: Kubernetes and Kubeflow 
 
-Work in progress
+Kubernetes:
 
+* Understanding different methods of deploying and serving models in the cloud.
+* Serving Keras and TensorFlow models with TensorFlow-Serving
+* Deploying TensorFlow-Serving to Kubernetes
+
+Code: [chapter-09-kubernetes](chapter-09-kubernetes)
+
+Kubeflow:
+
+* Using Kubeflow and KFServing for simplifying the deployment process
+
+Code: [chapter-09-kubeflow](chapter-09-kubeflow)
 
 # Appendices 
 
