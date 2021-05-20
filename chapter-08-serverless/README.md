@@ -71,3 +71,7 @@ docker push ${REMOTE_NAME}
     "url": "http://bit.ly/mlbookcamp-pants"
 }
 ```
+
+## Deploying
+
+To deploy it with AWS Lambda and API Gateway, follow this tutorial: https://github.com/alexeygrigorev/aws-lambda-docker/blob/main/guide.md
