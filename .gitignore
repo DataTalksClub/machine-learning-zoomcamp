@@ -1,5 +1,6 @@
 *.h5
 .ipynb_checkpoints/
+__pycache__/
 /chapter-07-neural-nets/clothing-dataset-small/
 /chapter-09-kubernetes/clothing-model/
 /chapter-09-kubeflow/clothing-model/
