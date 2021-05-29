@@ -21,3 +21,6 @@ docker run -it --rm \
     -e MODEL_NAME=clothing-model \
     tensorflow/serving:2.3.0
 ```
+
+Now open [chapter-09-image-preparation.ipynb](chapter-09-image-preparation.ipynb) and
+execute the code there to test it
