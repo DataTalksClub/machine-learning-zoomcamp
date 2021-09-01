@@ -8,6 +8,15 @@ Useful links:
 * [https://datatalks.club](https://datatalks.club): the place to talk about data (and the book: join the `#ml-bookcamp` channel to ask questions about the book and report any problems)
 
 
+## Machine Learning Zoomcamp
+
+ML Zoomcamp is a course based on the book. 
+
+* It's online and free
+* The course starts on September, 6
+* It's possible to join at any moment
+* More information [here](course-zoomcamp)
+
 
 ## Reading Plan
 
