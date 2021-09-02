@@ -1,4 +1,4 @@
-# Machine LEarning Zoomcamp
+# Machine Learning Zoomcamp
 
 
   <a href="https://airtable.com/shr6Gz46UZCgJ9l6w">Register here</a>
