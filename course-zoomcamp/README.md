@@ -1,4 +1,7 @@
-# Plan
+# Machine LEarning Zoomcamp
+
+
+  <a href="https://airtable.com/shr6Gz46UZCgJ9l6w">Register here</a>
 
 ## 1. [Introduction to Machine Learning](01-intro/)
 
