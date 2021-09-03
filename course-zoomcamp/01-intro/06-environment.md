@@ -21,7 +21,8 @@ bash Anaconda3-2021.05-Linux-x86_64.sh
 
 ## Miniconda 
 
-Miniconda is a smaller version of Anaconda that contains only Python. It doesn't have all the data science
+Miniconda is a smaller version of Anaconda that contains only Python. It doesn't have all the data science libraries that we
+need, so for Miniconda, we'll need to install them separately (see the next section).
 
 
 You can see how to install it [here](https://docs.conda.io/en/latest/miniconda.html).
