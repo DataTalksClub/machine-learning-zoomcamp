@@ -2,49 +2,52 @@
 
 In this section, we'll prepare the environment
 
-## Anaconda
+## Conda
 
-The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual)
+The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Anaconda comes with the most commonly used libraries preinstalled in the `base` environment, Miniconda is a smaller version of Anaconda that contains only Python. 
 
-### Linux
+It is a good idea to set up a dedicated environment for the course (and do not use this environment for other projects)
 
-```bash
-wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
-bash Anaconda3-2021.05-Linux-x86_64.sh
-```
+### 1. Download and install correct binary for your system
 
-### Windows
+Follow the instructions on page for installing the correct package for your system (the site will automatically detect your operating system and suggest the correct package)
 
-* Use WSL and follow the instructions for Lunux
-* Or use the graphical installer [from here](https://www.anaconda.com/products/individual)
+Anaconda : https://www.anaconda.com/products/individual
 
+Miniconda: https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links
 
-## Miniconda 
-
-Miniconda is a smaller version of Anaconda that contains only Python. It doesn't have all the data science libraries that we
-need, so for Miniconda, we'll need to install them separately (see the next section).
+(If you are using Windows, you can use WSL instead and follow the installation instructions for linux)
 
 
-You can see how to install it [here](https://docs.conda.io/en/latest/miniconda.html).
-
-
-For Linux (for Python 3.8 version):
+### 2. Create environment for course:
+In your terminal, run this command
 
 ```bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-x86_64.sh
-bash Miniconda3-py38_4.10.3-Linux-x86_64.sh
+conda create -n ml-zoomcamp python=3.8
 ```
 
-
-## Installing the libraries with pip
+### 3. Activate the enviroment
+Do this whenever you are adding new packages for the course or working on coursework
 
 ```bash
-pip install numpy pandas scikit-learn seaborn jupyter
+conda activate ml-zoomcamp
 ```
 
-You don't need to do it if you use Anaconda (it already contains all these libraries).
+### 4. Install libraries
 
-But Anaconda doesn't have XGBoost and TensorFlow, so you'll need to install them:
+Installing libraries available on conda
+
+```bash
+conda install numpy pandas scikit-learn seaborn jupyter
+```
+
+Optionally, if you want to use tensorflow locally with a GPU:
+
+```bash
+conda install cudatookit=11.2
+```
+
+Additional libraries only available on pypi:
 
 ```bash
 pip install xgboost 
