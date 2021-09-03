@@ -1,7 +1,9 @@
 # Machine Learning Zoomcamp
 
+[Register here](https://airtable.com/shr6Gz46UZCgJ9l6w)
 
-  <a href="https://airtable.com/shr6Gz46UZCgJ9l6w">Register here</a>
+[Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+
 
 ## 1. [Introduction to Machine Learning](01-intro/)
 
