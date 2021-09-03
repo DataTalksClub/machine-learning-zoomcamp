@@ -10,7 +10,7 @@ Useful links:
 
 ## Machine Learning Zoomcamp
 
-ML Zoomcamp is a course based on the book. 
+ML Zoomcamp is a course based on the book
 
 * It's online and free
 * The course starts on September, 6
