@@ -1,7 +1,7 @@
 ## 1.4 CRISP-DM
 
 * [Video](https://drive.google.com/file/d/1506qf7Wyhm-5KMrGA1bx6yvEcCelu2Ms/view)
-* [Slides](https://drive.google.com/file/d/15cnEUbTNZu1CTL3xbXBD7NZ3w7WzqWOm/view)
+* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
 
 ## Notes
 

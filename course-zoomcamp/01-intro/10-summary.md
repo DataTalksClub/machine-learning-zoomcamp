@@ -1,7 +1,7 @@
 ## 1.10 Summary
 
 * [Video](https://drive.google.com/file/d/1h2oFLFluamOvBkHuPW4FuO5qP6zTVkX0/view)
-* [Slides](https://drive.google.com/file/d/18JnCtANqwnseWraJYDJh4UQq2MucM0_w/view)
+* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-110-summary)
 
 
 ## Notes

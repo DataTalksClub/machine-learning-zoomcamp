@@ -1,7 +1,7 @@
 ## 1.5 Model Selection Process
 
 * [Video](https://drive.google.com/file/d/1NyO0mjqkQQ_rJ0gEm7OGFSxUz0-HxSbk/view)
-* [Slides](https://drive.google.com/file/d/11-6sc2aiYxekXJsvkVENVQFzoQDNyw3y/view)
+* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-15-model-selection-process)
 
 
 ## Notes

@@ -1,7 +1,7 @@
 ## 1.3 Supervised Machine Learning
 
 * [Video](https://drive.google.com/file/d/10aj1_34-nZ7I16YZGZvXTA7Rph5ExE4q/view)
-* [Slides](https://drive.google.com/file/d/1LbGqPaLt1qhBgejMr2rHzi7BQimG6XDP/view)
+* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-13-supervised-machine-learning)
 
 
 ## Notes
