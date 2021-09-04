@@ -22,5 +22,5 @@ docker run -it --rm \
     tensorflow/serving:2.3.0
 ```
 
-Now open [chapter-09-image-preparation.ipynb](chapter-09-image-preparation.ipynb) and
+Now open [09-image-preparation.ipynb](09-image-preparation.ipynb) and
 execute the code there to test it
