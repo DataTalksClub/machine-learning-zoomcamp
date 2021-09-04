@@ -54,14 +54,24 @@ pip install xgboost
 pip install tensorflow
 ```
 
+## Cloud
 
-## AWS 
+Instead of running things locally, you can use online services or rent a server 
+
+### AWS 
 
 You can rent an instance on AWS:
 
 * [Creating an AWS account](https://mlbookcamp.com/article/aws)
 * [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
 
+### Google Colab
+
+TODO (PRs are welcome)
+
+### Kaggle
+
+TODO (PRs are welcome)
 
 
 ## Navigation
