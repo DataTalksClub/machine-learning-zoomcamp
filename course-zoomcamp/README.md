@@ -1,5 +1,7 @@
 # Machine Learning Zoomcamp
 
+<img src="https://datatalks.club/images/courses/zoomcamp.jpg" />
+
 [Register here](https://airtable.com/shr6Gz46UZCgJ9l6w)
 
 [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
@@ -11,13 +13,13 @@
 - 1.2 [ML vs Rule-Based Systems](01-intro/02-ml-vs-rules.md)
 - 1.3 [Supervised Machine Learning](01-intro/03-supervised-ml.md)
 - 1.4 [CRISP-DM](01-intro/04-crisp-dm.md)
-- 1.5 [The Modelling Step (Model Selection Process)](01-intro/05-model-selection.md)
+- 1.5 [Model Selection Process](01-intro/05-model-selection.md)
 - 1.6 [Setting up the Environment](01-intro/06-environment.md)
 - 1.7 [Introduction to NumPy](01-intro/07-numpy.md)
 - 1.8 [Linear Algebra Refresher](01-intro/08-linear-algebra.md)
 - 1.9 [Introduction to Pandas](01-intro/09-pandas.md)
 - 1.10 [Summary](01-intro/10-summary.md)
-- 1.11 homework
+- 1.11 [Homework](01-intro/homework.md)
 
 ## 2. Machine Learning for Regression
 

@@ -7,6 +7,10 @@
 ## Notes
 
 
+## Links
+
+* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
+
 ## Navigation
 
 * [Lesson 1: Introduction to Machine Learning](../)

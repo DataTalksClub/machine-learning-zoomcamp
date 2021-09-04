@@ -10,6 +10,6 @@
 - 1.8 [Linear Algebra Refresher](08-linear-algebra.md)
 - 1.9 [Introduction to Pandas](09-pandas.md)
 - 1.10 [Summary](10-summary.md)
-- 1.11 [homework](homework.md)
+- 1.11 [Homework](homework.md)
 
 
