@@ -44,7 +44,8 @@ conda install numpy pandas scikit-learn seaborn jupyter
 Optionally, if you want to use tensorflow locally with a GPU:
 
 ```bash
-conda install cudatookit=11.2
+conda config --add channels conda-forge
+conda install cudatoolkit=11.2
 ```
 
 Additional libraries only available on pypi:
