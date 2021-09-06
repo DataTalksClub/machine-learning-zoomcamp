@@ -1,8 +1,10 @@
 # Machine Learning Zoomcamp
 
-<img src="https://datatalks.club/images/courses/zoomcamp.jpg" />
+<a href="https://www.youtube.com/watch?v=EReOX7Fi2fE"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
 
-[Register here](https://airtable.com/shr6Gz46UZCgJ9l6w)
+[Course overview video](https://www.youtube.com/watch?v=EReOX7Fi2fE) (Goes live today at 17:00 CET)
+
+[Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
 
 [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
