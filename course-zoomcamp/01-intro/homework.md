@@ -38,7 +38,7 @@ Now read it with Pandas.
 
 ### Question 3
 
-What's the average price of BMV cars in the dataset?
+What's the average price of BMW cars in the dataset?
 
 
 ### Question 4
