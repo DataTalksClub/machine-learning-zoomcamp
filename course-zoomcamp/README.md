@@ -57,7 +57,7 @@
 - Feature importance: Correlation
 - One-hot Encoding
 - Logistic regression
-- Logistic regression with skilearn
+- Logistic regression with sklearn
 - Using logistic regression (?)
 - Logistic regression - interpretation
 - Applying logistic regression
@@ -113,7 +113,7 @@
 - stopping criteria
 - Decision trees parameter tuning
 - Ensembles and random forest
-- Random forest in skilearn
+- Random forest in sklearn
 - Random forest parameter tuning
 - Gradient boosting
 - eXtreme Gradient Boosting - XGBoost
