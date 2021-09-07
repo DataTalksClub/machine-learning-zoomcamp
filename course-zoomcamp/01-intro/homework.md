@@ -71,6 +71,8 @@ print(round(mean_hp_after))
 * Invert `XTX`.
 * What's the sum of all the elements of the result?
 
+Hint: if the result is negative, re-read the task one more time
+
 
 ### Questions 7 
 
