@@ -7,6 +7,11 @@
 ## Notes
 
 
+## Links
+
+* [Notebook from the video](notebooks/08-linear-algebra.ipynb)
+
+
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)

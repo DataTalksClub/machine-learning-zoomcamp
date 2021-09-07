@@ -8,6 +8,7 @@
 
 ## Links
 
+* [Notebook from the video](notebooks/07-numpy.ipynb)
 * [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
 * [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
 
