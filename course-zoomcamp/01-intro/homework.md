@@ -43,7 +43,7 @@ What's the average price of BMW cars in the dataset?
 
 ### Question 4
 
-Select a subset of cars after year 2015. How many of them have missing values for Engine HP?
+Select a subset of cars after year 2015 (inclusive, i.e. 2015 and after). How many of them have missing values for Engine HP?
 
 
 ### Question 5
@@ -71,6 +71,8 @@ print(round(mean_hp_after))
 * Invert `XTX`.
 * What's the sum of all the elements of the result?
 
+Hint: if the result is negative, re-read the task one more time
+
 
 ### Questions 7 
 
@@ -95,5 +97,6 @@ The deadline for submitting is 13 September 2021, 17:00 CET. After that, the for
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Summary](10-summary.md)

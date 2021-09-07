@@ -10,7 +10,8 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Introduction to Machine Learning](01-what-is-ml.md)
 * Next: [Supervised Machine Learning](03-supervised-ml.md)
 

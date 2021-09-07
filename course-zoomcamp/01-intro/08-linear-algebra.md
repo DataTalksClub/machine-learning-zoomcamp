@@ -7,8 +7,14 @@
 ## Notes
 
 
+## Links
+
+* [Notebook from the video](notebooks/08-linear-algebra.ipynb)
+
+
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Introduction to NumPy](07-numpy.md)
 * Next: [Introduction to Pandas](09-pandas.md)

@@ -10,5 +10,6 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Next: [ML vs Rule-Based Systems](02-ml-vs-rules.md)

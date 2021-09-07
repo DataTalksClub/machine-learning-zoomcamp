@@ -1,12 +1,12 @@
 # Machine Learning Zoomcamp
 
-<a href="https://www.youtube.com/watch?v=EReOX7Fi2fE"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
+<a href="https://www.youtube.com/watch?v=rowoDjPc8HU"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
 
-[Course overview video](https://www.youtube.com/watch?v=EReOX7Fi2fE) (Goes live today at 17:00 CET)
+[Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
 
 [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
 
-[Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+[Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)

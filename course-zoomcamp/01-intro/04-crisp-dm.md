@@ -9,6 +9,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Supervised Machine Learning](03-supervised-ml.md)
 * Next: [Model Selection Process](05-model-selection.md)

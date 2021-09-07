@@ -9,6 +9,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Introduction to Pandas](09-pandas.md)
 * Next: [Homework](homework.md)

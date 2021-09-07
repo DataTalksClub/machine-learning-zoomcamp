@@ -9,6 +9,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [CRISP-DM](04-crisp-dm.md)
 * Next: [Setting up the Environment](06-environment.md)
