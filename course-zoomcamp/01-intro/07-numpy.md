@@ -13,6 +13,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Setting up the Environment](06-environment.md)
 * Next: [Linear Algebra Refresher](08-linear-algebra.md)

@@ -9,6 +9,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [ML vs Rule-Based Systems](02-ml-vs-rules.md)
 * Next: [CRISP-DM](04-crisp-dm.md)

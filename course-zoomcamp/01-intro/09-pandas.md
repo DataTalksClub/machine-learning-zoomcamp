@@ -12,6 +12,7 @@
 
 ## Navigation
 
-* [Lesson 1: Introduction to Machine Learning](../)
+* [Machine Learning Zoomcamp course](../)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous: [Linear Algebra Refresher](08-linear-algebra.md)
 * Next: [Summary](10-summary.md)

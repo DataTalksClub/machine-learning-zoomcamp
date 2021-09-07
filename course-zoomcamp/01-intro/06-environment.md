@@ -113,6 +113,6 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)
-* [Lesson 1: Introduction to Machine Learning](README.md)
+* [Lesson 1: Introduction to Machine Learning](./)
 * Previous lesson: [The Modelling Step (Model Selection Process)](05-model-selection.md)
 * Next lesson: [Introduction to NumPy](07-numpy.md)
