@@ -1,6 +1,6 @@
 # Machine Learning Zoomcamp
 
-<a href="https://www.youtube.com/watch?v=rowoDjPc8HU"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
+<a href="https://datatalks.club/courses/2021-winter-ml-zoomcamp.html"><img src="https://datatalks.club/images/courses/zoomcamp.jpg" /></a>
 
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
 * [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
