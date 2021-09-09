@@ -1,6 +1,6 @@
 ## 1.7 Introduction to NumPy
 
-* [Video](https://drive.google.com/file/d/1-3AkKZoB0U9HuYRVTLkuMZD7TuAMeaSt/view)
+* [Video](https://www.youtube.com/watch?v=Qa0-jYtRdbY)
 
 
 ## Notes
