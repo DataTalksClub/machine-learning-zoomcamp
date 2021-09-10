@@ -5,6 +5,8 @@
 
 ## Notes
 
+* [Pandas Cheat sheet](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet)
+
 
 ## Links
 
