@@ -1,10 +1,11 @@
 ## 1.4 CRISP-DM
 
-* [Video](https://www.youtube.com/watch?v=dCa3JvmJbr0)
-* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
+<a href="https://www.youtube.com/watch?v=dCa3JvmJbr0"><img src="images/thumbnail-1-04.jpg"></a>
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
+
 
 ## Notes
-
 
 
 ## Navigation
