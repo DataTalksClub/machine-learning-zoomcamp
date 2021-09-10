@@ -1,6 +1,6 @@
 ## 1.9 Introduction to Pandas
 
-* [Video](https://drive.google.com/file/d/17VGfOVZ0FrFqrWKWRvBTO0dIm7xV8qlR/view)
+<a href="https://www.youtube.com/watch?v=0j3XK5PsnxA"><img src="images/thumbnail-1-09.jpg"></a>
 
 
 ## Notes
