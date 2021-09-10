@@ -1,7 +1,8 @@
 ## 1.1 Introduction to Machine Learning
 
-* [Video](https://www.youtube.com/watch?v=Crm_5n4mvmg)
-* [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-11-introduction-to-machine-learning)
+<a href="https://www.youtube.com/watch?v=Crm_5n4mvmg"><img src="images/thumbnail-1-01.jpg"></a>
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-11-introduction-to-machine-learning)
 
 
 ## Notes
