@@ -4,7 +4,7 @@
 
 
 ## Notes
-
+* [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
 
 ## Links
 
