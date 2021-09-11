@@ -1,5 +1,5 @@
 
-## 2.18 Homework
+## 2.17 Explore more
 
 
 
@@ -15,4 +15,5 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
-* Previous: [Explore more](17-explore-more.md)
+* Previous: [Car price prediction project summary](16-summary.md)
+* Next: [Homework](homework.md)
