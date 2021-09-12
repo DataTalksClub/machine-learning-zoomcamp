@@ -46,16 +46,16 @@ Before starting this part, make sure that you completed next steps:
 
 ### Question 4
 
-Calculate RMSE (Root Mean Squared Error) for test set of data. 
+Calculate RMSE (Root Mean Squared Error) for validation set of data. Use linear regression without regularization.
 
 
 ### Question 5
 
-Imagine you have the following r (regularization parameter):
+Imagine you have following r (regularization parameters) for your linear regression model:
 
 {0.000001, 0.0001, 0.001, 0.01, 0.1, 1, 5, 10}
 
-What regularization parameter associated with min RMSE value for validation set?
+What regularization parameter associated with best (min) RMSE value for test set?
 
 
 ## Notes
