@@ -1,14 +1,6 @@
-
 ## 2.18 Homework
 
 
-
-
-
-
-## Notes
-
-Add notes from the video (PRs are welcome)
 
 
 ## Nagivation
