@@ -24,7 +24,7 @@ You need to use only the following columns from these dataset for completing the
 
 ### Question 1
 
-Name the feature that has missing values. How many missing values does it have? Fill the missings in this feature with 0 values.
+Name the feature that has missing values. How many missing values does it have? 
 
 ### Question 2
 
@@ -32,12 +32,13 @@ What's the median (50% percentile) for variable 'minimum_nights'?
 
 ### Question 3
 
-What's the maximum value for 'price' feature?
+Fill the missing values of feature from question 1 with 0 values and with mean. Compare the results of RMSE on test set. Are there any changes in RMSE, if so write the filling strategy that gives the lowest RMSE.
 
 ### Regression
 
 Before starting this part, make sure that you completed next steps:
 
+* Do the shuffle of the initial dataset
 * Split your data in train-val-test sets
 * The split should be organized as 60%-20%-20%
 * Make sure that your y_value ('price') is not in X_features (not to overfit the model)
