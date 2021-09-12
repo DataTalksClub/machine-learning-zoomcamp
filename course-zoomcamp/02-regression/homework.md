@@ -88,15 +88,15 @@ If there are multiple options, select the smallest `r`.
 
 ### Question 6
 
-* Split the dataset like previously, use the seed 9
-* Combine train and validation datasets
-* Train a model with `r=0.001`
+* Split the dataset like previously, use seed 9.
+* Combine train and validation datasets.
+* Train a model with `r=0.001`.
 * What's the RMSE on test dataset?
 
 
 ## Submit the results
 
-Submit your results here: TODO.
+Submit your results here: https://forms.gle/2N9GkTr1AgNeZ8hD7.
 
 If your answer doesn't match options exactly, select the closest one.
 
