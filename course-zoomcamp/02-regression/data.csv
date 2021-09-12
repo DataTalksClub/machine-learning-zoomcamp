@@ -13,7 +13,7 @@ lesson,name,page_name,video,slides,notebook
 12,Categorical variables,12-categorical-variables.md,https://www.youtube.com/watch?v=sGLAToAAMa4,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides,notebook.ipynb
 13,Regularization,13-regularization.md,https://www.youtube.com/watch?v=91ve3EJlHBc,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides,notebook.ipynb
 14,Tuning the model,14-tuning-model.md,https://www.youtube.com/watch?v=lW-YVxPgzQw,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides,notebook.ipynb
-15,Using the model,15-using-model.md,,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides,notebook.ipynb
-16,Car price prediction project summary,16-summary.md,,
+15,Using the model,15-using-model.md,https://www.youtube.com/watch?v=KT--uIJozes,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides,notebook.ipynb
+16,Car price prediction project summary,16-summary.md,https://www.youtube.com/watch?v=_qI01YXbyro,
 17,Explore more,17-explore-more.md,,
 18,Homework,homework.md,,

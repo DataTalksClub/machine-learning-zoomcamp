@@ -1,8 +1,7 @@
 
 ## 2.16 Car price prediction project summary
 
-
-
+<a href="https://www.youtube.com/watch?v=_qI01YXbyro"><img src="images/thumbnail-2-16.jpg"></a>
 
 
 
