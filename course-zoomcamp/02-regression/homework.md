@@ -50,7 +50,11 @@ Calculate RMSE (Root Mean Squared Error) for test set of data.
 
 ### Question 5
 
-Calculate RMSE (Root Mean Squared Error) for val set of data using regularization. Set regularization r=0.001.
+Imagine you have the following r (regularization parameter):
+
+{0.000001, 0.0001, 0.001, 0.01, 0.1, 1, 5, 10}
+
+What regularization parameter associated with min RMSE value for validation set?
 
 
 ## Notes
