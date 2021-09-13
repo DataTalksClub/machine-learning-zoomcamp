@@ -2,9 +2,9 @@
 
 ### Set up the environment
 
-You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from [06-environment.md](06-environment.md).
+You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from [07-environment.md](06-environment.md).
 
-### Question 1
+### Question 3
 
 What's the version of NumPy that you installed? 
 
