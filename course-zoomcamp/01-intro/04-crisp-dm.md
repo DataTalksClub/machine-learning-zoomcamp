@@ -6,7 +6,17 @@
 
 
 ## Notes
+CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s by IBM. The steps of this procedure are: 
+1. **Business understanding:** An important question is if do we need ML for the project. The goal of the project has to be measurable. 
+2. **Data understanding:** Analyze available data sources, and decide if more data is required. 
+3. **Data preparation:** Clean data and remove noise applying pipelines, and the data should be converted to a tabular format, so we can put it into ML.
+4. **Modeling:** training Different models and choose the best one. Considering the results of this step, it is proper to decide if is required to add new features or fix data issues. 
+5. **Evaluation:** Measure how well the model is performing and if it solves the business problem. 
+6. **Deployment:** Roll out to production to all the users. The evaluation and deployment often happen together - **online evaluation**. 
 
+It is important to consider how well maintainable the project is.
+  
+In general, ML projects require many iterations. 
 
 ## Navigation
 
