@@ -138,7 +138,10 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 * Installing and configuring the Kaggle command line interface tool for accessing datasets from Kaggle
 * Creating an EC2 machine on AWS using the web interface and the command-line interface
 
-No code
+If you are comfortable using docker you can use:
+
+Code: [appendix-a-setup-docker](appendix-a-setup-docker.md)
+
 
 Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
