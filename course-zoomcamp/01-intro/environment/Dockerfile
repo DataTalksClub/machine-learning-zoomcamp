@@ -22,6 +22,12 @@ WORKDIR $datadir
 RUN adduser --disabled-password --gecos '' --shell /bin/bash $user \
  && chown -R $user:$user $datadir
 RUN echo "${user} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
+
+# Install python-dev and build-essential
+RUN apt update
+RUN apt-get install -y python-dev
+RUN apt-get install -y build-essential
+
 USER $user
 
 # All users can use /home/user as their home directory
@@ -48,8 +54,7 @@ RUN $HOME/anaconda3/bin/conda clean -ya
 RUN echo "source activate $(head -1 environment.yml | cut -d' ' -f2)" > ~/.bashrc
 ENV PATH /opt/conda/envs/$(head -1 environment.yml | cut -d' ' -f2)/bin:$PATH
 
-# Install Tensorflow and XgBoost
-RUN pip install grpcio==1.20
+# Install Tensorflow. 
 RUN pip install tensorflow
 
 VOLUME $datadir

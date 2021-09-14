@@ -20,10 +20,12 @@ The following guide is for facilitating an environment using [Docker](https://ww
 
 Once you have Docker installed, Follow the next steps to build your image. 
 
-1. Enter the folder of the repo
+1. Enter the environment folder.
+
+Execute the following command from the root folder of your repo: **mlbookcamp-code**
 
 ```
-cd mlbookcamp-code
+cd ./course-zoomcamp/01-intro/environment
 ```
 
 2. Build your image
@@ -50,6 +52,8 @@ ml-zoomcamp   latest    79985d76ae2b   2 days ago   5.92GB
 
 4. Run your image with Jupyter 
 
+**Note**: after you have built your image, go back to the root folder of the repo, so that, when you run  your container all notebooks will be available.
+
 ```
 docker run -it -p 8888:8888 -v $PWD:/data ml-zoomcamp
 ```
@@ -61,9 +65,9 @@ Output example:
 [I 20:34:00.048 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [C 20:34:00.050 NotebookApp]
 
-    Copy/paste this URL into your browser when you connect for the first time,
-    to login with a token:
-        http://localhost:8888/?token=05f0940c0afa6ba641c3244efd930b891039ff5f6c7a621f
+Copy/paste this URL into your browser when you connect for the first time,to login with a token:
+
+http://localhost:8888/?token=05f0940c0afa6ba641c3244efd930b891039ff5f6c7a621f
 ```
 
 ## Using your docker image
@@ -82,7 +86,7 @@ Follow the next steps.
 
 1. Go to the [environments.yml](./environment.yml)
 
-You should see a list as followS: 
+You should see a list as follows: 
 
 ```
 name: ml-zoomcamp
