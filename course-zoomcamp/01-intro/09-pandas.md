@@ -6,10 +6,15 @@
 ## Notes
 
 
+
 ## Links
 
 * [Notebook from the video](notebooks/09-pandas.ipynb)
 * [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
+
+## Additional links
+
+* [Pandas Cheat sheet](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet)
 
 ## Navigation
 
