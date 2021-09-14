@@ -3,14 +3,6 @@
 
 
 
-
-
-
-## Notes
-
-Add notes from the video (PRs are welcome)
-
-
 ## Nagivation
 
 * [Machine Learning Zoomcamp course](../)

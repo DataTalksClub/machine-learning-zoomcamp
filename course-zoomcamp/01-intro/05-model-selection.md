@@ -6,11 +6,14 @@
 
 
 ## Notes
-The validation dataset is not used in training. There are feature matrices and y vectors for both training and validation datasets. 
-The model is fitted with training data, and it is used to predict the y values of the validation feature matrix. Then, the predicted y values (probabilities)
+The validation dataset is not used in training. There are feature matrices and y vectors
+for both training and validation datasets. 
+The model is fitted with training data, and it is used to predict the y values of the validation
+feature matrix. Then, the predicted y values (probabilities)
 are compared with the actual y values. 
 
-**Multiple comparisons problem (MCP):** just by chance one model can be lucky and obtain good predictions because all of them are probabilistic. 
+**Multiple comparisons problem (MCP):** just by chance one model can be lucky and obtain
+good predictions because all of them are probabilistic. 
 
 The test set can help to avoid the MCP. Obtention of the best model is done with the training and validation datasets, while the test dataset is used for assuring that the proposed best model is the best. 
 
@@ -20,6 +23,17 @@ The test set can help to avoid the MCP. Obtention of the best model is done with
 4. Select the best model 
 5. Apply the best model to the test dataset 
 6. Compare the performance metrics of validation and test 
+
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
+
 
 ## Navigation
 

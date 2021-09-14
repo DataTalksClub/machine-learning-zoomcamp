@@ -6,7 +6,9 @@
 
 
 ## Notes
+
 CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s by IBM. The steps of this procedure are: 
+
 1. **Business understanding:** An important question is if do we need ML for the project. The goal of the project has to be measurable. 
 2. **Data understanding:** Analyze available data sources, and decide if more data is required. 
 3. **Data preparation:** Clean data and remove noise applying pipelines, and the data should be converted to a tabular format, so we can put it into ML.
@@ -17,6 +19,17 @@ CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s
 It is important to consider how well maintainable the project is.
   
 In general, ML projects require many iterations. 
+
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
+
 
 ## Navigation
 
