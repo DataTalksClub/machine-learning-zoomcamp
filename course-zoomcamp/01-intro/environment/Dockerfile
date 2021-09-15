@@ -35,7 +35,7 @@ ENV HOME=/home/$user
 RUN chmod 777 /home/$user
 
 # Install anaconda
-RUN wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh -O /home/$user/anaconda.sh \
+RUN wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh -O /home/$user/anaconda.sh \
  && chmod +x /home/$user/anaconda.sh \
  && /home/$user/anaconda.sh -b -p ~/anaconda3 \
  && rm /home/$user/anaconda.sh
@@ -51,14 +51,12 @@ ENV CONDA_DEFAULT_ENV=py38
 ENV CONDA_PREFIX=$HOME/anaconda3/envs/$CONDA_DEFAULT_ENV
 ENV PATH=$CONDA_PREFIX/bin:$PATH 
 RUN $HOME/anaconda3/bin/conda clean -ya
+RUN $HOME/anaconda3/bin/conda init bash
 RUN echo "source activate $(head -1 environment.yml | cut -d' ' -f2)" > ~/.bashrc
 ENV PATH /opt/conda/envs/$(head -1 environment.yml | cut -d' ' -f2)/bin:$PATH
-
-# Install Tensorflow. 
-RUN pip install tensorflow
 
 VOLUME $datadir
 WORKDIR $datadir
 
 # Set the default command to jupyter notebook
-CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/data --ip=* --port=8888 --no-browser --allow-root"]
+CMD ["bash", "-c", "source ~/.bashrc && jupyter notebook --notebook-dir=/data --ip=* --port=8888 --no-browser --allow-root"]
