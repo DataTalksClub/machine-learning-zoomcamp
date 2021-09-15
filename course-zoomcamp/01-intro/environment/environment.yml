@@ -4,10 +4,12 @@ channels:
 dependencies:
   - python=3.8
   - jupyter
-  - numpy
+  - cudatoolkit
+  - tensorflow=2.4.3
+  - numpy=1.21.1
   - pandas
   - matplotlib
   - scikit-learn
-  - seaborn
-  - cudatoolkit
+  - seaborn=0.11.2
   - xgboost
+
