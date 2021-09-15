@@ -1,9 +1,8 @@
 
-## 2.10 Computing RMSE on validation data
+## 2.16 Car price prediction project summary
 
-<a href="https://www.youtube.com/watch?v=rawGPXg2ofE"><img src="images/thumbnail-2-10.jpg"></a>
+<a href="https://www.youtube.com/watch?v=_qI01YXbyro"><img src="images/thumbnail-2-16.jpg"></a>
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
 
 ## Notes
@@ -24,5 +23,5 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
-* Previous: [Root mean squared error](09-rmse.md)
-* Next: [Feature engineering](11-feature-engineering.md)
+* Previous: [Using the model](15-using-model.md)
+* Next: [Explore more](17-explore-more.md)
