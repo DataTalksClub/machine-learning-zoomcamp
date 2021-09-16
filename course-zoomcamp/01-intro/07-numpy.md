@@ -1,9 +1,21 @@
 ## 1.7 Introduction to NumPy
 
-* [Video](https://drive.google.com/file/d/1-3AkKZoB0U9HuYRVTLkuMZD7TuAMeaSt/view)
+<a href="https://www.youtube.com/watch?v=Qa0-jYtRdbY"><img src="images/thumbnail-1-07.jpg"></a>
 
 
 ## Notes
+
+Add notes here (PRs are welcome).
+
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
 
 
 ## Links
@@ -11,6 +23,10 @@
 * [Notebook from the video](notebooks/07-numpy.ipynb)
 * [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
 * [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
+
+## Additional links
+
+* [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
 
 ## Navigation
 
