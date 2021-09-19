@@ -10,6 +10,8 @@
 
 Add notes from the video (PRs are welcome)
 
+[community notes](https://edwardcodes.github.io/posts/lr-normal-equation/)
+
 <table>
    <tr>
       <td>⚠️</td>
