@@ -10,7 +10,6 @@
 
 Add notes from the video (PRs are welcome)
 
-[community notes](https://edwardcodes.github.io/posts/lr-normal-equation/)
 
 <table>
    <tr>
@@ -21,6 +20,11 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
+
+### Links 
+
+* [Notes from Edward](https://edwardcodes.github.io/posts/lr-normal-equation/)
+
 
 ## Nagivation
 
