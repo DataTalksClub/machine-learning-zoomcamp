@@ -1,0 +1,16 @@
+lesson,name,page_name,video,slides,notebook
+1,Churn prediction project,01-churn-project.md,https://www.youtube.com/watch?v=0Zw04wdeTQo,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+2,Data preparation,02-data-preparation.md,https://www.youtube.com/watch?v=VSGGU9gYvdg,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+3,Setting up the validation framework,03-validation.md,https://www.youtube.com/watch?v=_lwz34sOnSE,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+4,EDA,04-eda.md,https://www.youtube.com/watch?v=BNF1wjBwTQA,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+5,Feature importance: Churn rate and risk ratio,05-risk.md,https://www.youtube.com/watch?v=fzdzPLlvs40,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+6,Feature importance: Mutual information,06-mutual-info.md,https://www.youtube.com/watch?v=_u2YaGT6RN0,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+7,Feature importance: Correlation,07-correlation.md,https://www.youtube.com/watch?v=mz1707QVxiY,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+8,One-hot encoding,08-ohe.md,https://www.youtube.com/watch?v=L-mjQFN5aR0,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+9,Logistic regression,09-logistic-regression.md,https://www.youtube.com/watch?v=7KFE2ltnBAg,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+10,Training logistic regression with Scikit-Learn,10-training-log-reg.md,https://www.youtube.com/watch?v=hae_jXe2fN0,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+11,Model interpretation,11-log-reg-interpretation.md,https://www.youtube.com/watch?v=OUrlxnUAAEA,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+12,Using the model,12-using-log-reg.md,https://www.youtube.com/watch?v=Y-NGmnFpNuM,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+13,Summary,13-summary.md,https://www.youtube.com/watch?v=Zz6oRGsJkW4,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+14,Explore more,14-explore-more.md,,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
+15,Homework,homework.md,,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification,notebook.ipynb
