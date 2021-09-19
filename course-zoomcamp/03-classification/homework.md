@@ -36,6 +36,7 @@ What is the most frequent observation (mode) for the column `'neighbourhood_grou
 ### Split the data
 
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
+* Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
 * Make sure that the target value ('price') is not in your dataframe.
 
 
