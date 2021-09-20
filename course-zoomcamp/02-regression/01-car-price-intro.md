@@ -21,10 +21,6 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
-### Links 
-
-* [Notes from Edward](https://edwardcodes.github.io/posts/lr-normal-equation/)
-
 
 ## Nagivation
 
