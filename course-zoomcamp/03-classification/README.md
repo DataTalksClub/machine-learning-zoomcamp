@@ -15,3 +15,11 @@
 - 3.13 [Summary](13-summary.md)
 - 3.14 [Explore more](14-explore-more.md)
 - 3.15 [Homework](homework.md)
+
+
+
+## Community notes
+
+Did you take notes? You can share them here (or in each unit separately)
+
+* Add your notes here
