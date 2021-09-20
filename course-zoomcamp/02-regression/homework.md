@@ -51,7 +51,7 @@ What's the median (50% percentile) for variable 'minimum_nights'?
 
 * We need to deal with missing values for the column from Q1.
 * We have two options: fill it with 0 or with the mean of this variable.
-* Try both options. For each, train a linear regression model without regularization using the code from the lesssons.
+* Try both options. For each, train a linear regression model without regularization using the code from the lessons.
 * For computing the mean, use the training only!
 * Use the validation dataset to evaluate the models and compare the RMSE of each option.
 * Round the RMSE scores to 2 decimal digits using `round(score, 2)`
@@ -91,7 +91,7 @@ If there are multiple options, select the smallest `r`.
 
 * Split the dataset like previously, use seed 9.
 * Combine train and validation datasets.
-* Train a model with `r=0.001`.
+* Fill the missing values with 0 and train a model with `r=0.001`. 
 * What's the RMSE on the test dataset?
 
 
