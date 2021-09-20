@@ -72,7 +72,7 @@ Example of a correlation matrix for the car price dataset:
 
 ### Question 5
 
-* We have 10 features: 8 numerical features and 2 categorical.
+* We have 9 features: 7 numerical features and 2 categorical.
 * Let's find the least useful one using the *feature elimination* technique.
 * Train a model with all these features (using the same parameters as in Q4).
 * Now exclude each feature from this set and train a model without it. Record the accuracy for each model.
@@ -99,15 +99,14 @@ If there are multiple options, select the smallest `alpha`.
 
 ## Submit the results
 
-Submit your results here: 
+Submit your results here: https://forms.gle/xGpZhoq9Efm9E4RA9
 
-If your answer doesn't match options exactly, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one.
+
 
 ## Deadline
 
-
 The deadline for submitting is 27 September 2021, 17:00 CET. After that, the form will be closed.
-
 
 
 ## Nagivation
