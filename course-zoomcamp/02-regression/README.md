@@ -26,4 +26,5 @@
 Did you take notes? You can share them here (or in each unit separately)
 
 * [Notes from Edward](https://edwardcodes.github.io/posts/lr-normal-equation/)
+* [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-2-mle)
 * Add your notes here
