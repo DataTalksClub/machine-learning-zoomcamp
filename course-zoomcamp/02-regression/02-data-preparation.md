@@ -7,7 +7,7 @@
 
 
 ## Notes
-[Note from @oussou_dev](https://i.ibb.co/HqDsbBw/02-data-preparation-md.png)
+[Note from @oussou_dev](https://i.ibb.co/HqDsbBw/02-data-preparation-md.png)  
 Add notes from the video (PRs are welcome)
 
 <table>

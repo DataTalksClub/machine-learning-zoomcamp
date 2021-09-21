@@ -7,7 +7,7 @@
 
 
 ## Notes
-[Note from @oussou_dev](https://i.ibb.co/3d9w7J8/04-validation-framework-md.png)
+[Note from @oussou_dev](https://i.ibb.co/3d9w7J8/04-validation-framework-md.png)  
 Add notes from the video (PRs are welcome)
 
 <table>
