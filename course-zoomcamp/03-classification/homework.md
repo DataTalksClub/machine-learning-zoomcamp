@@ -25,7 +25,7 @@ For the rest of the homework, you'll need to use the features from the previous 
 * `'calculated_host_listings_count'`,
 * `'availability_365'`
 
-Select only them.
+Select only them and fill in the missing values with 0.
 
 
 ### Question 1
@@ -51,9 +51,15 @@ Example of a correlation matrix for the car price dataset:
 <img src="images/correlation-matrix.png" />
 
 
+### Make price binary
+
+* We need to turn the price variable from numeric into binary.
+* Let's create a variable `above_average` which is `1` if the price is above (or equal to) `152`.
+
+
 ### Question 3
 
-* Calculate the mutual information score for the two categorical variables that we have. Use the training set only.
+* Calculate the mutual information score with the (binarized) price for the two categorical variables that we have. Use the training set only.
 * Which of these two variables has bigger score?
 * Round it to 2 decimal digits using `round(score, 2)`
 
@@ -61,8 +67,6 @@ Example of a correlation matrix for the car price dataset:
 ### Question 4
 
 * Now let's train a logistic regression
-* For that, we need to turn our price prediction problem into a binary classification task.
-* Let's create a variable `above_average` which is `1` if the price is above (or equal to) `152`.
 * Remember that we have two categorical variables in the data. Include them using one-hot encoding.
 * Fit the model on the training dataset.
    * To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
