@@ -7,7 +7,7 @@
 
 
 ## Notes
-
+[Note from @oussou_dev](https://i.ibb.co/z2T6YL8/06-linear-regression-vector-md.png)
 Add notes from the video (PRs are welcome)
 
 <table>

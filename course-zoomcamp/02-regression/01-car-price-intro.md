@@ -7,7 +7,7 @@
 
 
 ## Notes
-
+[Note from @oussou_dev](https://i.ibb.co/CtXnR7v/01-car-price-intro-md.png)
 Add notes from the video (PRs are welcome)
 
 

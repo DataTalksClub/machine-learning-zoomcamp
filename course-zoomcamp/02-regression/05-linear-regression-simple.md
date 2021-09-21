@@ -7,7 +7,7 @@
 
 
 ## Notes
-
+[Note from @oussou_dev](https://i.ibb.co/pyvCmWF/05-linear-regression-simple-md.png)
 Add notes from the video (PRs are welcome)
 
 <table>
