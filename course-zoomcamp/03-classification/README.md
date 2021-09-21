@@ -21,5 +21,5 @@
 ## Community notes
 
 Did you take notes? You can share them here (or in each unit separately)
-* [Notes from Kwang Yang] (https://www.kaggle.com/kwangyangchia/notebook-for-lesson-3-mle)
+* [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-3-mle)
 * Add your notes here
