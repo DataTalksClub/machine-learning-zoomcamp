@@ -22,4 +22,5 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-3-mle)
+* [Notes from Jaime Hipólito Cabrera](https://github.com/jaimeh94/ml-zoomcamp/blob/main/03-classification/classnotes_session03-classification.ipynb)
 * Add your notes here
