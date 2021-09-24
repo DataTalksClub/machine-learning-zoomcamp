@@ -1,4 +1,4 @@
-## 3. Machine Learning for Classification
+﻿## 3. Machine Learning for Classification
 
 - 3.1 [Churn prediction project](01-churn-project.md)
 - 3.2 [Data preparation](02-data-preparation.md)
@@ -23,4 +23,6 @@
 Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-3-mle)
 * [Notes from Jaime Hipólito Cabrera](https://github.com/jaimeh94/ml-zoomcamp/blob/main/03-classification/classnotes_session03-classification.ipynb)
+* [Notes from Nikhil Shrestha](https://www.kaggle.com/snikhil17/chapter-3-ml-for-classification-mlzoomcamp)
+
 * Add your notes here
