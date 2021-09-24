@@ -1,5 +1,7 @@
 ## 2.18 Homework
 
+Solution: [homework.ipynb](homework.ipynb)
+
 ### Dataset
 
 In this homework, we will use the New York City Airbnb Open Data. You can take it from
