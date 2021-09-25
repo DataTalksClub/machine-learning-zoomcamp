@@ -138,7 +138,7 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 * Installing and configuring the Kaggle command line interface tool for accessing datasets from Kaggle
 * Creating an EC2 machine on AWS using the web interface and the command-line interface
 
-No code
+Code: no code
 
 Articles from [mlbookcamp.com](https://mlbookcamp.com):
 

@@ -13,3 +13,8 @@
 - 1.11 [Homework](homework.md)
 
 
+## Community notes
+
+Did you take notes? You can share them here (or in each unit separately)
+
+* Add your notes here

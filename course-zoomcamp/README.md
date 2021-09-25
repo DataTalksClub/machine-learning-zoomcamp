@@ -3,7 +3,8 @@
 <a href="https://datatalks.club/courses/2021-winter-ml-zoomcamp.html"><img src="../images/zoomcamp.jpg" /></a>
 
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
-* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
+* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w) (you can register for the course at any point of time!)
 * [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
 
@@ -22,47 +23,46 @@
 - 1.10 [Summary](01-intro/10-summary.md)
 - 1.11 [Homework](01-intro/homework.md)
 
-## 2. Machine Learning for Regression
+## 2. [Machine Learning for Regression](02-regression/)
 
-- 2.1 Car price prediction project
-- 2.2 EDA
-- 2.3 Setting up the validation framework
-- 2.4 Linear regression
-- 2.5 Applying linear regression
-- 2.6 Linear regression: matrix form
-- 2.7 Training linear regression: Normal equation
-- 2.8 Implementing linear regression with NumPy
-- 2.9 Car price - the baseline solution
-- 2.10 Evaluating the model with RMSE
-- 2.11 Validating the model
-- 2.12 Feature engineering
-- 2.13 Categorical variables
-- 2.14 Regularization
-- 2.15 Tuning the model
-- 2.16 Using the model
-- 2.17 Car price prediction project summary
-- 2.18 explore more
-- 2.19 homework
+- 2.1 [Car price prediction project](02-regression/01-car-price-intro.md)
+- 2.2 [Data preparation](02-regression/02-data-preparation.md)
+- 2.3 [Exploratory data analysis](02-regression/03-eda.md)
+- 2.4 [Setting up the validation framework](02-regression/04-validation-framework.md)
+- 2.5 [Linear regression](02-regression/05-linear-regression-simple.md)
+- 2.6 [Linear regression: vector form](02-regression/06-linear-regression-vector.md)
+- 2.7 [Training linear regression: Normal equation](02-regression/07-linear-regression-training.md)
+- 2.8 [Baseline model for car price prediction project](02-regression/08-baseline-model.md)
+- 2.9 [Root mean squared error](02-regression/09-rmse.md)
+- 2.10 [Using RMSE on validation data](02-regression/10-car-price-validation.md)
+- 2.11 [Feature engineering](02-regression/11-feature-engineering.md)
+- 2.12 [Categorical variables](02-regression/12-categorical-variables.md)
+- 2.13 [Regularization](02-regression/13-regularization.md)
+- 2.14 [Tuning the model](02-regression/14-tuning-model.md)
+- 2.15 [Using the model](02-regression/15-using-model.md)
+- 2.16 [Car price prediction project summary](02-regression/16-summary.md)
+- 2.17 [Explore more](02-regression/17-explore-more.md)
+- 2.18 [Homework](02-regression/homework.md)
 
-## 3. Machine Learning for Classification
 
-- Churn prediction project
-- Initial data preparation
-- Setting up the validation framework
-- EDA
-- Feature importance: Churn rate
-- Feature importance: Risk ratio
-- Feature importance: Mutual information
-- Feature importance: Correlation
-- One-hot Encoding
-- Logistic regression
-- Logistic regression with sklearn
-- Using logistic regression (?)
-- Logistic regression - interpretation
-- Applying logistic regression
-- Summary
-- Explore more
-- Homework
+## 3. [Machine Learning for Classification](03-classification/)
+
+- 3.1 [Churn prediction project](03-classification/01-churn-project.md)
+- 3.2 [Data preparation](03-classification/02-data-preparation.md)
+- 3.3 [Setting up the validation framework](03-classification/03-validation.md)
+- 3.4 [EDA](03-classification/04-eda.md)
+- 3.5 [Feature importance: Churn rate and risk ratio](03-classification/05-risk.md)
+- 3.6 [Feature importance: Mutual information](03-classification/06-mutual-info.md)
+- 3.7 [Feature importance: Correlation](03-classification/07-correlation.md)
+- 3.8 [One-hot encoding](03-classification/08-ohe.md)
+- 3.9 [Logistic regression](03-classification/09-logistic-regression.md)
+- 3.10 [Training logistic regression with Scikit-Learn](03-classification/10-training-log-reg.md)
+- 3.11 [Model interpretation](03-classification/11-log-reg-interpretation.md)
+- 3.12 [Using the model](03-classification/12-using-log-reg.md)
+- 3.13 [Summary](03-classification/13-summary.md)
+- 3.14 [Explore more](03-classification/14-explore-more.md)
+- 3.15 [Homework](03-classification/homework.md)
+
 
 ## 4. Evaluation Metrics for Classification
 
