@@ -8,8 +8,15 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the information from a particular feature. So, it is a measure of the importance of a categorical variable. 
 
+**Classes, functions, and methods:** 
+
+* `mutual_info_score(x, y)` - Scikit-Learn class for calculating the mutual information between the x target variable and y feature. 
+* `df[x].apply(y)` - apply a y function to the x series of the df dataframe. 
+* ` df.sort_values(ascending=False).to_frame(name='x')` - sort values in an ascending order and called the column as x. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
 
 <table>
    <tr>

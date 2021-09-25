@@ -8,8 +8,19 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The EDA for this project consisted of: 
+* Checking missing values 
+* Looking at the distribution of the target variable (churn)
+* Looking at numerical and categorical variables 
 
+**Functions and methods:** 
+
+* `df.isnull().sum()` - retunrs the number of null values in the dataframe.  
+* `df.x.value_counts()` returns the number of values for each category in x series. The `normalize=True` argument retrieves the percentage of each category. In this project, the mean of churn is equal to the churn rate obtained with the value_counts method. 
+* `round(x, y)` - round an x number with y decimal places
+* `df[x].nunique()` - returns the number of unique values in x series 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
 
 <table>
    <tr>

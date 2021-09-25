@@ -8,8 +8,15 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+This video was about the interpretation of coefficients, and training a model with fewer features. 
 
+In the formula of the logistic regression model, only one of the one-hot encoded categories is multiplied by 1, and the other by 0. In this way, we only consider the appropriate category for each categorical feature. 
+
+**Classes, functions, and methods:** 
+
+* `zip(x,y)` - returns a new list with elements from x joined with their corresponding elements on y 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
 
 <table>
    <tr>

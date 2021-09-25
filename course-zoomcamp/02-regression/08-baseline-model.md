@@ -8,7 +8,11 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The LR model obtained in the previous section was used with the dataset of car price prediction. For this model, only the numerical variables were considered. 
+The training data was pre-processed, replacing the NaN values with 0, in such a way that these values were omitted by the model. Then, the model was trained 
+and it allowed to make predictions on new data. Finally, distributions of y target variable and predictions were compared by plotting their histograms. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
 
 <table>
    <tr>

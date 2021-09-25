@@ -8,7 +8,10 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The tuning consisted of finding the best regularization value, using the validation partition of the dataset. After obtaining the best regularization value, the model 
+was trained with this regularization parameter. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
 
 <table>
    <tr>
