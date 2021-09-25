@@ -24,5 +24,6 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-3-mle)
 * [Notes from Jaime Hipólito Cabrera](https://github.com/jaimeh94/ml-zoomcamp/blob/main/03-classification/classnotes_session03-classification.ipynb)
 * [Notes from Nikhil Shrestha](https://www.kaggle.com/snikhil17/chapter-3-ml-for-classification-mlzoomcamp)
+* [Notes from Sebastián Ayala Ruano](https://github.com/sayalaruano/100DaysOfMLCode/blob/main/Notes/NotesDay11.md)
 
 * Add your notes here

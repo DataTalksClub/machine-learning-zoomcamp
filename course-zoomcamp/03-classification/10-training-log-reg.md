@@ -8,8 +8,17 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy. 
 
+**Classes, functions, and methods:** 
+
+* `LogisticRegression().fit_transform(x)` - Scikit-Learn class for calculating the logistic regression model. 
+* `LogisticRegression().coef_[0]` - returns the coeffcients or weights of the LR model
+* `LogisticRegression().intercept_[0]` - returns the bias or intercept of the LR model
+* `LogisticRegression().predict[x]` - make predictions on the x dataset 
+* `LogisticRegression().predict_proba[x]` - make predictions on the x dataset, and returns two columns with their probabilities for the two categories - soft predictions 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
 <table>
    <tr>
