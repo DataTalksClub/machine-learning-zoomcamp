@@ -18,3 +18,14 @@
 - 2.16 [Car price prediction project summary](16-summary.md)
 - 2.17 [Explore more](17-explore-more.md)
 - 2.18 [Homework](homework.md)
+
+
+
+## Community notes
+
+Did you take notes? You can share them here (or in each unit separately)
+
+* [Notes from Edward](https://edwardcodes.github.io/posts/lr-normal-equation/)
+* [Notes from Kwang Yang](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-2-mle)
+* [Notes from Sebastián Ayala Ruano](https://github.com/sayalaruano/100DaysOfMLCode/blob/main/Notes/NotesDay5.md)
+* Add your notes here

@@ -25,7 +25,7 @@ For the rest of the homework, you'll need to use the features from the previous 
 * `'calculated_host_listings_count'`,
 * `'availability_365'`
 
-Select only them.
+Select only them and fill in the missing values with 0.
 
 
 ### Question 1
@@ -51,9 +51,15 @@ Example of a correlation matrix for the car price dataset:
 <img src="images/correlation-matrix.png" />
 
 
+### Make price binary
+
+* We need to turn the price variable from numeric into binary.
+* Let's create a variable `above_average` which is `1` if the price is above (or equal to) `152`.
+
+
 ### Question 3
 
-* Calculate the mutual information score for the two categorical variables that we have. Use the training set only.
+* Calculate the mutual information score with the (binarized) price for the two categorical variables that we have. Use the training set only.
 * Which of these two variables has bigger score?
 * Round it to 2 decimal digits using `round(score, 2)`
 
@@ -61,8 +67,6 @@ Example of a correlation matrix for the car price dataset:
 ### Question 4
 
 * Now let's train a logistic regression
-* For that, we need to turn our price prediction problem into a binary classification task.
-* Let's create a variable `above_average` which is `1` if the price is above (or equal to) `152`.
 * Remember that we have two categorical variables in the data. Include them using one-hot encoding.
 * Fit the model on the training dataset.
    * To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
@@ -72,7 +76,7 @@ Example of a correlation matrix for the car price dataset:
 
 ### Question 5
 
-* We have 10 features: 8 numerical features and 2 categorical.
+* We have 9 features: 7 numerical features and 2 categorical.
 * Let's find the least useful one using the *feature elimination* technique.
 * Train a model with all these features (using the same parameters as in Q4).
 * Now exclude each feature from this set and train a model without it. Record the accuracy for each model.
@@ -99,15 +103,14 @@ If there are multiple options, select the smallest `alpha`.
 
 ## Submit the results
 
-Submit your results here: 
+Submit your results here: https://forms.gle/xGpZhoq9Efm9E4RA9
 
-If your answer doesn't match options exactly, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one.
+
 
 ## Deadline
 
-
 The deadline for submitting is 27 September 2021, 17:00 CET. After that, the form will be closed.
-
 
 
 ## Nagivation
