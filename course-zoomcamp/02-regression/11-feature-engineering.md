@@ -9,7 +9,10 @@ Feature engineering is the process of creating new features
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
+This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
 
 <table>
    <tr>

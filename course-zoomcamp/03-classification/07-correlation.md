@@ -8,8 +8,13 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+**Correlation coefficient** measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency between both variables could be low, moderate, or strong. It allows measuring the importance of numerical variables. 
 
+**Functions and methods:** 
+
+* `df[x].corrwith(y)` - returns the correlation between x and y series. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
 <table>
    <tr>

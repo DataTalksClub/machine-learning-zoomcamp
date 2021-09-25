@@ -8,7 +8,17 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+**Pandas attributes and methods:** 
+
+* pd.read.csv() - read csv files 
+* df.head() - take a look of the dataframe 
+* df.columns - retrieve colum names of a dataframe 
+* df.columns.str.lower() - lowercase all the letters 
+* df.columns.str.replace(' ', '_') - replace the space separator 
+* df.dtypes - retrieve data types of all features 
+* df.index - retrive indices of a dataframe
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
 <table>
    <tr>
