@@ -64,26 +64,19 @@
 - 3.15 [Homework](03-classification/homework.md)
 
 
-## 4. Evaluation Metrics for Classification
+## 4. [Evaluation Metrics for Classification](04-evaluation/)
 
-- Evaluation metrics
-- Accuracy
-- Baseline solution
-- Confusion table
-- Calculating the confusion table
-- Precision and recall
-- Receiver operating characteristic (ROC)
-- ROC: Random baseline
-- ROC: Ideal model
-- The ROC Curve
-- ROC curve with skilearn
-- Area under the ROC Curve (AUC)
-- intepretation of AUC
-- K-fold cross-validation
-- Selecting the best parameter C
-- summary
-- explore more
-- homework
+- 4.1 [Evaluation metrics: session overview](04-evaluation/01-overview.md)
+- 4.2 [Accuracy and dummy model](04-evaluation/02-accuracy.md)
+- 4.3 [Confusion table](04-evaluation/03-confusion-table.md)
+- 4.4 [Precision and Recall](04-evaluation/04-precision-recall.md)
+- 4.5 [ROC Curves](04-evaluation/05-roc.md)
+- 4.6 [ROC AUC](04-evaluation/06-auc.md)
+- 4.7 [Cross-Validation](04-evaluation/07-cross-validation.md)
+- 4.8 [Summary](04-evaluation/08-summary.md)
+- 4.9 [Explore more](04-evaluation/09-explore-more.md)
+- 4.10 [Homework](04-evaluation/homework.md)
+
 
 ## 5. Deploying Machine Learning Models
 
