@@ -8,7 +8,11 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The formula of LR can be synthesized with the dot product between features and weights. The feature vector includes the bias term with an x value of one. 
+When all the records are included, the LR can be calculated with the dot product between feature matrix and vector of weights, obtaining the y vector of 
+predictions. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
 
 <table>
    <tr>

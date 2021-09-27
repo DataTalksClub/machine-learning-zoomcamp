@@ -8,8 +8,16 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+Splitting the dataset with **Scikit-Learn**. 
 
+**Classes, functions, and methods:** 
+
+* `train_test_split` - Scikit-Learn class for splitting datasets. Linux shell command for downloading data. The `random_state` argument set a random seed for reproducibility purposes.  
+* `df.reset_index(drop=True)` - reset the indices of a dataframe and delete the previous ones. 
+* `df.x.values` - extract the values from x series
+* `del df['x']` - delete x series from a dataframe 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
 <table>
    <tr>

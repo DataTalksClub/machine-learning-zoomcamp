@@ -71,7 +71,7 @@ Example of a correlation matrix for the car price dataset:
 * Fit the model on the training dataset.
    * To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
    * `model = LogisticRegression(solver='lbfgs', C=1.0, random_state=42)`
-* Calculate the accuracy on the validation dataset and rount it to 2 decimal digits.
+* Calculate the accuracy on the validation dataset and round it to 2 decimal digits.
 
 
 ### Question 5
