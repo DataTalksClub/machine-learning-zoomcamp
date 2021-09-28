@@ -14,5 +14,5 @@
 ## Community notes
 
 Did you take notes? You can share them here (or in each unit separately)
-
+* [Some cross-validation methods](https://github.com/razekmaiden/ml_zoomcamp/blob/main/additional_topics/ML_ZOOMCAMP_CROSS_VALIDATION_METHODS.ipynb)
 * Add your notes here
