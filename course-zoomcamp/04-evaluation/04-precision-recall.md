@@ -1,8 +1,6 @@
-
 ## 4.4 Precision and Recall
 
 <a href="https://www.youtube.com/watch?v=gRLP_mlglMM"><img src="images/thumbnail-4-04.jpg"></a>
- 
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
 
