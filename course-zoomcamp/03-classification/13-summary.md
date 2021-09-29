@@ -8,8 +8,7 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
-
+In this session, we worked on a project to predict churning in customers from a company. We learned the feature importance of numerical and categorical variables, including risk ratio, mutual information, and correlation coefficient. Also, we understood one-hot encoding and implemented logistic regression with Scikit-Learn. 
 
 <table>
    <tr>

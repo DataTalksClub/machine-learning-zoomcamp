@@ -8,7 +8,9 @@
 
 ## Notes
 
-Add notes from the video (PRs are welcome)
+The RMSE is a measure of the error associated with a model for regression tasks. The video explained the RMSE formula in detail and implemented it in Python. 
+
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
 
 <table>
    <tr>
