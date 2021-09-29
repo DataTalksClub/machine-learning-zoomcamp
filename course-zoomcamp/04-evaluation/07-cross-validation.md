@@ -1,10 +1,16 @@
-
 ## 4.7 Cross-Validation
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=BIIZaVtUbf4"><img src="images/thumbnail-4-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
+
+
+### Extra resources
+
+In the lesson we talked about iterators and generators in Python. You can read more about them here:
+
+* https://anandology.com/python-practice-book/iterators.html
+* https://www.google.com/search?q=python+iterators+and+generators
 
 
 ## Notes
