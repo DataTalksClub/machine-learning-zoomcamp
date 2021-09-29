@@ -1,8 +1,10 @@
 
 ## 4.5 ROC Curves
 
+<a href="https://www.youtube.com/watch?v=dnBZLk53sQI"><img src="images/thumbnail-4-05.jpg"></a>
 
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=B5PATo1J6yw"><img src="images/thumbnail-4-05-cont.jpg"></a>
+
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
 
