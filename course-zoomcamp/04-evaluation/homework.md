@@ -32,7 +32,7 @@ If your AUC is < 0.5, invert this variable by putting "-" in front
 AUC can go below 0.5 if the variable is negatively correlated with the target varialble. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
 
 
-Which categorical variable (among the following 4) has the highest AUC?
+Which numerical variable (among the following 4) has the highest AUC?
 
 - seniority
 - time
@@ -82,7 +82,7 @@ At which threshold precision and recall curves intersect?
 * 0.8
 
 
-## Quesiton 4
+## Question 4
 
 Precision and recall are conflicting - when one grows, the other goes down. That's why they are often combined into the F1 score - a metrics that takes into account both
 
