@@ -129,8 +129,9 @@ How large is standard devidation of the AUC scores across different folds?
 Now let's use 5-Fold cross-validation to find the best parameter C
 
 * Iterate over the following C values: `[0.01, 0.1, 1, 10]`
+* Initialize `KFold` with the same parameters as previously
 * Use these parametes for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
-* Compute the mean score as well as the std
+* Compute the mean score as well as the std (round the mean and std to 3 decimal digits)
 
 
 Which C leads to the best mean score?
