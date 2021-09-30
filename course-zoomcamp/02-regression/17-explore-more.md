@@ -12,7 +12,7 @@
 
 Here are other datasets that you can play with to learn more about the topic:
 
-* [Boston dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) - predict the price of a house
+* [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
 * [Student Performance Data Set](https://archive.ics.uci.edu/ml/datasets/Student+Performance) - predict the performance of students
 * UCI ML Repository contains a lot of other datasets suitable for practicing regression - https://archive.ics.uci.edu/ml/datasets.php?task=reg
 
