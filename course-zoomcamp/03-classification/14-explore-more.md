@@ -1,25 +1,22 @@
 
 ## 3.14 Explore more
 
+More things
+
+* Try to exclude least useful features
+
+Use scikit-learn in project of last week
+
+* Re-implement train/val/test split using scikit-learn in the project from the last week
+* Also, instead of our own linear regression, use `LinearRegression` (not regularized) and `RidgeRegression` (regularized). Find the best regularization parameter for Ridge
+* There are other ways to implement one-hot encoding. E.g. using the `OneHotEncoding` class. Check how to use it [here](notebook-scaling-ohe.ipynb).
+* Sometimes numerical features requeire scaling, especially for iterative solves like "lbfgs". Check how to use `StandardScaler` for that [here](notebook-scaling-ohe.ipynb).
 
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+Other projects
 
-
-## Notes
-
-Add notes from the video (PRs are welcome)
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+* Lead scoring - https://www.kaggle.com/ashydv/leads-dataset
+* Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 
 
 ## Nagivation
