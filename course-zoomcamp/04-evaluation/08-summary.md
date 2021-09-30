@@ -1,8 +1,6 @@
-
 ## 4.8 Summary
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=-v8XEQ2AHvQ"><img src="images/thumbnail-4-08.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
 
