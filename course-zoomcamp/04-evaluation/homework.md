@@ -21,7 +21,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the default variable
+* For each numerical variable, use it as score and compute AUC with the "default" variable
 * Use the training dataset for that
 
 
@@ -116,7 +116,7 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 * Use AUC to evaluate the model on validation
 
 
-How large is standard devidation of the scores across different folds?
+How large is standard devidation of the AUC scores across different folds?
 
 - 0.001
 - 0.014
