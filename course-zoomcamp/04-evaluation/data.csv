@@ -5,7 +5,7 @@ lesson,name,page_name,video,slides,notebook
 4,Precision and Recall,04-precision-recall.md,https://www.youtube.com/watch?v=gRLP_mlglMM,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
 5,ROC Curves,05-roc.md,https://www.youtube.com/watch?v=dnBZLk53sQI,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
 6,ROC AUC,06-auc.md,https://www.youtube.com/watch?v=hvIQPAwkVZo,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
-7,Cross-Validation,07-cross-validation.md,NOT_READY,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
-8,Summary,08-summary.md,NOT_READY,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
+7,Cross-Validation,07-cross-validation.md,https://www.youtube.com/watch?v=BIIZaVtUbf4,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
+8,Summary,08-summary.md,https://www.youtube.com/watch?v=-v8XEQ2AHvQ,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification,notebook.ipynb
 9,Explore more,09-explore-more.md,,,notebook.ipynb
 10,Homework,homework.md,,,notebook.ipynb
