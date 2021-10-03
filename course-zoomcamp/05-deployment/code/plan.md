@@ -48,17 +48,18 @@ deploy it as a web service.
 * Running eb locally
 * Deploying the model
 
-## 5.8 Explore more
-
-* Flask is not the only framework for creating web services. Try others, e.g. FastAPI
-* Experiment with other ways of managing environment, e.g. virtual env, conda, poetry.
-* Explore other ways of deploying web services, e.g. GCP, Azure, Heroku, Python Anywhere, etc
-
-
-## 5.9 Summary
+## 5.8 Summary
 
 * Save models with picke
 * Use Flask to turn the model into a web service
 * Use a dependency & env manager
 * Package it in Docker
 * Deploy to the cloud
+
+
+## 5.9 Explore more
+
+* Flask is not the only framework for creating web services. Try others, e.g. FastAPI
+* Experiment with other ways of managing environment, e.g. virtual env, conda, poetry.
+* Explore other ways of deploying web services, e.g. GCP, Azure, Heroku, Python Anywhere, etc
+
