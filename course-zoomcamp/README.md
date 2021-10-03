@@ -78,20 +78,19 @@
 - 4.10 [Homework](04-evaluation/homework.md)
 
 
-## 5. Deploying Machine Learning Models
+## 5. [Deploying Machine Learning Models](05-deployment/)
 
-- Using the model
-- pickle
-- Deploying a model as a Web Service
-- Introduction to Flask
-- Model serving with flask
-- Managing dependencies with Pipenv
-- Introduction to Docker
-- Testing it locally
-- AWS beanstalk
-- summary
-- explore more
-- homework
+- 5.1 [Intro / Session overview](05-deployment/01-intro.md)
+- 5.2 [Saving and loading the model](05-deployment/02-pickle.md)
+- 5.3 [Web services: introduction to Flask](05-deployment/03-flask-intro.md)
+- 5.4 [Serving the churn model with Flask](05-deployment/04-flask-deployment.md)
+- 5.5 [Python virtual environment: Pipenv](05-deployment/05-pipenv.md)
+- 5.6 [Environment management: Docker](05-deployment/06-docker.md)
+- 5.7 [Deployment to the cloud: AWS Elastic Beanstalk (optional)](05-deployment/07-aws-eb.md)
+- 5.8 [Summary](05-deployment/08-summary.md)
+- 5.9 [Explore more](05-deployment/09-explore-more.md)
+- 5.10 [Homework](05-deployment/homework.md)
+
 
 ## 6. Decision Trees and Ensemble Learning
 
