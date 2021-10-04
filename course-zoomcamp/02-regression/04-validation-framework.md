@@ -12,16 +12,6 @@ In general, the dataset is split into three parts: training, validation, and tes
 
 **Pandas attributes and methods:** 
 
-<<<<<<< HEAD
-* df.iloc[] - returns subsets of records of a dataframe, being selected by numerical indices
-* df.rest_index() - restate the orginal indices 
-* del df[col] - eliminates target variable 
-
-**Numpy methods:**
-* np.arrange() - retruns an array of numbers 
-* np.random.shuffle() - retturns a suffled array
-* np.random.seed() - set a seed 
-=======
 * `df.iloc[]` - returns subsets of records of a dataframe, being selected by numerical indices
 * `df.rest_index()` - restate the orginal indices 
 * `del df[col]` - eliminates target variable 
@@ -31,7 +21,6 @@ In general, the dataset is split into three parts: training, validation, and tes
 * `np.arrange()` - retruns an array of numbers 
 * `np.random.shuffle()` - retturns a suffled array
 * `np.random.seed()` - set a seed 
->>>>>>> b78659326915609fa3b2a1ee4d7dd0b3f247e318
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
 
