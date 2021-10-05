@@ -96,7 +96,7 @@ FROM agrigorev/zoomcamp-model:3.8.12-slim
 
 Now complete it:
 
-* I nstall all the dependencies form the Pipenv file
+* Install all the dependencies form the Pipenv file
 * Copy your Flask script
 * Run it with gunicorn 
 
