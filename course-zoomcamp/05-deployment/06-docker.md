@@ -1,8 +1,6 @@
-
 ## 5.6 Environment management: Docker
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs"><img src="images/thumbnail-5-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
