@@ -1,7 +1,6 @@
 ## 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg"><img src="images/thumbnail-5-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
