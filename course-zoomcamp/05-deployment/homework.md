@@ -72,9 +72,10 @@ What's the probability that this customer is churning?
 ## Docker
 
 For this and the following quesition you'll need Docker. Install it.
+We will use it for the next two questions
 
-For these questions, I prepared a base image: `agrigorev/zoomcamp-model:3.8.12-slim`.
-You will need to use it for the next two questions.
+For these questions, I prepared a base image: `agrigorev/zoomcamp-model:3.8.12-slim`. 
+You'll need to use it (see Question 5 for an example).
 
 This is what it already has: 
 
