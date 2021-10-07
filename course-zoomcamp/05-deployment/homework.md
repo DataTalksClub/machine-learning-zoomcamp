@@ -73,7 +73,10 @@ What's the probability that this customer is churning?
 
 For this and the following quesition you'll need Docker. Install it.
 
-For these questions, I prepared a base image. It has these lines:
+For these questions, I prepared a base image: `agrigorev/zoomcamp-model:3.8.12-slim`.
+You will need to use it for the next two questions.
+
+This is what it already has: 
 
 ```docker 
 FROM python:3.8.12-slim
@@ -81,7 +84,7 @@ WORKDIR /app
 COPY ["model2.bin", "dv.bin", "./"]
 ```
 
-And then I pushed it to [`agrigorev/zoomcamp-model:3.8.12-slim`](https://hub.docker.com/r/agrigorev/zoomcamp-model)
+I already built it and then pushed it to [`agrigorev/zoomcamp-model:3.8.12-slim`](https://hub.docker.com/r/agrigorev/zoomcamp-model)
 
 ## Question 5
 
@@ -101,7 +104,7 @@ Now complete it:
 * Run it with gunicorn 
 
 
-When you build your image, what's the digest for `zoomcamp-model:3.8.12-slim`?
+When you build your image, what's the digest for `agrigorev/zoomcamp-model:3.8.12-slim`?
 
 Look at the first step of your build log. It should look something like that:
 

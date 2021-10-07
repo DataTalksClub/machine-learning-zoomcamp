@@ -1,8 +1,6 @@
-
 ## 5.8 Summary
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=sSAqYSk7Br4"><img src="images/thumbnail-5-08.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
