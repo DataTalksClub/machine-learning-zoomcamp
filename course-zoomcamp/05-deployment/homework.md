@@ -32,6 +32,8 @@ X = dv.fit_transform(dicts)
 model = LogisticRegression().fit(X, y)
 ```
 
+> **Note**: You don't need to train the model. This code is just for your reference.
+
 And then saved with Pickle. Download them:
 
 * [DictVectorizer](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/homework/dv.bin?raw=true)
@@ -44,9 +46,6 @@ PREFIX=https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/c
 wget $PREFIX/model1.bin
 wget $PREFIX/dv.bin
 ```
-
-> **Note**: You don't need to train the model. This code is just for your reference.
-
 
 ## Question 3
 
