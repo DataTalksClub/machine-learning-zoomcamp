@@ -10,7 +10,7 @@
 ## Notes
 **In this session we'll cover the idea "How to use the model in future without training and evaluating the code"**
 - To save the model we made before there is an option using the pickle library:
-  - First install the library with the command ```pip install pickle``` if you don't have it.
+  - First install the library with the command ```pip install pickle-mixin``` if you don't have it.
   - After training the model and being the model ready for prediction process use this code to save the model for later.
   - ```
     import pickle
