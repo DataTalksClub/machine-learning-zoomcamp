@@ -7,6 +7,10 @@
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
 
+## Links
+
+* [0.0.0.0 vs localhost](https://stackoverflow.com/a/20778887/861423)
+
 ## Notes
 
 Add notes from the video (PRs are welcome)
