@@ -48,8 +48,7 @@ To get started with Docker for the churn prediction project you can follow the i
 
 ### Windows
 
-The easiest way to install docker is to install WSL (windows subsystem for linux), And then following the Ubuntu Docker installation Process.
-To install WSL2 for windows folow the instruction in this link: https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
+To install the Docker you can just follow the instruction by Andrew Lock in this link: https://andrewlock.net/installing-docker-desktop-for-windows/
 
 ### MacOS
 
