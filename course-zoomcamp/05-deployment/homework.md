@@ -32,17 +32,26 @@ X = dv.fit_transform(dicts)
 model = LogisticRegression().fit(X, y)
 ```
 
-And then saved with Pickle. Load them:
+> **Note**: You don't need to train the model. This code is just for your reference.
 
-* [DictVectorizer](homework/dv.bin)
-* [LogisticRegression](homework/model1.bin)
+And then saved with Pickle. Download them:
 
+* [DictVectorizer](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/homework/dv.bin?raw=true)
+* [LogisticRegression](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/homework/model1.bin?raw=true)
+
+With wget:
+
+```bash
+PREFIX=https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/course-zoomcamp/05-deployment/homework
+wget $PREFIX/model1.bin
+wget $PREFIX/dv.bin
+```
 
 ## Question 3
 
 Let's use these models!
 
-* Write a script for loading these models
+* Write a script for loading these models with pickle
 * Score this customer:
 
 ```json
@@ -50,6 +59,14 @@ Let's use these models!
 ```
 
 What's the probability that this customer is churning? 
+
+If you're getting errors when unpickling the files, check their checksum:
+
+```bash
+$ md5sum model1.bin dv.bin
+5868e129bfbb309ba60bf750263afab1  model1.bin
+c49b69f8a5a3c560882ff5daa3c0ff4d  dv.bin
+```
 
 
 ## Question 4
@@ -71,9 +88,15 @@ What's the probability that this customer is churning?
 
 ## Docker
 
-For this and the following quesition you'll need Docker. Install it.
+Install [Docker](06-docker.md). We will use it for the next two questions.
 
-For these questions, I prepared a base image. It has these lines:
+For these questions, I prepared a base image: `agrigorev/zoomcamp-model:3.8.12-slim`. 
+You'll need to use it (see Question 5 for an example).
+
+This image is based on `python:3.8.12-slim` and has a logistic regression model 
+(a different one) as well a dictionary vectorizer inside. 
+
+This is how the Dockerfile for this image looks like:
 
 ```docker 
 FROM python:3.8.12-slim
@@ -81,11 +104,14 @@ WORKDIR /app
 COPY ["model2.bin", "dv.bin", "./"]
 ```
 
-And then I pushed it to [`agrigorev/zoomcamp-model:3.8.12-slim`](https://hub.docker.com/r/agrigorev/zoomcamp-model)
+I already built it and then pushed it to [`agrigorev/zoomcamp-model:3.8.12-slim`](https://hub.docker.com/r/agrigorev/zoomcamp-model).
+
+> **Note**: You don't need to build this docker image, it's just for your reference.
+
 
 ## Question 5
 
-Create your own Dockerfile based on this one
+Now create your own Dockerfile based on the image I prepared.
 
 It should start like that:
 
@@ -101,7 +127,7 @@ Now complete it:
 * Run it with gunicorn 
 
 
-When you build your image, what's the digest for `zoomcamp-model:3.8.12-slim`?
+When you build your image, what's the digest for `agrigorev/zoomcamp-model:3.8.12-slim`?
 
 Look at the first step of your build log. It should look something like that:
 
