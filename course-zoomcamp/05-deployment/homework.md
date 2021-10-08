@@ -94,7 +94,7 @@ For these questions, I prepared a base image: `agrigorev/zoomcamp-model:3.8.12-s
 You'll need to use it (see Question 5 for an example).
 
 This image is based on `python:3.8.12-slim` and has a logistic regression model 
-(a different one) as well a dictionary vectorizer backed in. 
+(a different one) as well a dictionary vectorizer inside. 
 
 This is how the Dockerfile for this image looks like:
 
@@ -106,7 +106,7 @@ COPY ["model2.bin", "dv.bin", "./"]
 
 I already built it and then pushed it to [`agrigorev/zoomcamp-model:3.8.12-slim`](https://hub.docker.com/r/agrigorev/zoomcamp-model).
 
-> **Note**: You don't need to build a docker image, it's just for your reference.
+> **Note**: You don't need to build this docker image, it's just for your reference.
 
 
 ## Question 5
