@@ -127,14 +127,23 @@ Now complete it:
 * Run it with gunicorn 
 
 
-When you build your image, what's the digest for `agrigorev/zoomcamp-model:3.8.12-slim`?
+When you build your image, what's the image id for `agrigorev/zoomcamp-model:3.8.12-slim`?
 
 Look at the first step of your build log. It should look something like that:
 
 ```
-Step 1/3 : FROM python:3.8.12-slim
- ---> 2e56f6b0af69
+$ docker some-command-for-building
+Sending build context to Docker daemon  2.048kB
+Step 1/N : FROM agrigorev/zoomcamp-model:3.8.12-slim
+ ---> XXXXXXXXXXXX
+Step 2/N : ....
 ```
+
+You need this `XXXXXXXXXXXX`.
+
+Alternatively, you can get this information when running `docker images` - it'll be in the "IMAGE ID" column.
+Submitting DIGEST (long string starting with "sha256") is also fine.
+
 
 ## Question 6
 
