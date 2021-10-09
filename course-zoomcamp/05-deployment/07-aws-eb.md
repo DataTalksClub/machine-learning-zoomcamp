@@ -22,7 +22,7 @@ Here we will learn how to deploy our apps in heroku instead of AWS.
  flask
  gunicorn
   ```
-- Create another file named _Procfile_ and add the app you want to be runned there. Example:
+- Create another file named _Procfile_ and add the app you want to be able to run there. Example:
  ```
 web: gunicorn churn_serving:app
   ```
