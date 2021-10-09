@@ -18,4 +18,5 @@
 Did you take notes? You can share them here (or in each unit separately)
 
 * [Notes by Ayoub Berdeddouch](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Intro/homework_intro_AyoubBerdeddouch.ipynb)
+* [Notes from Sebastián Ayala Ruano](https://github.com/sayalaruano/100DaysOfMLCode/blob/main/Intro_ML/Notes/NotesDay1.md)
 * Add your notes here

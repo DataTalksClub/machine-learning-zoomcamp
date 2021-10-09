@@ -1,26 +1,14 @@
-
 ## 4.9 Explore more
 
-
- 
-
-
-
-
-## Notes
-
-Add notes from the video (PRs are welcome)
+* Check the precision and recall of the dummy classifier that always predict "FALSE"
+* F1 score = 2 P R / (P + R)
+* Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
+* Area under the PR curve is also a useful metric
 
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+### Other projects
+
+* Calculate the metrics for the suggested datasets from the previous week
 
 
 ## Nagivation
