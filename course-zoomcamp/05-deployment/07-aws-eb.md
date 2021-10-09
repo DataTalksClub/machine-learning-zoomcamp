@@ -11,6 +11,29 @@
 
 
 ## Notes
+As we see how to deploy our apps in AWS Let's find it out how to deploy them in Heroku.
+#### Heroku
+Here we will learn how to deploy our apps in heroku instead of AWS.
+- First of all create your web service with flask. (example file: [churn_prediction.py](https://github.com/amindadgar/customer-churn-app/blob/main/churn_serving.py)
+- Then create a file nameed _requirements.txt_ and assing your dependencies there. Example:
+ ```
+ pickle
+ numpy
+ flask
+ gunicorn
+  ```
+- Create another file named _Procfile_ and add the app you want to be able to run there. Example:
+ ```
+web: gunicorn churn_serving:app
+  ```
+  Note that the churn_serving name in the box above is the name of the main python file we're going to be runned.
+ - Create your heroku profile, Go to dashboard and the Deploy tab.
+ - Follow the instruction for Deploy using Heroku Git.
+ - Great your app is now available from global universe.
+
+I've put my heroku app files in this repository:
+https://github.com/amindadgar/customer-churn-app 
+
 
 Add notes from the video (PRs are welcome)
 
