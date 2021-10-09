@@ -15,4 +15,6 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+[Using PythonAnywhere to host your Python Web App for free!!! (an an alternative to AWS/Azure/Google cloud)](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-pythonanywhere.md)
+
 * Add your notes here
