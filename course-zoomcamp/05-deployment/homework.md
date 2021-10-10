@@ -149,7 +149,7 @@ Submitting DIGEST (long string starting with "sha256") is also fine.
 
 Let's run your docker container!
 
-After running it, score the same customer:
+After running it, score this customer:
 
 ```python
 url = "YOUR_URL"
