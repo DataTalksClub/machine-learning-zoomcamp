@@ -16,7 +16,7 @@
 Did you take notes? You can share them here (or in each unit separately)
 
 * [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
-* Add your notes here
+* [Docker notes](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Deployment/README.md)
 
 ## Useful links
 
