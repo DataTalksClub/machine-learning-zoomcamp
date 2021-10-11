@@ -2,6 +2,7 @@
 
 In this homework, we'll use the churn prediction model trained on a smaller set of features.
 
+Solution: [homework/](homework/)
 
 ## Question 1
 
