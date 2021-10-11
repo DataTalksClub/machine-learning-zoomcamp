@@ -22,5 +22,6 @@ Did you take notes? You can share them here (or in each unit separately)
 
 * [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
 * [Using PythonAnywhere to host your Python Web App for free!!! (an an alternative to AWS/Azure/Google cloud)](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-pythonanywhere.md)
+* [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05_01_deployment.md)
 * Add your tutorials here
 
