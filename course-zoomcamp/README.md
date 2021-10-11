@@ -92,32 +92,21 @@
 - 5.10 [Homework](05-deployment/homework.md)
 
 
-## 6. Decision Trees and Ensemble Learning
+## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
-- Credit risk scoring project
-- Data cleaning
-- Data preparation
-- Decision trees
-- Decision tree learning algorithm
-- impurity
-- split
-- stopping criteria
-- Decision trees parameter tuning
-- Ensembles and random forest
-- Random forest in sklearn
-- Random forest parameter tuning
-- Gradient boosting
-- eXtreme Gradient Boosting - XGBoost
-- training
-- watchlist
-- XGBoost parameter tuning
-- learning rate
-- max_depth
-- min_child_weight
-- Testing the final model
-- summary
-- explore more
-- homework
+- 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
+- 6.2 [Data cleaning and preparation](06-trees/02-data-prep.md)
+- 6.3 [Decision trees](06-trees/03-decision-trees.md)
+- 6.4 [Decision tree learning algorithm](06-trees/04-decision-tree-learning.md)
+- 6.5 [Decision trees parameter tuning](06-trees/05-decision-tree-tuning.nd)
+- 6.6 [Ensemble learning and random forest](06-trees/06-random-forest.md)
+- 6.7 [Gradient boosting and XGBoost](06-trees/07-boosting.md)
+- 6.8 [XGBoost parameter tuning](06-trees/08-xgb-tuning.md)
+- 6.9 [Selecting the best model](06-trees/09-final-model.md)
+- 6.10 [Summary](06-trees/10-summary.md)
+- 6.11 [Explore more](06-trees/11-explore-more.md)
+- 6.12 [Homework](06-trees/homework.md)
+
 
 ## 7. Midterm Project
 
