@@ -1,0 +1,8 @@
+**LIBRARIES NEEDED**
+
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- scipy.stats
+- scikit-learn
