@@ -1,7 +1,7 @@
 
 ## 2.8 Baseline model for car price prediction project
 
-<a href="https://www.youtube.com/watch?v=SvPpMMYtYbU"><img src="images/thumbnail-2-08.jpg"></a>
+<a href="https://www.youtube.com/watch?v=SvPpMMYtYbU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=19"><img src="images/thumbnail-2-08.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
