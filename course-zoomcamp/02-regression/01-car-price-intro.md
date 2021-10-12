@@ -1,7 +1,7 @@
 
 ## 2.1 Car price prediction project
 
-<a href="https://www.youtube.com/watch?v=vM3SqPNlStE"><img src="images/thumbnail-2-01.jpg"></a>
+<a href="https://www.youtube.com/watch?v=vM3SqPNlStE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=12"><img src="images/thumbnail-2-01.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-21-car-price-prediction-project)
 

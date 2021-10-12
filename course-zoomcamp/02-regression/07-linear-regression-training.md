@@ -1,7 +1,7 @@
 
 ## 2.7 Training linear regression: Normal equation
 
-<a href="https://www.youtube.com/watch?v=hx6nak-Y11g"><img src="images/thumbnail-2-07.jpg"></a>
+<a href="https://www.youtube.com/watch?v=hx6nak-Y11g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=18"><img src="images/thumbnail-2-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 

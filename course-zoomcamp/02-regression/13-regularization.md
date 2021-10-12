@@ -1,6 +1,6 @@
 ## 2.13 Regularization
 
-<a href="https://www.youtube.com/watch?v=91ve3EJlHBc"><img src="images/thumbnail-2-13.jpg"></a>
+<a href="https://www.youtube.com/watch?v=91ve3EJlHBc&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=24"><img src="images/thumbnail-2-13.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 

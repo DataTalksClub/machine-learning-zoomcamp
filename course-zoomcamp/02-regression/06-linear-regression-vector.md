@@ -1,7 +1,7 @@
 
 ## 2.6 Linear regression: vector form
 
-<a href="https://www.youtube.com/watch?v=YkyevnYyAww"><img src="images/thumbnail-2-06.jpg"></a>
+<a href="https://www.youtube.com/watch?v=YkyevnYyAww&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=17"><img src="images/thumbnail-2-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
