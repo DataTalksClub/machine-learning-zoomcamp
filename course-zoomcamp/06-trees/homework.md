@@ -70,7 +70,7 @@ Now let's experiment with the `n_estimators` parameter
 
 * Try different values of this parameter from 10 to 200 with step 10
 * Set `random_state` to `1`
-
+* Evaluate the model on the validation dataset
 
 
 After which value of `n_estimators` does RMSE stop improving?
