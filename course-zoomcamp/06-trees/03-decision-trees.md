@@ -1,8 +1,6 @@
-
 ## 6.3 Decision trees
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=YGiQvFbSIg8"><img src="images/thumbnail-6-03.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 

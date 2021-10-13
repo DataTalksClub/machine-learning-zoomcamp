@@ -1,8 +1,6 @@
-
 ## 6.2 Data cleaning and preparation
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=tfuQdI3YO2c"><img src="images/thumbnail-6-02.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
