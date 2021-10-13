@@ -1,7 +1,7 @@
 
 ## 2.2 Data preparation
 
-<a href="https://www.youtube.com/watch?v=Kd74oR4QWGM"><img src="images/thumbnail-2-02.jpg"></a>
+<a href="https://www.youtube.com/watch?v=Kd74oR4QWGM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=13"><img src="images/thumbnail-2-02.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
