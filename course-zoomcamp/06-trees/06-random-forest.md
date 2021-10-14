@@ -27,5 +27,5 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Decision trees parameter tuning](05-decision-tree-tuning.nd)
+* Previous: [Decision trees parameter tuning](05-decision-tree-tuning.md)
 * Next: [Gradient boosting and XGBoost](07-boosting.md)
