@@ -1,8 +1,6 @@
-
 ## 6.7 Gradient boosting and XGBoost
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=xFarGClszEM"><img src="images/thumbnail-6-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 

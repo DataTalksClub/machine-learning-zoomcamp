@@ -1,8 +1,6 @@
-
 ## 6.6 Ensemble learning and random forest
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=FZhcmOfNNZE"><img src="images/thumbnail-6-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
