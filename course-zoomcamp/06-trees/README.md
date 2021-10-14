@@ -4,7 +4,7 @@
 - 6.2 [Data cleaning and preparation](02-data-prep.md)
 - 6.3 [Decision trees](03-decision-trees.md)
 - 6.4 [Decision tree learning algorithm](04-decision-tree-learning.md)
-- 6.5 [Decision trees parameter tuning](05-decision-tree-tuning.nd)
+- 6.5 [Decision trees parameter tuning](05-decision-tree-tuning.md)
 - 6.6 [Ensemble learning and random forest](06-random-forest.md)
 - 6.7 [Gradient boosting and XGBoost](07-boosting.md)
 - 6.8 [XGBoost parameter tuning](08-xgb-tuning.md)
