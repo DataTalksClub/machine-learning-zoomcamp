@@ -1,8 +1,6 @@
-
 ## 6.8 XGBoost parameter tuning
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=VX6ftRzYROM"><img src="images/thumbnail-6-08.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
