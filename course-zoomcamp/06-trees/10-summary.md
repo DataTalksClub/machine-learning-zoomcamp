@@ -1,8 +1,6 @@
-
 ## 6.10 Summary
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=JZ6sRZ_5j_c"><img src="images/thumbnail-6-10.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
