@@ -1,0 +1,13 @@
+lesson,name,page_name,video,slides
+1,Credit risk scoring project,01-credit-risk.md,https://www.youtube.com/watch?v=GJGmlfZoCoU,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+2,Data cleaning and preparation,02-data-prep.md,https://www.youtube.com/watch?v=tfuQdI3YO2c,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+3,Decision trees,03-decision-trees.md,https://www.youtube.com/watch?v=YGiQvFbSIg8,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+4,Decision tree learning algorithm,04-decision-tree-learning.md,https://www.youtube.com/watch?v=XODz6LwKY7g,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+5,Decision trees parameter tuning,05-decision-tree-tuning.md,https://www.youtube.com/watch?v=XJaxwH50Qok,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+6,Ensemble learning and random forest,06-random-forest.md,https://www.youtube.com/watch?v=FZhcmOfNNZE,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+7,Gradient boosting and XGBoost,07-boosting.md,https://www.youtube.com/watch?v=xFarGClszEM,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+8,XGBoost parameter tuning,08-xgb-tuning.md,https://www.youtube.com/watch?v=VX6ftRzYROM,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+9,Selecting the best model,09-final-model.md,https://www.youtube.com/watch?v=lqdnyIVQq-M,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+10,Summary,10-summary.md,https://www.youtube.com/watch?v=JZ6sRZ_5j_c,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning
+11,Explore more,11-explore-more.md,,
+12,Homework,homework.md,,

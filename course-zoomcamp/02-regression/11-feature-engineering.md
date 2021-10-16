@@ -2,7 +2,7 @@
 
 Feature engineering is the process of creating new features
 
-<a href="https://www.youtube.com/watch?v=-aEShw4ftB0"><img src="images/thumbnail-2-11.jpg"></a>
+<a href="https://www.youtube.com/watch?v=-aEShw4ftB0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=22"><img src="images/thumbnail-2-11.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 

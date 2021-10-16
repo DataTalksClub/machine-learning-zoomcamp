@@ -1,7 +1,7 @@
 
 ## 2.9 Root mean squared error
 
-<a href="https://www.youtube.com/watch?v=0LWoFtbzNUM"><img src="images/thumbnail-2-09.jpg"></a>
+<a href="https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20"><img src="images/thumbnail-2-09.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
