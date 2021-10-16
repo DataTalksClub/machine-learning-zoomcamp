@@ -160,7 +160,7 @@ xgb_params = {
 
 Now change `eta` first to `0.1` and then to `0.01`
 
-What's the best eta?
+Which eta leads to the best RMSE score on the validation dataset?
 
 * 0.3
 * 0.1
