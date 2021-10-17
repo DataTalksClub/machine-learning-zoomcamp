@@ -18,4 +18,5 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [Kwang Yang's Notes] (https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
 * Add your notes here
