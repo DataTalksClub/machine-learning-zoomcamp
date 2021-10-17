@@ -18,4 +18,5 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [Kwang Yang's notes](https://www.kaggle.com/kwangyangchia/notebook9756b5e721) 
 * Add your notes here
