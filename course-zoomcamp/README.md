@@ -108,7 +108,10 @@
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. Midterm Project
+## 7. [Midterm Project](07-midterm-project/)
+
+Putting everything we've learned so far in practice!
+
 
 ## 8. Neural Networks and Deep Learning
 

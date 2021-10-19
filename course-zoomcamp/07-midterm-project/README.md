@@ -28,9 +28,9 @@ For this project, you repository/folder should contain the following:
 * `README.md` with
   * Description of the problem
   * Instructions on how to run the project
-* Notebook with
+* Notebook (suggested name - `notebook.ipynb`) with
   * Data preparation and data clearning
-  * EDA with feature importance analysis
+  * EDA, feature importance analysis
   * Model selection process and parameter tuning
 * Script `train.py` (suggested name)
   * Training the final model
@@ -43,21 +43,23 @@ For this project, you repository/folder should contain the following:
 * `Dockerfile` for running the service
 
 
+## Submit the results
+
+Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
+
+
+## Deadline
+
+The deadline for submitting is 1 November 2021, 17:00 CET (Monday). After that, the form will be closed.
+
 ## FAQ
 
 **Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
 
-> Yes, you can do this. But please make sure to document everything and clearly explain what you use.
+> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
 > Think of your peers who will review it - they don't necessarily know what these libraries are. 
 > Please give them enough context to understand your project.
 
 **Q**: Can multiple people use the same dataset?
 
 > Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
-
-
-
-
-## Submitting
-
-Submit your project here 
