@@ -11,6 +11,12 @@ if you don't want to sign up to Kaggle.
 
 For this homework, we prepared a [starter notebook](homework-6-starter.ipynb). 
 
+## Solution
+
+<a href="https://www.youtube.com/watch?v=WoXSOyzcIbU"><img src="images/thumbnail-6-12.jpg"></a>
+
+[Notebook with solution](homework-6-solution.ipynb)
+
 
 ## Loading the data
 
