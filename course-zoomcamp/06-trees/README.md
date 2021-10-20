@@ -18,5 +18,6 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
-* [Kwang Yang's Notes] (https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
+* [Kwang Yang's Notes](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
+* [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/06_01_trees.md)
 * Add your notes here
