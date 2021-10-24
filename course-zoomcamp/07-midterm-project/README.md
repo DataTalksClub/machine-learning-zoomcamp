@@ -43,10 +43,27 @@ For this project, you repository/folder should contain the following:
 * `Dockerfile` for running the service
 
 
+## Evaluation Criteria
+
+The project will be evaluated using these criteria:
+
+* Problem description
+* EDA
+* Model training
+* Exporting notebook to script
+* Model deployment
+* Dependency and enviroment management
+* Containerization
+* Cloud deployment
+
+[Detailed criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQo-cOOGMA-ddbp6FgxusNBjS_HOmWaOYtvO7z-wk_TcCnPOBAza9s8Uj_eqfKGadoU0741cCGd95qI/pubhtml)
+
+
 ## Submit the results
 
 Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
 
+The project will be evaluated using these evaluation criteria: (criteria.md)[criteria.md]
 
 ## Deadline
 
