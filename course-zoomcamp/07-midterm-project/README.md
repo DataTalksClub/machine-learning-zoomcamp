@@ -63,7 +63,6 @@ The project will be evaluated using these criteria:
 
 Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
 
-The project will be evaluated using these evaluation criteria: (criteria.md)[criteria.md]
 
 ## Deadline
 
