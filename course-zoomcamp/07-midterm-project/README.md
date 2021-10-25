@@ -52,7 +52,7 @@ The project will be evaluated using these criteria:
 * Model training
 * Exporting notebook to script
 * Model deployment
-* Dependency and enviroment management
+* Dependency and environment management
 * Containerization
 * Cloud deployment
 
@@ -79,3 +79,18 @@ The deadline for submitting is 1 November 2021, 17:00 CET (Monday). After that, 
 **Q**: Can multiple people use the same dataset?
 
 > Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
+
+
+## Office Hours 
+
+We discussed the project in detail in two office hours sessions
+
+### Office Hours Week #7 
+
+[Video](https://www.youtube.com/watch?v=wWBm6MHu5u8)
+
+### Office Hours Week #8
+
+[Video](https://www.youtube.com/watch?v=3bo7I9LaN7o)
+
+[Notebook](week8-office-hours.ipynb)
