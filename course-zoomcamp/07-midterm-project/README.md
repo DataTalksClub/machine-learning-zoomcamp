@@ -66,7 +66,7 @@ Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
 
 ## Deadline
 
-The deadline for submitting is 1 November 2021, 17:00 CET (Monday). After that, the form will be closed.
+The deadline for submitting is 2 November 2021 (Tuesday), 12:00 (noon) CET. After that, the form will be closed.
 
 ## FAQ
 
