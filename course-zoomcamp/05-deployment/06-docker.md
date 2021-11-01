@@ -33,12 +33,12 @@ To get started with Docker for the churn prediction project you can follow the i
      If we don't put the last line ENTRYPOINT, we will be in a python shell. Note that in Docker we made put in double quotes, This is because of the spaces. We have to ignore   spaces in a command and put the characters in double quotes.(See ENTRYPOINT for example)
    - After creating the Dockerfile and writing the settings we want in it, We need to build it with the command below.
    - ```
-      Docker built -t churn-prediction .
+      docker build -t churn-prediction .
      ```
       With _-t_ command We're specifying the name churn-prediction for this Dockerfile.
    - To run it, Simply execute the command below:
    - ```
-      Docker run -it -p 9696:9696 churn-prediction:latest
+      docker run -it -p 9696:9696 churn-prediction:latest
      ```
      Here we use the option _-it_ in order to the Docker run from terminal and shows the result. 
      The _-p_ parameter is used to map the 9696 port of the Docker to 9696 port of our machine.(first 9696 is the Docker container port and the last is port number of our  machine)
