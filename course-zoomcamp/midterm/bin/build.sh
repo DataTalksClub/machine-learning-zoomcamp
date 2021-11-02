@@ -1,0 +1,1 @@
+docker build -t midterm_app .
