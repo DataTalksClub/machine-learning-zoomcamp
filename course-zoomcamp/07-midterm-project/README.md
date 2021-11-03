@@ -43,7 +43,26 @@ For this project, you repository/folder should contain the following:
 * `Dockerfile` for running the service
 
 
-## Evaluation Criteria
+### Submit the results
+
+Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
+
+### Deadline
+
+The deadline for submitting is 3 November 2021 (Wednesday), 12:00 (noon) CET. After that, the form will be closed.
+
+
+## Peer reviewing
+
+The project will be evaluated by your fellow students. This is a great opportunity for your to learn from each other. 
+
+* To get points for your projects, your need to evaluate 3 projects of your peers
+* You get 3 extra point for each evaluation
+
+TODO: table with evaluations
+
+
+### Evaluation Criteria
 
 The project will be evaluated using these criteria:
 
@@ -59,14 +78,12 @@ The project will be evaluated using these criteria:
 [Detailed criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQo-cOOGMA-ddbp6FgxusNBjS_HOmWaOYtvO7z-wk_TcCnPOBAza9s8Uj_eqfKGadoU0741cCGd95qI/pubhtml)
 
 
-## Submit the results
+### Submitting evaluations
 
-Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
+* To submit the evaluations, use this form: https://forms.gle/AMFvMNnfwEeTQxaj8
+* You will need to submit this form three times - one for each evaluated project
+* Deadline: 10 November (Wednesday), 12:00 (noon) CET.  After that, the form will be closed.
 
-
-## Deadline
-
-The deadline for submitting is 2 November 2021 (Tuesday), 12:00 (noon) CET. After that, the form will be closed.
 
 ## FAQ
 
@@ -83,7 +100,7 @@ The deadline for submitting is 2 November 2021 (Tuesday), 12:00 (noon) CET. Afte
 
 ## Office Hours 
 
-We discussed the project in detail in two office hours sessions
+We discussed the project in detail in three office hours sessions
 
 ### Office Hours Week #7 
 
@@ -94,3 +111,10 @@ We discussed the project in detail in two office hours sessions
 [Video](https://www.youtube.com/watch?v=3bo7I9LaN7o)
 
 [Notebook](week8-office-hours.ipynb)
+
+### Office Hours Week #9
+
+[Video](https://www.youtube.com/watch?v=yZ15WyKb5o4)
+
+[Notebook](week9-office-hours.ipynb)
+
