@@ -54,13 +54,28 @@ The deadline for submitting is 3 November 2021 (Wednesday), 12:00 (noon) CET. Af
 
 ## Peer reviewing
 
-The project will be evaluated by your fellow students. This is a great opportunity for your to learn from each other. 
+To evaluate the projects, we'll use peer reviewing. This is a great opportunity for your to learn from each other. 
 
-* To get points for your projects, your need to evaluate 3 projects of your peers
+* To get points for your project, your need to evaluate 3 projects of your peers
 * You get 3 extra point for each evaluation
 
-TODO: table with evaluations
+To find the projects you need to review, use [this table](https://docs.google.com/spreadsheets/d/e/2PACX-1vRo05lqGFkl7Jtt4o9Dqqk8JEA-U956-sxJVT-klWrKp8nTvboOkyyYVH-Z4sccFdpvfZhd40eGhU2J/pubhtml)
 
+* Hash your email
+* Find your email in the `reviewer_hash` column
+* You'll have three other projects there - that's what you'll need to evaluate
+
+Function for computing the hash of your email:
+
+```python
+from hashlib import sha1
+
+def compute_hash(email):
+    return sha1(email.lower().encode('utf-8')).hexdigest()
+```
+
+
+Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
 
 ### Evaluation Criteria
 
@@ -85,19 +100,6 @@ The project will be evaluated using these criteria:
 * Deadline: 10 November (Wednesday), 12:00 (noon) CET.  After that, the form will be closed.
 
 
-## FAQ
-
-**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
-
-> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
-> Think of your peers who will review it - they don't necessarily know what these libraries are. 
-> Please give them enough context to understand your project.
-
-**Q**: Can multiple people use the same dataset?
-
-> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
-
-
 ## Office Hours 
 
 We discussed the project in detail in three office hours sessions
@@ -117,4 +119,17 @@ We discussed the project in detail in three office hours sessions
 [Video](https://www.youtube.com/watch?v=yZ15WyKb5o4)
 
 [Notebook](week9-office-hours.ipynb)
+
+
+## FAQ
+
+**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
+
+> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
+> Think of your peers who will review it - they don't necessarily know what these libraries are. 
+> Please give them enough context to understand your project.
+
+**Q**: Can multiple people use the same dataset?
+
+> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
 
