@@ -52,6 +52,21 @@ Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
 The deadline for submitting is 3 November 2021 (Wednesday), 12:00 (noon) CET. After that, the form will be closed.
 
 
+### FAQ
+
+**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
+
+> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
+> Think of your peers who will review it - they don't necessarily know what these libraries are. 
+> Please give them enough context to understand your project.
+
+**Q**: Can multiple people use the same dataset?
+
+> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
+
+
+
+
 ## Peer reviewing
 
 To evaluate the projects, we'll use peer reviewing. This is a great opportunity for your to learn from each other. 
@@ -100,6 +115,33 @@ The project will be evaluated using these criteria:
 * Deadline: 10 November (Wednesday), 12:00 (noon) CET.  After that, the form will be closed.
 
 
+### FAQ 
+
+**Q**: Do I have to run the code and make sure it works?
+
+> It's recommended that you do that, but you don't _have_ to do it. 
+
+**Q**: What if I see an error? What if I run something and it doesn't work?
+
+> But if you spot an error somewhere and you see that the code clearly doesn't work, then you 
+> give 0 points to the respective criterium. E.g. if you see an error in Dockerfile, 
+> then you give 0 points to the "containerization" dimension. 
+
+**Q**: Somebody submitted a project they did as a part of some other course. What to do?
+
+> That's not good, but we didn't explicitly say it's not allowed. We'll change that for the next project,
+> but for the midterm project, you can evaluate it as if it was specifically made for this course.
+
+
+**Q**: Somebody just copied a Kaggle Kernel (or some other publicly available project) and 
+submitted this as their project.
+
+> That's definitely not good. For the next project, we'll have an explicit policy that forbids
+> doing it. For this project, you should evaluate the copied parts as 0. For example,
+> if the model trianing part was copied, but the deployment wasn't, the model training part gets 0 
+> points, but the model deployment part gets the points.
+
+
 ## Office Hours 
 
 We discussed the project in detail in three office hours sessions
@@ -119,17 +161,4 @@ We discussed the project in detail in three office hours sessions
 [Video](https://www.youtube.com/watch?v=yZ15WyKb5o4)
 
 [Notebook](week9-office-hours.ipynb)
-
-
-## FAQ
-
-**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
-
-> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
-> Think of your peers who will review it - they don't necessarily know what these libraries are. 
-> Please give them enough context to understand your project.
-
-**Q**: Can multiple people use the same dataset?
-
-> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
 
