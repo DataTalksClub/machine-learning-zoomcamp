@@ -113,30 +113,24 @@
 Putting everything we've learned so far in practice!
 
 
-## 8. Neural Networks and Deep Learning
+## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
-- Clothes classification project
-- TensorFlow and Keras
-- loading the images
-- etc
-- Using a pre-trained model
-- CNNs: convolutional layers
-- CNNs: dense layers
-- Transfer learning
-- Creating the clothes classification model
-- Keras functional components
-- optimizer
-- training the model
-- Learning Rate
-- Model checkpointing
-- Adding more layers
-- Dropout
-- Data augmentation
-- Training a larger clothes classification model
-- Using the model with Keras
-- summary
-- explore more
-- homework
+- 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
+- 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
+- 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
+- 8.5 [Tranfser learning](08-deep-learning/05-transer-learning.md)
+- 8.6 [Adjusting the learning rate](08-deep-learning/06-learning-rate.md)
+- 8.7 [Checkpointing](08-deep-learning/07-checkpointing.md)
+- 8.8 [Adding more layers](08-deep-learning/08-more-layers.md)
+- 8.9 [Regularization and dropout](08-deep-learning/09-dropout.md)
+- 8.10 [Data augmentation](08-deep-learning/10-augmentation.md)
+- 8.11 [Training a larger model](08-deep-learning/11-large-model.md)
+- 8.12 [Using the model](08-deep-learning/12-using-model.md)
+- 8.13 [Summary](08-deep-learning/13-summary.md)
+- 8.14 [Explore more](08-deep-learning/14-explore-more.md)
+- 8.15 [Homework](08-deep-learning/homework.md)
+
 
 ## 9. Serverless Deep Learning
 
