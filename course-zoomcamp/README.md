@@ -119,7 +119,7 @@ Putting everything we've learned so far in practice!
 - 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
-- 8.5 [Tranfser learning](08-deep-learning/05-transer-learning.md)
+- 8.5 [Transfer learning](08-deep-learning/05-transfer-learning.md)
 - 8.6 [Adjusting the learning rate](08-deep-learning/06-learning-rate.md)
 - 8.7 [Checkpointing](08-deep-learning/07-checkpointing.md)
 - 8.8 [Adding more layers](08-deep-learning/08-more-layers.md)

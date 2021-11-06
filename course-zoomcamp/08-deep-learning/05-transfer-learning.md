@@ -1,5 +1,5 @@
 
-## 8.5 Tranfser learning
+## 8.5 Transfer learning
 
 <a href="https://www.youtube.com/watch?v=BHdc6rtay28"><img src="images/thumbnail-8-05.jpg"></a>
  

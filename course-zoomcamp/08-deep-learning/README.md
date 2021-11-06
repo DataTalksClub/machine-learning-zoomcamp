@@ -4,7 +4,7 @@
 - 8.2 [TensorFlow and Keras](02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](04-conv-neural-nets.md)
-- 8.5 [Tranfser learning](05-transer-learning.md)
+- 8.5 [Transfer learning](05-transfer-learning.md)
 - 8.6 [Adjusting the learning rate](06-learning-rate.md)
 - 8.7 [Checkpointing](07-checkpointing.md)
 - 8.8 [Adding more layers](08-more-layers.md)
