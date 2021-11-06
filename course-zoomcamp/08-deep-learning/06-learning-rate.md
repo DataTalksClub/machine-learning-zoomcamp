@@ -25,5 +25,5 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Tranfser learning](05-tranfser-learning.md)
+* Previous: [Tranfser learning](05-transfer-learning.md)
 * Next: [Checkpointing](07-checkpointing.md)
