@@ -1,11 +1,15 @@
-
 ## 8.1 Fashion classification
 
 <a href="https://www.youtube.com/watch?v=it1Lu7NmMpw"><img src="images/thumbnail-8-01.jpg"></a>
  
-
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
+
+If you have problems cloning the repository with the data, use a different command for cloning:
+
+```bash
+git clone https://github.com/alexeygrigorev/clothing-dataset-small.git
+```
 
 ## Notes
 
