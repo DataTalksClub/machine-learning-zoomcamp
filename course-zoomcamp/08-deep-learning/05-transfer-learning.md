@@ -1,9 +1,7 @@
-
 ## 8.5 Transfer learning
 
-<a href="https://www.youtube.com/watch?v=BHdc6rtay28"><img src="images/thumbnail-8-05.jpg"></a>
+<a href="https://www.youtube.com/watch?v=WKHylqfNmq4"><img src="images/thumbnail-8-05.jpg"></a>
  
-
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592320)
 
 
