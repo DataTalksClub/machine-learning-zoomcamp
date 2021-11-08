@@ -34,16 +34,16 @@ You need to develop the model with following structure:
 
 * The shape for input should be `(150, 150, 3)`
 * Next, create a covolutional layer ([`Conv2D`](https://keras.io/api/layers/convolution_layers/convolution2d/)):
-    * Use 32 filers
+    * Use 32 filters
     * The stride should be `(3, 3)`
     * Use `'relu'` as activation 
 * Reduce the size of the feature map with max pooling ([`MaxPooling2D`](https://keras.io/api/layers/pooling_layers/max_pooling2d/))
     * Set the pooling size to `(2, 2)`
-* Turn the multi-dimensional results into vectors using a [`Flatten`](https://keras.io/api/layers/reshaping_layers/flatten/) layer
+* Turn the multi-dimensional result into vectors using a [`Flatten`](https://keras.io/api/layers/reshaping_layers/flatten/) layer
 * Next, add a `Dense` layer with 64 neurons
-* Finally, create the `Dense` layer with 1 neuron
+* Finally, create the `Dense` layer with 1 neuron - this will be the output
 
-As optimizer please use [`SGD`](https://keras.io/api/optimizers/sgd/) with the following parameters:
+As optimizer use [`SGD`](https://keras.io/api/optimizers/sgd/) with the following parameters:
 
 * `SGD(lr=0.002, momentum=0.8)`
 
@@ -61,7 +61,7 @@ What's the total number of parameters of the model? You can use the `summary` me
 
 ### Generators and Training
 
-For next two questions, create a data generator:
+For the next two questions, create a data generator:
 
 ```python
 ImageDataGenerator(rescale=1./255)
@@ -123,6 +123,7 @@ If your answer doesn't match options exactly, select the closest one.
 ## Deadline
 
 The deadline for submitting is 22 November, 17:00 CET. After that, the form will be closed.
+
 
 ## Nagivation
 
