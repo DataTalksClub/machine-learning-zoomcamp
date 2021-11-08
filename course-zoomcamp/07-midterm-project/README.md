@@ -162,6 +162,13 @@ We discussed the project in detail in three office hours sessions
 
 [Notebook](week9-office-hours.ipynb)
 
+### Office Hours Week #10
+
+[Video](https://www.youtube.com/watch?v=jT0JTlPsAQ0)
+
+[Notebook](week10-office-hours.ipynb)
+
+
 ## Community notes
 
 Did you take notes? You can share them here (or in each unit separately)
