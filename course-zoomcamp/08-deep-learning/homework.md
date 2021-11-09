@@ -6,11 +6,17 @@ For this homework, we will use the "Dogs & Cats" dataset that can be downloaded 
 [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data). 
 You need to download the `train.zip` file.
 
+If you have troubles downloading from Kaggle, use [this link](https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip) instead.
+
+```bash
+wget https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip
+```
+
 In this homework, we'll build a model for predicting
 if we have an image of a dog or a cat. 
 
 In the lectures we saw how to use a pre-trained neural network.
-In the homework, we'll train a much smaller model from sctract. 
+In the homework, we'll train a much smaller model from scratch. 
 
 
 ### Data Preparation
