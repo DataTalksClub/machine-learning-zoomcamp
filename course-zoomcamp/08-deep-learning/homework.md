@@ -41,7 +41,7 @@ You need to develop the model with following structure:
 * The shape for input should be `(150, 150, 3)`
 * Next, create a covolutional layer ([`Conv2D`](https://keras.io/api/layers/convolution_layers/convolution2d/)):
     * Use 32 filters
-    * The stride should be `(3, 3)`
+    * Kernel size should be `(3, 3)` (that's the size of the filter)
     * Use `'relu'` as activation 
 * Reduce the size of the feature map with max pooling ([`MaxPooling2D`](https://keras.io/api/layers/pooling_layers/max_pooling2d/))
     * Set the pooling size to `(2, 2)`
@@ -53,7 +53,7 @@ As optimizer use [`SGD`](https://keras.io/api/optimizers/sgd/) with the followin
 
 * `SGD(lr=0.002, momentum=0.8)`
 
-TODO: add clarification for stride and max pooling
+TODO: add clarification for kernel size and max pooling
 
 
 ### Question 1
