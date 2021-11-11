@@ -1,10 +1,8 @@
-
 ## 8.7 Checkpointing
 
+<a href="https://www.youtube.com/watch?v=NRpGUx0o3Ps"><img src="images/thumbnail-8-07.jpg"></a>
 
-COMING SOON 
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592322)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
 ## Notes

@@ -1,10 +1,8 @@
-
 ## 8.8 Adding more layers
 
+<a href="https://www.youtube.com/watch?v=bSRRrorvAZs"><img src="images/thumbnail-8-08.jpg"></a>
 
-COMING SOON 
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592323)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
 ## Notes

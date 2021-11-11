@@ -1,9 +1,7 @@
-
 ## 8.2 TensorFlow and Keras
 
 <a href="https://www.youtube.com/watch?v=R6o_CUmoN9Q"><img src="images/thumbnail-8-02.jpg"></a>
  
-
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
