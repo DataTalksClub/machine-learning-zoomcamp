@@ -46,7 +46,7 @@ You need to develop the model with following structure:
 * Reduce the size of the feature map with max pooling ([`MaxPooling2D`](https://keras.io/api/layers/pooling_layers/max_pooling2d/))
     * Set the pooling size to `(2, 2)`
 * Turn the multi-dimensional result into vectors using a [`Flatten`](https://keras.io/api/layers/reshaping_layers/flatten/) layer
-* Next, add a `Dense` layer with 64 neurons
+* Next, add a `Dense` layer with 64 neurons and `'relu'` activation
 * Finally, create the `Dense` layer with 1 neuron - this will be the output
 
 As optimizer use [`SGD`](https://keras.io/api/optimizers/sgd/) with the following parameters:
@@ -59,6 +59,7 @@ TODO: add clarification for kernel size and max pooling
 ### Question 1
 
 Since we have a binary classification problem, what is the best loss function for us?
+
 
 ### Question 2
 
