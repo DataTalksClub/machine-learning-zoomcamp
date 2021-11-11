@@ -2,21 +2,20 @@
 
 ### Dataset
 
-For this homework, we will use the "Dogs & Cats" dataset that can be downloaded from 
-[Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data). 
+In this homework, we'll build a model for predicting if we have an image of a dog or a cat. For this,
+we will use the "Dogs & Cats" dataset that can be downloaded from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data). 
+
 You need to download the `train.zip` file.
 
-If you have troubles downloading from Kaggle, use [this link](https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip) instead.
+If you have troubles downloading from Kaggle, use [this link](https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip) instead:
 
 ```bash
 wget https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip
 ```
 
-In this homework, we'll build a model for predicting
-if we have an image of a dog or a cat. 
+In the lectures we saw how to use a pre-trained neural network. In the homework, we'll train a much smaller model from scratch. 
 
-In the lectures we saw how to use a pre-trained neural network.
-In the homework, we'll train a much smaller model from scratch. 
+**Note:** You don't need a computer with a GPU for this homework. A laptop or any personal computer should be sufficient. 
 
 
 ### Data Preparation
@@ -31,6 +30,7 @@ Now we need to split this data into train and validation
 * Move the remaining 2,500 images to the validation folder (from 10000 to 12499)
 
 You can do this manually or with Python (check `os` and `shutil` packages).
+
 
 ### Model
 
