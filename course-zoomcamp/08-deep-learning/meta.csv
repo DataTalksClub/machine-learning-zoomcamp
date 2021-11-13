@@ -11,6 +11,6 @@ lesson,name,page_name,video,slides,notebook
 10,Data augmentation,10-augmentation.md,https://www.youtube.com/watch?v=aoPfVsS3BDE,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316,https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/notebook.ipynb
 11,Training a larger model,11-large-model.md,https://www.youtube.com/watch?v=_QpDGJwFjYA,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316,https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/notebook.ipynb
 12,Using the model,12-using-model.md,https://www.youtube.com/watch?v=cM1WHKae1wo,https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316,https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/notebook.ipynb
-13,Summary,13-summary.md,,,https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/notebook.ipynb
+13,Summary,13-summary.md,https://www.youtube.com/watch?v=mn0BcXJlRFM,,https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/notebook.ipynb
 14,Explore more,14-explore-more.md,,,
 15,Homework,homework.md,,,

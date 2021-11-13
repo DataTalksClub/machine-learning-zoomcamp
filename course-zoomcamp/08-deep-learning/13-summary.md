@@ -1,9 +1,7 @@
-
 ## 8.13 Summary
 
-
+<a href="https://www.youtube.com/watch?v=mn0BcXJlRFM"><img src="images/thumbnail-8-13.jpg"></a>
  
-
 
 
 
