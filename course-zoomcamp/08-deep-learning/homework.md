@@ -68,7 +68,7 @@ What's the total number of parameters of the model? You can use the `summary` me
 
 ### Generators and Training
 
-For the next two questions, create a data generator:
+For the next two questions, use the following data generator for both train and validation:
 
 ```python
 ImageDataGenerator(rescale=1./255)
@@ -90,17 +90,17 @@ model.fit(
 
 ### Question 3
 
-What is the median of training accuracy for non-augmented model?
+What is the median of training accuracy for this model?
 
 ### Question 4
 
-What is the standard deviation of training loss for non-augmented model?
+What is the standard deviation of training loss for this model?
 
 ### Data Augmentation
 
 For the next two questions, we'll generate more data using data augmentations. 
 
-Add the following augmentations to your data generator:
+Add the following augmentations to your training data generator:
 
 * `rotation_range=40,`
 * `width_shift_range=0.2,`
@@ -113,16 +113,16 @@ Add the following augmentations to your data generator:
 
 ### Question 5 
 
-What is the mean of validation loss for augmented model?
+What is the mean of validation loss for the model trained with augmentations?
 
 ### Question 6
 
-What is the standard deviation of validation accuracy for augmented model?
+What is the standard deviation of validation accuracy for the model trained with augmentations?
 
 
 ## Submit the results
 
-Submit your results here: **TODO**
+Submit your results here: https://forms.gle/AE9v22MFnXxB9gyZ8
 
 If your answer doesn't match options exactly, select the closest one.
 
