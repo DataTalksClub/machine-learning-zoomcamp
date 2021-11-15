@@ -53,7 +53,8 @@ As optimizer use [`SGD`](https://keras.io/api/optimizers/sgd/) with the followin
 
 * `SGD(lr=0.002, momentum=0.8)`
 
-TODO: add clarification for kernel size and max pooling
+
+For clarification about kernel size and max pooling, check [Week #11 Office Hours](https://www.youtube.com/watch?v=1WRgdBTUaAc).
 
 
 ### Question 1
@@ -75,6 +76,10 @@ ImageDataGenerator(rescale=1./255)
 ```
 
 We don't need to do any additional pre-processing for the images.
+
+> Note: When reading the data from train/val directories, check the `class_mode` 
+> parameter. Which value should it be for a binary classification problem?
+
 
 For training use `.fit()` with the following params:
 
