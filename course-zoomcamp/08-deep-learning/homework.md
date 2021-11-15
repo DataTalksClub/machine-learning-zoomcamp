@@ -113,6 +113,10 @@ Add the following augmentations to your training data generator:
 
 ### Question 5 
 
+Let's train our model for 10 more epochs using the same code as previously.
+Make sure you don't re-create the model - we want to continue training the model
+we already started training.
+
 What is the mean of validation loss for the model trained with augmentations?
 
 ### Question 6
