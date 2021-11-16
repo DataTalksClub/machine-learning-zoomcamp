@@ -78,11 +78,9 @@ For the next two questions, use the following data generator for both train and 
 ImageDataGenerator(rescale=1./255)
 ```
 
-We don't need to do any additional pre-processing for the images.
-
-> Note: When reading the data from train/val directories, check the `class_mode` 
-> parameter. Which value should it be for a binary classification problem?
-
+* We don't need to do any additional pre-processing for the images.
+* When reading the data from train/val directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
+* Use `batch_size=20`
 
 For training use `.fit()` with the following params:
 
