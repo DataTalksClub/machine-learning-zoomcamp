@@ -127,7 +127,8 @@ What is the mean of validation loss for the model trained with augmentations?
 
 ### Question 6
 
-What is the standard deviation of validation accuracy for the model trained with augmentations?
+What's the average of validation accuracy for the last 5 epochs (from 5 to 10)
+for the model trained with augmentations?
 
 
 ## Submit the results
