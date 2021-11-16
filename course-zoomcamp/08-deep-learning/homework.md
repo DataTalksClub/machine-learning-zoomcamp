@@ -48,7 +48,7 @@ You need to develop the model with following structure:
 * Turn the multi-dimensional result into vectors using a [`Flatten`](https://keras.io/api/layers/reshaping_layers/flatten/) layer
 * Next, add a `Dense` layer with 64 neurons and `'relu'` activation
 * Finally, create the `Dense` layer with 1 neuron - this will be the output
-    * The output layer should have an activation - use the appropriate activation for the binary classification class
+    * The output layer should have an activation - use the appropriate activation for the binary classification case
 
 As optimizer use [`SGD`](https://keras.io/api/optimizers/sgd/) with the following parameters:
 
