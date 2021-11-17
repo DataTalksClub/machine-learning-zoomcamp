@@ -127,7 +127,7 @@ What is the mean of validation loss for the model trained with augmentations?
 
 ### Question 6
 
-What's the average of validation accuracy for the last 5 epochs (from 5 to 10)
+What's the average of validation accuracy for the last 5 epochs (from 6 to 10)
 for the model trained with augmentations?
 
 
