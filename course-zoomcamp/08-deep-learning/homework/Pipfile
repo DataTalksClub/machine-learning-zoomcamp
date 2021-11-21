@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+
+[dev-packages]
+jupyter = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
