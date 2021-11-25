@@ -75,28 +75,16 @@ After the pre-processing, what's the value in the first pixel, the R channel?
 Now let's apply this model to this image. What's the output of the model?
 
 
-## 
 
 ## Question 5
 
+TODO
+
+## Question 6
+
+TODO
 
 
-
-
-## Notes
-
-Add notes from the video (PRs are welcome)
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
 
 
 ## Nagivation
