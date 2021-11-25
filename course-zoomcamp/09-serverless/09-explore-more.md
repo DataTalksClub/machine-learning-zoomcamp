@@ -1,27 +1,9 @@
-
 ## 9.9 Explore more
 
-
+* Try similar serverless services from Google Cloud and Microsoft Azure
+* Deploy cats vs dogs and other Keras models with AWS Lambda
+* AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
  
-
-
-
-
-## Notes
-
-Add notes from the video (PRs are welcome)
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
 
 ## Nagivation
 

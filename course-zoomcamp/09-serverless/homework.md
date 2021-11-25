@@ -70,21 +70,109 @@ Now we need to turn the image into an numpy array and pre-process it.
 After the pre-processing, what's the value in the first pixel, the R channel?
 
 
-## Question 4 
+## Question 4
 
 Now let's apply this model to this image. What's the output of the model?
 
 
+## Prepepare the lambda code 
+
+Now you need to copy all the code into a separate python file. You will 
+need to use this file for the next two questions.
+
+Tip: you can test this file locally with `ipython` or Jupyter Notebook 
+by importing the file and invoking the function from this file.  
+
+
+## Docker 
+
+For the next two questions, we'll use a Docker image that I already 
+prepared. This is the Dockerfile that I used for creating the image:
+
+```docker
+FROM public.ecr.aws/lambda/python:3.8
+COPY cats-dogs-v2.tflite .
+```
+
+And pushed it to [`agrigorev/zoomcamp-cats-dogs-lambda:v2`](https://hub.docker.com/r/agrigorev/zoomcamp-cats-dogs-lambda/tags).
+
+
+> Note: The image already contains a model and it's not the same model
+> as the one we used for questions 1-4.
+
 
 ## Question 5
 
-TODO
+Now let's extend this docker image, install all the required libraries
+and add the code for lambda.
+
+You don't need to include the model in the image. It's already included. 
+The name of the file with the model is `cats-dogs-v2.tflite` and it's 
+in the current workdir in the image (see the Dockerfile above for the 
+reference).
+
+
+What's the image id of the base image? 
+
+In the build logs (on Linux), you'll see a log like that:
+
+```
+$ docker some-command-for-building
+Sending build context to Docker daemon  2.048kB
+Step 1/N : FROM agrigorev/zoomcamp-model:3.8.12-slim
+ ---> XXXXXXXXXXXX
+Step 2/N : ....
+```
+
+You need to get this `XXXXXXXXXXXX`. 
+
+On MacOS and Windows, the logs for `docker build` are different. 
+To get the image id there, you can use `docker image ls -a`.
+
 
 ## Question 6
 
-TODO
+Now run the container locally.
+
+Score this image: https://upload.wikimedia.org/wikipedia/commons/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg
+
+What's the output from the model? 
 
 
+## Submit the results
+
+Submit your results here: https://forms.gle/QD67KCNKakVUz6pq7
+
+It's possible that your answers won't match exactly. If it's the case, select the closest one.
+
+
+## Deadline
+
+The deadline for submitting is 2 December 2021, 12:00 CET. After that, the form will be closed.
+
+
+## Publishing it to AWS
+
+Now you can deploy your model to AWS!
+
+* Publish your image to ECR
+* Create a lambda function in AWS, use the ECR image
+* Give it more RAM and increase the timeout 
+* Test it
+* Expose the lambda function using API Gateway
+
+This is optional and not graded 
+
+
+## Publishing to Docker hub
+
+This is just for reference, this is how I published an image to Docker hub:
+
+```bash
+docker build -t cats-dogs-lambda .
+docker tag cats-dogs-lambda:latest agrigorev/zoomcamp-cats-dogs-lambda:v2
+docker push agrigorev/zoomcamp-cats-dogs-lambda:v2
+```
 
 
 ## Nagivation
