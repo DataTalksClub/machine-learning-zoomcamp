@@ -67,6 +67,9 @@ what should be the target size for the image?
 
 Now we need to turn the image into an numpy array and pre-process it. 
 
+> Tip: Check the previous homework. What was the pre-processing 
+> we did there?
+
 After the pre-processing, what's the value in the first pixel, the R channel?
 
 
