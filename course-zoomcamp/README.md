@@ -133,23 +133,18 @@ Putting everything we've learned so far in practice!
 - 8.15 [Homework](08-deep-learning/homework.md)
 
 
-## 9. Serverless Deep Learning
+## 9. [Serverless Deep Learning](09-serverless/)
 
-- intro
-- serverless and AWS Lambda
-- tensorflow-lite
-- converting the model to TF-lite
-- preparing images
-- using the model in TF-lite
-- putting everything together in a Lambda function
-- preparing the docker image
-  - testing the image locally
-- pusting the image to ECR
-- creating the lambda function
-- creating the API gateway
-- summary
-- explore more
-- homework
+- 9.1 [Introduction to Serverless](09-serverless/01-intro.md)
+- 9.2 [AWS Lambda](09-serverless/02-aws-lambda.md)
+- 9.3 [TensorFlow Lite](09-serverless/03-tensorflow-lite.md)
+- 9.4 [Preparing the code for Lambda](09-serverless/04-preparing-code.md)
+- 9.5 [Preparing a Docker image](09-serverless/05-docker-image.md)
+- 9.6 [Creating the lambda function](09-serverless/06-creating-lambda.md)
+- 9.7 [API Gateway: exposing the lambda function](09-serverless/07-api-gateway.md)
+- 9.8 [Summary](09-serverless/08-summary.md)
+- 9.9 [Explore more](09-serverless/09-explore-more.md)
+- 9.10 [Homework](09-serverless/homework.md)
 
 ## 10. Kubernetes and TensorFlow-Serving
 
