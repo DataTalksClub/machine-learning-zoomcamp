@@ -4,4 +4,4 @@ __pycache__/
 /chapter-07-neural-nets/clothing-dataset-small/
 /chapter-09-kubernetes/clothing-model/
 /chapter-09-kubeflow/clothing-model/
-/chapter-08-serverless/clothing-model-v4.tflite
+*.tflite
