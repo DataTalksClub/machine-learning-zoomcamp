@@ -1,7 +1,7 @@
 
 ## 4.1 Evaluation metrics: session overview
 
-<a href="https://www.youtube.com/watch?v=gmg5jw1bM8A"><img src="images/thumbnail-4-01.jpg"></a>
+<a href="https://www.youtube.com/watch?v=gmg5jw1bM8A&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-01.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)

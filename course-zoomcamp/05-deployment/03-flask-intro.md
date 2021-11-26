@@ -1,7 +1,7 @@
 
 ## 5.3 Web services: introduction to Flask
 
-<a href="https://www.youtube.com/watch?v=W7ubna1Rfv8"><img src="images/thumbnail-5-03.jpg"></a>
+<a href="https://www.youtube.com/watch?v=W7ubna1Rfv8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-03.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)

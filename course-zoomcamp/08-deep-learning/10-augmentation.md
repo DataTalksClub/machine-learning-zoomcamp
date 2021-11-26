@@ -1,6 +1,6 @@
 ## 8.10 Data augmentation
 
-<a href="https://www.youtube.com/watch?v=aoPfVsS3BDE"><img src="images/thumbnail-8-10.jpg"></a>
+<a href="https://www.youtube.com/watch?v=aoPfVsS3BDE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-10.jpg"></a>
 
 In this video, I had a typo/bug: instead of using `val_gen` for generating images for validation,
 I used `train_gen`. That's why adding augmentations didn't help in the video.

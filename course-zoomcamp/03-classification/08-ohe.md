@@ -1,7 +1,7 @@
 
 ## 3.8 One-hot encoding
 
-<a href="https://www.youtube.com/watch?v=L-mjQFN5aR0"><img src="images/thumbnail-3-08.jpg"></a>
+<a href="https://www.youtube.com/watch?v=L-mjQFN5aR0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-08.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 

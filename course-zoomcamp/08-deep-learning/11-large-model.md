@@ -1,6 +1,6 @@
 ## 8.11 Training a larger model
 
-<a href="https://www.youtube.com/watch?v=_QpDGJwFjYA"><img src="images/thumbnail-8-11.jpg"></a>
+<a href="https://www.youtube.com/watch?v=_QpDGJwFjYA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-11.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 

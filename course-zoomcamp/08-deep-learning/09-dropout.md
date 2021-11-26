@@ -1,6 +1,6 @@
 ## 8.9 Regularization and dropout
 
-<a href="https://www.youtube.com/watch?v=74YmhVM6FTM"><img src="images/thumbnail-8-09.jpg"></a>
+<a href="https://www.youtube.com/watch?v=74YmhVM6FTM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-09.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 

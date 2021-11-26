@@ -1,7 +1,7 @@
 
 ## 5.2 Saving and loading the model
 
-<a href="https://www.youtube.com/watch?v=EJpqZ7OlwFU"><img src="images/thumbnail-5-02.jpg"></a>
+<a href="https://www.youtube.com/watch?v=EJpqZ7OlwFU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-02.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)

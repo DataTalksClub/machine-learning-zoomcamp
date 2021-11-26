@@ -1,6 +1,6 @@
 ## 5.5 Python virtual environment: Pipenv
 
-<a href="https://www.youtube.com/watch?v=BMXh8JGROHM"><img src="images/thumbnail-5-05.jpg"></a>
+<a href="https://www.youtube.com/watch?v=BMXh8JGROHM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-05.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 

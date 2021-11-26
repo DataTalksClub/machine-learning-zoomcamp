@@ -1,7 +1,7 @@
 
 ## 3.1 Churn prediction project
 
-<a href="https://www.youtube.com/watch?v=0Zw04wdeTQo"><img src="images/thumbnail-3-01.jpg"></a>
+<a href="https://www.youtube.com/watch?v=0Zw04wdeTQo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-01.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 

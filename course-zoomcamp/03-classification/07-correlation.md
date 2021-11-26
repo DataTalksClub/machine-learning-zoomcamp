@@ -1,7 +1,7 @@
 
 ## 3.7 Feature importance: Correlation
 
-<a href="https://www.youtube.com/watch?v=mz1707QVxiY"><img src="images/thumbnail-3-07.jpg"></a>
+<a href="https://www.youtube.com/watch?v=mz1707QVxiY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 

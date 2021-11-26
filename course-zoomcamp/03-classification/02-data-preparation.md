@@ -1,7 +1,7 @@
 
 ## 3.2 Data preparation
 
-<a href="https://www.youtube.com/watch?v=VSGGU9gYvdg"><img src="images/thumbnail-3-02.jpg"></a>
+<a href="https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-02.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 

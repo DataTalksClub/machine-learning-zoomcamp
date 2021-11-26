@@ -1,6 +1,6 @@
 ## 8.6 Adjusting the learning rate
 
-<a href="https://www.youtube.com/watch?v=2gPmRRGz0Hc"><img src="images/thumbnail-8-06.jpg"></a>
+<a href="https://www.youtube.com/watch?v=2gPmRRGz0Hc&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 

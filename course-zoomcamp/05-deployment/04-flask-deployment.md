@@ -1,7 +1,7 @@
 
 ## 5.4 Serving the churn model with Flask
 
-<a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8"><img src="images/thumbnail-5-04.jpg"></a>
+<a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-04.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)

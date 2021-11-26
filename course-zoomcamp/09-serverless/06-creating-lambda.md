@@ -1,7 +1,7 @@
 
 ## 9.6 Creating the lambda function
 
-<a href="https://www.youtube.com/watch?v=kBch5oD5BkY"><img src="images/thumbnail-9-06.jpg"></a>
+<a href="https://www.youtube.com/watch?v=kBch5oD5BkY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-06.jpg"></a>
  
 
 

@@ -1,7 +1,7 @@
 
 ## 3.12 Using the model
 
-<a href="https://www.youtube.com/watch?v=Y-NGmnFpNuM"><img src="images/thumbnail-3-12.jpg"></a>
+<a href="https://www.youtube.com/watch?v=Y-NGmnFpNuM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-12.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 

@@ -1,6 +1,6 @@
 ## 8.13 Summary
 
-<a href="https://www.youtube.com/watch?v=mn0BcXJlRFM"><img src="images/thumbnail-8-13.jpg"></a>
+<a href="https://www.youtube.com/watch?v=mn0BcXJlRFM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-13.jpg"></a>
  
 
 

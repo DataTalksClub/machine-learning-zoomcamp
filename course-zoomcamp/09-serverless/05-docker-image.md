@@ -1,6 +1,6 @@
 ## 9.5 Preparing a Docker image
 
-<a href="https://www.youtube.com/watch?v=y4_YQjfOsDo"><img src="images/thumbnail-9-05.jpg"></a>
+<a href="https://www.youtube.com/watch?v=y4_YQjfOsDo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-05.jpg"></a>
 
 
 ### `ENTRYPOINT` vs `CMD` 

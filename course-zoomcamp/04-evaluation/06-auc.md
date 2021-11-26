@@ -1,6 +1,6 @@
 ## 4.6 ROC AUC
 
-<a href="https://www.youtube.com/watch?v=hvIQPAwkVZo"><img src="images/thumbnail-4-06.jpg"></a>
+<a href="https://www.youtube.com/watch?v=hvIQPAwkVZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-06.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
 

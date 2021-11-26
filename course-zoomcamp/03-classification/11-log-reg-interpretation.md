@@ -1,7 +1,7 @@
 
 ## 3.11 Model interpretation
 
-<a href="https://www.youtube.com/watch?v=OUrlxnUAAEA"><img src="images/thumbnail-3-11.jpg"></a>
+<a href="https://www.youtube.com/watch?v=OUrlxnUAAEA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-11.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
