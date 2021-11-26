@@ -1,10 +1,17 @@
-
 ## 9.5 Preparing a Docker image
 
 <a href="https://www.youtube.com/watch?v=y4_YQjfOsDo"><img src="images/thumbnail-9-05.jpg"></a>
- 
 
 
+### `ENTRYPOINT` vs `CMD` 
+
+This link explains the difference between them: https://stackoverflow.com/a/34245657
+
+> `ENTRYPOINT` specifies a command that will always be executed when the container starts.
+> `CMD` specifies arguments that will be fed to the `ENTRYPOINT`.
+
+In case of the lambda base pacakge, the authors already specified the entrypoint and
+we only need to overwrite the arguments passed to the entrypoint,
 
 
 ## Notes
