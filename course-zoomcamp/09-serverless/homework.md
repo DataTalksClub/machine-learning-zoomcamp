@@ -122,7 +122,7 @@ In the build logs (on Linux), you'll see a log like that:
 ```
 $ docker some-command-for-building
 Sending build context to Docker daemon  2.048kB
-Step 1/N : FROM agrigorev/zoomcamp-model:3.8.12-slim
+Step 1/N : FROM agrigorev/zoomcamp-cats-dogs-lambda:v2
  ---> XXXXXXXXXXXX
 Step 2/N : ....
 ```
