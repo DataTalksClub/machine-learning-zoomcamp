@@ -1,6 +1,6 @@
 ## 9.8 Summary
 
-<a href="https://www.youtube.com/watch?v=bu3nPiHCNLU"><img src="images/thumbnail-9-08.jpg"></a>
+<a href="https://www.youtube.com/watch?v=bu3nPiHCNLU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-08.jpg"></a>
 
 
 ## Notes
