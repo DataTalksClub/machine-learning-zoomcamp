@@ -146,46 +146,25 @@ Putting everything we've learned so far in practice!
 - 9.9 [Explore more](09-serverless/09-explore-more.md)
 - 9.10 [Homework](09-serverless/homework.md)
 
+
 ## 10. Kubernetes and TensorFlow-Serving
 
-- intro, serving architecture overview
-- saved_model format
-- tensorflow-serving
-  - running TF-serving locally
-- communicating with tf-serving from Jupyter
-- creating the gateway service
-- introduction to Kubernetes
-- creating a cluster on AWS (article)
-- preparing the images
-  - the TF-serving image
-  - the gateway image
-- deploying to Kubernetes
-  - deployment for tf-serving
-  - service for tf-serving
-- creating the gateway on Kubernetes
-  - deploymnet
-  - servince - load balancer
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework
+- Coming soon
 
 ## 11. Kubeflow and KFServing
 
-- intro
-- installing Kubeflow on AWS
-- preparing the model: uploading to S3
-- deploying TF models with KF-serving
-- accessing the model
-- tranformers
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework - no homework
+- Coming soon
+- No homework
 
-## 12. Capstone Project
+
+## 12. [Capstone Project](12-capstone/)
+
+Putting everything we've learned so far in practice one more time!
 
 ## 13. Article
 
+- Coming soon
+
+## 14. Third project (optional)
+
+- Coming soon
