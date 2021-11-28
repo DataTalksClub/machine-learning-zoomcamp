@@ -65,7 +65,7 @@ Submit your results here: TBA
 
 ### Deadline
 
-The deadline for submitting is 13 Decemner 2021 (Monday), 17:00 CET. After that, the form will be closed.
+The deadline for submitting is 13 December 2021 (Monday), 17:00 CET. After that, the form will be closed.
 
 
 ### FAQ
