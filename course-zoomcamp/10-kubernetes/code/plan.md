@@ -49,7 +49,7 @@ previously using Kubernetes and TensorFlow Serving
 * Publishing the image to ECR
 * Configuring kubectl
 
-## 10.8 Summary
+## 10.9 Summary
 
 * TF-Serving is a system for deploying TensorFlow models
 * When using TF-Serving, we need a component for pre-processing 
@@ -57,7 +57,7 @@ previously using Kubernetes and TensorFlow Serving
 * To deploy something on Kubernetes, we need to specify a deployment and a service
 * You can use Docker compose and Kind for local experiments 
 
-## 10.9 Explore more
+## 10.10 Explore more
 
 * Other local Kuberneteses: minikube, k3d, k3s, microk8s, EKS Anywhere
 * Many cloud providers have Kubernetes: GCP, Azure, Digital ocean and others. Look for "Managed Kubernetes" in your favourite search engine
