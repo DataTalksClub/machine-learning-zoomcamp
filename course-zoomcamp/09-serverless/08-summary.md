@@ -1,10 +1,6 @@
-
 ## 9.8 Summary
 
-
-COMING SOON 
-
-
+<a href="https://www.youtube.com/watch?v=bu3nPiHCNLU"><img src="images/thumbnail-9-08.jpg"></a>
 
 
 ## Notes
