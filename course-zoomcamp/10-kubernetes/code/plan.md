@@ -3,7 +3,7 @@
 We'll deploy the clothes classification model we trained 
 previously using Kubernetes and TensorFlow Serving
 
-## 10.1 Overview 
+## 10.1 Overview
 
 * What we'll cover this week
 * Two-tier architecture
@@ -18,6 +18,8 @@ previously using Kubernetes and TensorFlow Serving
 
 * Converting the notebook to a Python script
 * Wrapping the script into a Flask app
+* Creating the virtual env with Pipenv
+* Getting rid of the tensorflow dependency
 
 ## 10.4 Running everything locally with Docker-compose
 
