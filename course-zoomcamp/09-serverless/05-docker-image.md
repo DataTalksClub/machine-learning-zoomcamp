@@ -40,6 +40,11 @@ Not correct - won't work:
 pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl
 ```
 
+If the file is incorrect, you'll get an error message like that: 
+
+```
+zipfile.BadZipFile: File is not a zip file
+```
 
 ## Notes
 
