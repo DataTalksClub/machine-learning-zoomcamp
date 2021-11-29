@@ -14,6 +14,33 @@ In case of the lambda base pacakge, the authors already specified the entrypoint
 we only need to overwrite the arguments passed to the entrypoint,
 
 
+### Using `pip install` for TF-Lite binaries
+
+When using `pip` to install the compiled binary, make sure you use the raw file, not a link to the github page.
+
+Correct:
+
+```bash
+pip install https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl
+```
+
+(Note `/raw/` in the path)
+
+Also correct:
+
+```bash
+https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl?raw=true
+```
+
+(Note `?raw=true` at the end)
+
+Not correct - won't work:
+
+```bash
+pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl
+```
+
+
 ## Notes
 
 Add notes from the video (PRs are welcome)
