@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  clothing-model:
+    image: zoomcamp-10-model:xception-v4-001
+  gateway:
+    image: zoomcamp-10-gateway:002
+    environment:
+      - TF_SERVING_HOST=clothing-model:8500
+    ports:
+      - "9696:9696"

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import os
 import grpc
 
 import tensorflow as tf
@@ -16,7 +17,7 @@ from flask import jsonify
 
 from proto import np_to_protobuf
 
-host = 'localhost:8500'
+host = os.getenv('TF_SERVING_HOST', 'localhost:8500')
 
 channel = grpc.insecure_channel(host)
 stub = prediction_service_pb2_grpc.PredictionServiceStub(channel)
