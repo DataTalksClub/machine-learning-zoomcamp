@@ -34,6 +34,7 @@ previously using Kubernetes and TensorFlow Serving
 
 ## 10.6 Deploying a simple service to Kubernetes
 
+* Create a simple ping application in Flask
 * Installing kubectl
 * Setting up a local Kubernetes cluster with Kind
 * Creating a deployment
