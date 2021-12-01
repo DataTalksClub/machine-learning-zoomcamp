@@ -52,4 +52,31 @@ kubectl port-forward service/tf-serving-clothing-model 8500:8500
 kind load docker-image zoomcamp-10-gateway:002
 
 kubectl exec -it ping-deployment-577d56ccf5-p2bdq -- bash
+
+apt update
+apt install curl telnet 
+telnet tf-serving-clothing-model.default.svc.cluster.local 8500
+
+kubectl port-forward service/gateway 8080:80
+
+
+ACCOUNT_ID=387546586013
+REGION=eu-west-1
+REGISTRY_NAME=mlzoomcamp-images
+PREFIX=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY_NAME}
+
+GATEWAY_LOCAL=zoomcamp-10-gateway:002
+GATEWAY_REMOTE=${PREFIX}:zoomcamp-10-gateway-002
+docker tag ${GATEWAY_LOCAL} ${GATEWAY_REMOTE}
+
+MODEL_LOCAL=zoomcamp-10-model:xception-v4-001
+MODEL_REMOTE=${PREFIX}:zoomcamp-10-model-xception-v4-001
+docker tag ${MODEL_LOCAL} ${MODEL_REMOTE}
+
+docker push ${MODEL_REMOTE}
+docker push ${GATEWAY_REMOTE}
+
+
+eksctl create cluster -f eks-config.yaml
+eksctl delete cluster --name mlzoomcamp-eks
 ```
