@@ -61,7 +61,7 @@ def predict(url):
     return response
 
 
-app = Flask('gataway')
+app = Flask('gateway')
 
 
 @app.route('/predict', methods=['POST'])
