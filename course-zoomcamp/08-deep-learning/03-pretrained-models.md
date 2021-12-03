@@ -5,6 +5,13 @@
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
+> **Important**: If you rent a GPU from a cloud provider (such as AWS), don't forget to turn it
+> off after you finish. It's not free and you might get a large bill at the end of the month. 
+
+### Links
+
+* [Renting a GPU with AWS SageMaker](https://livebook.manning.com/book/machine-learning-bookcamp/appendix-e/6) 
+
 ## Notes
 
 Add notes from the video (PRs are welcome)
