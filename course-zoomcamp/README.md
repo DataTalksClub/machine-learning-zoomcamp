@@ -147,9 +147,20 @@ Putting everything we've learned so far in practice!
 - 9.10 [Homework](09-serverless/homework.md)
 
 
-## 10. Kubernetes and TensorFlow-Serving
+## 10. [Kubernetes and TensorFlow Serving](10-kubernetes/)
 
-- Coming soon
+- 10.1 [Overview](10-kubernetes/01-overview.md)
+- 10.2 [TensorFlow Serving](10-kubernetes/02-tensorflow-serving.md)
+- 10.3 [Creating a pre-processing service](10-kubernetes/03-preprocessing.md)
+- 10.4 [Running everything locally with Docker-compose](10-kubernetes/04-docker-compose.md)
+- 10.5 [Introduction to Kubernetes](10-kubernetes/05-kubernetes-intro.md)
+- 10.6 [Deploying a simple service to Kubernetes](10-kubernetes/06-kubernetes-simple-service.md)
+- 10.7 [Deploying TensorFlow models to Kubernetes](10-kubernetes/07-kubernetes-tf-serving.md)
+- 10.8 [Deploying to EKS](10-kubernetes/08-eks.md)
+- 10.9 [Summary](10-kubernetes/09-summary.md)
+- 10.10 [Explore more](10-kubernetes/10-explore-more.md)
+- 10.11 [Homework](10-kubernetes/homework.md)
+
 
 ## 11. Kubeflow and KFServing
 
