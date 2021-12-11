@@ -112,18 +112,14 @@ The project will be evaluated using these criteria:
 * Containerization
 * Cloud deployment
 
-[Old criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQo-cOOGMA-ddbp6FgxusNBjS_HOmWaOYtvO7z-wk_TcCnPOBAza9s8Uj_eqfKGadoU0741cCGd95qI/pubhtml)
-
-The new criteria will appear soon. The only difference will 
-be the "dataset" part: we want to make sure the project 
-is easy to reproduce and contains all the needed data.
+[Criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
 
 
 ### Submitting evaluations
 
-* To submit the evaluations, use this form: TBA
+* To submit the evaluations, use this form: https://forms.gle/tHksJjmshDnMM8N57
 * You will need to submit this form three times - one for each evaluated project
-* Deadline: 20 December (Monday), 17:00 CET.  After that, the form will be closed.
+* Deadline: 20 December (Monday), 17:00 CET. After that, the form will be closed.
 
 
 
