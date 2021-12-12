@@ -1,10 +1,6 @@
-
 ## 10.8 Deploying to EKS
 
-
-COMING SOON 
-
-
+<a href="https://www.youtube.com/watch?v=89jxeddZtC0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-08.jpg"></a>
 
 
 ## Notes

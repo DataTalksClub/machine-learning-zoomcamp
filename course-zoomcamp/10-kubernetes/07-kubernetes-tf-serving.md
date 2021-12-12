@@ -1,10 +1,6 @@
-
 ## 10.7 Deploying TensorFlow models to Kubernetes
 
-
-COMING SOON 
-
-
+<a href="https://www.youtube.com/watch?v=6vHLMdnjO2w&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-07.jpg"></a>
 
 
 ## Notes

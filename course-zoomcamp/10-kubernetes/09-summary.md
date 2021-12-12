@@ -1,10 +1,6 @@
-
 ## 10.9 Summary
 
-
-COMING SOON 
-
-
+<a href="https://www.youtube.com/watch?v=J5LMRTIu4jY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-09.jpg"></a>
 
 
 ## Notes
