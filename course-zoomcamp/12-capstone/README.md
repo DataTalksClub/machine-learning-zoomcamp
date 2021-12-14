@@ -82,7 +82,7 @@ To evaluate the projects, we'll use peer reviewing. This is a great opportunity 
 
 * To get points for your project, your need to evaluate 3 projects of your peers
 * You get 3 extra point for each evaluation
-* Find the projects to review [here](https://docs.google.com/forms/d/e/1FAIpQLSetzNOHNYKSiUJQ7-3OllGnm6DxTl9CJpaIh2bQnCahNZv1_Q/viewform)
+* Find the projects to review [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRsuXlTS_2rR-SxYo_cpnRTZneZ12CPd-L3jva02Lo50JrXjaOzeEF6hdME4y_y3sEjIhKzP43sC1Ci/pubhtml#)
 
 
 Function for computing the hash of your email:
