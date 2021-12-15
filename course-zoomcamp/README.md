@@ -172,9 +172,9 @@ Putting everything we've learned so far in practice!
 
 Putting everything we've learned so far in practice one more time!
 
-## 13. Article
+## 13. [Article](13-article/)
 
-- Coming soon
+Writing an article about something not covered in the course.
 
 ## 14. Third project (optional)
 
