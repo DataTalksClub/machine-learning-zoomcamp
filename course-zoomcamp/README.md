@@ -1,13 +1,40 @@
 # Machine Learning Zoomcamp
 
-<a href="https://datatalks.club/courses/2021-winter-ml-zoomcamp.html"><img src="../images/zoomcamp.jpg" /></a>
+<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
 
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w) (you can register for the course at any point of time!)
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+
+
+## Taking the course
+### 2021 Cohort
+
+We started the course in September 2021. Now it's late to join the cohort, but you can take the course in self-pased mode (see below)
+
+* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * [Current leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQHj_Y138-aWhkPvwZFPIDl8aoJmtNjaUQ7ZaL-3BFhiuqQZgUpHY3yjbsvF_nsyF0WftTorji4ovCb/pubhtml#)
+
+
+### Self-pased mode
+
+You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
+
+To take the best out of this course, we recommened this:
+
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel 
+* For each module, watch the videos and work through the code
+* If you have any questions, ask them in the `#course-ml-zoomcamp` channel in Slack
+* Do homework. There are solutions, but we advice to first attempt the homework yourself, and after that check the solutions
+* Do at least one project. Two is better. Only this way you can make sure you're really learning. If you need feedback, use the `#course-ml-zoomcamp` channel
+
+Of course, you can take each module independently.
+
+
+### 2022 Cohort
+
+We plan to offer the course again in September 2022. If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w).
+
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
