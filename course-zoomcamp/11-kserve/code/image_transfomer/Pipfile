@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kserve = "==0.7.0"
+keras-image-helper = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

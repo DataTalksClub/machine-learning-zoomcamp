@@ -1,0 +1,17 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "churn"
+spec:
+  predictor:
+    sklearn:
+      #image: kserve-sklearnserver:predict_proba-3.8-1.0
+      image: agrigorev/sklearnserver:3.8-1.0-predict-proba
+      storageUri: "http://172.31.13.90:8000/churn/model.joblib"
+      resources:
+        requests:
+          cpu: 300m
+          memory: 256Mi
+        limits:
+          cpu: 500m
+          memory: 512Mi
