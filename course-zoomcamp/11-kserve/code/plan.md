@@ -55,6 +55,8 @@ We'll deploy two models:
 * Setting up S3 access
 * Deploying the clothing model
 
+[Guide used during the video](https://github.com/alexeygrigorev/kubeflow-deep-learning/blob/main/guide.md)
+
 
 ## 11.8 Summary
 

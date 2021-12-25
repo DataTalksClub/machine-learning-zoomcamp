@@ -1,0 +1,34 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "clothes"
+spec:
+  transformer:
+    containers:
+      - image: "agrigorev/kfserving-keras-transformer:0.0.1"
+        name: user-container
+        env:
+          - name: MODEL_INPUT_SIZE
+            value: "299,299"
+          - name: KERAS_MODEL_NAME
+            value: "xception"
+          - name: MODEL_LABELS
+            value: "dress,hat,longsleeve,outwear,pants,shirt,shoes,shorts,skirt,t-shirt"
+        resources:
+          requests:
+            cpu: 300m
+            memory: 256Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+  predictor:
+    serviceAccountName: sa
+    tensorflow:
+      storageUri: "s3://alexey-mlzookcamp-models/clothing-model"
+      resources:
+        requests:
+          cpu: 500m
+          memory: 512Mi
+        limits:
+          cpu: 1000m
+          memory: 512Mi
