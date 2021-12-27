@@ -16,7 +16,7 @@ We started the course in September 2021. Now it's late to join the cohort, but y
 * [Current leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQHj_Y138-aWhkPvwZFPIDl8aoJmtNjaUQ7ZaL-3BFhiuqQZgUpHY3yjbsvF_nsyF0WftTorji4ovCb/pubhtml#)
 
 
-### Self-pased mode
+### Self-paced mode
 
 You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
 
