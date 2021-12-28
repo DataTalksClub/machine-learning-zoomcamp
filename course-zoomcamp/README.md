@@ -25,7 +25,7 @@ To take the best out of this course, we recommened this:
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel 
 * For each module, watch the videos and work through the code
 * If you have any questions, ask them in the `#course-ml-zoomcamp` channel in Slack
-* Do homework. There are solutions, but we advice to first attempt the homework yourself, and after that check the solutions
+* Do homework. There are solutions, but we advise to first attempt the homework yourself, and after that check the solutions
 * Do at least one project. Two is better. Only this way you can make sure you're really learning. If you need feedback, use the `#course-ml-zoomcamp` channel
 
 Of course, you can take each module independently.
