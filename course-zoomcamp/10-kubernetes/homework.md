@@ -7,6 +7,12 @@ deploying the model to Kubernetes.
 
 ## Bulding the image
 
+Clone the course repo if you haven't:
+
+```
+git clone https://github.com/alexeygrigorev/mlbookcamp-code.git
+```
+
 Go to the `course-zoomcamp/05-deployment/code` folder and 
 execute the following:
 
