@@ -21,6 +21,10 @@ execute the following:
 docker build -t churn-model:v001 .
 ```
 
+> **Note:** If you have troubles building the image, you can 
+> use the image I built and published to docker hub:
+> `agrigorev/zoomcamp-model:churn-v001`
+
 Run it to test that it's working locally:
 
 ```bash
