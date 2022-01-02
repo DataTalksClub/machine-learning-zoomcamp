@@ -17,4 +17,5 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/10_kubernetes.md)
 * Add your notes here
