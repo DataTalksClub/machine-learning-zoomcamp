@@ -7,6 +7,22 @@
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
 
 
+## Creating a cluster with Kind
+
+If you use WSL2 and get the following errors when creating a cluster with `kind create cluster` 
+
+```
+✗ Starting control-plane :joystick:
+ERROR: failed to create cluster: failed to init node with kubeadm: command "docker exec --privileged kind-control-plane kubeadm init --skip-phases=preflight --config=/kind/kubeadm.conf --skip-token-print --v=6" failed with error: exit status 1
+the solution is to change the command:
+```
+
+Specify the node image: 
+
+```
+kind create cluster --image kindest/node:v1.23.0
+```
+
 ## Notes
 
 Add notes from the video (PRs are welcome)
