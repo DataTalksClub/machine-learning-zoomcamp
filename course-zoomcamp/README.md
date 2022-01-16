@@ -203,6 +203,6 @@ Putting everything we've learned so far in practice one more time!
 
 Writing an article about something not covered in the course.
 
-## 14. Third project (optional)
+## 14. [Third project](14-project) (optional)
 
-- Coming soon
+For those who love projects!
