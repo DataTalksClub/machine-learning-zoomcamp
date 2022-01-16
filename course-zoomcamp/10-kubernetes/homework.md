@@ -123,7 +123,7 @@ What is the value for `<Port>`?
 Apply this deployment:
 
 ```yaml
-kubectl apply -f deployment
+kubectl apply -f deployment.yaml
 ```
 
 Now get a list of running pods.

@@ -48,8 +48,8 @@ kubectl port-forward service/ping 8080:80
 
 kind load docker-image zoomcamp-10-model:xception-v4-001
 
-kubectl port-forward tf-serving-clothing-model-85cd4b7fc9-rntfw 8500:8
-500
+kubectl port-forward tf-serving-clothing-model-85cd4b7fc9-rntfw 8500:8500
+
 kubectl port-forward service/tf-serving-clothing-model 8500:8500
 
 kind load docker-image zoomcamp-10-gateway:002

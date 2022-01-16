@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: churn
+spec:
+  selector:
+    matchLabels:
+      app: churn
+  template:
+    metadata:
+      labels:
+        app: churn
+    spec:
+      containers:
+      - name: churn
+        image: churn-model:v001
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 9696
