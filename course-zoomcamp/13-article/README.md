@@ -125,4 +125,4 @@ We'll use voting for scoring your articles.
 
 ## Deadline
 
-The deadline for finishing the article is 31th of January.
+The deadline for finishing the article is 2nd of February 22:00 CET.
