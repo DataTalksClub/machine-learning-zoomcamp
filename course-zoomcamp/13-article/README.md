@@ -113,7 +113,7 @@ The publication date for the article must be after the start of the course - Sep
 
 * Submit your article to [`#course-ml-zoomcamp-articles`](https://app.slack.com/client/T01ATQK62F8/C02QXBFS1PU) - 
   just share the link to your article there
-* Submit the same link to this form (TBA) so I could link it to your message from the channel
+* Submit the same link to [this form](https://forms.gle/aJ4D5QRtP3iqDqjp6) so I could link it to your message from the channel
 
 ## Evaluating
 
