@@ -126,3 +126,11 @@ We'll use voting for scoring your articles.
 ## Deadline
 
 The deadline for finishing the article is 2nd of February 22:00 CET.
+
+
+## Articles 
+
+The articles from the 2021 cohort students:
+
+* Add links here
+* Template: [Article name](Link-to-article) by [Stundent name](Linkedin/Twitter/Homepage/etc)
