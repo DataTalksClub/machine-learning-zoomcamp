@@ -132,5 +132,6 @@ The deadline for finishing the article is 2nd of February 22:00 CET.
 
 The articles from the 2021 cohort students:
 
+* [Hyperparameters for Deep Neural Networks: Getting to Know and How to Tune them Like a Champ!](https://hamedonline.com/how-to-tune-hyperparameters-for-deep-neural-networks) by [Hamed Homaei Rad](https://linkedin.com/in/hamed-homaei-rad-574942b2/)
 * Add links here
 * Template: [Article name](Link-to-article) by [Stundent name](Linkedin/Twitter/Homepage/etc)
