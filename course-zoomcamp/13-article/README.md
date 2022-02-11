@@ -137,5 +137,6 @@ The articles from the 2021 cohort students:
 * [Introduction to Reinforcement Learning](https://github.com/ziritrion/ml-zoomcamp/tree/main/article) by [Alvaro Navas](https://www.linkedin.com/in/alvaronavas/)
 * [Time Series Modelling & Stock Forecasting in Python](https://github.com/sukritishuk/ML_ZoomCamp_Article) by [Sukriti Shukla](https://www.linkedin.com/in/sukriti-shukla-3989a819/)
 * [Building Machine Learning Zoomcamp course statistics with Plotly library](https://github.com/SVizor42/ML_Zoomcamp/blob/master/ml-zoomcamp-stats/article.md) by [Timur Kamaliev](https://www.linkedin.com/in/timurkamaliev/)
+* [Deploying a Scalable SQL Database Cluster to a DigitalOcean Managed Kubernetes Cluster](https://github.com/ashok-arora/k8s-mysql-cluster) by [Ashok Arora](https://www.linkedin.com/in/ashok-arora/)
 * Add links here
 * Template: [Article name](Link-to-article) by [Student name](Linkedin/Twitter/Homepage/etc)
