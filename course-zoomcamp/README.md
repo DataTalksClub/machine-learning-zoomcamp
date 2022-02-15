@@ -8,13 +8,6 @@
 
 
 ## Taking the course
-### 2021 Cohort
-
-We started the course in September 2021. Now it's late to join the cohort, but you can take the course in self-pased mode (see below)
-
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
-* [Current leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQHj_Y138-aWhkPvwZFPIDl8aoJmtNjaUQ7ZaL-3BFhiuqQZgUpHY3yjbsvF_nsyF0WftTorji4ovCb/pubhtml#)
-
 
 ### Self-paced mode
 
@@ -33,8 +26,17 @@ Of course, you can take each module independently.
 
 ### 2022 Cohort
 
-We plan to offer the course again in September 2022. If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w).
+We plan to offer the course again in September 2022
 
+* If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w)
+* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+
+
+## Previous cohorts
+
+### 2021 Cohort
+
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
