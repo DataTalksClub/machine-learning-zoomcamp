@@ -191,10 +191,17 @@ Putting everything we've learned so far in practice!
 - 10.11 [Homework](10-kubernetes/homework.md)
 
 
-## 11. Kubeflow and KFServing
+## 11. [KServe](11-kserve/)
 
-- Coming soon
-- No homework
+- 11.1 [Overview](11-kserve/01-overview.md)
+- 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
+- 11.3 [Deploying a Scikit-Learn model with KServe](11-kserve/03-kserve-sklearn.md)
+- 11.4 [Deploying custom Scikit-Learn images with KServe](11-kserve/04-kserve-custom-image.md)
+- 11.5 [Serving TensorFlow models with KServe](11-kserve/05-tensorflow-kserve.md)
+- 11.6 [KServe transformers](11-kserve/06-kserve-transformers.md)
+- 11.7 [Deploying with KServe and EKS](11-kserve/07-kserve-eks.dm)
+- 11.8 [Summary](11-kserve/08-summary.md)
+- 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
 ## 12. [Capstone Project](12-capstone/)

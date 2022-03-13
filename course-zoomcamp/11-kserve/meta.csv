@@ -1,0 +1,10 @@
+lesson,name,page_name,video,slides,notebook
+1,Overview,01-overview.md,https://www.youtube.com/watch?v=CFWK05dQoGM,,
+2,Running KServe locally,02-kserve-local.md,https://www.youtube.com/watch?v=A3tFt14iTEI,,
+3,Deploying a Scikit-Learn model with KServe,03-kserve-sklearn.md,https://www.youtube.com/watch?v=8kBIDggLwgE,,
+4,Deploying custom Scikit-Learn images with KServe,04-kserve-custom-image.md,https://www.youtube.com/watch?v=REGNWrHZiCw,,
+5,Serving TensorFlow models with KServe,05-tensorflow-kserve.md,https://www.youtube.com/watch?v=iXwQb2LRKGI,,
+6,KServe transformers,06-kserve-transformers.md,https://www.youtube.com/watch?v=haowRqeAqJU,,
+7,Deploying with KServe and EKS,07-kserve-eks.md,https://www.youtube.com/watch?v=MpuTzBSYBBI,,
+8,Summary,08-summary.md,,,
+9,Explore more,09-explore-more.md,,,
