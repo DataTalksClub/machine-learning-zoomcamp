@@ -113,7 +113,7 @@ The publication date for the article must be after the start of the course - Sep
 
 * Submit your article to [`#course-ml-zoomcamp-articles`](https://app.slack.com/client/T01ATQK62F8/C02QXBFS1PU) - 
   just share the link to your article there
-* Submit the same link to this form (TBA) so I could link it to your message from the channel
+* Submit the same link to [this form](https://forms.gle/aJ4D5QRtP3iqDqjp6) so I could link it to your message from the channel
 
 ## Evaluating
 
@@ -125,4 +125,18 @@ We'll use voting for scoring your articles.
 
 ## Deadline
 
-The deadline for finishing the article is 31th of January.
+The deadline for finishing the article is 2nd of February 22:00 CET.
+
+
+## Articles 
+
+The articles from the 2021 cohort students:
+
+* [Hyperparameters for Deep Neural Networks: Getting to Know and How to Tune them Like a Champ!](https://hamedonline.com/how-to-tune-hyperparameters-for-deep-neural-networks) by [Hamed Homaei Rad](https://linkedin.com/in/hamed-homaei-rad-574942b2/)
+* [Maintaining multiple versions of Python using Anaconda](https://medium.com/@aniketsharma00411/maintaining-multiple-versions-of-python-using-anaconda-10b2618d7352) by [Aniket Sharma](https://www.linkedin.com/in/aniketsharma00411/)
+* [Introduction to Reinforcement Learning](https://github.com/ziritrion/ml-zoomcamp/tree/main/article) by [Alvaro Navas](https://www.linkedin.com/in/alvaronavas/)
+* [Time Series Modelling & Stock Forecasting in Python](https://github.com/sukritishuk/ML_ZoomCamp_Article) by [Sukriti Shukla](https://www.linkedin.com/in/sukriti-shukla-3989a819/)
+* [Building Machine Learning Zoomcamp course statistics with Plotly library](https://github.com/SVizor42/ML_Zoomcamp/blob/master/ml-zoomcamp-stats/article.md) by [Timur Kamaliev](https://www.linkedin.com/in/timurkamaliev/)
+* [Deploying a Scalable SQL Database Cluster to a DigitalOcean Managed Kubernetes Cluster](https://github.com/ashok-arora/k8s-mysql-cluster) by [Ashok Arora](https://www.linkedin.com/in/ashok-arora/)
+* Add links here
+* Template: [Article name](Link-to-article) by [Student name](Linkedin/Twitter/Homepage/etc)
