@@ -20,4 +20,5 @@ Did you take notes? You can share them here (or in each unit separately)
 
 * [Kwang Yang's Notes](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
 * [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/06_01_trees.md)
+* [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week6/Lecture_6_Decision_Trees_Ensemble_Learning.ipynb)
 * Add your notes here
