@@ -18,4 +18,5 @@
 Did you take notes? You can share them here (or in each unit separately)
 
 * [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/09_serverless.md)
+* [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week9/Lecture_9_serverless.ipynb)
 * Add your notes here
