@@ -151,6 +151,7 @@ Coursework:
 Links
 
 * [Midterm Project Presentation](https://youtu.be/TzEKcxJk17o?t=1247)
+* [Course Assignments & Solutions](https://github.com/hamedonline/ml-zoomcamp-homeworks)
 * [Article: Hyperparameters for Deep Neural Networks](https://hamedonline.com/how-to-tune-hyperparameters-for-deep-neural-networks)
 
 > I can't thank Alexey Grigorev enough for all the effort he has put in this course and the great information and tips he has provided during it. Wishing you all the best dear Alexey.
