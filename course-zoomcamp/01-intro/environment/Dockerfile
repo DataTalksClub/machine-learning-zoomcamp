@@ -25,7 +25,7 @@ RUN echo "${user} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
 
 # Install python-dev and build-essential
 RUN apt update
-RUN apt-get install -y python-dev
+RUN apt-get install -y python-dev-is-python3
 RUN apt-get install -y build-essential
 
 USER $user
