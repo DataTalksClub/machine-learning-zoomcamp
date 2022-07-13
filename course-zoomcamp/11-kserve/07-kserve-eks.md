@@ -11,7 +11,6 @@
 
 Add notes from the video (PRs are welcome)
 
-
 <table>
    <tr>
       <td>⚠️</td>
@@ -22,6 +21,8 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+### Updated Instructions (13 July, 2022)   
+See [the instructions here](07-kserve-eks-upd.md)
 
 ## Nagivation
 
