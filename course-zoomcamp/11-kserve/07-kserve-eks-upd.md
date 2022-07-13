@@ -1,4 +1,4 @@
-## Deploying with KServe and EKS - Update (09 July, 2022)
+## Deploying with KServe and EKS - Update (13 July, 2022)
 
 (These instructions assume that the user does not own a custom domain.)  
 
