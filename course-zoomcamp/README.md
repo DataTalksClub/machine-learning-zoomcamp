@@ -9,7 +9,15 @@
 
 ## Taking the course
 
-### Self-paced mode
+### 2022 Cohort
+
+We start the course again in September 2022
+
+* [Sign up here](https://airtable.com/shr6Gz46UZCgJ9l6w) (it's not automated, so you will not receive a confirmation email after filling the form)
+* Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+
+### Self-paced mo
 
 You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
 
@@ -22,14 +30,6 @@ To take the best out of this course, we recommened this:
 * Do at least one project. Two is better. Only this way you can make sure you're really learning. If you need feedback, use the `#course-ml-zoomcamp` channel
 
 Of course, you can take each module independently.
-
-
-### 2022 Cohort
-
-We plan to offer the course again in September 2022
-
-* If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w)
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 
 
 ## Previous cohorts
