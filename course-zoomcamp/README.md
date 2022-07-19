@@ -17,7 +17,7 @@ We start the course again in September 2022
 * Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
 * Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 
-### Self-paced mo
+### Self-paced mode
 
 You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
 
