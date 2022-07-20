@@ -32,6 +32,15 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
+### Pre-preqiusites
+
+* Prior programming experience (at least 1+ year)
+* Being comfortable with command line 
+* No prior exposure to machine learning is required
+* Nice to have: Python (but you can learn it during the course)
+* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
+
+
 
 ## Previous cohorts
 
@@ -216,3 +225,12 @@ Writing an article about something not covered in the course.
 ## 14. [Third project](14-project) (optional)
 
 For those who love projects!
+
+
+## Our other courses
+
+If you liked this course, you'll like other courses from us:
+
+* [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
+* [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
+
