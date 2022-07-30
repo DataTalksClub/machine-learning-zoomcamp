@@ -18,7 +18,7 @@ In general, the dataset is split into three parts: training, validation, and tes
 
 **Numpy methods:**
 
-* `np.arrange()` - retruns an array of numbers 
+* `np.arange()` - retruns an array of numbers 
 * `np.random.shuffle()` - retturns a suffled array
 * `np.random.seed()` - set a seed 
 
