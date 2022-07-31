@@ -22,7 +22,7 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
