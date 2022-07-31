@@ -30,7 +30,7 @@ This way of encoding categorical features is called "one-hot encoding".
 We'll learn more about it in Session 3. 
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)

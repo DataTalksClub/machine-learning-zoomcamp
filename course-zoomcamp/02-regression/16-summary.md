@@ -21,7 +21,7 @@ were explained using the problem to predict the price of cars.
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
