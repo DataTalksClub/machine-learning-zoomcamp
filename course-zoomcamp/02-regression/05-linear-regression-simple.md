@@ -11,7 +11,7 @@
 Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is 
 the feature matrix and a y vector of predictions is obtained, trying to be as close as possible to the actual y values. The LR formula is the sum of the 
 bias term (WO), which refers to the predictions if there is no information, and each of the feature values times their corresponding weights. We need to 
-assure that the result is showed on the untransformed scale. 
+assure that the result is shown on the untransformed scale. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
 
@@ -25,7 +25,7 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
