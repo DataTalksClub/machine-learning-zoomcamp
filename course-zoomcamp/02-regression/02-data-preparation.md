@@ -16,7 +16,7 @@
 * df.columns.str.lower() - lowercase all the letters 
 * df.columns.str.replace(' ', '_') - replace the space separator 
 * df.dtypes - retrieve data types of all features 
-* df.index - retrive indices of a dataframe
+* df.index - retrieve indices of a dataframe
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
@@ -30,7 +30,7 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)
