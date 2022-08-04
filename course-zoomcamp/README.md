@@ -235,3 +235,14 @@ If you liked this course, you'll like other courses from us:
 * [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
 * [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
 
+
+
+## Supporters and partners
+
+Thanks to our friends for spreading the word about the course
+
+<p align="center">
+  <a href="https://dphi.tech/">
+    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
+  </a>
+</p>
