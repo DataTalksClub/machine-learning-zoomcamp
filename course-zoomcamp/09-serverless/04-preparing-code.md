@@ -23,7 +23,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 9: Serverless Deep Learning](./)

@@ -21,7 +21,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 6: Decision Trees and Ensemble Learning](./)

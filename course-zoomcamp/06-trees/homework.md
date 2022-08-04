@@ -186,7 +186,7 @@ It's possible that your answers won't match exactly. If it's the case, select th
 The deadline for submitting is 20 October 2021, 17:00 CET (Wednesday). After that, the form will be closed.
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 6: Decision Trees and Ensemble Learning](./)

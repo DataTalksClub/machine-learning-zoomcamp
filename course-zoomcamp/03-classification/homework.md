@@ -113,7 +113,7 @@ It's possible that your answers won't match exactly. If it's the case, select th
 The deadline for submitting is 27 September 2021, 17:00 CET. After that, the form will be closed.
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)

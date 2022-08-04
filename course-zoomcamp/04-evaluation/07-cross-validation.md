@@ -42,7 +42,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 4: Evaluation Metrics for Classification](./)

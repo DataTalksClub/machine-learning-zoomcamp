@@ -95,7 +95,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

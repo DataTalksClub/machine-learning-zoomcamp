@@ -23,7 +23,7 @@ In this case, the predictions of validation and test were similar, which means t
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)

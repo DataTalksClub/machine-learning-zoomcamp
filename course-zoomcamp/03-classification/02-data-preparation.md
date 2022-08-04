@@ -39,7 +39,7 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)
