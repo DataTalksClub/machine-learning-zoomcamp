@@ -32,7 +32,7 @@ Also make sure to use the following versions
 - kindest/node image: 1.21.1 (via `kind create cluster  --image kindest/node:v1.21.1`)       
 - kserve=0.8 (via https://raw.githubusercontent.com/kserve/kserve/release-0.8/hack/quick_install.sh)     
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 11: KServe](./)

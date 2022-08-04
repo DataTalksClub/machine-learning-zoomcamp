@@ -24,7 +24,7 @@ Add notes from the video (PRs are welcome)
 ### Updated Instructions (13 July, 2022)   
 See [the instructions here](07-kserve-eks-upd.md)
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 11: KServe](./)

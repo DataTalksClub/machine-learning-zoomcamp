@@ -19,7 +19,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 10: Kubernetes and TensorFlow Serving](./)

@@ -3,7 +3,7 @@
 **TODO**
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)

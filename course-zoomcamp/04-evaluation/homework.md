@@ -157,7 +157,7 @@ The deadline for submitting is 04 October 2021, 17:00 CET. After that, the form 
 
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 4: Evaluation Metrics for Classification](./)

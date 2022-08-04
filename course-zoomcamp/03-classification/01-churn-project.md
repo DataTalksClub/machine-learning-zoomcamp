@@ -34,7 +34,7 @@ For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/te
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)

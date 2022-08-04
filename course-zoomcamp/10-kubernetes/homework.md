@@ -173,7 +173,7 @@ Submit your results here: https://forms.gle/bUdkQGgR2nLVFEhK8
 The deadline for submitting is 10 January 2022, 17:00 CET. After that, the form will be closed.
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 10: Kubernetes and TensorFlow Serving](./)

@@ -11,7 +11,7 @@
 * Calculate the metrics for the suggested datasets from the previous week
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 4: Evaluation Metrics for Classification](./)

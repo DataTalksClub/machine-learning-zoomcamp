@@ -77,7 +77,7 @@ brew list --version libomp
 to check that everything worked, it should now state `libomp 11.1.0`, and your code should now be able to run.
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 6: Decision Trees and Ensemble Learning](./)

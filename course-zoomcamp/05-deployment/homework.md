@@ -184,7 +184,7 @@ docker tag zoomcamp-test:latest  agrigorev/zoomcamp-model:3.8.12-slim
 docker push agrigorev/zoomcamp-model:3.8.12-slim
 ```
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

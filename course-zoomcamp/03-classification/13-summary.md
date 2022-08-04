@@ -21,7 +21,7 @@ In this session, we worked on a project to predict churning in customers from a 
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)

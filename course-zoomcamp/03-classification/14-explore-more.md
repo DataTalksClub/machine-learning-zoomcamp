@@ -19,7 +19,7 @@ Other projects
 * Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)

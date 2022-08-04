@@ -108,7 +108,7 @@ If your answer doesn't match options exactly, select the closest one.
 
 The deadline for submitting is 20 September 2021, 17:00 CET. After that, the form will be closed.
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)

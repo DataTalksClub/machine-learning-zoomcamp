@@ -148,7 +148,7 @@ If your answer doesn't match options exactly, select the closest one.
 The deadline for submitting is 22 November, 17:00 CET. After that, the form will be closed.
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)
