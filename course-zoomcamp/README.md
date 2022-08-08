@@ -38,9 +38,11 @@ Of course, you can take each module independently.
 * Prior programming experience (at least 1+ year)
 * Being comfortable with command line 
 * No prior exposure to machine learning is required
-* Nice to have: Python (but you can learn it during the course)
-* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
 
+Nice to have but not mandatory
+
+* Python (but you can learn it during the course)
+* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
 
 
 ## Previous cohorts
