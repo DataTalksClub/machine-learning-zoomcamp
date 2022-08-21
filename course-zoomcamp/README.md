@@ -50,6 +50,14 @@ Nice to have but not mandatory
 * Python (but you can learn it during the course)
 * Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
 
+## Asking questions
+
+The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel.
+
+To make discussions in Slack more organized:
+
+* Follow [these recommendations](asking-questions.md) when asking for help
+* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
 ## Previous cohorts
 
