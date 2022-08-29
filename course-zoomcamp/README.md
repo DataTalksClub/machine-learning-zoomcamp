@@ -12,6 +12,7 @@
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
 * [Course telegram channel](https://t.me/mlzoomcamp)
 
+
 ## Taking the course
 
 ### 2022 Cohort
@@ -24,6 +25,8 @@ We start the course again in September 2022
 * [Tweet about it](https://ctt.ac/XZ6b9)
 * Start date: September 5
 * If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
+* The homework
+
 
 ### Self-paced mode
 
@@ -58,12 +61,6 @@ To make discussions in Slack more organized:
 
 * Follow [these recommendations](asking-questions.md) when asking for help
 * Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
-
-## Previous cohorts
-
-### 2021 Cohort
-
-* [The 100 leaderboard](cohorts/2021/leaderboard.md)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -242,6 +239,14 @@ Writing an article about something not covered in the course.
 ## 14. [Third project](14-project) (optional)
 
 For those who love projects!
+
+
+## Previous cohorts
+
+### 2021 Cohort
+
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
+
 
 
 ## Our other courses
