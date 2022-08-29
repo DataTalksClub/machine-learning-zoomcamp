@@ -25,7 +25,7 @@ We start the course again in September 2022
 * [Tweet about it](https://ctt.ac/XZ6b9)
 * Start date: September 5
 * If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
-* The homework
+* All the materials specific to the 2022 will be in [the 2022 cohort folder](./cohorts/2021/) 
 
 
 ### Self-paced mode
@@ -245,8 +245,8 @@ For those who love projects!
 
 ### 2021 Cohort
 
+* [Homeworks](cohorts/2021)
 * [The 100 leaderboard](cohorts/2021/leaderboard.md)
-
 
 
 ## Our other courses
