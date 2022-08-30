@@ -2,6 +2,14 @@
 
 In this section, we'll prepare the environment
 
+
+## Ubuntu 22.04 on AWS
+
+* [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
+* This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
+* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
+
+
 ## Conda
 
 The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Anaconda comes with the most commonly used libraries preinstalled in the `base` environment, Miniconda is a smaller version of Anaconda that contains only Python. 
@@ -12,21 +20,22 @@ It is a good idea to set up a dedicated environment for the course (and do not u
 
 Follow the instructions on page for installing the correct package for your system (the site will automatically detect your operating system and suggest the correct package)
 
-Anaconda : https://www.anaconda.com/products/individual
-
-Miniconda: https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Miniconda](https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links)
 
 (If you are using Windows, you can use WSL instead and follow the installation instructions for linux)
 
 
 ### 2. Create environment for course:
+
 In your terminal, run this command
 
 ```bash
-conda create -n ml-zoomcamp python=3.8
+conda create -n ml-zoomcamp python=3.9
 ```
 
 ### 3. Activate the enviroment
+
 Do this whenever you are adding new packages for the course or working on coursework
 
 ```bash
@@ -41,26 +50,12 @@ Installing libraries available on conda
 conda install numpy pandas scikit-learn seaborn jupyter
 ```
 
-Optionally, if you want to use tensorflow locally with a GPU:
-
-```bash
-conda config --add channels conda-forge
-conda install cudatoolkit=11.2
-```
-
 Additional libraries only available on pypi:
 
 ```bash
 pip install xgboost 
 pip install tensorflow
 ```
-
-## Docker
-
-If you are comfortable using docker you can use the following guide:
-
-Code: [Setup using Docker](./environment/README.md)
-
 
 ## Cloud
 
@@ -105,6 +100,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
    
 This way you can start with the exercise using Kaggle
 
+
 ### Google Colab
 
 To use Google Colab to open and run the Jupyter notebooks provided as part of this course do the following:
@@ -116,6 +112,13 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
 2. To open the notebook in Google Colab, in your web browser launch paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
 
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
+
+
+## Docker
+
+If you are comfortable using docker you can use the following guide:
+
+Code: [Setup using Docker](./environment/README.md)
 
 
 ## Navigation
