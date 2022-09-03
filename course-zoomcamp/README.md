@@ -146,6 +146,11 @@ To make discussions in Slack more organized:
 - 5.10 [Homework](05-deployment/homework.md)
 
 
+## 5b. Bento ML
+
+More information coming soon! 
+
+
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
 - 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
@@ -259,6 +264,14 @@ If you liked this course, you'll like other courses from us:
 
 
 ## Supporters and partners
+
+Thanks to the course sponsors for making it possible to create this course
+
+<p align="center">
+  <a href="https://www.bentoml.com/">
+    <img height="100" src="../images/bentoml.png">
+  </a>
+</p>
 
 Thanks to our friends for spreading the word about the course
 
