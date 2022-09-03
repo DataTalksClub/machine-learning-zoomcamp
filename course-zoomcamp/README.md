@@ -21,6 +21,7 @@ We start the course again in September 2022
 
 * [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
 * Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Join the [course telegram channel](https://t.me/mlzoomcamp)
 * Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * [Tweet about it](https://ctt.ac/XZ6b9)
 * Start date: September 5
