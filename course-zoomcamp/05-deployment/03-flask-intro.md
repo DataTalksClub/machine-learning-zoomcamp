@@ -22,7 +22,7 @@ In this session we talked about what is a web service and how to create a simple
     -  **DELETE:** DELETE is a method that is used to request to delete some data from the server.
     -  For more information just google the HTTP methods, You'll find useful information about this.
 - To create a simple web service, there are plenty libraries available in every language. Here we would like to introduce Flask library in python.
-  - If you haven't install the library just try installing it with the ```pip install Flask```
+  - If you haven't installed the library just try installing it with the code ```pip install Flask```
   - To create a simple web service just run the code below:
   - ```
     from flask import Flask
@@ -35,7 +35,7 @@ In this session we talked about what is a web service and how to create a simple
        app.run('debug=True, host='0.0.0.0', port=9696) # run the code in local machine with the debugging mode true and port 9696
     ```
    - With the code above we made a simple web server and created a route named ping that would send pong string.
-   - to test it just open your browser and search ```localhost:9696/ping```, You'll see that the 'PONG' string is received. Congrats You've made a simple web server 🥳.
+   - To test it just open your browser and search ```localhost:9696/ping```, You'll see that the 'PONG' string is received. Congrats You've made a simple web server 🥳.
 - To use our web server to predict new values we must modify it. See how in the next session. 
 
 Add notes from the video (PRs are welcome)
