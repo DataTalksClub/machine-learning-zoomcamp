@@ -18,7 +18,7 @@
        pickle.dump((dcit_vectorizer, model), f_out)
     f_out.close() ## After opening any file it's nessecery to close it
       ```
-  - In the code above we'll making a binary file named model.bin and writing the dict_vectorizer for one hot encoding and mode as array in it. (We will save it as binary in case it wouldn't be readable by humans)
+  - In the code above we'll making a binary file named model.bin and writing the dict_vectorizer for one hot encoding and model as array in it. (We will save it as binary in case it wouldn't be readable by humans)
   - To be able to use the model in future without running the code, We need to open the binary file we saved before.
   - ```
     with open('mode.bin', 'rb') as f_in:  ## Note that never open a binary file you do not trust!
