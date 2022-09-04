@@ -266,7 +266,7 @@ If you liked this course, you'll like other courses from us:
 
 ## Supporters and partners
 
-Thanks to the course sponsors for making it possible to create this course
+Thanks to the course sponsors for making it possible to run this course
 
 <p align="center">
   <a href="https://www.bentoml.com/">
