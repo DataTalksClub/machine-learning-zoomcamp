@@ -17,9 +17,8 @@ np.__version__
 
 ### Getting the data 
 
-For this homework, we'll use the same dataset as for the next session - the car price dataset.
-
-Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv).
+For this homework, we'll use the Car price dataset. Download it from 
+[here](https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv).
 
 You can do it with wget:
 
@@ -30,7 +29,6 @@ wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/cha
 Or just open it with your browser and click "Save as...".
 
 Now read it with Pandas.
-
 
 ### Question 2
 
@@ -43,7 +41,6 @@ Here you need to specify the number of rows.
 - 11914
 - 18990
 
-
 ### Question 3
 
 Who are the most popular car manufacturers (top-3) according to the dataset?
@@ -53,25 +50,23 @@ Who are the most popular car manufacturers (top-3) according to the dataset?
 - Ford, Volkswagen, Toyota
 - Chevrolet, Ford, Volkswagen
 
-
 ### Question 4
 
 What's the number of unique Audi car models in the dataset?
 
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+- 3
+- 16
+- 26
+- 34
 
 ### Question 5
 
 How many columns in the dataset have missing values?
 
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+- 5
+- 6
+- 7
+- 8
 
 ### Question 6
 
@@ -82,14 +77,10 @@ How many columns in the dataset have missing values?
 
 Has it changed?
 
-Hint: refer to existing `mode` and `median` functions to complete the task.
+> Hint: refer to existing `mode` and `median` functions to complete the task.
 
-
-- Option 1
-- Option 2
-- Option 3
-- Option 4
-
+- Yes
+- No
 
 ### Question 7
 
@@ -101,14 +92,14 @@ Hint: refer to existing `mode` and `median` functions to complete the task.
 * Invert `XTX`.
 * Create an array `y` with values `[1100, 800, 750, 850, 1300, 1000, 1000, 1300, 800]`.
 * Multiply the inverse of `XTX` with the transpose of `X`, and then multiply the result by `y`. Call the result `w`.
-* What's the value of the first element of `w`?.
+* What's the value of the first element of `w`?
 
 > **Note**: You just implemented linear regression. We'll talk about it in the next lesson.
 
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+- -0.0723
+- 4.5949
+- 31.6537
+- 63.5643
 
 
 ## Submit the results
