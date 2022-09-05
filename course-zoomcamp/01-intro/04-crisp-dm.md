@@ -18,7 +18,7 @@ CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s
 
 It is important to consider how well maintainable the project is.
   
-In general, ML projects require many iterations.
+In general, ML projects require many iterations.\
 **Iteration:** 
 * Start simple
 * Learn from the feedback
