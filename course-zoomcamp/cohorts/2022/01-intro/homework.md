@@ -104,12 +104,14 @@ Has it changed?
 
 ## Submit the results
 
-Submit your results here: **TBA**.
+Submit your results here: https://forms.gle/vLp3mvtnrjJxCZx66
 
 If your answer doesn't match options exactly, select the closest one.
 
 
 ## Deadline
 
-The deadline for submitting is **TBA**. After that, the form will be closed.
+The deadline for submitting is 12 September 2022 (Monday), 23:00 CEST (Berlin time).
+
+After that, the form will be closed.
 
