@@ -2,7 +2,8 @@
 
 ### Set up the environment
 
-You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from [06-environment.md](06-environment.md).
+You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from
+[06-environment.md](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/06-environment.md).
 
 ### Question 1
 
@@ -30,23 +31,47 @@ Or just open it with your browser and click "Save as...".
 
 Now read it with Pandas.
 
+
 ### Question 2
 
 How many records are in the dataset?
 
 Here you need to specify the number of rows.
 
+- 16
+- 6572
+- 11914
+- 18990
+
+
 ### Question 3
 
 Who are the most popular car manufacturers (top-3) according to the dataset?
+
+- Chevrolet, Volkswagen, Toyota
+- Chevrolet, Ford, Toyota
+- Ford, Volkswagen, Toyota
+- Chevrolet, Ford, Volkswagen
+
 
 ### Question 4
 
 What's the number of unique Audi car models in the dataset?
 
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
 ### Question 5
 
 How many columns in the dataset have missing values?
+
+
+- Option 1
+- Option 2
+- Option 3
+- Option 4
 
 ### Question 6
 
@@ -58,6 +83,13 @@ How many columns in the dataset have missing values?
 Has it changed?
 
 Hint: refer to existing `mode` and `median` functions to complete the task.
+
+
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
 
 ### Question 7
 
@@ -73,6 +105,11 @@ Hint: refer to existing `mode` and `median` functions to complete the task.
 
 > **Note**: You just implemented linear regression. We'll talk about it in the next lesson.
 
+- Option 1
+- Option 2
+- Option 3
+- Option 4
+
 
 ## Submit the results
 
@@ -85,9 +122,3 @@ If your answer doesn't match options exactly, select the closest one.
 
 The deadline for submitting is **TBA**. After that, the form will be closed.
 
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Summary](10-summary.md)
