@@ -9,32 +9,39 @@
 
 **[1. Introduction to Machine Learning](01-intro/)**
 
+* [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
 * Homework solution - to be added
 * Office hours - to be added
 
 **2. Machine Learning for Regression**
 
+* [Module materials](../../02-regression)
 * TBA
 
 **3. Machine Learning for Classification**
 
+* [Module materials](../../03-classification)
 * TBA
 
 **4. Evaluation Metrics for Classification**
 
+* [Module materials](../../04-evaluation)
 * TBA
 
 **5. Deploying Machine Learning Models**
 
+* [Module materials](../../05-deployment)
 * TBA
 
 **5b. Bento ML**
 
+* [Module materials - TBA](../../05-deployment)
 * TBA
 
 **6. Decision Trees and Ensemble Learning**
 
+* [Module materials](../../06-trees)
 * TBA
 
 **7. Midterm Project**
@@ -43,15 +50,23 @@
 
 **8. Neural Networks and Deep Learning**
 
+* [Module materials](../../08-deep-learning)
 * TBA
 
 **9. Serverless Deep Learning**
 
+* [Module materials](../../09-serverless)
 * TBA
 
 **10. Kubernetes and TensorFlow Serving**
 
+* [Module materials](../../10-kubernetes)
 * TBA
+
+**11. KServe (optional)**
+
+* [Module materials](../../11-kserve)
+* No homework
 
 **12. Capstone Project**
 
