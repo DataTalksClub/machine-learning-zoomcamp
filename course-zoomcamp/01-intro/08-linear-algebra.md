@@ -10,9 +10,9 @@
 ### Linear Algebra Refresher
 * Vector operations
 * Multiplication
-      - Vector-vector multiplication
-      - Matrix-vector multiplication
-      - Matrix-matrix multiplication
+  * Vector-vector multiplication
+  * Matrix-vector multiplication
+  * Matrix-matrix multiplication
 * Identity matrix
 * Inverse
 
