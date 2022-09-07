@@ -3,6 +3,14 @@
 In this section, we'll prepare the environment
 
 
+You need:
+
+* Python 3.9 (note that videos use 3.8)
+* NumPy, Pandas and Scikit-Learn (latest available versions) 
+* Matplotlib and Seaborn
+* Jupyter notebooks
+
+
 ## Ubuntu 22.04 on AWS
 
 * [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
@@ -10,52 +18,49 @@ In this section, we'll prepare the environment
 * You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
 
 
-## Conda
+## Anaconda and Conda
 
-The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Anaconda comes with the most commonly used libraries preinstalled in the `base` environment, Miniconda is a smaller version of Anaconda that contains only Python. 
+The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
-It is a good idea to set up a dedicated environment for the course (and do not use this environment for other projects)
+Anaconda comes with everything we need (and much more). 
+Miniconda is a smaller version of Anaconda that contains only Python. 
 
-### 1. Download and install correct binary for your system
-
-Follow the instructions on page for installing the correct package for your system (the site will automatically detect your operating system and suggest the correct package)
+Follow the instructions on page for installing the correct package for your system.
+The site will automatically detect your operating system and suggest the correct package.
 
 * [Anaconda](https://www.anaconda.com/products/individual)
 * [Miniconda](https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links)
 
-(If you are using Windows, you can use WSL instead and follow the installation instructions for linux)
+If you are using Windows, you can use WSL, but the plain Windows version should work too.
+
+Anaconda is recommended.
 
 
-### 2. Create environment for course:
+### (Optional) Create environment for course
 
-In your terminal, run this command
+It is a good idea to set up a dedicated environment for the course 
+
+In your terminal, run this command to create the environment
 
 ```bash
 conda create -n ml-zoomcamp python=3.9
 ```
 
-### 3. Activate the enviroment
-
-Do this whenever you are adding new packages for the course or working on coursework
+Activate it:
 
 ```bash
 conda activate ml-zoomcamp
 ```
 
-### 4. Install libraries
-
-Installing libraries available on conda
+Installing libraries
 
 ```bash
 conda install numpy pandas scikit-learn seaborn jupyter
 ```
 
-Additional libraries only available on pypi:
-
-```bash
-pip install xgboost 
-pip install tensorflow
-```
+Later in the course you will also need to install XGBoost and Tensforflow,
+but we can skip this part for now.
 
 ## Cloud
 
@@ -67,6 +72,19 @@ You can rent an instance on AWS:
 
 * [Creating an AWS account](https://mlbookcamp.com/article/aws)
 * [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
+
+
+### GCP
+
+Google cloud platform offers $300 in free credits when you sign up.
+You can use this for taking the course.
+
+
+## Notebook services
+
+There are services that allow you to host and run notebooks.
+Note that notebooks alone are not sufficient for the course and for the deployment modules
+you will need to have access to the command line interface with Docker, Python and other libraries installed.
 
 ### Kaggle
 
