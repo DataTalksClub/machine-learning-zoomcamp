@@ -50,6 +50,8 @@ Who are the most popular car manufacturers (top-3) according to the dataset?
 - Ford, Volkswagen, Toyota
 - Chevrolet, Ford, Volkswagen
 
+> **Note**: You should rely on "Make" column in this question.
+
 ### Question 4
 
 What's the number of unique Audi car models in the dataset?
