@@ -43,7 +43,7 @@ Here you need to specify the number of rows.
 
 ### Question 3
 
-Who are the most popular car manufacturers (top-3) according to the dataset?
+Who are the most frequent car manufacturers (top-3) according to the dataset?
 
 - Chevrolet, Volkswagen, Toyota
 - Chevrolet, Ford, Toyota
