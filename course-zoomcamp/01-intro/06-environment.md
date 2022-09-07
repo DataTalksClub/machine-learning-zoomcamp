@@ -114,15 +114,6 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
 
 
-## Docker
-
-If you are comfortable using docker you can use the following guide:
-
-Code: [Setup using Docker](./environment/README.md)
-
-> Note: this is for advanced users of Docker only. If you know Docker and you know what you're doing,
-> check this tutorials. Otherwise, go with [the suggested approach](#ubuntu-2204-on-aws)
-
 
 ## Navigation
 
