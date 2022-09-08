@@ -11,7 +11,7 @@ In Supervised Machine Learning (SML) there are always labels associated with cer
 The model is trained, and then it can make predictions on new features. In this way, the model
 is taught by certain features and targets. 
 
-* **Feature matrix (X):** made of observations (rows) and features (columns).
+* **Feature matrix (X):** made of observations or objects (rows) and features (columns).
 * **Target variable (y):** a vector with the target information we want to predict. For each row of X there's a value in y.
 
 
@@ -21,7 +21,7 @@ The obtention of the g function is what it is called **training**.
 
 ### Types of SML problems 
 
-* **Regression:** the output is a number (car's prize)
+* **Regression:** the output is a number (car's price)
 * **Classification:** the output is a category (spam example). 
 	* **Binary:** there are two categories. 
 	* **Multiclass problems:** there are more than two categories. 
