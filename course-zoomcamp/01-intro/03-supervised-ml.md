@@ -13,6 +13,25 @@ is taught by certain features and targets.
 
 * **Feature matrix (X):** made of observations (rows) and features (columns).
 * **Target variable (y):** a vector with the target information we want to predict. For each row of X there's a value in y.
+### Notations
+$x^{i}_{j} =$ **a vector or an array**
+$x^{i}_{j} \in R^{d}$
+$ x^{(i)} =$ **nth vector or array**
+$ x_{j} = $ **nth element in a vector / array**
+
+$x^{(1)} = [1, 1, 0, 0, 1, 1] $
+$x^{1}_{2} = 1$ 
+
+$\begin{aligned} 
+   X = [[1, 1, 0, 0, 1, 1], \\
+   [0, 0, 0, 1, 0, 1],\\
+   [1, 1, 1, 0, 1, 0], \\  
+   [1, 0, 0, 0, 0, 1], \\
+   [0, 0, 0, 1, 1, 0], \\
+   [1, 0, 1, 0, 1, 1]] \\
+\end{aligned}$
+$ y = [1, 0, 1, 1, 0, 0] $
+$ g(X) \approx y $
 
 
 The model can be represented as a function **g** that takes the X matrix as a parameter and tries
