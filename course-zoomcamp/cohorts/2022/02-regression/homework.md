@@ -23,7 +23,7 @@ For the rest of the homework, you'll need to use only these columns:
 * `'total_bedrooms'`,
 * `'population'`,
 * `'households'`,
-*  'median_income',
+* `'median_income'`,
 * `'median_house_value'`
 
 Select only them.
@@ -31,12 +31,18 @@ Select only them.
 ### Question 1
 
 Find a feature with missing values. How many missing values does it have?
-
+- 207
+- 208
+- 307
+- 308
 
 ### Question 2
 
 What's the median (50% percentile) for variable 'population'?
-
+- 1133
+- 1122
+- 1166
+- 1188
 
 ### Split the data
 
@@ -44,7 +50,6 @@ What's the median (50% percentile) for variable 'population'?
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
 * Make sure that the target value ('median_house_value') is not in your dataframe.
 * Apply the log transformation to the median_house_value variable using the `np.log1p()` function.
-
 
 ### Question 3
 
@@ -56,6 +61,11 @@ What's the median (50% percentile) for variable 'population'?
 * Round the RMSE scores to 2 decimal digits using `round(score, 2)`
 * Which option gives better RMSE?
 
+Options:
+- With 0
+- With mean
+- With median
+- Both are equally good
 
 ### Question 4
 
@@ -68,6 +78,11 @@ What's the median (50% percentile) for variable 'population'?
 
 If there are multiple options, select the smallest `r`.
 
+Options:
+- 0
+- 0.000001
+- 0.001
+- 0.01
 
 ### Question 5 
 
@@ -79,12 +94,16 @@ If there are multiple options, select the smallest `r`.
 * What's the standard deviation of all the scores? To compute the standard deviation, use `np.std`.
 * Round the result to 3 decimal digits (`round(std, 3)`)
 
-
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
 > If it's high, the values are different. 
 > If standard deviation of scores is low, then our model is *stable*.
 
+Options:
+- 0.5
+- 0.05
+- 0.005
+- 0.0005
 
 ### Question 6
 
@@ -92,6 +111,12 @@ If there are multiple options, select the smallest `r`.
 * Combine train and validation datasets.
 * Fill the missing values with 0 and train a model with `r=0.001`. 
 * What's the RMSE on the test dataset?
+
+Options:
+- 0.35
+- 0.035
+- 0.45
+- 0.045
 
 
 ## Submit the results
@@ -102,11 +127,4 @@ If your answer doesn't match options exactly, select the closest one.
 
 ## Deadline
 
-
-The deadline for submitting is , 17:00 CET. After that, the form will be closed.
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Explore more](17-explore-more.md)
+The deadline for submitting is, 19 September 2022, 23:00 CET. After that, the form will be closed.
