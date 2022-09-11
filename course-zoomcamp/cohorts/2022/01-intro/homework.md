@@ -74,7 +74,7 @@ How many columns in the dataset have missing values?
 
 1. Find the median value of "Engine Cylinders" column in the dataset.
 2. Next, calculate the most frequent value of the same "Engine Cylinders".
-3. Use the `fillna` method to fill the missing values in "Engine Cylinders" with the most frequent value from the previous step.
+3. Use the `fillna` method to fill the missing values in "Engine Cylinders" with the most frequent value from the previous step. Please use 'inplace=Ture' to apply the filling method on the column.
 4. Now, calculate the median value of "Engine Cylinders" once again.
 
 Has it changed?
