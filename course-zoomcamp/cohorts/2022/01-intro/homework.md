@@ -74,7 +74,7 @@ How many columns in the dataset have missing values?
 
 1. Find the median value of "Engine Cylinders" column in the dataset.
 2. Next, calculate the most frequent value of the same "Engine Cylinders".
-3. Use the `fillna` method to fill the missing values in "Engine Cylinders" with the most frequent value from the previous step.
+3. Use the `fillna` method to fill the missing values in "Engine Cylinders" with the most frequent value from the previous step. Please use 'inplace=Ture' to apply the filling method on the column.
 4. Now, calculate the median value of "Engine Cylinders" once again.
 
 Has it changed?
@@ -89,14 +89,17 @@ Has it changed?
 1. Select all the "Lotus" cars from the dataset.
 2. Select only columns "Engine HP", "Engine Cylinders".
 3. Now drop all duplicated rows using `drop_duplicates` method (you should get a dataframe with 9 rows).
-4. Get the underlying NumPy array. Let's call it `X`.
+4. Get the underlying NumPy array. Let's call it `X`. (Note that here, it is assumed that ther is no intercept in our linear regression. In other words, the coefficient of intercept is zero, so no need to add a one column to the `X` matrix.)
 5. Compute matrix-matrix multiplication between the transpose of `X` and `X`. To get the transpose, use `X.T`. Let's call the result `XTX`.
-6. Invert `XTX`.
-7. Create an array `y` with values `[1100, 800, 750, 850, 1300, 1000, 1000, 1300, 800]`.
-8. Multiply the inverse of `XTX` with the transpose of `X`, and then multiply the result by `y`. Call the result `w`.
-9. What's the value of the first element of `w`?
+6. Compute the inverse of matrix `XTX`.
+7. Use matrix-matrix multiplication to multiply the inverse of `XTX` with the transpose of `X`. Let's call it `H`.
+8. Create an array `y` with values `[1100, 800, 750, 850, 1300, 1000, 1000, 1300, 800]`.
+9. Multiply `H` with `y`. Call the result `w`. Now, `w` shows us the coeffints of the features in our regression model.
+10. What's the value of the first element of `w`?
 
 > **Note**: You just implemented linear regression. We'll talk about it in the next lesson.
+> **Note**: You can use `np.linagl.inv` to compute the inverse of a matrix.
+> **Note**: Use `np.matmul` to compute matrix by matrix multiplication.
 
 - -0.0723
 - 4.5949
