@@ -32,9 +32,9 @@ Select only them.
 
 Find a feature with missing values. How many missing values does it have?
 - 207
-- 208
 - 307
-- 308
+- 408
+- 508
 
 ### Question 2
 
@@ -82,7 +82,7 @@ Options:
 - 0
 - 0.000001
 - 0.001
-- 0.01
+- 0.0001
 
 ### Question 5 
 
@@ -100,10 +100,10 @@ Options:
 > If standard deviation of scores is low, then our model is *stable*.
 
 Options:
-- 0.5
-- 0.05
+- 0.16
+- 0.00005
 - 0.005
-- 0.0005
+- 0.15555
 
 ### Question 6
 
@@ -114,9 +114,9 @@ Options:
 
 Options:
 - 0.35
-- 0.035
-- 0.45
-- 0.045
+- 0.135
+- 0.450
+- 0.245
 
 
 ## Submit the results
