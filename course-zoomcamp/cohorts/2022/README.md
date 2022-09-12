@@ -1,8 +1,9 @@
 ## Machine Learning Zoomcamp 2022
 
-* Launch stream: **TODO**
+* [Launch stream with course overview](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 * [Course calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 * [Deadline calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiEznNaTrblegQtBwQ-zsoJY6Vh_XL7_rilGYugRuCFhBQfnJR7D-QArGlilAiF9qrkY5ED2n-9ibD/pubhtml)
+* [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 
 
 ### Syllabus
@@ -14,10 +15,13 @@
 * Homework solution - to be added
 * Office hours - to be added
 
-**2. Machine Learning for Regression**
+**[2. Machine Learning for Regression](02-regression/)**
 
 * [Module materials](../../02-regression)
-* TBA
+* [Homework](02-regression/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
+
 
 **3. Machine Learning for Classification**
 

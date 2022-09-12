@@ -1,17 +1,29 @@
 # Machine Learning Zoomcamp
 
-<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
+<img src="../images/zoomcamp.jpg" />
 
 
 <p align="center">
   <a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
 </p>
 
-* [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
-* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel
 * [Course telegram channel](https://t.me/mlzoomcamp)
+* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+* For the 2022 edition, see more info in the [2022 Cohort section](#2022-cohort)
 
+
+### Syllabus 
+
+- [Introduction to Machine Learning](#1-introduction-to-machine-learning)
+- [Machine Learning for Regression](#2-machine-learning-for-regression)
+- [Machine Learning for Classification](#3-machine-learning-for-classification)
+- [Evaluation Metrics for Classification](#4-evaluation-metrics-for-classification)
+- [Deploying Machine Learning Models](#5-deploying-machine-learning-models)
+- [Decision Trees and Ensemble Learning](#6-decision-trees-and-ensemble-learning)
+- [Neural Networks and Deep Learning](#8-neural-networks-and-deep-learning)
+- [Serverless Deep Learning](#9-serverless-deep-learning)
+- [Kubernetes and TensorFlow Serving](#10-kubernetes-and-tensorflow-serving)
 
 ## Taking the course
 
