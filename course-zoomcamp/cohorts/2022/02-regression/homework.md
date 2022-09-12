@@ -121,9 +121,9 @@ Options:
 
 ## Submit the results
 
-Submit your results here: https://forms.gle/WCVb4KMNsgbkuJtr6
-
-If your answer doesn't match options exactly, select the closest one.
+* Submit your results here: https://forms.gle/WCVb4KMNsgbkuJtr6
+* You can submit your solution multiple times. In this case, only the last submission will be used
+* If your answer doesn't match options exactly, select the closest one
 
 ## Deadline
 
