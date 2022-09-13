@@ -8,12 +8,18 @@
 
 ## Notes
 
-Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the feature matrix `X` and a `y` vector of predictions is obtained, trying to be as close as possible to the actual y values. The linear regression formula is the sum of the bias term ($w_0$), which refers to the predictions if there is no infromation, and each of the feature values times their corresponding weights ($x_{i1}.w_1 + x_{i2}.w_2 + ... + x_{in}.w_n$).
+Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the **feature matrix** `X` and a `y` **vector of predictions** is obtained, trying to be as close as possible to the **actual** `y` values. The linear regression formula is the sum of the bias term
+\(
+    $w_0$
+\), which refers to the predictions if there is no information, and each of the feature values times their corresponding weights as
+\(
+$x_{i1}.w_1 + x_{i2}.w_2 + ... + x_{in}.w_n$
+\).
 
 So the simple linear regression formula looks like this: $g(x_i) = w_0 + x_{i1}.w_1 + x_{i2}.w_2 + ... + x_{in}.w_n$
 
-Which can be simplify further:
-$g(x_i) = w_0 + \sum_{j=1}^{n}w_j.w_{ij}$
+Which can be further simplify:
+$g(x_i) = w_0 + \displaystyle\sum_{j=1}^{n} w_j.x_{ij}$
 
 We need to assure that the result is shown on the untransformed scale by using the inverse function `exp()`. 
 
