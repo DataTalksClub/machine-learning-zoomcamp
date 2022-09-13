@@ -13,7 +13,7 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
-* Homework solution - to be added
+* [Homework solution](01-intro/homework_1.ipynb)
 * Office hours - to be added
 
 **[2. Machine Learning for Regression](02-regression/)**
