@@ -1,6 +1,6 @@
 ## Session #1 Homework
 
-> **Solution**: [homework-1.ipynb](homework-1.ipynb).
+> **Solution**: [homework_1.ipynb](homework_1.ipynb).
 
 ### Set up the environment
 
