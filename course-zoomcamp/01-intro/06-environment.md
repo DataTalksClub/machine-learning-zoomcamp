@@ -59,7 +59,7 @@ Installing libraries
 conda install numpy pandas scikit-learn seaborn jupyter
 ```
 
-Later in the course you will also need to install XGBoost and Tensforflow,
+Later in the course you will also need to install XGBoost and Tensorflow,
 but we can skip this part for now.
 
 ## Cloud
