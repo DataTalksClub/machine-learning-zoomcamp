@@ -64,7 +64,6 @@ What's the median (50% percentile) for variable 'population'?
 Options:
 - With 0
 - With mean
-- With median
 - Both are equally good
 
 ### Question 4
