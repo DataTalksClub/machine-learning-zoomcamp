@@ -113,6 +113,7 @@ Add notes here (PRs are welcome).
 ## Links
 
 * [Notebook from the video](notebooks/08-linear-algebra.ipynb)
+* [Get a visual understanding of matrix multiplication](http://matrixmultiplication.xyz/)
 
 
 ## Navigation
