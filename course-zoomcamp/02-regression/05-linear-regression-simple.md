@@ -13,8 +13,8 @@ Model for solving regression tasks, in which the objective is to adjust a line f
 So the simple linear regression formula looks like: 
 $g(x_i) = w_0 + x_{i1} \cdot w_1 + x_{i2} \cdot w_2 + ... + x_{in} \cdot w_n$.
 
-And that can be further simplify: $g(x_i) = w_0 + \displaystyle\sum_{j=1}^{n} w_j \cdot x_{ij}$\
-Here is a simple implementation of Linear Regression in python:\
+And that can be further simplify: $g(x_i) = w_0 + \displaystyle\sum_{j=1}^{n} w_j \cdot x_{ij}$<br>
+Here is a simple implementation of Linear Regression in python:<br>
 ~~~~python
 w0 = 7.1
 def linear_regression(xi):
