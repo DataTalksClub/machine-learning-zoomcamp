@@ -13,7 +13,11 @@ LR equation. The feature matrix does not
 have an inverse because it is not square, so it is required to obtain an approximate solution, which can be
 obtained using the **Gram matrix** 
 (multiplication of feature matrix and its transpose). The vector of weights or coefficients obtained with this
-formula is the closest possible solution to the LR system.
+formula is the closest possible solution to the LR system.<br>
+<br>
+The formula for obatining the weights vestor is:<br>
+### w = (XTX)<sup>-1</sup>X<sup>T</sup>y <br>
+where XTX is the Gram matrix of feature matrix.
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
 
