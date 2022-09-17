@@ -13,7 +13,9 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
-* Homework solution: [notebook](01-intro/homework_1.ipynb) + [video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs&index=3)
+* Homework solution:
+  * [Notebook](01-intro/homework_1.ipynb)
+  * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 * [Office hours](https://www.youtube.com/watch?v=VojpszKmKw8)
 
 **[2. Machine Learning for Regression](02-regression/)**
