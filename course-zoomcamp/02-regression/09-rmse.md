@@ -12,7 +12,10 @@
 * Root Mean Squared Error (RMSE) is a way to evaluate regression models. It measures the error associated with the model being evaluated. This numerical figure then can be used to compare the models, enabling us to choose the one that gives the best predictions.
 
 $$RMSE = \sqrt{ \frac{1}{m} \sum {(g(x_i) - y_i)^2}}$$
-$g(x_i)$ is the prediction, $y_i$ is the actual, $m$ is the number of observations in the dataset (i.e. cars)
+
+- $g(x_i)$ is the prediction
+- $y_i$ is the actual
+- $m$ is the number of observations in the dataset (i.e. cars)
 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
