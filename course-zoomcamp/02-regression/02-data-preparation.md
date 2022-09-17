@@ -10,7 +10,7 @@
 
 **Pandas attributes and methods:** 
 
-* pd.read.csv() - read csv files 
+* pd.read_csv(<file_path_string>) - read csv files 
 * df.head() - take a look of the dataframe 
 * df.columns - retrieve colum names of a dataframe 
 * df.columns.str.lower() - lowercase all the letters 
