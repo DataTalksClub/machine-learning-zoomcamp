@@ -8,9 +8,11 @@
 
 ## Notes
 
-The LR model obtained in the previous section was used with the dataset of car price prediction. For this model, only the numerical variables were considered. 
-The training data was pre-processed, replacing the NaN values with 0, in such a way that these values were omitted by the model. Then, the model was trained 
-and it allowed to make predictions on new data. Finally, distributions of y target variable and predictions were compared by plotting their histograms. 
+* In this lesson we build a baseline model and apply the `df_train` dataset to derive weights for the bias (w0) and the features (w). For this, we use the `train_linear_regression(X, y)` function from the previous lesson.
+* Linear regression only applies to numerical features. Therefore, only the numerical features from `df_train` are used for the feature matrix. 
+* We notice some of the features in `df_train` are `nan`. We set them to `0` for the sake of simplicity, so the model is solvable, but it will be appropriate if a non-zeo value is used as the filler (e.g. mean value of the feature).
+* Once the weights are calculated, then we apply them on  $$\\\\ \large g(X) = w_0 + X \cdot w$$ to derive the predicted y vector.
+* Then we plot both predicted y and the actual y on the same histogram for a visual comparison.
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
 
