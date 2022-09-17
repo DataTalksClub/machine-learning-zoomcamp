@@ -38,7 +38,7 @@ For the rest of the homework, you'll need to use only these columns:
 What is the most frequent observation (mode) for the column `ocean_proximity`?
 
 
-## Split the data
+### Split the data
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
 * Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
 * Make sure that the target value (`median_house_value`) is not in your dataframe.
@@ -70,7 +70,7 @@ Options:
 ### Question 4
 
 * Now let's train a logistic regression
-* Remember that we have one categorical *variable* `ocean_proximity` in the data. Include them using one-hot encoding.
+* Remember that we have one categorical variable `ocean_proximity` in the data. Include it using one-hot encoding.
 * Fit the model on the training dataset.
     - To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
     - `model = LogisticRegression(solver="liblinear", C=1.0, max_iter=1000, random_state=42)`
