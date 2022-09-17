@@ -27,20 +27,21 @@ For the rest of the homework, you'll need to use only these columns:
 * `'median_house_value'`
 * `'ocean_proximity'`,
 
-Select only them and fill in the missing values with 0.
-
-### Question 1
-
-What is the most frequent observation (mode) for the column 'ocean_proximity'?
-
-
-## Split the data
+* Select only them and fill in the missing values with 0.
 * Create a new column `rooms_per_household` by dividing the column `total_rooms` by the column `households` from dataframe. 
 * Create a new column `bedrooms_per_room` by dividing the column `total_bedrooms` by the column `total_rooms` from dataframe. 
 * Create a new column `population_per_household` by dividing the column `population` by the column `households` from dataframe. 
+
+
+### Question 1
+
+What is the most frequent observation (mode) for the column `ocean_proximity`?
+
+
+## Split the data
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
 * Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
-* Make sure that the target value ('median_house_value') is not in your dataframe.
+* Make sure that the target value (`median_house_value`) is not in your dataframe.
 
 ### Question 2
 
@@ -48,9 +49,10 @@ What is the most frequent observation (mode) for the column 'ocean_proximity'?
     - In a correlation matrix, you compute the correlation coefficient between every pair of features in the dataset.
 * What are the two features that have the biggest correlation in this dataset?
 
+
 ### Make `median_house_value` binary
 * We need to turn the `median_house_value` variable from numeric into binary.
-* Let's create a variable `above_average` which is `1` if the median_house_value is above its mean value and 0 otherwise.
+* Let's create a variable `above_average` which is `1` if the `median_house_value` is above its mean value and `0` otherwise.
 
 ### Question 3
 
@@ -59,7 +61,7 @@ What is the most frequent observation (mode) for the column 'ocean_proximity'?
 * Round it to 2 decimal digits using `round(score, 2)`
 
 Options:
-- 0.163
+- 0.263
 - 0.00001
 - 0.101
 - 0.15555
@@ -68,7 +70,7 @@ Options:
 ### Question 4
 
 * Now let's train a logistic regression
-* Remember that we have one categorical variables in the data. Include them using one-hot encoding.
+* Remember that we have one categorical *variable* `ocean_proximity` in the data. Include them using one-hot encoding.
 * Fit the model on the training dataset.
     - To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
     - `model = LogisticRegression(solver="liblinear", C=1.0, max_iter=1000, random_state=42)`
@@ -79,6 +81,7 @@ Options:
 - 0.72
 - 0.84
 - 0.95
+
 
 ### Question 5 
 
