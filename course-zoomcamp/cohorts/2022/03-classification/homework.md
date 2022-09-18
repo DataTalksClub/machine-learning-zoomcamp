@@ -78,7 +78,7 @@ Options:
 ### Question 4
 
 * Now let's train a logistic regression
-* Remember that we have one categorical *variable* `ocean_proximity` in the data. Include them using one-hot encoding.
+* Remember that we have one categorical variable `ocean_proximity` in the data. Include it using one-hot encoding.
 * Fit the model on the training dataset.
     - To make sure the results are reproducible across different versions of Scikit-Learn, fit the model with these parameters:
     - `model = LogisticRegression(solver="liblinear", C=1.0, max_iter=1000, random_state=42)`
