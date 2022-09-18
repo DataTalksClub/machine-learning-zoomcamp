@@ -1,6 +1,9 @@
 ## Session #1 Homework
 
-> **Solution**: [homework_1.ipynb](homework_1.ipynb).
+> **Solution**:
+> * [Notebook](homework_1.ipynb)
+> * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+
 
 ### Set up the environment
 
