@@ -37,8 +37,15 @@ For the rest of the homework, you'll need to use only these columns:
 
 What is the most frequent observation (mode) for the column `ocean_proximity`?
 
+Options:
+* `NEAR BAY`
+* `<1H OCEAN`
+* `INLAND`
+* `NEAR OCEAN`
+
 
 ## Split the data
+
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
 * Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
 * Make sure that the target value (`median_house_value`) is not in your dataframe.
@@ -51,6 +58,7 @@ What is the most frequent observation (mode) for the column `ocean_proximity`?
 
 
 ### Make `median_house_value` binary
+
 * We need to turn the `median_house_value` variable from numeric into binary.
 * Let's create a variable `above_average` which is `1` if the `median_house_value` is above its mean value and `0` otherwise.
 
