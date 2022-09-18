@@ -5,7 +5,7 @@
 * [Deadline calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiEznNaTrblegQtBwQ-zsoJY6Vh_XL7_rilGYugRuCFhBQfnJR7D-QArGlilAiF9qrkY5ED2n-9ibD/pubhtml)
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 * [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml)
-
+* [Course Playlist: Only 2022 Live videos & homeworks](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 ### Syllabus
 
@@ -13,8 +13,10 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
-* [Homework solution](01-intro/homework_1.ipynb)
-* Office hours - to be added
+* Homework solution:
+  * [Notebook](01-intro/homework_1.ipynb)
+  * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Office hours](https://www.youtube.com/watch?v=VojpszKmKw8)
 
 **[2. Machine Learning for Regression](02-regression/)**
 
