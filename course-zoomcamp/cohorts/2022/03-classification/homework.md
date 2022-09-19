@@ -56,6 +56,12 @@ Options:
     - In a correlation matrix, you compute the correlation coefficient between every pair of features in the dataset.
 * What are the two features that have the biggest correlation in this dataset?
 
+Options:
+* `total_bedrooms` and `households`
+* `total_bedrooms` and `total_rooms`
+* `population` and `households`
+* `population_per_household` and `total_rooms`
+
 
 ### Make `median_house_value` binary
 
@@ -127,13 +133,13 @@ Options:
 
 ## Submit the results
 
-* Submit your results here: FORM LINK
+* Submit your results here: https://forms.gle/MTVZ1wrHEiHYprQV7
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 
 
 ## Deadline
 
-The deadline for submitting is (will be updated soon), Timezone.
+The deadline for submitting is 26 September (Monday), 23:00 CEST.
 
 After that, the form will be closed.
