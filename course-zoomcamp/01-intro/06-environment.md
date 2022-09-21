@@ -15,11 +15,11 @@ You need:
 |Name of ML platform| Supports basic ML: Chapter 1-4 | Supports deployment with docker locally: Chapter 5 | Supports docker deployment to Cloud: Chapter 9-11 | Guides |
 |-------|-------|-------|-------|------|
 |Windows - with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :x: | :x: | [Getting started with Anaconda](#Anaconda)|
-|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up WSL on windows](#Ubuntu_on_AWS)  
+|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up docker with WSL on windows](#Ubuntu_on_AWS)  
 |MacOS (Basically built on a Unix OS, so usually supports whatever Linux supports as Linux is a Unix-like OS)- with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#Anaconda)
-|Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Guide for using Anaconda](#Anaconda)
-|Work completely online & OS independent - Simple ML: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#Notebook_services)
-|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Advanced ML, esp deployment: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#Ubuntu_on_AWS)  
+|Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#Anaconda)
+|Work completely online & OS independent - Useful for simple ML and light-weight deep learning: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#Notebook_services)
+|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#Ubuntu_on_AWS)  
 
 
 ## [Anaconda and Conda](Anaconda)
@@ -133,7 +133,7 @@ You can rent an instance on AWS:
 
 * [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
 * This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
-* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
+* You can use these instructions for setting up docker with your local Ubuntu or Ubuntu in WSL 
 
 
 
