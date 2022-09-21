@@ -1,9 +1,11 @@
 ## Machine Learning Zoomcamp 2022
 
-* Launch stream: **TODO**
+* [Launch stream with course overview](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 * [Course calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 * [Deadline calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiEznNaTrblegQtBwQ-zsoJY6Vh_XL7_rilGYugRuCFhBQfnJR7D-QArGlilAiF9qrkY5ED2n-9ibD/pubhtml)
-
+* [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
+* [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml)
+* [Course Playlist: Only 2022 Live videos & homeworks](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 ### Syllabus
 
@@ -11,13 +13,18 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
+* Homework solution:
+  * [Notebook](01-intro/homework_1.ipynb)
+  * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Office hours](https://www.youtube.com/watch?v=VojpszKmKw8)
+
+**[2. Machine Learning for Regression](02-regression/)**
+
+* [Module materials](../../02-regression)
+* [Homework](02-regression/homework.md)
 * Homework solution - to be added
 * Office hours - to be added
 
-**2. Machine Learning for Regression**
-
-* [Module materials](../../02-regression)
-* TBA
 
 **3. Machine Learning for Classification**
 

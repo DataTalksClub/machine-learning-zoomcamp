@@ -20,4 +20,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes by Ayoub Berdeddouch](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Intro/homework_intro_AyoubBerdeddouch.ipynb)
 * [Notes from Sebastián Ayala Ruano](https://github.com/sayalaruano/100DaysOfMLCode/blob/main/Intro_ML/Notes/NotesDay1.md)
 * [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/01_intro.md)
+* [Notes from Luis Evaristo Caraballo de la Cruz](https://github.com/varocaraballo/ml-zoomcamp2022/blob/main/01%20-%20Introduction%20to%20Machine%20Learning/notes.md)
+* [Notes from Jon Areas](https://github.com/jxareas/Machine-Learning-Bookcamp-2022/blob/master/notes/01-introduction.md)
+* [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-1-notes.md)
 * Add your notes here

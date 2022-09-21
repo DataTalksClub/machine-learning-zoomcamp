@@ -1,5 +1,10 @@
 ## Session #1 Homework
 
+> **Solution**:
+> * [Notebook](homework_1.ipynb)
+> * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+
+
 ### Set up the environment
 
 You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from
@@ -91,7 +96,7 @@ Has it changed?
 3. Now drop all duplicated rows using `drop_duplicates` method (you should get a dataframe with 9 rows).
 4. Get the underlying NumPy array. Let's call it `X`.
 5. Compute matrix-matrix multiplication between the transpose of `X` and `X`. To get the transpose, use `X.T`. Let's call the result `XTX`.
-6. Invert `XTX`.
+6. Compute the inverse of `XTX`.
 7. Create an array `y` with values `[1100, 800, 750, 850, 1300, 1000, 1000, 1300, 800]`.
 8. Multiply the inverse of `XTX` with the transpose of `X`, and then multiply the result by `y`. Call the result `w`.
 9. What's the value of the first element of `w`?
@@ -106,9 +111,9 @@ Has it changed?
 
 ## Submit the results
 
-Submit your results here: https://forms.gle/vLp3mvtnrjJxCZx66
-
-If your answer doesn't match options exactly, select the closest one.
+* Submit your results here: https://forms.gle/vLp3mvtnrjJxCZx66
+* You can submit your solution multiple times. In this case, only the last submission will be used 
+* If your answer doesn't match options exactly, select the closest one
 
 
 ## Deadline
