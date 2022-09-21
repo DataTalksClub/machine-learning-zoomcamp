@@ -99,7 +99,6 @@ inv = np.linalg.inv(V)
 
 
 Add notes here (PRs are welcome).
-
 <table>
    <tr>
       <td>⚠️</td>
@@ -114,6 +113,7 @@ Add notes here (PRs are welcome).
 
 * [Notebook from the video](notebooks/08-linear-algebra.ipynb)
 * [Get a visual understanding of matrix multiplication](http://matrixmultiplication.xyz/)
+* [Overview of matrix multiplication functions in python/numpy + exploring commutative property and normal equation](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb) 
 
 
 ## Navigation
