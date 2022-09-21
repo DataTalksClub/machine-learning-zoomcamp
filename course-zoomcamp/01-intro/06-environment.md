@@ -9,16 +9,20 @@ You need:
 * NumPy, Pandas and Scikit-Learn (latest available versions) 
 * Matplotlib and Seaborn
 * Jupyter notebooks
+* Later on, we'll need docker and preferably AWS for AWS lambda, Kubernetes, Kserve etc
+### Summary
+
+|Name of ML platform| Supports basic ML: Chapter 1-4 | Supports deployment with docker locally: Chapter 5 | Supports docker deployment to Cloud: Chapter 9-11 | Guides |
+|-------|-------|-------|-------|------|
+|Windows - with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :x: | :x: | [Getting started with Anaconda](#Anaconda)|
+|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up WSL on windows](#Ubuntu_on_AWS)  
+|MacOS (Basically built on a Unix OS, so usually supports whatever Linux supports as Linux is a Unix-like OS)- with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#Anaconda)
+|Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Guide for using Anaconda](#Anaconda)
+|Work completely online & OS independent - Simple ML: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#Notebook_services)
+|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Advanced ML, esp deployment: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#Ubuntu_on_AWS)  
 
 
-## Ubuntu 22.04 on AWS
-
-* [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
-* This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
-* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
-
-
-## Anaconda and Conda
+## [Anaconda and Conda](Anaconda)
 
 The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
@@ -41,7 +45,7 @@ Anaconda is recommended.
 
 It is a good idea to set up a dedicated environment for the course 
 
-In your terminal, run this command to create the environment
+In your terminal (e.g bash for Ubuntu, anaconda command prompt for windows), run this command to create the environment
 
 ```bash
 conda create -n ml-zoomcamp python=3.9
@@ -62,25 +66,7 @@ conda install numpy pandas scikit-learn seaborn jupyter
 Later in the course you will also need to install XGBoost and Tensorflow,
 but we can skip this part for now.
 
-## Cloud
-
-Instead of running things locally, you can use online services or rent a server 
-
-### AWS 
-
-You can rent an instance on AWS:
-
-* [Creating an AWS account](https://mlbookcamp.com/article/aws)
-* [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
-
-
-### GCP
-
-Google cloud platform offers $300 in free credits when you sign up.
-You can use this for taking the course.
-
-
-## Notebook services
+## [Notebook services](Notebook_services)
 
 There are services that allow you to host and run notebooks.
 Note that notebooks alone are not sufficient for the course and for the deployment modules
@@ -130,6 +116,32 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
 2. To open the notebook in Google Colab, in your web browser launch paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
 
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
+
+
+## Cloud
+
+Instead of running things locally, you can use online services or rent a server 
+
+### AWS 
+
+You can rent an instance on AWS:
+
+* [Creating an AWS account](https://mlbookcamp.com/article/aws)
+* [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
+
+#### [Ubuntu 22.04 on AWS](Ubuntu_on_AWS)
+
+* [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
+* This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
+* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
+
+
+
+### GCP
+
+Google cloud platform offers $300 in free credits when you sign up.
+You can use this for taking the course.
+
 
 
 
