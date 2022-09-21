@@ -14,15 +14,15 @@ You need:
 
 |Name of ML platform| Supports basic ML: Chapter 1-4 | Supports deployment with docker locally: Chapter 5 | Supports docker deployment to Cloud: Chapter 9-11 | Guides |
 |-------|-------|-------|-------|------|
-|Windows - with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :x: | :x: | [Getting started with Anaconda](#Anaconda)|
-|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up docker with WSL on windows](#Ubuntu_on_AWS)  
-|MacOS (Basically built on a Unix OS, so usually supports whatever Linux supports as Linux is a Unix-like OS)- with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#Anaconda)
-|Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#Anaconda)
-|Work completely online & OS independent - Useful for simple ML and light-weight deep learning: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#Notebook_services)
-|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#Ubuntu_on_AWS)  
+|Windows - with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :x: | :x: | [Getting started with Anaconda](#anaconda_and_conda)|
+|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up docker with WSL on windows](#ubuntu_22.04_on_aws)  
+|MacOS (Basically built on a Unix OS, so usually supports whatever Linux supports as Linux is a Unix-like OS)- with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#anaconda_and_conda)
+|Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#anaconda_and_conda)
+|Work completely online & OS independent - Useful for simple ML and light-weight deep learning: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#notebook_services)
+|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#ubuntu_22.04_on_aws)  
 
 
-## [Anaconda and Conda](Anaconda)
+## [Anaconda and Conda](anaconda_and_conda)
 
 The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
@@ -66,7 +66,7 @@ conda install numpy pandas scikit-learn seaborn jupyter
 Later in the course you will also need to install XGBoost and Tensorflow,
 but we can skip this part for now.
 
-## [Notebook services](Notebook_services)
+## [Notebook services](notebook_services)
 
 There are services that allow you to host and run notebooks.
 Note that notebooks alone are not sufficient for the course and for the deployment modules
@@ -129,7 +129,7 @@ You can rent an instance on AWS:
 * [Creating an AWS account](https://mlbookcamp.com/article/aws)
 * [Renting an ec2 instance](https://mlbookcamp.com/article/aws-ec2)
 
-#### [Ubuntu 22.04 on AWS](Ubuntu_on_AWS)
+#### [Ubuntu 22.04 on AWS](ubuntu_22.04_on_aws)
 
 * [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
 * This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
