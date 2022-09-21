@@ -15,11 +15,11 @@ You need:
 |Name of ML platform| Supports basic ML: Chapter 1-4 | Supports deployment with docker locally: Chapter 5 | Supports docker deployment to Cloud: Chapter 9-11 | Guides |
 |-------|-------|-------|-------|------|
 |Windows - with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :x: | :x: | [Getting started with Anaconda](#anaconda-and-conda)|
-|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up docker with WSL on windows](#ubuntu-on_aws)  
+|Windows with WSL - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Setting up docker with WSL on windows](#ubuntu-on-aws)  
 |MacOS (Basically built on a Unix OS, so usually supports whatever Linux supports as Linux is a Unix-like OS)- with Pipenv or Anaconda, Anaconda preferred | :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#anaconda-and-conda)
 |Ubuntu / Linux - with Pipenv or Anaconda, Anaconda preferred| :white_check_mark: | :white_check_mark: | :x: | [Getting started with Anaconda](#anaconda-and-conda)
 |Work completely online & OS independent - Useful for simple ML and light-weight deep learning: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#notebook-services)
-|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#ubuntu-on_aws)  
+|Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#ubuntu-on-aws)  
 
 
 ## [Anaconda and Conda](anaconda-and-conda)
