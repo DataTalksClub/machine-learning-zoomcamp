@@ -31,4 +31,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes form Ayoub Berdeddouch](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Regression/homework_Regression_AyoubBerdeddouch.ipynb)
 * [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/02_linear_regression.md)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week2/Lecture_2_car_price_prediction.ipynb)
+* [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/readme.md#week-12-overview-structuring-a-machine-learning-project)
 * Add your notes here
