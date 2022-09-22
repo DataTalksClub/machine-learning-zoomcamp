@@ -32,4 +32,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/02_linear_regression.md)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week2/Lecture_2_car_price_prediction.ipynb)
 
+
 * Add your notes here
