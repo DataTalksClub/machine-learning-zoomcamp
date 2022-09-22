@@ -23,13 +23,15 @@
 * [Module materials](../../02-regression)
 * [Homework](02-regression/homework.md)
 * Homework solution - to be added
-* Office hours - to be added
+* [Office hours](https://youtu.be/UYWy8ETnKt8)
 
 
 **3. Machine Learning for Classification**
 
 * [Module materials](../../03-classification)
-* TBA
+* [Homework](03-classification/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **4. Evaluation Metrics for Classification**
 
