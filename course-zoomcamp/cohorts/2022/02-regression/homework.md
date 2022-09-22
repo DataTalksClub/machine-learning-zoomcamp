@@ -1,5 +1,8 @@
 ## Homework
 
+> Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
+Select the option that's closest to your solution.
+
 ### Dataset
 
 In this homework, we will use the California Housing Prices from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
