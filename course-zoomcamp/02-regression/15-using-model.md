@@ -7,7 +7,8 @@
 
 ## Notes
 
-After finding the best model and its parameters, it was trained with training and validation partitions and the final evaluation was calculated on the test partition. 
+After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. 
+
 Finally, the final model was used to predict the price of new cars. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
