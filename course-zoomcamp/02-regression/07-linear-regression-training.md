@@ -21,7 +21,7 @@ $w$ = $(X^TX)^{-1}X^Ty$
 
 Where:
 
-$(X^TX)^{-1}$ is the Gram Matrix
+$X^TX$ is the Gram Matrix
 
 
 
