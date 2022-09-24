@@ -12,21 +12,18 @@
 
 If `r` is correlation coefficient, then the correlation between two variables is:
 
-- LOW (Rarely) when  `r` is between [0, -0.2] or [0, 0.2]
-- MEDIUM (Moderate) when  `r` is between [-0.2, -0.5] or [2, 0.5]
-- STRONG (Often/Always) when  `r` is between [-0.5, -1.0] or [0.5, 1.0]
+- LOW when `r` is between [0, -0.2) or [0, 0.2)
+- MEDIUM when `r` is between [-0.2, -0.5) or [2, 0.5)
+- STRONG when `r` is between [-0.5, -1.0] or [0.5, 1.0]
 
-For churn, 
-* $y \in$ {0,1}
-* $x \in \mathbb{R}$
-
-* When `r` is positive, when x increases y increases with it.
-* When `r` is negative, when x increases, y decreases.
-* When `r` is 0, when x increases, y does not change.
+Positive Correlation vs. Negative Correlation
+* When `r` is positive, an increase in x will increase y.
+* When `r` is negative, an increase in x will decrease y.
+* When `r` is 0, a change in x does not affect y.
 
 **Functions and methods:** 
 
-* `df[x].corrwith(y)` - returns the correlation between x and y series. 
+* `df[x].corrwith(y)` - returns the correlation between x and y series. This is a function from pandas.
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
