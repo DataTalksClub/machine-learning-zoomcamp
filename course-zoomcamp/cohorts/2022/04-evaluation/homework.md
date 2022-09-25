@@ -22,7 +22,7 @@ The goal of this homework is to inspect the output of different evaluation metri
 * Split the dataset into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` funciton for that with `random_state=1`.
 
 
-## Question 1:
+## Question 1
 
 ROC AUC could also be used to evaluate feature importance of numerical variables. 
 
