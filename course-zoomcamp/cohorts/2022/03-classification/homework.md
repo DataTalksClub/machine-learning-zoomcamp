@@ -50,12 +50,6 @@ Options:
 * `NEAR OCEAN`
 
 
-## Split the data
-
-* Split your data in train/val/test sets, with 60%/20%/20% distribution.
-* Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
-* Make sure that the target value (`median_house_value`) is not in your dataframe.
-
 ### Question 2
 
 * Create the [correlation matrix](https://www.google.com/search?q=correlation+matrix) for the numerical features of your train dataset.
@@ -73,6 +67,12 @@ Options:
 
 * We need to turn the `median_house_value` variable from numeric into binary.
 * Let's create a variable `above_average` which is `1` if the `median_house_value` is above its mean value and `0` otherwise.
+
+## Split the data
+
+* Split your data in train/val/test sets, with 60%/20%/20% distribution.
+* Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
+* Make sure that the target value (`median_house_value`) is not in your dataframe.
 
 ### Question 3
 
