@@ -18,7 +18,7 @@ The goal of this homework is to inspect the output of different evaluation metri
 
 ## Preparation
 
-* Create the target variable applying `LabelEncoder` on the `card` column. 
+* Create the target variable by mapping `yes` to 1 and `no` to 0. 
 * Split the dataset into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` funciton for that with `random_state=1`.
 
 
