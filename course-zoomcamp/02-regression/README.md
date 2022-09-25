@@ -33,4 +33,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Jon Areas](https://github.com/jxareas/Machine-Learning-Bookcamp-2022/blob/master/notes/02-regression.md)
 * [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb)
 * [Notes from Wesley Barreto](https://github.com/wgb-10/ML-Zoomcamp-2022/blob/main/Session-Projects/02-Regression/my-notebook.ipynb)
+* [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-2-notes.md)
 * Add your notes here
