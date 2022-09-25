@@ -22,7 +22,8 @@
 
 * [Module materials](../../02-regression)
 * [Homework](02-regression/homework.md)
-* Homework solution - to be added
+* Homework solution:
+  * [Notebook](02-regression/homework_2.ipynb)
 * [Office hours](https://youtu.be/UYWy8ETnKt8)
 
 
