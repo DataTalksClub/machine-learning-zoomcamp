@@ -158,6 +158,6 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 
 ## Deadline
 
-The deadline for submitting is 5 October (Wednesday), 23:00 CEST.
+The deadline for submitting is October 3 (Monday), 23:00 CEST.
 
 After that, the form will be closed.
