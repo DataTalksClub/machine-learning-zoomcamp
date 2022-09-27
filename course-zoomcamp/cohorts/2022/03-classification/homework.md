@@ -76,9 +76,10 @@ Options:
 
 ### Question 3
 
-* Calculate the mutual information score with the (binarized) price for the categorical variable that we have. Use the training set only.
-* What is the value of mutual information?
-* Round it to 2 decimal digits using `round(score, 2)`
+* Calculate the *mutual information score* between `above_average` and `ocean_proximity` . Use the training set only.
+* Round it to 2 decimals using `round(score, 2)`
+* What is their *mutual information score*?
+
 
 Options:
 - 0.26
@@ -115,7 +116,7 @@ Options:
    * `population`
    * `households`
 
-> **note**: the difference doesn't have to be positive
+> **Note**: the difference doesn't have to be positive
 
 
 ### Question 6
