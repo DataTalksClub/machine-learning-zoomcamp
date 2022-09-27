@@ -1,5 +1,10 @@
 ## Session #1 Homework
 
+> **Solution**:
+> * [Notebook](homework_1.ipynb)
+> * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+
+
 ### Set up the environment
 
 You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can the instructions from

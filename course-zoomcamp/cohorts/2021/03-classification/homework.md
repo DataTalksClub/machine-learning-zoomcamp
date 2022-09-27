@@ -46,10 +46,6 @@ What is the most frequent observation (mode) for the column `'neighbourhood_grou
    * In a correlation matrix, you compute the correlation coefficient between every pair of features in the dataset.
 * What are the two features that have the biggest correlation in this dataset?
 
-Example of a correlation matrix for the car price dataset:
-
-<img src="images/correlation-matrix.png" />
-
 
 ### Make price binary
 
@@ -59,9 +55,10 @@ Example of a correlation matrix for the car price dataset:
 
 ### Question 3
 
-* Calculate the mutual information score with the (binarized) price for the two categorical variables that we have. Use the training set only.
-* Which of these two variables has bigger score?
-* Round it to 2 decimal digits using `round(score, 2)`
+ * Calculate the mutual information score between `above_average` and the two other categorical variables in our dataset. Use the training set only.
+* Round the scores to 2 decimals using `round(score, 2)`
+* Which of these two variables has a bigger mutual information score?
+
 
 
 ### Question 4

@@ -8,7 +8,7 @@
 
 ## Notes
 
-Categorical variables are typically strings, and pandas identify them as object types. These variables need to be converted to a numerical form because the ML
+Categorical variables are typically strings, and pandas identifies them as object types. These variables need to be converted to a numerical form because ML
 models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
 This transformation from categorical to numerical variables is known as One-Hot encoding. 
 
