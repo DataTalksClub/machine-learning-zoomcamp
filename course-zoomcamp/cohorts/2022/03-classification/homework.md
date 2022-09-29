@@ -28,7 +28,7 @@ For the rest of the homework, you'll need to use only these columns:
 * `'population'`,
 * `'households'`,
 * `'median_income'`,
-* `'median_house_value'`
+* `'median_house_value'`,
 * `'ocean_proximity'`,
 
 ### Data preparation
@@ -50,12 +50,6 @@ Options:
 * `NEAR OCEAN`
 
 
-## Split the data
-
-* Split your data in train/val/test sets, with 60%/20%/20% distribution.
-* Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
-* Make sure that the target value (`median_house_value`) is not in your dataframe.
-
 ### Question 2
 
 * Create the [correlation matrix](https://www.google.com/search?q=correlation+matrix) for the numerical features of your train dataset.
@@ -74,17 +68,24 @@ Options:
 * We need to turn the `median_house_value` variable from numeric into binary.
 * Let's create a variable `above_average` which is `1` if the `median_house_value` is above its mean value and `0` otherwise.
 
+### Split the data
+
+* Split your data in train/val/test sets, with 60%/20%/20% distribution.
+* Use Scikit-Learn for that (the `train_test_split` function) and set the seed to 42.
+* Make sure that the target value (`median_house_value`) is not in your dataframe.
+
 ### Question 3
 
-* Calculate the mutual information score with the (binarized) price for the categorical variable that we have. Use the training set only.
-* What is the value of mutual information?
-* Round it to 2 decimal digits using `round(score, 2)`
+* Calculate the *mutual information score* between `above_average` and `ocean_proximity` . Use the training set only.
+* Round it to 2 decimals using `round(score, 2)`
+* What is their *mutual information score*?
+
 
 Options:
-- 0.263
-- 0.00001
-- 0.101
-- 0.15555
+- 0.26
+- 0
+- 0.10
+- 0.16
 
 
 ### Question 4
@@ -115,7 +116,7 @@ Options:
    * `population`
    * `households`
 
-> **note**: the difference doesn't have to be positive
+> **Note**: the difference doesn't have to be positive
 
 
 ### Question 6

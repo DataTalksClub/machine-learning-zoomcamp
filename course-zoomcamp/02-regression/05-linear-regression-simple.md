@@ -14,7 +14,7 @@ So the simple linear regression formula looks like:
 
 $g(x_i) = w_0 + x_{i1} \cdot w_1 + x_{i2} \cdot w_2 + ... + x_{in} \cdot w_n$.
 
-And that can be further simplify:
+And that can be further simplified as:
 
 $g(x_i) = w_0 + \displaystyle\sum_{j=1}^{n} w_j \cdot x_{ij}$
 

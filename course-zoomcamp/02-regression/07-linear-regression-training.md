@@ -8,12 +8,23 @@
 
 ## Notes
 
-Obtaining predictions as close as possible to y target values requires the calculation of weights from the general
+Obtaining predictions as close as possible to $y$ target values requires the calculation of weights from the general
 LR equation. The feature matrix does not 
 have an inverse because it is not square, so it is required to obtain an approximate solution, which can be
 obtained using the **Gram matrix** 
-(multiplication of feature matrix and its transpose). The vector of weights or coefficients obtained with this
+(multiplication of feature matrix ($X$) and its transpose ($X^T$)). The vector of weights or coefficients $w$ obtained with this
 formula is the closest possible solution to the LR system.
+
+Normal Equation:
+
+$w$ = $(X^TX)^{-1}X^Ty$
+
+Where:
+
+$X^TX$ is the Gram Matrix
+
+
+
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
 
