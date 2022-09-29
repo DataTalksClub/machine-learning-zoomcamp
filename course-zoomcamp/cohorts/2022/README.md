@@ -37,7 +37,9 @@
 **4. Evaluation Metrics for Classification**
 
 * [Module materials](../../04-evaluation)
-* TBA
+* [Homework](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/04-evaluation/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **5. Deploying Machine Learning Models**
 
