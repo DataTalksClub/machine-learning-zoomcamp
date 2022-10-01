@@ -32,7 +32,8 @@
 
 * [Module materials](../../03-classification)
 * [Homework](03-classification/homework.md)
-* Homework solution - to be added
+* Homework solution:
+  * [Notebook](02-regression/homework_3.ipynb)
 * Office hours - to be added
 
 **4. Evaluation Metrics for Classification**
