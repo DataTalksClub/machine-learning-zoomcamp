@@ -37,24 +37,27 @@
 **4. Evaluation Metrics for Classification**
 
 * [Module materials](../../04-evaluation)
-* TBA
+* [Homework](04-evaluation/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **5. Deploying Machine Learning Models**
 
 * [Module materials](../../05-deployment)
 * TBA
 
-**5b. Bento ML**
-
-* [Module materials - TBA](../../05-deployment)
-* TBA
 
 **6. Decision Trees and Ensemble Learning**
 
 * [Module materials](../../06-trees)
 * TBA
 
-**7. Midterm Project**
+**7. Bento ML**
+
+* [Module materials - TBA](../../05-deployment)
+* TBA
+
+**Midterm Project**
 
 * TBA
 
@@ -78,15 +81,15 @@
 * [Module materials](../../11-kserve)
 * No homework
 
-**12. Capstone Project**
+**Capstone Project**
 
 * TBA
 
-**13. Article**
+**Article**
 
 * TBA
 
-**14. Third project (optional)**
+**Third project (optional)**
 
 * TBA
 
