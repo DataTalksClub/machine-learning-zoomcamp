@@ -89,11 +89,11 @@ At which threshold precision and recall curves intersect?
 
 ## Question 4
 
-Precision and recall are conflicting - when one grows, the other goes down. That's why they are often combined into the F1 score - a metrics that takes into account both
+Precision and recall are conflicting - when one grows up, the other goes down. That's why they are often combined into the F1 score - a metrics that takes into account both
 
 This is the formula for computing F1:
 
-F1 = 2 * P * R / (P + R)
+$$F1 = {2.}\frac{P . R}{P+R}$$
 
 Where P is precision and R is recall.
 
