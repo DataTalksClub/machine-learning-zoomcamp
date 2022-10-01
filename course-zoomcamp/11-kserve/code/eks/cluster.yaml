@@ -4,6 +4,7 @@ kind: ClusterConfig
 metadata:
   name: mlzoomcamp-eks
   region: eu-west-1
+  version: "1.21"
 
 nodeGroups:
   - name: ng
