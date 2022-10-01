@@ -2,6 +2,7 @@
 
 > **Solution**:
 > * [Notebook](homework_2.ipynb)
+> * [Video](https://www.youtube.com/watch?v=mWJwXyibqW8&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 > Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.

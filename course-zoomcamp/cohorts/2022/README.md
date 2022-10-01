@@ -24,6 +24,7 @@
 * [Homework](02-regression/homework.md)
 * Homework solution:
   * [Notebook](02-regression/homework_2.ipynb)
+  * [Video](https://www.youtube.com/watch?v=mWJwXyibqW8&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 * [Office hours](https://youtu.be/UYWy8ETnKt8)
 
 
