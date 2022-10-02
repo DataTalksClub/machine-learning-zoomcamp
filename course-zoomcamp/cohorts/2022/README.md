@@ -46,8 +46,9 @@
 **5. Deploying Machine Learning Models**
 
 * [Module materials](../../05-deployment)
-* TBA
-
+* [Homework](05-deployment/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **6. Decision Trees and Ensemble Learning**
 
