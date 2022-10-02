@@ -74,7 +74,7 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 
 Now let's compute precision and recall for our model.
 
-* Evaluate the model on all thresholds from 0.0 to 1.0 with step 0.01
+* Evaluate the model on the validation dataset on all thresholds from 0.0 to 1.0 with step 0.01
 * For each threshold, compute precision and recall
 * Plot them
 
@@ -97,7 +97,7 @@ $$F_1 = 2 \cdot \cfrac{P \cdot R}{P + R}$$
 
 Where $P$ is precision and $R$ is recall.
 
-Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
+Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01 using the validation set
 
 At which threshold F1 is maximal?
 
