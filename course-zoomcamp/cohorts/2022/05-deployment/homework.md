@@ -22,7 +22,7 @@ We've prepared a dictionary vectorizer and a model.
 
 They were trained (roughly) using this code:
 
-```
+```python
 features = ['reports', 'share', 'expenditure', 'owner']
 dicts = df[features].to_dict(orient='records')
 
@@ -42,7 +42,7 @@ And then saved with Pickle. Download them:
 With `wget`:
 
 ```bash
-PREFIX=https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/05-deployment/homework
+PREFIX=https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/course-zoomcamp/cohorts/2022/05-deployment/homework
 wget $PREFIX/model1.bin
 wget $PREFIX/dv.bin
 ```
