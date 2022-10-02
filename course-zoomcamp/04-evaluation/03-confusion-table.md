@@ -9,20 +9,20 @@
 
 ## Notes
 
-Confusion table is a way to measure different types of errors and correct decisions that binary classifiers can made. Considering this information, it is possible evaluate the quality of the model by different strategies.
+Confusion table is a way of measuring different types of errors and correct decisions that binary classifiers can make. Considering this information, it is possible to evaluate the quality of the model by different strategies.
 
-If we predict the probability of churning from a customer, we have the following scenarios:
+When comes to a prediction of an LR model, each falls into one of four different categories:
 
-* No churn - **Negative class**
+* Prediction is that the customer WILL churn. This is known as the **Positive class**
+    * And Customer actually churned - Known as a **True Positive (TP)**
+    * But Customer actually did not churn - Knwon as a **False Positive (FP)**
+* Prediction is that the customer WILL NOT churn' - This is known as the **Negative class**
     * Customer did not churn - **True Negative (TN)**
     * Customer churned - **False Negative (FN)**
-* Churn - **Positive class**
-    * Customer churned - **True Positive (TP)**
-    * Customer did not churn - **False Positive (FP)**
 
-The confusion table help us to summarize the measures explained above in a tabular format, as is shown below: 
+'Confusion Table' is a way to summarize the above results in a tabular format, as shown below: 
 
-|**Actual/Predictions**|**Negative**|**Postive**|
+|**Actual :arrow_down:     Predictions:arrow_right:**|**Negative**|**Positive**|
 |:-:|---|---|
 |**Negative**|TN|FP|
 |**Postive**|FN|TP| 

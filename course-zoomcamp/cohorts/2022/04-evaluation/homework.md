@@ -91,11 +91,11 @@ At which threshold precision and recall curves intersect?
 
 Precision and recall are conflicting - when one grows, the other goes down. That's why they are often combined into the F1 score - a metrics that takes into account both
 
-This is the formula for computing F1:
+This is the formula for computing $F_1$:
 
-F1 = 2 * P * R / (P + R)
+$$F_1 = 2 \cdot \cfrac{P \cdot R}{P + R}$$
 
-Where P is precision and R is recall.
+Where $P$ is precision and $R$ is recall.
 
 Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
 
