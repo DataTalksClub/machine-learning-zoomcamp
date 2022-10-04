@@ -15,6 +15,9 @@ In this homework, we will use Credit Card Data from [the previous homework](http
 * Use Pipenv to install Scikit-Learn version 1.0.2
 * What's the first hash for scikit-learn you get in Pipfile.lock?
 
+Note: you should create an empty folder for homework
+and do it there. 
+
 
 ## Models
 
