@@ -67,7 +67,7 @@ Let's use these models!
 
 What's the probability that this client will get a credit card? 
 
-* 0.148
+* 0.162
 * 0.391
 * 0.601
 * 0.993
