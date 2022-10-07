@@ -159,11 +159,6 @@ To make discussions in Slack more organized:
 - 5.10 [Homework](05-deployment/homework.md)
 
 
-## 5b. Bento ML
-
-More information coming soon! 
-
-
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
 - 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
@@ -180,7 +175,12 @@ More information coming soon!
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. [Midterm Project](07-midterm-project/)
+## 7. Production-Ready Machine Learning (Bento ML)
+
+More information coming soon! 
+
+
+## [Midterm Project](07-midterm-project/)
 
 Putting everything we've learned so far in practice!
 
@@ -233,7 +233,7 @@ Putting everything we've learned so far in practice!
 - 10.11 [Homework](10-kubernetes/homework.md)
 
 
-## 11. [KServe](11-kserve/)
+## 11. [KServe](11-kserve/) (optional)
 
 - 11.1 [Overview](11-kserve/01-overview.md)
 - 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
@@ -246,15 +246,15 @@ Putting everything we've learned so far in practice!
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
-## 12. [Capstone Project](12-capstone/)
+## [Capstone Project](12-capstone/)
 
 Putting everything we've learned so far in practice one more time!
 
-## 13. [Article](13-article/)
+## [Article](13-article/)
 
 Writing an article about something not covered in the course.
 
-## 14. [Third project](14-project) (optional)
+## [Third project](14-project) (optional)
 
 For those who love projects!
 
