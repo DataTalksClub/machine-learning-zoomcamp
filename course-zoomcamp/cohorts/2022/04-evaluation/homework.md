@@ -19,7 +19,7 @@ The goal of this homework is to inspect the output of different evaluation metri
 ## Preparation
 
 * Create the target variable by mapping `yes` to 1 and `no` to 0. 
-* Split the dataset into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` funciton for that with `random_state=1`.
+* Split the dataset into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` function for that with `random_state=1`.
 
 
 ## Question 1
@@ -74,7 +74,7 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 
 Now let's compute precision and recall for our model.
 
-* Evaluate the model on all thresholds from 0.0 to 1.0 with step 0.01
+* Evaluate the model on the validation dataset on all thresholds from 0.0 to 1.0 with step 0.01
 * For each threshold, compute precision and recall
 * Plot them
 
@@ -97,7 +97,7 @@ $$F_1 = 2 \cdot \cfrac{P \cdot R}{P + R}$$
 
 Where $P$ is precision and $R$ is recall.
 
-Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
+Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01 using the validation set
 
 At which threshold F1 is maximal?
 
