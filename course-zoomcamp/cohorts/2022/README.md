@@ -53,7 +53,9 @@
 **6. Decision Trees and Ensemble Learning**
 
 * [Module materials](../../06-trees)
-* TBA
+* [Homework](06-trees/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **7. Bento ML**
 
