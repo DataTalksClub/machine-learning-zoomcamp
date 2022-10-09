@@ -40,7 +40,8 @@
 
 * [Module materials](../../04-evaluation)
 * [Homework](04-evaluation/homework.md)
-* Homework solution - to be added
+* Homework solution:
+  * [Notebook](04-evaluation/homework_4.ipynb)
 * Office hours - to be added
 
 **5. Deploying Machine Learning Models**
