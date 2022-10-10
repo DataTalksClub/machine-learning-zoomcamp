@@ -35,7 +35,7 @@ For the rest of the homework, you'll need to use only these columns:
 
 ### Data preparation
 
-* Select only the features from above and fill in the missing values with 0.
+* Select only the features from above and fill in the missing values with median.
 * Create a new column `rooms_per_household` by dividing the column `total_rooms` by the column `households` from dataframe. 
 * Create a new column `bedrooms_per_room` by dividing the column `total_bedrooms` by the column `total_rooms` from dataframe. 
 * Create a new column `population_per_household` by dividing the column `population` by the column `households` from dataframe. 
