@@ -1,5 +1,8 @@
 ## 5. Deploying Machine Learning Models
 
+> Note: in the videos we use Python 3.8. But you
+> should use Python 3.9
+
 - 5.1 [Intro / Session overview](01-intro.md)
 - 5.2 [Saving and loading the model](02-pickle.md)
 - 5.3 [Web services: introduction to Flask](03-flask-intro.md)
