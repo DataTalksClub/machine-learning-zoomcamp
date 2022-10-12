@@ -34,6 +34,7 @@
 * [Homework](03-classification/homework.md)
 * Homework solution:
   * [Notebook](03-classification/homework_3.ipynb)
+  * [Video](https://youtu.be/o--DqcyRLEM)
 * Office hours - to be added
 
 **4. Evaluation Metrics for Classification**
