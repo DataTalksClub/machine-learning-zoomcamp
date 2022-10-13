@@ -7,6 +7,17 @@
 
 ## Notes
 
+In this section we clean and prepare the dataset for the model which involves the following steps:
+
+- Download the data from the given link.
+- Reformat categorical columns (`status`, `home`, `marital`, `records`, and `job`) by mapping with appropriate values.
+- Replace the maximum value of `income`, `assests`, and `debt` columns with NaNs.
+- Replace the NaNs in the dataframe with `0` (*will be shown in the next lesson*).
+- Extract only those rows in the column `status` who are either ok or default as value.
+- Split the data with the distribution of 80% train, 20% validation, and 20% test sets with random seed to `11`.
+- Prepare target variable `status` by converting it from categorical to binary, where 0 represents `ok` and 1 represents `default`.
+- Finally delete the target variable from the train/val/test dataframe.
+
 Add notes from the video (PRs are welcome)
 
 

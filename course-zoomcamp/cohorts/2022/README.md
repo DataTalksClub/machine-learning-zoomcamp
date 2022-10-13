@@ -34,13 +34,15 @@
 * [Homework](03-classification/homework.md)
 * Homework solution:
   * [Notebook](03-classification/homework_3.ipynb)
+  * [Video](https://youtu.be/o--DqcyRLEM)
 * Office hours - to be added
 
 **4. Evaluation Metrics for Classification**
 
 * [Module materials](../../04-evaluation)
 * [Homework](04-evaluation/homework.md)
-* Homework solution - to be added
+* Homework solution:
+  * [Notebook](04-evaluation/homework_4.ipynb)
 * Office hours - to be added
 
 **5. Deploying Machine Learning Models**
@@ -53,7 +55,9 @@
 **6. Decision Trees and Ensemble Learning**
 
 * [Module materials](../../06-trees)
-* TBA
+* [Homework](06-trees/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **7. Bento ML**
 
