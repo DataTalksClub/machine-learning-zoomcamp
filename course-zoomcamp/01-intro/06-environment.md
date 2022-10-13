@@ -15,8 +15,12 @@ You need:
 
 * [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
 * This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
-* You can use these instructions for setting up your local Ubuntu or Ubuntu in WSL
+* You can use these instructions for setting up your local Ubuntu
 
+Note for WSL 
+
+* Most of the instructions from the previous video apply to WSL too
+* For setting up Docker, install Docker Desktop on Windows and it'll be automatically used in WSL. You don't need to install docker.io
 
 ## Anaconda and Conda
 
