@@ -43,16 +43,18 @@ What would the pydantic class look like? You can name the class "Person"
 
 We've prepared a model for you that you can import using:
 ```bash
-bentoml models import s3://
+curl -O https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel.bentomodel
+bentoml models import coolmodel.bentomodel
 ```
 
-What version of sklearn was this model trained with?
+What version of scikit-learn was this model trained with?
 
 ## Question 5 
 
-Create a bento out of this sklearn model
-
-install this requirements file
+Create a bento out of this scikit-learn model. This will require installing scikit-learn like this:
+```bash
+pip install scikit-learn
+```
 
 The annotation for the bento endpoint should be:
 @svc.api(...)
