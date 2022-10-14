@@ -1,8 +1,6 @@
 ## Homework
 
-In this homework, we will use Credit Risk Data from module 6
-
-> Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
+> Note: sometimes your answer might not match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
 
 The goal of this homework is to familiarize you with BentoML and 
@@ -13,11 +11,16 @@ The goal of this homework is to familiarize you with BentoML and
 * What's the version of BentoML you installed?
 * Use `--version` to find out
 
+* 1.0.1
+* 1.0.3
+* 1.0.5
+* 1.0.7
 
 ## Question 2
 
-* Run the notebook from module 6 and save the credit risk model with BentoML
-* How big approximately is the saved BentoML model?
+Run the notebook from module 6 and save the credit risk model with BentoML
+
+How big approximately is the saved BentoML model?
 
 * 524kb
 * 224kb
@@ -49,6 +52,12 @@ bentoml models import coolmodel.bentomodel
 
 What version of scikit-learn was this model trained with?
 
+* 1.1.1
+* 1.1.2
+* 1.1.3
+* 1.1.4
+* 1.1.5
+
 ## Question 5 
 
 Create a bento out of this scikit-learn model. This will require installing scikit-learn like this:
@@ -69,20 +78,6 @@ You can use curl or the swagger UI. What value does it return?
 * 3
 
 ## Question 6
-
-Add Validation to this bento by enforcing shape (-1,3)
-Send this array to the bento:
-[[6.4,3.5]]
-
-What is the resulting error?
-
-* "BentoService error handling API request: NumpyNdarray: Expecting shape \"(-1, 3)\", but \"(1, 2)\" was received."
-* "BentoService error handling API request: NumpyNdarray: Expecting ndarray of shape \"(-1, 3)\", but \"(1, 2)\" was received."
-* "Error handling API request: NumpyNdarray: Expecting ndarray of shape \"(-1, 3)\", but \"(1, 2)\" was received."
-* "Error handling API request: NumpyNdarray: Expecting shape \"(-1, 3)\", but \"(1, 2)\" was received."
-
-
-## Question 7
 
 Ensure to serve your bento with --production for this question
 
@@ -113,7 +108,7 @@ Test out the first model and the second model, which one performance better at h
 1. The first model
 2. The second model
 
-## Question 8
+## Question 7 (optional)
 
 Go to this Bento deployment of Stable Diffusion: http://54.176.205.174/
 
