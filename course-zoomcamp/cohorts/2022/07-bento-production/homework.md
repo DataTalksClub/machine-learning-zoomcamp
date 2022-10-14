@@ -3,7 +3,20 @@
 > Note: sometimes your answer might not match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
 
-The goal of this homework is to familiarize you with BentoML and 
+The goal of this homework is to familiarize you with BentoML and how to build and test an ML production service.
+
+## Background
+You are a new recruit at ACME corp. Your manager is emailing you about your first assignment.
+
+## Email from your manager:
+Good morning recruit! It's good to have you here! I have an assignment for you. I have a data scientist that's built
+a credit risk model in a jupyter notebook. I need you to run the notebook and save the model with BentoML and see
+how big the model is. If it's greater than a certain size, I'm going to have to request additional resources from 
+our infra team. Please let me know how big it is.
+
+Thanks,
+
+Mr McManager
 
 ## Question 1
 
@@ -11,21 +24,31 @@ The goal of this homework is to familiarize you with BentoML and
 * What's the version of BentoML you installed?
 * Use `--version` to find out
 
-* 1.0.1
-* 1.0.3
-* 1.0.5
-* 1.0.7
-
 ## Question 2
 
 Run the notebook from module 6 and save the credit risk model with BentoML
 
 How big approximately is the saved BentoML model?
 
-* 524kb
-* 224kb
+* 924kb
+* 724kb
 * 114kb
-* 68kb
+* 8kb
+
+---
+---
+
+## Another email from your manager:
+Great job recruit! Looks like I won't be having to go back to the procurement team. Thanks for the information.
+
+However, I just got word from one of the teams that's using one of our ML services and they're saying our service is "broken"
+and their trying to blame our model. I looked at the data their sending and it's completely bogus. I don't want them
+to send bad data to us and blame us for our models. Could you write a pydantic schema for the data that they should be sending?
+That way next time it will tell them it's their data that's bad and not our model.
+
+Thanks,
+
+Mr McManager
 
 ## Question 3
 
@@ -40,7 +63,55 @@ Say you have the following data that you're sending to your service:
 }
 ```
 
-What would the pydantic class look like? You can name the class "Person"
+What would the pydantic class look like? You can name the class "UserProfile"
+
+*
+```python
+UserProfile={
+  "name": "string",
+  "age": "integer",
+  "country": "string",
+  "rating": "float"
+}
+```
+
+*
+```python
+UserProfile -> BaseModel:
+    name: string
+    age: integer
+    country: string
+    rating: float
+```
+
+*
+```python
+class UserProfile(PydanticModel):
+    name: str
+    age: int
+    country: str
+    rating: float
+```
+*
+```python
+class UserProfile(BaseModel):
+    name: str
+    age: 37
+    country: str
+    rating: float
+```
+
+---
+---
+
+## Email from your CEO:
+Good morning! I hear you're the one to go to if I need something done well! We've got a new model that a big client
+needs deployed ASAP. I need you to build a service with it and test it against the old model and make sure that it performs
+better, otherwise we're going to lose this client. All our hopes are with you!
+
+Thanks,
+
+CEO of Acme Corp
 
 ## Question 4
 
@@ -87,16 +158,23 @@ pip install locust
 ```
 
 Use the following locust file:
+[locustfile.py](locustfile.py)
 
 Ensure that it is pointed at your bento's endpoint (In case you didn't name your endpoint "classify")
 
 <img src="resources/classify-endpoint.png">
 
-Configure 100 users with ramp time of 10 users per second. Ensure that it is working
+Configure 100 users with ramp time of 10 users per second. Click "Start Swarming" and ensure that it is working
 
 Now download a second model with this command:
 ```bash
 curl -O https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel
+```
+Or you can download with this link as well:
+[https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel](https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel)
+
+Now import the model:
+```bash
 bentoml models import coolmodel2.bentomodel
 ```
 
@@ -107,6 +185,18 @@ Test out the first model and the second model, which one performance better at h
 
 * The first model
 * The second model
+
+---
+---
+
+## Email from marketing:
+Hello ML person! I hope this email finds you well. I've heard there's this cool new ML model called Stable Diffusion.
+I hear if you give it a description of a picture it will generate an image. We need a new company logo and I want it
+to be fierce but also cool, think you could help out?
+
+Thanks,
+
+Mike Marketer
 
 ## Question 7 (optional)
 
