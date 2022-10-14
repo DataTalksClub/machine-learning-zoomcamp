@@ -16,7 +16,7 @@ In this session we talked about what is a web service and how to create a simple
 - What is actually a web service
   - A web service is a method used to communicate between electronic devices.
   - There are some methods in web services we can use it to satisfy our problems. Here below we would list some.
-    - **GET:**  GET is a method used to retrieve files, For example whene we are searching for a cat image in google we are actually requesting cat images with GET method.
+    - **GET:**  GET is a method used to retrieve files, For example when we are searching for a cat image in google we are actually requesting cat images with GET method.
     - **POST:** POST is the second common method used in web services. For example in a sign up process, when we are submiting our name, username, passwords, etc we are posting our data to a server that is using the web service. (Note that there is no specification where the data goes)
     -  **PUT:** PUT is same as POST but we are specifying where the data is going to.
     -  **DELETE:** DELETE is a method that is used to request to delete some data from the server.
