@@ -80,8 +80,8 @@ Now let's experiment with the `n_estimators` parameter
 After which value of `n_estimators` does RMSE stop improving?
 
 - 10
-- 55
-- 75
+- 50
+- 70
 - 150
 
 
@@ -156,7 +156,7 @@ xgb_params = {
 }
 ```
 
-Now change `eta` first to `0.1` and then to `0.01`
+Now change `eta` from `0.3` to `0.1`.
 
 Which eta leads to the best RMSE score on the validation dataset?
 
