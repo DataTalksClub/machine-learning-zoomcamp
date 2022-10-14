@@ -105,8 +105,8 @@ Remember to turn off and turn on your bento service between changing the model t
 
 Test out the first model and the second model, which one performance better at higher volumes?
 
-1. The first model
-2. The second model
+* The first model
+* The second model
 
 ## Question 7 (optional)
 
