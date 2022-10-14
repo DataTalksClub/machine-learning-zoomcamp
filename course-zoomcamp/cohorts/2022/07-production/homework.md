@@ -84,15 +84,34 @@ What is the resulting error?
 
 ## Question 7
 
-install locust
-use the following locust file
+Ensure to serve your bento with --production for this question
 
-Configure 100 users and send
+Install locust using:
+```bash
+pip install locust
+```
 
-Now download this model
+Use the following locust file:
+
+Ensure that it is pointed at your bento's endpoint (In case you didn't name your endpoint "classify")
+
+<img src="resources/classify-endpoint.png">
+
+Configure 100 users with ramp time of 10 users per second. Ensure that it is working
+
+Now download a second model with this command:
+```bash
+curl -O https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel
+bentoml models import coolmodel2.bentomodel
+```
+
+Update your bento's runner tag and test with both models. Which model allows more traffic (more throughput) as you ramp up the traffic?
+Remember to turn off and turn on your bento service between changing the model tag. Use Ctl-C to close the service. Then call bentoml serve
 
 Test out the first model and the second model, which one performance better at higher volumes?
 
+1. The first model
+2. The second model
 
 ## Question 8
 
@@ -103,10 +122,17 @@ Use the txt2image endpoint and update the prompt to: "A cartoon dragon with sung
 
 What is the resulting image?
 
-1. <>
-2. <>
-3. <>
-4. <>
+### #1
+<img src="resources/dragon1.jpeg">
+
+### #2 
+<img src="resources/dragon2.jpeg">
+
+### #3 
+<img src="resources/dragon3.jpeg">
+
+### #4
+<img src="resources/dragon4.jpeg">
 
 
 ## Submit the results
