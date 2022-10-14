@@ -56,33 +56,30 @@ Create a bento out of this scikit-learn model. This will require installing scik
 pip install scikit-learn
 ```
 
-The annotation for the bento endpoint should be:
-@svc.api(...)
+Hint: The and output type for this endpoint should be NumpyNdarray()
 
 Send this array to the bento:
-[0.25,0.35,0.45]
+[[6.4,3.5,4.5,1.2]]
 
-What's the probability that's returned? 
+You can use curl or the swagger UI. What value does it return? 
 
-* 0.162
-* 0.391
-* 0.601
-* 0.993
-
-You can use curl or the swagger UI. What value does it return?
+* 0
+* 1
+* 2
+* 3
 
 ## Question 6
 
 Add Validation to this bento by enforcing shape (-1,3)
 Send this array to the bento:
-[0.25,0.35]
+[[6.4,3.5]]
 
 What is the resulting error?
 
-* Can't use your data unfortunately...
-* Can't use your data unfortunately...
-* Can't use your data unfortunately...
-* Can't use your data unfortunately...
+* "BentoService error handling API request: NumpyNdarray: Expecting shape \"(-1, 3)\", but \"(1, 2)\" was received."
+* "BentoService error handling API request: NumpyNdarray: Expecting ndarray of shape \"(-1, 3)\", but \"(1, 2)\" was received."
+* "Error handling API request: NumpyNdarray: Expecting ndarray of shape \"(-1, 3)\", but \"(1, 2)\" was received."
+* "Error handling API request: NumpyNdarray: Expecting shape \"(-1, 3)\", but \"(1, 2)\" was received."
 
 
 ## Question 7
