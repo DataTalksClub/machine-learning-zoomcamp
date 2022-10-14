@@ -156,7 +156,7 @@ xgb_params = {
 }
 ```
 
-Now change `eta` first to `0.3` and then to `0.1`
+Now change `eta` from `0.3` to `0.1`.
 
 Which eta leads to the best RMSE score on the validation dataset?
 
