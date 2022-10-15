@@ -1,0 +1,10 @@
+lesson,name,page_name,video,slides,notebook
+1,Intro/Session Overview,01-intro.md,https://www.youtube.com/watch?v=2viqmJ_NpgE,,
+2,Building Your Prediction Service with BentoML,02-build-bento-service.md,https://www.youtube.com/watch?v=bWdEVlUw1CA,,
+3,Deploying Your Prediction Service,03-deploy-bento-service.md,https://www.youtube.com/watch?v=qpjLm_Lm4FA,,
+4,"Sending, Receiving and Validating Data",04-validation.md,https://www.youtube.com/watch?v=zNYtXde0BCA,,
+5,High-Performance Serving,05-high-performance.md,https://www.youtube.com/watch?v=LjDYPWhJBrY,,
+6,Bento Production Deployment,06-production-deployment.md,https://www.youtube.com/watch?v=aF-TfJXQX-w,,
+7,(Optional) Advanced Example: Deploying Stable Diffusion Model,07-stable-diffusion.md,https://www.youtube.com/watch?v=NMIi_DDVxAs,,
+8,Summary,08-summary.md,https://www.youtube.com/watch?v=eeLuhv8FpVs,,
+9,Homework,homework.md,,,
