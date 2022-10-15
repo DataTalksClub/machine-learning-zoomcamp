@@ -6,9 +6,12 @@ Select the option that's closest to your solution.
 The goal of this homework is to familiarize you with BentoML and how to build and test an ML production service.
 
 ## Background
+
 You are a new recruit at ACME corp. Your manager is emailing you about your first assignment.
 
-## Email from your manager:
+
+## Email from your manager
+
 Good morning recruit! It's good to have you here! I have an assignment for you. I have a data scientist that's built
 a credit risk model in a jupyter notebook. I need you to run the notebook and save the model with BentoML and see
 how big the model is. If it's greater than a certain size, I'm going to have to request additional resources from 
@@ -18,11 +21,13 @@ Thanks,
 
 Mr McManager
 
+
 ## Question 1
 
 * Install BentoML
 * What's the version of BentoML you installed?
 * Use `--version` to find out
+
 
 ## Question 2
 
@@ -35,10 +40,10 @@ How big approximately is the saved BentoML model?
 * 114kb
 * 8kb
 
----
----
 
-## Another email from your manager:
+
+## Another email from your manager
+
 Great job recruit! Looks like I won't be having to go back to the procurement team. Thanks for the information.
 
 However, I just got word from one of the teams that's using one of our ML services and they're saying our service is "broken"
@@ -63,48 +68,11 @@ Say you have the following data that you're sending to your service:
 }
 ```
 
-What would the pydantic class look like? You can name the class "UserProfile"
+What would the pydantic class look like? You can name the class `UserProfile`.
 
-*
-```python
-UserProfile={
-  "name": "string",
-  "age": "integer",
-  "country": "string",
-  "rating": "float"
-}
-```
 
-*
-```python
-UserProfile -> BaseModel:
-    name: string
-    age: integer
-    country: string
-    rating: float
-```
+## Email from your CEO
 
-*
-```python
-class UserProfile(PydanticModel):
-    name: str
-    age: int
-    country: str
-    rating: float
-```
-*
-```python
-class UserProfile(BaseModel):
-    name: str
-    age: 37
-    country: str
-    rating: float
-```
-
----
----
-
-## Email from your CEO:
 Good morning! I hear you're the one to go to if I need something done well! We've got a new model that a big client
 needs deployed ASAP. I need you to build a service with it and test it against the old model and make sure that it performs
 better, otherwise we're going to lose this client. All our hopes are with you!
@@ -116,6 +84,7 @@ CEO of Acme Corp
 ## Question 4
 
 We've prepared a model for you that you can import using:
+
 ```bash
 curl -O https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel.bentomodel
 bentoml models import coolmodel.bentomodel
@@ -139,9 +108,12 @@ pip install scikit-learn
 Hint: The and output type for this endpoint should be NumpyNdarray()
 
 Send this array to the bento:
-[[6.4,3.5,4.5,1.2]]
 
-You can use curl or the swagger UI. What value does it return? 
+```
+[[6.4,3.5,4.5,1.2]]
+```
+
+You can use curl or the Swagger UI. What value does it return? 
 
 * 0
 * 1
@@ -150,15 +122,15 @@ You can use curl or the swagger UI. What value does it return?
 
 ## Question 6
 
-Ensure to serve your bento with --production for this question
+Ensure to serve your bento with `--production` for this question
 
 Install locust using:
+
 ```bash
 pip install locust
 ```
 
-Use the following locust file:
-[locustfile.py](locustfile.py)
+Use the following locust file: [locustfile.py](locustfile.py)
 
 Ensure that it is pointed at your bento's endpoint (In case you didn't name your endpoint "classify")
 
@@ -167,13 +139,16 @@ Ensure that it is pointed at your bento's endpoint (In case you didn't name your
 Configure 100 users with ramp time of 10 users per second. Click "Start Swarming" and ensure that it is working
 
 Now download a second model with this command:
+
 ```bash
 curl -O https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel
 ```
+
 Or you can download with this link as well:
 [https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel](https://s3.us-west-2.amazonaws.com/bentoml.com/mlzoomcamp/coolmodel2.bentomodel)
 
 Now import the model:
+
 ```bash
 bentoml models import coolmodel2.bentomodel
 ```
@@ -186,10 +161,9 @@ Test out the first model and the second model, which one performance better at h
 * The first model
 * The second model
 
----
----
 
-## Email from marketing:
+## Email from marketing
+
 Hello ML person! I hope this email finds you well. I've heard there's this cool new ML model called Stable Diffusion.
 I hear if you give it a description of a picture it will generate an image. We need a new company logo and I want it
 to be fierce but also cool, think you could help out?
@@ -198,12 +172,13 @@ Thanks,
 
 Mike Marketer
 
+
 ## Question 7 (optional)
 
-Go to this Bento deployment of Stable Diffusion: http://54.176.205.174/
+Go to this Bento deployment of Stable Diffusion: http://54.176.205.174/ (or deploy it yourself)
 
-Use the txt2image endpoint and update the prompt to: "A cartoon dragon with sunglasses"
-- Don't change the seed, it should be 0 by default
+Use the txt2image endpoint and update the prompt to: "A cartoon dragon with sunglasses". 
+Don't change the seed, it should be 0 by default
 
 What is the resulting image?
 
@@ -222,13 +197,13 @@ What is the resulting image?
 
 ## Submit the results
 
-* Submit your results here: https://forms.gle/jU2we8f9WeLgX3qa6
+* Submit your results here: TBA
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 
 
 ## Deadline
 
-The deadline for submitting is **10 October 2022 (Monday), 23:00 CEST (Berlin time)**. 
+The deadline for submitting is **24 October 2022 (Monday), 23:00 CEST (Berlin time)**. 
 
 After that, the form will be closed.
