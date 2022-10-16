@@ -1,6 +1,12 @@
-## 12. Capstone Project
+## Projects 
 
-Now apply everything we learned so far yourself.
+The idea is that you now apply everything we learned so far yourself.
+
+There are three projects in this course:
+
+* Midterm project
+* Capstone 1
+* Capstone 2
 
 That will include:
 
@@ -13,7 +19,23 @@ That will include:
 * Bonus points for deploying the service to the cloud
 
 
-For 2021 capstone projects, check [the 2021 folder](../cohorts/2021/12-capstone/)
+## Midterm project
 
+TBA
 
-More information coming soon
+## Capstone 1
+
+TBA
+
+## Capstone 2
+
+TBA
+
+## Zoomcamp 2021
+
+You can check the projects from ML Zoomcamp 2021 here:
+
+* [Midterm projects](../cohorts/2021/07-midterm-project/)
+* [Capstone 1](../cohorts/2021/12-capstone/)
+* [Capstone 2](../cohorts/2021/14-project/)
+

@@ -188,7 +188,7 @@ To make discussions in Slack more organized:
 - 7.9 [Homework](07-bentoml-production/homework.md)
 
 
-## [Midterm Project](07-midterm-project/)
+## [Midterm Project](projects/#midterm-project)
 
 Putting everything we've learned so far in practice!
 
@@ -254,15 +254,15 @@ Putting everything we've learned so far in practice!
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
-## [Capstone Project](12-capstone/)
+## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
 
-## [Article](13-article/)
+## [Article](article/)
 
 Writing an article about something not covered in the course.
 
-## [Third project](14-project) (optional)
+## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
 
