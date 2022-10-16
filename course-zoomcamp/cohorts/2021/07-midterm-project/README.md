@@ -19,8 +19,6 @@ That will include:
 * https://archive.ics.uci.edu/ml/index.php
 * https://data.europa.eu/en
 * https://www.openml.org/search?type=data
-* https://www.tensorflow.org/datasets/catalog/overview
-* [soccer data](https://github.com/statsbomb/open-data)
 * Add more data here!
 
 ### Deliverables
