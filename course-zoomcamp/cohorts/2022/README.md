@@ -16,7 +16,7 @@
 * Homework solution:
   * [Notebook](01-intro/homework_1.ipynb)
   * [Video](https://www.youtube.com/watch?v=J0Ht4V9mIRI&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
-* [Office hours](https://www.youtube.com/watch?v=VojpszKmKw8)
+* [Office hours](https://www.youtube.com/watch?v=VojpszKmKw8&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 **[2. Machine Learning for Regression](02-regression/)**
 
@@ -25,7 +25,7 @@
 * Homework solution:
   * [Notebook](02-regression/homework_2.ipynb)
   * [Video](https://www.youtube.com/watch?v=mWJwXyibqW8&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
-* [Office hours](https://youtu.be/UYWy8ETnKt8)
+* [Office hours](https://www.youtube.com/watch?v=UYWy8ETnKt8&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
 **3. Machine Learning for Classification**
@@ -34,8 +34,8 @@
 * [Homework](03-classification/homework.md)
 * Homework solution:
   * [Notebook](03-classification/homework_3.ipynb)
-  * [Video](https://youtu.be/o--DqcyRLEM)
-* Office hours - to be added
+  * [Video](https://www.youtube.com/watch?v=o--DqcyRLEM&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Office hours](https://www.youtube.com/watch?v=WYOahoRGvZc&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 **4. Evaluation Metrics for Classification**
 
@@ -43,14 +43,14 @@
 * [Homework](04-evaluation/homework.md)
 * Homework solution:
   * [Notebook](04-evaluation/homework_4.ipynb)
-* Office hours - to be added
+* [Office hours](https://www.youtube.com/watch?v=glwPRlEcYgU&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 **5. Deploying Machine Learning Models**
 
 * [Module materials](../../05-deployment)
 * [Homework](05-deployment/homework.md)
 * Homework solution - to be added
-* Office hours - to be added
+* [Office hours](https://www.youtube.com/watch?v=4JMd6ovNuwk&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 **6. Decision Trees and Ensemble Learning**
 
@@ -59,10 +59,12 @@
 * Homework solution - to be added
 * Office hours - to be added
 
-**7. Bento ML**
+**7. Production-Ready Machine Learning (Bento ML)**
 
-* [Module materials - TBA](../../05-deployment)
-* TBA
+* [Module materials](../../07-bentoml-production/)
+* [Homework](07-bento-production/homework.md)
+* Homework solution - to be added
+* Office hours - to be added
 
 **Midterm Project**
 
@@ -99,8 +101,6 @@
 **Third project (optional)**
 
 * TBA
-
-
 
 
 

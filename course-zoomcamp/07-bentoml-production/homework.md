@@ -1,6 +1,6 @@
 ## Homework
 
-* For 2022 cohort homework, check [the 2022 cohort folder](../cohorts/2022/)
+* For 2022 cohort homework, check [the 2022 cohort folder](../cohorts/2022/07-bento-production/homework.md)
 
 
 ## Navigation
