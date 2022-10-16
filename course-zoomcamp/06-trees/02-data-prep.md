@@ -7,7 +7,7 @@
 
 ## Notes
 
-In this section we clean and prepare the dataset for the model which involves the following steps:
+In this section we clean and prepare the [dataset](https://github.com/gastonstat/CreditScoring/raw/master/CreditScoring.csv) for the model which involves the following steps:
 
 - Download the data from the given link.
 - Reformat categorical columns (`status`, `home`, `marital`, `records`, and `job`) by mapping with appropriate values.
