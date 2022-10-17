@@ -3,9 +3,26 @@
 
 <a href="https://www.youtube.com/watch?v=LjDYPWhJBrY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-7-05.jpg"></a>
  
+[Slides](https://www.slideshare.net/TimLiu72/75-high-performance-servingpptx)
 
+* [Short tutorial on async/await](https://zetcode.com/python/async-await/)
+* [Detailed look at async/await](https://tenthousandmeters.com/blog/python-behind-the-scenes-12-how-asyncawait-works-in-python/)
+* [Locust Load Testing Tool](https://locust.io/)
+* [BentoML Runner Documentation](https://docs.bentoml.org/en/latest/concepts/runner.html)
 
+---
+Thanks for watching!
 
+Love to connect with students! :) If you have any questions you can find me on Linkedin 
+or direct message me in the [BentoML slack community](https://l.bentoml.com/join-slack-mlzoomcamp).
+
+Also, checkout our [BentoML Github repository](https://l.bentoml.com/github-bentoml-mlzoomcamp) and ⭐️ if you like it!
+
+Excited to meet you!
+
+Tim Liu
+https://www.linkedin.com/in/timliu9/
+---
 
 ## Notes
 

@@ -4,7 +4,22 @@
 <a href="https://www.youtube.com/watch?v=aF-TfJXQX-w&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-7-06.jpg"></a>
  
 
+* [Installing the AWS command line interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+* [Amazon ECS](https://aws.amazon.com/ecs/)
 
+---
+Thanks for watching!
+
+Love to connect with students! :) If you have any questions you can find me on Linkedin 
+or direct message me in the [BentoML slack community](https://l.bentoml.com/join-slack-mlzoomcamp).
+
+Also, checkout our [BentoML Github repository](https://l.bentoml.com/github-bentoml-mlzoomcamp) and ⭐️ if you like it!
+
+Excited to meet you!
+
+Tim Liu
+https://www.linkedin.com/in/timliu9/
+---
 
 
 ## Notes
