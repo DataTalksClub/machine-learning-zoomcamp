@@ -105,7 +105,7 @@ Create a bento out of this scikit-learn model. This will require installing scik
 pip install scikit-learn
 ```
 
-Hint: The and output type for this endpoint should be NumpyNdarray()
+Hint: The output type for this endpoint should be NumpyNdarray()
 
 Send this array to the bento:
 
