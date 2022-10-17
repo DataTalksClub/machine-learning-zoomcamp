@@ -7,6 +7,11 @@
 
 ## Notes
 
+- Decision trees learn if-then-else rules from data.
+- Finding the best split: select the least impure split. This algorithm can overfit, that's why we control it by limiting the max depth and the size of the group.
+- Random forest is a way of combininig multiple decision trees. It should have a diverse set of models to make good predictions.
+- Gradient boosting trains model sequentially: each model tries to fix errors of the previous model. XGBoost is an implementation of gradient boosting.
+
 Add notes from the video (PRs are welcome)
 
 
