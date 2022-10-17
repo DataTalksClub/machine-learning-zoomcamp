@@ -105,7 +105,7 @@ Create a bento out of this scikit-learn model. This will require installing scik
 pip install scikit-learn
 ```
 
-Hint: The and output type for this endpoint should be NumpyNdarray()
+Hint: The output type for this endpoint should be NumpyNdarray()
 
 Send this array to the bento:
 
@@ -197,7 +197,7 @@ What is the resulting image?
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://forms.gle/Hh9FWy6LGXk3wJYs8
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 

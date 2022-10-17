@@ -7,6 +7,8 @@
 
 ## Notes
 
+In this lesson, we will discuss about different parameters present to control a Decision Tree (DT). Two features, `max_depth` and `min_samples_leaf` have a greater importance than other parameters. We will further see how we first tune `max_depth` parameter and then move to tuning other parameters will help. Finally, a dataframe is created with all possible combinations of `max_depth`, `min_sample_leaf` and the auc score corresponding to them. These results are visualized using a heatmap by pivoting the dataframe to easily determine the best possible `max_depth` and `min_samples_leaf` combination. Finally, the DT is retrained using the identified parameter combination. DT so trained is viewed as a tree diagram.     
+
 Add notes from the video (PRs are welcome)
 
 
