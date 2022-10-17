@@ -7,6 +7,15 @@
 
 ## Notes
 
+Random Forest is an example of ensemble learning where each model is a decision tree and their predictions are aggregated to identify the most popular result. Random forest only select a random subset of features from the original data to make predictions.
+
+In random forest the decision trees are trained independent to each other.
+
+**Classes, functions, and methods**:
+
+- `from sklearn.ensemble import RandomForestClassifier`: random forest classifier from sklearn ensemble class.
+- `plt.plot(x, y)`: draw line plot for the values of y against x values.
+
 Add notes from the video (PRs are welcome)
 
 
