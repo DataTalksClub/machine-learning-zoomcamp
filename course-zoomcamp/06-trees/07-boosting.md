@@ -7,6 +7,17 @@
 
 ## Notes
 
+Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially where each model takes the prediction errors made my the previous model and then tries to improve the prediction. This process continues to `n` number of iterations and in the end all the predictions get combined to make final prediction.
+
+XGBoost is one of the libraries which implements the gradient boosting technique. To make use of the library, we need to install with `pip install xgboost`. To train and evaluate the model, we need to wrap our train and validation data into a special data structure from XGBoost which is called `DMatrix`. This data structure is optimized to train xgboost models faster.
+
+**Classes, functions, and methods**:
+
+- `xgb.train()`: method to train xgboost model.
+- `xgb_params`: key-value pairs of hyperparameters to train xgboost model.
+- `watchlist`: list to store training and validation accuracy to evaluate the performance of the model after each training iteration. The list takes tuple of train and validation set from DMatrix wrapper, for example, `watchlist = [(dtrain, 'train'), (dval, 'val')]`.
+- `%%capture output`: IPython magic command which captures the standard output and standard error of a cell.
+
 Add notes from the video (PRs are welcome)
 
 
