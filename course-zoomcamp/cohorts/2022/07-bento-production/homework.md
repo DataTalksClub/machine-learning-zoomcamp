@@ -33,7 +33,8 @@ Mr McManager
 
 Run the notebook from module 6 and save the credit risk model with BentoML
 
-How big approximately is the saved BentoML model?
+How big approximately is the saved BentoML model? Size can slightly vary depending on your local development environment.
+Choose the size closest to your model.
 
 * 924kb
 * 724kb
@@ -136,7 +137,7 @@ Ensure that it is pointed at your bento's endpoint (In case you didn't name your
 
 <img src="resources/classify-endpoint.png">
 
-Configure 100 users with ramp time of 10 users per second. Click "Start Swarming" and ensure that it is working
+Configure 100 users with ramp time of 10 users per second. Click "Start Swarming" and ensure that it is working.
 
 Now download a second model with this command:
 
@@ -154,9 +155,12 @@ bentoml models import coolmodel2.bentomodel
 ```
 
 Update your bento's runner tag and test with both models. Which model allows more traffic (more throughput) as you ramp up the traffic?
-Remember to turn off and turn on your bento service between changing the model tag. Use Ctl-C to close the service. Then call bentoml serve
 
-Test out the first model and the second model, which one performance better at higher volumes?
+**Hint 1**: Remember to turn off and turn on your bento service between changing the model tag. Use Ctl-C to close the service in between trials.
+
+**Hint 2**: Increase the number of concurrent users to see which one has higher throughput
+
+Which model has better performance at higher volumes?
 
 * The first model
 * The second model
