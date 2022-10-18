@@ -43,6 +43,7 @@
 * [Homework](04-evaluation/homework.md)
 * Homework solution:
   * [Notebook](04-evaluation/homework_4.ipynb)
+  * [Video](https://youtu.be/82TYlOvKwfk)
 * [Office hours](https://www.youtube.com/watch?v=glwPRlEcYgU&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 **5. Deploying Machine Learning Models**
