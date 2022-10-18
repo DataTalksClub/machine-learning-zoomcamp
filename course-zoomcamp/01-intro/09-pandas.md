@@ -20,8 +20,10 @@ Add notes here (PRs are welcome).
 
 ## Links
 
-* [Notebook from the video](notebooks/09-pandas.ipynb)
-* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
+* [Notebook from the video](notebooks/09-pandas.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/09-pandas.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/09-pandas.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/09-pandas.ipynb)
+* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
 
 ## Additional links
 

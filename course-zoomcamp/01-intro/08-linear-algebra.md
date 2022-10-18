@@ -112,9 +112,12 @@ Add notes here (PRs are welcome).
 
 ## Links
 
-* [Notebook from the video](notebooks/08-linear-algebra.ipynb)
+* [Notebook from the video](notebooks/08-linear-algebra.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/08-linear-algebra.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/08-linear-algebra.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/08-linear-algebra.ipynb)
 * [Get a visual understanding of matrix multiplication](http://matrixmultiplication.xyz/)
-* [Overview of matrix multiplication functions in python/numpy](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb) 
+* [Overview of matrix multiplication functions in python/numpy](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Notes_for_Chapter_1-Linear_Algebra.ipynb)
+
 
 
 ## Navigation

@@ -48,6 +48,8 @@ No code
 
 Code: [chapter-02-car-price/02-carprice.ipynb](chapter-02-car-price/02-carprice.ipynb)
 
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb)
+
 ## Chapter 3: Machine Learning for Classification
 
 * Predicting customers who will churn with logistic regression
@@ -56,6 +58,8 @@ Code: [chapter-02-car-price/02-carprice.ipynb](chapter-02-car-price/02-carprice.
 * Using logistic regression for classification
 
 Code: [chapter-03-churn-prediction/03-churn.ipynb](chapter-03-churn-prediction/03-churn.ipynb)
+
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb)
 
 ## Chapter 4: Evaluation Metrics for Classification
 
@@ -67,6 +71,8 @@ Code: [chapter-03-churn-prediction/03-churn.ipynb](chapter-03-churn-prediction/0
 * Tuning the parameters of a model to achieve the best predictive performance
 
 Code: [chapter-03-churn-prediction/04-metrics.ipynb](chapter-03-churn-prediction/04-metrics.ipynb)
+
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/04-metrics.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/04-metrics.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/04-metrics.ipynb)
 
 ## Chapter 5: Deploying Machine Learning Models
 
@@ -87,6 +93,8 @@ Code: [chapter-05-deployment](chapter-05-deployment)
 
 Code: [chapter-06-trees/06-trees.ipynb](chapter-06-trees/06-trees.ipynb)
 
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-06-trees/06-trees.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-06-trees/06-trees.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-06-trees/06-trees.ipynb)
+
 ## Chapter 7: Neural Networks and Deep Learning
 
 * Convolutional neural networks for image classification 
@@ -97,6 +105,8 @@ Code: [chapter-06-trees/06-trees.ipynb](chapter-06-trees/06-trees.ipynb)
 * Data augmentations — the process of generating more training data
 
 Code: [chapter-07-neural-nets/07-neural-nets-train.ipynb](chapter-07-neural-nets/07-neural-nets-train.ipynb)
+
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-07-neural-nets/07-neural-nets-train.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-07-neural-nets/07-neural-nets-train.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-07-neural-nets/07-neural-nets-train.ipynb)
 
 ## Chapter 8: Serverless Deep Learning
 
@@ -157,6 +167,8 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
 Code: [appendix-b-python.ipynb](appendix-b-python.ipynb)
 
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-b-python.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-b-python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/appendix-b-python.ipynb)
+
 Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
 * [Introduction to Python](https://mlbookcamp.com/article/python)
@@ -172,6 +184,8 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
 Code: [appendix-c-numpy.ipynb](appendix-c-numpy.ipynb)
 
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
+
 Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
 * [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
@@ -186,6 +200,9 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 * Sorting and grouping
 
 Code: [appendix-d-pandas.ipynb](appendix-d-pandas.ipynb)
+
+[![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
+
 
 ## Appendix D: AWS SageMaker
 

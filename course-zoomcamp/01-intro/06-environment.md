@@ -90,6 +90,23 @@ There are services that allow you to host and run notebooks.
 Note that notebooks alone are not sufficient for the course and for the deployment modules
 you will need to have access to the command line interface with Docker, Python and other libraries installed.
 
+All notebooks have a link to open them in each of these services. If you want to make a link manually, follow these instructions.
+
+### Deepnote
+
+To use Google Colab to open and run the Jupyter notebooks provided as part of this course do the following:
+
+*Pre-requisites - You need to have a Deepnote account (it's free)*
+
+1. Find the URL of the notebook. 
+   
+   ![See this example](images/sample-jupyter-notebook.png)
+
+2. To open the notebook in Deepnote, in your web browser paste the URL after `?url=` in the example below
+
+   https://deepnote.com/launch?url=https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
+
+**Note**: unlike Kaggle and Google Colab, you do not need to manually upload data files.
 ### Kaggle
 
 To use Kaggle to open and run the Jupyter notebooks provided as part of this course do the following:
@@ -100,7 +117,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
    
    ![See this example](images/sample-jupyter-notebook.png)
    
-2. To open the notebook in Kaggle, in your web browser launch paste the URL as shown in below example. (*note the additional https://kaggle.com/kernels/welcome?src= before the URL of the notebook*)
+2. To open the notebook in Kaggle, in your web browser paste the URL as shown in below example. (*note the additional https://kaggle.com/kernels/welcome?src= before the URL of the notebook*)
 
    https://kaggle.com/kernels/welcome?src=https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
   
@@ -122,7 +139,6 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
    
 This way you can start with the exercise using Kaggle
 
-
 ### Google Colab
 
 To use Google Colab to open and run the Jupyter notebooks provided as part of this course do the following:
@@ -131,11 +147,9 @@ To use Google Colab to open and run the Jupyter notebooks provided as part of th
 
 Steps for Google Colab are same as that for Kaggle, except for some changes in Step 2, as explained below.
 
-2. To open the notebook in Google Colab, in your web browser launch paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
+2. To open the notebook in Google Colab, in your web browser paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
 
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
-
-
 
 ## Navigation
 

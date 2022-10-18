@@ -20,8 +20,12 @@ Add notes here (PRs are welcome).
 
 ## Links
 
-* [Notebook from the video](notebooks/07-numpy.ipynb)
-* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
+* [Notebook from the video](notebooks/07-numpy.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/07-numpy.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/07-numpy.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/notebooks/07-numpy.ipynb)
+
+* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)  
+  [![Launch in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-white-small.svg)](https://deepnote.com/launch?url=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb) [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https%3A//github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
+
 * [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
 
 ## Additional links
