@@ -110,6 +110,7 @@ Violating any of this will result in 0 points for this project.
 * https://www.openml.org/search?type=data
 * https://www.tensorflow.org/datasets/catalog/overview
 * [Soocer data](https://github.com/statsbomb/open-data)
+* https://newzealand.ai/public-data-sets
 * Add more data here!
 
 
