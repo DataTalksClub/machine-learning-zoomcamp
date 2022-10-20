@@ -57,7 +57,8 @@
 
 * [Module materials](../../06-trees)
 * [Homework](06-trees/homework.md)
-* Homework solution - to be added
+* Homework solution:
+  * [Notebook](06-trees/homework_6.ipynb)
 * Office hours - to be added
 
 **7. Production-Ready Machine Learning (Bento ML)**
