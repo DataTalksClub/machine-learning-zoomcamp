@@ -19,18 +19,11 @@ This is what you need to do for each project
 * Put your model into a web service and deploy it locally with Docker
 * Bonus points for deploying the service to the cloud
 
+## Projects 2022
 
-## Midterm project
-
-TBA
-
-## Capstone 1
-
-TBA
-
-## Capstone 2
-
-TBA
+* [Midterm project](../cohorts/2022/projects.md#midterm-project)
+* [Capstone 1](../cohorts/2022/projects.md#capstone-1)
+* [Capstone 2](../cohorts/2022/projects.md#capstone-2)
 
 
 ## Deliverables
