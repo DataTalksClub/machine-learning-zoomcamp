@@ -31,7 +31,8 @@ Mr McManager
 
 ## Question 2
 
-Run the notebook from module 6 and save the credit risk model with BentoML. Please refer this [notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production/code/train.ipynb). 
+Run the notebook which contains random forest model from module 6 i.e previous module and save the model with BentoML. To make it easier for you we have prepared this [notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production/code/train.ipynb). 
+
 
 How big approximately is the saved BentoML model? Size can slightly vary depending on your local development environment.
 Choose the size closest to your model.
