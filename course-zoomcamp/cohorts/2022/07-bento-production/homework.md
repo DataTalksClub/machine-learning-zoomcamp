@@ -102,14 +102,9 @@ What version of scikit-learn was this model trained with?
 
 ## Question 5 
 
-Create a bento out of this scikit-learn model. This will require installing scikit-learn like this:
-```bash
-pip install scikit-learn
-```
+Create a bento out of this scikit-learn model. The output type for this endpoint should be `NumpyNdarray()`
 
-Hint: The output type for this endpoint should be NumpyNdarray()
-
-Send this array to the bento:
+Send this array to the Bento:
 
 ```
 [[6.4,3.5,4.5,1.2]]
@@ -121,6 +116,9 @@ You can use curl or the Swagger UI. What value does it return?
 * 1
 * 2
 * 3
+
+(Make sure your environment has Scikit-Learn installed) 
+
 
 ## Question 6
 
