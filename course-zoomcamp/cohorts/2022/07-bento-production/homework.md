@@ -31,7 +31,8 @@ Mr McManager
 
 ## Question 2
 
-Run the notebook from module 6 and save the credit risk model with BentoML
+Run the notebook which contains random forest model from module 6 i.e previous module and save the model with BentoML. To make it easier for you we have prepared this [notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production/code/train.ipynb). 
+
 
 How big approximately is the saved BentoML model? Size can slightly vary depending on your local development environment.
 Choose the size closest to your model.
@@ -101,14 +102,9 @@ What version of scikit-learn was this model trained with?
 
 ## Question 5 
 
-Create a bento out of this scikit-learn model. This will require installing scikit-learn like this:
-```bash
-pip install scikit-learn
-```
+Create a bento out of this scikit-learn model. The output type for this endpoint should be `NumpyNdarray()`
 
-Hint: The output type for this endpoint should be NumpyNdarray()
-
-Send this array to the bento:
+Send this array to the Bento:
 
 ```
 [[6.4,3.5,4.5,1.2]]
@@ -120,6 +116,9 @@ You can use curl or the Swagger UI. What value does it return?
 * 1
 * 2
 * 3
+
+(Make sure your environment has Scikit-Learn installed) 
+
 
 ## Question 6
 
