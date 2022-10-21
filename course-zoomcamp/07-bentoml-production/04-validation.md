@@ -7,6 +7,12 @@
 * [Pydantic Documentation](https://pydantic-docs.helpmanual.io/usage/models/)
 * [BentoML Data Types Documentation](https://docs.bentoml.org/en/latest/reference/api_io_descriptors.html)
 
+## Instructor Clarifications
+**Please remember pydantic is not included by BentoML**
+It must be installed using ```pip install pydantic```
+
+Also remember to include it in your bentofile.yaml as a dependency when building your bento
+
 ## Notes
 
 Add notes from the video (PRs are welcome)

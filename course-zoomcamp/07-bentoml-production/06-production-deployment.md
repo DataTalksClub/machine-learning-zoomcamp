@@ -7,6 +7,12 @@
 * [Installing the AWS command line interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 * [Amazon ECS](https://aws.amazon.com/ecs/)
 
+## Instructor Clarifications
+**Fargate is actually not in the free tier**
+
+As configured in the video with 0.25 CPUs it will cost $0.01 per hour.
+In addition, any images stored in ECR over 500MB will cost $0.10/GB per month 
+
 
 ## Notes
 
