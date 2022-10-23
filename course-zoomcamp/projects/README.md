@@ -51,16 +51,16 @@ For a project, you repository/folder should contain the following:
   * or equivalents: conda environment file, requirements.txt or pyproject.toml
 * `Dockerfile` for running the service
 * Deployment
-  * URL to the service your deployed or
+  * URL to the service you deployed or
   * Video or image of how you interact with the deployed service
 
 
 ## Peer reviewing
 
-To evaluate the projects, we'll use peer reviewing. This is a great opportunity for your to learn from each other.
+To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
 
 * To get points for your project, your need to evaluate 3 projects of your peers
-* You get 3 extra point for each evaluation
+* You get 3 extra points for each evaluation
 
 Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
 
