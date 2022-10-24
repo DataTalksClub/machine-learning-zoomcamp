@@ -12,6 +12,12 @@
 
 ## Notes
 
+This lesson is about deploying an open-source model on Amazon Elastic Compute Cloud (EC2). The model is called Stable Diffusion which takes prompt as text and/or image from the user and transform it into an image.
+
+BentoML has a nice user-friendly instructions on their GitHub page to use the model and deploy it on EC2.
+
+**Link**: [Serving Stable Diffusion with BentoML](https://github.com/bentoml/stable-diffusion-bentoml)
+
 Add notes from the video (PRs are welcome)
 
 

@@ -9,6 +9,17 @@
 
 ## Notes
 
+Here's the summary of what we have gone through in the session 7:
+
+- Building a prediction service
+- Deploying our prediction service
+- Sending, Receiving and Validating Data
+- High performance serving
+- Bento production deployment
+- Advanced example: Deploying Stable Diffusion
+
+**Link**: [BentoML GitHub page](https://github.com/bentoml/BentoML)
+
 Add notes from the video (PRs are welcome)
 
 
