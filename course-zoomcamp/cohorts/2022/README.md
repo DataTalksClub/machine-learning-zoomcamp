@@ -55,6 +55,7 @@
 * [Homework](05-deployment/homework.md)
 * Homework solution:
   * [Code](05-deployment/homework/)
+  * [Video](https://youtu.be/LZFKhcG6ygc)
 * [Office hours](https://www.youtube.com/watch?v=4JMd6ovNuwk&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
