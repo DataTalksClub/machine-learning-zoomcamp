@@ -104,18 +104,30 @@ Violating any of this will result in 0 points for this project.
 * https://www.tensorflow.org/datasets/catalog/overview
 * [Soocer data](https://github.com/statsbomb/open-data)
 * https://newzealand.ai/public-data-sets
+* [OECD database](https://stats.oecd.org/index.aspx?lang=en)
 * Add more data here!
 
 
 ## FAQ
 
-**Q**: Do I have to run the code and make sure it works?
+
+**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
+
+> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
+> Think of your peers who will review it - they don't necessarily know what these libraries are. 
+> Please give them enough context to understand your project.
+
+**Q**: Can multiple people use the same dataset?
+
+> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
+
+**Q**: For peer reviewing, do I have to run the code and make sure it works?
 
 > It's recommended that you do that, but you don't _have_ to do it.
 
 **Q**: What if I see an error? What if I run something and it doesn't work?
 
-> But if you spot an error somewhere and you see that the code clearly doesn't work, then you
+> If you spot an error somewhere and you see that the code clearly doesn't work, then you
 > give 0 points to the respective criterium. E.g. if you see an error in Dockerfile,
 > then you give 0 points to the "containerization" dimension.
 
