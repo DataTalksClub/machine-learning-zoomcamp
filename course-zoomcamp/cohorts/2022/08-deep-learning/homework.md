@@ -13,14 +13,7 @@ In the lectures we saw how to use a pre-trained neural network. In the homework,
 
 The dataset contains around 1900 images of dinos and around 1900 images of dragons. 
 
-Now we need to split this data into train and validation
-
-* Create a `train` and `test` folders
-* In each folder, create `dino` and `dragon` folders
-* Move the first 1594 images to the train folder for boths dinos and dragons - and put them in respective folders
-* Move the remaining 394 images to the validation/test folder
-
-You can do this manually or with Python (check `os` and `shutil` packages).
+The dataset contains separate folders for training and validation. 
 
 
 ### Model
@@ -55,6 +48,7 @@ Since we have a binary classification problem, what is the best loss function fo
 - `binary crossentropy`
 - `focal loss`
 - `mean squared error`
+- `categorical crossentropy`
 
 Note: since we specify an activation for the output layer, we don't need to set `from_logits=True`
 
@@ -66,6 +60,7 @@ What's the total number of parameters of the model? You can use the `summary` me
 - 9215873
 - 11215873
 - 14215873
+- 19215873
 
 
 ### Generators and Training
@@ -91,22 +86,23 @@ model.fit(
 )
 ```
 
-
 ### Question 3
 
-What is the median of training accuracy for this model?
+What is the median of training accuracy for all the epochs for this model?
 
 - 0.40
 - 0.60
 - 0.90
+- 0.20
 
 ### Question 4
 
-What is the standard deviation of training loss for this model?
+What is the standard deviation of training loss for all the epochs for this model?
 
 - 0.11
 - 0.66
 - 0.99
+- 0.33
 
 
 ### Data Augmentation
@@ -129,11 +125,12 @@ Let's train our model for 10 more epochs using the same code as previously.
 Make sure you don't re-create the model - we want to continue training the model
 we already started training.
 
-What is the mean of validation loss for the model trained with augmentations?
+What is the mean of validation loss for all the epochs for the model trained with augmentations?
 
 - 0.15
 - 0.77
 - 0.37
+- 0.97
 
 ### Question 6
 
@@ -143,6 +140,7 @@ for the model trained with augmentations?
 - 0.84
 - 0.54
 - 0.44
+- 0.24
 
 
 ## Submit the results
