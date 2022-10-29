@@ -84,7 +84,7 @@
 **8. Neural Networks and Deep Learning**
 
 * [Module materials](../../08-deep-learning)
-* TBA
+* [Homework](08-deep-learning/homework.md)
 
 
 **9. Serverless Deep Learning**
