@@ -65,15 +65,16 @@
 * [Homework](06-trees/homework.md)
 * Homework solution:
   * [Notebook](06-trees/homework_6.ipynb)
-* Office hours - to be added
+* [Office hours](https://www.youtube.com/watch?v=DOWSa2kR8-I&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
 [**7. Production-Ready Machine Learning (Bento ML)**](07-bento-production/)
 
 * [Module materials](../../07-bentoml-production/)
 * [Homework](07-bento-production/homework.md)
-* Homework solution - to be added
-* Office hours - to be added
+* Homework solution:
+  * [Video](https://www.youtube.com/watch?v=BknNxERM2fk&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Office hours](https://www.youtube.com/watch?v=yKK7RgXlNdY&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
 **Midterm Project**
