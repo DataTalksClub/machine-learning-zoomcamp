@@ -18,12 +18,12 @@ The dataset contains separate folders for training and validation.
 
 ### Model
 
-For this homework we will use Convolutional Neural Network (CNN. Like in the lectures, we'll use Keras.
+For this homework we will use Convolutional Neural Network (CNN). Like in the lectures, we'll use Keras.
 
 You need to develop the model with following structure:
 
 * The shape for input should be `(150, 150, 3)`
-* Next, create a covolutional layer ([`Conv2D`](https://keras.io/api/layers/convolution_layers/convolution2d/)):
+* Next, create a convolutional layer ([`Conv2D`](https://keras.io/api/layers/convolution_layers/convolution2d/)):
     * Use 32 filters
     * Kernel size should be `(3, 3)` (that's the size of the filter)
     * Use `'relu'` as activation 
@@ -74,7 +74,7 @@ ImageDataGenerator(rescale=1./255)
 * We don't need to do any additional pre-processing for the images.
 * When reading the data from train/val directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
 * Use `batch_size=20`
-* Use `shuffle=True` for both training and validaition 
+* Use `shuffle=True` for both training and validation 
 
 For training use `.fit()` with the following params:
 
