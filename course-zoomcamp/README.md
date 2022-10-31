@@ -55,7 +55,7 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
-### Pre-preqiusites
+### Prerequisites
 
 * Prior programming experience (at least 1+ year)
 * Being comfortable with command line 
