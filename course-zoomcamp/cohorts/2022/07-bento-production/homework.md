@@ -178,7 +178,7 @@ Mike Marketer
 
 ## Question 7 (optional)
 
-Go to this Bento deployment of Stable Diffusion: http://54.176.205.174/ (or deploy it yourself)
+Go to this Bento deployment of Stable Diffusion: https://l.bentoml.com/stable-diffusion-mlzoomcamp (or deploy it yourself)
 
 Use the txt2image endpoint and update the prompt to: "A cartoon dragon with sunglasses". 
 Don't change the seed, it should be 0 by default
