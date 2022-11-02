@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 scikit-learn = "==1.0.2"
 flask = "*"
-gunicorn = "*"
+waitress = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"

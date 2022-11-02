@@ -1,5 +1,9 @@
 ## Homework
 
+> **Solution**:
+> * [Code](homework/)
+> * [Video](https://youtu.be/LZFKhcG6ygc)
+
 In this homework, we will use Credit Card Data from [the previous homework](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/04-evaluation/homework.md).
 
 > Note: sometimes your answer doesn't match one of the options exactly. That's fine. 

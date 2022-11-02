@@ -1,5 +1,8 @@
 ## Homework
 
+> **Solution**:
+> * [Notebook](homework_6.ipynb)
+
 The goal of this homework is to create a regression model for predicting housing prices (column 'median_house_value').  
 
 In this homework we'll again use the California Housing Prices dataset - the same one we used in homework 2 and 3.

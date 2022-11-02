@@ -1,10 +1,11 @@
 import pickle
+
 from flask import Flask
 from flask import request
 from flask import jsonify
 
 
-def load(filename):
+def load(filename: str):
     with open(filename, 'rb') as f_in:
         return pickle.load(f_in)
 
@@ -12,7 +13,7 @@ def load(filename):
 dv = load('dv.bin')
 model = load('model1.bin')
 
-app = Flask('credit-card')
+app = Flask('credict-card')
 
 
 @app.route('/predict', methods=['POST'])

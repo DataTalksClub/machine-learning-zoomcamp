@@ -31,7 +31,8 @@ Mr McManager
 
 ## Question 2
 
-Run the notebook which contains random forest model from module 6 i.e previous module and save the model with BentoML. To make it easier for you we have prepared this [notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production/code/train.ipynb). 
+Run the notebook which contains the xgboost model from module 6 i.e previous module and save the xgboost model with BentoML. To make it easier for you we have prepared this [notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production/code/train.ipynb). 
+
 
 How big approximately is the saved BentoML model? Size can slightly vary depending on your local development environment.
 Choose the size closest to your model.
@@ -101,14 +102,9 @@ What version of scikit-learn was this model trained with?
 
 ## Question 5 
 
-Create a bento out of this scikit-learn model. This will require installing scikit-learn like this:
-```bash
-pip install scikit-learn
-```
+Create a bento out of this scikit-learn model. The output type for this endpoint should be `NumpyNdarray()`
 
-Hint: The output type for this endpoint should be NumpyNdarray()
-
-Send this array to the bento:
+Send this array to the Bento:
 
 ```
 [[6.4,3.5,4.5,1.2]]
@@ -121,6 +117,9 @@ You can use curl or the Swagger UI. What value does it return?
 * 2
 * 3
 
+(Make sure your environment has Scikit-Learn installed) 
+
+
 ## Question 6
 
 Ensure to serve your bento with `--production` for this question
@@ -131,7 +130,7 @@ Install locust using:
 pip install locust
 ```
 
-Use the following locust file: [locustfile.py](locustfile.py)
+Use the following locust file: [locustfile.py](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/07-bento-production/locustfile.py)
 
 Ensure that it is pointed at your bento's endpoint (In case you didn't name your endpoint "classify")
 
@@ -179,7 +178,7 @@ Mike Marketer
 
 ## Question 7 (optional)
 
-Go to this Bento deployment of Stable Diffusion: http://54.176.205.174/ (or deploy it yourself)
+Go to this Bento deployment of Stable Diffusion: https://l.bentoml.com/stable-diffusion-mlzoomcamp (or deploy it yourself)
 
 Use the txt2image endpoint and update the prompt to: "A cartoon dragon with sunglasses". 
 Don't change the seed, it should be 0 by default
