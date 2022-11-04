@@ -8,6 +8,8 @@ so ignore the instructions from the office hours and
 just create a repository in your github account
 
 
+Criteria: https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml
+
 
 ## Midterm Project
 
