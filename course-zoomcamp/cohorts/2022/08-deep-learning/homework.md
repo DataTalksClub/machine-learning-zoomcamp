@@ -6,7 +6,8 @@ In this homework, we'll build a model for predicting if we have an image of a di
 
 In the lectures we saw how to use a pre-trained neural network. In the homework, we'll train a much smaller model from scratch. 
 
-**Note:** You don't need a computer with a GPU for this homework. A laptop or any personal computer should be sufficient. 
+**Note:** You will need an environment with a GPU for this homework. We recommend to use [Saturn Cloud](https://bit.ly/saturn-mlzoomcamp). 
+You can also use a computer without a GPU (e.g. your laptop), but it will be slower.
 
 
 ### Data Preparation
