@@ -25,5 +25,5 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Fashion classification](01-fashion-classification.md)
+* Previous: [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
 * Next: [Pre-trained convolutional neural networks](03-pretrained-models.md)

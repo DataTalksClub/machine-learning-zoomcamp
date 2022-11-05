@@ -31,4 +31,4 @@ Add notes from the video (PRs are welcome)
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 8: Neural Networks and Deep Learning](./)
-* Next: [TensorFlow and Keras](02-tensorflow-keras.md)
+* Next: [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
