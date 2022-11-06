@@ -9,6 +9,24 @@
 
 Add notes from the video (PRs are welcome)
 
+* convolutional layers convert an image into a vector representation
+* dense layers use vector representations to make predictions
+* using a pretrained neural network
+* imagenet has 1000 different classes
+* a dense layer may be specific to a certain number of classes whereas the vector representation can be applied to another dataset
+* reusing the vector representation from convolutional layers means transferring knowledge and the idea behind transfer learning
+* train faster on smaller size images
+* the batch size
+* base model vs custom model
+* bottom layers vs top layers in keras
+* keras optimizers
+* using the adam optimizer
+* weights, learning rates
+* eta in xgboost
+* model loss
+* categorical cross entropy
+* changing accuracy during several training epochs
+* overfitting
 
 <table>
    <tr>
