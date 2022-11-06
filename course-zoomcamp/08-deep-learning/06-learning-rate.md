@@ -9,6 +9,9 @@
 
 Add notes from the video (PRs are welcome)
 
+* learning rate analogy: the speed of reading a book
+* reading fast (skimming thus missing details) vs reading slow (not much progress and leaving out books)
+* finding the optimal learning rate
 
 <table>
    <tr>
