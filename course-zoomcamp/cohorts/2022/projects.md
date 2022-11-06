@@ -11,9 +11,9 @@ so ignore the instructions from the office hours and just create a repository in
 
 ## Midterm Project
 
-* Project due date: 10 November 2022
+* Project due date: 10 November 2022, 23:00 CET (Berlin time)
 * Submit your project here: https://forms.gle/Hnk267ue7LPyR5bs5
-* Evaluation due date: 15 November 2022
+* Evaluation due date: 15 November 2022 (Berlin time)
 * Evaluation assignments: TBA
 * Submit your evaluation here: TBA
 
