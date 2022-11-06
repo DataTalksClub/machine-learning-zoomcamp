@@ -9,6 +9,15 @@
 
 Add notes from the video (PRs are welcome)
 
+* convolutional neural networks (CNN) consist of different types of layers
+* convolutional layer as filters (i.e. 5 x 5)
+* dense layers
+* sliding the filter across the cells of the entire image
+* calculating similarity scores of the different positions of the filter
+* creating the feature map, one feature map per filter
+* chaining layers of simple and complex filters allows the CNN to "learn"
+* resulting in vector representation of image
+* activation functions sigmoid for binary classification and softmax for multiclass
 
 <table>
    <tr>
