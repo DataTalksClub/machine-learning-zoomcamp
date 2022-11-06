@@ -9,6 +9,9 @@
 
 Add notes from the video (PRs are welcome)
 
+* checkpointing saves the model after each training iteration
+* checkpoint conditions may include reaching the best performance
+* keras callbacks
 
 <table>
    <tr>
