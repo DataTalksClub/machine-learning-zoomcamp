@@ -9,6 +9,12 @@
 
 Add notes from the video (PRs are welcome)
 
+* softmax takes raw scores from a dense layer and transforms it into a probability
+* activation functions used for output vs activation functions used for intermediate steps
+* have a look at http://cs231n.stanford.edu/2017/
+* sigmoid: negativ input --> zero, positive input --> straight line
+* relu
+* softmax
 
 <table>
    <tr>
