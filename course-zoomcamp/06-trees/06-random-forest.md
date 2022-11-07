@@ -18,6 +18,7 @@ In random forest the decision trees are trained independent to each other.
 
 Add notes from the video (PRs are welcome)
 
+* bootstrapping: training on a subset of the observations
 
 <table>
    <tr>
