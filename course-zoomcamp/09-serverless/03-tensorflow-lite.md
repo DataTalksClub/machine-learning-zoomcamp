@@ -11,6 +11,10 @@
 
 Add notes from the video (PRs are welcome)
 
+* tensorflow has a size of approximately 1.7 GB
+* there are size limits of cloud services and docker container
+* tensorflow lite is small in size and limited to using a model to make predictions (inference)
+* convert tensorflow keras model to a tensorflow lite model
 
 <table>
    <tr>
