@@ -9,6 +9,10 @@
 
 Add notes from the video (PRs are welcome)
 
+* A neural network might learn false patterns, i.e. if it repeatedly recognizes a certain logo on a t-shirt it might learn that the logo defines the t-shirt which is wrong since the logo might also be seen on a hoodie.
+* hiding parts of the images (freeze) from being seen by the learning neural network
+* dropout = randomly freezing parts of the image
+* comparing different performance parameters while changing dropout rate and regularization
 
 <table>
    <tr>
