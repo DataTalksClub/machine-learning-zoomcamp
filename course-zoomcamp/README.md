@@ -196,6 +196,7 @@ Putting everything we've learned so far in practice!
 ## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
 - 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.1b [Setting up the Environment on Saturn Cloud](08-deep-learning/01b-saturn-cloud.md)
 - 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)

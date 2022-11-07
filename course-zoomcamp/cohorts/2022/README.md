@@ -77,12 +77,12 @@
 * [Office hours](https://www.youtube.com/watch?v=yKK7RgXlNdY&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
-**Midterm Project**
+[projects.md](**Midterm Project**)(projects.md#midterm-project)
 
 * More information: [projects.md](projects.md#midterm-project)
 
 
-**8. Neural Networks and Deep Learning**
+[**8. Neural Networks and Deep Learning**](08-deep-learning/)
 
 * [Module materials](../../08-deep-learning)
 * [Homework](08-deep-learning/homework.md)

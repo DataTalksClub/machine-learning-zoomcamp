@@ -1,6 +1,7 @@
 ## 8. Neural Networks and Deep Learning
 
 - 8.1 [Fashion classification](01-fashion-classification.md)
+- 8.1b [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
 - 8.2 [TensorFlow and Keras](02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](04-conv-neural-nets.md)
