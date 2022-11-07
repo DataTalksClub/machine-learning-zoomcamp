@@ -11,6 +11,7 @@
 
 Add notes from the video (PRs are welcome)
 
+* introduction to the topic of the week: deploying a deep learning model to the cloud, aws lambda and tensorflow lite
 
 <table>
    <tr>
