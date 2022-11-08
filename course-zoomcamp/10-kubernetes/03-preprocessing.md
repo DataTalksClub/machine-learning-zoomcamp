@@ -11,6 +11,16 @@
 
 Add notes from the video (PRs are welcome)
 
+* turn jupyter notebook into flask app
+* the notebook communicates with the model deployed with tensorflow
+* the notebook fetches an image, pre-processes it, turns it into protobuf, sends it to tensorflow-serving, does post-processing and finally gives a human-readable answer
+* convert notebook into python script and call the script gateway
+* prepare request, send request, prepare response
+* you can reuse the flask app code from session 5
+* two components: docker container with tensorflow serving and flask application with the gateway
+* be aware of the library sizes: tensorflow 1.7 GB, tensorflow CPU ~400 MB, tensorflow serving
+* turn numpy array into protobuf format
+* tensorflow protobuf
 
 <table>
    <tr>
