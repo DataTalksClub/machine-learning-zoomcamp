@@ -7,6 +7,9 @@
 
 Add notes from the video (PRs are welcome)
 
+* tensorflow serving in C++, gateway service as flask app
+* gateway service: image preprocessing (i.e. resizing), prepare matrix, numpy arr, convert to protobuf, gRPC to communicate with tensorflow serving; postprocessing
+* using telnet to check kubernetes pod
 
 <table>
    <tr>
