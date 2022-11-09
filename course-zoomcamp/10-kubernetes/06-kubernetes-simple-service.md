@@ -27,6 +27,10 @@ kind create cluster --image kindest/node:v1.23.0
 
 Add notes from the video (PRs are welcome)
 
+* kind = local kubernetes cluster
+* cube ctl = tool for interacting with kubernetes cluster
+* yaml kubernetes configuration: allocating resources (RAM, CPU), templates, port labels
+* kubernetes ports/pods: requests, responses, forwarding, connection refusal
 
 <table>
    <tr>
