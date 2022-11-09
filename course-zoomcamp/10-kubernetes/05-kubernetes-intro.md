@@ -16,11 +16,11 @@ Add notes from the video (PRs are welcome)
 * add more instances when load increases and remove instances when load decreases
 * kubernetes cluster consists of nodes (running machines, servers)
 * each node can have multiple container
-* one container = one port
-* grouping port according to type of docker image
-* routing the request to the ports
+* one container = one pod
+* grouping pods according to type of docker image
+* routing the request to the pods
 * external (visible, i.e. entry point) service/client vs internal service/client
-* HPA horizontal port autoscaler = allocating resources depending on demand
+* HPA horizontal pod autoscaler = allocating resources depending on demand
 * Ingress
 * kubernetes configuration
 
