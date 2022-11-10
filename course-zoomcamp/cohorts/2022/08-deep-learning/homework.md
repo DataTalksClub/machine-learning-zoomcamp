@@ -4,6 +4,13 @@
 
 In this homework, we'll build a model for predicting if we have an image of a dino or a dragon. For this, we will use the "Dino or Dragon?" dataset that can be downloaded from [Kaggle](https://www.kaggle.com/datasets/agrigorev/dino-or-dragon). 
 
+You can get a wget-able version [here](https://github.com/alexeygrigorev/dino-or-dragon/releases/download/data/dino-dragon.zip):
+
+```bash
+wget https://github.com/alexeygrigorev/dino-or-dragon/releases/download/data/dino-dragon.zip
+unzip dino-dragon.zip
+```
+
 In the lectures we saw how to use a pre-trained neural network. In the homework, we'll train a much smaller model from scratch. 
 
 **Note:** You will need an environment with a GPU for this homework. We recommend to use [Saturn Cloud](https://bit.ly/saturn-mlzoomcamp). 
