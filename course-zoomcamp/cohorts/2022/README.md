@@ -77,7 +77,7 @@
 * [Office hours](https://www.youtube.com/watch?v=yKK7RgXlNdY&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
-[projects.md](**Midterm Project**)(projects.md#midterm-project)
+[**Midterm Project**](projects.md#midterm-project)
 
 * More information: [projects.md](projects.md#midterm-project)
 
