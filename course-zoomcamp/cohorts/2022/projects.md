@@ -5,7 +5,7 @@ See more information about projects [here](../../projects/)
 ## Evaluation
 
 * [Evaluation criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
-* [Video with instructions](TBA)
+* Video with instructions (TBA)
 
 
 ## Midterm Project
