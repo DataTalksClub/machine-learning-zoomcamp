@@ -90,7 +90,7 @@ For training use `.fit()` with the following params:
 model.fit(
     train_generator,
     epochs=10,
-    test_data=test_generator
+    validation_data=test_generator
 )
 ```
 
