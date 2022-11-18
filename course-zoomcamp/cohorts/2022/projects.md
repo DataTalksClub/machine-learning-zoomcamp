@@ -15,6 +15,7 @@ See more information about projects [here](../../projects/)
 * Evaluation due date: 15 November 2022, 23:00 CET (Berlin time)
 * Evaluation assignments: [long link](https://docs.google.com/spreadsheets/d/e/2PACX-1vS5i0MbxxaPFPNX8OOP2njUkfbrt3uhiIzdxY8q-RHAl4O2RKNusaUJcVAkgCWgZdDjCBQYF1h1cVxx/pubhtml) ("midterm" tab)
 * Submit your evaluation here: https://forms.gle/nXcLbuCpJUbryjET8
+* Feedback: [long link](https://docs.google.com/spreadsheets/d/e/2PACX-1vSvDvJu1uTSmDI0D6hnNVKdE7f447eVBxHrlJFj_iOapEarzxS0u3MAKHOQniTfIg4SrjIwT52e02XL/pubhtml) ("midterm" tab)
 
 ## Capstone 1 
 
