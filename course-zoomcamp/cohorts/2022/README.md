@@ -92,7 +92,7 @@
 **9. Serverless Deep Learning**
 
 * [Module materials](../../09-serverless)
-* TBA
+* [Homework](09-serverless/homework.md)
 
 
 **10. Kubernetes and TensorFlow Serving**
