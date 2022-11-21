@@ -24,6 +24,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/08_deep_learning.md)
 * [Kwang Yang's Notes on PyTorch](https://github.com/kwangyy/ml-zoomcamp/blob/main/Week%208%20Code/Week%208%20-%20Deep%20Learning%20but%20PyTorch.ipynb)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week8/Lecture_week_8.ipynb)
+* [Saturn Cloud setup](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/saturn.md)
 * Add your notes here
 
 ## Links
