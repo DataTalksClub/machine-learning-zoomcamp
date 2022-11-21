@@ -121,6 +121,10 @@
 * TBA
 
 
+**[Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)**
+
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+
 
 ## Supporters and partners
 
