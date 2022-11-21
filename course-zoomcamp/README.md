@@ -254,7 +254,6 @@ Putting everything we've learned so far in practice!
 - 11.8 [Summary](11-kserve/08-summary.md)
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
-
 ## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
@@ -266,6 +265,10 @@ Writing an article about something not covered in the course.
 ## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
+
+## [Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)
+
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
 
 
 ## Previous cohorts
