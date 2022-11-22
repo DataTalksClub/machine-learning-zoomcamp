@@ -80,7 +80,7 @@ ImageDataGenerator(rescale=1./255)
 ```
 
 * We don't need to do any additional pre-processing for the images.
-* When reading the data from train/val directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
+* When reading the data from train/test directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
 * Use `batch_size=20`
 * Use `shuffle=True` for both training and test sets. 
 
