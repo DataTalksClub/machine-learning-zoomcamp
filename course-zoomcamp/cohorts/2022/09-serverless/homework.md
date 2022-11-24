@@ -116,11 +116,16 @@ FROM public.ecr.aws/lambda/python:3.9
 COPY dino-vs-dragon-v2.tflite .
 ```
 
+> Note that the version of Python is 3.9, so you need to use the right wheel for 
+> TF-Lite. For Tensorflow 2.7.0, it's https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.7.0-cp39-cp39-linux_x86_64.whl
+
+
 And pushed it to [`svizor42/zoomcamp-dino-dragon-lambda:v2`](https://hub.docker.com/r/svizor42/zoomcamp-dino-dragon-lambda/tags).
 
 
 > Note: The image already contains a model and it's not the same model
 > as the one we used for questions 1-4.
+
 
 
 ## Question 5
