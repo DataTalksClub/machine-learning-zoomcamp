@@ -86,6 +86,8 @@
 
 * [Module materials](../../08-deep-learning)
 * [Homework](08-deep-learning/homework.md)
+* Homework solution:
+  * [Notebook](08-deep-learning/homework_8.ipynb)
 * [Saturn Cloud: Notebooks with GPUs](https://bit.ly/saturn-mlzoomcamp) 
 
 

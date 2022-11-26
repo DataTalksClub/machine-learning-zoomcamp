@@ -1,5 +1,8 @@
 ## Homework
 
+> **Solution**:
+> * [Notebook](homework_8.ipynb)
+
 ### Dataset
 
 In this homework, we'll build a model for predicting if we have an image of a dino or a dragon. For this, we will use the "Dino or Dragon?" dataset that can be downloaded from [Kaggle](https://www.kaggle.com/datasets/agrigorev/dino-or-dragon). 
