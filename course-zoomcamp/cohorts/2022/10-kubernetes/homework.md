@@ -135,6 +135,7 @@ spec:
   selector:
     matchLabels:
       app: credit-card
+  replicas: 1
   template:
     metadata:
       labels:
@@ -145,8 +146,8 @@ spec:
         image: <Image>
         resources:
           requests:
-            memory: "128Mi"
-            cpu: "250m"            
+            memory: "64Mi"
+            cpu: "100m"            
           limits:
             memory: <Memory>
             cpu: <CPU>
@@ -196,6 +197,72 @@ kubectl port-forward service/<Service name> 9696:80
 
 Run `q6_test.py` (from the homework 5) once again to verify that everything is working. 
 You should get the same result as in Question 1.
+
+
+## Autoscaling
+
+Now we're going to use a [HorizontalPodAutoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/) 
+(HPA for short) that automatically updates a workload resource (such as our deployment), 
+with the aim of automatically scaling the workload to match demand.
+
+Use the following command to create the HPA:
+
+```bash
+kubectl autoscale deployment credit-card --name credit-card-hpa --cpu-percent=20 --min=1 --max=3
+```
+
+You can check the current status of the new HPA by running:
+
+```bash
+kubectl get hpa
+```
+
+The output should be similar to the next:
+
+```bash
+NAME              REFERENCE                TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+credit-card-hpa   Deployment/credit-card   1%/20%    1         3         1          27s
+```
+
+`TARGET` column shows the average CPU consumption across all the Pods controlled by the corresponding deployment.
+Current CPU consumption is about 0% as there are no clients sending requests to the server.
+> 
+>Note: In case the HPA instance doesn't run properly, try to install the latest Metrics Server release 
+> from the `components.yaml` manifest:
+> ```bash
+> kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+>```
+
+
+## Increase the load
+
+Let's see how the autoscaler reacts to increasing the load. To do this, we can slightly modify the existing
+`q6_test.py` script by putting the operator that sends the request to the credit-card service into a loop.
+
+```python
+while True:
+    sleep(0.1)
+    response = requests.post(url, json=client).json()
+    print(response)
+```
+
+Now you can run this script.
+
+
+## Question 8 (optional)
+
+Run `kubectl get hpa php-apache --watch` command to monitor how the autoscaler performs. 
+Within a minute or so, you should see the higher CPU load; and then - more replicas. 
+What was the maximum amount of the replicas during this test?
+
+
+* 1
+* 2
+* 3
+* 4
+
+>Note: It may take a few minutes to stabilize the number of replicas. Since the amount of load is not controlled 
+> in any way it may happen that the final number of replicas will differ from initial.
 
 
 ## Submit the results
