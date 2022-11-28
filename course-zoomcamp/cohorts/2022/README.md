@@ -100,7 +100,7 @@
 **10. Kubernetes and TensorFlow Serving**
 
 * [Module materials](../../10-kubernetes)
-* TBA
+* [Homework](10-kubernetes/homework.md)
 
 
 **11. KServe (optional)**
