@@ -251,7 +251,7 @@ Now you can run this script.
 
 ## Question 8 (optional)
 
-Run `kubectl get hpa php-apache --watch` command to monitor how the autoscaler performs. 
+Run `kubectl get hpa credit-card-hpa --watch` command to monitor how the autoscaler performs. 
 Within a minute or so, you should see the higher CPU load; and then - more replicas. 
 What was the maximum amount of the replicas during this test?
 
