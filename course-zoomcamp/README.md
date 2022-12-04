@@ -55,7 +55,7 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
-### Pre-preqiusites
+### Prerequisites
 
 * Prior programming experience (at least 1+ year)
 * Being comfortable with command line 
@@ -196,6 +196,7 @@ Putting everything we've learned so far in practice!
 ## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
 - 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.1b [Setting up the Environment on Saturn Cloud](08-deep-learning/01b-saturn-cloud.md)
 - 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
@@ -253,7 +254,6 @@ Putting everything we've learned so far in practice!
 - 11.8 [Summary](11-kserve/08-summary.md)
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
-
 ## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
@@ -265,6 +265,10 @@ Writing an article about something not covered in the course.
 ## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
+
+## [Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)
+
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
 
 
 ## Previous cohorts

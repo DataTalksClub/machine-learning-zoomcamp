@@ -9,10 +9,16 @@
 
 This lesson first reviews the topics learned in previous lesson about training a decision tress using sklearn, how to handle the model not generalizing due to overfitting of the data. 
 
-In this lesson, we learn about how to best split a decision tree and different classification criteria that can be used to split a tree. We dive deep using an example and splitting the tree using `misclassification` criteria. Additionally, different stopping criteria to break the iterative tree split critiera are discussed.     
+In this lesson, we learn about how to best split a decision tree and different classification criteria that can be used to split a tree. We dive deep using an example and splitting the tree using `misclassification` criteria. Additionally, different stopping criteria to break the iterative tree split criteria are discussed.     
 
 Add notes from the video (PRs are welcome)
 
+* structure of a decision tree: nodes & leaves
+* depth of a decision tree & levels
+* rules & conditions, thresholds
+* misclassification rate
+* impurity criteria (i.e. MSE)
+* decision trees can be used to solve regression problems
 
 <table>
    <tr>

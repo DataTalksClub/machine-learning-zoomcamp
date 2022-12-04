@@ -15,4 +15,5 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [AWS Cloud deployment with BentoML](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/cloud.md)
 * Add your notes here

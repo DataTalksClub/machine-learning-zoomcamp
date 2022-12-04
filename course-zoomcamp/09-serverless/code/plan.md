@@ -15,7 +15,7 @@ We'll deploy the clothes classification model we trained previously.
 
 ## 9.3 TensorFlow Lite
 
-* Why not TenforFlow
+* Why not TensorFlow
 * Converting the model
 * Using the TF-Lite model for making predictions
 

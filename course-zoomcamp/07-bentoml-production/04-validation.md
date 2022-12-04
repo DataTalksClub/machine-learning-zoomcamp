@@ -1,7 +1,7 @@
 
 ## 7.4 Sending, Receiving and Validating Data
 
-<a href="https://www.youtube.com/watch?v=zNYtXde0BCA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-7-04.jpg"></a>
+<a href="https://www.youtube.com/watch?v=ZoXE1NcCtxg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-7-04.jpg"></a>
  
 ## Links
 * [Pydantic Documentation](https://pydantic-docs.helpmanual.io/usage/models/)

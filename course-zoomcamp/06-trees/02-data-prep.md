@@ -14,7 +14,7 @@ In this section we clean and prepare the [dataset](https://github.com/gastonstat
 - Replace the maximum value of `income`, `assests`, and `debt` columns with NaNs.
 - Replace the NaNs in the dataframe with `0` (*will be shown in the next lesson*).
 - Extract only those rows in the column `status` who are either ok or default as value.
-- Split the data with the distribution of 80% train, 20% validation, and 20% test sets with random seed to `11`.
+- Split the data in a two-step process which finally leads to the distribution of 60% train, 20% validation, and 20% test sets with random seed to `11`.
 - Prepare target variable `status` by converting it from categorical to binary, where 0 represents `ok` and 1 represents `default`.
 - Finally delete the target variable from the train/val/test dataframe.
 

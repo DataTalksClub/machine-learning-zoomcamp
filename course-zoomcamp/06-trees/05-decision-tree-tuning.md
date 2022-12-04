@@ -11,6 +11,8 @@ In this lesson, we will discuss about different parameters present to control a 
 
 Add notes from the video (PRs are welcome)
 
+* iterating to find optimal parameter settings
+* creating the heatmap with seaborn
 
 <table>
    <tr>
