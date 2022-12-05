@@ -2,6 +2,13 @@
 
 <a href="https://www.youtube.com/watch?v=J5LMRTIu4jY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-09.jpg"></a>
 
+In the session 10 we covered the following concepts:
+
+- TF-Serving is a system for deploying TensorFlow models
+- When using TF-Serving, we need a component for pre-processing
+- Kubernetes is a container orchestration platform
+- To deploy something on Kubernetes, we need to specify a deployment and a service
+- You can use Docker compose and Kind for local experiments
 
 ## Notes
 
