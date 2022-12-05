@@ -5,6 +5,8 @@
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
+In this section we increase the image input size from `150` to `299`, reduce the amount of data augmentation parameters and lower the learning rate. This gives us the best results than any previous experiments.
+
 ## Notes
 
 Add notes from the video (PRs are welcome)
