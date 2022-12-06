@@ -95,6 +95,8 @@
 
 * [Module materials](../../09-serverless)
 * [Homework](09-serverless/homework.md)
+* Homework solution:
+  * [Code](09-serverless/homework/)
 
 
 **10. Kubernetes and TensorFlow Serving**
