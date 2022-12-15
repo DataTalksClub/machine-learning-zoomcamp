@@ -103,6 +103,8 @@
 
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
+* Homework solution:
+  * [Code](10-kubernetes/homework/)
 
 
 **11. KServe (optional)**
