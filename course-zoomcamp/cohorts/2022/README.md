@@ -112,9 +112,14 @@
 * [Module materials](../../11-kserve)
 * No homework
 
-**Capstone Project**
+[**Capstone Project**](projects.md#capstone-1)
 
-* TBA
+* More information: [projects.md](projects.md#capstone-1)
+
+
+[**Capstone Project 2**](projects.md#capstone-2)
+
+* More information: [projects.md](projects.md#capstone-2)
 
 
 **Article**
@@ -122,14 +127,11 @@
 * TBA
 
 
-**Third project (optional)**
-
-* TBA
-
-
 **[Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)**
 
 If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
 
 
 ## Supporters and partners
