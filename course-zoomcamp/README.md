@@ -270,6 +270,7 @@ For those who love projects!
 
 If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
 
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
 
 ## Previous cohorts
 
