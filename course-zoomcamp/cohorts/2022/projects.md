@@ -22,8 +22,8 @@ See more information about projects [here](../../projects/)
 * Project due date: 22 December 2022, 16:00 CET (Berlin time)
 * Submit your project here: https://forms.gle/JvusCrgXhih1iqSt6
 * Evaluation due date: 9 January 2023, 23:00 CET (Berlin time)
-* Evaluation assignments: TBA
-* Submit your evaluation here: TBA
+* Evaluation assignments: [long link](https://docs.google.com/spreadsheets/d/e/2PACX-1vS5i0MbxxaPFPNX8OOP2njUkfbrt3uhiIzdxY8q-RHAl4O2RKNusaUJcVAkgCWgZdDjCBQYF1h1cVxx/pubhtml) ("capstone-1" tab)
+* Submit your evaluation here: https://forms.gle/1J4hJT12GiCN4p2X8
 * Feedback: TBA
 
 ## Capstone 2 
