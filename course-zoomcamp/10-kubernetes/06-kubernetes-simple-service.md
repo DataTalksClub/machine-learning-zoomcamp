@@ -116,6 +116,53 @@ In this section, we'll deploy a simple web application to a kubernates cluster. 
       - Apply `service.yaml`: `kubectl apply -f service.yaml`
       - Running `kubectl get service` will give us the list of external and internal services along with their *service type* and other information.
       - Test the service by port forwarding and specifying the ports: `kubectl port-forward service/ping 8080:80` (using 8080 instead to avoid permission requirement) and executing `curl localhost:8080/ping` should give us the output PONG.
+6. Setup and use `MetalLB` as external load-balancer
+   - Apply MetalLB manifest
+     ```
+     kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.7/config/manifests/metallb-native.yaml
+     ```
+   - Wait until the MetalLB pods (controller and speakers) are ready
+     ```
+     kubectl wait --namespace metallb-system \
+                  --for=condition=ready pod \
+                  --selector=app=metallb \
+                    --timeout=90s
+       ```
+   - Setup address pool used by loadbalancers:
+     - Get range of IP addresses on docker kind network
+     ```
+     docker network inspect -f '{{.IPAM.Config}}' kind
+     ```
+     - Create Ip address pool using `metallb-config.yaml`
+       ```yaml
+       apiVersion: metallb.io/v1beta1
+       kind: IPAddressPool
+       metadata:
+         name: example
+         namespace: metallb-system
+       spec:
+         addresses:
+         - 172.20.255.200-172.20.255.250
+       ---
+       apiVersion: metallb.io/v1beta1
+       kind: L2Advertisement
+       metadata:
+         name: empty
+         namespace: metallb-system
+       ```
+   - Apply deployment and service for updates
+     ``` 
+     kubectl apply -f deployment.yaml
+     kubectl apply -f service.yaml
+     ```
+   - Get external LB_IP
+     ```
+     kubectl get service
+     ```
+    - Test using load-balancer ip address
+       ```
+       curl <LB_IP>:80/ping
+       ```
 
 ## Notes
 
