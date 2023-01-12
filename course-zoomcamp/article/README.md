@@ -14,7 +14,7 @@ and more than welcome.)
 
 ### ML Zoomcamp 2022
 
-See [here](../cohorts/2022/)
+See [here](../cohorts/2022/article.md)
 
 ### ML Zoomcamp 2021
 

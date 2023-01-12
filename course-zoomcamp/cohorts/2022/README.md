@@ -91,7 +91,7 @@
 * [Saturn Cloud: Notebooks with GPUs](https://bit.ly/saturn-mlzoomcamp) 
 
 
-**9. Serverless Deep Learning**
+[**9. Serverless Deep Learning**](09-serverless/)
 
 * [Module materials](../../09-serverless)
 * [Homework](09-serverless/homework.md)
@@ -99,7 +99,7 @@
   * [Code](09-serverless/homework/)
 
 
-**10. Kubernetes and TensorFlow Serving**
+[**10. Kubernetes and TensorFlow Serving**](10-kubernetes/)
 
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
