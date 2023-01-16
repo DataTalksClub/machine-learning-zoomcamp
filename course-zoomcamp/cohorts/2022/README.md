@@ -122,9 +122,9 @@
 * More information: [projects.md](projects.md#capstone-2)
 
 
-**Article**
+**[Article](article.md) (Optional)**
 
-* TBA
+* More information: [article.md](article.md)
 
 
 **[Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)**
