@@ -1,4 +1,4 @@
-## Article
+## Article (optional)
 
 The best way to learn about something - to teach it.
 
