@@ -16,4 +16,5 @@
 Did you take notes? You can share them here (or in each unit separately)
 
 * [AWS Cloud deployment with BentoML](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/cloud.md)
+* [Deployment with BentoML on WSL](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_7-production_ready_deployment_bentoML)
 * Add your notes here
