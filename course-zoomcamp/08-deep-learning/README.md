@@ -25,6 +25,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Kwang Yang's Notes on PyTorch](https://github.com/kwangyy/ml-zoomcamp/blob/main/Week%208%20Code/Week%208%20-%20Deep%20Learning%20but%20PyTorch.ipynb)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week8/Lecture_week_8.ipynb)
 * [Saturn Cloud setup](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/saturn.md)
+* [Connecting Github, Saturn Cloud and local VSCode via SSH](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_8-Deep_Learning)
 * Add your notes here
 
 ## Links

@@ -30,4 +30,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week3/Lecture_3_churn_prediction.ipynb)
 * [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-3-notes.md)
 * [Notes from Giorgos Verikios](https://github.com/g-verikios/ml_zoomcamp/blob/d412072625964385023d7100cad342ef2742659d/Classification-Churn.ipynb)
+* [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_3-logistic_regression_classification)
 * Add your notes here
