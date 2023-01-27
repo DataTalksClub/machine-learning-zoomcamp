@@ -22,6 +22,7 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* For PyTorch users, [see this repo](https://github.com/mmg10/torchserve_kserve) on how to serve a PyTorch model using KServe.
 
 ## Navigation
 
