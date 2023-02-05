@@ -11,6 +11,15 @@ and just want to share your knowledge with us - it's also fine
 and more than welcome.)
 
 
+## Articles from 2022
+
+* https://medium.com/@sotoblanco263542/track-your-machine-learning-experiments-with-w-b-d5f9431e6bc2
+* https://blog.aaishamuhammad.co.za/posts/onnx_machine_learning/
+* https://github.com/ElenaNKn/scaling_methods
+* https://medium.com/@alexandervalverdeguillen/math-optimization-methods-for-machine-learning-8837eba9e3fe
+* https://rzabolotin.hashnode.dev/deploying-ml-model-via-telegram-bot
+* https://github.com/bsenst/mlbookcamp-2022/blob/main/social-media-analysis-ml-zoomcamp.ipynb
+
 ## Topics
 
 You can write about pretty much anything that wasn't covered 
