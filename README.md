@@ -177,7 +177,7 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 * [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
 
 
-## Appendix C: Introduction to Pandas
+## Appendix D: Introduction to Pandas
 
 * The main data structures in Pandas: DataFrame and Series
 * Accessing rows and columns of a DataFrame
@@ -187,7 +187,7 @@ Articles from [mlbookcamp.com](https://mlbookcamp.com):
 
 Code: [appendix-d-pandas.ipynb](appendix-d-pandas.ipynb)
 
-## Appendix D: AWS SageMaker
+## Appendix E: AWS SageMaker
 
 
 * Increasing the GPU quota limits
