@@ -40,7 +40,7 @@ You can add your certificate to LinkedIn:
 
 * Log in to your LinkedIn account, then go to your profile.
 * On the right, in the "Add profile" section dropdown, choose "Background" and then select the drop-down triangle next to "Licenses & Certifications".
-* In "Name", enter "MLOps Zoomcamp".
+* In "Name", enter "Machine Learning Zoomcamp".
 * In "Issuing Organization", enter "DataTalksClub".
 * (Optional) In "Issue Date", enter the time when the certificate was created.
 * (Optional) Select the checkbox This certification does not expire. 
