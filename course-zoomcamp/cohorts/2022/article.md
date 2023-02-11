@@ -19,6 +19,7 @@ and more than welcome.)
 * https://medium.com/@alexandervalverdeguillen/math-optimization-methods-for-machine-learning-8837eba9e3fe
 * https://rzabolotin.hashnode.dev/deploying-ml-model-via-telegram-bot
 * https://github.com/bsenst/mlbookcamp-2022/blob/main/social-media-analysis-ml-zoomcamp.ipynb
+* https://github.com/mary435/Telegram.git
 
 ## Topics
 
