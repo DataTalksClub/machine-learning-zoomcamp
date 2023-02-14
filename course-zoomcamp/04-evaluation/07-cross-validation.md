@@ -15,7 +15,7 @@ In the lesson we talked about iterators and generators in Python. You can read m
 
 ## Notes
 
-**Cross-validarions** refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the **parameter tuning** step, which is the process of selecting the best parameter. 
+**Cross-validations** refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the **parameter tuning** step, which is the process of selecting the best parameter. 
 
 In this algorithm, the full training dataset is divided into **k partitions**, we train the model in k-1 partiions of this dataset and evaluate it on the remaining subset. Then, we end up evaluating the model in all the k folds, and we calculate the average evaluation metric for all the folds.  
 
