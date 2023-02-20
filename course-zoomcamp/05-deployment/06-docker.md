@@ -23,7 +23,7 @@ To install the Docker you can just follow the instruction by Andrew Lock in this
 
 ### MacOS
 
-Please send a PR!
+Follow the steps in the [Docker docs](https://docs.docker.com/desktop/install/mac-install/).
 
 
 ## Notes
@@ -34,19 +34,19 @@ Please send a PR!
 Here a Dockerfile (There should be no comments in Dockerfile, so remove the comments when you copy)
 
 ```docker
-# First install the python 3.8, the slim version have less size
+# First install the python 3.8, the slim version uses less space
 FROM python:3.8.12-slim
 
 # Install pipenv library in Docker 
 RUN pip install pipenv
 
-# we have created a directory in Docker named app and we're using it as work directory 
+# create a directory in Docker named app and we're using it as work directory 
 WORKDIR /app                                                                
 
 # Copy the Pip files into our working derectory 
 COPY ["Pipfile", "Pipfile.lock", "./"]
 
-# install the pipenv dependecies we had from the project and deploy them 
+# install the pipenv dependencies for the project and deploy them.
 RUN pipenv install --deploy --system
 
 # Copy any python files and the model we had to the working directory of Docker 
@@ -59,8 +59,10 @@ EXPOSE 9696
 ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:9696", "churn_serving:app"]
 ```
 
+The flags `--deploy` and `--system` makes sure that we install the dependencies directly inside the Docker container without creating an additional virtual environment (which `pipenv` does by default). 
+
 If we don't put the last line `ENTRYPOINT`, we will be in a python shell.
-Note that for the entrypoint, we put our commands in doble quotes.
+Note that for the entrypoint, we put our commands in double quotes.
 
 After creating the Dockerfile, we need to build it:
 
@@ -68,18 +70,19 @@ After creating the Dockerfile, we need to build it:
 docker build -t churn-prediction .
 ```
 
-- We use the `-t` flag for specifying the tag name "churn-prediction"
-
 To run it,  execute the command below:
 
 ```bash
 docker run -it -p 9696:9696 churn-prediction:latest
 ```
 
-Here we use 
+Flag explanations: 
 
-- `-it` in order to the Docker run from terminal and shows the result
-- `-p` to map the 9696 port of the Docker to 9696 port of our machine. (first 9696 is the port number of our machine and the last one is Docker container port.)
+- `-t`: is used for specifying the tag name "churn-prediction".
+- `-it`: in order for Docker to allow us access to the terminal.
+- `--rm`: allows us to remove the image from the system after we're done.  
+- `-p`: to map the 9696 port of the Docker to 9696 port of our machine. (first 9696 is the port number of our machine and the last one is Docker container port.)
+- `--entrypoint=bash`: After running Docker, we will now be able to communicate with the container using bash (as you would normally do with the Terminal). Default is `python`.
 
 
 At last you've deployed your prediction app inside a Docker continer. Congratulations 🥳
