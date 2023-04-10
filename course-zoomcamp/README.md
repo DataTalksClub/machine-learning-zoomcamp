@@ -299,10 +299,3 @@ Thanks to the course sponsors for making it possible to run this course
   </a>
 </p>
 
-Thanks to our friends for spreading the word about the course
-
-<p align="center">
-  <a href="https://dphi.tech/">
-    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
-  </a>
-</p>
