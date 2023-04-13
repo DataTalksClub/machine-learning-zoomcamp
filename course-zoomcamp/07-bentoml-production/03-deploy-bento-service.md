@@ -56,7 +56,7 @@ include:
 python:
   packages: # Additional pip packages required by the service
     - xgboost
-    - sklearn
+    - scikit-learn
 ```
 
 Once we have our `service.py` and `bentofile.yaml` files ready we can build the bento by running the command `bentoml build`. It will look in the service.py file to get all models being used and into bentofile.yaml file to get all the dependencies and creates one single deployable directory for us. The output will look something like this:
