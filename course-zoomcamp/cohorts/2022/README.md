@@ -6,6 +6,7 @@
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 * [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml)
 * [Course Playlist: Only 2022 Live videos & homeworks](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Public leaderboard](leaderboard.md)
 
 ### Syllabus
 
