@@ -55,7 +55,6 @@ This is the top [100 leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX
 | [Ekaterina Kutovaia](https://www.linkedin.com/in/katekut1/) | [:octocat:](https://github.com/KateK1) |  |  | Open for opportunities |
 | [Leonid Olenin](https://www.linkedin.com/in/leonid-olenin) | [:octocat:](https://github.com/avisprof) |  |  |
 | [José Victor S. Scursulim](https://www.linkedin.com/in/jvscursulim/) | [:octocat:](https://github.com/jvscursulim) |  |  |
-| [Nikolay Galkov](https://www.linkedin.com/in/nikolay-galkov-4b660656/) | [:octocat:](https://github.com/ngalkov) |  |  |
 | [Nikolay Galkov](https://www.linkedin.com/in/nikolay-galkov-4b660656/) | [:octocat:](https://github.com/ngalkov) | <li> [Project](https://github.com/ngalkov/mlzoomcamp_capstone) </li> |  |
 | Sergio Vechi |  |  |  |
 | [Alexis Bautista ](https://www.linkedin.com/in/alexis-bautista-28ab8b14b) | [:octocat:](https://github.com/AEBU) | <li> [Project](https://github.com/AEBU/mlzoomcamp/tree/main/capstone-project) </li> | <li> [Project Time Series](https://github.com/AEBU/mlzoomcamp/tree/main/capstone-project2)  </li><li> [Public Purchase](https://medium.com/@lexbul1020/datapipeline-con-apache-airflow-pyspark-y-neo4j-381f88842510)  </li> |
