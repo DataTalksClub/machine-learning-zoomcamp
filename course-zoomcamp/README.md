@@ -10,7 +10,7 @@
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel
 * [Course telegram channel](https://t.me/mlzoomcamp)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* For the 2022 edition, see more info in the [2022 Cohort section](#2022-cohort)
+
 
 
 ### Syllabus 
