@@ -26,6 +26,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week8/Lecture_week_8.ipynb)
 * [Saturn Cloud setup](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/saturn.md)
 * [Connecting Github, Saturn Cloud and local VSCode via SSH](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_8-Deep_Learning)
+* [Gradio demonstration with Huggingface Space](https://github.com/yusyel/guides/tree/master/huggingface#gradio-demonstration-with-huggingface-space)
 * Add your notes here
 
 ## Links
