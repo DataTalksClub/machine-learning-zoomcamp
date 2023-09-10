@@ -59,7 +59,7 @@ How many unique values does the `ocean_proximity` column have?
 
 ### Question 5
 
-What's the average value of the `median_house_value` for the house located near the bay?
+What's the average value of the `median_house_value` for the houses located near the bay?
 
 - 49433
 - 124805
@@ -101,7 +101,7 @@ Has it changed?
 
 ## Submit the results
 
-* Submit your results here: TBD
+* Submit your results here: https://forms.gle/jneGM91mzDZ23i8HA
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 
