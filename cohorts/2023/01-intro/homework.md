@@ -108,7 +108,7 @@ Has it changed?
 
 ## Deadline
 
-The deadline for submitting is 18 September 2022 (Monday), 23:00 CEST (Berlin time).
+The deadline for submitting is 18 September 2023 (Monday), 23:00 CEST (Berlin time).
 
 After that, the form will be closed.
 
