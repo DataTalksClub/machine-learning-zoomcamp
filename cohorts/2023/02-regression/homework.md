@@ -113,14 +113,18 @@ Options:
 * What's the standard deviation of all the scores? To compute the standard deviation, use `np.std`.
 * Round the result to 3 decimal digits (`round(std, 3)`)
 
+What's the value of std?
+
+- 0.5
+- 0.05
+- 0.005
+- 0.0005
+
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
 > If it's high, the values are different. 
 > If standard deviation of scores is low, then our model is *stable*.
 
-What's the value of std?
-
-- TODO
 
 ### Question 6
 
@@ -131,14 +135,18 @@ What's the value of std?
 
 Options:
 
-- TODO
+- 0.13
+- 0.23
+- 0.33
+- 0.43
+
 
 ## Submit the results
 
-- Submit your results here: TODO
+- Submit your results here: https://forms.gle/nNUTLzz3F9KiFHNp9
 - If your answer doesn't match options exactly, select the closest one.
 - You can submit your solution multiple times. In this case, only the last submission will be used
 
 ## Deadline
 
-The deadline for submitting is TODO. After that the form will be closed.
+The deadline for submitting is September 25 (Monday), 23:00 CET. After that the form will be closed.
