@@ -15,3 +15,13 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
+
+
+**[2. Machine Learning for Regression](../../02-regression/)**
+
+* [Module materials](../../02-regression)
+* [Homework](02-regression/homework.md)
+
+
+
+
