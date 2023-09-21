@@ -15,6 +15,8 @@
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
+* Homework solution:
+  * [Notebook](01-intro/homework_1.ipynb)
 
 
 **[2. Machine Learning for Regression](02-regression/)**
