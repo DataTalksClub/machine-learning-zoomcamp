@@ -62,7 +62,7 @@ What's the median (50% percentile) for variable `'population'`?
 
 ### Prepare and split the dataset
 
-* Shuffle the initial dataset, use seed `42`.
+* Shuffle the dataset (the filtered one you created above), use seed `42`.
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
 * Apply the log transformation to the `median_house_value` variable using the `np.log1p()` function.
 
