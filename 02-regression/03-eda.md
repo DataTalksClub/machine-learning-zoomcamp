@@ -12,7 +12,7 @@
 
 * df[col].unique() - returns a list of unique values in the series 
 * df[col].nunique() - returns the number of unique values in the series 
-* df.isnull().sum() - retunrs the number of null values in the dataframe 
+* df.isnull().sum() - returns the number of null values in the dataframe 
 
 **Matplotlib and seaborn methods:**
 
@@ -20,7 +20,7 @@
 * sns.histplot() - show the histogram of a series 
    
 **Numpy methods:**
-* np.log1p() - applies log transformation to a variable and adds one to each result 
+* np.log1p() - applies log transformation to a variable and adds one to each result.
 
 Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible. 
 
