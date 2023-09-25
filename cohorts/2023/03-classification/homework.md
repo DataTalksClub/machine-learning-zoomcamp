@@ -141,7 +141,7 @@ Which of these alphas leads to the best RMSE on the validation set?
 
 ## Submit the results
 
-* Submit your results here: TBD
+* Submit your results here: https://forms.gle/FFfNjEP4jU4rxnL26
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 
