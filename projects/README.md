@@ -8,7 +8,6 @@ There are three projects in this course:
 * Capstone 1
 * Capstone 2
 
-
 This is what you need to do for each project
 
 * Think of a problem that's interesting for you and find a dataset for that
@@ -18,12 +17,6 @@ This is what you need to do for each project
 * Export the notebook into a script
 * Put your model into a web service and deploy it locally with Docker
 * Bonus points for deploying the service to the cloud
-
-## Projects 2022
-
-* [Midterm project](../cohorts/2022/projects.md#midterm-project)
-* [Capstone 1](../cohorts/2022/projects.md#capstone-1)
-* [Capstone 2](../cohorts/2022/projects.md#capstone-2)
 
 
 ## Deliverables
@@ -93,23 +86,6 @@ Plagiarism in any form is not allowed. Examples of plagiarism
 
 Violating any of this will result in 0 points for this project.
 
-
-## Datasets
-
-* [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
-* https://www.kaggle.com/datasets and https://www.kaggle.com/competitions
-* https://archive.ics.uci.edu/ml/index.php
-* https://data.europa.eu/en
-* https://www.openml.org/search?type=data
-* https://www.tensorflow.org/datasets/catalog/overview
-* [Soocer data](https://github.com/statsbomb/open-data)
-* https://newzealand.ai/public-data-sets
-* [OECD database](https://stats.oecd.org/index.aspx?lang=en)
-* [deeplake](https://datasets.activeloop.ai/docs/ml/datasets/)
-
-* Add more data here!
-
-
 ## FAQ
 
 
@@ -133,13 +109,39 @@ Violating any of this will result in 0 points for this project.
 > give 0 points to the respective criterium. E.g. if you see an error in Dockerfile,
 > then you give 0 points to the "containerization" dimension.
 
+## Resources
+
+### Datasets
+
+* [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
+* https://www.kaggle.com/datasets and https://www.kaggle.com/competitions
+* https://archive.ics.uci.edu/ml/index.php
+* https://data.europa.eu/en
+* https://www.openml.org/search?type=data
+* https://www.tensorflow.org/datasets/catalog/overview
+* [Soocer data](https://github.com/statsbomb/open-data)
+* https://newzealand.ai/public-data-sets
+* [OECD database](https://stats.oecd.org/index.aspx?lang=en)
+* [deeplake](https://datasets.activeloop.ai/docs/ml/datasets/)
+
+* Add more data here!
+
+### Projects Gallery
+
+Explore a collection of projects completed by members of our community. The projects cover a wide range of topics and utilize different tools and techniques. Feel free to delve into any project and see how others have tackled real-world problems with data, structured their code, and presented their findings. It's a great resource to learn and get ideas for your own projects.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datatalksclub-projects.streamlit.app/)
+
+### Zoomcamp 2022
+
+* [Midterm project](../cohorts/2022/projects.md#midterm-project)
+* [Capstone 1](../cohorts/2022/projects.md#capstone-1)
+* [Capstone 2](../cohorts/2022/projects.md#capstone-2)
 
 
-## Zoomcamp 2021
+### Zoomcamp 2021
 
-You can check the projects from ML Zoomcamp 2021 here:
-
-* [Midterm projects](../cohorts/2021/07-midterm-project/)
+* [Midterm project](../cohorts/2021/07-midterm-project/)
 * [Capstone 1](../cohorts/2021/12-capstone/)
 * [Capstone 2](../cohorts/2021/14-project/)
 
