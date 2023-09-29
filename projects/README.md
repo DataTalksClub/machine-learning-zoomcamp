@@ -113,6 +113,7 @@ Violating any of this will result in 0 points for this project.
 
 ### Datasets
 
+
 * [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
 * https://www.kaggle.com/datasets and https://www.kaggle.com/competitions
 * https://archive.ics.uci.edu/ml/index.php
@@ -123,7 +124,6 @@ Violating any of this will result in 0 points for this project.
 * https://newzealand.ai/public-data-sets
 * [OECD database](https://stats.oecd.org/index.aspx?lang=en)
 * [deeplake](https://datasets.activeloop.ai/docs/ml/datasets/)
-
 * Add more data here!
 
 ### Projects Gallery
