@@ -70,7 +70,7 @@ What are the two features that have the biggest correlation in this dataset?
 
 * Split your data in train/val/test sets with 60%/20%/20% distribution.
 * Use Scikit-Learn for that (the `train_test_split` function) and set the seed to `42`.
-* Make sure that the target value (`price`) is not in your dataframe.
+* Make sure that the target value (`above_average`) is not in your dataframe.
 
 ### Question 3
 
