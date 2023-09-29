@@ -11,7 +11,7 @@
 
 ### Syllabus
 
-**[1. Introduction to Machine Learning](01-intro/)**
+[**1. Introduction to Machine Learning**](01-intro/)
 
 * [Module materials](../../01-intro)
 * [Homework](01-intro/homework.md)
@@ -19,12 +19,12 @@
   * [Notebook](01-intro/homework_1.ipynb)
 
 
-**[2. Machine Learning for Regression](02-regression/)**
+[**2. Machine Learning for Regression**](02-regression/)
 
 * [Module materials](../../02-regression)
 * [Homework](02-regression/homework.md)
 * Homework solution:
-  * TODO
+  * [Notebook](02-regression/homework.ipynb)
 
 
 [**3. Machine Learning for Classification**](03-classification/)

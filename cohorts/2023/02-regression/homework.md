@@ -4,6 +4,9 @@
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+
+Solution: [homework.ipynb](homework.ipynb)
+
 ### Dataset
 
 In this homework, we will use the California Housing Prices from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
