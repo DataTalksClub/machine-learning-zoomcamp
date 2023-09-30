@@ -13,7 +13,7 @@ Or you can do it with `wget`:
 wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv
 ```
 
-We'll keep working with the `MSRP` variable, and we'll transform it to a classification task. 
+We'll keep working with the `MSRP` variable, and we'll transform it into a classification task. 
 
 ### Features
 
@@ -27,11 +27,13 @@ For the rest of the homework, you'll need to use only these columns:
 * `Transmission Type`,
 * `Vehicle Style`,
 * `highway MPG`,
-* `city mpg`
+* `city mpg`,
+* `MSRP`,
+* `Transmission Type`
 
-### Data preparation
+### Data Preparation
 
-* Select only the features from above and transform their names using next line:
+* Select only the features from above and transform their names using the next line:
   ```
   data.columns = data.columns.str.replace(' ', '_').str.lower()
   ```
