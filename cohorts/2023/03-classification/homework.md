@@ -27,11 +27,12 @@ For the rest of the homework, you'll need to use only these columns:
 * `Transmission Type`,
 * `Vehicle Style`,
 * `highway MPG`,
-* `city mpg`
+* `city mpg`,
+* `MSRP`
 
 ### Data preparation
 
-* Select only the features from above and transform their names using next line:
+* Select only the features from above and transform their names using the next line:
   ```
   data.columns = data.columns.str.replace(' ', '_').str.lower()
   ```
