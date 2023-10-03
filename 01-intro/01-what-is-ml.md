@@ -30,6 +30,7 @@ Therefore, new feature values are presented to the model, and it makes **predict
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/)
 
 ## Navigation
 
