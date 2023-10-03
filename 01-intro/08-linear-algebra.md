@@ -110,6 +110,10 @@ Add notes here (PRs are welcome).
    </tr>
 </table>
 
+* [Notes from Peter Ernicke - Part 1/3](https://knowmledge.com/2023/09/15/ml-zoomcamp-2023-introduction-to-machine-learning-part-9/)
+* [Notes from Peter Ernicke - Part 2/3](https://knowmledge.com/2023/09/15/ml-zoomcamp-2023-introduction-to-machine-learning-part-10/)
+* [Notes from Peter Ernicke - Part 3/3](https://knowmledge.com/2023/09/15/ml-zoomcamp-2023-introduction-to-machine-learning-part-11/)
+
 ## Links
 
 * [Notebook from the video](notebooks/08-linear-algebra.ipynb)
