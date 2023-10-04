@@ -36,4 +36,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-2-notes.md)
 * [Notes from Anneysha Sarkar](https://github.com/Anneysha7/ml-zoomcamp-2023/blob/main/course-notes/week-2.md)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/18/ml-zoomcamp-2023-machine-learning-for-regression-part-1/)
+* [Notes from Marcos Benício](https://github.com/marcosbenicio/DataScience/blob/main/01Regression/car_price.ipynb)
 * Add your notes here
