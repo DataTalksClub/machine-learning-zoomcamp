@@ -27,6 +27,8 @@ When comes to a prediction of an LR model, each falls into one of four different
 |**Negative**|TN|FP|
 |**Postive**|FN|TP| 
 
+![confusion_matrix.png](images%2Fconfusion_matrix.png)
+
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations. 
 
 The code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb).  
