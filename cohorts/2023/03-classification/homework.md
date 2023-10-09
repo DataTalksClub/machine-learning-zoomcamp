@@ -3,6 +3,9 @@
 > Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
 
+Solution: [homework_3.ipynb](homework_3.ipynb)
+
+
 ### Dataset
 
 In this homework, we will use the Car price dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv).
