@@ -78,8 +78,8 @@ If you're getting errors when unpickling the files, check their checksum:
 
 ```bash
 $ md5sum model1.bin dv.bin
-3f57f3ebfdf57a9e1368dcd0f28a4a14  model1.bin
-6b7cded86a52af7e81859647fa3a5c2e  dv.bin
+8ebfdf20010cfc7f545c43e3b52fc8a1  model1.bin
+924b496a89148b422c74a62dbc92a4fb  dv.bin
 ```
 
 
