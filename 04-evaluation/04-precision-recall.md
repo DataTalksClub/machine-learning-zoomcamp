@@ -23,6 +23,12 @@ $$R = \cfrac{TP}{TP + FN}$$
 
 ![classification_metrics.png](images%2Fclassification_metrics.png)
 
+**MNEMONICS:**
+
+- Precision : From the `pre`dicted positives, how many we predicted right. See how the word `pre`cision is similar to the word `pre`diction? 
+
+- Recall : From the `real` positives, how many we predicted right. See how the word `re`c`al`l is similar to the word `real`?
+
 Add notes from the video (PRs are welcome)
 
 <table>
