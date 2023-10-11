@@ -42,6 +42,7 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/13/ml-zoomcamp-2023-introduction-to-machine-learning-part-5/)
 
 ## Navigation
 
