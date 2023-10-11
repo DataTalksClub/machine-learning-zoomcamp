@@ -21,6 +21,8 @@ $$R = \cfrac{TP}{TP + FN}$$
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
 
+![classification_metrics.png](images%2Fclassification_metrics.png)
+
 Add notes from the video (PRs are welcome)
 
 <table>
