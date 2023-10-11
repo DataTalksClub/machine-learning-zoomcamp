@@ -35,6 +35,8 @@ A machine learning algorithm can then be applied to the encoded emails to build 
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/10/ml-zoomcamp-2023-introduction-to-machine-learning-part-2/)
+
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)

@@ -18,6 +18,9 @@ Add notes here (PRs are welcome).
    </tr>
 </table>
 
+* [Notes from Peter Ernicke - Part 1/2](https://knowmledge.com/2023/09/16/ml-zoomcamp-2023-introduction-to-machine-learning-part-12/)
+* [Notes from Peter Ernicke - Part 2/2](https://knowmledge.com/2023/09/17/ml-zoomcamp-2023-introduction-to-machine-learning-part-13/)
+
 ## Links
 
 * [Notebook from the video](notebooks/09-pandas.ipynb)

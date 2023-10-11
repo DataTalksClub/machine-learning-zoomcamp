@@ -15,17 +15,40 @@ When comes to a prediction of an LR model, each falls into one of four different
 
 * Prediction is that the customer WILL churn. This is known as the **Positive class**
     * And Customer actually churned - Known as a **True Positive (TP)**
-    * But Customer actually did not churn - Knwon as a **False Positive (FP)**
+    * But Customer actually did not churn - Known as a **False Positive (FP)**
 * Prediction is that the customer WILL NOT churn' - This is known as the **Negative class**
     * Customer did not churn - **True Negative (TN)**
     * Customer churned - **False Negative (FN)**
 
 'Confusion Table' is a way to summarize the above results in a tabular format, as shown below: 
 
-|**Actual :arrow_down:     Predictions:arrow_right:**|**Negative**|**Positive**|
-|:-:|---|---|
-|**Negative**|TN|FP|
-|**Postive**|FN|TP| 
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2"><b>Predictions</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Actual</b></td>
+      <td><b>Negative</b></td>
+      <td><b>Positive</b></td>
+    </tr>
+   <tr>
+      <td><b>Negative</b></td>
+      <td>TN</td>
+      <td>FP</td>
+    </tr>
+    <tr>
+      <td><b>Positive</b></td>
+      <td>FN</td>
+      <td>TP</td>
+    </tr>
+  </tbody>
+</table>
+
+![confusion_matrix.png](images%2Fconfusion_matrix.png)
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations. 
 

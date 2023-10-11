@@ -25,7 +25,7 @@ For the rest of the homework, you'll need to use only these columns:
 * `Transmission Type`,
 * `Vehicle Style`,
 * `highway MPG`,
-* `city mpg`
+* `city mpg`,
 * `MSRP`
 
 
@@ -53,7 +53,7 @@ If your AUC is < 0.5, invert this variable by putting "-" in front
 
 (e.g. `-df_train['engine_hp']`)
 
-AUC can go below 0.5 if the variable is negatively correlated with the target varialble. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
+AUC can go below 0.5 if the variable is negatively correlated with the target variable. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
 
 Which numerical variable (among the following 4) has the highest AUC?
 
@@ -128,7 +128,7 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 * Train the model on train with these parameters: `LogisticRegression(solver='liblinear', C=1.0, max_iter=1000)`
 * Use AUC to evaluate the model on validation
 
-How large is standard devidation of the scores across different folds?
+How large is standard deviation of the scores across different folds?
 
 - 0.003
 - 0.030
@@ -136,13 +136,13 @@ How large is standard devidation of the scores across different folds?
 - 0.140
 
 
-### Question 6: Hyperparemeter Tuning
+### Question 6: Hyperparameter Tuning
 
 Now let's use 5-Fold cross-validation to find the best parameter `C`
 
 * Iterate over the following `C` values: `[0.01, 0.1, 0.5, 10]`
 * Initialize `KFold` with the same parameters as previously
-* Use these parametes for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
+* Use these parameters for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
 * Compute the mean score as well as the std (round the mean and std to 3 decimal digits)
 
 Which `C` leads to the best mean score?
