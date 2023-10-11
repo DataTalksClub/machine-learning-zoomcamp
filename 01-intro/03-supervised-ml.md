@@ -43,6 +43,8 @@ parameter and makes predictions as close as possible to the y targets.
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/11/ml-zoomcamp-2023-introduction-to-machine-learning-part-3/)
+
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)
