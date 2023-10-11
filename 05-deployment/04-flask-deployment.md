@@ -12,21 +12,21 @@ In this session we talked about implementing the functionality of prediction to 
 - To make the web service predict the churn value for each customer we must modify the code in session 3 with the code we had in previous chapters. Below we can see how the code works in order to predict the churn value.
 - In order to predict we need to first load the previous saved model and use a prediction function in a special route.
   - To load the previous saved model we use the code below:
-  - ```
+  - ```python
     import pickle
     
     with open('churn-model.bin', 'rb') as f_in:
       dv, model = pickle.load(f_in)
     ```
   - As we had earlier to predict a value for a customer we need a function like below:
-  - ```
+  - ```python
     def predict_single(customer, dv, model):
       X = dv.transform([customer])  ## apply the one-hot encoding feature to the customer data 
       y_pred = model.predict_proba(X)[:, 1]
       return y_pred[0]
     ```
    - Then at last we make the final function used for creating the web service.
-   - ```
+   - ```python
      @app.route('/predict', methods=['POST'])  ## in order to send the customer information we need to post its data.
      def predict():
      customer = request.get_json()  ## web services work best with json frame, So after the user post its data in json format we need to access the body of json.
@@ -35,15 +35,15 @@ In this session we talked about implementing the functionality of prediction to 
      churn = prediction >= 0.5
      
      result = {
-         'churn_probability': float(prediction), ## we need to conver numpy data into python data in flask framework
-         'churn': bool(churn),  ## same as the line above, converting the data using bool method
+         'churn_probability': float(prediction), ## we need to cast numpy float type to python native float type
+         'churn': bool(churn),  ## same as the line above, casting the value using bool method
      }
 
      return jsonify(result)  ## send back the data in json format to the user
      ```
    - The whole code above is available in this link: [churn_serving.py](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-05-deployment/churn_serving.py)
-   - At last run your code. To see the result can't use a simple request in web browser. We can run the code below to post a new user data and see the response
-   - ```     
+   - At last run your code. To see the result we can't use a simple request in web browser, because we are expecting a `POST` request in our app. We can run the code below to **post** customer data as `json` and see the response
+   - ```python     
      ## a new customer informations
      customer = {
        'customerid': '8879-zkjof',
