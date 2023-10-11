@@ -25,7 +25,7 @@
     
     with open('mode.bin', 'rb') as f_in: # very important to use 'rb' here, it means read-binary 
         dict_vectorizer, model = pickle.load(f_in)
-    ## Note that never open a binary file you do not trust the source!
+    ## Note: never open a binary file you do not trust the source!
     ```
    - With unpacking the model and the dict_vectorizer, We're able to again predict for new input values without training a new model by re-running the code.
 
