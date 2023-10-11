@@ -159,6 +159,9 @@ In conclusion, Numpy is an essential library for anyone working with numerical d
    </tr>
 </table>
 
+* [Notes from Peter Ernicke - Part 1/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-6/)
+* [Notes from Peter Ernicke - Part 2/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-7/)
+* [Notes from Peter Ernicke - Part 3/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-8/)
 
 ## Links
 
