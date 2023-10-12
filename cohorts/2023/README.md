@@ -40,7 +40,7 @@
 * [Module materials](../../04-evaluation)
 * [Homework](04-evaluation/homework.md)
 * Homework solution:
-  * TODO
+  * [Notebook](04-evaluation/homework.ipynb)
 
 
 [**5. Deploying Machine Learning Models**](05-deployment/)

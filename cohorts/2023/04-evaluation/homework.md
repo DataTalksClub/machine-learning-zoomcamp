@@ -5,6 +5,9 @@
 > Select the option that's closest to your solution.
 
 
+Solution: [homework.ipynb](homework.ipynb)
+
+
 In this homework, we will use the Car price dataset like last week. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv).
 
 Or you can do it with `wget`:
