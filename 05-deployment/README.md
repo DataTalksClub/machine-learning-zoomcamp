@@ -25,6 +25,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [WSL + Docker notes](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Week_5-flask_and_docker_for_deployment/readme.md)
 * [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-5-notes.md)
 * [Notes about Docker](https://github.com/shayansm2/eng-notebook/tree/main/docker)
+* [Notes about Deployment, Pipenv, Flask, Docker by Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/05-deployment)
 * Add your notes here
 
 ### Deployment tutorials
