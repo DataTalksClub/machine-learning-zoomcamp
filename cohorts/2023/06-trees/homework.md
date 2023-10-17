@@ -27,6 +27,7 @@ First, keep only the records where `ocean_proximity` is either `'<1H OCEAN'` or 
 
 Preparation:
 
+* Fill missing values with zeros.
 * Apply the log tranform to `median_house_value`.
 * Do train/validation/test split with 60%/20%/20% distribution. 
 * Use the `train_test_split` function and set the `random_state` parameter to 1.
