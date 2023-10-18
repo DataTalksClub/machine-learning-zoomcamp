@@ -32,7 +32,7 @@ Preparation:
 * Apply the log tranform to `median_house_value`.
 * Do train/validation/test split with 60%/20%/20% distribution. 
 * Use the `train_test_split` function and set the `random_state` parameter to 1.
-* Use `DictVectorizer(sparse=True)` to turn the dataframe into matrices.
+* Use `DictVectorizer(sparse=True)` to turn the dataframes into matrices.
 
 
 ## Question 1
@@ -124,10 +124,10 @@ For this homework question, we'll find the most important feature:
 * Get the feature importance information from this model
 
 
-What's the most important feature? 
+What's the most important feature (among these 4)? 
 
 * `total_rooms`
-* `median_income`	
+* `median_income`
 * `total_bedrooms`
 * `longitude`
 
@@ -161,13 +161,13 @@ Which eta leads to the best RMSE score on the validation dataset?
 
 * 0.3
 * 0.1
-* Both gives same
+* Both give equal value
 
 
 
 ## Submit the results
 
-- Submit your results here: TBA
+- Submit your results here: https://forms.gle/Qa2SuzG7QGZNCaoV9
 - If your answer doesn't match options exactly, select the closest one.
 - You can submit your solution multiple times. In this case, only the last submission will be used
 
