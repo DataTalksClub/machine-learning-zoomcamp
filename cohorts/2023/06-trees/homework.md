@@ -77,6 +77,7 @@ Now let's experiment with the `n_estimators` parameter
 
 
 After which value of `n_estimators` does RMSE stop improving?
+Consider 3 decimal places for retrieving the answer.
 
 - 10
 - 25
