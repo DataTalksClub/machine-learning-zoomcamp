@@ -48,7 +48,7 @@
 * [Module materials](../../05-deployment)
 * [Homework](05-deployment/homework.md)
 * Homework solution:
-  * TODO
+  * [Code](05-deployment/homework/)
 
 [**6. Decision Trees and Ensemble Learning**](06-trees/)
 
