@@ -40,7 +40,6 @@ For a project, you repository/folder should contain the following:
   * Serving it via a web serice (with Flask or specialized sofware - BentoML, KServe, etc)
 * Files with dependencies
   * `Pipenv` and `Pipenv.lock` if you use Pipenv
-  * `bentofile.yaml` if you use BentoML
   * or equivalents: conda environment file, requirements.txt or pyproject.toml
 * `Dockerfile` for running the service
 * Deployment
