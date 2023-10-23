@@ -24,4 +24,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Jon Areas](https://github.com/jxareas/Machine-Learning-Bookcamp-2022/blob/master/notes/01-introduction.md)
 * [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-1-notes.md)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/)
+* [Notes from Josiah Adesola](https://colab.research.google.com/drive/1mlwkAaRi7R8C6quUi0-cMfXk0MXD5-wc?usp=sharing)
 * Add your notes here
