@@ -70,6 +70,9 @@
 * [Homework](08-deep-learning/homework.md)
 * Homework solution:
   * TODO
+* Saturn Cloud
+  * Sign up link: https://bit.ly/saturn-mlzoomcamp
+  * Write in the chat "I’m participating in ML Zoomcamp" to get 150 hours of compute
 
 
 [**9. Serverless Deep Learning**](09-serverless/)
