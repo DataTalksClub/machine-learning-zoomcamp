@@ -55,8 +55,61 @@
 * [Module materials](../../06-trees)
 * [Homework](06-trees/homework.md)
 * Homework solution:
-  * TODO
+  * [Notebook](06-trees/homework.ipynb)
+
 
 [**Midterm Project**](projects.md#midterm-project)
 
 * More information: [projects.md](projects.md#midterm-project)
+
+
+
+[**8. Neural Networks and Deep Learning**](08-deep-learning/)
+
+* [Module materials](../../08-deep-learning)
+* [Homework](08-deep-learning/homework.md)
+* Homework solution:
+  * TODO
+
+
+[**9. Serverless Deep Learning**](09-serverless/)
+
+* [Module materials](../../09-serverless)
+* [Homework](09-serverless/homework.md)
+* Homework solution:
+  * TODO
+
+
+[**10. Kubernetes and TensorFlow Serving**](10-kubernetes/)
+
+* [Module materials](../../10-kubernetes)
+* [Homework](10-kubernetes/homework.md)
+* Homework solution:
+  * TODO
+
+
+**11. KServe (optional)**
+
+* [Module materials](../../11-kserve)
+* No homework
+
+[**Capstone Project**](projects.md#capstone-1)
+
+* More information: [projects.md](projects.md#capstone-1)
+
+
+[**Capstone Project 2**](projects.md#capstone-2)
+
+* More information: [projects.md](projects.md#capstone-2)
+
+
+**[Article](article.md) (Optional)**
+
+* More information: [article.md](article.md)
+
+
+**Competition**
+
+TBA
+
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)

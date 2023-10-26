@@ -4,6 +4,7 @@
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+Solution: [homework.ipynb](homework.ipynb)
 
 
 ### Dataset
@@ -77,7 +78,7 @@ Now let's experiment with the `n_estimators` parameter
 
 
 After which value of `n_estimators` does RMSE stop improving?
-Consider 3 decimal places for retrieving the answer.
+Consider 3 decimal places for calculating the answer.
 
 - 10
 - 25
