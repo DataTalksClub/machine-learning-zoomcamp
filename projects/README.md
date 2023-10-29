@@ -29,7 +29,7 @@ For a project, you repository/folder should contain the following:
 * Data
   * You should either commit the dataset you used or have clear instructions how to download the dataset
 * Notebook (suggested name - `notebook.ipynb`) with
-  * Data preparation and data clearning
+  * Data preparation and data cleaning
   * EDA, feature importance analysis
   * Model selection process and parameter tuning
 * Script `train.py` (suggested name)
@@ -37,7 +37,7 @@ For a project, you repository/folder should contain the following:
   * Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
 * Script `predict.py` (suggested name)
   * Loading the model
-  * Serving it via a web serice (with Flask or specialized sofware - BentoML, KServe, etc)
+  * Serving it via a web service (with Flask or specialized software - BentoML, KServe, etc)
 * Files with dependencies
   * `Pipenv` and `Pipenv.lock` if you use Pipenv
   * or equivalents: conda environment file, requirements.txt or pyproject.toml
@@ -51,7 +51,7 @@ For a project, you repository/folder should contain the following:
 
 To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
 
-* To get points for your project, your need to evaluate 3 projects of your peers
+* To get points for your project, you need to evaluate 3 projects of your peers
 * You get 3 extra points for each evaluation
 
 Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
@@ -76,7 +76,7 @@ The project will be evaluated using these criteria:
 
 ## Cheating and plagiarism
 
-Plagiarism in any form is not allowed. Examples of plagiarism
+Plagiarism in any form is not allowed. Examples of plagiarism:
 
 * Taking somebody's else notebooks and projects (in full or partly) and using it for the capstone project
 * Re-using your own projects (in full or partly) from other courses and bootcamps
@@ -119,7 +119,7 @@ Violating any of this will result in 0 points for this project.
 * https://data.europa.eu/en
 * https://www.openml.org/search?type=data
 * https://www.tensorflow.org/datasets/catalog/overview
-* [Soocer data](https://github.com/statsbomb/open-data)
+* [Soccer data](https://github.com/statsbomb/open-data)
 * https://newzealand.ai/public-data-sets
 * [OECD database](https://stats.oecd.org/index.aspx?lang=en)
 * [deeplake](https://datasets.activeloop.ai/docs/ml/datasets/)
