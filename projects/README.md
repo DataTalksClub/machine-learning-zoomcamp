@@ -49,10 +49,10 @@ For a project, you repository/folder should contain the following:
 
 ## Peer reviewing
 
-To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
-
-* To get points for your project, you need to evaluate 3 projects of your peers
-* You get 3 extra points for each evaluation
+> [!IMPORTANT]  
+> To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
+> * To get points for your project, you need to evaluate 3 projects of your peers
+> * You get 3 extra points for each evaluation
 
 Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
 
@@ -107,6 +107,12 @@ Violating any of this will result in 0 points for this project.
 > If you spot an error somewhere and you see that the code clearly doesn't work, then you
 > give 0 points to the respective criterium. E.g. if you see an error in Dockerfile,
 > then you give 0 points to the "containerization" dimension.
+
+**Q**: Should I include a project title, and what happens if I leave the README file empty?
+
+> It's highly recommended to create a new repository for your project (not inside an existing repo) with a meaningful title, such as
+> "Car Price Prediction" or "Heart Risk Prediction" and including as many details as possible in the README file. ChatGPT can assist you with this. Doing so will not only make it easier to showcase your project for potential job opportunities but also have it featured on the [Projects Gallery App](#projects-gallery).
+> If you leave the README file empty or with minimal details, there may be point deductions as per the [Evaluation Criteria](#evaluation-criteria).
 
 ## Resources
 
