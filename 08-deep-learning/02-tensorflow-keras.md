@@ -13,7 +13,7 @@
 **Classes, functions, and methods**:
 
 - `import tensorflow as tf`: to import tensorflow library
-- `import tensorflow as keras`: to import keras
+- `from tensorflow import keras`: to import keras
 - `from tensorflow.keras.preprocessing.image import load_img`: to import load_img function
 - `load_img('path/to/image', targe_size=(150,150))`: to load the image of 150 x 150 size in PIL format
 - `np.array(img)`: convert image into a numpy array of 3D shape, where each row of the array represents the value of red, green, and blue color channels of one pixel in the image.
