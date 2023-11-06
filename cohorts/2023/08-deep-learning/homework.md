@@ -139,10 +139,10 @@ we already started training.
 
 What is the mean of test loss for all the epochs for the model trained with augmentations?
 
-- 0.15
-- 0.77
-- 0.37
-- 0.97
+* 0.18
+* 0.48
+* 0.78
+* 0.108
 
 ### Question 6
 
