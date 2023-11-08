@@ -26,7 +26,7 @@ See more information about projects [here](../../projects/)
 * Submit your evaluation here: TBA
 * Feedback: TBA ("capstone-01" tab)
 
-## Capstone 1 
+## Capstone 2
 
 * Project due date: TBA
 * Submit your project here: TBA
