@@ -137,6 +137,13 @@ Explore a collection of projects completed by members of our community. The proj
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datatalksclub-projects.streamlit.app/)
 
+### Zoomcamp 2023
+
+* [Midterm project](../cohorts/2023/projects.md#midterm-project)
+* [Capstone 1](../cohorts/2023/projects.md#capstone-1)
+* [Capstone 2](../cohorts/2023/projects.md#capstone-2)
+
+
 ### Zoomcamp 2022
 
 * [Midterm project](../cohorts/2022/projects.md#midterm-project)
