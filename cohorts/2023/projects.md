@@ -10,14 +10,14 @@ See more information about projects [here](../../projects/)
 
 ## Midterm Project
 
-* Project due date: 6 November 2023 (Monday), 23:00 CET (Berlin time)
+* Project due date: 8 November 2023 (Wednesday), 23:00 CET (Berlin time)
 * Submit your project here: https://forms.gle/1BUbuRkGGmLeqrxF8
-* Evaluation due date: TBA
-* Evaluation assignments: TBA ("midterm" tab)
-* Submit your evaluation here: TBA
+* Evaluation due date: 15 November 2023 (Wednesday), 23:00 CET (Berlin time)
+* Evaluation assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vR-7RRtq7AMx5OzI-tDbkzsbxNLm-NvFOP5OfJmhCek9oYcDx5jzxtZW2ZqWvBqc395UZpHBv1of9R1/pubhtml?gid=0&single=true) ("midterm" tab)
+* Submit your evaluation here: https://forms.gle/A5DqzSwPKgLru43AA
 * Feedback: TBA ("midterm" tab)
 
-## Capstone 1 
+## Capstone 1
 
 * Project due date: TBA
 * Submit your project here: TBA
@@ -26,7 +26,7 @@ See more information about projects [here](../../projects/)
 * Submit your evaluation here: TBA
 * Feedback: TBA ("capstone-01" tab)
 
-## Capstone 1 
+## Capstone 2
 
 * Project due date: TBA
 * Submit your project here: TBA
