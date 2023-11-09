@@ -112,10 +112,10 @@ What is the median of training accuracy for all the epochs for this model?
 
 What is the standard deviation of training loss for all the epochs for this model?
 
-* 0.31
-* 0.61
-* 0.91
-* 1.31
+* 0.031
+* 0.061
+* 0.091
+* 0.131
 
 
 ### Data Augmentation
