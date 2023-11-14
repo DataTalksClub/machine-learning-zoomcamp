@@ -24,15 +24,29 @@ Correct:
 pip install https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl
 ```
 
+Rewritten for readability:
+
+```bash
+PREFIX="https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite"
+FILE="tflite_runtime-2.14.0-cp311-cp311-linux_x86_64.whl"
+URL="${PREFIX}/${FILE}"
+pip install ${URL}
+```
+
 (Note `/raw/` in the path)
 
 Also correct:
 
 ```bash
-https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl?raw=true
+# https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl?raw=true
+
+PREFIX="https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/"
+FILE="tflite_runtime-2.14.0-cp311-cp311-linux_x86_64.whl"
+URL="${PREFIX}/${FILE}?raw=true"
+pip install ${URL}
 ```
 
-(Note `?raw=true` at the end)
+(Check available compiled TF lite versions [here](https://github.com/alexeygrigorev/tflite-aws-lambda/tree/main/tflite))
 
 Not correct - won't work:
 
