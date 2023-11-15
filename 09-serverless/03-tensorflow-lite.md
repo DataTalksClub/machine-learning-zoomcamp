@@ -4,10 +4,13 @@
 <a href="https://www.youtube.com/watch?v=OzZA4mSBE0Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-03.jpg"></a>
  
 
-
-
-
 ## Notes
+
+New URL for donwloading the model:
+
+```bash
+wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/download/chapter7-model/xception_v4_large_08_0.894.h5 -O clothing-model.h5
+```
 
 Add notes from the video (PRs are welcome)
 
