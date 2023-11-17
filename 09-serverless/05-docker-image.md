@@ -3,16 +3,7 @@
 <a href="https://www.youtube.com/watch?v=y4_YQjfOsDo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-05.jpg"></a>
 
 
-### `ENTRYPOINT` vs `CMD` 
-
-This link explains the difference between them: https://stackoverflow.com/a/34245657
-
-> `ENTRYPOINT` specifies a command that will always be executed when the container starts.
-> `CMD` specifies arguments that will be fed to the `ENTRYPOINT`.
-
-In case of the lambda base pacakge, the authors already specified the entrypoint and
-we only need to overwrite the arguments passed to the entrypoint,
-
+## Notes
 
 ### Using `pip install` for TF-Lite binaries
 
@@ -21,7 +12,7 @@ When using `pip` to install the compiled binary, make sure you use the raw file,
 Correct:
 
 ```bash
-pip install https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.14.0-cp311-cp311-linux_x86_64.whl
+pip install https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.14.0-cp310-cp310-linux_x86_64.whl
 ```
 
 
@@ -30,15 +21,16 @@ pip install https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/
 Also correct:
 
 ```bash
-pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.14.0-cp311-cp311-linux_x86_64.whl?raw=true
+pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.14.0-cp310-cp310-linux_x86_64.whl?raw=true
 ```
 
-(Check available compiled TF lite versions [here](https://github.com/alexeygrigorev/tflite-aws-lambda/tree/main/tflite))
+The wheel file above is for Python 3.10. Check other available compiled TF lite versions [here](https://github.com/alexeygrigorev/tflite-aws-lambda/tree/main/tflite).
+
 
 Not correct - won't work:
 
 ```bash
-pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl
+pip install https://github.com/alexeygrigorev/tflite-aws-lambda/blob/main/tflite/tflite_runtime-2.14.0-cp310-cp310-linux_x86_64.whl
 ```
 
 If the file is incorrect, you'll get an error message like that: 
@@ -47,9 +39,15 @@ If the file is incorrect, you'll get an error message like that:
 zipfile.BadZipFile: File is not a zip file
 ```
 
-## Notes
+### `ENTRYPOINT` vs `CMD`
 
-Add notes from the video (PRs are welcome)
+This link explains the difference between them: https://stackoverflow.com/a/34245657
+
+> `ENTRYPOINT` specifies a command that will always be executed when the container starts.
+> `CMD` specifies arguments that will be fed to the `ENTRYPOINT`.
+
+In case of the lambda base pacakge, the authors already specified the entrypoint and
+we only need to overwrite the arguments passed to the entrypoint,
 
 
 <table>

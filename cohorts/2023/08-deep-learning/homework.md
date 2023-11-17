@@ -164,4 +164,4 @@ for the model trained with augmentations?
 
 ## Deadline
 
-The deadline for submitting is November 20 (Monday), 23:00 CEST. After that the form will be closed.
+The deadline for submitting is November 20 (Monday), 23:00 CET. After that the form will be closed.
