@@ -53,6 +53,7 @@ For a project, you repository/folder should contain the following:
 > To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
 > * To get points for your project, you need to evaluate 3 projects of your peers
 > * You get 3 extra points for each evaluation
+> * If you don't evaluate your peers, you fail the project
 
 Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
 
