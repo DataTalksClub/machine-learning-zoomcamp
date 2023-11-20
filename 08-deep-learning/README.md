@@ -28,6 +28,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Connecting Github, Saturn Cloud and local VSCode via SSH](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_8-Deep_Learning)
 * [Gradio demonstration with Huggingface Space](https://github.com/yusyel/guides/tree/master/huggingface#gradio-demonstration-with-huggingface-space)
 * [Hyperparameter Search With Keras-tuners](https://github.com/yusyel/guides/tree/master/keras%20tuner)
+* [Installation of tensorflow v2.14 in WSL2 and Ubuntu 22.04 with Nvidia GPU](https://github.com/ellacharmed/machine-learning-zoomcamp/blob/master/08-deep-learning/install.md)
 * Add your notes here
 
 ## Links
