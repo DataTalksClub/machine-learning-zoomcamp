@@ -190,7 +190,7 @@ docker push agrigorev/zoomcamp-bees-wasps:v2
 
 ## Submit the results
 
-- Submit your results here: TBA
+- Submit your results here: https://forms.gle/CrgtJVVs64DTGbCp9
 - If your answer doesn't match options exactly, select the closest one
 - You can submit your solution multiple times. In this case, only the last submission will be used
 
