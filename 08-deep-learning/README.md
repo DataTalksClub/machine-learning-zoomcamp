@@ -28,6 +28,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Connecting Github, Saturn Cloud and local VSCode via SSH](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_8-Deep_Learning)
 * [Gradio demonstration with Huggingface Space](https://github.com/yusyel/guides/tree/master/huggingface#gradio-demonstration-with-huggingface-space)
 * [Hyperparameter Search With Keras-tuners](https://github.com/yusyel/guides/tree/master/keras%20tuner)
+* [Oscar's Notes - Modeling and Performance](https://github.com/ozkary/machine-learning-engineering/blob/main/08-deep-learning/README.md)
 * Add your notes here
 
 ## Links
