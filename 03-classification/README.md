@@ -32,4 +32,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Giorgos Verikios](https://github.com/g-verikios/ml_zoomcamp/blob/d412072625964385023d7100cad342ef2742659d/Classification-Churn.ipynb)
 * [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_3-logistic_regression_classification)
 * [Notes from Marcos Benício](https://github.com/marcosbenicio/DataScience/blob/main/02Classification/churn.ipynb)
+* [Notes from Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/03-classification)
 * Add your notes here

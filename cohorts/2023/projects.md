@@ -15,7 +15,7 @@ See more information about projects [here](../../projects/)
 * Evaluation due date: 15 November 2023 (Wednesday), 23:00 CET (Berlin time)
 * Evaluation assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vR-7RRtq7AMx5OzI-tDbkzsbxNLm-NvFOP5OfJmhCek9oYcDx5jzxtZW2ZqWvBqc395UZpHBv1of9R1/pubhtml?gid=0&single=true) ("midterm" tab)
 * Submit your evaluation here: https://forms.gle/A5DqzSwPKgLru43AA
-* Feedback: TBA ("midterm" tab)
+* Feedback: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vQMT0Pr_EYLGR_8dXQ384cVkrN2w73VNr_H-mgsgIV2XDjKHrm0cznHaDGaWUyI146sx8-AkBL1QFrF/pubhtml?gid=973195155&single=true) ("midterm" tab)
 
 ## Capstone 1
 
