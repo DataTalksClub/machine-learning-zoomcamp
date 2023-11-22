@@ -200,6 +200,9 @@ Putting everything we've learned so far in practice!
 - 8.14 [Explore more](08-deep-learning/14-explore-more.md)
 - 8.15 [Homework](08-deep-learning/homework.md)
 
+For the deep learning part, we need to use a GPU. ML Zoomcamp students can use 
+[Saturn Cloud](https://bit.ly/saturn-mlzoomcamp) and get extra 150 GPU hours there.
+Message support and say "I'm enrolled in ML Zoomcamp" to get an upgrade. 
 
 ## 9. [Serverless Deep Learning](09-serverless/)
 
