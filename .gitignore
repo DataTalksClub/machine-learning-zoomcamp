@@ -1,7 +1,27 @@
-*.h5
+# generated
 .ipynb_checkpoints/
 __pycache__/
-/chapter-07-neural-nets/clothing-dataset-small/
-/chapter-09-kubernetes/clothing-model/
-/chapter-09-kubeflow/clothing-model/
+**my_dir/
+**logs/
+**models/
+
+# file types
+*.h5
 *.tflite
+*.zip
+*.pdf
+
+# data folders
+**data/
+
+#  content-specific
+/08-deep-learning/clothing-dataset-small/
+/08-deep-learning/clothing-dataset/
+/08-deep-learning/ImageClassification/
+/08-deep-learning/my_dir/
+
+/09-serverless/clothing-model/
+/09-serverless/clothing-model/
+
+**midterms_evaluations/
+**samples/
