@@ -150,7 +150,8 @@ and add the code for lambda.
 You don't need to include the model in the image. It's already included. 
 The name of the file with the model is `bees-wasps-v2.tflite` and it's 
 in the current workdir in the image (see the Dockerfile above for the 
-reference).
+reference). 
+The provided model requires the same preprocessing for images regarding target size and rescaling the value range than used in homework 8.
 
 Now run the container locally.
 
