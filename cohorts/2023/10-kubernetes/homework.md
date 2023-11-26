@@ -94,18 +94,6 @@ What's `CLUSTER-IP` of the service that is already running there?
 
 ## Question 4
 
-Now let's test if everything works. Use `kubectl` to get the list of running services.
-
-What's the `Type` of the service that is already running there?
-
-* ClusterIP
-* NodePort
-* LoadBalancer
-* ExternalName
-
-
-## Question 5
-
 To be able to use the docker image we previously created (`zoomcamp-model:hw10`),
 we need to register it with `kind`.
 
@@ -117,7 +105,7 @@ What's the command we need to run for that?
 * `kubectl apply`
 
 
-## Question 6
+## Question 5
 
 Now let's create a deployment config (e.g. `deployment.yaml`):
 
@@ -158,7 +146,7 @@ Apply this deployment using the appropriate command and get a list of running Po
 You can see one running Pod.
 
 
-## Question 7
+## Question 6
 
 Let's create a service for this deployment (`service.yaml`):
 
@@ -244,7 +232,7 @@ while True:
 Now you can run this script.
 
 
-## Question 8 (optional)
+## Question 7 (optional)
 
 Run `kubectl get hpa credit-hpa --watch` command to monitor how the autoscaler performs. 
 Within a minute or so, you should see the higher CPU load; and then - more replicas. 
