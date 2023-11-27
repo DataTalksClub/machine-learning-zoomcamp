@@ -250,7 +250,7 @@ What was the maximum amount of the replicas during this test?
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://forms.gle/35gEVapd3uBoExFW7
 * You can submit your solution multiple times. In this case, only the last submission will be used 
 * If your answer doesn't match options exactly, select the closest one
 
