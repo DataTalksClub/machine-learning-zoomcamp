@@ -56,9 +56,9 @@ Upon running these two containers and test for prediction, we should expect conn
 version: "3.9"
 services:
   clothing-model: # tf-serving model
-    image: clothing-model:xception-v4-001
+    image: zoomcamp-10-model:xception-v4-001
   gateway: # flask gateway service
-    image: clothing-model-gateway:002 # new version
+    image: zoomcamp-10-gateway:002 # new version
     environment:
       - TF_SERVING_HOST=clothing-model:8500 # look for clothing model and port 8500
     ports: # map host machine with gateway
