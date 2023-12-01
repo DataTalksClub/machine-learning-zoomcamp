@@ -32,11 +32,11 @@ To create cluster and manage on EKS we'll use a cli tool `eksctl` which can be d
       PREFIX=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY_NAME}
 
       # Tag local docker images to remote tag
-      GATEWAY_LOCAL=clothing-model-gateway:002 # gateway service
+      GATEWAY_LOCAL=zoomcamp-10-gateway:002 # gateway service
       GATEWAY_REMOTE=${PREFIX}:clothing-model-gateway-002 # notice the ':' is replaced with '-' before 002
       docker tag ${GATEWAY_LOCAL} ${GATEWAY_REMOTE}
 
-      MODEL_LOCAL=clothing-model:xception-v4-001 # tf-serving model
+      MODEL_LOCAL=zoomcamp-10-model:xception-v4-001 # tf-serving model
       MODEL_REMOTE=${PREFIX}:clothing-model-xception-v4-001 # same thing ':' is replaced with '-' before xception
       docker tag ${MODEL_LOCAL} ${MODEL_REMOTE}
 
