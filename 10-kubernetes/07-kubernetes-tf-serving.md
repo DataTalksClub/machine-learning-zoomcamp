@@ -22,7 +22,7 @@ In this section we'll deploy tf-serving model to kubernetes. In order to do that
         spec:
           containers:
           - name: tf-serving-clothing-model
-            image: clothing-model:xception-v4-001
+            image: zoomcamp-10-model:xception-v4-001
             resources:
               limits:
                 memory: "512Mi"
@@ -68,7 +68,7 @@ In this section we'll deploy tf-serving model to kubernetes. In order to do that
         spec:
           containers:
           - name: gateway
-            image: clothing-model-gateway:002
+            image: zoomcamp-10-gateway:002
             resources:
               limits:
                 memory: "128Mi"
