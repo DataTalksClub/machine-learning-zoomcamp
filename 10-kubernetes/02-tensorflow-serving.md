@@ -4,13 +4,29 @@
 <a href="https://www.youtube.com/watch?v=deXR2fThYDw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-02.jpg"></a>
  
 
-To build the app we need to convert the keras model `HDF5` into special format called tensorflow `SavedModel`. For that we download prebuild model and saved it in the working directory:
+To build the app we need to convert the keras model `HDF5` into special format called tensorflow `SavedModel`. To do that, we download a prebuilt model and save it in the working directory:
 
 ```bash
 wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/download/chapter7-model/xception_v4_large_08_0.894.h5 -O clothing-model.h5
 ```
 
-We can look what's inside in the saved model using the utility (saved_model_cli) from tensorflow and the command `saved_model_cli show --dir model-dir-name --all`. Running the command outputs few things but we are interested in the signature, specifically the following one. For instance:
+Then convert the model to `SavedModel` format:
+
+```python
+import tensorflow as tf
+from tensorflow import keras
+
+model = keras.models.load_model('./clothing-model.h5')
+
+tf.saved_model.save(model, 'clothing-model')
+```
+
+We can inspect what's inside the saved model using the utility (saved_model_cli) from TensorFlow and the following command:
+```shell
+saved_model_cli show --dir clothing-model --all
+```
+
+Running the command outputs a few things but we are interested in the signature, specifically the following one. For instance:
 
 ```bash
 signature_def['serving_default']:
@@ -25,6 +41,10 @@ signature_def['serving_default']:
         shape: (-1, 10)
         name: StatefulPartitionedCall:0
   Method name is: tensorflow/serving/predict
+```
+Alternatively one can also use the following command to output just the desired part:
+```shell
+saved_model_cli show --dir clothing-model --tag_set serve --signature_def serving_default
 ```
 
 We can run the model (`clothing-model`) with the prebuilt docker image `tensorflow/serving:2.7.0`:
