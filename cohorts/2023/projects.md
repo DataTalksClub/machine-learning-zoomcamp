@@ -19,9 +19,9 @@ See more information about projects [here](../../projects/)
 
 ## Capstone 1
 
-* Project due date: TBA
-* Submit your project here: TBA
-* Evaluation due date: TBA
+* Project due date: 18 December (Monday), 23:00 CET (Berlin time)
+* Submit your project here: https://forms.gle/CJA2TgfGkYc7Qm6A7
+* Evaluation due date: 8 January (Monday), 23:00 CET (Berlin time) 
 * Evaluation assignments: TBA ("capstone-1" tab)
 * Submit your evaluation here: TBA
 * Feedback: TBA ("capstone-01" tab)
