@@ -15,7 +15,7 @@ In this session, we'll be working with multiclass image classification with deep
 
 The dataset has 5000 images of 20 different classes, however, we'll be using the subset which contains 10 of the most popular classes. The dataset can be downloaded from the above link.
 
-**Userful links**:
+**Useful links**:
 
 - Full dataset: https://www.kaggle.com/agrigorev/clothing-dataset-full
 - Subset: https://github.com/alexeygrigorev/clothing-dataset-small
