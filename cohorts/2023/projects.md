@@ -22,14 +22,14 @@ See more information about projects [here](../../projects/)
 * Project due date: 18 December (Monday), 23:00 CET (Berlin time)
 * Submit your project here: https://forms.gle/CJA2TgfGkYc7Qm6A7
 * Evaluation due date: 8 January (Monday), 23:00 CET (Berlin time) 
-* Evaluation assignments: TBA ("capstone-1" tab)
-* Submit your evaluation here: TBA
+* Evaluation assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vR-7RRtq7AMx5OzI-tDbkzsbxNLm-NvFOP5OfJmhCek9oYcDx5jzxtZW2ZqWvBqc395UZpHBv1of9R1/pubhtml?gid=876309294&single=true) ("capstone-1" tab)
+* Submit your evaluation here: https://forms.gle/hsKW4fWWKjhBNXtWA
 * Feedback: TBA ("capstone-01" tab)
 
 ## Capstone 2
 
 * Project due date: TBA
-* Submit your project here: TBA
+* Submit your project here: https://forms.gle/MMj6W3JB4sobUajN9
 * Evaluation due date: TBA
 * Evaluation assignments: TBA ("capstone-2" tab)
 * Submit your evaluation here: TBA
