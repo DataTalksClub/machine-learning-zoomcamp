@@ -88,6 +88,7 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/25/ml-zoomcamp-2023-deep-learning-part-10/)
 
 ## Navigation
 
