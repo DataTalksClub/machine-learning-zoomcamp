@@ -26,6 +26,8 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/21/ml-zoomcamp-2023-machine-learning-for-regression-part-7/)
+
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)
