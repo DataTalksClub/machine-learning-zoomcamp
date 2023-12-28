@@ -60,6 +60,7 @@ we only need to overwrite the arguments passed to the entrypoint,
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/04/ml-zoomcamp-2023-serverless-part-5/)
 
 ## Navigation
 
