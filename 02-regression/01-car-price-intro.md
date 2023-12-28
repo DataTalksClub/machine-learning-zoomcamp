@@ -33,6 +33,7 @@ The code and dataset are available at this [link](https://github.com/alexeygrigo
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/18/ml-zoomcamp-2023-machine-learning-for-regression-part-1/)
 
 ## Navigation
 
