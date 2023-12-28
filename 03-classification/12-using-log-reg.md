@@ -22,6 +22,7 @@ In this case, the predictions of validation and test were similar, which means t
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/01/ml-zoomcamp-2023-machine-learning-for-classification-part-12/)
 
 ## Navigation
 
