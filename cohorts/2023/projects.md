@@ -28,7 +28,7 @@ See more information about projects [here](../../projects/)
 
 ## Capstone 2
 
-* Project due date: TBA
+* Project due date: 22 January (Monday), 23:00 CET
 * Submit your project here: https://forms.gle/MMj6W3JB4sobUajN9
 * Evaluation due date: TBA
 * Evaluation assignments: TBA ("capstone-2" tab)
