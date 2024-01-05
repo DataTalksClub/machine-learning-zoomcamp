@@ -30,6 +30,11 @@ We'll use voting for scoring your articles.
 The deadline for finishing the article is 31 January, 23:00 CET.
 
 
+## Articles from 2022
+
+* Add your article above this line
+
+
 ### Past articles
 
 See examples of articles from the previous cohorts [here](../../article/README.md)
