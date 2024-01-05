@@ -131,4 +131,4 @@ See [here](../cohorts/2022/article.md)
 
 ### ML Zoomcamp 2021
 
-See [here](../cohorts/2021/article.md)
+See [here](../cohorts/2021/13-article#articles)
