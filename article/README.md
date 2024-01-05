@@ -125,6 +125,10 @@ We'll use voting for scoring your articles.
 
 ## Past articles
 
+### ML Zoomcamp 2023
+
+See [here](../cohorts/2023/article.md)
+
 ### ML Zoomcamp 2022
 
 See [here](../cohorts/2022/article.md)
