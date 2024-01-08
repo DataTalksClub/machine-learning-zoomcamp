@@ -30,8 +30,9 @@ We'll use voting for scoring your articles.
 The deadline for finishing the article is 31 January, 23:00 CET.
 
 
-## Articles from 2022
+## Articles from 2023
 
+* [A Learning Based Approach For Predicting Heart Disease by Oscar Garcia](https://www.ozkary.dev/assets/2023/ozkary-ml-heart-disease-app.png)
 * Add your article above this line
 
 
