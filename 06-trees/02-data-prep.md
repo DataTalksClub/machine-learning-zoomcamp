@@ -31,6 +31,9 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/17/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-2/)
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/18/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-3/)
+
 
 ## Navigation
 

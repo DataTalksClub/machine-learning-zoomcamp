@@ -113,6 +113,6 @@
 
 **Competition**
 
-TBA
+[Competition](https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge)
 
-Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
+Submit your progress and learning in public links [here](https://forms.gle/S3bSj7TSKVAcDfjPA)

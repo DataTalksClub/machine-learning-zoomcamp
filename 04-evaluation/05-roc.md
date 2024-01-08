@@ -27,7 +27,7 @@ In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) 
 
 ![TPR_FPR.png](images%2FTPR_FPR.png)
 
-ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the TPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
+ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the FPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
 
 We need to compare the ROC curves against a point of reference to evaluate its performance, so the corresponding curves of random and ideal models are required. It is possible to plot the ROC curves with FPR and Recall scores vs thresholds, or FPR vs Recall. 
 
@@ -50,6 +50,7 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/06/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-5/)
 
 ## Navigation
 
