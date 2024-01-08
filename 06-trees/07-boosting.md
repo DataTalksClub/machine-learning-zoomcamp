@@ -31,6 +31,9 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/25/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-10/)
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/26/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-11/)
+
 ### Extracting results from `xgb.train(..)`
 In the video we use jupyter magic command `%%capture output` to extract the output of `xgb.train(..)` method. 
 

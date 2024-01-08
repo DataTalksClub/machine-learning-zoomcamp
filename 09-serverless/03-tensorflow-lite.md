@@ -29,6 +29,8 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/01/ml-zoomcamp-2023-serverless-part-2/)
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/02/ml-zoomcamp-2023-serverless-part-3/)
 
 ## Navigation
 

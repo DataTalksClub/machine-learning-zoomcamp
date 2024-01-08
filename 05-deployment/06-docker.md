@@ -99,6 +99,7 @@ At last you've deployed your prediction app inside a Docker continer. Congratula
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/14/ml-zoomcamp-2023-deploying-machine-learning-models-part-6/)
 
 ## Navigation
 

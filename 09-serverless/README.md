@@ -21,4 +21,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week9/Lecture_9_serverless.ipynb)
 * [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_9-Serverless)
 * [Notes from Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/09-serverless)
+* [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/serverless-deployment/)
 * Add your notes here

@@ -33,6 +33,7 @@ For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/te
    </tr>
 </table>
 
+* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/25/ml-zoomcamp-2023-machine-learning-for-classification-part-1/)
 
 ## Navigation
 
