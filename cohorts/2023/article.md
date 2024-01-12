@@ -33,6 +33,7 @@ The deadline for finishing the article is 31 January, 23:00 CET.
 ## Articles from 2023
 
 * [A Learning Based Approach For Predicting Heart Disease by Oscar Garcia](https://www.ozkary.dev/assets/2023/ozkary-ml-heart-disease-app.png)
+* [Understanding Convolutional Layers in a Convolutional Neural Network](https://marcosbenicio.github.io/2023/11/27/cnn.html) by Marcos Benício
 * Add your article above this line
 
 
