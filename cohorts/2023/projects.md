@@ -30,9 +30,9 @@ See more information about projects [here](../../projects/)
 
 * Project due date: 22 January (Monday), 23:00 CET
 * Submit your project here: https://forms.gle/MMj6W3JB4sobUajN9
-* Evaluation due date: TBA
-* Evaluation assignments: TBA ("capstone-2" tab)
-* Submit your evaluation here: TBA
+* Evaluation due date: 1 Ferbuary (Thursday), 23:00 CET
+* Evaluation assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vR-7RRtq7AMx5OzI-tDbkzsbxNLm-NvFOP5OfJmhCek9oYcDx5jzxtZW2ZqWvBqc395UZpHBv1of9R1/pubhtml?gid=762712061&single=true) ("capstone-2" tab)
+* Submit your evaluation here: https://forms.gle/v7pDqCAaWCWDQjA47
 * Feedback: TBA ("capstone-02" tab)
 
 
