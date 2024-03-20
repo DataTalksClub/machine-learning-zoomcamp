@@ -119,7 +119,7 @@ Links:
 <tr>
 <td>Abhijit Chakraborty</td>
 <td><a href="https://github.com/mraabhijit/sports-classification-cnn">Project</a></td>
-<td> <a href="www.linkedin.com/in/mraabhijit"><img src="https://user-images.githubusercontent.com/875246/192300614-2ce22ed5-bbc4-4684-8098-d8128d71aac5.png" height="16em" /></a> <a href="www.github.com/mraabhijit"><img src="https://user-images.githubusercontent.com/875246/192300611-a606521b-cb76-4090-be8e-7cc21752b996.png" height="16em" /></a></td>
+<td> <a href="https://www.linkedin.com/in/mraabhijit"><img src="https://user-images.githubusercontent.com/875246/192300614-2ce22ed5-bbc4-4684-8098-d8128d71aac5.png" height="16em" /></a> <a href="https://www.github.com/mraabhijit"><img src="https://user-images.githubusercontent.com/875246/192300611-a606521b-cb76-4090-be8e-7cc21752b996.png" height="16em" /></a></td>
 <td><details>
 <summary>More info</summary>
 
