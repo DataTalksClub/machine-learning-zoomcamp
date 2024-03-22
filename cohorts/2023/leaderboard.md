@@ -1,7 +1,7 @@
 ## Leaderboard 
 
 This is the top [100 leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vSNK_yGtELX1RJK1SSRl4xiUbD0XZMYS6uwHnybc7Mql-WMnMgO7hHSu59w-1cE7FeFZjkopbh684UE/pubhtml)
-of participants of MLOps Zoomcamp 2023 edition!
+of participants of Machine Learning Zoomcamp 2023 edition!
 
 <table>
 <tr>
