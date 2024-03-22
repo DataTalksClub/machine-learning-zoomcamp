@@ -627,8 +627,7 @@ Links:
 Links:
 
 <ul>
-<li>[midterm project (Disaster Tweets Detection</li>
-<li>)](https://github.com/shayansm2/kaggle-playground/tree/main/nlp-getting-started)</li>
+<li><a href="https://github.com/shayansm2/kaggle-playground/tree/main/nlp-getting-started">midterm project (Disaster Tweets Detection)</a></li>
 <li><a href="https://github.com/shayansm2/kaggle-playground/tree/main/dtc-zoomcamp-qa-challenge">capstone project (DTC Zoomcamp Q&amp;A Challenge)</a></li>
 </ul></details></td>
 </tr>
