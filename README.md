@@ -11,7 +11,7 @@
 * [Course telegram channel](https://t.me/mlzoomcamp)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 
-
+slim
 
 ### Syllabus 
 
