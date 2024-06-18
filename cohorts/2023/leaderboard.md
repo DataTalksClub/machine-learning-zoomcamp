@@ -704,20 +704,6 @@ Links:
 </ul></details></td>
 </tr>
 <tr>
-<td>Angelo Varlotta</td>
-<td><a href="https://github.com/capac/ml-zoomcamp/tree/main/2023/capstone-2">Project</a></td>
-<td> <a href="https://www.linkedin.com/in/angelovarlotta/"><img src="https://user-images.githubusercontent.com/875246/192300614-2ce22ed5-bbc4-4684-8098-d8128d71aac5.png" height="16em" /></a> <a href="https://www.github.com/capac/"><img src="https://user-images.githubusercontent.com/875246/192300611-a606521b-cb76-4090-be8e-7cc21752b996.png" height="16em" /></a></td>
-<td><details>
-<summary>More info</summary>
-
-
-Links:
-
-<ul>
-<li><a href="https://angelovarlotta.com/">Personal website</a></li>
-</ul></details></td>
-</tr>
-<tr>
 <td>Gopakumar Gopinathan</td>
 <td></td>
 <td> <a href="www.linkedin.com/in/ggopinathan"><img src="https://user-images.githubusercontent.com/875246/192300614-2ce22ed5-bbc4-4684-8098-d8128d71aac5.png" height="16em" /></a></td>
