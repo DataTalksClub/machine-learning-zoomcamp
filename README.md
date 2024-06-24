@@ -75,6 +75,7 @@ To make discussions in Slack more organized:
 * Follow [these recommendations](asking-questions.md) when asking for help
 * Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
+> We encourage [Learning in Public](learning-in-public.md)
 
 ## 1. [Introduction to Machine Learning](01-intro/)
 
