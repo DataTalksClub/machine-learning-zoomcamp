@@ -258,32 +258,18 @@ Writing an article about something not covered in the course.
 
 For those who love projects!
 
-## [Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)
 
-If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+## Supporters and partners
 
-Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
+Thanks to the course sponsors for making it possible to run this course
 
-## Previous cohorts
-
-### 2021 Cohort
-
-* [Homeworks](cohorts/2021)
-* [The 100 leaderboard](cohorts/2021/leaderboard.md)
-
-### 2022 Cohort
-
-* [Homeworks](cohorts/2022)
-* [The 100 leaderboard](cohorts/2022/leaderboard.md)
+<p align="center">
+  <a href="https://saturncloud.io/">
+    <img height="120" src="https://github.com/DataTalksClub/llm-zoomcamp/raw/main/images/saturn-cloud.png">
+  </a>
+</p>
 
 
-## Our other courses
-
-If you liked this course, you'll like other courses from us:
-
-* [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
-* [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
-
-
+Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
 
 
