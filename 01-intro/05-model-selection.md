@@ -30,7 +30,9 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 3. Evaluate the models
 4. Select the best model 
 5. Apply the best model to the test dataset 
-6. Compare the performance metrics of validation and test 
+6. Compare the performance metrics of validation and test
+
+<u>NB:</u> Note that it is possible to reuse the validation data. After selecting the best model (step 4), the validation and training datasets can be combined to form a single training dataset for the chosen model before testing it on the test set.
 
 <table>
    <tr>
