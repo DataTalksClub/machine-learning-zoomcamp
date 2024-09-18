@@ -21,11 +21,11 @@ The obtention of the g function is what it is called **training**.
 
 ### Types of SML problems 
 
-* **Regression:** the output is a number (car's price)
+* **Regression:** the output is a number (car's price).
 * **Classification:** the output is a category (spam example). 
 	* **Binary:** there are two categories. 
 	* **Multiclass problems:** there are more than two categories. 
-* **Ranking:** the output is the big scores associated with certain items. It is applied in recommender systems. 
+* **Ranking:** the output is the top scores associated with corresponding items. It is applied in recommender systems. 
 
 In summary, SML is about teaching the model by showing different examples, and the goal is
 to come up with a function that takes the feature matrix as a
