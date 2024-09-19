@@ -46,7 +46,6 @@
    Pandas is a Python library used for processing and analyzing tabular data efficiently.
 
 ---
-Maximilien Eyengue
 
 <table>
    <tr>
@@ -57,7 +56,7 @@ Maximilien Eyengue
       </td>
    </tr>
 </table>
-
+* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/01_intro/Summary_Session_01.md)
 
 ## Navigation
 
