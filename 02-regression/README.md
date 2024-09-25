@@ -38,4 +38,4 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/regression/)
 * [Notes from Marcos Benício](https://github.com/marcosbenicio/DataScience/blob/main/01Regression/car_price.ipynb)
 * [Notes from Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/02-regression)
-* Add your notes here
+* [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_2_notes.ipynb)
