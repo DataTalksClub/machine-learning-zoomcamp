@@ -1,4 +1,4 @@
-## Homework [DRAFT]
+## Homework
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
