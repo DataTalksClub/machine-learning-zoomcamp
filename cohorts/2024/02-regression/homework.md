@@ -143,5 +143,5 @@ Options:
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw02
 * If your answer doesn't match options exactly, select the closest one
