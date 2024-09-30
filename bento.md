@@ -1,5 +1,4 @@
-
-## 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
+# 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
 
 - 7.1 [Intro/Session Overview](07-bentoml-production/01-intro.md)
 - 7.2 [Building Your Prediction Service with BentoML](07-bentoml-production/02-build-bento-service.md)
@@ -10,7 +9,6 @@
 - 7.7 [(Optional) Advanced Example: Deploying Stable Diffusion Model](07-bentoml-production/07-stable-diffusion.md)
 - 7.8 [Summary](07-bentoml-production/08-summary.md)
 - 7.9 [Homework](07-bentoml-production/homework.md)
-
 
 ## Supporters and partners
 

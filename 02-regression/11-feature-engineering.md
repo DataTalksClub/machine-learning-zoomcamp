@@ -1,4 +1,4 @@
-## 2.11 Feature engineering
+# 2.11 Feature engineering
 
 Feature engineering is the process of creating new features
 
@@ -6,23 +6,15 @@ Feature engineering is the process of creating new features
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
-
 ## Notes
 
-The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
-This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
+The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars.
+This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions.
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/22/ml-zoomcamp-2023-machine-learning-for-regression-part-9/)
 

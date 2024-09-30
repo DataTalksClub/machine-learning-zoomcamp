@@ -1,15 +1,15 @@
-## 4.7 Cross-Validation
+# 4.7 Cross-Validation
 
 <a href="https://www.youtube.com/watch?v=BIIZaVtUbf4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-07.jpg"></a>
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification) empty?
 
-### Extra resources
+## Extra resources
 
 In the lesson we talked about iterators and generators in Python. You can read more about them here:
 
-- https://anandology.com/python-practice-book/iterators.html
-- https://www.google.com/search?q=python+iterators+and+generators
+- <https://anandology.com/python-practice-book/iterators.html>
+- <https://www.google.com/search?q=python+iterators+and+generators>
 
 ## Notes
 
@@ -21,23 +21,22 @@ In general, if the dataset is large, we should use the hold-out validation datas
 
 **Libraries, classes and methods:**
 
-- `Kfold(k, s, x)` - sklearn.model_selection class for calculating the cross validation with k folds, s boolean attribute for shuffle decision, and an x random state
-- `Kfold.split(x)` - sklearn.Kfold method for splitting the x dataset with the attributes established in the Kfold's object construction.
-- `for i in tqdm()` - library for showing the progress of each i iteration in a for loop.
+```python
+Kfold(k, s, x) # sklearn.model_selection class for calculating the cross validation
+# with k folds, s boolean attribute for shuffle decision, and an x random state
+
+Kfold.split(x) # sklearn.Kfold method for splitting the x dataset with the attributes
+# established in the Kfold's object construction.
+
+for i in tqdm() # library for showing the progress of each i iteration in a for loop.
+```
 
 The code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb).
 
 Add notes from the video (PRs are welcome)
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 - [Notes from Peter Ernicke](https://knowmledge.com/2023/10/08/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-7/)
 
