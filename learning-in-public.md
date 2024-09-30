@@ -28,4 +28,4 @@ You can watch this video to see how your learning in public posts may look like:
     <img src="./images/learning-in-public.png" height="240" />
 </a>
 
-Send a PR if you want to suggest improvements for this document
+Send a PR if you want to suggest improvements for this document.

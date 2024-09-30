@@ -1,4 +1,3 @@
-
 # 2.2 Data preparation
 
 <a href="https://www.youtube.com/watch?v=Kd74oR4QWGM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=13"><img src="images/thumbnail-2-02.jpg"></a>
@@ -12,7 +11,7 @@
 ```python
 pd.read_csv(<file_path_string>) # read csv files
 df.head() # take a look of the dataframe
-df.columns # retrieve colum names of a dataframe
+df.columns # retrieve column names of a dataframe
 df.columns.str.lower() # lowercase all the letters
 df.columns.str.replace(' ', '_') # replace the space separator
 df.dtypes # retrieve data types of all features
