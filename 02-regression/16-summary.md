@@ -21,6 +21,8 @@ were explained using the problem to predict the price of cars.
    </tr>
 </table>
 
+* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/02_regression/Summary_Session_02.md)
+
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)
