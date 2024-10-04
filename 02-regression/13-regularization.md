@@ -42,6 +42,8 @@ So if you're interested what it means, you can read here
 * Another example. Let's say we have 3 columns: `a`, `b`, `c`. If `c = 0.2 * a + 0.5 * b`, then `c` is a linear combination of `a` and `b`
 * More formal definition: https://en.wikipedia.org/wiki/Linear_combination
 
+### Ridge Regression
+The regularization technique used (adding a factor to the diagonals of Gram Matrix) in this lesson is Ridge Regression. Further explanations are available in this [DataTalks.Club article](https://datatalks.club/blog/regularization-in-regression.html).
 
 ## Navigation
 
