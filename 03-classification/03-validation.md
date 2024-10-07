@@ -1,33 +1,29 @@
 
-## 3.3 Setting up the validation framework
+# 3.3 Setting up the validation framework
 
 <a href="https://www.youtube.com/watch?v=_lwz34sOnSE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-03.jpg"></a>
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification) empty?
 
 ## Notes
 
-Splitting the dataset with **Scikit-Learn**. 
+Splitting the dataset with **Scikit-Learn**.
 
-**Classes, functions, and methods:** 
+**Classes, functions, and methods:**
 
-* `train_test_split` - Scikit-Learn class for splitting datasets. Linux shell command for downloading data. The `random_state` argument set a random seed for reproducibility purposes.  
-* `df.reset_index(drop=True)` - reset the indices of a dataframe and delete the previous ones. 
-* `df.x.values` - extract the values from x series
-* `del df['x']` - delete x series from a dataframe 
+```python
+train_test_split # Scikit-Learn class for splitting datasets. Linux shell command for downloading data.
+# The `random_state` argument set a random seed for reproducibility purposes.
+
+df.reset_index(drop=True) # reset the indices of a dataframe and delete the previous ones.
+df.x.values # extract the values from x series
+del df['x'] # delete x series from a dataframe
+```
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb).
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/27/ml-zoomcamp-2023-machine-learning-for-classification-part-3/)
 

@@ -1,5 +1,5 @@
 
-## 2.15 Using the model
+# 2.15 Using the model
 
 <a href="https://www.youtube.com/watch?v=KT--uIJozes&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=26"><img src="images/thumbnail-2-15.jpg"></a>
 
@@ -7,21 +7,14 @@
 
 ## Notes
 
-After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. 
+After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition.
 
-Finally, the final model was used to predict the price of new cars. 
+Finally, the final model was used to predict the price of new cars.
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/24/ml-zoomcamp-2023-machine-learning-for-regression-part-12/)
 

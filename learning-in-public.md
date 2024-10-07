@@ -13,8 +13,7 @@ It helps you get noticed and will lead to:
 * Landing a job or getting clients
 * Many other good things
 
-Here's a more compresensive reading on why you want to do it: https://github.com/readme/guides/publishing-your-work
-
+Here's a more comprehensive reading on why you want to do it: <https://github.com/readme/guides/publishing-your-work>
 
 ## Learning in Public for Zoomcamps
 
@@ -29,5 +28,4 @@ You can watch this video to see how your learning in public posts may look like:
     <img src="https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/images/learning-in-public.png?raw=true" height="240" />
 </a>
 
-
-Send a PR if you want to suggest improvements for this document
+Send a PR if you want to suggest improvements for this document.
