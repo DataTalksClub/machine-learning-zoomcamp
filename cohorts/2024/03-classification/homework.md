@@ -127,7 +127,7 @@ Which of following feature has the smallest difference?
 ### Question 6
 
 * Now let's train a regularized logistic regression.
-* Let's try the following values of the parameter `C`: `[0, 0.01, 0.1, 1, 10]`.
+* Let's try the following values of the parameter `C`: `[0.01, 0.1, 1, 10, 100]`.
 * Train models using all the features as in Q4.
 * Calculate the accuracy on the validation dataset and round it to 3 decimal digits.
 
