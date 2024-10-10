@@ -36,8 +36,7 @@ Next, use only the following columns:
 
 ### EDA
 
-* Look at the `final_price` variable. Does it have a long tail? 
-
+* Look at the `final_price` variable. Does it have a long tail?
 
 
 ### Question 1
@@ -68,6 +67,8 @@ Use the same code as in the lectures
 
 
 ### Question 3
+
+(Note: Do not apply the logarthmic function on the target variable, y)
 
 * We need to deal with missing values for the column from Q1.
 * We have two options: fill it with 0 or with the mean of this variable.
