@@ -56,7 +56,7 @@ Let's do that
 
 If your AUC is < 0.5, invert this variable by putting "-" in front
 
-(e.g. `-df_train['engine_hp']`)
+(e.g. `-df_train['previous']`)
 
 AUC can go below 0.5 if the variable is negatively correlated with the target variable. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
 
@@ -152,9 +152,11 @@ Now let's use 5-Fold cross-validation to find the best parameter `C`
 
 Which `C` leads to the best mean score?
 
-- 0.000001
-- 0.001
+- 0.01
+- 0.1
 - 1
+- 0.5
+- 10
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
 
