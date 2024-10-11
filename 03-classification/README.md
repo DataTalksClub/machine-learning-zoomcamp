@@ -34,4 +34,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Marcos Benício](https://github.com/marcosbenicio/DataScience/blob/main/02Classification/churn.ipynb)
 * [Notes from Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/03-classification)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/classification/)
+* [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_3_notes.ipynb)
 * Add your notes here
