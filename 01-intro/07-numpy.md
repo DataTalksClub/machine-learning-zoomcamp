@@ -2,7 +2,6 @@
 
 <a href="https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=7"><img src="images/thumbnail-1-07.jpg"></a>
 
-
 ## Notes
 
 # Understanding Numpy: A Simple Introduction
@@ -39,6 +38,10 @@ To convert a Python list into a Numpy array, you can use `np.array()`:
 my_list = [2, 3, 4]
 array_from_list = np.array(my_list)
 ```
+
+It’s worth noting that NumPy arrays are more memory-efficient compared to regular Python lists, especially when dealing with large datasets. NumPy arrays are stored in a contiguous block of memory, allowing for faster access and manipulation of the data.
+
+Once we have converted a list into a NumPy array, we can perform various mathematical operations on it. NumPy provides convenient functions for element-wise operations, such as addition, subtraction, multiplication, and division. These operations are performed on each element of the array individually.
 
 ### Generating Ranges of Numbers
 
@@ -148,7 +151,6 @@ std_deviation = arr.std()  # Standard deviation
 
 In conclusion, Numpy is an essential library for anyone working with numerical data in Python. It simplifies array creation, manipulation, and mathematical operations, making it a powerful tool for scientific computing and data analysis. With the basics covered in this article, you're well on your way to harnessing Numpy's capabilities.
 
-
 <table>
    <tr>
       <td>⚠️</td>
@@ -159,23 +161,23 @@ In conclusion, Numpy is an essential library for anyone working with numerical d
    </tr>
 </table>
 
-* [Notes from Peter Ernicke - Part 1/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-6/)
-* [Notes from Peter Ernicke - Part 2/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-7/)
-* [Notes from Peter Ernicke - Part 3/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-8/)
+- [Notes from Peter Ernicke - Part 1/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-6/)
+- [Notes from Peter Ernicke - Part 2/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-7/)
+- [Notes from Peter Ernicke - Part 3/3](https://knowmledge.com/2023/09/14/ml-zoomcamp-2023-introduction-to-machine-learning-part-8/)
 
 ## Links
 
-* [Notebook from the video](notebooks/07-numpy.ipynb)
-* [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
-* [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
+- [Notebook from the video](notebooks/07-numpy.ipynb)
+- [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
+- [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
 
 ## Additional links
 
-* [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
+- [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
 
 ## Navigation
 
-* [Machine Learning Zoomcamp course](../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Setting up the Environment](06-environment.md)
-* Next: [Linear Algebra Refresher](08-linear-algebra.md)
+- [Machine Learning Zoomcamp course](../)
+- [Lesson 1: Introduction to Machine Learning](./)
+- Previous: [Setting up the Environment](06-environment.md)
+- Next: [Linear Algebra Refresher](08-linear-algebra.md)
