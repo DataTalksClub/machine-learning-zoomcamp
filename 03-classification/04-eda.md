@@ -15,7 +15,7 @@ The EDA for this project consisted of:
 
 **Functions and methods:** 
 
-* `df.isnull().sum()` - retunrs the number of null values in the dataframe.  
+* `df.isnull().sum()` - returns the number of null values in the dataframe.  
 * `df.x.value_counts()` returns the number of values for each category in x series. The `normalize=True` argument retrieves the percentage of each category. In this project, the mean of churn is equal to the churn rate obtained with the value_counts method. 
 * `round(x, y)` - round an x number with y decimal places
 * `df[x].nunique()` - returns the number of unique values in x series 
