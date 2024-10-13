@@ -15,9 +15,11 @@ You can get the version information using the `__version__` field:
 pd.__version__
 ```
 
-### Getting the data 
+> Answer: 2.0.3
 
-For this homework, we'll use the Laptops Price dataset. Download it from 
+### Getting the data
+
+For this homework, we'll use the Laptops Price dataset. Download it from
 [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv).
 
 You can do it with wget:
@@ -39,6 +41,8 @@ How many records are in the dataset?
 - 2160
 - 12160
 
+> Answer: 2160
+
 ### Q3. Laptop brands
 
 How many laptop brands are presented in the dataset?
@@ -47,6 +51,8 @@ How many laptop brands are presented in the dataset?
 - 27
 - 28
 - 2160
+
+> Answer: 27
 
 ### Q4. Missing values
 
@@ -57,6 +63,8 @@ How many columns in the dataset have missing values?
 - 2
 - 3
 
+> Answer: 3
+
 ### Q5. Maximum final price
 
 What's the maximum final price of Dell notebooks in the dataset?
@@ -66,12 +74,23 @@ What's the maximum final price of Dell notebooks in the dataset?
 - 3849
 - 3936
 
+> Answer: 3936
+
 ### Q6. Median value of Screen
 
 1. Find the median value of `Screen` column in the dataset.
+
+   > Answer: 15.168112244897959
+
 2. Next, calculate the most frequent value of the same `Screen` column.
+
+   > Answer: 15.6
+
 3. Use `fillna` method to fill the missing values in `Screen` column with the most frequent value from the previous step.
+
 4. Now, calculate the median value of `Screen` once again.
+
+   > Answer: 15.168112244897959
 
 Has it changed?
 
@@ -79,6 +98,8 @@ Has it changed?
 
 - Yes
 - No
+
+> Answer: No
 
 ### Q7. Sum of weights
 
@@ -98,8 +119,9 @@ Has it changed?
 - 45.58
 - 91.30
 
+> Answer: 91.2998806299555
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw01
-* If your answer doesn't match options exactly, select the closest one
+- Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw01
+- If your answer doesn't match options exactly, select the closest one
