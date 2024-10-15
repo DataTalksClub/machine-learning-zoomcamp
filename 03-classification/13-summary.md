@@ -20,6 +20,7 @@ In this session, we worked on a project to predict churning in customers from a 
    </tr>
 </table>
 
+* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/03_classification/Summary_Session_03.md)
 
 ## Navigation
 
