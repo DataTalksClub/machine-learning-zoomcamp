@@ -50,7 +50,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the `y` variable
+* For each numerical variable, use it as score (aka prediction) and compute the AUC with the `y` variable as ground truth.
 * Use the training dataset for that
 
 
