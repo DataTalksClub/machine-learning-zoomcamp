@@ -17,11 +17,11 @@ This session covered data obtention and some procedures of data preparation.
 * `df.head()` - take a look of the dataframe 
 * `df.head().T` - take a look of the transposed dataframe 
 * `df.columns` - retrieve column names of a dataframe 
-* `df.columns.str.lower()` - lowercase all the letters 
-* `df.columns.str.replace(' ', '_')` - replace the space separator 
+* `df.columns.str.lower()` - lowercase all the letters in the columns names of a dataframe
+* `df.columns.str.replace(' ', '_')` - replace the space separator in the columns names of a dataframe
 * `df.dtypes` - retrieve data types of all series 
-* `df.index` - retrive indices of a dataframe
-* `pd.to_numeric()` - convert a series values to numerical values. The `errors=coerce` argument allows making the transformation despite some encountered errors. 
+* `df.index` - retrieve indices of a dataframe
+* `pd.to_numeric()` - convert a series values to numerical values. The `errors='coerce'` argument allows making the transformation despite some encountered errors. 
 * `df.fillna()` - replace NAs with some value 
 * `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
 

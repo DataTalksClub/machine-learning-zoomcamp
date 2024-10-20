@@ -8,22 +8,22 @@
 
 ## Notes
 
-In general, supervised models follow can be represented with this formula: 
+In general, supervised models can be represented with this formula: 
 
 <p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large g\left(x_{i}\right) = y_{i}"/>
+    $\large g\left(x_{i}\right) = y_{i}$
 </p>
 
-Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of xi belonging to the positive class.  
+Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of $x_i$ belonging to the positive class.  
 
 Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula. 
 
 <p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large g\left(x_{i}\right) = Sigmoid\left(w_{0} %2B w_{1}x_{1} %2B w_{2}x_{2} %2B ... %2B w_{n}x_{n}\right)"/>
+    $\large g\left(x_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_{2}x_{2} + ... + w_{n}x_{n}\right)$
 </p>
 
 <p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large Sigmoid=\frac{1}{1%2Bexp\left( -z \right)}"/>
+    $\large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$
 </p>
 
 In this way, the sigmoid function allows transforming a score into a probability. 

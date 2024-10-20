@@ -4,6 +4,7 @@
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+Solution: [homework.ipynb](homework.ipynb)
 
 ### Dataset
 
