@@ -1,6 +1,6 @@
 # 4.3 Confusion table
 
-<a href="https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-03.jpg"></a>
+[![ML Zoomcamp 4.3 - Confusion Table](./images/thumbnail-4-03.jpg)](https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR "Link to YouTube: ML Zoomcamp 4.3 - Confusion Table")
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification) empty?
 
@@ -23,7 +23,7 @@ When comes to a prediction of an LR model, each falls into one of four different
   <tr>
     <th></th>
     <th></th>
-    <th colspan="2">Predictions</th>
+    <th colspan="2" style="text-align: center;">Predictions</th>
   </tr>
   <tr>
     <td></td>
@@ -34,17 +34,17 @@ When comes to a prediction of an LR model, each falls into one of four different
   <tr>
     <td rowspan="2">Actual</td>
     <td>Negative</td>
-    <td>TN</td>
-    <td>FP</td>
+    <td style="text-align: center;">TN</td>
+    <td style="text-align: center;">FP</td>
   </tr>
   <tr>
     <td>Positive</td>
-    <td>FN</td>
-    <td>TP</td>
+    <td style="text-align: center;">FN</td>
+    <td style="text-align: center;">TP</td>
   </tr>
 </table>
 
-![confusion_matrix.png](images%2Fconfusion_matrix.png)
+![confusion_matrix.png](./images/confusion_matrix.png)
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations.
 

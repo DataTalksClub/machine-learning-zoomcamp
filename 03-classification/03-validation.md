@@ -1,7 +1,6 @@
-
 # 3.3 Setting up the validation framework
 
-<a href="https://www.youtube.com/watch?v=_lwz34sOnSE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-03.jpg"></a>
+[![ML Zoomcamp 3.3 - Setting Up The Validation Framework](images/thumbnail-3-03.jpg)](https://www.youtube.com/watch?v=_lwz34sOnSE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR "Link to YouTube: ML Zoomcamp 3.3 - Setting Up The Validation Framework")
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification) empty?
 
