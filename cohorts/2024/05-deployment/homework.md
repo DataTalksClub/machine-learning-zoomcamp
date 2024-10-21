@@ -202,5 +202,5 @@ What's the probability that this client will get a subscription now?
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw05
 * If your answer doesn't match options exactly, select the closest one
