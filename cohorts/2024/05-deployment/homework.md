@@ -18,6 +18,12 @@ unzip bank.zip
 
 We need `bank-full.csv`.
 
+You can also access the copy of `back-full.csv` directly:
+
+```bash
+wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/bank-full.csv
+```
+
 
 ## Question 1
 
