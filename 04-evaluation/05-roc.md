@@ -16,13 +16,13 @@ ROC stands for Receiver Operating Characteristic, and this idea was applied duri
 **FPR** is the fraction of false positives (FP) divided by the total number of negatives (FP and TN - the first row of confusion matrix), and we want to `minimize` it. The formula of FPR is the following: 
 
 <p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large \frac{FP}{TN %2B FP}"/>
+    $FPR = \large \frac{FP}{TN + FP}$
 </p>
 
 In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) divided by the total number of positives (FN and TP - second row of confusion table), and we want to `maximize` this metric. The formula of this measure is presented below: 
 
 <p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large \frac{TP}{TP %2B FN}"/>
+    $TPR =\large \frac{TP}{TP + FN}$
 </p>
 
 ![TPR_FPR.png](images%2FTPR_FPR.png)
@@ -33,7 +33,7 @@ We need to compare the ROC curves against a point of reference to evaluate its p
 
 
 **Classes and methods:** 
-* `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values, and a w number of y values. 
+* `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values first, and then a w number of y values. 
 * `roc_curve(x, y)` - sklearn.metrics class for calculating the false positive rates, true positive rates, and thresholds, given a target x dataset and a predicted y dataset. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb). 
