@@ -1,4 +1,4 @@
-## 6.7 Gradient boosting and XGBoost
+# 6.7 Gradient boosting and XGBoost
 
 <a href="https://www.youtube.com/watch?v=xFarGClszEM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-07.jpg"></a>
 
@@ -19,15 +19,8 @@ XGBoost is one of the libraries which implements the gradient boosting technique
 
 Add notes from the video (PRs are welcome)
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 - [Notes from Peter Ernicke](https://knowmledge.com/2023/10/25/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-10/)
 - [Notes from Peter Ernicke](https://knowmledge.com/2023/10/26/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-11/)

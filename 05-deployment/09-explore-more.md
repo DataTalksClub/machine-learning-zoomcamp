@@ -1,4 +1,3 @@
-
 # 5.9 Explore more
 
 * Flask is not the only framework for creating web services. Try others, e. g. FastAPI

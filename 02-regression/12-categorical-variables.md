@@ -7,9 +7,9 @@
 
 ## Notes
 
-Categorical variables are typically strings, and pandas identifies them as object types. These variables need to be converted to a numerical form because ML
-models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them.
-This transformation from categorical to numerical variables is known as One-Hot encoding.
+Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these categorical variables need to be converted to a numerical form because ML
+models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
+This transformation from categorical to numerical variables is known as One-Hot encoding. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
 
