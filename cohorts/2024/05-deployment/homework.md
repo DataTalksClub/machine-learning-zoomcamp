@@ -6,25 +6,6 @@
 
 > Note: we recommend using python 3.11 in this homework.
 
-In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
-
-You can do it with `wget`:
-
-```bash
-wget https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
-unzip bank+marketing.zip 
-unzip bank.zip
-```
-
-We need `bank-full.csv`.
-
-You can also access the copy of `back-full.csv` directly:
-
-```bash
-wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/bank-full.csv
-```
-
-
 ## Question 1
 
 * Install Pipenv
