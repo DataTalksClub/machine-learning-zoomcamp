@@ -17,9 +17,9 @@
 In this session we talked about what is a web service and how to create a simple web service.
 - What is actually a web service
   - A web service is a method used to communicate between electronic devices.
-  - There are some methods in web services we can use it to satisfy our problems. Here below we would list some.
+  - There are some methods in web services that we can use to satisfy our problems. Here below we would list some.
     - **GET:**  GET is a method used to retrieve files, For example when we are searching for a cat image in google we are actually requesting cat images with GET method.
-    - **POST:** POST is the second common method used in web services. For example in a sign up process, when we are submiting our name, username, passwords, etc we are posting our data to a server that is using the web service. (Note that there is no specification where the data goes)
+    - **POST:** POST is the second common method used in web services. It enables sending data to a server to create or update a resource. For example in a sign up process, when we are submiting our name, username, passwords, etc we are posting our data to a server that is using the web service. (Note that there is no specification where the data goes)
     -  **PUT:** PUT is same as POST but we are specifying where the data is going to.
     -  **DELETE:** DELETE is a method that is used to request to delete some data from the server.
     -  For more information just google the HTTP methods, You'll find useful information about this.
@@ -39,7 +39,7 @@ In this session we talked about what is a web service and how to create a simple
        app.run(debug=True, host='0.0.0.0', port=9696) # run the code in local machine with the debugging mode true and port 9696
     ```
    - With the code above we made a simple web server and created a route named ping that would send pong string.
-   - To test it just open your browser and search ```localhost:9696/ping```, You'll see that the 'PONG' string is received. Congrats You've made a simple web server 🥳.
+   - To test it, just use the `cURL` command in a new terminal by typing ```curl http://localhost:9696/ping```, or simply open your browser and search ```localhost:9696/ping```, You'll see that the 'PONG' string is received. Congrats You've made a simple web server 🥳.
 - To use our web server to predict new values we must modify it. See how in the next session.
 
 Add notes from the video (PRs are welcome)
