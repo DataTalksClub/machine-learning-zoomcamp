@@ -22,5 +22,6 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-4-notes.md)
 * [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_4%20-evaluation_metrics_for_ML_model)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/evaluation-metrics/)
+* [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_4_notes.ipynb)
 * Add your notes here
 
