@@ -6,12 +6,12 @@
 
 
 ## Notes
-In this chapter we learned this topics:
+In this chapter we learned these topics:
 - We learned how to save the model and load it to re-use it without running the previous code.
 - How to deploy the model in a web service.
 - How to create a virtual environment.
 - How to create a container and run our code in any operating systems.
-- How to implement our code in a public web service and aceess it from outside a local computer.
+- How to deploy our code in a public web service and access it externally from outside a local computer.
 
 In the next chapter we would learn the algorithms such as Decision trees, Random forests and Gradient boosting as an alternative way of combining decision tress.
 
