@@ -52,14 +52,14 @@ Which feature is used for splitting the data?
 
 ## Question 2
 
-Train a random forest model with these parameters:
+Train a random forest regressor with these parameters:
 
 * `n_estimators=10`
 * `random_state=1`
 * `n_jobs=-1` (optional - to make training faster)
 
 
-What's the RMSE of this model on validation?
+What's the RMSE of this model on the validation data?
 
 * 22.13
 * 42.13
