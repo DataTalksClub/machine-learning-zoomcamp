@@ -6,7 +6,7 @@
 
 
 ## Installing Docker
-To isolate more our project file from our system machine, there is an option named Docker. With Docker you are able to pack all your project is a system that you want and run it in any system machine. For example if you want Ubuntu 20.4 you can have it in a mac or windows machine or other operating systems. <br>
+To isolate more our project file from our system machine, there is an option named Docker. With Docker you are able to pack all your project in the system that you want and run it in any other machine system. For example if you want Ubuntu 20.4 you can have it in a mac or windows machine or other operating systems. <br>
 To get started with Docker for the churn prediction project you can follow the instructions below.
 
 ### Ubuntu 
@@ -19,7 +19,9 @@ To run docker without `sudo`, follow [this instruction](https://docs.docker.com/
 
 ### Windows
 
-To install the Docker you can just follow the instruction by Andrew Lock in this link: https://andrewlock.net/installing-docker-desktop-for-windows/
+To install the Docker you can just follow the instruction by Andrew Lock in this link: https://andrewlock.net/installing-docker-desktop-for-windows/.
+
+If you are using a subsystem, and the integration fails when running Docker for the first time, make sure your distribution is enabled in the resources settings.
 
 ### MacOS
 
@@ -56,10 +58,10 @@ COPY ["*.py", "churn-model.bin", "./"]
 EXPOSE 9696
 
 # If we run the Docker image, we want our churn app to be running
-ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:9696", "churn_serving:app"]
+ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "churn_serving:app"]
 ```
 
-The flags `--deploy` and `--system` makes sure that we install the dependencies directly inside the Docker container without creating an additional virtual environment (which `pipenv` does by default). 
+The flags `--deploy` and `--system` make sure that we install the dependencies directly inside the Docker container without creating an additional virtual environment (which `pipenv` does by default). 
 
 If we don't put the last line `ENTRYPOINT`, we will be in a python shell.
 Note that for the entrypoint, we put our commands in double quotes.
@@ -85,7 +87,7 @@ Flag explanations:
 - `--entrypoint=bash`: After running Docker, we will now be able to communicate with the container using bash (as you would normally do with the Terminal). Default is `python`.
 
 
-At last you've deployed your prediction app inside a Docker continer. Congratulations 🥳
+At last you've deployed your prediction app inside a Docker container. Congratulations 🥳
 
 
 
