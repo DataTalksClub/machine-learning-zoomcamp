@@ -18,6 +18,15 @@ This is what you need to do for each project
 * Put your model into a web service and deploy it locally with Docker
 * Bonus points for deploying the service to the cloud
 
+## Videos
+
+We did a few office hours sessions where we explained how you go about the projects. 
+
+Check them out:
+
+* [ML Zoomcamp 2023 Office Hours (pre-midterm)](https://www.youtube.com/live/GuJkBzyGxyc)
+* [ML Zoomcamp 2022 - Office Hours (midterm project)](https://www.youtube.com/live/AcB-Iz8h5tc)
+* [2021 Office hours #7](https://www.youtube.com/live/wWBm6MHu5u8) and [2021 Office hours #8](https://www.youtube.com/live/3bo7I9LaN7o) (check #8 if you want to use text)
 
 ## Deliverables
 
