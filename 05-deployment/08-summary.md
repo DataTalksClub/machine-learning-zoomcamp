@@ -28,8 +28,6 @@ Add notes from the video (PRs are welcome)
    </tr>
 </table>
 
-* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/05_deployment/Summary_Session_05.md)
-
 ## Navigation
 
 * [Machine Learning Zoomcamp course](../)
