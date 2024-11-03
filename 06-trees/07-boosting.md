@@ -6,15 +6,27 @@
 
 ## Notes
 
-Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially where each model takes the prediction errors made by the previous model and then tries to improve the prediction. This process continues to `n` number of iterations and in the end all the predictions get combined to make final prediction.
+**Gradient Boosting**
 
-XGBoost is one of the libraries which implements the gradient boosting technique. To make use of the library, we need to install with `pip install xgboost`. To train and evaluate the model, we need to wrap our train and validation data into a special data structure from XGBoost which is called `DMatrix`. This data structure is optimized to train xgboost models faster.
+Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially, where each model takes the prediction errors made by the previous model and then tries to improve the prediction. This process continues to `n` number of iterations, and in the end, all the predictions get combined to make the final prediction.
+
+XGBoost is one of the libraries which implements the gradient boosting technique. To make use of the library, we need to install with `pip install xgboost`. To train and evaluate the model, we need to wrap our train and validation data into a special data structure from XGBoost which is called `DMatrix`. This data structure is optimized to train XGBoost models faster.
+
+**XGBoost Training Parameters**
+
+*   `eta`: learning rate, which indicates how fast the model learns.
+*   `max_depth`: to control the size of the trees.
+*   `min_child_weight`: to control the minimum size of a child node.
+*   `objective`: To specify which problem we are trying to solve, either regression, or classification (binary: `'binary:logistic'`, or other).
+*   `nthread`: 8, used for parallelized training.
+*   `seed`: 1, for reproducibility.
+*   `verbosity`: 1 (`True`) to show warnings, if any, during model training.
 
 **Classes, functions, and methods**:
 
 - `xgb.train()`: method to train xgboost model.
 - `xgb_params`: key-value pairs of hyperparameters to train xgboost model.
-- `watchlist`: list to store training and validation accuracy to evaluate the performance of the model after each training iteration. The list takes tuple of train and validation set from DMatrix wrapper, for example, `watchlist = [(dtrain, 'train'), (dval, 'val')]`.
+- `watchlist`: list to store training and validation data to evaluate the performance of the model after each training iteration. The list takes tuple of train and validation set from DMatrix wrapper, for example, `watchlist = [(dtrain, 'train'), (dval, 'val')]`.
 - `%%capture output`: IPython magic command which captures the standard output and standard error of a cell.
 
 Add notes from the video (PRs are welcome)
