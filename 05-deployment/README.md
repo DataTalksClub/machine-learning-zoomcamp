@@ -28,6 +28,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes about Deployment, Pipenv, Flask, Docker by Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/05-deployment)
 * [Notebook with commands for pipenv, flask, gunicorn, and Docker](https://github.com/javier-cp6/ml-zoomcamp/blob/main/05-deployment/05-train-churn-model.ipynb)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/model-deployment/)
+* [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_5_notes.ipynb)
 * Add your notes here
 
 ### Deployment tutorials
