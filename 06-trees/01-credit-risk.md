@@ -15,7 +15,7 @@ To be specific, we'll use [credit scoring data](https://github.com/gastonstat/Cr
 
 In the credit scoring classification problem, 
 - if the model returns 0, this means, the client is very likely to payback the loan and the bank will approve the loan.  
-- if the model returns 1, then the client is considered as a `defaulter` and the bank may not approval the loan.
+- if the model returns 1, then the client is considered as a `defaulter` and the bank may not approve the loan.
 
 Add notes from the video (PRs are welcome)
 
