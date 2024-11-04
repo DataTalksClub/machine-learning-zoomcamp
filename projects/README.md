@@ -129,7 +129,7 @@ Violating any of this will result in 0 points for this project.
 ### Datasets
 
 
-* [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md)
+* [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/datasets.md)
 * https://www.kaggle.com/datasets and https://www.kaggle.com/competitions
 * https://archive.ics.uci.edu/ml/index.php
 * https://data.europa.eu/en
