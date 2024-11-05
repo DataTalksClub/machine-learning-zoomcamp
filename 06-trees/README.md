@@ -24,4 +24,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Decision Trees and Ensembled Learning by Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/06-trees)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/decision-trees/)
 * [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/06_trees/Summary_Session_06.md)
+* [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_6_notes.ipynb)
 * Add your notes here
