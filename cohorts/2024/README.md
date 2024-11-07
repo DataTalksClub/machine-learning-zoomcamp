@@ -6,7 +6,7 @@
 * [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 * [Course Playlist: Only 2023 Live videos & homeworks](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJoui-E7wf2r5wWgET3MMZt)
-* Leaderboard (TODO)
+* [Leaderboard](https://courses.datatalks.club/ml-zoomcamp-2024/leaderboard)
 
 ### Syllabus
 
