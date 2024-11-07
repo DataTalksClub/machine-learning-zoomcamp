@@ -35,7 +35,7 @@ We start the course again in September 2024
 * [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
 * Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
 * Join the [course telegram channel](https://t.me/mlzoomcamp)
-* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from ~~desktop~~ only [Google calendar syncselect](https://www.google.com/calendar/syncselect) and for Apple Calendar on macOS/iPhone/ipad see this [help](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform=Desktop))
 * [Tweet about it](https://ctt.ac/XZ6b9)
 * If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)
 * All the materials specific to the 2024 will be in [the 2024 cohort folder](./cohorts/2024/) 
