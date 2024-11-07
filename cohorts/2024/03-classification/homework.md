@@ -15,7 +15,8 @@ Or you can do it with `wget`:
 wget https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
 ```
 
-We need to take `bank/bank-full.csv` file from the downloaded zip-file.  
+We need to take `bank/bank-full.csv` file from the downloaded zip-file. Please use semicolon as a separator in the `read_csv` function.
+
 In this dataset our desired target for classification task will be `y` variable - has the client subscribed a term deposit or not. 
 
 ### Features
@@ -110,7 +111,7 @@ What accuracy did you get?
 ### Question 5 
 
 * Let's find the least useful feature using the *feature elimination* technique.
-* Train a model with all these features (using the same parameters as in Q4).
+* Train a model using the same features and parameters as in Q4 (without rounding).
 * Now exclude each feature from this set and train a model without it. Record the accuracy for each model.
 * For each feature, calculate the difference between the original accuracy and the accuracy without the feature. 
 

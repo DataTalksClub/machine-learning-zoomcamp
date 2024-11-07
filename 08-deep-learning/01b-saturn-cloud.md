@@ -4,7 +4,7 @@
 
 ## Links
 
-* [Sign up for Saturn Cloud](https://bit.ly/saturn-mlzoomcamp)
+* [Request access](https://zoomcamp.internal.saturnenterprise.io/)
 
 
 ## Notes

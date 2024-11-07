@@ -9,7 +9,7 @@
 General definitions:
 
 * **Metric:** A single number that describes the performance of a model
-* **Accuracy:** Fraction of correct answers; sometimes misleading
+* **Accuracy:** Fraction of correct answers; sometimes misleading 
 * Precision and recall are less misleading when we have class imbalance
 * **ROC Curve:** A way to evaluate the performance at all thresholds; okay to use with imbalance
 * **K-Fold CV:** More reliable estimate for performance (mean + std)
@@ -22,6 +22,8 @@ Add notes from the video (PRs are welcome)
 
 |⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
 |---|:-:|
+
+- [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/04_evaluation/Summary_Session_04.md)
 
 ## Navigation
 

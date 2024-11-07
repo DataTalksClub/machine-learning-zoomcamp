@@ -25,7 +25,7 @@ accuracy_score(x, y) # sklearn.metrics class for calculating the accuracy of a m
 # given a predicted `x` dataset and a target `y` dataset.
 ```
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb).
+The entire code of this project is available in [this jupyter notebook](notebook.ipynb).
 
 Add notes from the video (PRs are welcome)
 
