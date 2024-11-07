@@ -1,14 +1,13 @@
-
-## 5.4 Serving the churn model with Flask
+# 5.4 Serving the churn model with Flask
 
 <a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-04.jpg"></a>
- 
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
-
 ## Notes
+
 In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment.
+
 - To make the web service predict the churn value for each customer we must modify the code in session 3 with the code we had in previous chapters. Below we can see how the code works in order to predict the churn value.
 - In order to predict we need to first load the previous saved model and use a prediction function in a special route.
   - To load the previous saved model we use the code below:

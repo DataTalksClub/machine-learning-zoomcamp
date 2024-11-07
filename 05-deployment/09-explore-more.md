@@ -1,13 +1,10 @@
-
-## 5.9 Explore more
+# 5.9 Explore more
 
 * Flask is not the only framework for creating web services. Try others, e.g. FastAPI.
 * Experiment with other ways of managing environment, e.g. virtual env, conda, poetry.
 * Explore other ways of deploying web services, e.g. GCP, Azure, Heroku, Python Anywhere, etc.
 
- 
 Add notes from the video (PRs are welcome)
-
 
 <table>
    <tr>
@@ -18,7 +15,6 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
 
 ## Navigation
 
