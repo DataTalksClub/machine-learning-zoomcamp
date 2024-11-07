@@ -50,7 +50,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the `above_average` variable
+* For each numerical variable, use it as score and compute AUC with the `y` variable
 * Use the training dataset for that
 
 
@@ -145,7 +145,7 @@ How large is standard deviation of the scores across different folds?
 
 Now let's use 5-Fold cross-validation to find the best parameter `C`
 
-* Iterate over the following `C` values: `[0.01, 0.1, 0.5, 10]`
+* Iterate over the following `C` values: `[0.000001, 0.001, 1]`
 * Initialize `KFold` with the same parameters as previously
 * Use these parameters for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
 * Compute the mean score as well as the std (round the mean and std to 3 decimal digits)

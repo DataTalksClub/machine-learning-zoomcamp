@@ -1,4 +1,3 @@
-
 # 3.1 Churn prediction project
 
 <a href="https://www.youtube.com/watch?v=0Zw04wdeTQo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-01.jpg"></a>
