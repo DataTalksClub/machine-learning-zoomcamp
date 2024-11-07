@@ -1,12 +1,12 @@
 ## Machine Learning Zoomcamp 2024
 
 * [Pre-course Q&A session](https://www.youtube.com/watch?v=a7phcSmuNY0)
-* [Launch stream with course overview (TODO)]()
-* [Course calendar](https://calendar.google.com/calendar/u/0/r?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&pli=1)
+* [Launch stream with course overview](https://www.youtube.com/watch?v=8wuR_Oz-to0)
+* [Course calendar](https://calendar.google.com/calendar/u/0/r?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&pli=1)([Google calendar syncselect](https://www.google.com/calendar/syncselect) and for Apple Calendar on macOS/iPhone/ipad see this [help](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform=Desktop))
 * [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
 * [Course Playlist: Only 2023 Live videos & homeworks](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJoui-E7wf2r5wWgET3MMZt)
-* Leaderboard (TODO)
+* [Leaderboard](https://courses.datatalks.club/ml-zoomcamp-2024/leaderboard)
 
 ### Syllabus
 
