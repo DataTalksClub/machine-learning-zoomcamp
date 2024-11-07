@@ -2,7 +2,7 @@
 
 <a href="https://www.youtube.com/watch?v=sSAqYSk7Br4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-08.jpg"></a>
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment) slides broken?
 
 ## Notes
 

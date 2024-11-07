@@ -1,4 +1,4 @@
-## 6. Decision Trees and Ensemble Learning
+# 6. Decision Trees and Ensemble Learning
 
 - 6.1 [Credit risk scoring project](01-credit-risk.md)
 - 6.2 [Data cleaning and preparation](02-data-prep.md)
@@ -13,14 +13,13 @@
 - 6.11 [Explore more](11-explore-more.md)
 - 6.12 [Homework](homework.md)
 
-
 ## Community notes
 
 Did you take notes? You can share them here (or in each unit separately)
 
-* [Kwang Yang's Notes](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
-* [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/06_trees.md)
-* [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week6/Lecture_6_Decision_Trees_Ensemble_Learning.ipynb)
-* [Decision Trees and Ensembled Learning by Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/06-trees)
-* [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/decision-trees/)
-* Add your notes here
+- [Kwang Yang's Notes](https://www.kaggle.com/kwangyangchia/notebook-for-lesson-6-mle)
+- [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/06_trees.md)
+- [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week6/Lecture_6_Decision_Trees_Ensemble_Learning.ipynb)
+- [Decision Trees and Ensembled Learning by Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/06-trees)
+- [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/decision-trees/)
+- Add your notes here

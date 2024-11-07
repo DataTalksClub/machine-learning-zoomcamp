@@ -1,12 +1,4 @@
-
 # 5.9 Explore more
-<<<<<<< HEAD
-=======
-
-* Flask is not the only framework for creating web services. Try others, e. g. FastAPI
-* Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
-* Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.
->>>>>>> origin/main
 
 * Flask is not the only framework for creating web services. Try others, e. g. FastAPI
 * Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
