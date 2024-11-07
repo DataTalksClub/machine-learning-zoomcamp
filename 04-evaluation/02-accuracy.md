@@ -2,14 +2,12 @@
 ## 4.2 Accuracy and dummy model
 
 <a href="https://www.youtube.com/watch?v=FW_l7lB0HUI&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-02.jpg"></a>
- 
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
-
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification) empty?
 
 ## Notes
 
-**Accuracy** measures the fraction of correct predictions. Specifically, it is the number of correct predictions divided by the total number of predictions. 
+**Accuracy** measures the fraction of correct predictions. Specifically, it is the number of correct predictions divided by the total number of predictions.
 
 We can change the **decision threshold**, it should not be always 0.5. But, in this particular problem, the best decision cutoff, associated with the hightest accuracy (80%), was indeed 0.5. 
 
@@ -23,7 +21,7 @@ Therefore, in this problem accuracy can not tell us how good is the model becaus
 * `Counter(x)` - collection class that counts the number of instances that satisfy the `x` condition
 * `accuracy_score(x, y)` - sklearn.metrics class for calculating the accuracy of a model, given a predicted `x` dataset and a target `y` dataset. 
 
-The entire code of this project is available in [this jupyter notebook](notebook.ipynb).  
+The entire code of this project is available in [this jupyter notebook](notebook.ipynb).
 
 Add notes from the video (PRs are welcome)
 

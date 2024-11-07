@@ -1,4 +1,4 @@
-## 2. Machine Learning for Regression
+# 2. Machine Learning for Regression
 
 - 2.1 [Car price prediction project](01-car-price-intro.md)
 - 2.2 [Data preparation](02-data-preparation.md)
@@ -18,8 +18,6 @@
 - 2.16 [Car price prediction project summary](16-summary.md)
 - 2.17 [Explore more](17-explore-more.md)
 - 2.18 [Homework](homework.md)
-
-
 
 ## Community notes
 

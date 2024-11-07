@@ -1,40 +1,38 @@
-
-## 2.3 Exploratory data analysis
+# 2.3 Exploratory data analysis
 
 <a href="https://www.youtube.com/watch?v=k6k8sQ0GhPM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=14"><img src="images/thumbnail-2-03.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
-
 ## Notes
 
-**Pandas attributes and methods:** 
+**Pandas attributes and methods:**
 
-* `df[col].unique()` -> return a list of unique values in the series 
-* `df[col].nunique()` -> return the number of unique values in the series 
-* `df.isnull().sum()` -> return the number of null values in the dataframe 
+```python
+df[col].unique() # returns a list of unique values in the series
+df[col].nunique() # returns the number of unique values in the series
+df.isnull().sum() # returns the number of null values in the dataframe
+```
 
 **Matplotlib and seaborn methods:**
 
-* `%matplotlib inline` -> assure that plots are displayed in jupyter notebook's cells
-* `sns.histplot()` -> show the histogram of a series 
-   
+```python
+%matplotlib inline # assure that plots are displayed in jupyter notebook's cells
+sns.histplot() # show the histogram of a series
+```
+
 **Numpy methods:**
-* `np.log1p()` -> apply log transformation to a variable, after adding one to each input value.
 
-Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible. 
+```python
+np.log1p() # applies log transformation to a variable and adds one to each result.
+```
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
+Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible.
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).
+
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/19/ml-zoomcamp-2023-machine-learning-for-regression-part-2/)
 

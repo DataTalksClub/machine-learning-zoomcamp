@@ -6,7 +6,7 @@
 
 ## Notes
 
-This lesson first reviews the topics learned in the previous lesson about how to trai a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data.
+This lesson first reviews the topics learned in previous lesson about training a decision tress using sklearn, how to handle the model not generalizing due to overfitting of the data.
 
 In this lesson, we learn about how to best split a decision tree and different classification criteria that can be used to split a tree. We dive deep in an example, splitting trees with `misclassification` criteria. Additionally, different stopping criteria to break the iterative tree split are discussed.
 
@@ -39,15 +39,8 @@ composed of **nodes** (which contain conditions) and **branches** (which represe
 
 Add notes from the video (PRs are welcome)
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/21/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-6/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/22/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-7/)

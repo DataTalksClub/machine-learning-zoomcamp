@@ -1,4 +1,4 @@
-## Getting your certificate
+# Getting your certificate
 
 Congratulations on finishing the course!
 
@@ -20,7 +20,6 @@ def compute_certificate_id(email):
 > **Note** that this is not the same hash as you have on the leaderboard
 > There's an extra "_" added to your email, so the hash is different.
 
-
 Then use this hash to get the URL
 
 ```python
@@ -31,8 +30,7 @@ url = f"https://certificate.datatalks.club/{course}/{cohort}/{your_id}.pdf"
 print(url)
 ```
 
-Example: https://certificate.datatalks.club/ml-zoomcamp/2023/fe629854d45c559e9c10b3b8458ea392fdeb68a9.pdf
-
+Example: <https://certificate.datatalks.club/ml-zoomcamp/2023/fe629854d45c559e9c10b3b8458ea392fdeb68a9.pdf>
 
 ## Adding to LinkedIn
 
@@ -43,7 +41,7 @@ You can add your certificate to LinkedIn:
 * In "Name", enter "Machine Learning Zoomcamp".
 * In "Issuing Organization", enter "DataTalksClub".
 * (Optional) In "Issue Date", enter the time when the certificate was created.
-* (Optional) Select the checkbox This certification does not expire. 
+* (Optional) Select the checkbox This certification does not expire.
 * Put your certificate ID.
 * In "Certification URL", enter the URL for your certificate.
 

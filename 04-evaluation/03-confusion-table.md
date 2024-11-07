@@ -1,4 +1,4 @@
-## 4.3 Confusion table
+# 4.3 Confusion table
 
 <a href="https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-03.jpg"></a>
 
@@ -11,6 +11,8 @@ Confusion table is a way of measuring different types of errors and correct deci
 When comes to a prediction of an LR model, each falls into one of four different categories:
 
 * Prediction is that the customer WILL churn. This is known as the **Positive class**
+  * And Customer actually churned - Known as a **True Positive (TP)**
+  * But Customer actually did not churn - Known as a **False Positive (FP)**
   * And Customer actually churned - Known as a **True Positive (TP)**
   * But Customer actually did not churn - Known as a **False Positive (FP)**
 * Prediction is that the customer WILL NOT churn' - This is known as the **Negative class**
@@ -44,7 +46,7 @@ When comes to a prediction of an LR model, each falls into one of four different
   </tr>
 </table>
 
-![confusion_matrix.png](images%2Fconfusion_matrix.png)
+![confusion_matrix.png](./images/confusion_matrix.png)
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations.
 
@@ -52,15 +54,8 @@ The code of this project is available in [this jupyter notebook](https://github.
 
 Add notes from the video (PRs are welcome)
 
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
+|⚠️|The notes are written by the community.<br>If you see an error here, please create a PR with a fix.|
+|---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/04/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-3/)
 

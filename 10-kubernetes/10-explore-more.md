@@ -1,5 +1,5 @@
 
-## 10.10 Explore more
+# 10.10 Explore more
 
 - Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
 - [Rancher desktop](https://rancherdesktop.io/)

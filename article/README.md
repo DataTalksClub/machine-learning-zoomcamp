@@ -2,8 +2,7 @@
 
 The best way to learn about something - to teach it.
 
-In this part of the course, we'll explore some topics that weren't 
-covered in the course.
+In this part of the course, we'll explore some topics that weren't covered in the course.
 
 You'll need to learn about this topic and then write about what
 you learned in an article. (Of course if you already know something
@@ -13,8 +12,7 @@ and more than welcome.)
 
 ## Topics
 
-You can write about pretty much anything that wasn't covered 
-in the course, but related to machine learning and/or engineering.
+You can write about pretty much anything that wasn't covered in the course, but related to machine learning and/or engineering.
 
 Here are some ideas:
 
