@@ -12,17 +12,27 @@ No hashing needed - [new course management system](https://courses.datatalks.clu
 
 ## Midterm Project
 
-- Project due date: 19 November 2024 (Wednesday), 00:00 CET (Berlin time)
+- Project due date: 26 November 2024 (Wednesday), 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
-<!-- - Evaluation due date: ?? November 2023 (Wednesday), 0:00 CET (Berlin time)
-- Evaluation assignments: link ("midterm" tab)
+- Evaluation due date: 03 Decenmber 2024 (Wednesday), 0:00 CET (Berlin time)
+<!-- - Evaluation assignments: link ("midterm" tab)
 - Submit your evaluation here: link ("midterm" tab)
 - Feedback: link ("midterm" tab) -->
 
 ## Capstone 1
 
-Link: TBA
+- Project due date: 7 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
+- Evaluation due date: 14 January 2025 (Wednesday), 0:00 CET (Berlin time)
+<!-- - Evaluation assignments: link ("capstone_1" tab)
+- Submit your evaluation here: link ("capstone_1" tab)
+- Feedback: link ("capstone_1" tab) -->
 
 ## Capstone 2
 
-Link: TBA
+- Project due date: 28 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
+- Evaluation due date: 04 February 2025 (Wednesday), 0:00 CET (Berlin time)
+<!-- - Evaluation assignments: link ("capstone_2" tab)
+- Submit your evaluation here: link ("capstone_2" tab)
+- Feedback: link ("capstone_2" tab) -->
