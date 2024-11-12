@@ -48,6 +48,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/19/ml-zoomcamp-2023-deep-learning-part-3/)
+* [Notes from Stefano Trinchero](https://github.com/trnq-eu/ml-zoomcamp-2024/blob/main/lesson%2008/notes.md)
 
 ## Navigation
 
