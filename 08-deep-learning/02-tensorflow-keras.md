@@ -36,6 +36,8 @@ Add notes from the video (PRs are welcome)
 * encoding images as numpy arrays
 * image size (i.e. 150 x 150 pixels) multiplied by number of colors (i.e. RGB) equals shape of array
 * numpy array dtype as unsigned int8 (uint8) which includes the range from 0 to 255
+* In the video the ```load_img``` function from Keras is imported using ```from tensorflow.keras.processing.image import load_img```. If the import is not working, try using 
+```from tensorflow.keras.utils import load_img```. Tensorflow documentation: (https://www.tensorflow.org/api_docs/python/tf/keras/utils/load_img)
 
 <table>
    <tr>
@@ -48,7 +50,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/19/ml-zoomcamp-2023-deep-learning-part-3/)
-* [Notes from Stefano Trinchero](https://github.com/trnq-eu/ml-zoomcamp-2024/blob/main/lesson%2008/notes.md)
+
 
 ## Navigation
 
