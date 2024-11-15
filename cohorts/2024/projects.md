@@ -14,7 +14,7 @@ No hashing needed - [new course management system](https://courses.datatalks.clu
 
 - Project due date: 26 November 2024 (Wednesday), 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
-- Evaluation due date: 03 Decenmber 2024 (Wednesday), 0:00 CET (Berlin time)
+- Evaluation due date: 03 December 2024 (Wednesday), 0:00 CET (Berlin time)
 <!-- - Evaluation assignments: link ("midterm" tab)
 - Submit your evaluation here: link ("midterm" tab)
 - Feedback: link ("midterm" tab) -->
