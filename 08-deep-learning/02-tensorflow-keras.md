@@ -4,6 +4,21 @@
  
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
+In the video the ```load_img``` function from Keras is imported using
+
+```python
+from tensorflow.keras.processing.image import load_img
+```
+
+If the import is not working, try using 
+
+```python
+from tensorflow.keras.utils import load_img
+```
+
+[Tensorflow documentation](https://www.tensorflow.org/api_docs/python/tf/keras/utils/load_img)
+
+Notes:
 
 - TensorFlow is a library to train deep learning models and Keras is higher level abstraction on the top of TensorFlow. Keras used to be separate library but from tensorflow 2+ version, keras became part of the tensorflow library. The libraries can be installed using `pip install tensorflow` (for CPU and GPU). However, additional setup is required to integrate TensorFlow with GPU. 
 - Neural networks expect an image of a certain size, therefore, we need to provide the image size in `target_size` parameter of the `load_img` function.
@@ -36,8 +51,7 @@ Add notes from the video (PRs are welcome)
 * encoding images as numpy arrays
 * image size (i.e. 150 x 150 pixels) multiplied by number of colors (i.e. RGB) equals shape of array
 * numpy array dtype as unsigned int8 (uint8) which includes the range from 0 to 255
-* In the video the ```load_img``` function from Keras is imported using ```from tensorflow.keras.processing.image import load_img```. If the import is not working, try using 
-```from tensorflow.keras.utils import load_img```. Tensorflow documentation: (https://www.tensorflow.org/api_docs/python/tf/keras/utils/load_img)
+
 
 <table>
    <tr>
