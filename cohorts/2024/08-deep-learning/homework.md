@@ -1,4 +1,4 @@
-## Homework [DRAFT]
+## Homework
 
 > **Note**: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
@@ -6,13 +6,16 @@
 
 ### Dataset
 
-In this homework, we'll build a model for predicting if we have an image of a bee or a wasp. 
-For this, we will use the "Bee or Wasp?" dataset that was obtained from [Kaggle](https://www.kaggle.com/datasets/jerzydziewierz/bee-vs-wasp) and slightly rebuilt. 
+In this homework, we'll build a model for classifying various hair types. 
+For this, we will use the Hair Type dataset that was obtained from 
+[Kaggle](https://www.kaggle.com/datasets/kavyasreeb/hair-type-dataset) 
+and slightly rebuilt. 
 
-You can download the dataset for this homework from [here](https://github.com/SVizor42/ML_Zoomcamp/releases/download/bee-wasp-data/data.zip):
+You can download the target dataset for this homework from 
+[here](https://github.com/SVizor42/ML_Zoomcamp/releases/download/straight-curly-data/data.zip):
 
 ```bash
-wget https://github.com/SVizor42/ML_Zoomcamp/releases/download/bee-wasp-data/data.zip
+wget https://github.com/SVizor42/ML_Zoomcamp/releases/download/straight-curly-data/data.zip
 unzip data.zip
 ```
 
@@ -24,10 +27,25 @@ In the lectures we saw how to use a pre-trained neural network. In the homework,
 
 ### Data Preparation
 
-The dataset contains around 2500 images of bees and around 2100 images of wasps. 
+The dataset contains around 1000 images of hairs in the separate folders 
+for training and test sets. 
 
-The dataset contains separate folders for training and test sets. 
+### Reproducibility
 
+Reproducibility in deep learning is a multifaceted challenge that requires attention 
+to both software and hardware details. In some cases, we can't guarantee exactly 
+the same results during the same experiment runs. Therefore, in this homework we suggest to:
+* install tensorflow version 2.17.1
+* set the seed generators by:
+
+```python
+import numpy as np
+import tensorflow as tf
+
+SEED = 42
+np.random.seed(SEED)
+tf.random.set_seed(SEED)
+```
 
 ### Model
 
@@ -35,7 +53,7 @@ For this homework we will use Convolutional Neural Network (CNN). Like in the le
 
 You need to develop the model with following structure:
 
-* The shape for input should be `(150, 150, 3)`
+* The shape for input should be `(200, 200, 3)`
 * Next, create a convolutional layer ([`Conv2D`](https://keras.io/api/layers/convolution_layers/convolution2d/)):
     * Use 32 filters
     * Kernel size should be `(3, 3)` (that's the size of the filter)
@@ -68,12 +86,12 @@ Since we have a binary classification problem, what is the best loss function fo
 
 ### Question 2
 
-What's the number of parameters in the convolutional layer of our model? You can use the `summary` method for that. 
+What's the total number of parameters of the model? You can use the `summary` method for that. 
 
-* 1 
-* 65
-* 896
+* 896 
 * 11214912
+* 15896912
+* 20072512
 
 
 ### Generators and Training
@@ -103,19 +121,19 @@ model.fit(
 
 What is the median of training accuracy for all the epochs for this model?
 
-* 0.20
-* 0.40
-* 0.60
-* 0.80
+* 0.15
+* 0.34
+* 0.55
+* 0.74
 
 ### Question 4
 
 What is the standard deviation of training loss for all the epochs for this model?
 
-* 0.031
-* 0.061
-* 0.091
-* 0.131
+* 0.033
+* 0.073
+* 0.133
+* 0.173
 
 
 ### Data Augmentation
@@ -139,22 +157,22 @@ we already started training.
 
 What is the mean of test loss for all the epochs for the model trained with augmentations?
 
-* 0.18
-* 0.48
-* 0.78
-* 0.108
+* 0.27
+* 0.57
+* 0.87
+* 1.17
 
 ### Question 6
 
 What's the average of test accuracy for the last 5 epochs (from 6 to 10)
 for the model trained with augmentations?
 
-* 0.38
-* 0.58
-* 0.78
-* 0.98
+* 0.31
+* 0.51
+* 0.71
+* 0.91
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw08
 * If your answer doesn't match options exactly, select the closest one
