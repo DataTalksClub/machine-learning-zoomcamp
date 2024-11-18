@@ -90,6 +90,4 @@
 * More information: [article.md](article.md)
 
 
-**Competition**
-
-TBA
+[**Competition**](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)
