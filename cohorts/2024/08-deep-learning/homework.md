@@ -1,7 +1,8 @@
 ## Homework
 
-> **Note**: it's very likely that in this homework your answer won't match one of 
-> the options exactly. That's okay and expected. Select the option that's closest to your solution.
+> **Note**: it's very likely that in this homework your answers won't match 
+> the options exactly. That's okay and expected. Select the option that's
+> closest to your solution.
 
 ### Dataset
 
