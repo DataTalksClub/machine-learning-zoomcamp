@@ -121,19 +121,19 @@ model.fit(
 
 What is the median of training accuracy for all the epochs for this model?
 
-* 0.15
-* 0.34
-* 0.55
-* 0.74
+* 0.10
+* 0.32
+* 0.50
+* 0.72
 
 ### Question 4
 
 What is the standard deviation of training loss for all the epochs for this model?
 
-* 0.033
-* 0.073
-* 0.133
-* 0.173
+* 0.028
+* 0.068
+* 0.128
+* 0.168
 
 
 ### Data Augmentation
@@ -157,10 +157,10 @@ we already started training.
 
 What is the mean of test loss for all the epochs for the model trained with augmentations?
 
-* 0.27
-* 0.57
-* 0.87
-* 1.17
+* 0.26
+* 0.56
+* 0.86
+* 1.16
 
 ### Question 6
 
