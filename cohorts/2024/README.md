@@ -54,8 +54,7 @@
 * [Module materials](../../08-deep-learning)
 * [Homework](08-deep-learning/homework.md)
 * Saturn Cloud
-  * Sign up link: https://bit.ly/saturn-mlzoomcamp
-  * Write in the chat "I’m participating in ML Zoomcamp" to get 150 hours of compute
+  * Sign up link: https://zoomcamp.internal.saturnenterprise.io/
 
 
 [**9. Serverless Deep Learning**](09-serverless/)
