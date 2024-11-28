@@ -2,6 +2,10 @@
 
 <a href="https://www.youtube.com/watch?v=WZCjsyV8hZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-01b.jpg"></a>
 
+* Login link: https://zoomcamp.internal.saturnenterprise.io/
+* Image: saturn-python-tensorflow (2024.08.01)
+
+
 ## Links
 
 * [Request access](https://zoomcamp.internal.saturnenterprise.io/)
