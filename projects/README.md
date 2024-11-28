@@ -27,6 +27,7 @@ Check them out:
 * [ML Zoomcamp 2023 Office Hours (pre-midterm)](https://www.youtube.com/live/GuJkBzyGxyc)
 * [ML Zoomcamp 2022 - Office Hours (midterm project)](https://www.youtube.com/live/AcB-Iz8h5tc)
 * [2021 Office hours #7](https://www.youtube.com/live/wWBm6MHu5u8) and [2021 Office hours #8](https://www.youtube.com/live/3bo7I9LaN7o) (check #8 if you want to use text)
+* [Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 
 ## Deliverables
 
@@ -83,6 +84,7 @@ The project will be evaluated using these criteria:
 
 [Criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
 
+[Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 
 ## Cheating and plagiarism
 
@@ -146,6 +148,12 @@ Violating any of this will result in 0 points for this project.
 Explore a collection of projects completed by members of our community. The projects cover a wide range of topics and utilize different tools and techniques. Feel free to delve into any project and see how others have tackled real-world problems with data, structured their code, and presented their findings. It's a great resource to learn and get ideas for your own projects.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://datatalksclub-projects.streamlit.app/)
+
+### Zoomcamp 2024
+
+* [Midterm project](../cohorts/2024/projects.md#midterm-project)
+* [Capstone 1](../cohorts/2024/projects.md#capstone-1)
+* [Capstone 2](../cohorts/2024/projects.md#capstone-2)
 
 ### Zoomcamp 2023
 
