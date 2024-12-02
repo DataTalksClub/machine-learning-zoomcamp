@@ -7,9 +7,9 @@
 
 ### What is Convolutional Neural Network?
 
-A convolutional neural network, also know as CNN or ConvNet, is a feed-forward neural network that is generally used to analyze viusal images by processing data with grid-like topology. A CNN is used to detect and classify objects in an image. In CNN, every image is represented in the form of an array of pixel values.
+A convolutional neural network, also know as CNN or ConvNet, is a feed-forward neural network that is generally used to analyze visual images by processing data with grid-like topology. A CNN is used to detect and classify objects in an image. In CNNs, every image is represented in the form of an array of pixel values.
 
-The convoluion operation forms the basis of any CNN. In convolution operation, the arrays are multiplied element-wise, and the dot product is summed to create a new array, which represents `Wx`.
+The convoluion operation forms the basis of any CNN. In a convolution operation, the arrays are multiplied element-wise, and the dot product is summed to create a new array, which represents `Wx`.
 
 ### Layers in a Convolutional Neural Network
 
@@ -22,7 +22,7 @@ A Convolution neural network has multiple hidden layers that help in extracting 
 
 **Convolution layer**
 
-This is the first step in the process of extracting valuable freatues from an image. A convolution layer has several filters that perform the convolution operation. Every image is considered as a matrix of pixel values.
+This is the first step in the process of extracting valuable features from an image. A convolution layer has several filters that perform the convolution operation. Every image is considered as a matrix of pixel values.
 
 Consider a black and white image of 5x5 size whose pixel values are either 0 or 1 and also a filter matrix with a dimension of 3x3. Next, slide the filter matrix over the image and compute the dot product to get the convolved feature matrix.
 
