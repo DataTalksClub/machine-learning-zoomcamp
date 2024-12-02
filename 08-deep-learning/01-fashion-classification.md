@@ -11,9 +11,9 @@ If you have problems cloning the repository with the data, use a different comma
 git clone https://github.com/alexeygrigorev/clothing-dataset-small.git
 ```
 
-In this session, we'll be working with multiclass image classification with deep learning. The deep learning frameworks like TensorFlow and Keras will be implemented on clothing dataset to classify images of t-shirts.
+In this session, we'll be working on multiclass image classification with deep learning. Some deep learning frameworks like TensorFlow and Keras will be implemented on clothing dataset to classify images of clothes as t-shirts, hats, pants, etc.
 
-The dataset has 5000 images of 20 different classes, however, we'll be using the subset which contains 10 of the most popular classes. The dataset can be downloaded from the above link.
+The dataset has 5000 images of 20 different classes. However, we'll be using the subset which contains 10 of the most popular classes. The dataset can be downloaded from the above link.
 
 **Useful links**:
 
