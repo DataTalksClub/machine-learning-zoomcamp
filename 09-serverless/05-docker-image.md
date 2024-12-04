@@ -5,6 +5,9 @@
 
 ## Notes
 
+Refer to [updates.md](updates.md) for info on running TF lite
+in 2024. 
+
 ### Using `pip install` for TF-Lite binaries
 
 When using `pip` to install the compiled binary, make sure you use the raw file, not a link to the github page.

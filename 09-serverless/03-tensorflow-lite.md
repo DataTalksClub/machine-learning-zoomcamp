@@ -6,7 +6,7 @@
 
 ## Notes
 
-New URL for donwloading the model:
+New URL for downwloading the model:
 
 ```bash
 wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/download/chapter7-model/xception_v4_large_08_0.894.h5 -O clothing-model.h5

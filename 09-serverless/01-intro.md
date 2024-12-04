@@ -4,7 +4,8 @@
 <a href="https://www.youtube.com/watch?v=JLIVwIsU6RA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-01.jpg"></a>
  
 
-
+Refer to [updates.md](updates.md) for info on running TF lite
+in 2024. 
 
 
 ## Notes
