@@ -5,7 +5,7 @@
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
-Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Usually a pretrained model is trained with large volume of images and that is why the convolutional layers and vector representation of this model can be used for other tasks as well. However, the dense layers need to be retrained because they are specific to the dataset to make predictions. In our problem, we want to keep convoluational layers but we want to train new dense layers.
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Usually a pretrained model is trained with large volume of images and that is why the convolutional layers and vector representation of this model can be used for other tasks as well. However, the dense layers need to be retrained because they are specific to the dataset to make predictions with. In our problem, we want to keep convoluational layers but we want to train new dense layers.
 
 Following are the steps to create train/validation data for model:
 
@@ -89,7 +89,7 @@ history = model.fit(train_ds, epochs=10, validation_data=val_ds)
 - `CategoricalCrossentropy()`: method to produces a one-hot array containing the probable match for each category in multi classification
 - `model.fit()`: method to train model
 - `epochs`: number of iterations over all of the training data
-- `history.history`: history attribute is a dictionary recording loss and metrics values (accuracy in our case) for at each epoch
+- `history.history`: history attribute is a dictionary recording loss and metrics values (accuracy in our case) for each epoch
 
 ## Notes
 
