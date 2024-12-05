@@ -1,6 +1,6 @@
 ## Homework
 
-In this homework, we'll deploy the bees vs wasps model we trained in the 
+In this homework, we'll deploy the Straight vs Curly Hair Type model we trained in the 
 [previous homework](../08-deep-learning/homework.md).
 
 Download the model from here: 
