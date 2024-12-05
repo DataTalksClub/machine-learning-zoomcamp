@@ -7,7 +7,7 @@
 
 Dropout is a technique that prevents overfitting in neural networks by randomly dropping nodes of a layer during training. As a result, the trained model works as an ensemble model consisting of multiple neural networks.
 
-From perivous experiments we got the best value of learning rate `0.01` and layer size of `100`. We'll use these values for the next experiment along with different values of dropout rates:
+From previous experiments we got the best values of learning rate `0.01` and layer size of `100`. We'll use these values for the next experiment along with different values of dropout rates:
 
 ```python
 # Function to define model by adding new dense layer and dropout
