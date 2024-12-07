@@ -53,6 +53,7 @@
 
 * [Module materials](../../08-deep-learning)
 * [Homework](08-deep-learning/homework.md)
+* [Homework solution](08-deep-learning/homework_8.ipynb)
 * Saturn Cloud
   * Sign up link: https://zoomcamp.internal.saturnenterprise.io/
 
