@@ -30,7 +30,7 @@ train_ds = train_gen.flow_from_directory(directory=train_imgs_dir,
 **How to choose augmentations?**
 
 - First step is to use our own judgement, for example, looking at the images (both on train and validation), does it make sense to introduce horizontal flip?
-- Look at the dataset, what kind of vairations are there? are objects always center?
+- Look at the dataset, what kind of variations are there? Are objects always centered?
 - Augmentations are hyperparameters: like many other hyperparameters, often times we need to test whether image augmentations are useful for the model or not. If the model doesn't improve or have same performance after certain epochs (let's say 20), in that case we don't use it.
 
 Usually augmented data required training for longer.
