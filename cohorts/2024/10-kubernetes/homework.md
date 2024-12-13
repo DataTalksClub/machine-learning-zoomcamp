@@ -1,11 +1,11 @@
-## Homework [DRAFT]
+## Homework
 
-In this homework, we'll deploy the credit scoring model from the homework 5.
+In this homework, we'll deploy the Bank Marketing model from the homework 5.
 We already have a docker image for this model - we'll use it for 
 deploying the model to Kubernetes.
 
 
-## Bulding the image
+## Building the image
 
 Clone the course repo if you haven't:
 
@@ -13,17 +13,17 @@ Clone the course repo if you haven't:
 git clone https://github.com/DataTalksClub/machine-learning-zoomcamp.git
 ```
 
-Go to the `course-zoomcamp/cohorts/2023/05-deployment/homework` folder and 
+Go to the `course-zoomcamp/cohorts/2024/05-deployment/homework` folder and 
 execute the following:
 
 
 ```bash
-docker build -t zoomcamp-model:hw10 .
+docker build -t zoomcamp-model:3.11.5-hw10 .
 ```
 
 > **Note:** If you have troubles building the image, you can 
 > use the image we built and published to docker hub:
-> `docker pull svizor/zoomcamp-model:hw10`
+> `docker pull svizor/zoomcamp-model:3.11.5-hw10`
 
 
 ## Question 1
@@ -31,7 +31,7 @@ docker build -t zoomcamp-model:hw10 .
 Run it to test that it's working locally:
 
 ```bash
-docker run -it --rm -p 9696:9696 zoomcamp-model:hw10
+docker run -it --rm -p 9696:9696 zoomcamp-model:3.11.5-hw10
 ```
 
 And in another terminal, execute `q6_test.py` file:
@@ -43,15 +43,15 @@ python q6_test.py
 You should see this:
 
 ```python
-{'get_credit': True, 'get_credit_probability': <value>}
+{'has_subscribed': True, 'has_subscribed_probability': <value>}
 ```
 
-Here `<value>` is the probability of getting a credit card. You need to choose the right one.
+Here `<value>` is the probability of getting a subscription. You need to choose the right one.
 
-* 0.3269
-* 0.5269
-* 0.7269
-* 0.9269
+* 0.287
+* 0.530
+* 0.757
+* 0.960
 
 Now you can stop the container running in Docker.
 
@@ -88,13 +88,30 @@ kubectl cluster-info
 
 ## Question 3
 
-Now let's test if everything works. Use `kubectl` to get the list of running services. 
+What's the smallest deployable computing unit that we can create and manage 
+in Kubernetes (`kind` in our case)?
 
-What's `CLUSTER-IP` of the service that is already running there? 
+* Node
+* Pod
+* Deployment
+* Service
+
 
 ## Question 4
 
-To be able to use the docker image we previously created (`zoomcamp-model:hw10`),
+Now let's test if everything works. Use `kubectl` to get the list of running services.
+
+What's the `Type` of the service that is already running there?
+
+* NodePort
+* ClusterIP
+* ExternalName
+* LoadBalancer
+
+
+## Question 5
+
+To be able to use the docker image we previously created (`zoomcamp-model:3.11.5-hw10`),
 we need to register it with `kind`.
 
 What's the command we need to run for that?
@@ -105,7 +122,7 @@ What's the command we need to run for that?
 * `kubectl apply`
 
 
-## Question 5
+## Question 6
 
 Now let's create a deployment config (e.g. `deployment.yaml`):
 
@@ -113,19 +130,19 @@ Now let's create a deployment config (e.g. `deployment.yaml`):
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: credit
+  name: subscription
 spec:
   selector:
     matchLabels:
-      app: credit
+      app: subscription
   replicas: 1
   template:
     metadata:
       labels:
-        app: credit
+        app: subscription
     spec:
       containers:
-      - name: credit
+      - name: subscription
         image: <Image>
         resources:
           requests:
@@ -146,7 +163,7 @@ Apply this deployment using the appropriate command and get a list of running Po
 You can see one running Pod.
 
 
-## Question 6
+## Question 7
 
 Let's create a service for this deployment (`service.yaml`):
 
@@ -191,7 +208,7 @@ with the aim of automatically scaling the workload to match demand.
 Use the following command to create the HPA:
 
 ```bash
-kubectl autoscale deployment credit --name credit-hpa --cpu-percent=20 --min=1 --max=3
+kubectl autoscale deployment subscription --name subscription-hpa --cpu-percent=20 --min=1 --max=3
 ```
 
 You can check the current status of the new HPA by running:
@@ -203,8 +220,8 @@ kubectl get hpa
 The output should be similar to the next:
 
 ```bash
-NAME              REFERENCE                TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
-credit-hpa   Deployment/credit   1%/20%    1         3         1          27s
+NAME               REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+subscription-hpa   Deployment/subscription   1%/20%    1         3         1          27s
 ```
 
 `TARGET` column shows the average CPU consumption across all the Pods controlled by the corresponding deployment.
@@ -220,7 +237,7 @@ Current CPU consumption is about 0% as there are no clients sending requests to 
 ## Increase the load
 
 Let's see how the autoscaler reacts to increasing the load. To do this, we can slightly modify the existing
-`q6_test.py` script by putting the operator that sends the request to the credit service into a loop.
+`q6_test.py` script by putting the operator that sends the request to the subscription service into a loop.
 
 ```python
 while True:
@@ -232,9 +249,9 @@ while True:
 Now you can run this script.
 
 
-## Question 7 (optional)
+## Question 8 (optional)
 
-Run `kubectl get hpa credit-hpa --watch` command to monitor how the autoscaler performs. 
+Run `kubectl get hpa subscription-hpa --watch` command to monitor how the autoscaler performs. 
 Within a minute or so, you should see the higher CPU load; and then - more replicas. 
 What was the maximum amount of the replicas during this test?
 
@@ -249,5 +266,5 @@ What was the maximum amount of the replicas during this test?
 
 ## Submit the results
 
-* Submit your results here: TBA
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw10
 * If your answer doesn't match options exactly, select the closest one
