@@ -31,6 +31,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Installation of tensorflow v2.14 in WSL2 and Ubuntu 22.04 with Nvidia GPU](https://github.com/ellacharmed/machine-learning-zoomcamp/blob/master/08-deep-learning/install.md)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/deep-learning/)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_8_notes.ipynb)
+* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/08_deep_learning/Summary_Session_08.md)
 * Add your notes here
 
 ## Links
