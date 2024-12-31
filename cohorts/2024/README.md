@@ -62,12 +62,14 @@
 
 * [Module materials](../../09-serverless)
 * [Homework](09-serverless/homework.md)
+* [Homework solution](09-serverless/homework)
 
 
 [**10. Kubernetes and TensorFlow Serving**](10-kubernetes/)
 
 * [Module materials](../../10-kubernetes)
 * [Homework](10-kubernetes/homework.md)
+* [Homework solution](10-kubernetes/homework)
 
 
 **11. KServe (optional)**

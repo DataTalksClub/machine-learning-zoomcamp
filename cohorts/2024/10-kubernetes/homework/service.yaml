@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: subscription
+spec:
+  type: LoadBalancer
+  selector:
+    app: subscription
+  ports:
+  - port: 80
+    targetPort: 9696
