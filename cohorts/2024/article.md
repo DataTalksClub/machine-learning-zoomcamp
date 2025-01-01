@@ -15,7 +15,7 @@ you learned in an article.
 
 * Submit your article to [`#course-ml-zoomcamp-articles`](https://app.slack.com/client/T01ATQK62F8/C02QXBFS1PU) - 
   just share the link to your article there
-* Submit the same link to [this form (TODO)](TODO) so we could link it to your message from the channel
+* Submit the same link to [this form](https://courses.datatalks.club/ml-zoomcamp-2024/homework/article) so we could link it to your message from the channel
 
 ## Evaluating
 
@@ -27,7 +27,7 @@ We'll use voting for scoring your articles.
 
 ## Deadline
 
-The deadline for finishing the article is TBA
+The deadline for finishing the article is 31 January
 
 
 ## Articles from 2024
