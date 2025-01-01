@@ -33,7 +33,7 @@ The deadline for finishing the article is 31 January
 ## Articles from 2024
 
 
-* Add your article above this line
+* [You will like my offer](https://markogolovko.com/blog/you-will-like-my-offer/) by Marko Golovko
 
 
 ### Past articles
