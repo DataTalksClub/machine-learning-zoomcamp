@@ -4,11 +4,11 @@
 <a href="https://www.youtube.com/watch?v=OIlrS14Zi0o&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-03.jpg"></a>
  
 
-In the previous section we created jupyter notebook to communicates with the model deployed with tensorflow. This notebook fetches an image, pre-process it, turns it into protobuf, sends it to tensorflow-serving, does post-processing, and finally gives a human-readable answer.
+In the previous section we created jupyter notebook to communicate with the model deployed with tensorflow. This notebook fetches an image, pre-processes it, turns it into protobuf, sends it to tensorflow-serving, does post-processing, and finally gives a human-readable answer.
 
-In this section we convert the notebook into python script to build flask application. To convert the notebook into script we can run the command `jupyter nbconvert --to script notebook.ipynb` and we rename the script to  `gateway.py`.
+In this section we convert the notebook into python script to build a flask application. To convert the notebook into script we can run the command `jupyter nbconvert --to script notebook.ipynb`. We also rename the script to  `gateway.py`.
 
-Then we create functions to prepare request, send request, and prepare response. For flask app we can reuse the code from session 5:
+Then we create functions to prepare a request, send it, and prepare the response. For the flask app, we can reuse the code from session 5:
 
 ```python
 # Create flask app
