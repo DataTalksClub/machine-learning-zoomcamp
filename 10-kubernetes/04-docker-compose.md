@@ -6,9 +6,9 @@
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
 
-Docker Compose is a tool that help us to define and share multi-container applications. With Compose, we can create a YAML file to define the services (in our case it is `gateway` service and `clothing-model` model) and with a single command, we can spin everything up or tear it all down. Docker compose is very useful the test the applications locally.
+Docker Compose is a tool that helps us to define and share multi-container applications. With Compose, we can create a YAML file to define the services (in our case it is `gateway` service and `clothing-model` model) and with a single command, we can spin everything up or tear it all down. Docker compose is very useful to test the application locally.
 
-Instead to mapping the volumn, port, and then running the docker in the terminal for our tf-serving model (clothing-model), we want to create dockker image and put everything in there. For this we want to create docker image by the name `image-model.dockerfile`:
+Instead of mapping the volumn, port, and then running the docker in the terminal for our tf-serving model (clothing-model), we want to create a docker image and put everything in there. For this we want to create docker image by the name `image-model.dockerfile`:
 
 ```dockerfile
 FROM tensorflow/serving:2.7.0
@@ -21,7 +21,7 @@ ENV MODEL_NAME="clothing-model"
 
 To build the image we also need to specify the dockerfile name along with the tag, for example, `docker build -t clothing-model:xception-v4-001 -f image-model.dockerfile .`
 
-Since we have created the dockerfile to the image we can simply run the image with `docker run -it --rm -p 8500:8500 clothing-model:xception-v4-001`
+Since we have created the dockerfile to the image, we can simply run the image with `docker run -it --rm -p 8500:8500 clothing-model:xception-v4-001`
 
 Similarly we can do the same thing for our gateway service. The file name is `image-gateway.dockerfile`:
 
@@ -50,7 +50,7 @@ ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "gateway:app"]
 Build image: `docker build -t clothing-model-gateway:001 -f image-gateway.dockerfile .`
 Run image: `docker run -it --rm -p 9696:9696 clothing-gateway:001`
 
-Upon running these two containers and test for prediction, we should expect connection error. This is because the gateway service is unable to communicate with tf-serving. In order to connect the two containers and work simultaneously we need docker compose. Docker compose require yaml file which will be executed when running the commands from docker compose, usually the file is names as `docker-compose.yaml`:
+Upon running these two containers and testing for prediction, we should expect connection error. This is because the gateway service is unable to communicate with tf-serving. In order to connect the two containers and work simultaneously we need docker compose. Docker compose require yaml file which will be executed when running the commands from docker compose, usually the file is named as `docker-compose.yaml`:
 
 ```yaml
 version: "3.9"
@@ -67,7 +67,7 @@ services:
 
 Now we also need to make slight changes in the `gateway.py` to make the environment variable configurable and assign it to the host. This can be done using `host = os.getenv('TF_SERVING_HOST', 'localhost:8500')`
 
-Running the command `docker-compose up` will establish this connection between both images and everything is configured properly we should have the request predictions.
+Running the command `docker-compose up` will establish this connection between both images, and as everything is configured properly we should have the request predictions.
 
 **Useful commands**
 
