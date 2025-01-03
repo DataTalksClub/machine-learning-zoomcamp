@@ -21,18 +21,18 @@ No hashing needed - [new course management system](https://courses.datatalks.clu
 
 ## Capstone 1
 
-- Project due date: 7 January 2025 (Wednesday), 00:00 CET (Berlin time)
-- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone_1)
-- Evaluation due date: 14 January 2025 (Wednesday), 0:00 CET (Berlin time)
+- Project due date: 14 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1)
+- Evaluation due date: 21 January 2025 (Wednesday), 0:00 CET (Berlin time)
 <!-- - Evaluation assignments: link ("capstone_1" tab)
 - Submit your evaluation here: link ("capstone_1" tab)
 - Feedback: link ("capstone_1" tab) -->
 
 ## Capstone 2
 
-- Project due date: 21 January 2025 (Wednesday), 00:00 CET (Berlin time)
-- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone_2)
-- Evaluation due date: 28 January 2025 (Wednesday), 0:00 CET (Berlin time)
+- Project due date: 28 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone2)
+- Evaluation due date: 04 February 2025 (Wednesday), 0:00 CET (Berlin time)
 <!-- - Evaluation assignments: link ("capstone_2" tab)
 - Submit your evaluation here: link ("capstone_2" tab)
 - Feedback: link ("capstone_2" tab) -->
