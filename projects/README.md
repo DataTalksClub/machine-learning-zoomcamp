@@ -24,10 +24,10 @@ We did a few office hours sessions where we explained how you go about the proje
 
 Check them out:
 
+* [ML Zoomcamp 2024 Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 * [ML Zoomcamp 2023 Office Hours (pre-midterm)](https://www.youtube.com/live/GuJkBzyGxyc)
 * [ML Zoomcamp 2022 - Office Hours (midterm project)](https://www.youtube.com/live/AcB-Iz8h5tc)
 * [2021 Office hours #7](https://www.youtube.com/live/wWBm6MHu5u8) and [2021 Office hours #8](https://www.youtube.com/live/3bo7I9LaN7o) (check #8 if you want to use text)
-* [Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 
 ## Deliverables
 
@@ -162,17 +162,19 @@ Violating any of this will result in 0 points for this project.
 
 ### Datasets
 
-
 * [A list with datasets from our Data Engineering course](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/datasets.md)
-* https://www.kaggle.com/datasets and https://www.kaggle.com/competitions
-* https://archive.ics.uci.edu/ml/index.php
-* https://data.europa.eu/en
-* https://www.openml.org/search?type=data
-* https://www.tensorflow.org/datasets/catalog/overview
-* [Soccer data](https://github.com/statsbomb/open-data)
-* https://newzealand.ai/public-data-sets
+* [kaggle Datasets](https://www.kaggle.com/datasets) and [kaggle Competitions](https://www.kaggle.com/competitions)
+* [Tensorflow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
+* [PyTorch - Image Datasets, Text Datasets, and Audio Datasets](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html) links in first paragraph
+* [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+* [OpenML Datasets](https://www.openml.org/search?type=data)
 * [OECD database](https://stats.oecd.org/index.aspx?lang=en)
-* [deeplake](https://datasets.activeloop.ai/docs/ml/datasets/)
+* [European data](https://data.europa.eu/en)
+* [Urban Data Platform Hamburg](https://www.en.urbandataplatform.hamburg/find-data)
+* [New Zealand Data Sets](https://newzealand.ai/public-data-sets)
+* [Open Images Dataset V7 and Extensions](https://storage.googleapis.com/openimages/web/index.html)
+* [deeplake - Machine Learning Datasets](https://datasets.activeloop.ai/docs/ml/datasets/)
+* [Soccer data](https://github.com/statsbomb/open-data)
 * Add more data here!
 
 ### Projects Gallery
