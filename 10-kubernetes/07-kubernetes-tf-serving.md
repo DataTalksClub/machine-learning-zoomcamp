@@ -2,7 +2,7 @@
 
 <a href="https://www.youtube.com/watch?v=6vHLMdnjO2w&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-07.jpg"></a>
 
-In this section we'll deploy tf-serving model to kubernetes. In order to do that we'll create a separate folder `kube-config` and implement the following steps:
+In this section we'll deploy the tf-serving model to kubernetes. In order to do that we'll create a separate folder `kube-config` and implement the following steps:
 
 - Create deployment for the tf-serving model `model-deployment.yaml`:
   - ```yaml
@@ -48,7 +48,7 @@ In this section we'll deploy tf-serving model to kubernetes. In order to do that
       - port: 8500
         targetPort: 8500
     ```
-  - Create model service: `kubectl apply -f mdoel-service.yaml`
+  - Create model service: `kubectl apply -f model-service.yaml`
   - Check the model service: `kubectl get service`.
   - Test the model service: `kubectl port-forward service/tf-serving-clothing-model 8500:8500` and run `gateway.py` for predictions.
 - Create deployment for the gateway `gateway-deployment.yaml`:
@@ -75,13 +75,13 @@ In this section we'll deploy tf-serving model to kubernetes. In order to do that
                 cpu: "100m"
             ports:
             - containerPort: 9696
-            env: # set the enivornment variable for model
+            env: # set the environment variable for model
               - name: TF_SERVING_HOST
-                value: tf-serving-clothing-model.default.svc.cluster.local:8500 # kubernates naming convention
+                value: tf-serving-clothing-model.default.svc.cluster.local:8500 # kubernetes naming convention
     ```
   - Load the gateway image to kind: `kind load docker-image clothing-model-gateway:002`
   - Create gateway deployment `kubectl apply -f gateway-deployment.yaml` and get the running pod id `kubectl get pod`
-  - Test the gateway pod: `kubectl port-forward gateway-6b945f541-9gptfd 9696:9696` and execute `test.py` for get predictions.
+  - Test the gateway pod: `kubectl port-forward gateway-6b945f541-9gptfd 9696:9696` and execute `test.py` for getting predictions.
 - Create service of tf-serving model `gateway-service.yaml`:
   - ```yaml
     apiVersion: v1
