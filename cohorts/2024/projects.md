@@ -12,33 +12,21 @@ Evaluation via [course management system](https://courses.datatalks.club/ml-zoom
 
 ## Midterm Project
 
-- Project due date: 26 November 2024 (Wednesday), 00:00 CET (Berlin time)
+- Project due date: 26 November 2024, 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
-- Evaluation due date: 03 December 2024 (Wednesday), 0:00 CET (Berlin time)
+- Evaluation due date: 03 December 2024, 00:00 CET (Berlin time)
 - [Projects of Midterm Project](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm/list)
 
-<!-- - Evaluation assignments: link ("midterm" tab)
-- Submit your evaluation here: link ("midterm" tab)
-- Feedback: link ("midterm" tab) -->
 
 ## Capstone 1
 
-- Project due date: 14 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Project due date: 14 January 2025, 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1)
-- Evaluation due date: 21 January 2025 (Wednesday), 0:00 CET (Berlin time)
-<!-- - [Projects of Capstone 1 Project](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1/list) -->
-
-<!-- - Evaluation assignments: link ("capstone_1" tab)
-- Submit your evaluation here: link ("capstone_1" tab)
-- Feedback: link ("capstone_1" tab) -->
+- Evaluation due date: 21 January 2025, 00:00 CET (Berlin time)
 
 ## Capstone 2
 
-- Project due date: 28 January 2025 (Wednesday), 00:00 CET (Berlin time)
+- Project due date: 28 January 2025, 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone2)
-- Evaluation due date: 04 February 2025 (Wednesday), 0:00 CET (Berlin time)
-<!-- - [Projects of Capstone 2 Project](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone2/list) -->
+- Evaluation due date: 04 February 2025, 00:00 CET (Berlin time)
 
-<!-- - Evaluation assignments: link ("capstone_2" tab)
-- Submit your evaluation here: link ("capstone_2" tab)
-- Feedback: link ("capstone_2" tab) -->
