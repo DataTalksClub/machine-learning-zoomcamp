@@ -19,4 +19,5 @@ Did you take notes? You can share them here (or in each unit separately)
 
 * [Alvaro Navas' Notes](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/10_kubernetes.md)
 * [Notes from Oscar Garcia](https://github.com/ozkary/machine-learning-engineering/tree/main/10-kubernetes)
+* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/10_kubernetes/Summary_Session_10.md)
 * Add your notes here
