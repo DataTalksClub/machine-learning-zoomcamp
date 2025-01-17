@@ -13,7 +13,7 @@
 - `filepath`: path to save the model file
 - `monitor`: the metric name to monitor
 - `save_best_only`: only save when the model is considered the best according to the metric provided in `monitor`
-- `model`: overwrite the save file based on either maximum or the minimum scores according the metric provided in `monitor`
+- `mode`: overwrite the save file based on either maximum or the minimum scores according the metric provided in `monitor`
 
 ## Notes
 
