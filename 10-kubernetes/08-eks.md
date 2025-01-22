@@ -2,7 +2,7 @@
 
 <a href="https://www.youtube.com/watch?v=89jxeddZtC0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-08.jpg"></a>
 
-In the section we'll create Elastic Kubernetes Service (EKS) cluster on Amazon using cli, publishing the image to ECR and configure kubectl.
+In this section, we'll create Elastic Kubernetes Service (EKS) cluster on Amazon using cli, publish images to ECR and configure kubectl.
 
 To create cluster and manage on EKS we'll use a cli tool `eksctl` which can be downloaded from [here](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html). And next we'll follow these steps:
 
@@ -23,7 +23,7 @@ To create cluster and manage on EKS we'll use a cli tool `eksctl` which can be d
   - Create eks cluster: `eksctl create cluster -f eks-config.yaml`
 - Publish local docker images to ECR:
   - Create aws ecr repository for eks cluster: `aws ecr create-repository --repository-name mlzoomcamp-images`
-  - Bash commands to run in the teminal to push docker images to ecr repository:
+  - Bash commands to run in the terminal to push docker images to ecr repository:
     - ```bash
       # Registry URI
       ACCOUNT_ID=22782589
@@ -57,6 +57,7 @@ To create cluster and manage on EKS we'll use a cli tool `eksctl` which can be d
 
 - To delete the remote cluster: `eksctl delete cluster --name mlzoomcamp-eks`
 
+**NB:** EKS is not part of the Amazon Web Services Free Tier.
 
 ## Notes
 
