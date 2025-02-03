@@ -23,10 +23,11 @@ Evaluation via [course management system](https://courses.datatalks.club/ml-zoom
 - Project due date: 14 January 2025, 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1)
 - Evaluation due date: 21 January 2025, 00:00 CET (Berlin time)
+- [Projects of Capstone 1](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1/list)
 
 ## Capstone 2
 
 - Project due date: 28 January 2025, 00:00 CET (Berlin time)
 - Submit your project [here](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone2)
 - Evaluation due date: 04 February 2025, 00:00 CET (Berlin time)
-
+- [Projects of Capstone 2](https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone2/list)
