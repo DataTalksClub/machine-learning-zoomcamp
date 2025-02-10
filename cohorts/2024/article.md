@@ -34,6 +34,7 @@ The deadline for finishing the article is 31 January
 
 
 * [You will like my offer](https://markogolovko.com/blog/you-will-like-my-offer/) by Marko Golovko
+* [Natural Language Processing using spaCy, TensorFlow and BERT model architecture](https://volcano-camp-325.notion.site/Natural-Language-Processing-using-spaCy-TensorFlow-and-BERT-model-architecture-1895067176b380d09484d4b0338b0c5e?pvs=4) by Alexander Daniel Rios
 
 
 ### Past articles
