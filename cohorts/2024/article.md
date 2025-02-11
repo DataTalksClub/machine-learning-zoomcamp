@@ -34,6 +34,7 @@ The deadline for finishing the article is 31 January
 
 
 * [You will like my offer](https://markogolovko.com/blog/you-will-like-my-offer/) by Marko Golovko
+* [Setting up the environments for ML Zoomcamp 2024 - macOS](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e) by Till Meineke
 
 
 ### Past articles
