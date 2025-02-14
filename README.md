@@ -25,7 +25,8 @@ Master the fundamentals of machine learning, from regression and classification 
 ## How to Enroll
 
 ### 2025 Cohort
-- **Start Date**: probably September 2025
+
+- **Start Date**: September 2025
 - **Register Here**: [Sign up](https://airtable.com/shryxwLd0COOEaqXo)
 - **Stay Updated**: Subscribe to our [Google Calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
