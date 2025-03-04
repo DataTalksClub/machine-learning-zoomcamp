@@ -18,7 +18,7 @@ Master the fundamentals of machine learning, from regression and classification 
 <a href="https://datatalks.club/slack.html">Join #course-ml-zoomcamp Channel on Slack</a> •
 <a href="https://t.me/mlzoomcamp">Telegram Announcements</a> •
 <a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR">Course Playlist</a> •
-<a href="[https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8">FAQ</a> •
+<a href="https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8">FAQ</a> •
 <a href="https://ctt.ac/XZ6b9">Tweet about the Course</a>
 </p>
 
