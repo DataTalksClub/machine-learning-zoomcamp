@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="60%" src="images/zoomcamp.jpg" alt="Machine Learning Zoomcamp">
+  <img width="100%" src="images/ml-zoomcamp.png" alt="Machine Learning Zoomcamp">
 </p>
 
 <h1 align="center">
@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-Master the fundamentals of machine learning, from regression and classification to deployment and deep learning.
+Learn machine learning engineering from regression and classification to deployment and deep learning.
 </p>
 
 <p align="center">
@@ -22,108 +22,230 @@ Master the fundamentals of machine learning, from regression and classification 
 <a href="https://ctt.ac/XZ6b9">Tweet about the Course</a>
 </p>
 
-## How to Enroll
 
-### 2025 Cohort
+## Table of Contents
+- [How to Join](#how-to-join)
+- [What This Course Is About](#what-this-course-is-about)
+- [Prerequisites](#prerequisites)
+- [Syllabus](#syllabus)
+- [Community & Getting Help](#community--getting-help)
+- [Certificates](#certificates)
+- [Sponsors](#sponsors)
+- [About DataTalks.Club](#about-datatalksclub)
 
-- **Start Date**: September 15, 2025
-- **Register Here**: [Sign up](https://airtable.com/shryxwLd0COOEaqXo)
-- **Stay Updated**: Subscribe to our [Google Calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+## How to Join
 
-### Self-Paced Learning
-All course materials are freely available for independent study. Follow these steps:
-1. Watch the course videos and work through the code.
-2. Join the [Slack community](https://DataTalks.Club/slack.html) (`#course-ml-zoomcamp`).
-3. Ask questions in Slack or refer to the FAQ.
-4. Complete the homework assignments (solutions provided but attempt first).
-5. Work on at least one project for deeper learning.
+### 2025 Cohort (Live Format)
 
-## Syllabus Overview
-The course consists of structured modules covering the full ML pipeline, from fundamentals to advanced techniques.
+- **Starts**: September 15, 2025
+- **Duration**: 4 months
+- **Time commitment**: ~10 hours per week for coursework and projects
+- **What's included**: 
+  - Regular live office hours with instructors
+  - Structured learning path with deadlines
+  - Peer interaction and community support
+  - Opportunity to earn a certificate
+  - Access to all recorded sessions and office hours
+- **Register**: [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
+- **Calendar**: [Subscribe to updates](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
-### Prerequisites
-- Prior programming experience (at least 1+ year)
-- Comfort with command line basics
-- No prior ML knowledge required
+### Self-Paced Learning (Available Anytime)
 
-### Modules
+All materials are freely available on GitHub. You can:
+- Watch videos on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+- Follow along with the syllabus below
+- Join our [Slack community](https://DataTalks.Club/slack.html) for help and discussion
+- Complete homework at your own pace (solutions included)
+- Work on projects to practice what you learn
 
-#### [Module 1: Introduction to Machine Learning](01-intro/)
-- ML vs Rule-Based Systems
-- Supervised Learning
-- CRISP-DM Framework
-- Model Selection Process
-- Environment Setup
-- Homework
+**Note**: Self-paced learning gives you access to all course materials and recordings, but you need to join a live cohort to earn a certificate.
 
-#### [Module 2: Machine Learning for Regression](02-regression/)
-- Car Price Prediction Project
-- Exploratory Data Analysis
-- Linear Regression Basics
-- Feature Engineering & Regularization
-- Homework
+## What This Course Is About
 
-#### [Module 3: Machine Learning for Classification](03-classification/)
-- Churn Prediction Project
-- Feature Selection & Encoding
-- Logistic Regression
-- Model Interpretation
-- Homework
+This is a practical course where you'll learn to build and deploy machine learning systems. We focus on the engineering side from training models to getting them to work in production.
 
-#### [Module 4: Evaluation Metrics](04-evaluation/)
-- Accuracy, Precision, Recall
-- ROC Curves & AUC
-- Cross-Validation
-- Homework
+**You'll learn:**
+- Core ML algorithms and when to use them
+- How to prepare data and engineer features
+- Model evaluation and selection
+- Deploying models with Flask, Docker, and cloud platforms
+- Using Kubernetes for ML model serving
+- MLOps practices
 
-#### [Module 5: Deploying ML Models](05-deployment/)
-- Saving & Loading Models
-- Flask API Deployment
-- Docker & Virtual Environments
-- Cloud Deployment (AWS)
-- Homework
+**What makes this course different:**
+- **Hands-on approach**: Build real projects, not just follow tutorials
+- **Practical focus**: Heavily focused on implementation over mathematical theory
+- **End-to-end focus**: From data to deployment
+- **Community-driven**: Learn alongside others, get help when stuck
+- **Open source**: All materials on GitHub, contribute improvements
+- **Free**: No paywalls, no premium tiers
 
-#### [Module 6: Decision Trees & Ensemble Learning](06-trees/)
-- Decision Trees
-- Random Forest & Gradient Boosting
-- Model Selection & Hyperparameter Tuning
-- Homework
+**Technical setup**: For machine learning modules, you only need a laptop with internet connection. For deep learning sections, we'll use cloud resources (like Saturn Cloud) for more intensive computations.
 
-#### [Module 7: Neural Networks & Deep Learning](08-deep-learning/)
+## Prerequisites
+
+**You'll need:**
+- Some programming experience (1+ years, preferably Python)
+- Basic Python knowledge: variables, libraries, and Jupyter notebooks
+- Basic command line comfort
+- High school math
+
+**Helpful but not required:**
+- Statistics background
+- Git/GitHub familiarity
+
+No machine learning experience needed, we'll start from the basics.
+
+## Syllabus
+
+### [Module 1: Introduction to Machine Learning](01-intro/)
+
+Learn the fundamentals: what ML is, when to use it, and how to approach ML problems using the CRISP-DM framework.
+
+**Topics:**
+- ML vs rule-based systems
+- Supervised learning basics
+- CRISP-DM methodology
+- Model selection concepts
+- Environment setup
+
+### [Module 2: Machine Learning for Regression](02-regression/)
+
+Build a car price prediction model while learning linear regression, feature engineering, and regularization.
+
+**Topics:**
+- Linear regression (from scratch and with scikit-learn)
+- Exploratory data analysis
+- Feature engineering
+- Regularization techniques
+- Model validation
+
+### [Module 3: Machine Learning for Classification](03-classification/)
+
+Create a customer churn prediction system using logistic regression and learn about feature selection.
+
+**Topics:**
+- Logistic regression
+- Feature importance and selection
+- Categorical variable encoding
+- Model interpretation
+
+### [Module 4: Evaluation Metrics for Classification](04-evaluation/)
+
+Learn how to properly evaluate classification models and handle imbalanced datasets.
+
+**Topics:**
+- Accuracy, precision, recall, F1-score
+- ROC curves and AUC
+- Cross-validation
+- Confusion matrices
+- Class imbalance handling
+
+### [Module 5: Deploying Machine Learning Models](05-deployment/)
+
+Turn your models into web services and deploy them with Docker and cloud platforms.
+
+**Topics:**
+- Model serialization with Pickle
+- Flask web services
+- Docker containerization
+- Cloud deployment (AWS)
+
+### [Module 6: Decision Trees & Ensemble Learning](06-trees/)
+
+Learn tree-based models and ensemble methods for better predictions.
+
+**Topics:**
+- Decision trees
+- Random Forest
+- Gradient boosting (XGBoost)
+- Hyperparameter tuning
+- Feature importance
+
+### Midterm Project
+
+Apply everything you've learned in a complete project: find a dataset, train models, and deploy a web service.
+
+### [Module 7: Neural Networks & Deep Learning](08-deep-learning/)
+
+Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning.
+
+**Topics:**
+- Neural network fundamentals
 - TensorFlow & Keras
 - Convolutional Neural Networks
-- Transfer Learning
-- Model Optimization & Regularization
-- Homework
+- Transfer learning
+- Model optimization
 
-#### [Module 8: Serverless Deep Learning](09-serverless/)
-- Introduction to Serverless
-- AWS Lambda & TensorFlow Lite
+### [Module 8: Serverless Deep Learning](09-serverless/)
+
+Deploy deep learning models using serverless technologies like AWS Lambda.
+
+**Topics:**
+- Serverless concepts
+- AWS Lambda for ML
+- TensorFlow Lite
 - API Gateway
-- Homework
 
-#### [Module 9: Kubernetes & TensorFlow Serving](10-kubernetes/)
-- TensorFlow Model Serving
-- Kubernetes Basics
-- Deploying ML Models to Kubernetes
-- Homework
+### [Module 9: Kubernetes & TensorFlow Serving](10-kubernetes/)
 
-#### [Capstone Projects](projects/)
-- Midterm & Final Projects integrating all learned concepts
+Learn to serve ML models at scale using Kubernetes and TensorFlow Serving.
 
-## Community & Support
+**Topics:**
+- Kubernetes basics
+- TensorFlow Serving
+- Model deployment and scaling
+- Load balancing
 
-### **Getting Help on Slack**
-Join the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel on [DataTalks.Club Slack](https://DataTalks.Club/slack.html) for discussions, troubleshooting, and networking.
+### [Module 10: KServe (Optional)](11-kserve/)
 
-To keep discussions organized:
-- Follow [our guidelines](asking-questions.md) when posting questions.
-- Review the [community guidelines](https://datatalks.club/slack/guidelines.html).
+Advanced model serving with KServe for production ML systems.
 
-> We encourage [Learning in Public](learning-in-public.md)
 
-## Sponsors & Supporters
-A special thanks to our course sponsors for making this initiative possible!
+### [Capstone Project](projects/)
+
+Choose a problem that interests you, find a suitable dataset, and develop your model. Deploy your model into a web service (local deployment or cloud deployment for bonus points).
+
+## Community & Getting Help
+
+### Where to Get Help
+- **Slack**: [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel
+- **FAQ**: [Common questions and answers](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8)
+- **Office Hours**: Regular Q&A sessions
+- **Study Groups**: Connect with other learners
+
+### Community Guidelines
+- Check the [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8) first
+- Follow our [question guidelines](asking-questions.md)
+- Be helpful and respectful
+- Share your learning journey
+
+### Learning in Public
+We encourage sharing your progress! Write blog posts, create videos, post on social media with #mlzoomcamp. It helps you learn better and builds your professional network.
+
+**Bonus**: You can earn extra points for sharing your learning experience publicly.
+
+Learn more: [Learning in Public](learning-in-public.md)
+
+## Certificates
+
+To receive a certificate, you'll need to:
+
+1. **Join a live cohort** (self-paced learners cannot earn certificates)
+2. **Complete 2 out of 3 projects**:
+   - **Midterm Project**: Choose a problem that interests you, find a suitable dataset, and develop your model
+   - **Capstone Project**: Complete either Capstone Project 1 or Capstone Project 2 (includes deploying a model as a web service)
+3. **Review 3 peers' projects** by the deadline
+
+**Important**: Projects must be completed individually, and you can join after the course has started if you miss some homework deadlines.
+
+<p align="center">
+  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
+</p>
+
+## Sponsors
+
+Thanks to our sponsors who make this course possible:
 
 <p align="center">
   <a href="https://saturncloud.io/">
@@ -131,7 +253,7 @@ A special thanks to our course sponsors for making this initiative possible!
   </a>
 </p>
 
-Interested in supporting our community? Reach out to [alexey@datatalks.club](mailto:alexey@datatalks.club).
+Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
 ## About DataTalks.Club
 
@@ -156,6 +278,3 @@ Interested in supporting our community? Reach out to [alexey@datatalks.club](mai
 </p>
 
 All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
-
-At DataTalksClub, we organize online events, community activities, and free courses. You can learn more about what we do at [DataTalksClub Community Navigation](https://www.notion.so/DataTalksClub-Community-Navigation-bf070ad27ba44bf6bbc9222082f0e5a8?pvs=21).
-
