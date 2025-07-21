@@ -24,6 +24,7 @@ Learn machine learning engineering from regression and classification to deploym
 
 ## Table of Contents
 - [How to Join](#how-to-join)
+- [Quick Start Checklist](#quick-start-checklist-with-links)
 - [What This Course Is About](#what-this-course-is-about)
 - [Prerequisites](#prerequisites)
 - [Syllabus](#syllabus)
@@ -49,13 +50,19 @@ Learn machine learning engineering from regression and classification to deploym
 ### Self-Paced Learning (Available Anytime)
 
 All materials are freely available on GitHub. You can:
-- Watch videos on [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 - Follow along with the syllabus below
-- Join our [Slack community](https://DataTalks.Club/slack.html) for help and discussion
 - Complete homework at your own pace (solutions included)
 - Work on projects to practice what you learn
 
 **Note**: Self-paced learning gives you access to all course materials and recordings, but you need to join a live cohort to earn a certificate.
+
+## Quick Start Checklist with Links
+
+- Check [this repository content](https://github.com/DataTalksClub/machine-learning-zoomcamp) and star it (all materials live here).
+- Subscribe to [DataTalks.Club on YouTube](https://www.youtube.com/@DataTalksClub) and review the [course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR).
+- Read the [frequently asked questions](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8) to save time later.  
+- Join the [Slack course channel](https://DataTalks.Club/slack.html) for discussions.  
+- Join the [Telegram channel](https://t.me/mlzoomcamp) for announcements.  
 
 ## About ML Zoomcamp
 
