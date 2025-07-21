@@ -1,7 +1,6 @@
 <p align="center">
   <img width="100%" src="images/ml-zoomcamp.png" alt="Machine Learning Zoomcamp">
 </p>
-
 <h1 align="center">
     <strong>Machine Learning Zoomcamp: A Free 4-Month Course on ML Engineering</strong>
 </h1>
@@ -41,11 +40,9 @@ Learn machine learning engineering from regression and classification to deploym
 - **Duration**: 4 months
 - **Time commitment**: ~10 hours per week for coursework and projects
 - **What's included**: 
-  - Regular live office hours with instructors
   - Structured learning path with deadlines
   - Peer interaction and community support
   - Opportunity to earn a certificate
-  - Access to all recorded sessions and office hours
 - **Register**: [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
 - **Calendar**: [Subscribe to updates](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
@@ -60,7 +57,7 @@ All materials are freely available on GitHub. You can:
 
 **Note**: Self-paced learning gives you access to all course materials and recordings, but you need to join a live cohort to earn a certificate.
 
-## What This Course Is About
+## About ML Zoomcamp
 
 This is a practical course where you'll learn to build and deploy machine learning systems. We focus on the engineering side from training models to getting them to work in production.
 
@@ -72,29 +69,15 @@ This is a practical course where you'll learn to build and deploy machine learni
 - Using Kubernetes for ML model serving
 - MLOps practices
 
-**What makes this course different:**
-- **Hands-on approach**: Build real projects, not just follow tutorials
-- **Practical focus**: Heavily focused on implementation over mathematical theory
-- **End-to-end focus**: From data to deployment
-- **Community-driven**: Learn alongside others, get help when stuck
-- **Open source**: All materials on GitHub, contribute improvements
-- **Free**: No paywalls, no premium tiers
-
-**Technical setup**: For machine learning modules, you only need a laptop with internet connection. For deep learning sections, we'll use cloud resources (like Saturn Cloud) for more intensive computations.
+**Technical setup**: For machine learning modules, you only need a laptop with an internet connection. For deep learning sections, we'll use cloud resources (like Saturn Cloud) for more intensive computations.
 
 ## Prerequisites
 
 **You'll need:**
-- Some programming experience (1+ years, preferably Python)
-- Basic Python knowledge: variables, libraries, and Jupyter notebooks
-- Basic command line comfort
-- High school math
+- Prior programming experience (at least 1+ year)
+- Comfort with command line basics
 
-**Helpful but not required:**
-- Statistics background
-- Git/GitHub familiarity
-
-No machine learning experience needed, we'll start from the basics.
+You don't need any prior experience with machine learning. We'll start from the basics.
 
 ## Syllabus
 
@@ -211,7 +194,6 @@ Choose a problem that interests you, find a suitable dataset, and develop your m
 ### Where to Get Help
 - **Slack**: [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel
 - **FAQ**: [Common questions and answers](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8)
-- **Office Hours**: Regular Q&A sessions
 - **Study Groups**: Connect with other learners
 
 ### Community Guidelines
@@ -278,6 +260,3 @@ Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalk
 </p>
 
 All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
-
-
-
