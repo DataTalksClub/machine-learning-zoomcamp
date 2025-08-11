@@ -10,6 +10,12 @@ You need:
 * Matplotlib and Seaborn
 * Jupyter notebooks
 
+## Github Codespaces
+
+Video: https://www.youtube.com/watch?v=pqQFlV3f9Bo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+
+This is the recommended approach for the course
+
 
 ## Ubuntu 22.04 on AWS
 
