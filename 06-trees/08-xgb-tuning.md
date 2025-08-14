@@ -33,6 +33,53 @@ Other useful parameter are:
 - `alpha` (default=0)
   - Also called `reg_alpha`. L1 regularization term on weights. Increasing this value will make model more conservative.
 
+### Alternative: Tuning XGBoost using a loop
+
+Instead of repeating the training process manually for each `eta` value, you can use a loop to automate it (and other parameters to be tuned):
+```python
+# Train XGBoost models for each eta and store AUC results
+scores = {} # dictionary to store results for each eta
+etas = [0.01, 0.05, 0.1, 0.3, 1.0] # list of parameter values. in this case it is 'eta'.
+
+for eta in etas:
+    evals_result = {}
+
+    xgb_params = {
+        'eta': eta,
+        'max_depth': 6,
+        'min_child_weight': 1,
+
+        'objective': 'binary:logistic',
+        'eval_metric': 'auc',
+
+        'nthread': 8,
+        'seed': 1,
+        'verbosity': 1
+    }
+
+    model = xgb.train(
+        xgb_params,
+        dtrain,
+        evals=watchlist,
+        verbose_eval=0,
+        num_boost_round=200,
+        evals_result=evals_result
+    )
+
+    columns = ['iter', 'train_auc', 'val_auc']
+    train_aucs = list(evals_result['train'].values())[0]
+    val_aucs = list(evals_result['val'].values())[0]
+
+    df_results = pd.DataFrame(
+        list(zip(range(1, len(train_aucs) + 1), train_aucs, val_aucs)),
+        columns=columns
+    )
+
+    key = f'eta={eta}'
+    scores[key] = df_results
+```
+
+
 Add notes from the video (PRs are welcome)
 
 
