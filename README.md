@@ -70,13 +70,14 @@ This is a practical course where you'll learn to build and deploy machine learni
 
 **You'll learn:**
 - Core ML algorithms and when to use them
-- How to prepare data and engineer features
+- Scikit-Learn and XGBoost
+- Preparing data, feature engineering
 - Model evaluation and selection
-- Deploying models with Flask, Docker, and cloud platforms
+- Deploying models with FastAPI, uv, Docker, and cloud platforms
 - Using Kubernetes for ML model serving
-- MLOps practices
+- Deep learning with PyTorch and TensorFlow
 
-**Technical setup**: For machine learning modules, you only need a laptop with an internet connection. For deep learning sections, we'll use cloud resources (like Saturn Cloud) for more intensive computations.
+**Technical setup**: For machine learning modules, you only need a laptop with an internet connection. For deep learning sections, we'll use cloud resources for more intensive computations.
 
 ## Prerequisites
 
@@ -137,9 +138,9 @@ Turn your models into web services and deploy them with Docker and cloud platfor
 
 **Topics:**
 - Model serialization with Pickle
-- Flask web services
+- FastAPU web services
 - Docker containerization
-- Cloud deployment (AWS)
+- Cloud deployment
 
 ### [Module 6: Decision Trees & Ensemble Learning](06-trees/)
 
@@ -162,10 +163,12 @@ Introduction to neural networks using TensorFlow and Keras, including CNNs and t
 
 **Topics:**
 - Neural network fundamentals
+- PyTorch
 - TensorFlow & Keras
 - Convolutional Neural Networks
 - Transfer learning
 - Model optimization
+
 
 ### [Module 8: Serverless Deep Learning](09-serverless/)
 
@@ -173,8 +176,8 @@ Deploy deep learning models using serverless technologies like AWS Lambda.
 
 **Topics:**
 - Serverless concepts
-- AWS Lambda for ML
-- TensorFlow Lite
+- Deploying Scikit-Learn models with AWS Lambda
+- Deploying TensorFlow and PyTorch models with AWS Lambda
 - API Gateway
 
 ### [Module 9: Kubernetes & TensorFlow Serving](10-kubernetes/)
@@ -187,9 +190,6 @@ Learn to serve ML models at scale using Kubernetes and TensorFlow Serving.
 - Model deployment and scaling
 - Load balancing
 
-### [Module 10: KServe (Optional)](11-kserve/)
-
-Advanced model serving with KServe for production ML systems.
 
 
 ### [Capstone Project](projects/)
