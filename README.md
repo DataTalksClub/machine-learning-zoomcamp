@@ -138,7 +138,7 @@ Turn your models into web services and deploy them with Docker and cloud platfor
 
 **Topics:**
 - Model serialization with Pickle
-- FastAPU web services
+- FastAPI web services
 - Docker containerization
 - Cloud deployment
 
