@@ -1,7 +1,7 @@
 ## Machine Learning Zoomcamp 2025
 
 * [Pre-course Q&A session](https://www.youtube.com/watch?v=ph1PxZIkz1o)
-* [Launch stream with course overview](TODO)
+* [Launch stream with course overview](https://www.youtube.com/watch?v=z064DoidiKg)
 * [Course calendar](https://calendar.google.com/calendar/u/0/r?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&pli=1) ([Google calendar syncselect](https://www.google.com/calendar/syncselect) and for Apple Calendar on macOS/iPhone/iPad see this [help](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform=Desktop))
 * [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2025/)
 * [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#)
