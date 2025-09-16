@@ -54,6 +54,7 @@ How many columns in the dataset have missing values?
 - 1
 - 2
 - 3
+- 4
 
 ### Q5. Max fuel efficiency
 

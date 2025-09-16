@@ -7,51 +7,31 @@
 
 ### Dataset
 
-In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
+In this homework, we will use the lead scoring dataset Bank Marketing dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
 
 Or you can do it with `wget`:
 
 ```bash
-wget https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv
 ```
 
-We need to take `bank/bank-full.csv` file from the downloaded zip-file. Please use semicolon as a separator in the `read_csv` function.
-
-In this dataset our desired target for classification task will be `y` variable - has the client subscribed a term deposit or not. 
-
-### Features
-
-For the rest of the homework, you'll need to use only these columns:
-
-* `age`,
-* `job`,
-* `marital`,
-* `education`,
-* `balance`,
-* `housing`,
-* `contact`,
-* `day`,
-* `month`,
-* `duration`,
-* `campaign`,
-* `pdays`,
-* `previous`,
-* `poutcome`,
-* `y`
+In this dataset our desired target for classification task will be `converted` variable - has the client signed up to the platform or not. 
 
 ### Data preparation
 
-* Select only the features from above.
 * Check if the missing values are presented in the features.
+* If there are missing values:
+    * For caterogiral features, replace them with 'NA'
+    * For numerical features, replace with with 0.0 
 
 ### Question 1
 
-What is the most frequent observation (mode) for the column `education`?
+What is the most frequent observation (mode) for the column `industry`?
 
-- `unknown`
-- `primary`
-- `secondary`
-- `tertiary`
+- `NA`
+- `technology`
+- `healthcare`
+- `retail`
 
 
 ### Question 2
@@ -61,16 +41,11 @@ In a correlation matrix, you compute the correlation coefficient between every p
 
 What are the two features that have the biggest correlation?
 
-- `age` and `balance`
-- `day` and `campaign`
-- `day` and `pdays`
-- `pdays` and `previous`
+- `interaction_count` and `lead_score`
+- `number_of_courses_viewed` and `lead_score`
+- `number_of_courses_viewed` and `interaction_count`
+- `annual_income` and `lead_score`
 
-
-### Target encoding
-
-* Now we want to encode the `y` variable.
-* Let's replace the values `yes`/`no` with `1`/`0`.
 
 ### Split the data
 
@@ -85,10 +60,10 @@ What are the two features that have the biggest correlation?
 
 Which of these variables has the biggest mutual information score?
   
-- `contact`
-- `education`
-- `housing`
-- `poutcome`
+- `industry`
+- `location`
+- `lead_source`
+- `employment_status`
 
 
 ### Question 4
@@ -102,10 +77,10 @@ Which of these variables has the biggest mutual information score?
 
 What accuracy did you get?
 
-- 0.6
-- 0.7
-- 0.8
-- 0.9
+- 0.64
+- 0.74
+- 0.84
+- 0.94
 
 
 ### Question 5 
@@ -117,10 +92,9 @@ What accuracy did you get?
 
 Which of following feature has the smallest difference?
 
-- `age`
-- `balance`
-- `marital`
-- `previous`
+- `'industry'`
+- `'employment_status'`
+- `'lead_score'`
 
 > **Note**: The difference doesn't have to be positive.
 
@@ -144,5 +118,5 @@ Which of these `C` leads to the best accuracy on the validation set?
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw03
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw03
 * If your answer doesn't match options exactly, select the closest one
