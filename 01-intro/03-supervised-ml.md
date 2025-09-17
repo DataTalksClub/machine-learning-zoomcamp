@@ -25,9 +25,7 @@ The model can be represented as a function, **g**, that takes the feature matrix
 	* **Multiclass problems:** there are more than two categories. 
 * **Ranking:** the output is the top scores associated with corresponding items. It is applied in recommender systems. 
 
-In summary, SML is about teaching the model by showing different examples, and the goal is
-to come up with a function that takes the feature matrix as a
-parameter and makes predictions as close as possible to the y targets. 
+In summary, SML is about teaching the model by showing it different examples, and the goal is to come up with a function, that takes the feature matrix as input, and makes predictions of values as close as possible to the **y** targets. 
 
 
 
