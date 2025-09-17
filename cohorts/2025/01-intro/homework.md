@@ -104,5 +104,5 @@ Has it changed?
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw02
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw01
 * If your answer doesn't match options exactly, select the closest one
