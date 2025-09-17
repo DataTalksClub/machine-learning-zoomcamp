@@ -1,64 +1,52 @@
-## Homework [DRAFT]
+## Homework
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
-Solution: [homework.ipynb](homework.ipynb)
-
 ### Dataset
 
-In this homework, we will use the Laptops price dataset from [Kaggle](https://www.kaggle.com/datasets/juanmerinobermejo/laptops-price-dataset).
+For this homework, we'll use the Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
 
-Here's a wget-able [link](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv):
-
+You can do it with wget:
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
 ```
 
-The goal of this homework is to create a regression model for predicting the prices (column `'Final Price'`).
+The goal of this homework is to create a regression model for predicting the car fuel efficiency (column `'fuel_efficiency_mpg'`).
 
 ### Preparing the dataset 
 
-First, we'll normalize the names of the columns:
+Use only the following columns:
 
-```python
-df.columns = df.columns.str.lower().str.replace(' ', '_')
-```
-
-Now, instead of `'Final Price'`, we have `'final_price'`.
-
-Next, use only the following columns:
-
-* `'ram'`,
-* `'storage'`,
-* `'screen'`,
-* `'final_price'`
+* `'engine_displacement'`,
+* `'horsepower'`,
+* `'vehicle_weight'`,
+* `'model_year'`,
+* `'fuel_efficiency_mpg'`
 
 ### EDA
 
-* Look at the `final_price` variable. Does it have a long tail? 
-
-
+* Look at the `fuel_efficiency_mpg` variable. Does it have a long tail? 
 
 ### Question 1
 
 There's one column with missing values. What is it?
 
-* `'ram'`
-* `'storage'`
-* `'screen'`
-* `'final_price'`
+* `'engine_displacement'`
+* `'horsepower'`
+* `'vehicle_weight'`
+* `'model_year'`
 
 
 ### Question 2
 
-What's the median (50% percentile) for variable `'ram'`?
+What's the median (50% percentile) for variable `'horsepower'`?
 
-- 8
-- 16
-- 24
-- 32
+- 49
+- 99
+- 149
+- 199
 
 ### Prepare and split the dataset
 
@@ -117,10 +105,10 @@ Options:
 
 What's the value of std?
 
-- 19.176
-- 29.176
-- 39.176
-- 49.176
+- 0.001
+- 0.006
+- 0.060
+- 0.600
 
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
@@ -137,12 +125,12 @@ What's the value of std?
 
 Options:
 
-- 598.60
-- 608.60
-- 618.60
-- 628.60
+- 0.15
+- 0.515
+- 5.15
+- 51.5
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw02
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw02
 * If your answer doesn't match options exactly, select the closest one

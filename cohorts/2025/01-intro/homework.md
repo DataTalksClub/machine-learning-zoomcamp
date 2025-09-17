@@ -17,13 +17,11 @@ pd.__version__
 
 ### Getting the data 
 
-For this homework, we'll use the Laptops Price dataset. Download it from 
-[here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv).
+For this homework, we'll use the Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
 
 You can do it with wget:
-
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
 ```
 
 Or just open it with your browser and click "Save as...".
@@ -34,19 +32,19 @@ Now read it with Pandas.
 
 How many records are in the dataset?
 
-- 12
-- 1000
-- 2160
-- 12160
+- 4704
+- 8704
+- 9704
+- 17704
 
-### Q3. Laptop brands
+### Q3. Fuel types
 
-How many laptop brands are presented in the dataset?
+How many fuel types are presented in the dataset?
 
-- 12
-- 27
-- 28
-- 2160
+- 1
+- 2
+- 3
+- 4
 
 ### Q4. Missing values
 
@@ -56,50 +54,55 @@ How many columns in the dataset have missing values?
 - 1
 - 2
 - 3
+- 4
 
-### Q5. Maximum final price
+### Q5. Max fuel efficiency
 
-What's the maximum final price of Dell notebooks in the dataset?
+What's the maximum fuel efficiency of cars from Asia?
 
-- 869
-- 3691
-- 3849
-- 3936
+- 13.75
+- 23.75
+- 33.75
+- 43.75
 
-### Q6. Median value of Screen
+### Q6. Median value of horsepower
 
-1. Find the median value of `Screen` column in the dataset.
-2. Next, calculate the most frequent value of the same `Screen` column.
-3. Use `fillna` method to fill the missing values in `Screen` column with the most frequent value from the previous step.
-4. Now, calculate the median value of `Screen` once again.
+
+
+1. Find the median value of `horsepower` column in the dataset.
+2. Next, calculate the most frequent value of the same `horsepower` column.
+3. Use `fillna` method to fill the missing values in `horsepower` column with the most frequent value from the previous step.
+4. Now, calculate the median value of `horsepower` once again.
 
 Has it changed?
 
-> Hint: refer to existing `mode` and `median` functions to complete the task.
 
-- Yes
+- Yes, it increased
+- Yes, it decreased
 - No
+
 
 ### Q7. Sum of weights
 
-1. Select all the "Innjoo" laptops from the dataset.
-2. Select only columns `RAM`, `Storage`, `Screen`.
-3. Get the underlying NumPy array. Let's call it `X`.
-4. Compute matrix-matrix multiplication between the transpose of `X` and `X`. To get the transpose, use `X.T`. Let's call the result `XTX`.
-5. Compute the inverse of `XTX`.
-6. Create an array `y` with values `[1100, 1300, 800, 900, 1000, 1100]`.
-7. Multiply the inverse of `XTX` with the transpose of `X`, and then multiply the result by `y`. Call the result `w`.
-8. What's the sum of all the elements of the result?
+1. Select all the cars from Asia
+2. Select only columns `vehicle_weight` and `model_year`
+3. Select the first 7 values
+4. Get the underlying NumPy array. Let's call it `X`.
+5. Compute matrix-matrix multiplication between the transpose of `X` and `X`. To get the transpose, use `X.T`. Let's call the result `XTX`.
+6. Invert `XTX`.
+7. Create an array `y` with values `[1100, 1300, 800, 900, 1000, 1100, 1200]`.
+8. Multiply the inverse of `XTX` with the transpose of `X`, and then multiply the result by `y`. Call the result `w`.
+9. What's the sum of all the elements of the result?
 
 > **Note**: You just implemented linear regression. We'll talk about it in the next lesson.
 
-- 0.43
-- 45.29
-- 45.58
-- 91.30
+- 0.051
+- 0.51
+- 5.1
+- 51
 
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw02
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw01
 * If your answer doesn't match options exactly, select the closest one
