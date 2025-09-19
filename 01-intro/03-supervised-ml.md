@@ -15,9 +15,7 @@ is taught by certain features and targets.
 * **Target variable (y):** a vector with the target information we want to predict. For each row of X there's a value in y.
 
 
-The model can be represented as a function **g** that takes the X matrix as a parameter and tries
-to predict values as close as possible to y targets. 
-The obtention of the g function is what it is called **training**.
+The model can be represented as a function, **g**, that takes the feature matrix, **X**, as **input** and tries to predict values as close as possible to the targets, **y**. The process of **finding** this function **g** is called **training**.
 
 ### Types of SML problems 
 
@@ -27,9 +25,7 @@ The obtention of the g function is what it is called **training**.
 	* **Multiclass problems:** there are more than two categories. 
 * **Ranking:** the output is the top scores associated with corresponding items. It is applied in recommender systems. 
 
-In summary, SML is about teaching the model by showing different examples, and the goal is
-to come up with a function that takes the feature matrix as a
-parameter and makes predictions as close as possible to the y targets. 
+In summary, SML is about teaching the model by showing it different examples, and the goal is to come up with a function, that takes the feature matrix as input, and makes predictions of values as close as possible to the **y** targets. 
 
 
 
