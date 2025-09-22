@@ -234,14 +234,6 @@ To receive a certificate, you'll need to:
 
 ## Sponsors
 
-Thanks to our sponsors who make this course possible:
-
-<p align="center">
-  <a href="https://saturncloud.io/">
-    <img height="120" src="https://github.com/DataTalksClub/llm-zoomcamp/raw/main/images/saturn-cloud.png">
-  </a>
-</p>
-
 Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
 ## About DataTalks.Club
