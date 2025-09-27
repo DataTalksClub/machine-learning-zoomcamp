@@ -28,6 +28,8 @@ Or just open it with your browser and click "Save as...".
 
 Now read it with Pandas.
 
+Q1 — Pandas version: 2.3.2
+
 ### Q2. Records count
 
 How many records are in the dataset?
@@ -36,6 +38,8 @@ How many records are in the dataset?
 - 8704
 - 9704
 - 17704
+
+Q2 — Records count: 9704
 
 ### Q3. Fuel types
 
@@ -46,6 +50,8 @@ How many fuel types are presented in the dataset?
 - 3
 - 4
 
+Q3 — Fuel types: 2
+
 ### Q4. Missing values
 
 How many columns in the dataset have missing values?
@@ -54,7 +60,8 @@ How many columns in the dataset have missing values?
 - 1
 - 2
 - 3
-- 4
+
+Q4 — Columns with missing values: 4 (closest option: 3)
 
 ### Q5. Max fuel efficiency
 
@@ -64,6 +71,8 @@ What's the maximum fuel efficiency of cars from Asia?
 - 23.75
 - 33.75
 - 43.75
+
+Q5 — Max fuel efficiency (Asia): 23.75
 
 ### Q6. Median value of horsepower
 
@@ -81,6 +90,7 @@ Has it changed?
 - Yes, it decreased
 - No
 
+Q6 — Median horsepower change: Yes, it increased (149.0 → 152.0 after filling with mode=152)
 
 ### Q7. Sum of weights
 
@@ -101,8 +111,9 @@ Has it changed?
 - 5.1
 - 51
 
+Q7 — Sum of weights: 0.51 (sum ≈ 0.5187709)
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw01
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw02
 * If your answer doesn't match options exactly, select the closest one
