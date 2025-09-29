@@ -201,7 +201,6 @@ This module covered:
 
 ➡️ Next step (Module 2): [your goal/excitement] 🚀
 
---
 
 ## Submit the results
 
