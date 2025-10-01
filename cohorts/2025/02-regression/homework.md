@@ -27,7 +27,8 @@ Use only the following columns:
 
 ### EDA
 
-* Look at the `fuel_efficiency_mpg` variable. Does it have a long tail? 
+* Look at the `fuel_efficiency_mpg` variable. Does it have a long tail?
+* If it doesn't have a long tail,then we don't have to apply log transformation(log1p) for `fuel_efficiency_mpg` variable.
 
 ### Question 1
 
