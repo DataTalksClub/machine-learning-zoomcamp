@@ -82,7 +82,7 @@ Options:
 * Round the RMSE scores to 2 decimal digits.
 * Which `r` gives the best RMSE?
 
-If there are multiple options, select the smallest `r`.
+If multiple options give the same best RMSE, select the smallest `r`.
 
 Options:
 

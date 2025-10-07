@@ -46,6 +46,7 @@ What are the two features that have the biggest correlation?
 - `number_of_courses_viewed` and `interaction_count`
 - `annual_income` and `lead_score`
 
+Only consider the pairs above when answering this question.
 
 ### Split the data
 
