@@ -17,7 +17,7 @@ Learn machine learning engineering from regression and classification to deploym
 <a href="https://datatalks.club/slack.html">Join #course-ml-zoomcamp Channel on Slack</a> •
 <a href="https://t.me/mlzoomcamp">Telegram Announcements</a> •
 <a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR">Course Playlist</a> •
-<a href="https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8">FAQ</a> •
+<a href="https://datatalks.club/faq/machine-learning-zoomcamp.html">FAQ</a> •
 <a href="https://ctt.ac/XZ6b9">Tweet about the Course</a>
 </p>
 
@@ -200,11 +200,11 @@ Choose a problem that interests you, find a suitable dataset, and develop your m
 
 ### Where to Get Help
 - **Slack**: [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel
-- **FAQ**: [Common questions and answers](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8)
+- **FAQ**: [Common questions and answers](https://datatalks.club/faq/machine-learning-zoomcamp.html)
 - **Study Groups**: Connect with other learners
 
 ### Community Guidelines
-- Check the [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8) first
+- Check the [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html) first
 - Follow our [question guidelines](asking-questions.md)
 - Be helpful and respectful
 - Share your learning journey
@@ -233,14 +233,6 @@ To receive a certificate, you'll need to:
 </p>
 
 ## Sponsors
-
-Thanks to our sponsors who make this course possible:
-
-<p align="center">
-  <a href="https://saturncloud.io/">
-    <img height="120" src="https://github.com/DataTalksClub/llm-zoomcamp/raw/main/images/saturn-cloud.png">
-  </a>
-</p>
 
 Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
