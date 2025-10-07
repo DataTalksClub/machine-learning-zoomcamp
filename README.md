@@ -60,7 +60,7 @@ All materials are freely available on GitHub. You can:
 
 - Check [this repository content](https://github.com/DataTalksClub/machine-learning-zoomcamp) and star it (all materials live here).
 - Subscribe to [DataTalks.Club on YouTube](https://www.youtube.com/@DataTalksClub) and review the [course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR).
-- Read the [frequently asked questions](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8) to save time later.  
+- Read the [frequently asked questions](https://datatalks.club/faq/machine-learning-zoomcamp.html) to save time later.  
 - Join the [Slack course channel](https://DataTalks.Club/slack.html) for discussions.  
 - Join the [Telegram channel](https://t.me/mlzoomcamp) for announcements.  
 

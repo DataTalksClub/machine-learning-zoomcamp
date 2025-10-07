@@ -5,7 +5,7 @@ in the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5
 
 To keep our discussion in Slack more organized, we ask you to follow these suggestions:
 
-* Before asking a question, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit).
+* Before asking a question, check [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html).
 * Use threads. When you have a problem, first describe the problem shortly
   and then put the actual error in the thread - so it doesn't take the entire screen.
 * Instead of screenshots, it's better to copy-paste the error you're getting in text.
@@ -14,6 +14,6 @@ To keep our discussion in Slack more organized, we ask you to follow these sugge
 * Please don't take pictures of your code with a phone. It's even harder to read. Follow the previous suggestion,
   and in rare cases when you need to show what happens on your screen, take a screenshot.
 * You don't need to tag the instructors when you have a problem. We will see it eventually.
-* If somebody helped you with your problem and it's not in [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit), please add it there.
+* If somebody helped you with your problem and it's not in [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html), please add it there.
   It'll help other students.
 
