@@ -1,45 +1,21 @@
-## Homework [DRAFT]
+## Homework
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
-Solution: [homework.ipynb](homework.ipynb)
 
-In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
+In this homework, we will use the lead scoring dataset Bank Marketing dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
 
-You can do it with `wget`:
 
-```bash
-wget https://archive.ics.uci.edu/static/public/222/bank+marketing.zip
-unzip bank+marketing.zip 
-unzip bank.zip
-```
+In this dataset our desired target for classification task will be `converted` variable - has the client signed up to the platform or not. 
 
-We need `bank-full.csv`.
+### Data preparation
 
-In this dataset the target variable is `y` variable - has the client subscribed a term deposit or not. 
-
-### Dataset preparation
-
-For the rest of the homework, you'll need to use only these columns:
-
-* `'age'`,
-* `'job'`,
-* `'marital'`,
-* `'education'`,
-* `'balance'`,
-* `'housing'`,
-* `'contact'`,
-* `'day'`,
-* `'month'`,
-* `'duration'`,
-* `'campaign'`,
-* `'pdays'`,
-* `'previous'`,
-* `'poutcome'`,
-* `'y'`
-
+* Check if the missing values are presented in the features.
+* If there are missing values:
+    * For caterogiral features, replace them with 'NA'
+    * For numerical features, replace with with 0.0 
 
 
 Split the data into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` function for that with `random_state=1`
