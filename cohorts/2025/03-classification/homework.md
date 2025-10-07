@@ -1,4 +1,4 @@
-## Homework [DRAFT]
+## Homework
 
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
@@ -44,7 +44,7 @@ What are the two features that have the biggest correlation?
 - `interaction_count` and `lead_score`
 - `number_of_courses_viewed` and `lead_score`
 - `number_of_courses_viewed` and `interaction_count`
-- `annual_income` and `lead_score`
+- `annual_income` and `interaction_count`
 
 Only consider the pairs above when answering this question.
 
