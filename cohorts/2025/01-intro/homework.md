@@ -114,9 +114,7 @@ DTC on social media: [LinkedIn](https://www.linkedin.com/company/datatalks-club/
 
 ---
 
-### LinkedIn Template (storytelling style)
-
-[Hook — e.g., “I always thought machine learning started with algorithms. Module 1 showed me it actually starts with asking the right questions.”]
+### LinkedIn Template
 
 I just completed Module 1: Introduction to Machine Learning from ML Zoomcamp 2025 🎉
 
@@ -140,8 +138,7 @@ This module covered:
 
 ➡️ Next step → Module 2: [your personal goal or excitement]
 
-#mlzoomcamp #machinelearning #learninginpublic
-Tag: @Alexey Grigorev
+#mlzoomcamp @Alexey Grigorev
 
 ---
 
@@ -164,7 +161,7 @@ Learned about:
 
 ➡️ Next up: Module 2!
 
-#learninginpublic @alexeygrigorev
+@Al_Grigor
 
 #### Thread starter
 Day 1 of #mlzoomcamp ✅
@@ -174,32 +171,6 @@ Module 1: Intro to ML
 Here’s what I learned 👇
 
 (then add 2–3 tweets: 💡 takeaway, 🤔 challenge, 🚀 goal for Module 2)
-
----
-
-### Telegram / Slack Community Template
-
-✅ Finished Module 1 of ML Zoomcamp!
-
-This module covered:
-
-🔹 ML vs. rule-based systems
-
-🔹 Supervised learning
-
-🔹 CRISP-DM framework
-
-🔹 Model selection
-
-🔹 Environment setup (Python, Jupyter)
-
-🔹 NumPy, Linear Algebra, Pandas refreshers
-
-✨ Key takeaway: [insert insight]
-
-🤔 Interesting or challenging part: [insert reflection]
-
-➡️ Next step (Module 2): [your goal/excitement] 🚀
 
 
 ## Submit the results
