@@ -16,7 +16,7 @@ One-Hot Encoding allows encoding categorical variables in numerical ones. This m
 * `DictVectorizer().fit_transform(x)` - Scikit-Learn class for one-hot encoding by converting x dictionaries into a sparse matrix. It does not affect the numerical variables. 
 * `DictVectorizer().get_feature_names()` -  return the names of the columns in the sparse matrix.  
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/03-classification/notebook.ipynb). 
 
 <table>
    <tr>
