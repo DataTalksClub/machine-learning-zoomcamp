@@ -16,7 +16,7 @@ In the formula of the logistic regression model, only one of the one-hot encoded
 
 * `zip(x,y)` - returns a new list with elements from x joined with their corresponding elements on y 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/03-classification/notebook.ipynb). 
 
 <table>
    <tr>
