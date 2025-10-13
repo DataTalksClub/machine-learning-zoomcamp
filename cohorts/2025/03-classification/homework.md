@@ -18,10 +18,10 @@ In this dataset our desired target for classification task will be `converted` v
 
 ### Data preparation
 
-- Check if the missing values are presented in the features.
-- If there are missing values:
-  - For caterogiral features, replace them with 'NA'
-  - For numerical features, replace with with 0.0
+* Check if the missing values are presented in the features.
+* If there are missing values:
+    * For categorical features, replace them with 'NA'
+    * For numerical features, replace with with 0.0 
 
 ### Question 1
 
