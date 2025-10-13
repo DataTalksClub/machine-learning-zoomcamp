@@ -33,16 +33,16 @@ Let's do that
 
 If your AUC is < 0.5, invert this variable by putting "-" in front
 
-(e.g. `-df_train['engine_hp']`)
+(e.g. `-df_train['balance']`)
 
 AUC can go below 0.5 if the variable is negatively correlated with the target variable. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
 
 Which numerical variable (among the following 4) has the highest AUC?
 
-- `balance`
-- `day`
-- `duration`
-- `previous`
+- `lead_score`
+- `number_of_courses_viewed`
+- `interaction_count`
+- `annual_income`
 
 ### Question 2: Training the model
 
@@ -54,10 +54,10 @@ LogisticRegression(solver='liblinear', C=1.0, max_iter=1000)
 
 What's the AUC of this model on the validation dataset? (round to 3 digits)
 
-- 0.69
-- 0.79
-- 0.89
-- 0.99
+- 0.32
+- 0.52
+- 0.72
+- 0.92
 
 
 ### Question 3: Precision and Recall
@@ -70,10 +70,10 @@ Now let's compute precision and recall for our model.
 
 At which threshold precision and recall curves intersect?
 
-* 0.265
-* 0.465
-* 0.665
-* 0.865
+* 0.145
+* 0.345
+* 0.545
+* 0.745
 
 
 ### Question 4: F1 score
@@ -90,10 +90,10 @@ Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
 
 At which threshold F1 is maximal?
 
-- 0.02
-- 0.22
-- 0.42
-- 0.62
+- 0.14
+- 0.34
+- 0.54
+- 0.74
 
 
 ### Question 5: 5-Fold CV
@@ -115,7 +115,7 @@ How large is standard deviation of the scores across different folds?
 - 0.0001
 - 0.006
 - 0.06
-- 0.26
+- 0.36
 
 
 ### Question 6: Hyperparameter Tuning
@@ -137,5 +137,5 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw04
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw04
 * If your answer doesn't match options exactly, select the closest one
