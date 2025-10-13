@@ -20,21 +20,21 @@ The goal of this homework is to create a regression model for predicting the car
 Use only the following columns:
 
 * `'engine_displacement'`,
-* `'horsepower'`,
+* `'horsepower'`, 
 * `'vehicle_weight'`,
 * `'model_year'`,
 * `'fuel_efficiency_mpg'`
 
 ### EDA
 
-* Look at the `fuel_efficiency_mpg` variable. Does it have a long tail? 
+* Look at the `fuel_efficiency_mpg` variable. Does it have a long tail? No
 
 ### Question 1
 
 There's one column with missing values. What is it?
 
 * `'engine_displacement'`
-* `'horsepower'`
+* `'horsepower'` *
 * `'vehicle_weight'`
 * `'model_year'`
 
@@ -45,7 +45,7 @@ What's the median (50% percentile) for variable `'horsepower'`?
 
 - 49
 - 99
-- 149
+- 149 *
 - 199
 
 ### Prepare and split the dataset
@@ -69,7 +69,7 @@ Use the same code as in the lectures
 Options:
 
 - With 0
-- With mean
+- With mean *
 - Both are equally good
 
 
@@ -87,7 +87,7 @@ If there are multiple options, select the smallest `r`.
 Options:
 
 - 0
-- 0.01
+- 0.01 *
 - 1
 - 10
 - 100
@@ -106,7 +106,7 @@ Options:
 What's the value of std?
 
 - 0.001
-- 0.006
+- 0.006 *
 - 0.060
 - 0.600
 
@@ -127,7 +127,7 @@ Options:
 
 - 0.15
 - 0.515
-- 5.15
+- 5.15 *
 - 51.5
 
 ## Submit the results

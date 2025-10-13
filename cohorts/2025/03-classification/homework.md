@@ -31,7 +31,7 @@ What is the most frequent observation (mode) for the column `industry`?
 - `NA`
 - `technology`
 - `healthcare`
-- `retail`
+- `retail` *
 
 
 ### Question 2
@@ -43,7 +43,7 @@ What are the two features that have the biggest correlation?
 
 - `interaction_count` and `lead_score`
 - `number_of_courses_viewed` and `lead_score`
-- `number_of_courses_viewed` and `interaction_count`
+- `number_of_courses_viewed` and `interaction_count` *
 - `annual_income` and `lead_score`
 
 
@@ -62,7 +62,7 @@ Which of these variables has the biggest mutual information score?
   
 - `industry`
 - `location`
-- `lead_source`
+- `lead_source` *
 - `employment_status`
 
 
@@ -78,7 +78,7 @@ Which of these variables has the biggest mutual information score?
 What accuracy did you get?
 
 - 0.64
-- 0.74
+- 0.74 *
 - 0.84
 - 0.94
 
@@ -94,7 +94,7 @@ Which of following feature has the smallest difference?
 
 - `'industry'`
 - `'employment_status'`
-- `'lead_score'`
+- `'lead_score'` *
 
 > **Note**: The difference doesn't have to be positive.
 
@@ -110,8 +110,8 @@ Which of these `C` leads to the best accuracy on the validation set?
 
 - 0.01
 - 0.1
-- 1
-- 10
+- 1 
+- 10 *
 - 100
 
 > **Note**: If there are multiple options, select the smallest `C`.
