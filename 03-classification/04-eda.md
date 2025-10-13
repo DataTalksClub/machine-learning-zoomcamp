@@ -20,7 +20,7 @@ The EDA for this project consisted of:
 * `round(x, y)` - round an x number with y decimal places
 * `df[x].nunique()` - returns the number of unique values in x series 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-03-churn-prediction/03-churn.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/03-classification/notebook.ipynb). 
 
 <table>
    <tr>
