@@ -36,4 +36,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/classification/)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_3_notes.ipynb)
 * [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/03_classification/Summary_Session_03.md)
+* [Cohort|2025 Notes BY Nitin Gupta](https://github.com/niting9881/ML-zoomcamp-local/blob/main/03-classification/README.md)
 * Add your notes here
