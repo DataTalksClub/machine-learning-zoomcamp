@@ -1,8 +1,6 @@
 ## Machine Learning Zoomcamp 2022
 
 * [Launch stream with course overview](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* [Course calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
-* [Deadline calendar](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiEznNaTrblegQtBwQ-zsoJY6Vh_XL7_rilGYugRuCFhBQfnJR7D-QArGlilAiF9qrkY5ED2n-9ibD/pubhtml)
 * [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html)
 * [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml)
 * [Course Playlist: Only 2022 Live videos & homeworks](https://www.youtube.com/watch?v=MqI8vt3-cag&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
