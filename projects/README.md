@@ -20,6 +20,8 @@ This is what you need to do for each project
 
 ## Videos
 
+[Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
+
 We did a few office hours sessions where we explained how you go about the projects. 
 
 Check them out:
@@ -116,7 +118,6 @@ Total max 16 points
 
 Or the same in table format [Criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
 
-[Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 
 ## Cheating and plagiarism
 
