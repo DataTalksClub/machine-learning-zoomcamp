@@ -1,5 +1,7 @@
 ## Homework [DRAFT]
 
+NOTE: The homework is not ready. Below is the homework from 2024
+
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
