@@ -12,7 +12,7 @@ In this homework, we're going to continue working with the lead scoring dataset.
 ## Question 1
 
 * Install `uv`
-* What's the version of pipenv you installed?
+* What's the version of uv you installed?
 * Use `--version` to find out
 
 
