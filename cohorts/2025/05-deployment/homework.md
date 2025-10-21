@@ -1,85 +1,95 @@
-## Homework [DRAFT]
-
-NOTE: The homework is not ready. Below is the homework from 2024
+## Homework
 
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
 
-> Note: we recommend using python 3.11 in this homework.
+We recommend using python 3.12 or 3.13 in this homework.
+
+In this homework, we're going to continue working with the lead scoring dataset. You don't need the dataset: we will provide the model for you.
+
 
 ## Question 1
 
-* Install Pipenv
+* Install `uv`
 * What's the version of pipenv you installed?
 * Use `--version` to find out
 
 
+## Initialize an empty uv project
+
+You should create an empty folder for homework
+and do it there. 
+
+
 ## Question 2
 
-* Use Pipenv to install Scikit-Learn version 1.5.2
-* What's the first hash for scikit-learn you get in Pipfile.lock?
-
-> **Note**: you should create an empty folder for homework
-and do it there. 
+* Use uv to install Scikit-Learn version 1.6.1 
+* What's the first hash for Scikit-Learn you get in the lock file?
+* Include the entire string starting with sha256:, don't include quotes
 
 
 ## Models
 
-We've prepared a dictionary vectorizer and a model.
+We have prepared a pipeline with a dictionary vectorizer and a model.
 
-They were trained (roughly) using this code:
+It was trained (roughly) using this code:
 
 ```python
-features = ['job', 'duration', 'poutcome']
-dicts = df[features].to_dict(orient='records')
+categorical = ['lead_source']
+numeric = ['number_of_courses_viewed', 'annual_income']
 
-dv = DictVectorizer(sparse=False)
-X = dv.fit_transform(dicts)
+df[categorical] = df[categorical].fillna('NA')
+df[numeric] = df[numeric].fillna(0)
 
-model = LogisticRegression().fit(X, y)
+train_dict = df[categorical + numeric].to_dict(orient='records')
+
+pipeline = make_pipeline(
+    DictVectorizer(),
+    LogisticRegression(solver='liblinear')
+)
+
+pipeline.fit(train_dict, y_train)
 ```
 
 > **Note**: You don't need to train the model. This code is just for your reference.
 
-And then saved with Pickle. Download them:
-
-* [DictVectorizer](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2024/05-deployment/homework/dv.bin?raw=true)
-* [LogisticRegression](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2024/05-deployment/homework/model1.bin?raw=true)
+And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2025/05-deployment/pipeline_v1.bin).
 
 With `wget`:
 
 ```bash
-PREFIX=https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/master/cohorts/2024/05-deployment/homework
-wget $PREFIX/model1.bin
-wget $PREFIX/dv.bin
+wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin
 ```
 
 
 ## Question 3
 
-Let's use these models!
+Let's use the model!
 
-* Write a script for loading these models with pickle
-* Score this client:
+* Write a script for loading the pipeline with pickle
+* Score this record:
 
 ```json
-{"job": "management", "duration": 400, "poutcome": "success"}
+{
+    "lead_source": "paid_ads",
+    "number_of_courses_viewed": 2,
+    "annual_income": 79276.0
+}
 ```
 
-What's the probability that this client will get a subscription? 
+What's the probability that this lead will convert? 
 
-* 0.359
-* 0.559
-* 0.759
-* 0.959
+* 0.333
+* 0.533
+* 0.733
+* 0.933
 
 If you're getting errors when unpickling the files, check their checksum:
 
 ```bash
-$ md5sum model1.bin dv.bin
-3d8bb28974e55edefa000fe38fd3ed12  model1.bin
-7d37616e00aa80f2152b8b0511fc2dff  dv.bin
+$ md5sum pipeline_v1.bin
+7d17d2e4dfbaf1e408e1a62e6e880d49 *pipeline_v1.bin
 ```
 
 
@@ -87,22 +97,26 @@ $ md5sum model1.bin dv.bin
 
 Now let's serve this model as a web service
 
-* Install Flask and gunicorn (or waitress, if you're on Windows)
-* Write Flask code for serving the model
+* Install FastAPI
+* Write FastAPI code for serving the model
 * Now score this client using `requests`:
 
 ```python
 url = "YOUR_URL"
-client = {"job": "student", "duration": 280, "poutcome": "failure"}
+client = {
+    "lead_source": "organic_search",
+    "number_of_courses_viewed": 4,
+    "annual_income": 80304.0
+}
 requests.post(url, json=client).json()
 ```
 
 What's the probability that this client will get a subscription?
 
-* 0.335
-* 0.535
-* 0.735
-* 0.935
+* 0.334
+* 0.534
+* 0.734
+* 0.934
 
 
 ## Docker
@@ -110,33 +124,34 @@ What's the probability that this client will get a subscription?
 Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/06-docker.md). 
 We will use it for the next two questions.
 
-For these questions, we prepared a base image: `svizor/zoomcamp-model:3.11.5-slim`. 
+For these questions, we prepared a base image: `agrigorev/zoomcamp-model:2025`. 
 You'll need to use it (see Question 5 for an example).
 
-This image is based on `python:3.11.5-slim` and has a logistic regression model 
-(a different one) as well a dictionary vectorizer inside. 
+This image is based on `3.13.5-slim-bookworm` and has
+a pipeline with logistic regression (a different one)
+as well a dictionary vectorizer inside. 
 
 This is how the Dockerfile for this image looks like:
 
 ```docker 
-FROM python:3.11.5-slim
-WORKDIR /app
-COPY ["model2.bin", "dv.bin", "./"]
+FROM python:3.13.5-slim-bookworm
+WORKDIR /code
+COPY pipeline_v2.bin .
 ```
 
-We already built it and then pushed it to [`svizor/zoomcamp-model:3.11.5-slim`](https://hub.docker.com/r/svizor/zoomcamp-model).
+We already built it and then pushed it to [`agrigorev/zoomcamp-model:2025`](https://hub.docker.com/r/agrigorev/zoomcamp-model).
 
 > **Note**: You don't need to build this docker image, it's just for your reference.
 
 
 ## Question 5
 
-Download the base image `svizor/zoomcamp-model:3.11.5-slim`. You can easily make it by using [docker pull](https://docs.docker.com/engine/reference/commandline/pull/) command.
+Download the base image `agrigorev/zoomcamp-model:2025`. You can easily make it by using [docker pull](https://docs.docker.com/engine/reference/commandline/pull/) command.
 
 So what's the size of this base image?
 
 * 45 MB
-* 130 MB
+* 121 MB
 * 245 MB
 * 330 MB
 
@@ -145,20 +160,20 @@ You can get this information when running `docker images` - it'll be in the "SIZ
 
 ## Dockerfile
 
-Now create your own Dockerfile based on the image we prepared.
+Now create your own `Dockerfile` based on the image we prepared.
 
 It should start like that:
 
 ```docker
-FROM svizor/zoomcamp-model:3.11.5-slim
+FROM agrigorev/zoomcamp-model:2025
 # add your stuff here
 ```
 
 Now complete it:
 
-* Install all the dependencies form the Pipenv file
-* Copy your Flask script
-* Run it with Gunicorn 
+* Install all the dependencies from pyproject.toml
+* Copy your FastAPI script
+* Run it with uvicorn 
 
 After that, you can build your docker image.
 
@@ -171,19 +186,45 @@ After running it, score this client once again:
 
 ```python
 url = "YOUR_URL"
-client = {"job": "management", "duration": 400, "poutcome": "success"}
+client = {
+    "lead_source": "organic_search",
+    "number_of_courses_viewed": 4,
+    "annual_income": 80304.0
+}
 requests.post(url, json=client).json()
 ```
 
-What's the probability that this client will get a subscription now?
+What's the probability that this lead will convert?
 
-* 0.287
-* 0.530
-* 0.757
-* 0.960
+* 0.39
+* 0.59
+* 0.79
+* 0.99
 
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw05
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw05
 * If your answer doesn't match options exactly, select the closest one
+
+
+
+## Publishing to Docker hub
+
+This is just for reference, this is how we published an image to Docker hub.
+
+`Dockerfile_base`: 
+
+```dockerfile
+FROM python:3.13.5-slim-bookworm
+WORKDIR /code
+COPY pipeline_v2.bin .
+```
+
+Publishing:
+
+```bash
+docker build -t mlzoomcamp2025_hw5 -f Dockerfile_base .
+docker tag mlzoomcamp2025_hw5:latest agrigorev/zoomcamp-model:2025
+docker push agrigorev/zoomcamp-model:2025
+```

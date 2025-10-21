@@ -5,7 +5,7 @@
 > Select the option that's closest to your solution.
 
 
-In this homework, we will use the lead scoring dataset Bank Marketing dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
+In this homework, we will use the lead scoring dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
 
 
 In this dataset our desired target for classification task will be `converted` variable - has the client signed up to the platform or not. 
