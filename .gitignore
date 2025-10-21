@@ -4,6 +4,7 @@ __pycache__/
 **my_dir/
 **logs/
 **models/
+.DS_Store
 
 # file types
 *.h5
