@@ -5,8 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "flask>=3.1.2",
+    "gunicorn>=23.0.0",
     "matplotlib>=3.10.6",
     "pandas>=2.3.3",
+    "pipenv>=2025.0.4",
+    "requests>=2.32.5",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
 ]
+
+[tool.uv.workspace]
+members = ["05-deployment/homework"]
