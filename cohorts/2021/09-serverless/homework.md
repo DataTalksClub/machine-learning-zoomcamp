@@ -146,7 +146,7 @@ What's the output from the model?
 
 Submit your results here: https://forms.gle/QD67KCNKakVUz6pq7
 
-It's possible that your answers won't match exactly. If it's the case, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one. If it's exactly in between two options, select the higher value.
 
 
 ## Deadline
