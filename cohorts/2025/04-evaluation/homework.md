@@ -3,6 +3,7 @@
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
 
 In this homework, we will use the lead scoring dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
@@ -138,4 +139,4 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw04
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

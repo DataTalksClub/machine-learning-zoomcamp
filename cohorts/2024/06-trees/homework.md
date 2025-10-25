@@ -3,6 +3,7 @@
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
 Solution: [homework.ipynb](homework.ipynb)
 
@@ -169,4 +170,4 @@ Which eta leads to the best RMSE score on the validation dataset?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw06
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

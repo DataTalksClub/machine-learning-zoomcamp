@@ -267,4 +267,4 @@ What was the maximum amount of the replicas during this test?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw10
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

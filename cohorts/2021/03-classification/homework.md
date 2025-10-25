@@ -102,7 +102,7 @@ If there are multiple options, select the smallest `alpha`.
 
 Submit your results here: https://forms.gle/xGpZhoq9Efm9E4RA9
 
-It's possible that your answers won't match exactly. If it's the case, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one. If it's exactly in between two options, select the higher value.
 
 
 ## Deadline
