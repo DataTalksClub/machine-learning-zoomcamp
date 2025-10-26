@@ -29,7 +29,7 @@ In this workshop, we will follow the same order as in the module:
 For the environment, you can use [GitHub Codespaces](https://www.youtube.com/watch?v=pqQFlV3f9Bo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 
 
-Install the requered libraries:
+Install the required libraries:
 
 ```bash
 pip install jupyter scikit-learn pandas
