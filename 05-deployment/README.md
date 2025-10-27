@@ -43,6 +43,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notebook with commands for pipenv, flask, gunicorn, and Docker](https://github.com/javier-cp6/ml-zoomcamp/blob/main/05-deployment/05-train-churn-model.ipynb)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/model-deployment/)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_5_notes.ipynb)
+* [Cohort 2025| Notes by Nitin Gupta](https://github.com/niting9881/ML-zoomcamp-local/blob/main/05-deployment/README.md)
 * Add your notes here
 
 ### Deployment tutorials
