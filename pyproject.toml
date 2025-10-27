@@ -8,6 +8,7 @@ dependencies = [
     "flask>=3.1.2",
     "gunicorn>=23.0.0",
     "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
     "pandas>=2.3.3",
     "pipenv>=2025.0.4",
     "requests>=2.32.5",
