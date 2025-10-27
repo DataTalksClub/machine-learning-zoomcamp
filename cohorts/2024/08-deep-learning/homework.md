@@ -3,6 +3,7 @@
 > **Note**: it's very likely that in this homework your answers won't match 
 > the options exactly. That's okay and expected. Select the option that's
 > closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
 ### Dataset
 
@@ -175,4 +176,4 @@ for the model trained with augmentations?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw08
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

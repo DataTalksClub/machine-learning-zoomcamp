@@ -3,6 +3,7 @@
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
 We recommend using python 3.12 or 3.13 in this homework.
 
@@ -205,7 +206,7 @@ What's the probability that this lead will convert?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw05
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
 
 
 

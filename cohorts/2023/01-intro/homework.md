@@ -103,7 +103,7 @@ Has it changed?
 
 * Submit your results here: https://forms.gle/jneGM91mzDZ23i8HA
 * You can submit your solution multiple times. In this case, only the last submission will be used 
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
 
 
 ## Deadline

@@ -4,6 +4,7 @@ In this homework, we will use Bank credit scoring dataset from [here](https://ww
 
 > **Note**: sometimes your answer doesn't match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
+If it's exactly in between two options, select the higher value.
 
 > **Note**: we recommend using python 3.10 in this homework.
 
@@ -186,7 +187,7 @@ What's the probability that this client will get a credit now?
 ## Submit the results
 
 - Submit your results here: https://forms.gle/gfruq6FGoLass3Ff9
-- If your answer doesn't match options exactly, select the closest one.
+- If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
 - You can submit your solution multiple times. In this case, only the last submission will be used
 
 

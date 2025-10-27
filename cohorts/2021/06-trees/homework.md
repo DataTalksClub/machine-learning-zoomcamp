@@ -177,7 +177,7 @@ Which eta leads to the best RMSE score on the validation dataset?
 
 Submit your results here: https://forms.gle/wQgFkYE6CtdDed4w8
 
-It's possible that your answers won't match exactly. If it's the case, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one. If it's exactly in between two options, select the higher value.
 
 
 ## Deadline

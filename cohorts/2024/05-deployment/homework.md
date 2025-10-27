@@ -3,6 +3,7 @@
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
 > Select the option that's closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
 > Note: we recommend using python 3.11 in this homework.
 
@@ -184,4 +185,4 @@ What's the probability that this client will get a subscription now?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw05
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
