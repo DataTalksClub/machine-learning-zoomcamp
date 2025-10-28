@@ -33,7 +33,7 @@ Preparation:
 
 ## Question 1
 
-Let's train a decision tree regressor to predict the `jamb_score` variable. 
+Let's train a decision tree regressor to predict the `fuel_efficiency_mpg` variable. 
 
 * Train a model with `max_depth=1`.
 
