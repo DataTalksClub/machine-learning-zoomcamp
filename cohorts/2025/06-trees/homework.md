@@ -1,35 +1,30 @@
-## Homework [DRAFT]
+## Homework
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
+> If it's exactly in between two options, select the higher value.
 
-Solution: [homework.ipynb](homework.ipynb)
 
 ### Dataset
 
-In this homework, we will use the Students Performance in 2024 JAMB dataset from [Kaggle](https://www.kaggle.com/datasets/idowuadamo/students-performance-in-2024-jamb).
+In this homework, we continue using the fuel efficiency dataset.
+Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
 
-Here's a wget-able [link](https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/jamb_exam_results.csv):
+You can do it with wget:
 
 ```bash
-wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/jamb_exam_results.csv
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
 ```
 
-The goal of this homework is to create a regression model for predicting the performance of students on a standardized test (column `'JAMB_Score'`).
+The goal of this homework is to create a regression model for predicting the car fuel efficiency (column `'fuel_efficiency_mpg'`).
+
 
 
 ### Preparing the dataset 
 
-First, let's make the names lowercase:
-
-```python
-df.columns = df.columns.str.lower().str.replace(' ', '_')
-```
-
 Preparation:
 
-* Remove the `student_id` column.
 * Fill missing values with zeros.
 * Do train/validation/test split with 60%/20%/20% distribution. 
 * Use the `train_test_split` function and set the `random_state` parameter to 1.
@@ -45,10 +40,11 @@ Let's train a decision tree regressor to predict the `jamb_score` variable.
 
 Which feature is used for splitting the data?
 
-* `study_hours_per_week`
-* `attendance_rate`
-* `teacher_quality`
-* `distance_to_school`
+
+* `'vehicle_weight'`
+* `'model_year'`
+* `'origin'`
+* `'fuel_type'`
 
 
 ## Question 2
@@ -62,10 +58,10 @@ Train a random forest regressor with these parameters:
 
 What's the RMSE of this model on the validation data?
 
-* 22.13
-* 42.13
-* 62.13
-* 82.12
+* 0.045
+* 0.45
+* 4.5
+* 45.0
 
 
 ## Question 3
@@ -84,6 +80,9 @@ Consider 3 decimal places for calculating the answer.
 - 25
 - 80
 - 200
+
+If it doesn't stop improving, use the latest iteration number in
+your answer.
 
 
 ## Question 4
@@ -129,10 +128,10 @@ For this homework question, we'll find the most important feature:
 
 What's the most important feature (among these 4)? 
 
-* `study_hours_per_week`
-* `attendance_rate`
-* `distance_to_school`
-* `teacher_quality`
+* `vehicle_weight`
+*	`horsepower`
+* `acceleration`
+* `engine_displacement`	
 
 
 ## Question 6
@@ -168,5 +167,5 @@ Which eta leads to the best RMSE score on the validation dataset?
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw06
-* If your answer doesn't match options exactly, select the closest one
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw06
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

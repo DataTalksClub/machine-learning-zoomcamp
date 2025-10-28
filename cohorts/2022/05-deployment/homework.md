@@ -8,6 +8,7 @@ In this homework, we will use Credit Card Data from [the previous homework](http
 
 > Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
+If it's exactly in between two options, select the higher value.
 
 
 ## Question 1
@@ -188,7 +189,7 @@ What's the probability that this client will get a credit card now?
 
 * Submit your results here: https://forms.gle/jU2we8f9WeLgX3qa6
 * You can submit your solution multiple times. In this case, only the last submission will be used 
-* If your answer doesn't match options exactly, select the closest one
+* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
 
 
 ## Deadline

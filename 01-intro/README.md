@@ -28,4 +28,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes by Kemal](https://github.com/kemaldahha/machine-learning-course/blob/main/week_1_notes.md)
 * [Notes by Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/01_intro/Summary_Session_01.md)
 * [Notes by Mahrukh Tariq](https://github.com/mahrukh98/ml-zoomcamp-hw/blob/main/notes/session1.md)
+* [Notes by Revathy Ramalingam](https://github.com/RevathyRamalingam/machineLearning/blob/main/01-Intro/01-Intro.md)
 * Add your notes here

@@ -165,7 +165,7 @@ What's the probability that this customer is churning?
 
 Submit your results here: https://forms.gle/R5v85JBbQ4qgbisv7
 
-It's possible that your answers won't match exactly. If it's the case, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one. If it's exactly in between two options, select the higher value.
 
 
 ## Deadline

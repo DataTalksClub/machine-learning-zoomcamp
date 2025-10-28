@@ -149,7 +149,7 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 
 Submit your results here: https://forms.gle/e497sR5iB36mM9Cs5
 
-It's possible that your answers won't match exactly. If it's the case, select the closest one.
+It's possible that your answers won't match exactly. If it's the case, select the closest one. If it's exactly in between two options, select the higher value.
 
 ## Deadline
 

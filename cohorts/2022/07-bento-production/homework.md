@@ -2,6 +2,7 @@
 
 > Note: sometimes your answer might not match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
+If it's exactly in between two options, select the higher value.
 
 The goal of this homework is to familiarize you with BentoML and how to build and test an ML production service.
 

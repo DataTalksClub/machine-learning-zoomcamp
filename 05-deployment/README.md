@@ -44,6 +44,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/model-deployment/)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_5_notes.ipynb)
 * [Notes from Williams Alnice](https://github.com/nice-bills/ml_zoomcamp/tree/main/module_5)
+* [Cohort 2025| Notes by Nitin Gupta](https://github.com/niting9881/ML-zoomcamp-local/blob/main/05-deployment/README.md)
 * Add your notes here
 
 ### Deployment tutorials
