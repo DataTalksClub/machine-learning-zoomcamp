@@ -169,5 +169,5 @@ Which eta leads to the best RMSE score on the validation dataset?
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw06
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw06
 * If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
