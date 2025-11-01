@@ -7,7 +7,7 @@
 
 ## Notes
 
-This lesson first reviews the topics learned in the previous lesson about how to trai a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data. 
+This lesson first reviews the topics learned in the previous lesson about how to train a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data. 
 
 In this lesson, we learn about how to best split a decision tree and different classification criteria that can be used to split a tree. We dive deep in an example, splitting trees with `misclassification` criteria. Additionally, different stopping criteria to break the iterative tree split are discussed.     
 
