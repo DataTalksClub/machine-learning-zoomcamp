@@ -26,7 +26,6 @@ We did a few office hours sessions where we explained how you go about the proje
 
 Check them out:
 
-* [ML Zoomcamp 2024 Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 * [ML Zoomcamp 2023 Office Hours (pre-midterm)](https://www.youtube.com/live/GuJkBzyGxyc)
 * [ML Zoomcamp 2022 - Office Hours (midterm project)](https://www.youtube.com/live/AcB-Iz8h5tc)
 * [2021 Office hours #7](https://www.youtube.com/live/wWBm6MHu5u8) and [2021 Office hours #8](https://www.youtube.com/live/3bo7I9LaN7o) (check #8 if you want to use text)
@@ -108,7 +107,7 @@ activate the env
 * Containerization
     * 0 points: No containerization
     * 1 point: Dockerfile is provided or a tool that creates a docker image is used (e.g. BentoML)
-    * 2 points: The application is containerized and the README describes how to build a contained and how to run it
+    * 2 points: The application is containerized and the README describes how to build a container and how to run it
 * Cloud deployment
     * 0 points: No deployment to the cloud
     * 1 point: Docs describe clearly (with code) how to deploy the service to cloud or kubernetes cluster (local or remote)
