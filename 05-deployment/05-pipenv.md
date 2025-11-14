@@ -6,7 +6,7 @@
 
 
 ## Notes
-In this session we're going to make virtual environments for our project. So Let's start this session to get to know what is a virtual environment and how to make it.
+In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it.
 - Every time we're running a file from a directory we're using the executive files from a global directory. When we install python on our machine the executable files that are able to run our codes will go to somewhere like _/home/username/python/bin/_. The pip command, for example, may go to _/home/username/python/bin/pip_.
 - Sometimes the versions of libraries conflict (the project may not run or get into massive errors). For example, we have an old project that uses sklearn library with the version of 0.24.1 and now we want to run it using sklearn version 1.0.0. We may get into errors because of the version conflict.
    - To solve the conflict we can make virtual environments. A virtual environment is an operation that can separate the libraries installed in our system and the libraries with specified version we want our project to run with. There are a lot of ways to create virtual environments. One way we are going to use is a library named pipenv.
