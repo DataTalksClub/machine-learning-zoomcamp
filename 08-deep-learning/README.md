@@ -1,7 +1,23 @@
 ## 8. Neural Networks and Deep Learning
 
+Note: in the module we use TensorFlow+Keras. These videos 
+were recorded a while ago, and while they are still
+relevant, PyTorch became the to-go framework for training
+neural networks. 
+
+That's why we also re-recorded the content of this module
+with PyTorch. You can find the materials in the [pytorch/](pytorch/) folder.
+
+We don't go over the theory in the PyTorch part. For that,
+refer to the main module (the one that still uses Keras).
+
+How to watch it:
+
+- If you want to learn PyTorch only, watch the module content for the theory only and then follow along the content of the PyTorch part
+- If you want to learn both (and have time), first do the module and then the PyTorch part 
+
+
 - 8.1 [Fashion classification](01-fashion-classification.md)
-- 8.1b [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
 - 8.2 [TensorFlow and Keras](02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](04-conv-neural-nets.md)
