@@ -118,6 +118,10 @@ We summarized the key differences between the two joining options in this table:
 | **Certificate** | Not available | Available after completing projects and peer reviews |
 | **Structure** | Flexible, no deadlines | Weekly rhythm with deadlines and peer accountability |
 
+<p align="center">
+  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
+</p>
+
 ## Syllabus
 
 | Module | Description | Topics |
@@ -207,6 +211,10 @@ To receive a certificate, you'll need to complete and submit two projects:
 >
 > - [Rajendra Rawale](https://www.linkedin.com/in/rajendra1x) ([Source](https://www.linkedin.com/posts/rajendra1x_machinelearning-mlzoomcamp-datatalksclub-activity-7378450260999852032-V5Z1))
 
+<p align="center">
+  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
+</p>
+
 ## Community & Getting Help
 
 ### Where to Get Help
@@ -226,10 +234,6 @@ We encourage sharing your progress! Write blog posts, create videos, post on soc
 **Bonus**: You can earn extra points for sharing your learning experience publicly.
 
 Learn more: [Learning in Public](learning-in-public.md)
-
-<p align="center">
-  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
-</p>
 
 ## Sponsors
 
