@@ -140,18 +140,6 @@ We summarized the key differences between the two joining options in this table:
 | **[Capstone project 2](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-2-optional)** |  |  |
 
 ### Projects
-```mermaid
-flowchart LR
-    Idea["Choose problem & dataset"]
-    EDA["Explore & clean data"]
-    Model["Train & validate model"]
-    Deploy["Expose model via FastAPI"]
-    Docker["Containerize with Docker"]
-    Cloud["Deploy to cloud / Kubernetes / Lambda"]
-    Share["Document & share project"]
-
-    Idea --> EDA --> Model --> Deploy --> Docker --> Cloud --> Share
-```
 
 Choose a problem that interests you, find a suitable dataset, develop your model, and deploy it as a web service.
 
