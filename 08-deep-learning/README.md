@@ -16,6 +16,7 @@ How to watch it:
 - If you want to learn PyTorch only, watch the module content for the theory only and then follow along the content of the PyTorch part
 - If you want to learn both (and have time), first do the module and then the PyTorch part 
 
+TensorFlow module videos:
 
 - 8.1 [Fashion classification](01-fashion-classification.md)
 - 8.2 [TensorFlow and Keras](02-tensorflow-keras.md)
