@@ -50,7 +50,3 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_8_notes.ipynb)
 * [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/08_deep_learning/Summary_Session_08.md)
 * Add your notes here
-
-## Links
-
-* [Saturn Cloud: notebooks with GPU](https://bit.ly/saturn-mlzoomcamp)
