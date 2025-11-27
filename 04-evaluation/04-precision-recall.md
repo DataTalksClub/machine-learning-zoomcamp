@@ -13,7 +13,7 @@
 $$P = \cfrac{TP}{TP + FP}$$
 
 
-**Recall** measures the fraction of correctly identified postive instances. It considers parts of the **positive and negative classes** (TP and FN - second row of confusion table). The formula of this metric is presented below: 
+**Recall** measures the fraction of correctly identified positive instances. It considers parts of the **positive and negative classes** (TP and FN - second row of confusion table). The formula of this metric is presented below: 
 
 
 $$R = \cfrac{TP}{TP + FN}$$
