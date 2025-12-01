@@ -33,8 +33,8 @@ nn.Conv2d(
     kernel_size,      # size of each filter (int or tuple)
     stride=1,         # step size for moving the filter
     padding=0,        # zero-padding around input
+```
 
-```   
 Explanation:
 
 * in_channels: Input depth (e.g., 3 for RGB images).
@@ -47,9 +47,7 @@ Explanation:
 
 Output size after Conv2d image
 
-  $$
-\text{Output size} = \frac{W - K + 2P}{S} + 1
-$$
+$$\text{Output size} = \frac{W - K + 2P}{S} + 1$$
 
 Where:
 * 𝑊 = input size (height or width)
