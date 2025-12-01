@@ -1,11 +1,19 @@
 ## 9. Serverless Deep Learning
 
-- 9.1 [Introduction to Serverless](01-intro.md)
-- 9.2 [AWS Lambda](02-aws-lambda.md)
-- 9.3 [TensorFlow Lite](03-tensorflow-lite.md)
-- 9.4 [Preparing the code for Lambda](04-preparing-code.md)
-- 9.5 [Preparing a Docker image](05-docker-image.md)
-- 9.6 [Creating the lambda function](06-creating-lambda.md)
+
+Use the [workshop](workshop/) for most of the content.
+
+The content in the module still works, but most of it is outdated
+and doesn't work with newer version of Python.
+
+The unit 9.7 could still be relevant.
+
+- (Outdated) 9.1 [Introduction to Serverless](01-intro.md)
+- (Outdated) 9.2 [AWS Lambda](02-aws-lambda.md)
+- (Outdated) 9.3 [TensorFlow Lite](03-tensorflow-lite.md)
+- (Outdated) 9.4 [Preparing the code for Lambda](04-preparing-code.md)
+- (Outdated) 9.5 [Preparing a Docker image](05-docker-image.md)
+- (Outdated) 9.6 [Creating the lambda function](06-creating-lambda.md)
 - 9.7 [API Gateway: exposing the lambda function](07-api-gateway.md)
 - 9.8 [Summary](08-summary.md)
 - 9.9 [Explore more](09-explore-more.md)
