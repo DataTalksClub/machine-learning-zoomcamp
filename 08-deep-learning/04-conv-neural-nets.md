@@ -26,6 +26,35 @@ This is the first step in the process of extracting valuable features from an im
 
 Consider a black and white image of 5x5 size whose pixel values are either 0 or 1 and also a filter matrix with a dimension of 3x3. Next, slide the filter matrix over the image and compute the dot product to get the convolved feature matrix.
 
+```python
+nn.Conv2d(
+    in_channels,      # number of channels in the input image
+    out_channels,     # number of filters to learn
+    kernel_size,      # size of each filter (int or tuple)
+    stride=1,         # step size for moving the filter
+    padding=0,        # zero-padding around input
+```
+
+Explanation:
+
+* in_channels: Input depth (e.g., 3 for RGB images).
+* out_channels: Number of filters the layer will learn. Each produces one output feature map.
+* kernel_size: Size of the convolutional filter. Can be a single number (square filter) or a tuple (height, width).
+* stride: How many pixels the filter moves each step. Default is 1.
+  <img width="1500" height="614" alt="image" src="https://github.com/user-attachments/assets/3cfca38d-56bd-4a51-a3ce-70d8c071d4c8" />
+* padding: Number of pixels added around the input to control output size. Default is 0.
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/5465dc2e-402d-41c9-a6fb-3ecfdc384796" />  <img width="234" height="216" alt="image" src="https://github.com/user-attachments/assets/c8a57bb4-c454-4169-b18c-41b79449bbe6" />
+
+Output size after Conv2d image
+
+$$\text{Output size} = \frac{W - K + 2P}{S} + 1$$
+
+Where:
+* 𝑊 = input size (height or width)
+* 𝐾 = kernel size
+* 𝑃 = padding
+* 𝑆 = stride
+  
 **ReLU layer**
 
 Once the feature maps are extracted, the next step is to move them to a ReLU layer. ReLU (Rectified Linear Unit) is an activation function which performs an element-wise operation and sets all the negative pixels to 0. It introduces non-linearity to the network, and the generated output is a rectified feature map. The relu function is: `f(x) = max(0,x)`.
