@@ -15,9 +15,9 @@ Tested on Linux and WSL2.
    - [Step 2: Choose and Setup Package Manager](#step-2-choose-and-setup-package-manager)
    - [Step 3: Install PyTorch](#step-3-install-pytorch)
    - [Step 4: Verify Installation](#step-4-verify-installation)
-3. [GPU vs CPU](#why-gpu-over-cpu)
+3. [GPU vs CPU](#gpu-vs-cpu)
 4. [Troubleshooting Common Issues](#troubleshooting-common-issues)
-5. [Best Practices & Optimization Tips](#best-practices--optimization-tips)
+5. [Best Practices](#best-practices)
 6. [FAQs](#faqs)
 
 ---
@@ -196,30 +196,7 @@ uv pip install torch torchvision torchaudio --index-url https://download.pytorch
 uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
-**Using pip:**
-
-```bash
-# CUDA 12.8 (default as of PyTorch 2.3+)
-pip install torch torchvision torchaudio
-
-# Specific CUDA version
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
-# CPU-only
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-```
-
-**Using conda:**
-
-```bash
-# CUDA 12.8
-conda install pytorch torchvision torchaudio pytorch-cuda=12.8 -c pytorch -c nvidia
-
-# CPU-only
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-```
-
-If you encounter Python version conflicts, you can always downgrade. Use:
+> **⚠️ Important** If you encounter Python version conflicts, you can always downgrade.
 
 ```bash
 # Downgrade Python if needed
@@ -230,60 +207,7 @@ conda create -n pytorch-env python=3.10 pytorch torchvision torchaudio pytorch-c
 
 Run this simple verification script to confirm PyTorch is installed correctly and can access your GPU:
 
-**Basic Verification Script (`verify_basic.py`):**
-
-```python
-import torch
-import torchvision
-
-print("=" * 50)
-print("PyTorch Installation Verification")
-print("=" * 50)
-
-print(f"PyTorch version: {torch.__version__}")
-print(f"Torchvision version: {torchvision.__version__}")
-print(f"CUDA available: {torch.cuda.is_available()}")
-
-if torch.cuda.is_available():
-    print(f"\nGPU Information:")
-    print(f"  Device: {torch.cuda.get_device_name(0)}")
-    print(f"  CUDA version: {torch.version.cuda}")
-    print(f"  GPU Count: {torch.cuda.device_count()}")
-    memory_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3
-    print(f"  Memory: {memory_gb:.1f} GB")
-    print(f"  Compute Capability: {torch.cuda.get_device_capability()}")
-else:
-    print("\nRunning in CPU-only mode")
-    
-print("=" * 50)
-```
-
-**Run the verification:**
-
-```bash
-uv run verify_basic.py
-# or
-python verify_basic.py
-```
-
-**Expected output (GPU available):**
-
-```shell
-==================================================
-PyTorch Installation Verification
-==================================================
-PyTorch version: 2.9.1+cu126
-Torchvision version: 0.24.1+cu126
-CUDA available: True
-
-GPU Information:
-  Device: NVIDIA GeForce GTX 1650
-  CUDA version: 12.6
-  GPU Count: 1
-  Memory: 3.6 GB
-  Compute Capability: (7, 5)
-==================================================
-```
+**Basic Verification Script (`scripts/verify_basic.py`):**
 
 ---
 
@@ -293,209 +217,7 @@ GPUs are strongly recommended over CPUs for deep learning because they can perfo
 
 **Prove it to yourself:** Run the benchmark script below to see exactly how much faster your GPU performs compared to CPU!
 
-**File: `benchmark_gpu_cpu.py`**
-
-```python
-import torch
-import sys
-import time
-
-print("=" * 60)
-print("PyTorch GPU Verification & Performance Benchmark")
-print("=" * 60)
-
-# System and Python info
-print(f"Python version: {sys.version}")
-print(f"PyTorch version: {torch.__version__}")
-print()
-
-# PyTorch Info
-print("SYSTEM INFORMATION:")
-print(f"  CUDA Available: {torch.cuda.is_available()}")
-if torch.cuda.is_available():
-    print(f"  CUDA Version: {torch.version.cuda}")
-    print(f"  GPU Device: {torch.cuda.get_device_name(0)}")
-    print(f"  GPU Count: {torch.cuda.device_count()}")
-    print(f"  GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
-    print(f"  Compute Capability: {torch.cuda.get_device_capability()}")
-else:
-    print("  No GPU detected - using CPU only")
-
-print("\n" + "=" * 60)
-print("PERFORMANCE BENCHMARK")
-print("=" * 60)
-
-def benchmark_operation(operation_name, operation, device, size=1000, iterations=100):
-    """Benchmark a single operation on specified device"""
-    # Warm-up
-    for _ in range(10):
-        _ = operation(device, size)
-
-    # Benchmark
-    start_time = time.time()
-    for _ in range(iterations):
-        result = operation(device, size)
-    end_time = time.time()
-
-    # Sync if CUDA
-    if device.type == "cuda":
-        torch.cuda.synchronize()
-
-    return (end_time - start_time) * 1000  # Convert to milliseconds
-
-# Define benchmark operations
-def matmul_operation(device, size=1000):
-    a = torch.randn(size, size, device=device)
-    b = torch.randn(size, size, device=device)
-    return torch.matmul(a, b)
-
-def elementwise_operation(device, size=1000):
-    a = torch.randn(size, size, device=device)
-    b = torch.randn(size, size, device=device)
-    return a * b + torch.sin(a) - torch.cos(b)
-
-def convolution_operation(device, size=1000):
-    # Smaller size for conv to avoid memory issues
-    channels = 32
-    spatial = min(size // 8, 128)
-    x = torch.randn(1, channels, spatial, spatial, device=device)
-    conv = torch.nn.Conv2d(channels, channels, 3, padding=1, device=device)
-    return conv(x)
-
-# Available devices
-devices = [torch.device("cpu")]
-if torch.cuda.is_available():
-    devices.append(torch.device("cuda"))
-
-# Run benchmarks
-operations = [
-    ("Matrix Multiplication (1000x1000)", matmul_operation),
-    ("Element-wise Operations", elementwise_operation),
-    ("Convolution Operation", convolution_operation),
-]
-
-results = {}
-
-for op_name, op_func in operations:
-    print(f"\n{op_name}:")
-    results[op_name] = {}
-
-    for device in devices:
-        try:
-            time_taken = benchmark_operation(op_name, op_func, device)
-            results[op_name][device.type] = time_taken
-            print(f"  {device.type.upper():<6}: {time_taken:8.2f} ms")
-        except RuntimeError as e:
-            print(f"  {device.type.upper():<6}: Failed - {str(e)}")
-            results[op_name][device.type] = None
-
-# Calculate speedup
-print("\n" + "=" * 60)
-print("PERFORMANCE SUMMARY")
-print("=" * 60)
-
-if torch.cuda.is_available():
-    for op_name in results:
-        cpu_time = results[op_name].get("cpu")
-        cuda_time = results[op_name].get("cuda")
-
-        if cpu_time and cuda_time and cuda_time > 0:
-            speedup = cpu_time / cuda_time
-            print(f"{op_name}:")
-            print(f"  Speedup: {speedup:6.1f}x faster on GPU")
-            if speedup > 1:
-                print(f"  GPU is {speedup:.1f}x faster than CPU")
-            else:
-                print(f"  CPU is {1/speedup:.1f}x faster than GPU")
-        else:
-            print(f"{op_name}: Comparison not available")
-
-    # Memory benchmark
-    print(f"\nMEMORY BENCHMARK:")
-    try:
-        # Test large tensor allocation
-        large_tensor_gpu = torch.randn(5000, 5000, device=torch.device("cuda"))
-        gpu_memory_usage = (
-            large_tensor_gpu.element_size() * large_tensor_gpu.nelement() / 1024**2
-        )
-        print(f"  Allocated {gpu_memory_usage:.1f} MB on GPU successfully")
-        del large_tensor_gpu
-        torch.cuda.empty_cache()
-    except RuntimeError as e:
-        print(f"  GPU memory test failed: {e}")
-
-# Final verification
-print("\n" + "=" * 60)
-print("FINAL VERIFICATION")
-print("=" * 60)
-
-if torch.cuda.is_available():
-    # Test basic GPU functionality
-    device = torch.device("cuda")
-
-    # Simple computation test
-    x = torch.randn(100, 100, device=device)
-    y = torch.randn(100, 100, device=device)
-    z = x + y
-
-    # Backward pass test
-    w = torch.randn(10, 10, device=device, requires_grad=True)
-    loss = w.sum()
-    loss.backward()
-
-    print("✓ Basic GPU computation: SUCCESS")
-    print("✓ GPU gradient computation: SUCCESS")
-    print(f"✓ Final tensor device: {z.device}")
-
-    # Memory info
-    allocated = torch.cuda.memory_allocated() / 1024**2
-    cached = torch.cuda.memory_reserved() / 1024**2
-    print(f"✓ GPU memory allocated: {allocated:.1f} MB")
-    print(f"✓ GPU memory cached: {cached:.1f} MB")
-
-    print("\n🎉 PyTorch GPU setup is working correctly!")
-else:
-    print("⚠️  Running in CPU-only mode")
-    print("💡 For GPU acceleration, check your CUDA installation and drivers")
-
-print("=" * 60)
-```
-
-**Example Output (shortened):**
-
-```shell
-============================================================
-PERFORMANCE BENCHMARK
-============================================================
-
-Matrix Multiplication (1000x1000):
-  CPU   :  1631.63 ms
-  CUDA  :     3.23 ms
-
-Element-wise Operations:
-  CPU   :  1188.86 ms
-  CUDA  :     4.86 ms
-
-Convolution Operation:
-  CPU   :   342.91 ms
-  CUDA  :    14.57 ms
-
-============================================================
-PERFORMANCE BENCHMARK
-============================================================
-
-Matrix Multiplication (1000x1000):
-  CPU   :  1631.63 ms
-  CUDA  :     3.23 ms
-
-Element-wise Operations:
-  CPU   :  1188.86 ms
-  CUDA  :     4.86 ms
-
-Convolution Operation:
-  CPU   :   342.91 ms
-  CUDA  :    14.57 ms
-```
+**File: `scripts/benchmark_gpu_cpu.py`**
 
 ---
 
@@ -550,9 +272,6 @@ conda create -n pytorch-env python=3.10 pytorch torchvision torchaudio
 
 # With pip: Use specific Python version
 python3.10 -m venv pytorch-env
-
-# Otherwise, leave the Python version open for the manager to handle itself
-# Drop torchaudio from the initial installation
 ```
 
 ### **Issue 4: Slow Installation/Download**
@@ -582,77 +301,7 @@ nvidia-smi
 
 ---
 
-## **Best Practices & Optimization Tips**
-
-### **Environment Management**
-
-**With uv (Recommended):**
-
-```bash
-# Initialize a project
-uv init my-dl-project
-cd my-dl-project
-
-# Add dependencies
-uv add torch --index-url https://download.pytorch.org/whl/cu128
-uv add torchvision torchaudio numpy pandas matplotlib jupyter
-
-# Sync dependencies (install everything from pyproject.toml)
-uv sync
-
-# Export for sharing
-uv pip freeze > requirements.txt
-
-# Create a reproducible lock file
-uv lock --refresh
-```
-
-**With conda:**
-
-```bash
-# Export environment
-conda env export > environment.yml
-
-# Create from file
-conda env create -f environment.yml
-
-# Update environment
-conda env update -f environment.yml --prune
-```
-
-### **Performance Optimization**
-
-```python
-import torch
-
-# Enable TF32 for faster matrix multiplications on Ampere+ GPUs
-torch.set_float32_matmul_precision('high')
-
-# Use cudnn benchmark for convolutional networks (if input sizes don't vary)
-torch.backends.cudnn.benchmark = True
-
-# Pin memory for faster data transfer to GPU
-train_loader = DataLoader(dataset, batch_size=32, pin_memory=True)
-
-# Use non-blocking transfers
-data = data.to('cuda', non_blocking=True)
-```
-
-### **Memory Optimization**
-
-```python
-# Clear cache regularly
-torch.cuda.empty_cache()
-
-# Monitor memory usage
-print(f"Allocated: {torch.cuda.memory_allocated()/1024**2:.1f} MB")
-print(f"Cached: {torch.cuda.memory_reserved()/1024**2:.1f} MB")
-
-# Use in-place operations where possible
-x.relu_()  # In-place
-# instead of
-x = torch.relu(x)
-```
+## **Best Practices**
 
 ### **Monitoring Tools**
 
@@ -662,14 +311,6 @@ watch -n 1 nvidia-smi
 
 # With process details
 nvidia-smi --query-compute-apps=pid,process_name,used_memory,gpu_util --format=csv
-
-# Python monitoring
-import nvidia-ml-py3  # pip install nvidia-ml-py3
-import pynvml
-pynvml.nvmlInit()
-handle = pynvml.nvmlDeviceGetHandleByIndex(0)
-util = pynvml.nvmlDeviceGetUtilizationRates(handle)
-print(f"GPU Util: {util.gpu}%, Memory Util: {util.memory}%")
 ```
 
 ---
@@ -684,31 +325,6 @@ print(f"GPU Util: {util.gpu}%, Memory Util: {util.memory}%")
 
 **A**: **No need**. PyTorch bundles its own CUDA toolkit. Only install system CUDA if you need it for other applications.
 
-### **Q: Python 3.13 or older Python?**
-
-**A**: Use **Python 3.10 or 3.11** for best compatibility. Python 3.13 may have limited PyTorch support.
-
-### **Q: uv, pip, or conda?**
-
-**A**:
-
-- **uv**: Best for speed and reliability (seminar recommended)
-- **pip**: Simple and universal
-- **conda**: Best for complex dependency resolution
-
-### **Q: How to update PyTorch?**
-
-```bash
-# uv
-uv pip install --upgrade torch torchvision torchaudio
-
-# pip
-pip install --upgrade torch torchvision torchaudio
-
-# conda
-conda update pytorch torchvision torchaudio pytorch-cuda
-```
-
 ### **Q: PyTorch detects GPU but training is slow?**
 
 **A**:
@@ -717,14 +333,6 @@ conda update pytorch torchvision torchaudio pytorch-cuda
 2. Enable mixed precision: `torch.cuda.amp`
 3. Increase batch size (if memory allows)
 4. Set `torch.set_float32_matmul_precision('high')`
-
-### **Q: How to share environment with teammates?**
-
-**A**:
-
-- **uv**: Share `pyproject.toml` and `uv.lock`, teammates run `uv sync`
-- **pip**: Share `requirements.txt`, teammates run `pip install -r requirements.txt`
-- **conda**: Share `environment.yml`, teammates run `conda env create -f environment.yml`
 
 ### **Q: AMD GPU support?**
 
