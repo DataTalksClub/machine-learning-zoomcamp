@@ -19,6 +19,7 @@ You can download the target dataset for this homework from
 wget https://github.com/SVizor42/ML_Zoomcamp/releases/download/straight-curly-data/data.zip
 unzip data.zip
 ```
+The dataset is split into train and test dataset. Use train dataset to train the model and test dataset for validation. 
 
 In the lectures we saw how to use a pre-trained neural network. In the homework, we'll train a much smaller model from scratch. 
 
