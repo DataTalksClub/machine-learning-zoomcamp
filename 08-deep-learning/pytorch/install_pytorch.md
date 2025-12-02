@@ -1,7 +1,7 @@
 # **Complete PyTorch Installation Guide (GPU & CPU Support)**
 
-Hi 👋  
-This guide walks you through installing PyTorch with GPU acceleration. It covers multiple package managers (uv, pip, conda), explains CUDA compatibility, and includes verification and benchmarking scripts.
+Hi 👋
+This guide walks you through installing PyTorch with GPU acceleration using **uv**, a modern Python package manager. It also shows how to check your GPU, verify your installation, and fix common issues.
 
 Tested on Linux and WSL2.
 
@@ -11,45 +11,32 @@ Tested on Linux and WSL2.
 
 1. [Prerequisites](#prerequisites)
 2. [Step-by-Step Installation](#step-by-step-installation)
-   - [Step 1: Check Your Graphics Card](#step-1-check-your-graphics-card)
-   - [Step 2: Choose and Setup Package Manager](#step-2-choose-and-setup-package-manager)
-   - [Step 3: Install PyTorch](#step-3-install-pytorch)
-   - [Step 4: Verify Installation](#step-4-verify-installation)
-3. [GPU vs CPU](#gpu-vs-cpu)
-4. [Troubleshooting Common Issues](#troubleshooting-common-issues)
-5. [Best Practices](#best-practices)
-6. [FAQs](#faqs)
+   * [Step 1: Check Your Graphics Card](#step-1-check-your-graphics-card)
+   * [Step 2: Create an Environment](#step-2-create-an-environment)
+   * [Step 3: Install PyTorch](#step-3-install-pytorch)
+   * [Step 4: Verify Installation](#step-4-verify-installation)
+3. [Troubleshooting Common Issues](#troubleshooting-common-issues)
+4. [FAQs](#faqs)
 
 ---
 
 ## **Prerequisites**
 
-Before installing PyTorch, ensure your system meets these requirements:
+Before installing PyTorch, ensure your system meets the following requirements.
 
 ### **System Requirements**
 
-- **OS**: Linux, WSL2 (recommended for Windows), or macOS
-- **Shell**: bash, zsh, or similar
-- **Python**: 3.9 or later (always check beforehand)
-- **Memory**: Minimum 8 GB RAM, 16+ GB recommended for deep learning
+* **OS**: Linux, WSL2 (recommended for Windows), or macOS
+* **Shell**: bash, zsh, or similar
+* **Python**: 3.10+
+* **Memory**: At least 8 GB RAM (16 GB recommended for deep learning)
 
-### **GPU-Specific Requirements**
+### **GPU Requirements**
 
-- **NVIDIA GPU**: Compute capability ≥ 3.5 (most GPUs from 2014+)
-- **NVIDIA Driver**: Latest version recommended
-- **AMD GPU**: ROCm support (check compatibility)
-- **Integrated Graphics**: CPU-only mode available but not recommended for training
-
-### **Package Managers**
-
-Choose one based on your needs:
-
-- **uv** ⚡ (Recommended): Fast, modern, reliable
-- **pip**: Universal, simple
-- **conda**: Excellent dependency management
-- **pipenv**: Good for application deployment
-
-> **📝 Note for Seminar Participants**: This seminar recommends **uv** for its speed and reliability.
+* **NVIDIA GPU** with compute capability ≥ 3.5
+* Recent **NVIDIA driver** installed
+* **AMD GPUs** supported via ROCm (check compatibility)
+* Integrated graphics are fine for CPU-only, but not recommended for serious training
 
 ---
 
@@ -57,9 +44,7 @@ Choose one based on your needs:
 
 ### **Step 1: Check Your Graphics Card**
 
-The first step is to identify your GPU's compute capabilities. This determines whether you can use GPU acceleration and which CUDA version to choose.
-
-**For NVIDIA GPUs:**
+First, identify your GPU and the maximum CUDA version your driver supports.
 
 ```bash
 nvidia-smi
@@ -74,50 +59,30 @@ Example output (shortened):
 +-----------------------------------------------------------------------------+
 ```
 
-In this example:
+Key information to note:
 
-- `Driver Version`: 580.105.08
-- `CUDA Version` (max supported): 13.0
-- `GPU Model`: NVIDIA GeForce GTX 1650
+* **Driver Version**
+* **CUDA Version** (this is the *maximum* supported)
+* **GPU Model**
 
-**Important Notes:**
+> 💡 **Note:** PyTorch ships its own CUDA runtime – you do **not** need to install the system CUDA toolkit just to use PyTorch.
 
-1. The CUDA version shown is the maximum version your driver supports, not what you need to install
-2. PyTorch bundles its own CUDA toolkit - you don't need to install CUDA separately
-3. It's generally safe to use the latest CUDA version that PyTorch supports
-
-**Key information to note:**
-
-- **Driver Version**: Should be ≥ 525 for CUDA 12.x
-- **CUDA Version**: Maximum CUDA version your driver supports
-- **GPU Model**: Check compute capability
-
-**Check compute capability:**
+Optional: check compute capability:
 
 ```bash
 nvidia-smi --query-gpu=compute_cap --format=csv
 ```
 
-You can check specific GPU capabilities on NVIDIA's [CUDA GPU list](https://developer.nvidia.com/cuda-gpus).
+> 💡 **Note:** For the AMD versions, there is a similar command `amd-smi`, to accomplish the same effect as the NVIDIA system.
+---
 
-**For AMD GPUs:**
+## **Step 2: Create an Environment**
 
-```bash
-amd-smi
-```
+PyTorch should always be installed inside a **dedicated environment** to avoid dependency conflicts and keep your system clean.
 
-AMD uses its own framework called ROCm. Check compatibility at the AMD GPU [Architecture Table](https://rocm.docs.amd.com/en/latest/reference/gpu-arch-specs.html).
+During the seminar, we used **uv**, a fast modern Python package manager.
 
-**For Intel/Integrated Graphics:**
-You'll use CPU-only installation.
-
-> **⚠️ Important**: The CUDA version in `nvidia-smi` is the **maximum supported**, not what you need to install. PyTorch bundles its own CUDA toolkit.
-
-### **Step 2: Choose and Setup Package Manager**
-
-#### **Option A: Using uv (Recommended)**
-
-**Install uv:**
+### **Install uv**
 
 ```bash
 # Linux/macOS
@@ -125,255 +90,151 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Windows (PowerShell)
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# Alternative: via pip
-pip install uv
-
-# Verify installation
-uv --version
 ```
 
-**Create virtual environment:**
+### **Create and activate an isolated environment**
 
 ```bash
-# Create environment
 uv venv pytorch-env
-
-# Activate it
-source pytorch-env/bin/activate  # Linux/macOS
-# OR
-.\pytorch-env\Scripts\activate   # Windows
+source pytorch-env/bin/activate     # Linux/macOS
+.\pytorch-env\Scripts\activate      # Windows
 ```
 
-#### **Option B: Using pip**
-
-**Create virtual environment:**
-
-```bash
-python -m venv pytorch-env
-source pytorch-env/bin/activate  # Linux/macOS
-.\pytorch-env\Scripts\activate   # Windows
-```
-
-#### **Option C: Using conda**
-
-**Install Miniconda/Anaconda, then:**
-
-```bash
-conda create -n pytorch-env python=3.10
-conda activate pytorch-env
-```
-
-### **Step 3: Install PyTorch**
-
-PyTorch provides different versions for different CUDA versions, AMD ROCm, and CPU-only setups. Currently supported versions include CUDA 12.6, 12.8, 13.0, and ROCm 6.4.
-
-#### **CUDA Version Compatibility Guide**
-
-| Your Driver Shows | Recommended PyTorch CUDA | Reason |
-|------------------|--------------------------|--------|
-| CUDA 11.x | CUDA 11.8 | Maximum compatibility |
-| CUDA 12.0-12.5 | CUDA 12.1 | Stable, widely supported |
-| CUDA 12.6+ | CUDA 12.8 | Latest stable |
-| CUDA 13.0+ | CUDA 12.8 or 13.0 | 12.8 is more stable |
-| No GPU/Other | CPU | For inference/small models |
-
-#### **Installation Commands**
-
-**Using uv:**
-
-```bash
-# For CUDA 12.8 (recommended for most users)
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
-# For CUDA 12.6
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-
-# For AMD ROCm 6.4
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.4
-
-# For CPU-only
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-```
-
-> **⚠️ Important** If you encounter Python version conflicts, you can always downgrade.
-
-```bash
-# Downgrade Python if needed
-conda create -n pytorch-env python=3.10 pytorch torchvision torchaudio pytorch-cuda=12.8 -c pytorch -c nvidia
-```
-
-### **Step 4: Verify Installation**
-
-Run this simple verification script to confirm PyTorch is installed correctly and can access your GPU:
-
-**Basic Verification Script (`scripts/verify_basic.py`):**
+Your environment is now ready for the PyTorch installation step.
 
 ---
 
-## **GPU vs CPU**
+## **Step 3: Install PyTorch**
 
-GPUs are strongly recommended over CPUs for deep learning because they can perform thousands of calculations simultaneously, while CPUs process tasks sequentially. This parallel processing capability is perfect for the matrix operations that form the foundation of neural networks.
+This is the core of the guide: choosing the **right PyTorch build** and installing it with `uv`.
 
-**Prove it to yourself:** Run the benchmark script below to see exactly how much faster your GPU performs compared to CPU!
+PyTorch offers several flavours:
 
-**File: `scripts/benchmark_gpu_cpu.py`**
+* **CUDA builds** (for NVIDIA GPUs)
+* **CPU-only builds** (no GPU required)
+* **ROCm builds** (for supported AMD GPUs)
+
+> **Recommendation:** Use the newest PyTorch CUDA version that is **≤ the CUDA version** shown by `nvidia-smi`. For most users, **CUDA 12.8** is the best, stable choice.
+
+### **3.1 Choose your build**
+
+Use this decision flow:
+
+* **You have an NVIDIA GPU and want GPU acceleration**
+  → Use the **CUDA 12.8 build**.
+
+* **You do not have a dedicated GPU / just want CPU**
+  → Use the **CPU-only build**.
+
+* **You have a supported AMD GPU**
+  → Use the **ROCm build** (check your model in AMD’s ROCm compatibility list).
+
+You can always check other combinations on the official PyTorch install page:
+[https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+
+### **3.2 Install with uv**
+
+All commands below assume your `uv` environment is already activated.
+
+#### **Install PyTorch (CUDA 12.8 — recommended)**
+
+```bash
+uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+```
+
+This installs:
+
+* `torch` (PyTorch core)
+* `torchvision` (vision utilities and models)
+* `torchaudio` (audio utilities)
+
+> **Other variants:**
+>
+> * **CPU-only:** replace `cu128` with `cpu`
+> * **AMD ROCm:** replace `cu128` with `rocm6.4`
+> * **Nightly build:** replace `download.pytorch.org/whl` with `download.pytorch.org/whl/nightly`
+>   Example for nightly CUDA 12.8:
+>
+>   ```bash
+>   uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+>   ```
+>
+> Check the PyTorch website for all supported builds.
+
+---
+
+## **Step 4: Verify Installation**
+
+Run this one-liner to confirm that PyTorch is installed and can see your GPU:
+
+```bash
+python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
+```
+
+If `CUDA available: True`, your GPU build is working.
 
 ---
 
 ## **Troubleshooting Common Issues**
 
-### **Issue 1: CUDA Not Available**
+### **CUDA not available**
 
-```bash
-# Check if PyTorch sees CUDA
-python -c "import torch; print(torch.cuda.is_available())"
+1. Check `nvidia-smi` detects your GPU
+2. Make sure you installed a **CUDA-enabled (cuXXX)** build, not CPU-only
+3. Update your NVIDIA driver to a recent version
 
-# Solution steps:
-1. Update NVIDIA drivers: https://www.nvidia.com/Download/index.aspx
-2. Verify GPU compute capability: nvidia-smi --query-gpu=compute_cap --format=csv
-3. Reinstall PyTorch with correct CUDA version
-4. For WSL2: Ensure GPU passthrough is enabled
-```
+### **Out-of-memory errors (OOM)**
 
-### **Issue 2: Out of Memory (OOM)**
+* Reduce batch size
+* Use mixed precision (`torch.cuda.amp`)
+* Close other GPU-heavy applications
 
-```python
-# Reduce batch size
-batch_size = 32  # Try 16, 8, or 4
+### **Python version issues**
 
-# Use gradient accumulation
-accumulation_steps = 4
-loss.backward()
-if (batch_idx + 1) % accumulation_steps == 0:
-    optimizer.step()
-    optimizer.zero_grad()
+* If you encounter installation errors, recreate your `uv` environment with a **supported Python version** (e.g., 3.10 or 3.11).
+* Avoid the **very latest** Python release, as PyTorch support often lags behind new versions.
+* Downgrading Python is a valid and common solution when facing compatibility issues.
 
-# Use mixed precision
-from torch.cuda.amp import autocast, GradScaler
-scaler = GradScaler()
+### **WSL2-specific issues**
 
-with autocast():
-    output = model(input)
-    loss = criterion(output, target)
-scaler.scale(loss).backward()
-scaler.step(optimizer)
-scaler.update()
-```
-
-### **Issue 3: Python Version Conflicts**
-
-```bash
-# With uv: Specify Python version during env creation
-uv venv --python 3.10 pytorch-env
-
-# With conda: Specify Python in conda create
-conda create -n pytorch-env python=3.10 pytorch torchvision torchaudio
-
-# With pip: Use specific Python version
-python3.10 -m venv pytorch-env
-```
-
-### **Issue 4: Slow Installation/Download**
-
-```bash
-# Use uv with --no-cache
-uv pip install --no-cache torch torchvision torchaudio
-
-# Use pip with timeout and retry
-pip install --default-timeout=100 --retries 10 torch torchvision torchaudio
-```
-
-### **WSL2-Specific Issues**
-
-```bash
-# 1. Ensure WSL2 is updated
-wsl --update
-
-# 2. Install NVIDIA CUDA on WSL from Microsoft Store
-# 3. Enable GPU passthrough in .wslconfig:
-# [wsl2]
-# gpuSupport=true
-
-# 4. Verify in WSL
-nvidia-smi
-```
-
----
-
-## **Best Practices**
-
-### **Monitoring Tools**
-
-```bash
-# Real-time GPU monitoring
-watch -n 1 nvidia-smi
-
-# With process details
-nvidia-smi --query-compute-apps=pid,process_name,used_memory,gpu_util --format=csv
-```
+* Update WSL: `wsl --update` (from Windows)
+* Ensure GPU passthrough is enabled
+* Run `nvidia-smi` inside WSL to confirm access
 
 ---
 
 ## **FAQs**
 
-### **Q: Which CUDA version should I choose?**
+**• Which CUDA version should I choose?**
+Use the newest PyTorch CUDA build that is **≤ your driver’s max CUDA**. For most users, **CUDA 12.8** is ideal.
 
-**A**: Use the **latest stable CUDA version** that PyTorch supports and that is ≤ your driver version. As of 2024, CUDA 12.8 is recommended for most users.
+**• Do I need to install the system CUDA toolkit?**
+No. PyTorch bundles its own CUDA runtime. Install system CUDA only if some *other* software requires it.
 
-### **Q: Should I install system CUDA toolkit separately?**
+**• PyTorch sees my GPU but training is slow — what can I do?**
 
-**A**: **No need**. PyTorch bundles its own CUDA toolkit. Only install system CUDA if you need it for other applications.
+* Enable mixed precision (`torch.cuda.amp`)
+* Use `pin_memory=True` in your DataLoader
+* Increase batch size if VRAM allows
+* Set:
 
-### **Q: PyTorch detects GPU but training is slow?**
-
-**A**:
-
-1. Check if data transfer is bottleneck: `pin_memory=True` in DataLoader
-2. Enable mixed precision: `torch.cuda.amp`
-3. Increase batch size (if memory allows)
-4. Set `torch.set_float32_matmul_precision('high')`
-
-### **Q: AMD GPU support?**
-
-**A**: Yes, via ROCm. Use the ROCm installation commands. Check [AMD ROCm compatibility](https://rocm.docs.amd.com) for your specific GPU.
-
----
-
-## **Quick Reference Cheat Sheet**
-
-```bash
-# 1. Check GPU
-nvidia-smi
-
-# 2. Install uv (recommended)
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# 3. Create environment
-uv venv pytorch-env
-source pytorch-env/bin/activate
-
-# 4. Install PyTorch (CUDA 12.8)
-uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
-# 5. Verify
-python -c "import torch; print(f'CUDA: {torch.cuda.is_available()}')"
-
-# 6. Run benchmark
-python benchmark_gpu_cpu.py
+```python
+torch.set_float32_matmul_precision("high")
 ```
+
+**• Does PyTorch support AMD GPUs?**
+Yes, via **ROCm**. Use the ROCm build and confirm your GPU is on AMD’s ROCm compatibility list.
 
 ---
 
 ## **Need More Help?**
 
-- **PyTorch Official Docs**: https://pytorch.org/get-started/locally/
-- **uv Documentation**: https://docs.astral.sh/uv/
-- **NVIDIA CUDA Docs**: https://docs.nvidia.com/cuda/
-- **Seminar Forum**: Check your course materials
-- **GitHub Issues**: https://github.com/pytorch/pytorch/issues
+* **PyTorch Official Docs**: [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+* **uv Documentation**: [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
+* **NVIDIA CUDA Docs**: [https://docs.nvidia.com/cuda/](https://docs.nvidia.com/cuda/)
+* **GitHub Issues (PyTorch)**: [https://github.com/pytorch/pytorch/issues](https://github.com/pytorch/pytorch/issues)
 
 ---
 
-*Last Updated: 01-12-2025*
+*Last Updated: 02-12-2025*
 *GitHub Author: @mchadolias*
