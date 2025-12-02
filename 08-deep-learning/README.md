@@ -49,4 +49,5 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Peter Ernicke](https://knowmledge.com/category/courses/ml-zoomcamp/deep-learning/)
 * [Notes from Kemal Dahha](https://github.com/kemaldahha/machine-learning-course/blob/main/week_8_notes.ipynb)
 * [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/08_deep_learning/Summary_Session_08.md)
+* [Notes from Revathy Ramalingam](https://github.com/RevathyRamalingam/machineLearning/blob/main/08-DeepLearning/README.md)
 * Add your notes here
