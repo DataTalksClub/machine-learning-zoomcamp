@@ -124,7 +124,7 @@ COPY hair_classifier_empty.onnx .
 
 Note that it uses Python 3.13.
 
-The docker image is published to [`agrigorev/model-2024-hairstyle:v3`](https://hub.docker.com/r/agrigorev/model-2024-hairstyle/tags).
+The docker image is published to [`agrigorev/model-2025-hairstyle:v1`](https://hub.docker.com/r/agrigorev/model-2025-hairstyle).
 
 A few notes:
 
