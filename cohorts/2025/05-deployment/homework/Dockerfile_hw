@@ -1,0 +1,13 @@
+FROM 
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+ENV PATH="/code/.venv/bin:$PATH"
+
+COPY "pyproject.toml" "uv.lock" ".python-version" ./
+RUN uv sync --locked
+
+COPY "q6_predict.py" ./
+
+EXPOSE 9696
+
+ENTRYPOINT ["uvicorn", "q6_predict:app", "--host", "0.0.0.0", "--port", "9696"]

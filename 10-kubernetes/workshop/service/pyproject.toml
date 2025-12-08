@@ -1,0 +1,22 @@
+[project]
+name = "clothing-classifier"
+version = "0.1.0"
+description = "Clothing classification service with ONNX"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.6",
+    "keras-image-helper>=0.0.1",
+    "numpy>=2.2.1",
+    "onnxruntime>=1.20.1",
+    "uvicorn>=0.34.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "requests>=2.32.3",
+]

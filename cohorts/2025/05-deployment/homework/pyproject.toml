@@ -1,0 +1,11 @@
+[project]
+name = "homework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.119.1",
+    "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
+]

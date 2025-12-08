@@ -1,6 +1,7 @@
-## Homework [DRAFT]
+## Homework
 
-In this homework, we'll deploy the Bank Marketing model from the homework 5.
+In this homework, we'll deploy the lead scoring model from the homework 5.
+
 We already have a docker image for this model - we'll use it for 
 deploying the model to Kubernetes.
 
@@ -18,12 +19,8 @@ execute the following:
 
 
 ```bash
-docker build -t zoomcamp-model:3.11.5-hw10 .
+docker build -f Dockerfile_full -t zoomcamp-model:3.13.10-hw10 .
 ```
-
-> **Note:** If you have troubles building the image, you can 
-> use the image we built and published to docker hub:
-> `docker pull svizor/zoomcamp-model:3.11.5-hw10`
 
 
 ## Question 1
@@ -31,7 +28,7 @@ docker build -t zoomcamp-model:3.11.5-hw10 .
 Run it to test that it's working locally:
 
 ```bash
-docker run -it --rm -p 9696:9696 zoomcamp-model:3.11.5-hw10
+docker run -it --rm -p 9696:9696 zoomcamp-model:3.13.10-hw10
 ```
 
 And in another terminal, execute `q6_test.py` file:
@@ -43,15 +40,15 @@ python q6_test.py
 You should see this:
 
 ```python
-{'has_subscribed': True, 'has_subscribed_probability': <value>}
+{'conversion_probability': <value>, 'conversion': False}
 ```
 
 Here `<value>` is the probability of getting a subscription. You need to choose the right one.
 
-* 0.287
-* 0.530
-* 0.757
-* 0.960
+* 0.29
+* 0.49
+* 0.69
+* 0.89
 
 Now you can stop the container running in Docker.
 
@@ -111,7 +108,7 @@ What's the `Type` of the service that is already running there?
 
 ## Question 5
 
-To be able to use the docker image we previously created (`zoomcamp-model:3.11.5-hw10`),
+To be able to use the docker image we previously created (`zoomcamp-model:3.13.10-hw10`),
 we need to register it with `kind`.
 
 What's the command we need to run for that?
@@ -266,5 +263,5 @@ What was the maximum amount of the replicas during this test?
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw10
+* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw10
 * If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.

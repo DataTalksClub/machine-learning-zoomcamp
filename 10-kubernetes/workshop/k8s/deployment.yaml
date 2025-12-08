@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clothing-classifier
+  labels:
+    app: clothing-classifier
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: clothing-classifier
+  template:
+    metadata:
+      labels:
+        app: clothing-classifier
+    spec:
+      containers:
+      - name: clothing-classifier
+        image: clothing-classifier:v1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5
