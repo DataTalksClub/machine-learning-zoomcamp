@@ -39,7 +39,7 @@ The plan for the workshop:
 
 First, let's train a simple scikit-learn model that we will later deploy
 
-We will take the [train.py](train/train.py) script (slightly adjusted) from the [uv+FastAPI workshop](../mlzoomcamp-fastapi-uv/)
+We will take the [train.py](train/train.py) script (slightly adjusted) from the [uv+FastAPI workshop](../../05-deployment/workshop/).
 
 ```bash
 cd train

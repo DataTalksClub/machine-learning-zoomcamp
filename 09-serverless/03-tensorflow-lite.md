@@ -1,6 +1,10 @@
 
 ## 9.3 TensorFlow Lite
 
+> Note: the materials in this unit are outdated.
+> 
+> Refer to the [ONNX Workshop](workshop/) for the up-to-date materials.
+
 <a href="https://www.youtube.com/watch?v=OzZA4mSBE0Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-03.jpg"></a>
  
 TensorFlow is a relatively large framework, with an unpacked size of approximately 1.7 GB. The size of such frameworks is an important consideration for several reasons:  

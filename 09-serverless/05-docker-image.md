@@ -1,5 +1,10 @@
 ## 9.5 Preparing a Docker image
 
+> Note: the materials in this unit are outdated.
+> 
+> Refer to the [ONNX Workshop](workshop/) for the up-to-date materials.
+
+
 <a href="https://www.youtube.com/watch?v=y4_YQjfOsDo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-05.jpg"></a>
 
 

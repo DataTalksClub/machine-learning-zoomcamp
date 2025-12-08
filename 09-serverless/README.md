@@ -6,7 +6,8 @@ Use the [workshop](workshop/) for most of the content.
 The content in the module still works, but most of it is outdated
 and doesn't work with newer version of Python.
 
-The unit 9.7 could still be relevant.
+Check 9.1 and 9.2 for introduction, but for the rest of the module, 
+use the workshop materials. Also, unit 9.7 could still be relevant.
 
 - 9.1 [Introduction to Serverless](01-intro.md)
 - 9.2 [AWS Lambda](02-aws-lambda.md)

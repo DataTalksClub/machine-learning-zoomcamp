@@ -1,6 +1,11 @@
 
 ## 9.6 Creating the lambda function
 
+> Note: the materials in this unit are outdated.
+> 
+> Refer to the [ONNX Workshop](workshop/) for the up-to-date materials.
+
+
 <a href="https://www.youtube.com/watch?v=kBch5oD5BkY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-06.jpg"></a>
  
 

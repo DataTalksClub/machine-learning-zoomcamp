@@ -1,6 +1,11 @@
 
 ## 9.4 Preparing the code for Lambda
 
+> Note: the materials in this unit are outdated.
+> 
+> Refer to the [ONNX Workshop](workshop/) for the up-to-date materials.
+
+
 <a href="https://www.youtube.com/watch?v=XXBUivsHhec&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-04.jpg"></a>
  
 
