@@ -1,4 +1,5 @@
-## 11. KServe
+## 11. KServe 
+This module is outdated and is not part of the course.
 
 - 11.1 [Overview](01-overview.md)
 - 11.2 [Running KServe locally](02-kserve-local.md)
