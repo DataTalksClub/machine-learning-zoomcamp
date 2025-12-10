@@ -1,5 +1,7 @@
 ## 11. KServe
 
+The materials in this module are optional and might be outdated. If you decide to go through it and update the versions, please send a PR.
+
 - 11.1 [Overview](01-overview.md)
 - 11.2 [Running KServe locally](02-kserve-local.md)
 - 11.3 [Deploying a Scikit-Learn model with KServe](03-kserve-sklearn.md)
