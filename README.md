@@ -136,8 +136,8 @@ We summarized the key differences between the two joining options in this table:
 | **[Module 8: Neural Networks & Deep Learning](08-deep-learning/)** | Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning. | • Neural network fundamentals<br>• PyTorch<br>• TensorFlow & Keras<br>• Convolutional Neural Networks<br>• Transfer learning<br>• Model optimization |
 | **[Module 9: Serverless Deep Learning](09-serverless/)** | Deploy deep learning models using serverless technologies like AWS Lambda. | • Serverless concepts<br>• Deploying Scikit-Learn models with AWS Lambda<br>• Deploying TensorFlow and PyTorch models with AWS Lambda<br>• API Gateway |
 | **[Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)** | Learn to serve ML models at scale using Kubernetes and TensorFlow Serving. | • Kubernetes basics<br>• TensorFlow Serving<br>• Model deployment and scaling<br>• Load balancing |
-| **[Capstone project 1](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-1)** |  |  |
-| **[Capstone project 2](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-2-optional)** |  |  |
+| **[Capstone project 1](projects/)** |  |  |
+| **[Capstone project 2](projects/)** |  |  |
 
 ### Projects
 
@@ -145,8 +145,8 @@ Choose a problem that interests you, find a suitable dataset, develop your model
 
 There will be 3 projects:
 1. [Midterm Project](projects/) after [Module 6: Decision Trees & Ensemble Learning](06-trees/)
-2. [Capstone project 1](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-1) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
-3. [Capstone project 2](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master#capstone-project-2-optional) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
+2. [Capstone project 1](projects/) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
+3. [Capstone project 2](projects/) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
 
 These projects allow you to apply everything you've learned and make a great addition to your GitHub profile and portfolio.
 
