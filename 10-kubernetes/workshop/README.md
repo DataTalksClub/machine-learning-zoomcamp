@@ -378,7 +378,7 @@ When we deploy to EKS or some other Kubernetes in the cloud, it won't be a probl
 
 Kubernetes can automatically scale your application based on CPU or memory usage.
 
-TODO descibe what HPA is and give a simple example
+TODO describe what HPA is and give a simple example
 
 First, we need metrics-server for HPA to work. Install it in kubectl:
 
@@ -386,7 +386,7 @@ First, we need metrics-server for HPA to work. Install it in kubectl:
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
 
-TODO describe what mestrics-server is 
+TODO describe what metrics-server is 
 
 For Kind, we need to patch metrics-server to work without TLS:
 
