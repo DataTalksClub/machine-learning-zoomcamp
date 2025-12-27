@@ -63,7 +63,7 @@ docker run -it --rm \
 - -e MODEL_NAME="clothing-model" (set environment variable for docker image)
 - tensorflow/serving:2.7.0 (name of the image to run)
 
-Tensorflow uses specical serving called `gRPC` protocol which is optimized to use binary data format. We need to convert our prediction into `protobuf`.
+Tensorflow uses special serving called `gRPC` protocol which is optimized to use binary data format. We need to convert our prediction into `protobuf`.
 
 
 ## Notes
@@ -88,3 +88,4 @@ Add notes from the video (PRs are welcome)
 * [Session 10: Kubernetes and TensorFlow Serving](./)
 * Previous: [Overview](01-overview.md)
 * Next: [Creating a pre-processing service](03-preprocessing.md)
+
