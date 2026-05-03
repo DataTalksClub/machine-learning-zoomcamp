@@ -18,6 +18,15 @@ This is what you need to do for each project
 * Put your model into a web service and deploy it locally with Docker
 * Bonus points for deploying the service to the cloud
 
+## Datasets you cannot use
+
+The following datasets are used in the course modules and homework. They cannot be used for your project. Pick something else.
+
+* Car price prediction (Module 2 - Linear Regression)
+* Customer churn / Telco churn (Module 3 - Binary Classification)
+* Credit risk scoring (Module 6 - Tree-Based Models)
+* Clothing classification (Modules 8, 9, 10 - Deep Learning, Serverless, Kubernetes)
+
 ## Videos
 
 [Submit and evaluate Zoomcamp projects 🎥](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
