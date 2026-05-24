@@ -91,7 +91,7 @@ Complete homework assignments: homework and solutions are available on the [cour
 
 ### Option 2: Live Cohort
 
-> **2025 Cohort:** Starts September 15. Register here: [Fill in this form](https://airtable.com/shryxwLd0COOEaqXo)
+> **2026 Cohort:** Starts in September. Register here: [Fill in this form](https://airtable.com/shryxwLd0COOEaqXo)
 
 Runs once per year (September–December).
 
