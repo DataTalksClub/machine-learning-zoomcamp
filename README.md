@@ -212,7 +212,7 @@ To receive a certificate, you'll need to complete and submit two projects:
 
 ### Community Guidelines
 - Check the [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html) first
-- Follow our [question guidelines](asking-questions.md)
+- Follow our [question guidelines](https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/)
 - Be helpful and respectful
 - Share your learning journey
 
