@@ -283,6 +283,22 @@ Learn more: [Learning in Public](learning-in-public.md).
 
 Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
+## FAQ
+
+A few common questions. For everything else, see the full [Machine Learning Zoomcamp FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html).
+
+Q: Is this course really free?<br/>
+A: Yes. All videos, materials, and homework are free and open-source.
+
+Q: Do I need prior machine learning experience?<br/>
+A: No. The course starts from the basics. You just need about a year of programming experience and comfort with the command line.
+
+Q: What does "live cohort" mean? Are there live classes?<br/>
+A: No mandatory live classes. All lectures are pre-recorded. "Live" means deadlines, scored homework, a leaderboard, peer review, and certificate eligibility.
+
+Q: Can I take it self-paced, and will I get a certificate?<br/>
+A: Yes, you can start anytime. Certificates require completing two projects and the peer reviews during a live cohort.
+
 ## About DataTalks.Club
 
 <p align="center">
