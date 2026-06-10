@@ -301,7 +301,7 @@ Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalk
 <a href="https://www.youtube.com/@DataTalksClub/featured">YouTube</a> •
 <a href="https://github.com/DataTalksClub">GitHub</a> •
 <a href="https://www.linkedin.com/company/datatalks-club/">LinkedIn</a> •
-<a href="https://twitter.com/DataTalksClub">Twitter</a>
+<a href="https://x.com/DataTalksClub">X</a>
 </p>
 
 All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
