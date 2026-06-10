@@ -71,84 +71,130 @@ Technical setup: for the machine learning modules, you only need a laptop with a
 
 ## How to Take the Course
 
-You can join ML Zoomcamp either by following a live cohort or learning at your own pace.
+There are two ways to follow the course: live and self-paced.
 
-All materials are freely available in this repository. Each module has its own folder (e.g., `01-intro`, `03-classification`), and cohort-specific homework and deadlines are in the `cohorts` directory. Lectures are pre-recorded and available in this [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR).
+| | Live Cohort | Self-Paced |
+|-|-|-|
+| Start | September 2026 | Anytime |
+| Lectures | Pre-recorded | Pre-recorded |
+| Homework | Graded | Available but not scored |
+| Leaderboard | ✅ Yes | ❌ No |
+| Peer Review | ✅ Yes | ❌ No |
+| Certificate | ✅ Yes | ❌ No |
+| Cost | Free | Free |
+| Register | [Sign up here](https://airtable.com/shryxwLd0COOEaqXo) | Just start learning! |
 
-```mermaid
-flowchart TD
-    A["Want to learn Machine Learning Zoomcamp"] --> B{"Do you want<br/>deadlines & a certificate?"}
+> [!IMPORTANT]
+> "Live cohort" does not mean live classes. All lectures are pre-recorded. "Live" means working alongside others with deadlines, scored homework, a leaderboard, peer review, and a certificate at the end. The live cohort runs once per year (September to December).
 
-    B -->|Yes| C["Join Live Cohort"]
-    B -->|No / Not sure| D["Self-Paced Learning"]
+To earn a certificate, you'll complete two [projects](#projects) (midterm + capstone, or two capstones) and the required peer reviews during a live cohort.
 
-    C --> C1["Fixed schedule (Sept–Dec)"]
-    C --> C2["Scored homework + leaderboard"]
-    C --> C3["2 projects + peer review"]
-    C --> C4["Eligible for certificate"]
+Self-paced steps:
 
-    D --> D1["Start anytime, go at your own pace"]
-    D --> D2["Unscored homework & optional projects"]
-    D --> D3["No certificate"]
-```
-
-### Live Cohort
-
-2026 Cohort: starts in September. Register here: [Fill in this form](https://airtable.com/shryxwLd0COOEaqXo)
-
-Runs once per year (September–December). Includes:
-
-- Updated homework
-- Automatic homework scoring and a leaderboard
-- Project peer review
-- Eligibility for a certificate after meeting all requirements
-
-Even if you join after the official start date, you can still follow along, but note that some homework forms may already be closed. All active deadlines are listed on the [course platform](https://courses.datatalks.club).
-
-To earn a [certificate](#certificate), you'll need enough time to complete two [projects](#projects) and the required peer reviews. Details are in the Projects and Certificate sections.
-
-### Self-Paced
-
-Start anytime. You get full access to materials and community support on Slack.
-
-Complete homework assignments: homework and solutions are available on the [course platform](https://courses.datatalks.club). Build a project for your portfolio.
-
-> Under self-paced learning, homework isn't scored, your project isn't peer-reviewed, and you can't earn a certificate.
-
-### Comparison
-
-We summarized the key differences between the two joining options in this table:
-
-| Feature | Self-Paced | Live Cohort |
-|---------|------------|-------------|
-| Timing | Learn at your own pace, start anytime | Fixed 4-month schedule (September–December each year) |
-| Course Materials | Full access to GitHub repository and YouTube lectures | Full access to GitHub repository and YouTube lectures |
-| Community | Access to Slack community (`#course-ml-zoomcamp`) | Access to Slack community (`#course-ml-zoomcamp`) |
-| Homework | Available but not scored | Scored automatically, appears on leaderboard |
-| Projects | Build on your own, no evaluation | Submit 2 projects (midterm + capstone OR two capstones) with peer review |
-| Certificate | Not available | Available after completing projects and peer reviews |
-| Structure | Flexible, no deadlines | Weekly rhythm with deadlines and peer accountability |
-
-<p align="center">
-Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2026 cohort</a> or <a href="01-intro/">start with Module 1</a>
-</p>
+1. Follow the materials on [GitHub](https://github.com/DataTalksClub/machine-learning-zoomcamp)
+2. Ask questions and share progress in [Slack](https://datatalks.club/slack.html)
+3. Do the homework (self-checked) and build a project for your portfolio
 
 ## Syllabus
 
-| Module | Description | Topics |
-|--------|-------------|--------|
-| [Module 1: Introduction to Machine Learning](01-intro/) | Learn the fundamentals: what ML is, when to use it, and how to approach ML problems using the CRISP-DM framework. | • ML vs rule-based systems<br>• Supervised learning basics<br>• CRISP-DM methodology<br>• Model selection concepts<br>• Environment setup |
-| [Module 2: Machine Learning for Regression](02-regression/) | Build a car price prediction model while learning linear regression, feature engineering, and regularization. | • Linear regression (from scratch and with scikit-learn)<br>• Exploratory data analysis<br>• Feature engineering<br>• Regularization techniques<br>• Model validation |
-| [Module 3: Machine Learning for Classification](03-classification/) | Create a customer churn prediction system using logistic regression and learn about feature selection. | • Logistic regression<br>• Feature importance and selection<br>• Categorical variable encoding<br>• Model interpretation |
-| [Module 4: Evaluation Metrics for Classification](04-evaluation/) | Learn how to properly evaluate classification models and handle imbalanced datasets. | • Accuracy, precision, recall, F1-score<br>• ROC curves and AUC<br>• Cross-validation<br>• Confusion matrices<br>• Class imbalance handling |
-| [Module 5: Deploying Machine Learning Models](05-deployment/) | Turn your models into web services and deploy them with Docker and cloud platforms. | • Model serialization with Pickle<br>• FastAPI web services<br>• Docker containerization<br>• Cloud deployment |
-| [Module 6: Decision Trees & Ensemble Learning](06-trees/) | Learn tree-based models and ensemble methods for better predictions. | • Decision trees<br>• Random Forest<br>• Gradient boosting (XGBoost)<br>• Hyperparameter tuning<br>• Feature importance |
-| [Midterm Project](projects/) |  |  |
-| [Module 8: Neural Networks & Deep Learning](08-deep-learning/) | Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning. | • Neural network fundamentals<br>• PyTorch<br>• TensorFlow & Keras<br>• Convolutional Neural Networks<br>• Transfer learning<br>• Model optimization |
-| [Module 9: Serverless Deep Learning](09-serverless/) | Deploy deep learning models using serverless technologies like AWS Lambda. | • Serverless concepts<br>• Deploying Scikit-Learn models with AWS Lambda<br>• Deploying TensorFlow and PyTorch models with AWS Lambda<br>• API Gateway |
-| [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/) | Learn to serve ML models at scale using Kubernetes and TensorFlow Serving. | • Kubernetes basics<br>• TensorFlow Serving<br>• Model deployment and scaling<br>• Load balancing |
-| [Capstone project 1](projects/) |  |  |
-| [Capstone project 2](projects/) |  |  |
+### [Module 1: Introduction to Machine Learning](01-intro/)
+
+Learn the fundamentals: what ML is, when to use it, and how to approach ML problems using the CRISP-DM framework.
+
+- ML vs rule-based systems
+- Supervised learning basics
+- CRISP-DM methodology
+- Model selection concepts
+- Environment setup
+
+### [Module 2: Machine Learning for Regression](02-regression/)
+
+Build a car price prediction model while learning linear regression, feature engineering, and regularization.
+
+- Linear regression (from scratch and with scikit-learn)
+- Exploratory data analysis
+- Feature engineering
+- Regularization techniques
+- Model validation
+
+### [Module 3: Machine Learning for Classification](03-classification/)
+
+Create a customer churn prediction system using logistic regression and learn about feature selection.
+
+- Logistic regression
+- Feature importance and selection
+- Categorical variable encoding
+- Model interpretation
+
+### [Module 4: Evaluation Metrics for Classification](04-evaluation/)
+
+Learn how to properly evaluate classification models and handle imbalanced datasets.
+
+- Accuracy, precision, recall, F1-score
+- ROC curves and AUC
+- Cross-validation
+- Confusion matrices
+- Class imbalance handling
+
+### [Module 5: Deploying Machine Learning Models](05-deployment/)
+
+Turn your models into web services and deploy them with Docker and cloud platforms.
+
+- Model serialization with Pickle
+- FastAPI web services
+- Docker containerization
+- Cloud deployment
+
+### [Module 6: Decision Trees & Ensemble Learning](06-trees/)
+
+Learn tree-based models and ensemble methods for better predictions.
+
+- Decision trees
+- Random Forest
+- Gradient boosting (XGBoost)
+- Hyperparameter tuning
+- Feature importance
+
+### [Midterm Project](projects/)
+
+Apply Modules 1-6 in an end-to-end project: pick a dataset, train a model, and deploy it as a web service.
+
+### [Module 8: Neural Networks & Deep Learning](08-deep-learning/)
+
+Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning.
+
+- Neural network fundamentals
+- PyTorch
+- TensorFlow & Keras
+- Convolutional Neural Networks
+- Transfer learning
+- Model optimization
+
+### [Module 9: Serverless Deep Learning](09-serverless/)
+
+Deploy deep learning models using serverless technologies like AWS Lambda.
+
+- Serverless concepts
+- Deploying Scikit-Learn models with AWS Lambda
+- Deploying TensorFlow and PyTorch models with AWS Lambda
+- API Gateway
+
+### [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
+
+Learn to serve ML models at scale using Kubernetes and TensorFlow Serving.
+
+- Kubernetes basics
+- TensorFlow Serving
+- Model deployment and scaling
+- Load balancing
+
+### [Capstone Project 1](projects/)
+
+A larger end-to-end project at the end of the course, after Module 10.
+
+### [Capstone Project 2](projects/)
+
+An optional second capstone, which together with the midterm or first capstone counts toward your two required projects.
 
 ## Projects
 
@@ -186,6 +232,8 @@ To receive a certificate, you'll need to complete and submit two projects:
 1. Complete two projects: submit either a midterm project and a capstone project, OR two capstone projects
 2. Submit on time: meet the project submission deadlines to qualify for certification
 3. Peer review: evaluate and provide feedback on 3 fellow students' projects during the peer review process
+
+See the [certificate guide](https://datatalks.club/docs/courses/zoomcamp-logistics/certification/) for how the certificate is issued and how to add it to LinkedIn.
 
 ## Testimonials
 
