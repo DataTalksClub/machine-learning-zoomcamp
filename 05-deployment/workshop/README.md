@@ -2,7 +2,7 @@
 
 * Video: https://www.youtube.com/watch?v=jzGzw98Eikk
 
-In this workshop we will revise [Module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/05-deployment) of 
+In this workshop we will revise [Module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment) of 
 [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
 
 In particular, we will introduce more modern tools:
@@ -167,7 +167,7 @@ pip install fastapi uvicorn
 
 The simplest FastAPI app
 ([created with ChatGPT](https://chatgpt.com/share/6899dc68-03a8-800a-8bd8-9f2218f103e6)
-by translating [the old Flask code](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/code/ping.py)).
+by translating [the old Flask code](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/code/ping.py)).
 
 Let's put it to `ping.py`:
 
@@ -494,7 +494,7 @@ It works now but we can have version conflicts with
 other projects. So we need to isolate this project from the others.
 
 We will not go into theoretical details about why you want to use
-virtual environments. Check [module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/05-pipenv.md) for more information
+virtual environments. Check [module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/05-pipenv.md) for more information
 
 For that, we will use [`uv`](https://docs.astral.sh/uv/) -- a tool 
 for dependency and environment management
@@ -560,9 +560,9 @@ uv sync
 
 Let's use Docker for complete isolation.
 If you want to learn more about Docker, check
-[module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/06-docker.md).
+[module 5](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/06-docker.md).
 
-In this workshop, we will adjust the [Dockerfile](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/code/Dockerfile)
+In this workshop, we will adjust the [Dockerfile](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/code/Dockerfile)
 we created in the module.
 
 First, we need to decide, which Python version we need. You can check 

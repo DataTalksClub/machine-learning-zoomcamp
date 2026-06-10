@@ -55,12 +55,12 @@ pipeline.fit(train_dict, y_train)
 
 > **Note**: You don't need to train the model. This code is just for your reference.
 
-And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2025/05-deployment/pipeline_v1.bin).
+And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2025/05-deployment/pipeline_v1.bin).
 
 With `wget`:
 
 ```bash
-wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/master/cohorts/2025/05-deployment/pipeline_v1.bin
+wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/main/cohorts/2025/05-deployment/pipeline_v1.bin
 ```
 
 
@@ -122,7 +122,7 @@ What's the probability that this client will get a subscription?
 
 ## Docker
 
-Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/06-docker.md). 
+Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/06-docker.md). 
 We will use it for the next two questions.
 
 For these questions, we prepared a base image: `agrigorev/zoomcamp-model:2025`. 

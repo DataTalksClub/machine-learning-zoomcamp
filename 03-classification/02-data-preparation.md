@@ -25,7 +25,7 @@ This session covered data obtention and some procedures of data preparation.
 * `df.fillna()` - replace NAs with some value 
 * `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/03-classification/notebook.ipynb).
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb).
 
 
 <table>

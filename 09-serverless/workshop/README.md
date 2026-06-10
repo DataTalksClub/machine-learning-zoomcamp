@@ -2,7 +2,7 @@
 
 * Video: https://www.youtube.com/watch?v=sHQaeVm5hT8
 
-In this workshop we will revise [he Serverless module (Module 9)](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/09-serverless) of 
+In this workshop we will revise [he Serverless module (Module 9)](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless) of 
 [Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
 
 In the module, we
@@ -154,7 +154,7 @@ result = json.loads(response['Payload'].read())
 print(json.dumps(result, indent=2))
 ```
 
-You can also expose it as a web service (see [unit 9.7 about API Gateway](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/09-serverless/07-api-gateway.md)).
+You can also expose it as a web service (see [unit 9.7 about API Gateway](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/09-serverless/07-api-gateway.md)).
 
 
 ## AWS Lambda with Docker: Running Locally

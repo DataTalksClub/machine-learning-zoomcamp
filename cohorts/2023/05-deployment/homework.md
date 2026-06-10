@@ -45,13 +45,13 @@ model = LogisticRegression().fit(X, y)
 
 And then saved with Pickle. Download them:
 
-* [DictVectorizer](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2023/05-deployment/homework/dv.bin?raw=true)
-* [LogisticRegression](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/cohorts/2023/05-deployment/homework/model1.bin?raw=true)
+* [DictVectorizer](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2023/05-deployment/homework/dv.bin?raw=true)
+* [LogisticRegression](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2023/05-deployment/homework/model1.bin?raw=true)
 
 With `wget`:
 
 ```bash
-PREFIX=https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/master/cohorts/2023/05-deployment/homework
+PREFIX=https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2023/05-deployment/homework
 wget $PREFIX/model1.bin
 wget $PREFIX/dv.bin
 ```
@@ -108,7 +108,7 @@ What's the probability that this client will get a credit?
 
 ## Docker
 
-Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/05-deployment/06-docker.md). 
+Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/06-docker.md). 
 We will use it for the next two questions.
 
 For these questions, we prepared a base image: `svizor/zoomcamp-model:3.10.12-slim`. 
