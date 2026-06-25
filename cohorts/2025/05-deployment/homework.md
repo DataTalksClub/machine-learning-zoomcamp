@@ -55,12 +55,12 @@ pipeline.fit(train_dict, y_train)
 
 > **Note**: You don't need to train the model. This code is just for your reference.
 
-And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2025/05-deployment/pipeline_v1.bin).
+And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2025/05-deployment/homework/pipeline_v1.bin).
 
 With `wget`:
 
 ```bash
-wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/main/cohorts/2025/05-deployment/pipeline_v1.bin
+wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/main/cohorts/2025/05-deployment/homework/pipeline_v1.bin
 ```
 
 
