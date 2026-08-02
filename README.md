@@ -15,7 +15,7 @@ Build regression and classification models in Python, work with key algorithms l
 </p>
 
 <p align="center">
-<a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+<a href="https://courses.datatalks.club/register/ml-zoomcamp/"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
 </p>
 
 <p align="center">
@@ -39,7 +39,8 @@ Build regression and classification models in Python, work with key algorithms l
 | Course materials | [GitHub repository](https://github.com/DataTalksClub/machine-learning-zoomcamp) |
 | Video lectures | [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR) |
 | Documentation | [Zoomcamp Logistics](https://datatalks.club/docs/courses/zoomcamp-logistics/) · [ML Zoomcamp](https://datatalks.club/docs/courses/ml-zoomcamp/) |
-| Course platform (deadlines, homework) | [courses.datatalks.club](https://courses.datatalks.club/) |
+| Current cohort (2026) | [Syllabus and deadlines](cohorts/2026/) |
+| Course platform (deadlines, homework) | [ml-zoomcamp-2026](https://courses.datatalks.club/ml-zoomcamp-2026/) |
 | Slack channel | [#course-ml-zoomcamp](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) |
 | Announcements | [Telegram](https://t.me/mlzoomcamp) |
 | FAQ | [FAQ document](https://datatalks.club/faq/machine-learning-zoomcamp.html) |
@@ -75,17 +76,17 @@ There are two ways to follow the course: live and self-paced.
 
 | | Live Cohort | Self-Paced |
 |-|-|-|
-| Start | September 2026 | Anytime |
+| Start | 14 September 2026 | Anytime |
 | Lectures | Pre-recorded | Pre-recorded |
 | Homework | Graded | Available but not scored |
 | Leaderboard | ✅ Yes | ❌ No |
 | Peer Review | ✅ Yes | ❌ No |
 | Certificate | ✅ Yes | ❌ No |
 | Cost | Free | Free |
-| Register | [Sign up here](https://airtable.com/shryxwLd0COOEaqXo) | Just start learning! |
+| Register | [Sign up here](https://courses.datatalks.club/register/ml-zoomcamp/) | Just start learning! |
 
 > [!IMPORTANT]
-> "Live cohort" does not mean live classes. All lectures are pre-recorded. "Live" means working alongside others with deadlines, scored homework, a leaderboard, peer review, and a certificate at the end. The live cohort runs once per year (September to December).
+> "Live cohort" does not mean live classes. All lectures are pre-recorded. "Live" means working alongside others with deadlines, scored homework, a leaderboard, peer review, and a certificate at the end. The live cohort runs once per year: modules run from September to December, and the capstone projects finish in January.
 
 To earn a certificate, you'll complete two [projects](#projects) (midterm + capstone, or two capstones) and the required peer reviews during a live cohort.
 
