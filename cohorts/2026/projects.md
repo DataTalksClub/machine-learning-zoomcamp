@@ -10,8 +10,14 @@ Evaluation via [course management system](https://courses.datatalks.club/ml-zoom
 * [Video with instructions](https://www.loom.com/share/4f5c155c550e48ddb54b71ba76516b04)
 
 
-Links for submitting:
+## Midterm project
 
-- [Midterm](https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm)
-- [Capstone 1](https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1)
-- [Capstone 2](https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2)
+* [Submit here](https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm)
+
+## Capstone 1
+
+* [Submit here](https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1)
+
+## Capstone 2
+
+* [Submit here](https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2)
