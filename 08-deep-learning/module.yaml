@@ -1,0 +1,49 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000007
+title: "Neural Networks and Deep Learning"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000701
+    title: "8.1 Fashion classification"
+    path: 01-fashion-classification.md
+  - content_id: 40000000-0000-4000-8000-000000000702
+    title: "8.2 TensorFlow and Keras"
+    path: 02-tensorflow-keras.md
+  - content_id: 40000000-0000-4000-8000-000000000703
+    title: "8.3 Pre-trained convolutional neural networks"
+    path: 03-pretrained-models.md
+  - content_id: 40000000-0000-4000-8000-000000000704
+    title: "8.4 Convolutional neural networks"
+    path: 04-conv-neural-nets.md
+  - content_id: 40000000-0000-4000-8000-000000000705
+    title: "8.5 Transfer learning"
+    path: 05-transfer-learning.md
+  - content_id: 40000000-0000-4000-8000-000000000706
+    title: "8.6 Adjusting the learning rate"
+    path: 06-learning-rate.md
+  - content_id: 40000000-0000-4000-8000-000000000707
+    title: "8.7 Checkpointing"
+    path: 07-checkpointing.md
+  - content_id: 40000000-0000-4000-8000-000000000708
+    title: "8.8 Adding more layers"
+    path: 08-more-layers.md
+  - content_id: 40000000-0000-4000-8000-000000000709
+    title: "8.9 Regularization and dropout"
+    path: 09-dropout.md
+  - content_id: 40000000-0000-4000-8000-000000000710
+    title: "8.10 Data augmentation"
+    path: 10-augmentation.md
+  - content_id: 40000000-0000-4000-8000-000000000711
+    title: "8.11 Training a larger model"
+    path: 11-large-model.md
+  - content_id: 40000000-0000-4000-8000-000000000712
+    title: "8.12 Using the model"
+    path: 12-using-model.md
+  - content_id: 40000000-0000-4000-8000-000000000713
+    title: "8.13 Summary"
+    path: 13-summary.md
+  - content_id: 40000000-0000-4000-8000-000000000714
+    title: "8.14 Explore more"
+    path: 14-explore-more.md
+  - content_id: 40000000-0000-4000-8000-000000000715
+    title: "Installation of TensorFlow"
+    path: install.md

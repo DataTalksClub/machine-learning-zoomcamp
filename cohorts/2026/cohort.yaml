@@ -1,0 +1,40 @@
+schema_version: 1
+content_id: 20000000-0000-4000-8000-000000000001
+course: ml-zoomcamp
+identifier: "2026"
+legacy_slug: ml-zoomcamp-2026
+year: 2026
+title: ML Zoomcamp 2026
+description: The 2026 live delivery of Machine Learning Zoomcamp.
+format: modules
+published: true
+start_date: 2026-09-14
+end_date: 2027-01-25
+flow:
+  - module:
+      source: 01-intro/module.yaml
+      homework: cohorts/2026/01-intro/homework.yaml
+  - module:
+      source: 02-regression/module.yaml
+      homework: cohorts/2026/02-regression/homework.yaml
+  - module:
+      source: 03-classification/module.yaml
+      homework: cohorts/2026/03-classification/homework.yaml
+  - module:
+      source: 04-evaluation/module.yaml
+      homework: cohorts/2026/04-evaluation/homework.yaml
+  - module:
+      source: 05-deployment/module.yaml
+      homework: cohorts/2026/05-deployment/homework.yaml
+  - module:
+      source: 06-trees/module.yaml
+      homework: cohorts/2026/06-trees/homework.yaml
+  - module:
+      source: 08-deep-learning/module.yaml
+      homework: cohorts/2026/08-deep-learning/homework.yaml
+  - module:
+      source: 09-serverless/module.yaml
+      homework: cohorts/2026/09-serverless/homework.yaml
+  - module:
+      source: 10-kubernetes/module.yaml
+      homework: cohorts/2026/10-kubernetes/homework.yaml

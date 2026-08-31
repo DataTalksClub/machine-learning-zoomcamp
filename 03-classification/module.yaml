@@ -1,0 +1,46 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000003
+title: "Machine Learning for Classification"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000301
+    title: "3.1 Churn prediction project"
+    path: 01-churn-project.md
+  - content_id: 40000000-0000-4000-8000-000000000302
+    title: "3.2 Data preparation"
+    path: 02-data-preparation.md
+  - content_id: 40000000-0000-4000-8000-000000000303
+    title: "3.3 Setting up the validation framework"
+    path: 03-validation.md
+  - content_id: 40000000-0000-4000-8000-000000000304
+    title: "3.4 EDA"
+    path: 04-eda.md
+  - content_id: 40000000-0000-4000-8000-000000000305
+    title: "3.5 Feature importance: Churn rate and risk ratio"
+    path: 05-risk.md
+  - content_id: 40000000-0000-4000-8000-000000000306
+    title: "3.6 Feature importance: Mutual information"
+    path: 06-mutual-info.md
+  - content_id: 40000000-0000-4000-8000-000000000307
+    title: "3.7 Feature importance: Correlation"
+    path: 07-correlation.md
+  - content_id: 40000000-0000-4000-8000-000000000308
+    title: "3.8 One-hot encoding"
+    path: 08-ohe.md
+  - content_id: 40000000-0000-4000-8000-000000000309
+    title: "3.9 Logistic regression"
+    path: 09-logistic-regression.md
+  - content_id: 40000000-0000-4000-8000-000000000310
+    title: "3.10 Training logistic regression with Scikit-Learn"
+    path: 10-training-log-reg.md
+  - content_id: 40000000-0000-4000-8000-000000000311
+    title: "3.11 Model interpretation"
+    path: 11-log-reg-interpretation.md
+  - content_id: 40000000-0000-4000-8000-000000000312
+    title: "3.12 Using the model"
+    path: 12-using-log-reg.md
+  - content_id: 40000000-0000-4000-8000-000000000313
+    title: "3.13 Summary"
+    path: 13-summary.md
+  - content_id: 40000000-0000-4000-8000-000000000314
+    title: "3.14 Explore more"
+    path: 14-explore-more.md

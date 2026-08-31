@@ -1,0 +1,37 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000006
+title: "Decision Trees and Ensemble Learning"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000601
+    title: "6.1 Credit risk scoring project"
+    path: 01-credit-risk.md
+  - content_id: 40000000-0000-4000-8000-000000000602
+    title: "6.2 Data cleaning and preparation"
+    path: 02-data-prep.md
+  - content_id: 40000000-0000-4000-8000-000000000603
+    title: "6.3 Decision trees"
+    path: 03-decision-trees.md
+  - content_id: 40000000-0000-4000-8000-000000000604
+    title: "6.4 Decision tree learning algorithm"
+    path: 04-decision-tree-learning.md
+  - content_id: 40000000-0000-4000-8000-000000000605
+    title: "6.5 Decision trees parameter tuning"
+    path: 05-decision-tree-tuning.md
+  - content_id: 40000000-0000-4000-8000-000000000606
+    title: "6.6 Ensemble learning and random forest"
+    path: 06-random-forest.md
+  - content_id: 40000000-0000-4000-8000-000000000607
+    title: "6.7 Gradient boosting and XGBoost"
+    path: 07-boosting.md
+  - content_id: 40000000-0000-4000-8000-000000000608
+    title: "6.8 XGBoost parameter tuning"
+    path: 08-xgb-tuning.md
+  - content_id: 40000000-0000-4000-8000-000000000609
+    title: "6.9 Selecting the best model"
+    path: 09-final-model.md
+  - content_id: 40000000-0000-4000-8000-000000000610
+    title: "6.10 Summary"
+    path: 10-summary.md
+  - content_id: 40000000-0000-4000-8000-000000000611
+    title: "6.11 Explore more"
+    path: 11-explore-more.md

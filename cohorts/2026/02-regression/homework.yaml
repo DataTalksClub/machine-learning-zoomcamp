@@ -1,0 +1,20 @@
+schema_version: 1
+content_id: 50000000-0000-4000-8000-000000000002
+slug: hw02
+title: "Homework 2: Machine Learning for Regression"
+instructions_path: homework.md
+due_at: 2026-09-28T23:00:00Z
+initial_state: open
+form:
+  homework_url: true
+  time_spent_lectures: true
+  time_spent_homework: true
+  faq_contribution: true
+  learning_in_public_cap: 7
+questions:
+  - content_id: 60000000-0000-4000-8000-000000000002
+    id: reflection
+    type: free_form_long
+    answer_type: any
+    prompt: Describe one practical idea you took from this module.
+    points: 0

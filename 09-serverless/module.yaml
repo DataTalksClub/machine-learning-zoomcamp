@@ -1,0 +1,34 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000008
+title: "Serverless Deep Learning"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000801
+    title: "9.1 Introduction to Serverless"
+    path: 01-intro.md
+  - content_id: 40000000-0000-4000-8000-000000000802
+    title: "9.2 AWS Lambda"
+    path: 02-aws-lambda.md
+  - content_id: 40000000-0000-4000-8000-000000000803
+    title: "9.3 TensorFlow Lite"
+    path: 03-tensorflow-lite.md
+  - content_id: 40000000-0000-4000-8000-000000000804
+    title: "9.4 Preparing the code for Lambda"
+    path: 04-preparing-code.md
+  - content_id: 40000000-0000-4000-8000-000000000805
+    title: "9.5 Preparing a Docker image"
+    path: 05-docker-image.md
+  - content_id: 40000000-0000-4000-8000-000000000806
+    title: "9.6 Creating the lambda function"
+    path: 06-creating-lambda.md
+  - content_id: 40000000-0000-4000-8000-000000000807
+    title: "9.7 API Gateway: exposing the lambda function"
+    path: 07-api-gateway.md
+  - content_id: 40000000-0000-4000-8000-000000000808
+    title: "9.8 Summary"
+    path: 08-summary.md
+  - content_id: 40000000-0000-4000-8000-000000000809
+    title: "9.9 Explore more"
+    path: 09-explore-more.md
+  - content_id: 40000000-0000-4000-8000-000000000810
+    title: "Python 3.12 vs TF Lite 2.17"
+    path: updates.md

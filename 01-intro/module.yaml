@@ -1,0 +1,34 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000001
+title: "Introduction to Machine Learning"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000101
+    title: "1.1 Introduction to Machine Learning"
+    path: 01-what-is-ml.md
+  - content_id: 40000000-0000-4000-8000-000000000102
+    title: "1.2 ML vs Rule-Based Systems"
+    path: 02-ml-vs-rules.md
+  - content_id: 40000000-0000-4000-8000-000000000103
+    title: "1.3 Supervised Machine Learning"
+    path: 03-supervised-ml.md
+  - content_id: 40000000-0000-4000-8000-000000000104
+    title: "1.4 CRISP-DM"
+    path: 04-crisp-dm.md
+  - content_id: 40000000-0000-4000-8000-000000000105
+    title: "1.5 Model Selection Process"
+    path: 05-model-selection.md
+  - content_id: 40000000-0000-4000-8000-000000000106
+    title: "Setting up the Environment"
+    path: 06-environment.md
+  - content_id: 40000000-0000-4000-8000-000000000107
+    title: "1.7 Introduction to NumPy"
+    path: 07-numpy.md
+  - content_id: 40000000-0000-4000-8000-000000000108
+    title: "1.8 Linear Algebra Refresher"
+    path: 08-linear-algebra.md
+  - content_id: 40000000-0000-4000-8000-000000000109
+    title: "1.9 Introduction to Pandas"
+    path: 09-pandas.md
+  - content_id: 40000000-0000-4000-8000-000000000110
+    title: "1.10 Summary"
+    path: 10-summary.md

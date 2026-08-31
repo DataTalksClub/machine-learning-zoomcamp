@@ -1,0 +1,75 @@
+name: Notify course platform
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  notify-course-platform:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send authenticated push event
+        env:
+          WEBHOOK_URL: ${{ secrets.COURSE_REPOSITORY_WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.COURSE_REPOSITORY_WEBHOOK_SECRET }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          : "${WEBHOOK_URL:?COURSE_REPOSITORY_WEBHOOK_URL is not configured}"
+          : "${WEBHOOK_SECRET:?COURSE_REPOSITORY_WEBHOOK_SECRET is not configured}"
+          : "${GITHUB_EVENT_PATH:?GitHub event payload is unavailable}"
+
+          delivery_id="$({
+            printf '%s' "${GITHUB_REPOSITORY}:${GITHUB_RUN_ID}:${GITHUB_RUN_ATTEMPT}:${GITHUB_SHA}"
+          } | sha256sum | cut -d' ' -f1)"
+          signature="$({
+            python3 - <<'PY'
+          import hashlib
+          import hmac
+          import os
+
+          with open(os.environ["GITHUB_EVENT_PATH"], "rb") as payload_file:
+              payload = payload_file.read()
+          secret = os.environ["WEBHOOK_SECRET"].encode("utf-8")
+          print(hmac.new(secret, payload, hashlib.sha256).hexdigest())
+          PY
+          })"
+
+          if ! http_code="$({
+            curl \
+              --silent \
+              --fail \
+              --retry 4 \
+              --retry-all-errors \
+              --retry-delay 2 \
+              --retry-max-time 90 \
+              --connect-timeout 10 \
+              --max-time 60 \
+              --request POST \
+              --header 'Content-Type: application/json' \
+              --header 'X-GitHub-Event: push' \
+              --header "X-GitHub-Delivery: ${delivery_id}" \
+              --header "X-Hub-Signature-256: sha256=${signature}" \
+              --data-binary "@${GITHUB_EVENT_PATH}" \
+              --output /dev/null \
+              --write-out '%{http_code}' \
+              "${WEBHOOK_URL}" 2>/dev/null
+          })"; then
+            echo "Course-platform webhook request failed." >&2
+            exit 1
+          fi
+
+          case "${http_code}" in
+            2??)
+              echo "Course-platform webhook accepted (HTTP ${http_code})."
+              ;;
+            *)
+              echo "Course-platform webhook returned a non-success status." >&2
+              exit 1
+              ;;
+          esac

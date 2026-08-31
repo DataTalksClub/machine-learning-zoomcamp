@@ -1,0 +1,11 @@
+schema_version: 1
+content_id: 10000000-0000-4000-8000-000000000001
+slug: ml-zoomcamp
+title: Machine Learning Zoomcamp
+description_path: README.md
+outcome: Build, evaluate, and deploy practical machine learning systems.
+repository_url: https://github.com/DataTalksClub/machine-learning-zoomcamp
+docs_url: https://datatalks.club/docs/courses/ml-zoomcamp/
+faq_url: https://datatalks.club/faq/machine-learning-zoomcamp.html
+hashtag: mlzoomcamp
+published: true

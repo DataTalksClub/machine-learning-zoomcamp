@@ -1,0 +1,55 @@
+schema_version: 1
+content_id: 30000000-0000-4000-8000-000000000002
+title: "Machine Learning for Regression"
+units:
+  - content_id: 40000000-0000-4000-8000-000000000201
+    title: "2.1 Car price prediction project"
+    path: 01-car-price-intro.md
+  - content_id: 40000000-0000-4000-8000-000000000202
+    title: "2.2 Data preparation"
+    path: 02-data-preparation.md
+  - content_id: 40000000-0000-4000-8000-000000000203
+    title: "2.3 Exploratory data analysis"
+    path: 03-eda.md
+  - content_id: 40000000-0000-4000-8000-000000000204
+    title: "2.4 Setting up the validation framework"
+    path: 04-validation-framework.md
+  - content_id: 40000000-0000-4000-8000-000000000205
+    title: "2.5 Linear regression"
+    path: 05-linear-regression-simple.md
+  - content_id: 40000000-0000-4000-8000-000000000206
+    title: "2.6 Linear regression: vector form"
+    path: 06-linear-regression-vector.md
+  - content_id: 40000000-0000-4000-8000-000000000207
+    title: "2.7 Training linear regression: Normal equation"
+    path: 07-linear-regression-training.md
+  - content_id: 40000000-0000-4000-8000-000000000208
+    title: "2.8 Baseline model for car price prediction project"
+    path: 08-baseline-model.md
+  - content_id: 40000000-0000-4000-8000-000000000209
+    title: "2.9 Root Mean Squared Error (RMSE)"
+    path: 09-rmse.md
+  - content_id: 40000000-0000-4000-8000-000000000210
+    title: "2.10 Computing RMSE on validation data"
+    path: 10-car-price-validation.md
+  - content_id: 40000000-0000-4000-8000-000000000211
+    title: "2.11 Feature engineering"
+    path: 11-feature-engineering.md
+  - content_id: 40000000-0000-4000-8000-000000000212
+    title: "2.12 Categorical variables"
+    path: 12-categorical-variables.md
+  - content_id: 40000000-0000-4000-8000-000000000213
+    title: "2.13 Regularization"
+    path: 13-regularization.md
+  - content_id: 40000000-0000-4000-8000-000000000214
+    title: "2.14 Tuning the model"
+    path: 14-tuning-model.md
+  - content_id: 40000000-0000-4000-8000-000000000215
+    title: "2.15 Using the model"
+    path: 15-using-model.md
+  - content_id: 40000000-0000-4000-8000-000000000216
+    title: "2.16 Car price prediction project summary"
+    path: 16-summary.md
+  - content_id: 40000000-0000-4000-8000-000000000217
+    title: "2.17 Explore more"
+    path: 17-explore-more.md
