@@ -1,5 +1,5 @@
 
-## 2.14 Tuning the model
+# 2.14 Tuning the model
 
 <a href="https://www.youtube.com/watch?v=lW-YVxPgzQw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=25"><img src="images/thumbnail-2-14.jpg"></a>
 
@@ -23,10 +23,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/24/ml-zoomcamp-2023-machine-learning-for-regression-part-12/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Regularization](13-regularization.md)
-* Next: [Using the model](15-using-model.md)

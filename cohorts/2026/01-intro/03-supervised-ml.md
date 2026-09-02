@@ -1,4 +1,4 @@
-## 1.3 Supervised Machine Learning
+# 1.3 Supervised Machine Learning
 
 <a href="https://www.youtube.com/watch?v=j9kcEuGcC2Y&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=4"><img src="images/thumbnail-1-03.jpg"></a>
 
@@ -40,10 +40,3 @@ In summary, SML is about teaching the model by showing it different examples, an
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/11/ml-zoomcamp-2023-introduction-to-machine-learning-part-3/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [ML vs Rule-Based Systems](02-ml-vs-rules.md)
-* Next: [CRISP-DM](04-crisp-dm.md)

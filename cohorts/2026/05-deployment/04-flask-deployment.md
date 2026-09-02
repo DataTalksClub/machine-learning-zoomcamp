@@ -1,5 +1,5 @@
 
-## 5.4 Serving the churn model with Flask
+# 5.4 Serving the churn model with Flask
 
 <a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-04.jpg"></a>
  
@@ -95,10 +95,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/12/ml-zoomcamp-2023-deploying-machine-learning-models-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Web services: introduction to Flask](03-flask-intro.md)
-* Next: [Python virtual environment: Pipenv](05-pipenv.md)

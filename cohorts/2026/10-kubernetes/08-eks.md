@@ -1,4 +1,4 @@
-## 10.8 Deploying to EKS
+# 10.8 Deploying to EKS
 
 <a href="https://www.youtube.com/watch?v=89jxeddZtC0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-08.jpg"></a>
 
@@ -73,11 +73,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [Deploying TensorFlow models to Kubernetes](07-kubernetes-tf-serving.md)
-* Next: [Summary](09-summary.md)

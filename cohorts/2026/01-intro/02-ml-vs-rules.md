@@ -1,4 +1,4 @@
-## 1.2 ML vs Rule-Based Systems
+# 1.2 ML vs Rule-Based Systems
 
 <a href="https://www.youtube.com/watch?v=CeukwyUdaz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=3"><img src="images/thumbnail-1-02.jpg"></a>
 
@@ -36,10 +36,3 @@ A machine learning algorithm can then be applied to the encoded emails to build 
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/10/ml-zoomcamp-2023-introduction-to-machine-learning-part-2/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Introduction to Machine Learning](01-what-is-ml.md)
-* Next: [Supervised Machine Learning](03-supervised-ml.md)

@@ -1,4 +1,4 @@
-## 1.8 Linear Algebra Refresher
+# 1.8 Linear Algebra Refresher
 
 <a href="https://www.youtube.com/watch?v=zZyKUeOR4Gg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=8"><img src="images/thumbnail-1-08.jpg"></a>
 
@@ -119,11 +119,3 @@ Add notes here (PRs are welcome).
 * [Notebook from the video](notebooks/08-linear-algebra.ipynb)
 * [Get a visual understanding of matrix multiplication](http://matrixmultiplication.xyz/)
 * [Overview of matrix multiplication functions in python/numpy](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Week_1-intro_to_ML_linear_algebra/Notes_for_Chapter_1-Linear_Algebra.ipynb) 
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Introduction to NumPy](07-numpy.md)
-* Next: [Introduction to Pandas](09-pandas.md)

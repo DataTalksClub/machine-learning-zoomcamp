@@ -1,4 +1,4 @@
-## 1.10 Summary
+# 1.10 Summary
 
 <a href="https://www.youtube.com/watch?v=VRrEEVeJ440&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=10"><img src="images/thumbnail-1-10.jpg"></a>
 
@@ -57,10 +57,3 @@
    </tr>
 </table>
 * [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/01_intro/Summary_Session_01.md)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Introduction to Pandas](09-pandas.md)
-* Next: [Homework](homework.md)

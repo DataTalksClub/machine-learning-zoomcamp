@@ -1,4 +1,4 @@
-## 4.9 Explore more
+# 4.9 Explore more
 
 * Check the precision and recall of the dummy classifier that always predict "FALSE"
 * F1 score = 2 P R / (P + R)
@@ -9,11 +9,3 @@
 ### Other projects
 
 * Calculate the metrics for the suggested datasets from the previous week
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Summary](08-summary.md)
-* Next: [Homework](homework.md)

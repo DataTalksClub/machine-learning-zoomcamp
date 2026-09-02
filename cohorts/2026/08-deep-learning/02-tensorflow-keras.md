@@ -1,4 +1,4 @@
-## 8.2 TensorFlow and Keras
+# 8.2 TensorFlow and Keras
 
 <a href="https://www.youtube.com/watch?v=R6o_CUmoN9Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-02.jpg"></a>
  
@@ -64,11 +64,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/19/ml-zoomcamp-2023-deep-learning-part-3/)
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
-* Next: [Pre-trained convolutional neural networks](03-pretrained-models.md)

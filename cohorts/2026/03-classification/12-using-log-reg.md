@@ -1,5 +1,5 @@
 
-## 3.12 Using the model
+# 3.12 Using the model
 
 <a href="https://www.youtube.com/watch?v=Y-NGmnFpNuM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-12.jpg"></a>
 
@@ -23,10 +23,3 @@ In this case, the predictions of validation and test were similar, which means t
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/01/ml-zoomcamp-2023-machine-learning-for-classification-part-12/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Model interpretation](11-log-reg-interpretation.md)
-* Next: [Summary](13-summary.md)

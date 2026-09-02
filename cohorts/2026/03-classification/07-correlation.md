@@ -1,5 +1,5 @@
 
-## 3.7 Feature importance: Correlation
+# 3.7 Feature importance: Correlation
 
 <a href="https://www.youtube.com/watch?v=mz1707QVxiY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-07.jpg"></a>
 
@@ -38,10 +38,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/29/ml-zoomcamp-2023-machine-learning-for-classification-part-7/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Feature importance: Mutual information](06-mutual-info.md)
-* Next: [One-hot encoding](08-ohe.md)

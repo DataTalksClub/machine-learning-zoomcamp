@@ -1,5 +1,5 @@
 
-## 2.9 Root Mean Squared Error (RMSE)
+# 2.9 Root Mean Squared Error (RMSE)
 
 <a href="https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20"><img src="images/thumbnail-2-09.jpg"></a>
 
@@ -31,10 +31,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/22/ml-zoomcamp-2023-machine-learning-for-regression-part-8/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Baseline model for car price prediction project](08-baseline-model.md)
-* Next: [Using RMSE on validation data](10-car-price-validation.md)

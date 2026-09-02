@@ -1,5 +1,5 @@
 
-## 3.11 Model interpretation
+# 3.11 Model interpretation
 
 <a href="https://www.youtube.com/watch?v=OUrlxnUAAEA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-11.jpg"></a>
 
@@ -29,10 +29,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/01/ml-zoomcamp-2023-machine-learning-for-classification-part-11/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Training logistic regression with Scikit-Learn](10-training-log-reg.md)
-* Next: [Using the model](12-using-log-reg.md)

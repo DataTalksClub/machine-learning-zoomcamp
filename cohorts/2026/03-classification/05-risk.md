@@ -1,5 +1,5 @@
 
-## 3.5 Feature importance: Churn rate and risk ratio
+# 3.5 Feature importance: Churn rate and risk ratio
 
 <a href="https://www.youtube.com/watch?v=fzdzPLlvs40&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-05.jpg"></a>
 
@@ -31,10 +31,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/28/ml-zoomcamp-2023-machine-learning-for-classification-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [EDA](04-eda.md)
-* Next: [Feature importance: Mutual information](06-mutual-info.md)

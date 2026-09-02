@@ -1,5 +1,5 @@
 
-## 10.4 Running everything locally with Docker-compose
+# 10.4 Running everything locally with Docker-compose
 
 <a href="https://www.youtube.com/watch?v=ZhQQfpWfkKY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-04.jpg"></a>
  
@@ -91,11 +91,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [Creating a pre-processing service](03-preprocessing.md)
-* Next: [Introduction to Kubernetes](05-kubernetes-intro.md)

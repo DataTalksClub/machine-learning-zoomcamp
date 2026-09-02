@@ -1,4 +1,4 @@
-## 6.2 Data cleaning and preparation
+# 6.2 Data cleaning and preparation
 
 <a href="https://www.youtube.com/watch?v=tfuQdI3YO2c&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-02.jpg"></a>
 
@@ -33,11 +33,3 @@ Add notes from the video (PRs are welcome)
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/17/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-2/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/18/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-3/)
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Credit risk scoring project](01-credit-risk.md)
-* Next: [Decision trees](03-decision-trees.md)

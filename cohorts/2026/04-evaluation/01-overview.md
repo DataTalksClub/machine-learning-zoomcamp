@@ -1,5 +1,5 @@
 
-## 4.1 Evaluation metrics: session overview
+# 4.1 Evaluation metrics: session overview
 
 <a href="https://www.youtube.com/watch?v=gmg5jw1bM8A&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-01.jpg"></a>
  
@@ -26,9 +26,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/02/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Next: [Accuracy and dummy model](02-accuracy.md)

@@ -1,5 +1,5 @@
 
-## 5.2 Saving and loading the model
+# 5.2 Saving and loading the model
 
 <a href="https://www.youtube.com/watch?v=EJpqZ7OlwFU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-02.jpg"></a>
  
@@ -43,10 +43,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/10/ml-zoomcamp-2023-deploying-machine-learning-models-part-2/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Intro / Session overview](01-intro.md)
-* Next: [Web services: introduction to Flask](03-flask-intro.md)

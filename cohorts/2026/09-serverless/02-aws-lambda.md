@@ -1,5 +1,5 @@
 
-## 9.2 AWS Lambda
+# 9.2 AWS Lambda
 
 <a href="https://www.youtube.com/watch?v=_UX8-2WhHZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-02.jpg"></a>
 
@@ -65,11 +65,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [Introduction to Serverless](01-intro.md)
-* Next: [TensorFlow Lite](03-tensorflow-lite.md)

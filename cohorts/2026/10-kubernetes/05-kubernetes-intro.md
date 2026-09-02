@@ -1,5 +1,5 @@
 
-## 10.5 Introduction to Kubernetes
+# 10.5 Introduction to Kubernetes
 
 <a href="https://www.youtube.com/watch?v=UjVkpszDzgk&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-05.jpg"></a>
 
@@ -67,11 +67,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [Running everything locally with Docker-compose](04-docker-compose.md)
-* Next: [Deploying a simple service to Kubernetes](06-kubernetes-simple-service.md)

@@ -1,4 +1,4 @@
-## 9.5 Preparing a Docker image
+# 9.5 Preparing a Docker image
 
 > Note: the materials in this unit are outdated.
 > 
@@ -69,10 +69,3 @@ we only need to overwrite the arguments passed to the entrypoint,
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/12/04/ml-zoomcamp-2023-serverless-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [Preparing the code for Lambda](04-preparing-code.md)
-* Next: [Creating the lambda function](06-creating-lambda.md)

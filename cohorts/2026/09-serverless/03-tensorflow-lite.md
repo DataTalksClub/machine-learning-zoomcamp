@@ -1,5 +1,5 @@
 
-## 9.3 TensorFlow Lite
+# 9.3 TensorFlow Lite
 
 > Note: the materials in this unit are outdated.
 > 
@@ -43,10 +43,3 @@ Add notes from the video (PRs are welcome)
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/12/01/ml-zoomcamp-2023-serverless-part-2/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/12/02/ml-zoomcamp-2023-serverless-part-3/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [AWS Lambda](02-aws-lambda.md)
-* Next: [Preparing the code for Lambda](04-preparing-code.md)

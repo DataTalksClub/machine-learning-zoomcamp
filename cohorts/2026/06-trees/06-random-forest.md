@@ -1,4 +1,4 @@
-## 6.6 Ensemble learning and random forest
+# 6.6 Ensemble learning and random forest
 
 <a href="https://www.youtube.com/watch?v=FZhcmOfNNZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-06.jpg"></a>
 
@@ -46,10 +46,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/24/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-9/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Decision trees parameter tuning](05-decision-tree-tuning.md)
-* Next: [Gradient boosting and XGBoost](07-boosting.md)

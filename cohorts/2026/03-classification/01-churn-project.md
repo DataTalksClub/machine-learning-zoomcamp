@@ -22,9 +22,3 @@ For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/te
 |---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/25/ml-zoomcamp-2023-machine-learning-for-classification-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Next: [Data preparation](02-data-preparation.md)

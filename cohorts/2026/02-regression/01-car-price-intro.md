@@ -1,5 +1,5 @@
 
-## 2.1 Car price prediction project
+# 2.1 Car price prediction project
 
 <a href="https://www.youtube.com/watch?v=vM3SqPNlStE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=12"><img src="images/thumbnail-2-01.jpg"></a>
 
@@ -34,9 +34,3 @@ The code and dataset are available at this [link](https://github.com/alexeygrigo
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/18/ml-zoomcamp-2023-machine-learning-for-regression-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Next: [Data preparation](02-data-preparation.md)

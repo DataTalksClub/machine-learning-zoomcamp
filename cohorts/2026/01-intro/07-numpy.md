@@ -1,11 +1,11 @@
-## 1.7 Introduction to NumPy
+# 1.7 Introduction to NumPy
 
 <a href="https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=7"><img src="images/thumbnail-1-07.jpg"></a>
 
 
 ## Notes
 
-# Understanding Numpy: A Simple Introduction
+## Understanding Numpy: A Simple Introduction
 
 Numpy, short for Numerical Python, is a powerful Python library that enables efficient and convenient array manipulation and mathematical operations. It forms the foundation for many scientific and data-related tasks. In this article, we'll provide a straightforward explanation of Numpy concepts and how to use them.
 
@@ -172,10 +172,3 @@ In conclusion, Numpy is an essential library for anyone working with numerical d
 ## Additional links
 
 * [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Setting up the Environment](06-environment.md)
-* Next: [Linear Algebra Refresher](08-linear-algebra.md)

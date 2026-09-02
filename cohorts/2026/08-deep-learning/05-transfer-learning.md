@@ -1,4 +1,4 @@
-## 8.5 Transfer learning
+# 8.5 Transfer learning
 
 <a href="https://www.youtube.com/watch?v=WKHylqfNmq4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-05.jpg"></a>
  
@@ -126,10 +126,3 @@ Add notes from the video (PRs are welcome)
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/21/ml-zoomcamp-2023-deep-learning-part-6/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/22/ml-zoomcamp-2023-deep-learning-part-7/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Convolutional neural networks](04-conv-neural-nets.md)
-* Next: [Adjusting the learning rate](06-learning-rate.md)

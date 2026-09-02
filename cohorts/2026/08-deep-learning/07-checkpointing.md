@@ -1,4 +1,4 @@
-## 8.7 Checkpointing
+# 8.7 Checkpointing
 
 <a href="https://www.youtube.com/watch?v=NRpGUx0o3Ps&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-07.jpg"></a>
 
@@ -34,10 +34,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/24/ml-zoomcamp-2023-deep-learning-part-9/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Adjusting the learning rate](06-learning-rate.md)
-* Next: [Adding more layers](08-more-layers.md)

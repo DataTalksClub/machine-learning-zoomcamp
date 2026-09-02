@@ -1,4 +1,4 @@
-## 8.11 Training a larger model
+# 8.11 Training a larger model
 
 <a href="https://www.youtube.com/watch?v=_QpDGJwFjYA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-11.jpg"></a>
 
@@ -23,10 +23,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/28/ml-zoomcamp-2023-deep-learning-part-13/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Data augmentation](10-augmentation.md)
-* Next: [Using the model](12-using-model.md)

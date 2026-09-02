@@ -1,5 +1,5 @@
 
-## 10.3 Creating a pre-processing service
+# 10.3 Creating a pre-processing service
 
 <a href="https://www.youtube.com/watch?v=OIlrS14Zi0o&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-03.jpg"></a>
  
@@ -86,11 +86,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [TensorFlow Serving](02-tensorflow-serving.md)
-* Next: [Running everything locally with Docker-compose](04-docker-compose.md)

@@ -1,5 +1,5 @@
 
-## 10.6 Deploying a simple service to Kubernetes
+# 10.6 Deploying a simple service to Kubernetes
 
 <a href="https://www.youtube.com/watch?v=PPUCVRIV9t8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-06.jpg"></a>
  
@@ -182,11 +182,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [Introduction to Kubernetes](05-kubernetes-intro.md)
-* Next: [Deploying TensorFlow models to Kubernetes](07-kubernetes-tf-serving.md)

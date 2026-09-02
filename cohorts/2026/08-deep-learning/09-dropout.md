@@ -1,4 +1,4 @@
-## 8.9 Regularization and dropout
+# 8.9 Regularization and dropout
 
 <a href="https://www.youtube.com/watch?v=74YmhVM6FTM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-09.jpg"></a>
 
@@ -100,10 +100,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/26/ml-zoomcamp-2023-deep-learning-part-11/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Adding more layers](08-more-layers.md)
-* Next: [Data augmentation](10-augmentation.md)

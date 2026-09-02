@@ -1,4 +1,4 @@
-## 4.3 Confusion table
+# 4.3 Confusion table
 
 <a href="https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-03.jpg"></a>
 
@@ -44,7 +44,7 @@ When comes to a prediction of an LR model, each falls into one of four different
   </tr>
 </table>
 
-![confusion_matrix.png](images%2Fconfusion_matrix.png)
+![confusion_matrix.png](images/confusion_matrix.png)
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations.
 
@@ -63,10 +63,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/04/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-3/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Accuracy and dummy model](02-accuracy.md)
-* Next: [Precision and Recall](04-precision-recall.md)

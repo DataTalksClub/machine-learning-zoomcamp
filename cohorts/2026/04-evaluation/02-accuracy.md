@@ -1,5 +1,5 @@
 
-## 4.2 Accuracy and dummy model
+# 4.2 Accuracy and dummy model
 
 <a href="https://www.youtube.com/watch?v=FW_l7lB0HUI&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-02.jpg"></a>
  
@@ -38,10 +38,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/03/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-2/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Evaluation metrics: session overview](01-overview.md)
-* Next: [Confusion table](03-confusion-table.md)

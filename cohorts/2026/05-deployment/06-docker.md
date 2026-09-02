@@ -1,4 +1,4 @@
-## 5.6 Environment management: Docker
+# 5.6 Environment management: Docker
 
 <a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-06.jpg"></a>
 
@@ -102,10 +102,3 @@ At last you've deployed your prediction app inside a Docker container. Congratul
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/14/ml-zoomcamp-2023-deploying-machine-learning-models-part-6/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Python virtual environment: Pipenv](05-pipenv.md)
-* Next: [Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md)

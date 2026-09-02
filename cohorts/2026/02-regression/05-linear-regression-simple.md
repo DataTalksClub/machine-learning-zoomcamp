@@ -1,5 +1,5 @@
 
-## 2.5 Linear regression
+# 2.5 Linear regression
 
 <a href="https://www.youtube.com/watch?v=Dn1eTQLsOdA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=16"><img src="images/thumbnail-2-05.jpg"></a>
 
@@ -51,10 +51,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/20/ml-zoomcamp-2023-machine-learning-for-regression-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Setting up the validation framework](04-validation-framework.md)
-* Next: [Linear regression: vector form](06-linear-regression-vector.md)

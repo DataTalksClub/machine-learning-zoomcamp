@@ -1,4 +1,4 @@
-## 4.4 Precision and Recall
+# 4.4 Precision and Recall
 
 <a href="https://www.youtube.com/watch?v=gRLP_mlglMM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-04.jpg"></a>
 
@@ -21,7 +21,7 @@ $$R = \cfrac{TP}{TP + FN}$$
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
 
-![classification_metrics.png](images%2Fclassification_metrics.png)
+![classification_metrics.png](images/classification_metrics.png)
 
 **MNEMONICS:**
 
@@ -42,11 +42,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/05/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-4/)
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Confusion table](03-confusion-table.md)
-* Next: [ROC Curves](05-roc.md)

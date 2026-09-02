@@ -1,4 +1,4 @@
-## 6.5 Decision trees parameter tuning
+# 6.5 Decision trees parameter tuning
 
 <a href="https://www.youtube.com/watch?v=XJaxwH50Qok&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-05.jpg"></a>
 
@@ -49,10 +49,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/23/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-8/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Decision tree learning algorithm](04-decision-tree-learning.md)
-* Next: [Ensemble learning and random forest](06-random-forest.md)

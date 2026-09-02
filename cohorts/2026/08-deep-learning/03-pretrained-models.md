@@ -1,4 +1,4 @@
-## 8.3 Pre-trained convolutional neural networks
+# 8.3 Pre-trained convolutional neural networks
 
 <a href="https://www.youtube.com/watch?v=qGDXEz-cr6M&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-03.jpg"></a>
  
@@ -47,10 +47,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/19/ml-zoomcamp-2023-deep-learning-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [TensorFlow and Keras](02-tensorflow-keras.md)
-* Next: [Convolutional neural networks](04-conv-neural-nets.md)

@@ -1,4 +1,4 @@
-## 1.5 Model Selection Process
+# 1.5 Model Selection Process
 
 <a href="https://www.youtube.com/watch?v=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6"><img src="images/thumbnail-1-05.jpg"></a>
 
@@ -45,10 +45,3 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/13/ml-zoomcamp-2023-introduction-to-machine-learning-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [CRISP-DM](04-crisp-dm.md)
-* Next: [Setting up the Environment](06-environment.md)

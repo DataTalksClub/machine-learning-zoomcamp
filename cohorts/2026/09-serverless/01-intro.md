@@ -1,5 +1,5 @@
 
-## 9.1 Introduction to Serverless
+# 9.1 Introduction to Serverless
 
 <a href="https://www.youtube.com/watch?v=JLIVwIsU6RA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-01.jpg"></a>
 
@@ -26,9 +26,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/30/ml-zoomcamp-2023-serverless-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Next: [AWS Lambda](02-aws-lambda.md)

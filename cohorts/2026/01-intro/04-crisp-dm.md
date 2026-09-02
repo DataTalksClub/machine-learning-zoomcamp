@@ -1,4 +1,4 @@
-## 1.4 CRISP-DM
+# 1.4 CRISP-DM
 
 <a href="https://www.youtube.com/watch?v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5"><img src="images/thumbnail-1-04.jpg"></a>
 
@@ -36,10 +36,3 @@ In general, ML projects require many iterations.
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/12/ml-zoomcamp-2023-introduction-to-machine-learning-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Previous: [Supervised Machine Learning](03-supervised-ml.md)
-* Next: [Model Selection Process](05-model-selection.md)

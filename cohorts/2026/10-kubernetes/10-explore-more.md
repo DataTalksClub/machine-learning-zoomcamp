@@ -1,5 +1,5 @@
 
-## 10.10 Explore more
+# 10.10 Explore more
 
 - Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
 - [Rancher desktop](https://rancherdesktop.io/)
@@ -23,11 +23,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 10: Kubernetes and TensorFlow Serving](./)
-* Previous: [Summary](09-summary.md)
-* Next: [Homework](homework.md)

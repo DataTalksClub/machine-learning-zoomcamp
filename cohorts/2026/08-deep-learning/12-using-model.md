@@ -1,4 +1,4 @@
-## 8.12 Using the model
+# 8.12 Using the model
 
 <a href="https://www.youtube.com/watch?v=cM1WHKae1wo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-12.jpg"></a>
 
@@ -58,10 +58,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/29/ml-zoomcamp-2023-deep-learning-part-14/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Training a larger model](11-large-model.md)
-* Next: [Summary](13-summary.md)

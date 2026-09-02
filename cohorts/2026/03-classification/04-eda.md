@@ -1,5 +1,5 @@
 
-## 3.4 EDA
+# 3.4 EDA
 
 <a href="https://www.youtube.com/watch?v=BNF1wjBwTQA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-04.jpg"></a>
 
@@ -33,10 +33,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/27/ml-zoomcamp-2023-machine-learning-for-classification-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Setting up the validation framework](03-validation.md)
-* Next: [Feature importance: Churn rate and risk ratio](05-risk.md)

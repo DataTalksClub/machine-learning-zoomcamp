@@ -1,4 +1,4 @@
-## Python 3.12 vs TF Lite 2.17
+# Python 3.12 vs TF Lite 2.17
 
 The latest versions of TF Lite don't support Python 3.12 yet. 
 

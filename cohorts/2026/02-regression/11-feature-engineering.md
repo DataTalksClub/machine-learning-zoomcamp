@@ -1,4 +1,4 @@
-## 2.11 Feature engineering
+# 2.11 Feature engineering
 
 Feature engineering is the process of creating new features
 
@@ -25,10 +25,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/22/ml-zoomcamp-2023-machine-learning-for-regression-part-9/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Using RMSE on validation data](10-car-price-validation.md)
-* Next: [Categorical variables](12-categorical-variables.md)

@@ -1,4 +1,4 @@
-## 6.4 Decision tree learning algorithm
+# 6.4 Decision tree learning algorithm
 
 <a href="https://www.youtube.com/watch?v=XODz6LwKY7g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-04.jpg"></a>
 
@@ -52,10 +52,3 @@ Add notes from the video (PRs are welcome)
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/21/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-6/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/22/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-7/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Decision trees](03-decision-trees.md)
-* Next: [Decision trees parameter tuning](05-decision-tree-tuning.md)

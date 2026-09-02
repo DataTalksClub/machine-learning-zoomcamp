@@ -1,4 +1,4 @@
-## 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
+# 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
 
 <a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-07.jpg"></a>
 
@@ -120,10 +120,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/15/ml-zoomcamp-2023-deploying-machine-learning-models-part-7/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Environment management: Docker](06-docker.md)
-* Next: [Summary](08-summary.md)

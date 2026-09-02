@@ -1,4 +1,4 @@
-## 4.8 Summary
+# 4.8 Summary
 
 <a href="https://www.youtube.com/watch?v=-v8XEQ2AHvQ&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-08.jpg"></a>
 
@@ -32,10 +32,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 - [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/04_evaluation/Summary_Session_04.md)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Cross-Validation](07-cross-validation.md)
-* Next: [Explore more](09-explore-more.md)

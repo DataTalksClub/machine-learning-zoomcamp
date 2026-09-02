@@ -1,4 +1,4 @@
-## 1.1 Introduction to Machine Learning
+# 1.1 Introduction to Machine Learning
 
 <a href="https://www.youtube.com/watch?v=Crm_5n4mvmg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=2"><img src="images/thumbnail-1-01.jpg"></a>
 
@@ -34,9 +34,3 @@ Therefore, new feature values are presented to the model, and it makes **predict
 ## Notes
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Lesson 1: Introduction to Machine Learning](./)
-* Next: [ML vs Rule-Based Systems](02-ml-vs-rules.md)

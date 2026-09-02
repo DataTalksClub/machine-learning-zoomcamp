@@ -1,4 +1,4 @@
-## 6.10 Summary
+# 6.10 Summary
 
 <a href="https://www.youtube.com/watch?v=JZ6sRZ_5j_c&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-10.jpg"></a>
 
@@ -24,11 +24,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Selecting the best model](09-final-model.md)
-* Next: [Explore more](11-explore-more.md)

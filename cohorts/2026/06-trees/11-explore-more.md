@@ -1,5 +1,5 @@
 
-## 6.11 Explore more
+# 6.11 Explore more
 
 * For this dataset we didn't do EDA or feature engineering. You can do it to get more insights into the problem.
 * For random forest, there are more parameters that we can tune. Check max_features and bootstrap.
@@ -23,11 +23,3 @@ Add notes from the video (PRs are welcome)
       </td>
    </tr>
 </table>
-
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Summary](10-summary.md)
-* Next: [Homework](homework.md)

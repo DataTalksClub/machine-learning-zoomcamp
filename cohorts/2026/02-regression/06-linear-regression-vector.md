@@ -1,5 +1,5 @@
 
-## 2.6 Linear regression: vector form
+# 2.6 Linear regression: vector form
 
 <a href="https://www.youtube.com/watch?v=YkyevnYyAww&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=17"><img src="images/thumbnail-2-06.jpg"></a>
 
@@ -25,10 +25,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.wordpress.com/2023/09/20/ml-zoomcamp-2023-machine-learning-for-regression-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Linear regression](05-linear-regression-simple.md)
-* Next: [Training linear regression: Normal equation](07-linear-regression-training.md)

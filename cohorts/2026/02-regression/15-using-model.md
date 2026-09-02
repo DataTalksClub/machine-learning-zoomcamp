@@ -1,5 +1,5 @@
 
-## 2.15 Using the model
+# 2.15 Using the model
 
 <a href="https://www.youtube.com/watch?v=KT--uIJozes&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=26"><img src="images/thumbnail-2-15.jpg"></a>
 
@@ -24,10 +24,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/24/ml-zoomcamp-2023-machine-learning-for-regression-part-12/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Tuning the model](14-tuning-model.md)
-* Next: [Car price prediction project summary](16-summary.md)

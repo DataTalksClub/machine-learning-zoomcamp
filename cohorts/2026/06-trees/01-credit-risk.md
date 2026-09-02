@@ -1,5 +1,5 @@
 
-## 6.1 Credit risk scoring project
+# 6.1 Credit risk scoring project
 
 <a href="https://www.youtube.com/watch?v=GJGmlfZoCoU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-01.jpg"></a>
  
@@ -31,9 +31,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/16/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Next: [Data cleaning and preparation](02-data-prep.md)

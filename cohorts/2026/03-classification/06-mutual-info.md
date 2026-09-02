@@ -1,5 +1,5 @@
 
-## 3.6 Feature importance: Mutual information
+# 3.6 Feature importance: Mutual information
 
 <a href="https://www.youtube.com/watch?v=_u2YaGT6RN0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-06.jpg"></a>
 
@@ -29,10 +29,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/28/ml-zoomcamp-2023-machine-learning-for-classification-part-6/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Feature importance: Churn rate and risk ratio](05-risk.md)
-* Next: [Feature importance: Correlation](07-correlation.md)

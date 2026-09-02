@@ -1,4 +1,4 @@
-## 5.5 Python virtual environment: Pipenv
+# 5.5 Python virtual environment: Pipenv
 
 <a href="https://www.youtube.com/watch?v=BMXh8JGROHM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-05.jpg"></a>
 
@@ -34,10 +34,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/13/ml-zoomcamp-2023-deploying-machine-learning-models-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Serving the churn model with Flask](04-flask-deployment.md)
-* Next: [Environment management: Docker](06-docker.md)

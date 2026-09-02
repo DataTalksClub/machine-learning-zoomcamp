@@ -1,5 +1,5 @@
 
-## 3.2 Data preparation
+# 3.2 Data preparation
 
 <a href="https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-02.jpg"></a>
 
@@ -39,10 +39,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/26/ml-zoomcamp-2023-machine-learning-for-classification-part-2/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 3: Machine Learning for Classification](./)
-* Previous: [Churn prediction project](01-churn-project.md)
-* Next: [Setting up the validation framework](03-validation.md)

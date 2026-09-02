@@ -1,4 +1,4 @@
-## 8.4 Convolutional neural networks
+# 8.4 Convolutional neural networks
 
 <a href="https://www.youtube.com/watch?v=BN-fnYzbdc8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-04.jpg"></a>
  
@@ -108,10 +108,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/20/ml-zoomcamp-2023-deep-learning-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Pre-trained convolutional neural networks](03-pretrained-models.md)
-* Next: [Tranfser learning](05-transfer-learning.md)

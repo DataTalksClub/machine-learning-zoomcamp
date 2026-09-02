@@ -1,4 +1,4 @@
-## 2.13 Regularization
+# 2.13 Regularization
 
 <a href="https://www.youtube.com/watch?v=91ve3EJlHBc&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=24"><img src="images/thumbnail-2-13.jpg"></a>
 
@@ -44,10 +44,3 @@ So if you're interested what it means, you can read here
 
 ### Ridge Regression
 The regularization technique used (adding a factor to the diagonals of Gram Matrix) in this lesson is Ridge Regression. Further explanations are available in this [DataTalks.Club article](https://datatalks.club/blog/regularization-in-regression.html).
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Categorical variables](12-categorical-variables.md)
-* Next: [Tuning the model](14-tuning-model.md)

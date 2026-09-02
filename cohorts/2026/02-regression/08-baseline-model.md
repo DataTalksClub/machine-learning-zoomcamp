@@ -1,5 +1,5 @@
 
-## 2.8 Baseline model for car price prediction project
+# 2.8 Baseline model for car price prediction project
 
 <a href="https://www.youtube.com/watch?v=SvPpMMYtYbU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=19"><img src="images/thumbnail-2-08.jpg"></a>
 
@@ -27,10 +27,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/21/ml-zoomcamp-2023-machine-learning-for-regression-part-7/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Training linear regression: Normal equation](07-linear-regression-training.md)
-* Next: [Root mean squared error](09-rmse.md)

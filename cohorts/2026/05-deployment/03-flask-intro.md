@@ -1,5 +1,5 @@
 
-## 5.3 Web services: introduction to Flask
+# 5.3 Web services: introduction to Flask
 
 <a href="https://www.youtube.com/watch?v=W7ubna1Rfv8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-03.jpg"></a>
  
@@ -56,10 +56,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/11/ml-zoomcamp-2023-deploying-machine-learning-models-part-3/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 5: Deploying Machine Learning Models](./)
-* Previous: [Saving and loading the model](02-pickle.md)
-* Next: [Serving the churn model with Flask](04-flask-deployment.md)

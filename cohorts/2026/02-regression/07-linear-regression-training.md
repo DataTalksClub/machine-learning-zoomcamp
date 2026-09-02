@@ -1,5 +1,5 @@
 
-## 2.7 Training linear regression: Normal equation
+# 2.7 Training linear regression: Normal equation
 
 <a href="https://www.youtube.com/watch?v=hx6nak-Y11g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=18"><img src="images/thumbnail-2-07.jpg"></a>
 
@@ -39,10 +39,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/21/ml-zoomcamp-2023-machine-learning-for-regression-part-6/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Linear regression: vector form](06-linear-regression-vector.md)
-* Next: [Baseline model for car price prediction project](08-baseline-model.md)

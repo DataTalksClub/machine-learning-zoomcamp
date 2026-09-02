@@ -1,5 +1,5 @@
 
-## 2.10 Computing RMSE on validation data
+# 2.10 Computing RMSE on validation data
 
 <a href="https://www.youtube.com/watch?v=rawGPXg2ofE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=21"><img src="images/thumbnail-2-10.jpg"></a>
 
@@ -24,10 +24,3 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/22/ml-zoomcamp-2023-machine-learning-for-regression-part-8/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 2: Machine Learning for Regression](./)
-* Previous: [Root mean squared error](09-rmse.md)
-* Next: [Feature engineering](11-feature-engineering.md)

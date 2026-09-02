@@ -1,4 +1,4 @@
-## 8.8 Adding more layers
+# 8.8 Adding more layers
 
 <a href="https://www.youtube.com/watch?v=bSRRrorvAZs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-08.jpg"></a>
 
@@ -89,10 +89,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/25/ml-zoomcamp-2023-deep-learning-part-10/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Checkpointing](07-checkpointing.md)
-* Next: [Regularization and dropout](09-dropout.md)

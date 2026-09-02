@@ -1,5 +1,5 @@
 
-## 9.6 Creating the lambda function
+# 9.6 Creating the lambda function
 
 > Note: the materials in this unit are outdated.
 > 
@@ -28,10 +28,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/12/05/ml-zoomcamp-2023-serverless-part-6/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [Preparing a Docker image](05-docker-image.md)
-* Next: [API Gateway: exposing the lambda function](07-api-gateway.md)

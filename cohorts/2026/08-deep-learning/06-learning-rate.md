@@ -1,4 +1,4 @@
-## 8.6 Adjusting the learning rate
+# 8.6 Adjusting the learning rate
 
 <a href="https://www.youtube.com/watch?v=2gPmRRGz0Hc&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-06.jpg"></a>
 
@@ -85,10 +85,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/23/ml-zoomcamp-2023-deep-learning-part-8/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Tranfser learning](05-transfer-learning.md)
-* Next: [Checkpointing](07-checkpointing.md)

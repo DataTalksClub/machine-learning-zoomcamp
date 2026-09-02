@@ -1,4 +1,4 @@
-## 8.10 Data augmentation
+# 8.10 Data augmentation
 
 <a href="https://www.youtube.com/watch?v=aoPfVsS3BDE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-10.jpg"></a>
 
@@ -51,10 +51,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/27/ml-zoomcamp-2023-deep-learning-part-12/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Previous: [Regularization and dropout](09-dropout.md)
-* Next: [Training a larger model](11-large-model.md)

@@ -1,4 +1,4 @@
-## 6.8 XGBoost parameter tuning
+# 6.8 XGBoost parameter tuning
 
 <a href="https://www.youtube.com/watch?v=VX6ftRzYROM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-08.jpg"></a>
 
@@ -95,10 +95,3 @@ Add notes from the video (PRs are welcome)
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/27/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-12/)
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/28/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-13/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 6: Decision Trees and Ensemble Learning](./)
-* Previous: [Gradient boosting and XGBoost](07-boosting.md)
-* Next: [Selecting the best model](09-final-model.md)

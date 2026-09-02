@@ -1,5 +1,5 @@
 
-## 9.4 Preparing the code for Lambda
+# 9.4 Preparing the code for Lambda
 
 > Note: the materials in this unit are outdated.
 > 
@@ -28,10 +28,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/12/03/ml-zoomcamp-2023-serverless-part-4/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 9: Serverless Deep Learning](./)
-* Previous: [TensorFlow Lite](03-tensorflow-lite.md)
-* Next: [Preparing a Docker image](05-docker-image.md)

@@ -1,5 +1,5 @@
 
-## 4.5 ROC Curves
+# 4.5 ROC Curves
 
 <a href="https://www.youtube.com/watch?v=dnBZLk53sQI&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-05.jpg"></a>
 
@@ -25,7 +25,7 @@ In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) 
     $TPR =\large \frac{TP}{TP + FN}$
 </p>
 
-![TPR_FPR.png](images%2FTPR_FPR.png)
+![TPR_FPR.png](images/TPR_FPR.png)
 
 ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the FPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
 
@@ -51,10 +51,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/06/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-5/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Precision and Recall](04-precision-recall.md)
-* Next: [ROC AUC](06-auc.md)

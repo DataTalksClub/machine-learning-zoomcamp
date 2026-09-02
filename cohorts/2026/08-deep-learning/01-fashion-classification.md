@@ -1,4 +1,4 @@
-## 8.1 Fashion classification
+# 8.1 Fashion classification
 
 <a href="https://www.youtube.com/watch?v=it1Lu7NmMpw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-01.jpg"></a>
  
@@ -45,9 +45,3 @@ Add notes from the video (PRs are welcome)
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/11/18/ml-zoomcamp-2023-deep-learning-part-1/)
-
-## Navigation
-
-* [Machine Learning Zoomcamp course](../../../)
-* [Session 8: Neural Networks and Deep Learning](./)
-* Next: [Setting up the Environment on Saturn Cloud](01b-saturn-cloud.md)
