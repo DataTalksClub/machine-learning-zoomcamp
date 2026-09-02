@@ -125,7 +125,7 @@ What's the probability that this client will get a subscription?
 
 ## Docker
 
-Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/06-docker.md). 
+Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/05-deployment/06-docker.md). 
 We will use it for the next two questions.
 
 For these questions, we prepared a base image: `agrigorev/zoomcamp-model:2025`. 

@@ -123,7 +123,7 @@ Self-paced steps:
 
 ## Syllabus
 
-### [Module 1: Introduction to Machine Learning](01-intro/)
+### [Module 1: Introduction to Machine Learning](cohorts/2026/01-intro/)
 
 Learn what machine learning is, when to use it, and how to structure a machine learning project with the CRISP-DM framework.
 
@@ -137,7 +137,7 @@ In this module, you will:
 
 Outcome: a structured approach to framing machine learning problems and starting a reproducible project.
 
-### [Module 2: Machine Learning for Regression](02-regression/)
+### [Module 2: Machine Learning for Regression](cohorts/2026/02-regression/)
 
 Build a car-price prediction model while learning the foundations of regression.
 
@@ -151,7 +151,7 @@ In this module, you will:
 
 Outcome: a regression model built through a repeatable process from exploratory analysis to validation.
 
-### [Module 3: Machine Learning for Classification](03-classification/)
+### [Module 3: Machine Learning for Classification](cohorts/2026/03-classification/)
 
 Build a customer-churn prediction system with logistic regression.
 
@@ -165,7 +165,7 @@ In this module, you will:
 
 Outcome: a classification model that estimates customer-churn risk from structured data.
 
-### [Module 4: Evaluation Metrics for Classification](04-evaluation/)
+### [Module 4: Evaluation Metrics for Classification](cohorts/2026/04-evaluation/)
 
 Learn how to evaluate classification systems and choose metrics that match the problem.
 
@@ -179,7 +179,7 @@ In this module, you will:
 
 Outcome: an evaluation workflow that supports informed model selection and reliable performance reporting.
 
-### [Module 5: Deploying Machine Learning Models](05-deployment/)
+### [Module 5: Deploying Machine Learning Models](cohorts/2026/05-deployment/)
 
 Turn a trained model into a web service that other applications can call.
 
@@ -192,7 +192,7 @@ In this module, you will:
 
 Outcome: a containerized prediction service available through an API.
 
-### [Module 6: Decision Trees and Ensemble Learning](06-trees/)
+### [Module 6: Decision Trees and Ensemble Learning](cohorts/2026/06-trees/)
 
 Train tree-based models and combine them into stronger predictive systems.
 
@@ -212,7 +212,7 @@ Apply Modules 1 through 6 to an end-to-end machine learning problem of your choi
 
 You will select a dataset, define the problem, train and evaluate a model, and deploy it as a web service.
 
-### [Module 8: Neural Networks and Deep Learning](08-deep-learning/)
+### [Module 8: Neural Networks and Deep Learning](cohorts/2026/08-deep-learning/)
 
 Learn the foundations of neural networks and apply deep learning to image problems.
 
@@ -226,7 +226,7 @@ In this module, you will:
 
 Outcome: an image-classification model trained and evaluated with a modern deep learning framework.
 
-### [Module 9: Serverless Deep Learning](09-serverless/)
+### [Module 9: Serverless Deep Learning](cohorts/2026/09-serverless/)
 
 Deploy machine learning and deep learning models with serverless infrastructure.
 
@@ -239,7 +239,7 @@ In this module, you will:
 
 Outcome: a prediction endpoint deployed without managing a persistent application server.
 
-### [Module 10: Kubernetes and TensorFlow Serving](10-kubernetes/)
+### [Module 10: Kubernetes and TensorFlow Serving](cohorts/2026/10-kubernetes/)
 
 Learn how to serve and scale machine learning models with Kubernetes and TensorFlow Serving.
 
@@ -266,8 +266,8 @@ Projects are where you apply the course workflow to a problem that interests you
 
 The live cohort provides three project opportunities:
 
-1. [Midterm project](projects/), after [Module 6: Decision Trees and Ensemble Learning](06-trees/).
-2. [Capstone project 1](projects/), after [Module 10: Kubernetes and TensorFlow Serving](10-kubernetes/).
+1. [Midterm project](projects/), after [Module 6: Decision Trees and Ensemble Learning](cohorts/2026/06-trees/).
+2. [Capstone project 1](projects/), after [Module 10: Kubernetes and TensorFlow Serving](cohorts/2026/10-kubernetes/).
 3. [Capstone project 2](projects/), an optional second capstone at the end of the course.
 
 To qualify for a certificate, submit either:
