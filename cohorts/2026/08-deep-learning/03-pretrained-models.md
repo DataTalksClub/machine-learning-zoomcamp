@@ -1,4 +1,4 @@
-# 8.3 Pre-trained convolutional neural networks
+# Pre-trained convolutional neural networks
 
 <a href="https://www.youtube.com/watch?v=qGDXEz-cr6M&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-03.jpg"></a>
  

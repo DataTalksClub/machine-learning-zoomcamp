@@ -1,5 +1,5 @@
 
-# 10.6 Deploying a simple service to Kubernetes
+# Deploying a simple service to Kubernetes
 
 <a href="https://www.youtube.com/watch?v=PPUCVRIV9t8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-06.jpg"></a>
  

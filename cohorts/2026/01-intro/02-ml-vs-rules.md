@@ -1,4 +1,4 @@
-# 1.2 ML vs Rule-Based Systems
+# ML vs Rule-Based Systems
 
 <a href="https://www.youtube.com/watch?v=CeukwyUdaz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=3"><img src="images/thumbnail-1-02.jpg"></a>
 

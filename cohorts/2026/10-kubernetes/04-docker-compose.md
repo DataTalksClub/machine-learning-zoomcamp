@@ -1,5 +1,5 @@
 
-# 10.4 Running everything locally with Docker-compose
+# Running everything locally with Docker-compose
 
 <a href="https://www.youtube.com/watch?v=ZhQQfpWfkKY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-04.jpg"></a>
  

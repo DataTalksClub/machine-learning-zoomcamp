@@ -1,5 +1,5 @@
 
-# 9.7 API Gateway: exposing the lambda function
+# API Gateway: exposing the lambda function
 
 <a href="https://www.youtube.com/watch?v=wyZ9aqQOXvs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-07.jpg"></a>
  

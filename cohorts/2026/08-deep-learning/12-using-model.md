@@ -1,4 +1,4 @@
-# 8.12 Using the model
+# Using the model
 
 <a href="https://www.youtube.com/watch?v=cM1WHKae1wo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-12.jpg"></a>
 

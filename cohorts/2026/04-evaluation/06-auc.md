@@ -1,4 +1,4 @@
-# 4.6 ROC AUC
+# ROC AUC
 
 <a href="https://www.youtube.com/watch?v=hvIQPAwkVZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-06.jpg"></a>
 

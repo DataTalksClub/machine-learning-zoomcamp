@@ -1,5 +1,5 @@
 
-# 2.5 Linear regression
+# Linear regression
 
 <a href="https://www.youtube.com/watch?v=Dn1eTQLsOdA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=16"><img src="images/thumbnail-2-05.jpg"></a>
 

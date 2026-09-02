@@ -1,4 +1,4 @@
-# 1.1 Introduction to Machine Learning
+# Introduction to Machine Learning
 
 <a href="https://www.youtube.com/watch?v=Crm_5n4mvmg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=2"><img src="images/thumbnail-1-01.jpg"></a>
 

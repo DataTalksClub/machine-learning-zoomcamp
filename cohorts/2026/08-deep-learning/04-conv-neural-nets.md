@@ -1,4 +1,4 @@
-# 8.4 Convolutional neural networks
+# Convolutional neural networks
 
 <a href="https://www.youtube.com/watch?v=BN-fnYzbdc8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-04.jpg"></a>
  

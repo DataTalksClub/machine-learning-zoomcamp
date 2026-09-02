@@ -1,4 +1,4 @@
-# 6.7 Gradient boosting and XGBoost
+# Gradient boosting and XGBoost
 
 <a href="https://www.youtube.com/watch?v=xFarGClszEM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-07.jpg"></a>
 

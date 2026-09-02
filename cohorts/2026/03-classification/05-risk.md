@@ -1,5 +1,5 @@
 
-# 3.5 Feature importance: Churn rate and risk ratio
+# Feature importance: Churn rate and risk ratio
 
 <a href="https://www.youtube.com/watch?v=fzdzPLlvs40&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-05.jpg"></a>
 

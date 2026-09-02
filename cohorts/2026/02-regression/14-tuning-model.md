@@ -1,5 +1,5 @@
 
-# 2.14 Tuning the model
+# Tuning the model
 
 <a href="https://www.youtube.com/watch?v=lW-YVxPgzQw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=25"><img src="images/thumbnail-2-14.jpg"></a>
 

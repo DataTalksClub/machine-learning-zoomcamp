@@ -1,4 +1,4 @@
-# 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
+# Deployment to the cloud: AWS Elastic Beanstalk (optional)
 
 <a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-07.jpg"></a>
 

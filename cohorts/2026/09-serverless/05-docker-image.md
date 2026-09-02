@@ -1,4 +1,4 @@
-# 9.5 Preparing a Docker image
+# Preparing a Docker image
 
 > Note: the materials in this unit are outdated.
 > 

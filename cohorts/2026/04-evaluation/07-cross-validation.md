@@ -1,4 +1,4 @@
-# 4.7 Cross-Validation
+# Cross-Validation
 
 <a href="https://www.youtube.com/watch?v=BIIZaVtUbf4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-07.jpg"></a>
 

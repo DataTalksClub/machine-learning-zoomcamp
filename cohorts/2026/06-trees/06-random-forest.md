@@ -1,4 +1,4 @@
-# 6.6 Ensemble learning and random forest
+# Ensemble learning and random forest
 
 <a href="https://www.youtube.com/watch?v=FZhcmOfNNZE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-06.jpg"></a>
 

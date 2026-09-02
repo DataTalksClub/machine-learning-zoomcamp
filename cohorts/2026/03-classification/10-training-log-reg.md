@@ -1,5 +1,5 @@
 
-# 3.10 Training logistic regression with Scikit-Learn
+# Training logistic regression with Scikit-Learn
 
 <a href="https://www.youtube.com/watch?v=hae_jXe2fN0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-10.jpg"></a>
 

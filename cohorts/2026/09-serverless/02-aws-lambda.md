@@ -1,5 +1,5 @@
 
-# 9.2 AWS Lambda
+# AWS Lambda
 
 <a href="https://www.youtube.com/watch?v=_UX8-2WhHZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-02.jpg"></a>
 

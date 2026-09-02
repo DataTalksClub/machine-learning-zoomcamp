@@ -1,5 +1,5 @@
 
-# 2.8 Baseline model for car price prediction project
+# Baseline model for car price prediction project
 
 <a href="https://www.youtube.com/watch?v=SvPpMMYtYbU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=19"><img src="images/thumbnail-2-08.jpg"></a>
 

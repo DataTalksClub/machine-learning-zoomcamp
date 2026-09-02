@@ -3,29 +3,29 @@ content_id: 30000000-0000-4000-8000-000000000004
 title: "Evaluation Metrics for Classification"
 units:
   - content_id: 40000000-0000-4000-8000-000000000401
-    title: "4.1 Evaluation metrics: session overview"
+    title: "Evaluation metrics: session overview"
     path: 01-overview.md
   - content_id: 40000000-0000-4000-8000-000000000402
-    title: "4.2 Accuracy and dummy model"
+    title: "Accuracy and dummy model"
     path: 02-accuracy.md
   - content_id: 40000000-0000-4000-8000-000000000403
-    title: "4.3 Confusion table"
+    title: "Confusion table"
     path: 03-confusion-table.md
   - content_id: 40000000-0000-4000-8000-000000000404
-    title: "4.4 Precision and Recall"
+    title: "Precision and Recall"
     path: 04-precision-recall.md
   - content_id: 40000000-0000-4000-8000-000000000405
-    title: "4.5 ROC Curves"
+    title: "ROC Curves"
     path: 05-roc.md
   - content_id: 40000000-0000-4000-8000-000000000406
-    title: "4.6 ROC AUC"
+    title: "ROC AUC"
     path: 06-auc.md
   - content_id: 40000000-0000-4000-8000-000000000407
-    title: "4.7 Cross-Validation"
+    title: "Cross-Validation"
     path: 07-cross-validation.md
   - content_id: 40000000-0000-4000-8000-000000000408
-    title: "4.8 Summary"
+    title: "Summary"
     path: 08-summary.md
   - content_id: 40000000-0000-4000-8000-000000000409
-    title: "4.9 Explore more"
+    title: "Explore more"
     path: 09-explore-more.md

@@ -1,5 +1,5 @@
 
-# 2.9 Root Mean Squared Error (RMSE)
+# Root Mean Squared Error (RMSE)
 
 <a href="https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20"><img src="images/thumbnail-2-09.jpg"></a>
 

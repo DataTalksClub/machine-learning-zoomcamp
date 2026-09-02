@@ -1,4 +1,4 @@
-# 1.5 Model Selection Process
+# Model Selection Process
 
 <a href="https://www.youtube.com/watch?v=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6"><img src="images/thumbnail-1-05.jpg"></a>
 

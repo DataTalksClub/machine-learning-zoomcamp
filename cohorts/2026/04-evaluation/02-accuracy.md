@@ -1,5 +1,5 @@
 
-# 4.2 Accuracy and dummy model
+# Accuracy and dummy model
 
 <a href="https://www.youtube.com/watch?v=FW_l7lB0HUI&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-02.jpg"></a>
  

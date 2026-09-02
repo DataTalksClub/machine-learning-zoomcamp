@@ -1,5 +1,5 @@
 
-# 10.5 Introduction to Kubernetes
+# Introduction to Kubernetes
 
 <a href="https://www.youtube.com/watch?v=UjVkpszDzgk&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-05.jpg"></a>
 

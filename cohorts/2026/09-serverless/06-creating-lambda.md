@@ -1,5 +1,5 @@
 
-# 9.6 Creating the lambda function
+# Creating the lambda function
 
 > Note: the materials in this unit are outdated.
 > 

@@ -3,32 +3,32 @@ content_id: 30000000-0000-4000-8000-000000000009
 title: "Kubernetes and TensorFlow Serving"
 units:
   - content_id: 40000000-0000-4000-8000-000000000901
-    title: "10.1 Overview"
+    title: "Overview"
     path: 01-overview.md
   - content_id: 40000000-0000-4000-8000-000000000902
-    title: "10.2 TensorFlow Serving"
+    title: "TensorFlow Serving"
     path: 02-tensorflow-serving.md
   - content_id: 40000000-0000-4000-8000-000000000903
-    title: "10.3 Creating a pre-processing service"
+    title: "Creating a pre-processing service"
     path: 03-preprocessing.md
   - content_id: 40000000-0000-4000-8000-000000000904
-    title: "10.4 Running everything locally with Docker-compose"
+    title: "Running everything locally with Docker-compose"
     path: 04-docker-compose.md
   - content_id: 40000000-0000-4000-8000-000000000905
-    title: "10.5 Introduction to Kubernetes"
+    title: "Introduction to Kubernetes"
     path: 05-kubernetes-intro.md
   - content_id: 40000000-0000-4000-8000-000000000906
-    title: "10.6 Deploying a simple service to Kubernetes"
+    title: "Deploying a simple service to Kubernetes"
     path: 06-kubernetes-simple-service.md
   - content_id: 40000000-0000-4000-8000-000000000907
-    title: "10.7 Deploying TensorFlow models to Kubernetes"
+    title: "Deploying TensorFlow models to Kubernetes"
     path: 07-kubernetes-tf-serving.md
   - content_id: 40000000-0000-4000-8000-000000000908
-    title: "10.8 Deploying to EKS"
+    title: "Deploying to EKS"
     path: 08-eks.md
   - content_id: 40000000-0000-4000-8000-000000000909
-    title: "10.9 Summary"
+    title: "Summary"
     path: 09-summary.md
   - content_id: 40000000-0000-4000-8000-000000000910
-    title: "10.10 Explore more"
+    title: "Explore more"
     path: 10-explore-more.md

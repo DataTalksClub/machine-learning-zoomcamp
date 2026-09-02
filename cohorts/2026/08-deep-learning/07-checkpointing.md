@@ -1,4 +1,4 @@
-# 8.7 Checkpointing
+# Checkpointing
 
 <a href="https://www.youtube.com/watch?v=NRpGUx0o3Ps&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-07.jpg"></a>
 

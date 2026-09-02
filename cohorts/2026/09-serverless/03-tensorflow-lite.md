@@ -1,5 +1,5 @@
 
-# 9.3 TensorFlow Lite
+# TensorFlow Lite
 
 > Note: the materials in this unit are outdated.
 > 

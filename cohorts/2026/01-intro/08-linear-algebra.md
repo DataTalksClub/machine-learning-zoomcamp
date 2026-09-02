@@ -1,4 +1,4 @@
-# 1.8 Linear Algebra Refresher
+# Linear Algebra Refresher
 
 <a href="https://www.youtube.com/watch?v=zZyKUeOR4Gg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=8"><img src="images/thumbnail-1-08.jpg"></a>
 

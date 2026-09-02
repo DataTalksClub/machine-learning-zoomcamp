@@ -1,4 +1,4 @@
-# 8.8 Adding more layers
+# Adding more layers
 
 <a href="https://www.youtube.com/watch?v=bSRRrorvAZs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-08.jpg"></a>
 

@@ -1,4 +1,4 @@
-# 6.10 Summary
+# Summary
 
 <a href="https://www.youtube.com/watch?v=JZ6sRZ_5j_c&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-10.jpg"></a>
 

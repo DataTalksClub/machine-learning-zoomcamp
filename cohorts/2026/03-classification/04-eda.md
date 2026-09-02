@@ -1,5 +1,5 @@
 
-# 3.4 EDA
+# EDA
 
 <a href="https://www.youtube.com/watch?v=BNF1wjBwTQA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-04.jpg"></a>
 

@@ -1,4 +1,4 @@
-# 5.5 Python virtual environment: Pipenv
+# Python virtual environment: Pipenv
 
 <a href="https://www.youtube.com/watch?v=BMXh8JGROHM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-05.jpg"></a>
 

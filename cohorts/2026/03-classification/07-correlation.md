@@ -1,5 +1,5 @@
 
-# 3.7 Feature importance: Correlation
+# Feature importance: Correlation
 
 <a href="https://www.youtube.com/watch?v=mz1707QVxiY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-07.jpg"></a>
 

@@ -1,4 +1,4 @@
-# 6.2 Data cleaning and preparation
+# Data cleaning and preparation
 
 <a href="https://www.youtube.com/watch?v=tfuQdI3YO2c&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-02.jpg"></a>
 

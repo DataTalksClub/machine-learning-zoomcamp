@@ -1,5 +1,5 @@
 
-# 6.11 Explore more
+# Explore more
 
 * For this dataset we didn't do EDA or feature engineering. You can do it to get more insights into the problem.
 * For random forest, there are more parameters that we can tune. Check max_features and bootstrap.

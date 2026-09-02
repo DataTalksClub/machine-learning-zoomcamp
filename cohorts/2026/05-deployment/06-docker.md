@@ -1,4 +1,4 @@
-# 5.6 Environment management: Docker
+# Environment management: Docker
 
 <a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-06.jpg"></a>
 

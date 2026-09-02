@@ -1,5 +1,5 @@
 
-# 9.1 Introduction to Serverless
+# Introduction to Serverless
 
 <a href="https://www.youtube.com/watch?v=JLIVwIsU6RA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-9-01.jpg"></a>
 

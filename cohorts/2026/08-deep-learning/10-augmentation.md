@@ -1,4 +1,4 @@
-# 8.10 Data augmentation
+# Data augmentation
 
 <a href="https://www.youtube.com/watch?v=aoPfVsS3BDE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-10.jpg"></a>
 

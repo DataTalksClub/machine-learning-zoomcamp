@@ -1,5 +1,5 @@
 
-# 3.8 One-hot encoding
+# One-hot encoding
 
 <a href="https://www.youtube.com/watch?v=L-mjQFN5aR0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-08.jpg"></a>
 

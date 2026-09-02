@@ -1,5 +1,5 @@
 
-# 6.1 Credit risk scoring project
+# Credit risk scoring project
 
 <a href="https://www.youtube.com/watch?v=GJGmlfZoCoU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-01.jpg"></a>
  

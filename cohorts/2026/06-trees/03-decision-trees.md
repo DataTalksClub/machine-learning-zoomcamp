@@ -1,4 +1,4 @@
-# 6.3 Decision trees
+# Decision trees
 
 <a href="https://www.youtube.com/watch?v=YGiQvFbSIg8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-03.jpg"></a>
 

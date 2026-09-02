@@ -3,29 +3,29 @@ content_id: 30000000-0000-4000-8000-000000000005
 title: "Deploying Machine Learning Models"
 units:
   - content_id: 40000000-0000-4000-8000-000000000501
-    title: "5.1 Intro / Session overview"
+    title: "Intro / Session overview"
     path: 01-intro.md
   - content_id: 40000000-0000-4000-8000-000000000502
-    title: "5.2 Saving and loading the model"
+    title: "Saving and loading the model"
     path: 02-pickle.md
   - content_id: 40000000-0000-4000-8000-000000000503
-    title: "5.3 Web services: introduction to Flask"
+    title: "Web services: introduction to Flask"
     path: 03-flask-intro.md
   - content_id: 40000000-0000-4000-8000-000000000504
-    title: "5.4 Serving the churn model with Flask"
+    title: "Serving the churn model with Flask"
     path: 04-flask-deployment.md
   - content_id: 40000000-0000-4000-8000-000000000505
-    title: "5.5 Python virtual environment: Pipenv"
+    title: "Python virtual environment: Pipenv"
     path: 05-pipenv.md
   - content_id: 40000000-0000-4000-8000-000000000506
-    title: "5.6 Environment management: Docker"
+    title: "Environment management: Docker"
     path: 06-docker.md
   - content_id: 40000000-0000-4000-8000-000000000507
-    title: "5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)"
+    title: "Deployment to the cloud: AWS Elastic Beanstalk (optional)"
     path: 07-aws-eb.md
   - content_id: 40000000-0000-4000-8000-000000000508
-    title: "5.8 Summary"
+    title: "Summary"
     path: 08-summary.md
   - content_id: 40000000-0000-4000-8000-000000000509
-    title: "5.9 Explore more"
+    title: "Explore more"
     path: 09-explore-more.md

@@ -1,4 +1,4 @@
-# 8.9 Regularization and dropout
+# Regularization and dropout
 
 <a href="https://www.youtube.com/watch?v=74YmhVM6FTM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-09.jpg"></a>
 

@@ -1,5 +1,5 @@
 
-# 10.2 TensorFlow Serving
+# TensorFlow Serving
 
 <a href="https://www.youtube.com/watch?v=deXR2fThYDw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-02.jpg"></a>
  

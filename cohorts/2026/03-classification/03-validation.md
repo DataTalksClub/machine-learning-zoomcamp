@@ -1,5 +1,5 @@
 
-# 3.3 Setting up the validation framework
+# Setting up the validation framework
 
 <a href="https://www.youtube.com/watch?v=_lwz34sOnSE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-03.jpg"></a>
 

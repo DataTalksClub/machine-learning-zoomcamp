@@ -1,5 +1,5 @@
 
-# 2.17 Explore more
+# Explore more
 
 ### Questions
 

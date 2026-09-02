@@ -1,4 +1,4 @@
-# 2.11 Feature engineering
+# Feature engineering
 
 Feature engineering is the process of creating new features
 

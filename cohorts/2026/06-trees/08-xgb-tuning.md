@@ -1,4 +1,4 @@
-# 6.8 XGBoost parameter tuning
+# XGBoost parameter tuning
 
 <a href="https://www.youtube.com/watch?v=VX6ftRzYROM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-08.jpg"></a>
 

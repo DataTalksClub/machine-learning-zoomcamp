@@ -1,5 +1,5 @@
 
-# 2.12 Categorical variables
+# Categorical variables
 
 <a href="https://www.youtube.com/watch?v=sGLAToAAMa4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=23"><img src="images/thumbnail-2-12.jpg"></a>
 

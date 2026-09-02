@@ -1,4 +1,4 @@
-# 2.13 Regularization
+# Regularization
 
 <a href="https://www.youtube.com/watch?v=91ve3EJlHBc&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=24"><img src="images/thumbnail-2-13.jpg"></a>
 

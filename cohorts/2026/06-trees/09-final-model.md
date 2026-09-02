@@ -1,4 +1,4 @@
-# 6.9 Selecting the best model
+# Selecting the best model
 
 <a href="https://www.youtube.com/watch?v=lqdnyIVQq-M&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-09.jpg"></a>
 

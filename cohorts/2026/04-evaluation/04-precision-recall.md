@@ -1,4 +1,4 @@
-# 4.4 Precision and Recall
+# Precision and Recall
 
 <a href="https://www.youtube.com/watch?v=gRLP_mlglMM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-04.jpg"></a>
 

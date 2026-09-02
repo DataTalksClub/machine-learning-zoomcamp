@@ -1,5 +1,5 @@
 
-# 3.14 Explore more
+# Explore more
 
 More things
 

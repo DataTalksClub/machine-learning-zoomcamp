@@ -1,5 +1,5 @@
 
-# 5.4 Serving the churn model with Flask
+# Serving the churn model with Flask
 
 <a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-04.jpg"></a>
  

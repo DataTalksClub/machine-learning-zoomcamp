@@ -1,4 +1,4 @@
-# 8.14 Explore more
+# Explore more
 
 **TODO**
 

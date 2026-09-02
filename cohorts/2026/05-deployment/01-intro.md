@@ -1,5 +1,5 @@
 
-# 5.1 Intro / Session overview
+# Intro / Session overview
 
 <a href="https://www.youtube.com/watch?v=agIFak9A3m8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-01.jpg"></a>
  

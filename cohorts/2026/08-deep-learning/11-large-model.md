@@ -1,4 +1,4 @@
-# 8.11 Training a larger model
+# Training a larger model
 
 <a href="https://www.youtube.com/watch?v=_QpDGJwFjYA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-11.jpg"></a>
 

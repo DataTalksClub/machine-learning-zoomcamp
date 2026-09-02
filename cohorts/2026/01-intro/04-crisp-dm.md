@@ -1,4 +1,4 @@
-# 1.4 CRISP-DM
+# CRISP-DM
 
 <a href="https://www.youtube.com/watch?v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5"><img src="images/thumbnail-1-04.jpg"></a>
 

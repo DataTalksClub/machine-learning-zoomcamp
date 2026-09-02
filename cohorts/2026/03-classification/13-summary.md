@@ -1,5 +1,5 @@
 
-# 3.13 Summary
+# Summary
 
 <a href="https://www.youtube.com/watch?v=Zz6oRGsJkW4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-13.jpg"></a>
 

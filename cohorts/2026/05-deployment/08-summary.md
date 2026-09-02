@@ -1,4 +1,4 @@
-# 5.8 Summary
+# Summary
 
 <a href="https://www.youtube.com/watch?v=sSAqYSk7Br4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-08.jpg"></a>
 

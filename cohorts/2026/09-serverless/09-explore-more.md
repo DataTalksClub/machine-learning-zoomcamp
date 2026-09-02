@@ -1,4 +1,4 @@
-# 9.9 Explore more
+# Explore more
 
 * Try similar serverless services from Google Cloud and Microsoft Azure
 * Deploy cats vs dogs and other Keras models with AWS Lambda

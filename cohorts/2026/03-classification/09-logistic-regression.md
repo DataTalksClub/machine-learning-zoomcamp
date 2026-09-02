@@ -1,5 +1,5 @@
 
-# 3.9 Logistic regression
+# Logistic regression
 
 <a href="https://www.youtube.com/watch?v=7KFE2ltnBAg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-09.jpg"></a>
 

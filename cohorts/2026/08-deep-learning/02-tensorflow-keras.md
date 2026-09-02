@@ -1,4 +1,4 @@
-# 8.2 TensorFlow and Keras
+# TensorFlow and Keras
 
 <a href="https://www.youtube.com/watch?v=R6o_CUmoN9Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-02.jpg"></a>
  

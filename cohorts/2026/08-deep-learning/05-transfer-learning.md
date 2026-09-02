@@ -1,4 +1,4 @@
-# 8.5 Transfer learning
+# Transfer learning
 
 <a href="https://www.youtube.com/watch?v=WKHylqfNmq4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-05.jpg"></a>
  

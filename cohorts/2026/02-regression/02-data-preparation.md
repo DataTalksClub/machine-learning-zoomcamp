@@ -1,5 +1,5 @@
 
-# 2.2 Data preparation
+# Data preparation
 
 <a href="https://www.youtube.com/watch?v=Kd74oR4QWGM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=13"><img src="images/thumbnail-2-02.jpg"></a>
 

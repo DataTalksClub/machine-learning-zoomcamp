@@ -1,4 +1,4 @@
-# 4.3 Confusion table
+# Confusion table
 
 <a href="https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-4-03.jpg"></a>
 

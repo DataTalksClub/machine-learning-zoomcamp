@@ -1,4 +1,4 @@
-# 4.9 Explore more
+# Explore more
 
 * Check the precision and recall of the dummy classifier that always predict "FALSE"
 * F1 score = 2 P R / (P + R)

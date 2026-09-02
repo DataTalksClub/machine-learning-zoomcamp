@@ -1,4 +1,4 @@
-# 8.1 Fashion classification
+# Fashion classification
 
 <a href="https://www.youtube.com/watch?v=it1Lu7NmMpw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-8-01.jpg"></a>
  

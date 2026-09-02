@@ -1,4 +1,4 @@
-# 1.10 Summary
+# Summary
 
 <a href="https://www.youtube.com/watch?v=VRrEEVeJ440&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=10"><img src="images/thumbnail-1-10.jpg"></a>
 

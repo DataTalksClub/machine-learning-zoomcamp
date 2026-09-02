@@ -1,5 +1,5 @@
 
-# 2.15 Using the model
+# Using the model
 
 <a href="https://www.youtube.com/watch?v=KT--uIJozes&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=26"><img src="images/thumbnail-2-15.jpg"></a>
 

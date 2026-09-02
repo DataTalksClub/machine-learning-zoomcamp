@@ -1,5 +1,5 @@
 
-# 3.6 Feature importance: Mutual information
+# Feature importance: Mutual information
 
 <a href="https://www.youtube.com/watch?v=_u2YaGT6RN0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-06.jpg"></a>
 

@@ -1,5 +1,5 @@
 
-# 9.4 Preparing the code for Lambda
+# Preparing the code for Lambda
 
 > Note: the materials in this unit are outdated.
 > 

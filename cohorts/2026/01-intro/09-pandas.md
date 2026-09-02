@@ -1,4 +1,4 @@
-# 1.9 Introduction to Pandas
+# Introduction to Pandas
 
 <a href="https://www.youtube.com/watch?v=0j3XK5PsnxA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=9"><img src="images/thumbnail-1-09.jpg"></a>
 
