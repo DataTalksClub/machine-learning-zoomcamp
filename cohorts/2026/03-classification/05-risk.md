@@ -14,7 +14,7 @@
 
 **Functions and methods:** 
 
-* `df.groupby('x').y.agg([mean()])` - returns a dataframe with mean of y series grouped by x series 
+* `df.groupby('x').y.agg(['mean'])` - returns a dataframe with mean of y series grouped by x series 
 * `display(x)` displays an output in the cell of a jupyter notebook. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/03-classification/notebook.ipynb). 
