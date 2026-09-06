@@ -1,15 +1,20 @@
+---
+video_url: https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+code:
+  - label: Dockerfile
+    path: code/Dockerfile
+---
 # Environment management: Docker
 
-<a href="https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-06.jpg"></a>
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
-
+In this unit we package the churn service into a Docker container, so it runs
+the same way everywhere - with the same Python version and the same
+dependencies, independent of the host machine.
 
 ## Installing Docker
-To isolate more our project file from our system machine, there is an option named Docker. With Docker you are able to pack all your project in the system that you want and run it in any other machine system. For example if you want Ubuntu 20.4 you can have it in a mac or windows machine or other operating systems. <br>
-To get started with Docker for the churn prediction project you can follow the instructions below.
 
-### Ubuntu 
+Docker runs on Linux, Windows and macOS. To install it:
+
+### Ubuntu
 
 ```bash
 sudo apt-get install docker.io
@@ -19,14 +24,112 @@ To run docker without `sudo`, follow [this instruction](https://docs.docker.com/
 
 ### Windows
 
-To install the Docker you can just follow the instruction by Andrew Lock in this link: https://andrewlock.net/installing-docker-desktop-for-windows/.
+Follow the instruction by Andrew Lock: https://andrewlock.net/installing-docker-desktop-for-windows/.
 
-If you are using a subsystem, and the integration fails when running Docker for the first time, make sure your distribution is enabled in the resources settings.
+If you are using a subsystem, and the integration fails when running Docker
+for the first time, make sure your distribution is enabled in the resources
+settings.
 
 ### MacOS
 
 Follow the steps in the [Docker docs](https://docs.docker.com/desktop/install/mac-install/).
 
+## Why Docker
+
+Pipenv isolates the Python packages of a project, but the rest of the
+environment is still shared: the operating system, the Python version, the
+system libraries. A service that works on a laptop with Python 3.10 may fail
+on a server with Python 3.6.
+
+Docker solves this by packing the application together with its whole
+environment - OS, Python, system and Python dependencies, code, model file -
+into an image. A container started from that image behaves identically on any
+machine that runs Docker.
+
+## The Dockerfile
+
+A Docker image is built from a Dockerfile - a recipe that starts from a base
+image and describes each step to add on top of it. This is the Dockerfile for
+our churn service - [code/Dockerfile](code/Dockerfile):
+
+```dockerfile
+FROM python:3.8.12-slim
+
+RUN pip install pipenv
+
+WORKDIR /app
+
+COPY ["Pipfile", "Pipfile.lock", "./"]
+
+RUN pipenv install --system --deploy
+
+COPY ["predict.py", "model_C=1.0.bin", "./"]
+
+EXPOSE 9696
+
+ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
+```
+
+Instruction by instruction:
+
+- `FROM python:3.8.12-slim` - the base image: Python 3.8.12 on a minimal
+  Debian. The slim variant is smaller, which makes the image faster to build
+  and to download.
+- `RUN pip install pipenv` - install Pipenv inside the image; we need it to
+  install the project dependencies.
+- `WORKDIR /app` - create the `/app` directory and make it the working
+  directory for the following instructions.
+- `COPY ["Pipfile", "Pipfile.lock", "./"]` - copy the two dependency files
+  into the image.
+- `RUN pipenv install --system --deploy` - install exactly what the lock file
+  says. The `--system` flag installs the packages into the system Python of
+  the image instead of creating another virtual environment inside the
+  container (the container itself is already an isolated environment), and
+  `--deploy` makes pipenv fail if the lock file is not up to date.
+- `COPY ["predict.py", "model_C=1.0.bin", "./"]` - copy the service code and
+  the model into the image.
+- `EXPOSE 9696` - document that the container listens on port 9696. The
+  container's network is isolated, so the port has to be published when
+  starting the container.
+- `ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]` - the
+  command that runs when the container starts: our production server serving
+  the Flask app. Without an ENTRYPOINT, the container would simply start a
+  Python shell and exit.
+
+Note the double quotes in the exec form of ENTRYPOINT - the JSON array form
+is what makes Docker run the command directly, without a shell wrapping it.
+
+## Building and running
+
+Build the image from the Dockerfile:
+
+```bash
+docker build -t churn-prediction .
+```
+
+The `-t` flag gives the image a name (tag): `churn-prediction`. Then start a
+container from it:
+
+```bash
+docker run -it -p 9696:9696 churn-prediction:latest
+```
+
+The flags here:
+
+- `-it` - keep the terminal attached to the container, so we can see its
+  output and stop it with Ctrl-C.
+- `-p 9696:9696` - publish the container's port 9696 as port 9696 on the host
+  machine. The first port is on our machine, the second is inside the
+  container.
+
+The test script from the [previous unit](04-flask-deployment.md) now talks to
+the containerized service - same URL, same response, but everything inside
+the container came from the image. In the [next
+unit](07-aws-eb.md) we deploy this container to the cloud.
+
+## Materials
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
 ## Notes
 
@@ -86,10 +189,7 @@ Flag explanations:
 - `-p`: to map the 9696 port of the Docker to 9696 port of our machine. (first 9696 is the port number of our machine and the last one is Docker container port.)
 - `--entrypoint=bash`: After running Docker, we will now be able to communicate with the container using bash (as you would normally do with the Terminal). Default is `python`.
 
-
 At last you've deployed your prediction app inside a Docker container. Congratulations 🥳
-
-
 
 <table>
    <tr>

@@ -1,14 +1,87 @@
+---
+video_url: https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+---
 # Deployment to the cloud: AWS Elastic Beanstalk (optional)
 
-<a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-07.jpg"></a>
+In this optional unit we deploy the Docker image of the churn service to AWS
+Elastic Beanstalk, which makes it reachable from anywhere on the internet.
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+## Why the cloud
 
+So far the service runs only on our machine. For the marketing service to use
+it, the model has to run somewhere both can reach - a server in the cloud. A
+cloud provider gives us virtual machines on demand, and AWS is the most
+popular one. You need an AWS account to follow along; see
+[creating an account on AWS](https://mlbookcamp.com/article/aws) for the
+details.
 
-## Links
+Elastic Beanstalk (EB) is AWS's simple deployment service: we give it our
+application - here, a Docker image - and it takes care of the rest. It starts
+the instances, keeps the application running and scales it: when many
+requests come in, it launches more instances of the container; when the
+traffic goes down, it scales back.
 
-* [Creating an account on AWS](https://mlbookcamp.com/article/aws)
+The setup mirrors the scenario from the [first unit](01-intro.md): the
+marketing service sends requests to the EB environment; EB forwards them to
+the Docker container running our Flask app; the container responds with the
+churn probability, and EB relays the answer back.
 
+## Deploying step by step
+
+First we need the EB command line tool. We install it as a development
+dependency - it is only needed from our machine to create and manage the
+environment, the container itself doesn't use it:
+
+```bash
+pipenv install awsebcli --dev
+```
+
+Initialize the EB application. This asks about the region and the platform
+and creates the configuration in `.elasticbeanstalk/config.yml`:
+
+```bash
+eb init -p docker -r eu-north-1 churn-serving
+```
+
+- `-p docker` - the platform is Docker: EB will run our Dockerfile.
+- `-r eu-north-1` - the AWS region; pick the one closest to your users.
+- `churn-serving` - the name of the application.
+
+You can look at the generated configuration with `less
+.elasticbeanstalk/config.yml`. Before deploying to the cloud, we can check
+that everything works locally - EB builds the Docker image and runs it:
+
+```bash
+eb local run --port 9696
+```
+
+The test script from the [earlier unit](04-flask-deployment.md) can test it
+as before. When it works, create the real environment in AWS:
+
+```bash
+eb create churn-serving-env
+```
+
+This takes a few minutes: EB starts the instances, deploys the container and
+creates a URL for the environment. That URL is the endpoint for the
+prediction requests - update the host in the test script to use it. No port
+number is needed: EB accepts requests on the standard HTTP port and routes
+them to the container.
+
+Two things to keep in mind. The environment URL is public - anyone who finds
+it can call our service, so a real production deployment needs authentication
+or network-level access control. And when you are done playing with the
+service, delete the environment, otherwise AWS keeps charging for the
+instances:
+
+```bash
+eb terminate churn-serving-env
+```
+
+## Materials
+
+- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+- [Creating an account on AWS](https://mlbookcamp.com/article/aws)
 
 ## Notes
 
@@ -76,7 +149,7 @@ The deployed service is publicly accessible. In a production environment, it's c
 
 ```bash
     eb terminate churn-serving-env
-```
+    ```
 This command terminates the Elastic Beanstalk environment and removes all associated resources.
 
 #### Additional Note
@@ -104,10 +177,6 @@ web: gunicorn churn_serving:app
 
 I've put my heroku app files in this repository:
 https://github.com/amindadgar/customer-churn-app 
-
-
-Add notes from the video (PRs are welcome)
-
 
 <table>
    <tr>

@@ -1,11 +1,148 @@
-
+---
+video_url: https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+code:
+  - label: Flask app
+    path: code/predict.py
+  - label: Test script
+    path: code/predict-test.py
+---
 # Serving the churn model with Flask
 
-<a href="https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-04.jpg"></a>
- 
+In this unit we wrap the churn model into a Flask web service: it loads the
+pickled model, listens for POST requests with customer data, and replies with
+the churn probability.
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+## The web service
 
+We take the ping app from the [previous unit](03-flask-intro.md) and extend
+it. The full service is in [predict.py](code/predict.py):
+
+```python
+import pickle
+
+from flask import Flask
+from flask import request
+from flask import jsonify
+
+
+model_file = 'model_C=1.0.bin'
+
+with open(model_file, 'rb') as f_in:
+    dv, model = pickle.load(f_in)
+
+app = Flask('churn')
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    customer = request.get_json()
+
+    X = dv.transform([customer])
+    y_pred = model.predict_proba(X)[0, 1]
+    churn = y_pred >= 0.5
+
+    result = {
+        'churn_probability': float(y_pred),
+        'churn': bool(churn)
+    }
+
+    return jsonify(result)
+
+
+if __name__ == "__main__":
+    app.run(debug=True, host='0.0.0.0', port=9696)
+```
+
+The parts worth noting:
+
+- The model is loaded once, at start-up - not on every request. Loading is
+  fast compared to training, but there is no reason to repeat it.
+- The route uses the POST method: the customer data comes in the body of the
+  request as JSON, and `request.get_json()` turns it into a Python
+  dictionary.
+- We transform the customer with the vectorizer - a list with one dictionary,
+  because the transformer expects a list of records - and take the churn
+  probability from the second column of `predict_proba` (index 1 is the
+  probability of the positive class, "churn").
+- We apply a threshold of 0.5 to get a yes/no answer, and cast NumPy values
+  to native Python `float` and `bool`. JSON has no NumPy types, and Flask
+  cannot serialize them.
+- `jsonify(result)` turns the dictionary into a JSON response.
+
+## Testing the service
+
+Run the service with `python predict.py`. A browser can't test it - browsers
+send GET requests, and this route expects POST. We use a small client script,
+[predict-test.py](code/predict-test.py), which sends a request with the
+`requests` library:
+
+```python
+import requests
+
+url = 'http://localhost:9696/predict'
+
+customer = {
+    "gender": "female",
+    "seniorcitizen": 0,
+    ...
+}
+
+response = requests.post(url, json=customer).json()
+print(response)
+
+if response['churn'] == True:
+    print('sending promo email to %s' % customer_id)
+else:
+    print('not sending promo email to %s' % customer_id)
+```
+
+The customer dictionary holds the same fields the model saw during training.
+The `json=customer` argument serializes the dictionary to JSON in the request
+body. Running the script prints:
+
+```
+{'churn': False, 'churn_probability': 0.3257561103397851}
+not sending promo email to xyz-123
+```
+
+This is exactly how a marketing service would talk to our model: send
+customer data as JSON, get the churn decision back, act on it.
+
+## Running in production: gunicorn
+
+When you start the app with `python predict.py`, Flask warns that its
+development server is not suitable for production - it is single-threaded and
+not built for heavy load. A WSGI server is the production replacement. WSGI
+(Web Server Gateway Interface) is the standard way Python web applications
+are served: the WSGI server imports our `app` object and handles all the
+network work around it.
+
+The common choice is gunicorn:
+
+```bash
+pip install gunicorn
+gunicorn --bind=0.0.0.0:9696 predict:app
+```
+
+The last argument is `module:app_object` - our file is `predict.py` and the
+Flask application inside it is called `app`. The service behaves the same,
+but now it is a real production server.
+
+On Windows, gunicorn does not work - it depends on libraries not available
+there. The Windows alternative is waitress:
+
+```bash
+pip install waitress
+waitress-serve --listen=0.0.0.0:9696 predict:app
+```
+
+The [next unit](05-pipenv.md) deals with the remaining piece: keeping the
+project's library versions under control.
+
+## Materials
+
+- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+- The full serving script this unit walks through is also available in the
+  [mlbookcamp-code repository](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-05-deployment/churn_serving.py)
 
 ## Notes
 In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment.
@@ -79,10 +216,6 @@ In this session, we talked about implementing the functionality of prediction to
    -  to run the waitress wgsi server use the command ```waitress-serve --listen=0.0.0.0:9696 churn:app```.
    -  To test it, you can run the code above and the result will be the same.
  - So until here you were able to make a production server that predicts the churn value for new customers. In the next session, we can see how to solve library version conflicts in each machine and manage dependencies for production environments.
-
-
-Add notes from the video (PRs are welcome)
-
 
 <table>
    <tr>
