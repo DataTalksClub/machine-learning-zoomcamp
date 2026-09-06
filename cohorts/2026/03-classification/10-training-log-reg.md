@@ -26,6 +26,8 @@ model = LogisticRegression(solver='lbfgs')
 model.fit(X_train, y_train)
 ```
 
+![Training logistic regression: create the model with LogisticRegression and call fit with the feature matrix and the target vector](images/10-training-log-reg-01-fit.jpg)
+
 The `solver` is the optimization algorithm that finds the best weights.
 After `fit`, the model has learned both parts of the formula from the
 previous lesson. The bias term `w0` is in `intercept_`:
@@ -54,6 +56,8 @@ array([ 0.475, -0.175, -0.408, -0.03 , -0.078,  0.063, -0.089, -0.081,
         0.213, -0.089, -0.232, -0.07 ,  0.   ])
 ```
 
+![The bias term and the 45 weights the model learned - one weight per column produced by DictVectorizer](images/10-training-log-reg-02-coefficients.jpg)
+
 We will read these coefficients in the next lesson.
 
 ## Making predictions
@@ -74,6 +78,8 @@ y_pred = model.predict_proba(X_val)[:, 1]
 class 0 and the probability of class 1. The two columns always sum up
 to 1, so it is enough to take the second one - hence `[:, 1]`.
 
+![Hard predictions with predict give the final 0/1 answer, soft predictions with predict_proba give the actual probabilities](images/10-training-log-reg-03-soft-predictions.jpg)
+
 Now we decide: if the model thinks the probability of churn is 50% or
 more, we predict that the customer will churn:
 
@@ -81,10 +87,14 @@ more, we predict that the customer will churn:
 churn_decision = (y_pred >= 0.5)
 ```
 
+![Applying the 0.5 threshold: the comparison produces a boolean array with the final churn decision for each customer](images/10-training-log-reg-04-churn-decision.jpg)
+
 The result is a boolean array. We can use it to select the customers
 the model thinks will churn - for example, the ones who should receive
 a promotional email with a discount. Selecting the validation rows with
 this mask gives 311 customers.
+
+![Selecting the validation rows with the churn decision mask: 311 customers should receive the promotional email](images/10-training-log-reg-05-selected-customers.jpg)
 
 ## Accuracy
 
@@ -123,6 +133,8 @@ df_pred.correct.mean()
 ```
 0.8034066713981547
 ```
+
+![Computing accuracy both ways: comparing predictions with actual values, and taking the mean of the correct column](images/10-training-log-reg-06-accuracy.jpg)
 
 Same number, as expected. Taking the mean of a boolean column counts
 the fraction of `True` values, because `True` is 1 and `False` is 0.

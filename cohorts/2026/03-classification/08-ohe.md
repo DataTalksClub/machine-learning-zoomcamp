@@ -49,6 +49,8 @@ contract=month-to-month  contract=one_year  contract=two_year  tenure  monthlych
 Only one of the contract columns is "hot" (set to 1) - that is where
 the name one-hot encoding comes from.
 
+![One-hot encoding: the gender and contract values of each customer are turned into binary columns, with exactly one 1 per feature](images/08-ohe-01-one-hot-table.jpg)
+
 We do this for every categorical feature. The `paymentmethod` feature
 has four values, so it becomes four columns. `gender` has two values,
 so it becomes two columns. The numerical features pass through
@@ -71,6 +73,8 @@ this, `dicts` is a list that looks like this:
  {'contract': 'month-to-month', 'tenure': 10, 'monthlycharges': 95.25},
  ...]
 ```
+
+![Turning a dataframe into a list of dictionaries with to_dict(orient='records') - one dictionary per customer](images/08-ohe-02-to-dict-records.jpg)
 
 ## DictVectorizer
 
@@ -98,6 +102,8 @@ because most of the matrix is zeros. Sparse matrices are more memory
 efficient, but for this dataset it is simpler to work with a dense
 array.
 
+![Fitting DictVectorizer on the training dictionaries: fit learns the categories, transform produces the matrix, and the result has shape (4225, 45)](images/08-ohe-03-dictvectorizer-fit.jpg)
+
 To see what columns the vectorizer created, use
 `dv.get_feature_names_out()`. For the full dataset we get 45 names:
 one column per category value (`contract=month-to-month`,
@@ -115,6 +121,8 @@ X_train.shape
 4225 is the number of rows in the training set, 45 is the number of
 features after encoding.
 
+![The feature names created by DictVectorizer: one column per category value such as contract=two_year or internetservice=fiber_optic, plus the numerical columns](images/08-ohe-04-feature-names.jpg)
+
 ## Encoding the validation set
 
 The validation set must be encoded in exactly the same way as the
@@ -126,6 +134,8 @@ only `transform`:
 val_dict = df_val[categorical + numerical].to_dict(orient='records')
 X_val = dv.transform(val_dict)
 ```
+
+![Encoding the validation set: the same vectorizer, only transform - no second fit](images/08-ohe-05-validation-transform.jpg)
 
 If we called `fit` again on validation, the columns could come out in a
 different order - or a category that appears only in validation would
