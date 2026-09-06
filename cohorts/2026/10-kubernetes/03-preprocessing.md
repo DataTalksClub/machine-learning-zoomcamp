@@ -24,12 +24,19 @@ and wrap it into a Flask app.
 To convert the notebook into a script we can run:
 
 ```bash
-jupyter nbconvert --to script notebook.ipynb
+jupyter nbconvert --to script tf-serving-connect.ipynb
 ```
 
-We also rename the script to `gateway.py`. This is the
+Before that we stop Jupyter - we don't need it anymore. The conversion
+gives us a `.py` file, and we rename it to `gateway.py`, because this is
+how we will call our service. This is the
 [code/gateway.py](code/gateway.py) file. After cleaning it up, it has three
 parts: preparing the request, sending it, and preparing the response.
+
+We can run the script right away to check that it still works - it
+prints the predictions, with `pants` on top.
+
+![Converting the notebook with jupyter nbconvert](images/03-preprocessing-01-nbconvert.jpg)
 
 To prepare the request we put the model name, the signature and our
 protobuf tensor into a `PredictRequest`:
@@ -76,7 +83,12 @@ def predict(url):
     return response
 ```
 
-For the Flask app we can reuse the code from session 5:
+![Preparing the request and invoking the model in the gateway script](images/03-preprocessing-02-gateway-script.jpg)
+
+For the Flask app we can reuse the code from session 5 - the churn
+prediction service. We copy the Flask imports and the endpoint pattern,
+and adjust it: the app is called `gateway`, the endpoint function becomes
+`predict_endpoint`, and it expects JSON with an image URL:
 
 ```python
 # Create flask app
@@ -90,31 +102,51 @@ def predict_endpoint():
     return jsonify(result)
 ```
 
-Our application now has two components: a Docker container with TensorFlow
-Serving, and a Flask application with the gateway.
+![The Flask app part of gateway.py](images/03-preprocessing-03-flask-app.jpg)
+
+Like in session 5, we also create a `test.py` for testing the service:
+we copy it from the previous session and replace the URL with
+`http://localhost:9696/predict`.
+
+Our application now has two components: a Docker container with
+TensorFlow Serving, and a Flask application with the gateway.
 
 ## Creating the virtual environment with Pipenv
 
-We also want to put everything in a `pipenv` environment for deployment.
-For that we need to install a few libraries with pipenv:
+We also want to put everything in a `pipenv` environment for deployment -
+we will need it when we prepare the Docker images. For that we need to
+install a few libraries with pipenv:
 
 ```bash
 pipenv install grpcio==1.42.0 flask gunicorn keras-image-helper
 ```
 
+We need `gunicorn` because in Docker we will later use it for serving the
+Flask app.
+
 ## Getting rid of the TensorFlow dependency
 
-Be aware of the library sizes: TensorFlow itself is around 1.7 GB, the
-CPU-only version is around 400 MB. We don't want such a heavy dependency in
-our gateway - we only use TensorFlow to convert a numpy array to protobuf
-format.
+Be aware of the library sizes: TensorFlow itself is around 1.7 GB, and
+the CPU-only version, `tensorflow-cpu`, is still around 400 MB. We don't
+want such a heavy dependency in our gateway. In the notebook we only use
+one function from TensorFlow - `make_tensor_proto`, the thing that
+converts our numpy array into protobuf format. Dragging the entire
+library with us just for that is too much.
 
 Instead, we can use a small package with just the protobuf definitions of
-TensorFlow Serving. To make it work we install:
+TensorFlow - `tensorflow-protobuf`. It was created by extracting all the
+protobuf files and compiling them separately: it still uses the
+`tensorflow` namespace, but it only contains the protobuf files we need,
+not the library itself. To make it work we install:
 
 ```bash
 pipenv install tensorflow-protobuf==2.7.0 protobuf==3.19
 ```
+
+We install it instead of TensorFlow and `tensorflow-serving-api`. The
+code becomes a bit more verbose - but without the 2 GB baggage:
+
+![The tensorflow-protobuf README: the verbose version without the baggage](images/03-preprocessing-05-tensorflow-protobuf.jpg)
 
 And we put the conversion code in a separate script,
 [code/proto.py](code/proto.py), and import the `np_to_protobuf` function
@@ -151,6 +183,23 @@ def np_to_protobuf(data):
 
 This code turns a numpy array into the protobuf format that TensorFlow
 Serving expects, without needing the full TensorFlow library installed.
+
+![The proto.py script with the protobuf conversion code](images/03-preprocessing-06-proto-py.jpg)
+
+In `gateway.py` we remove the old function and simply import from this
+script - it does exactly the same thing as before. To check that
+everything works, we activate the pipenv environment (`pipenv shell`) and
+run `python gateway.py`: it still prints the predictions, and this time
+it doesn't require TensorFlow at all - no CUDA warnings in the logs,
+because we only load the parts of the code we need.
+
+![Installing the dependencies with pipenv and testing the gateway](images/03-preprocessing-04-pipenv-install.jpg)
+
+That's it for this lesson: TensorFlow Serving runs in a Docker container,
+the gateway is a Flask application, and everything is put into a pipenv
+environment. Now we want to package the gateway into Docker as well and
+run these things together - for that we will use Docker Compose, which is
+what we cover in the next lesson.
 
 ## Materials
 
