@@ -1,9 +1,229 @@
+---
+video_url: "https://www.youtube.com/watch?v=XODz6LwKY7g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+code:
+  - label: Notebook
+    path: notebook.ipynb
+---
 # Decision tree learning algorithm
 
-<a href="https://www.youtube.com/watch?v=XODz6LwKY7g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-6-04.jpg"></a>
+In this unit we look inside the decision tree learning algorithm: how
+it finds the best condition for a split, what impurity is, and when it
+stops splitting.
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
+## Tree vocabulary
 
+First, the names for the parts of a tree:
+
+- A node contains a condition, for example `assets > 3000`.
+- Two branches go out of it: one for "true" and one for "false".
+- The node at the top is the root; every node except the leaves is a
+  parent of two other nodes.
+- The nodes at the bottom are leaves (decision nodes): this is where
+  the tree stops and the prediction is made.
+- The depth of a tree is the number of levels - the length of the
+  longest path from the root to a leaf.
+
+To understand how the algorithm learns such a tree, we take a small
+toy dataset instead of the full credit scoring data.
+
+## Finding the best split for one column
+
+We take eight customers with one feature, `assets`, and the target,
+`status`:
+
+```python
+data = [
+    [8000, 'default'],
+    [2000, 'default'],
+    [   0, 'default'],
+    [5000, 'ok'],
+    [5000, 'ok'],
+    [4000, 'ok'],
+    [9000, 'ok'],
+    [3000, 'default'],
+]
+
+df_example = pd.DataFrame(data, columns=['assets', 'status'])
+```
+
+We want to build a decision stump - a tree with one condition,
+`assets > T`. The question is: which threshold `T` is the best?
+
+![A decision stump: one condition, assets > T - but which T?](images/04-decision-tree-learning-01-best-threshold.jpg)
+
+The condition splits the data into two parts: the left side where the
+condition is false (`assets <= T`) and the right side where it is true
+(`assets > T`). The candidate thresholds are the values in the middle
+between the observed values - if we sort by `assets`, the candidates
+are:
+
+![Sorting by assets and marking the left and right sides](images/04-decision-tree-learning-02-candidate-thresholds.jpg)
+
+```python
+Ts = [0, 2000, 3000, 4000, 5000, 8000]
+```
+
+Thresholds 0 and 8000 don't really make sense (one side would be
+empty), but the algorithm still tries them. Let's split with
+`T = 4000`:
+
+```python
+T = 4000
+df_left = df_example[df_example.assets <= T]
+df_right = df_example[df_example.assets > T]
+
+display(df_left)
+print(df_left.status.value_counts(normalize=True))
+display(df_right)
+print(df_right.status.value_counts(normalize=True))
+```
+
+The left side has four customers: three `default` and one `ok`. The
+right side: three `ok` and one `default`.
+
+![Splitting the toy dataset with T = 4000](images/04-decision-tree-learning-03-split-t4000.jpg)
+
+For each side we predict the majority class - the most frequent status.
+Left: `default`. Right: `ok`. The mistake rate on the left is 1/4 =
+25% (the one `ok` customer), and on the right also 1/4 = 25%.
+
+![Left predicts default with 25% mistakes, right predicts ok with 25%](images/04-decision-tree-learning-04-misclassification-rate.jpg)
+
+This mistake rate is called the misclassification rate, and it is one
+way of measuring how impure a group is. A pure group contains only one
+class - zero misclassification rate. We can compute the rates for both
+sides with `value_counts(normalize=True)` and average them, weighted by
+the group sizes:
+
+```text
+T    decision LEFT   impurity LEFT   decision RIGHT  impurity RIGHT  AVG
+0    default         0%              ok              43%             21%
+2000 default         0%              ok              33%             16%
+3000 default         0%              ok              20%             10%
+4000 default         25%             ok              25%             25%
+5000 default         50%             ok              50%             50%
+8000 default         43%             ok              0%              21%
+```
+
+The best threshold is `T = 3000`: the average impurity is only 10%. So
+the best split for this column is `assets > 3000`.
+
+![The impurity table for all thresholds of both features; assets > 3000 wins](images/04-decision-tree-learning-05-impurity-table.jpg)
+
+```text
+       ASSETS > 3000 
+        /         \                            
+   FALSE           TRUE
+   DEFAULT         OK
+```
+
+## Checking multiple features
+
+Real data has many features, and the algorithm needs to find the best
+split among all of them. Let's add a second feature, `debt`:
+
+```python
+data = [
+    [8000, 3000, 'default'],
+    [2000, 1000, 'default'],
+    [   0, 1000, 'default'],
+    [5000, 1000, 'ok'],
+    [5000, 1000, 'ok'],
+    [4000, 1000, 'ok'],
+    [9000,  500, 'ok'],
+    [3000, 2000, 'default'],
+]
+
+df_example = pd.DataFrame(data, columns=['assets', 'debt', 'status'])
+```
+
+For `debt` the candidate thresholds are `[500, 1000, 2000]`. We put all
+thresholds in a dictionary and loop over both features and all their
+thresholds:
+
+```python
+thresholds = {
+    'assets': [0, 2000, 3000, 4000, 5000, 8000],
+    'debt': [500, 1000, 2000]
+}
+
+for feature, Ts in thresholds.items():
+    print('#####################')
+    print(feature)
+    for T in Ts:
+        print(T)
+        df_left = df_example[df_example[feature] <= T]
+        df_right = df_example[df_example[feature] > T]
+
+        display(df_left)
+        print(df_left.status.value_counts(normalize=True))
+        display(df_right)
+        print(df_right.status.value_counts(normalize=True))
+
+        print()
+    print('#####################')
+```
+
+For `debt`, the best split gives an average impurity of 16% - worse
+than the 10% we got with `assets`. So the best split overall is still
+`assets > 3000`. With more features we would simply add more rows to
+this comparison.
+
+## The split-finding algorithm
+
+In pseudocode, finding the best split works like this:
+
+```text
+FOR each feature in FEATURES:
+    FIND all thresholds for the feature
+    FOR each threshold in thresholds:
+        SPLIT the dataset using "feature > threshold" condition
+        COMPUTE the impurity of this split
+SELECT the condition with the LOWEST IMPURITY
+```
+
+![The split-finding algorithm in pseudocode](images/04-decision-tree-learning-06-split-algorithm.jpg)
+
+The misclassification rate is not the only impurity measure.
+Scikit-learn uses more sensitive criteria: Gini impurity and entropy.
+For regression trees the equivalent is MSE. The idea stays the same:
+pick the split with the lowest impurity. And while we looked at
+classification here, decision trees can also solve regression problems.
+
+![Impurity criteria in the scikit-learn documentation](images/04-decision-tree-learning-07-impurity-criteria.jpg)
+
+## Stopping criteria
+
+After the root is split, the algorithm applies the same procedure
+recursively to the left and right sides. When does it stop?
+
+- The group is already pure - the misclassification rate is 0%, no
+  point in splitting further.
+- The tree reached the maximum depth limit - controlled by
+  `max_depth`.
+- The group is too small to split - controlled by `min_samples_leaf`.
+- The maximum number of leaves (decision nodes) was reached.
+
+![The stopping criteria](images/04-decision-tree-learning-08-stopping-criteria.jpg)
+
+These stopping criteria are what keep a tree from overfitting.
+
+## The full algorithm
+
+Putting everything together:
+
+- Find the best split: for every feature, try all possible thresholds
+  and pick the condition with the lowest impurity.
+- If the stopping criteria are not met (max depth not reached, groups
+  large enough and not pure), repeat for the left side and the right
+  side.
+
+In the next unit we tune `max_depth` and `min_samples_leaf` for our
+credit scoring project.
+
+## Materials
+
+- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
 ## Notes
 
@@ -37,8 +257,6 @@ composed of **nodes** (which contain conditions) and **branches** (which represe
 *   At a node, find the best split.
 *   Stop if max\_depth is reached.
 *   For each child node, if the node is sufficiently large and not pure, repeat the process from the beginning.
-
-Add notes from the video (PRs are welcome)
 
 <table>
    <tr>
