@@ -1,10 +1,146 @@
-
+---
+video_url: "https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20"
+code:
+  - label: "notebook.ipynb"
+    path: "notebook.ipynb"
+---
 # Root Mean Squared Error (RMSE)
 
-<a href="https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20"><img src="images/thumbnail-2-09.jpg"></a>
+In the previous unit we trained our first model and plotted the
+predictions against the actual values. The histograms showed the
+predictions are a bit off, but a chart is not an objective measure. In
+this unit we learn one way of quantifying how good or bad a regression
+model is: root mean squared error, or RMSE.
+
+## The formula
+
+RMSE starts from the difference between the prediction and the actual
+value. For each observation `i`, `g(xi)` is the prediction we make and
+`yi` is the actual value. We take the difference, square it, average
+these squared differences over all `m` observations, and finally take
+the square root:
+
+```text
+RMSE = sqrt( (1/m) · Σ (g(xi) - yi)² )
+```
+
+![Writing the RMSE formula](images/09-rmse-01-rmse-formula.jpg)
+
+Let's unpack each part with a small example.
+
+## A worked example
+
+Imagine we have four observations. These are our predictions, and
+these are the actual prices:
+
+```text
+y_pred:  10     9     11    10
+y:        9     9     10.5  11.5
+```
+
+![Predictions and actual values as two arrays](images/09-rmse-02-predictions-vs-actual-prices.jpg)
+
+The first step is to take the difference between each prediction and
+the corresponding actual value:
+
+```text
+10 - 9    =  1
+ 9 - 9    =  0
+11 - 10.5 =  0.5
+10 - 11.5 = -1.5
+```
+
+![Taking the differences between predictions and actual values](images/09-rmse-03-differences.jpg)
+
+Next, we square each difference:
+
+```text
+1   → 1
+0   → 0
+0.5 → 0.25
+-1.5 → 2.25
+```
+
+Squaring does two things: it makes negative and positive errors
+comparable - otherwise they would cancel each other out - and it
+penalizes larger errors more.
+
+Then we take the average of the squared errors:
+
+```text
+(1 + 0 + 0.25 + 2.25) / 4 = 0.875
+```
+
+![Squaring the differences and taking the mean](images/09-rmse-04-squared-errors-mean.jpg)
+
+This is the mean squared error, MSE. For our example, the mean squared
+error is 0.875:
+
+![Computing the mean of the squared errors](images/09-rmse-05-mean-calculator.jpg)
+
+The last step is the square root:
+
+```text
+sqrt(0.875) ≈ 0.93
+```
+
+The square root brings the error back to the same units as the target
+variable. For these four observations, 0.93 is the root mean squared
+error.
+
+## Implementation
+
+Now let's implement this in NumPy. The function takes the vector of
+actual values and the vector of predictions:
+
+```python
+def rmse(y, y_pred):
+    error = y - y_pred
+    se = error ** 2
+    mse = se.mean()
+    return np.sqrt(mse)
+```
+
+First we compute the error - the difference between `y` and `y_pred`.
+Then we square it. To get the mean we don't need to sum and divide by
+the number of elements: NumPy has the `mean` method, which gives us the
+mean squared error directly. Finally, we take the square root and
+return the result.
+
+We can simplify the function a little by squaring the difference
+inline:
+
+```python
+def rmse(y, y_pred):
+    se = (y - y_pred) ** 2
+    mse = se.mean()
+    return np.sqrt(mse)
+```
+
+Now let's use it to evaluate our baseline model. We already have the
+predictions `y_pred` on the training set:
+
+```python
+rmse(y_train, y_pred)
+```
+
+```text
+0.7554192603920132
+```
+
+![Implementing rmse and evaluating the baseline model](images/09-rmse-06-rmse-implementation.jpg)
+
+The RMSE of the baseline model is about 0.76. This single number is
+much easier to work with than a chart: whenever we change something -
+add a feature, transform a variable, try a different model - we
+recompute it. If the number goes down, the model got better.
+
+So far we computed it on the training data. In the next unit we apply
+the model to the validation set and see how it performs there.
+
+## Materials
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 
 ## Notes
 
