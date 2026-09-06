@@ -22,6 +22,8 @@ We want the classic 60/20/20 split: 60% of the data for training, 20%
 for validation and 20% for testing. The function only splits in two, so
 we do it in two steps.
 
+![The plan: first split off 20% for the test set, then split the remaining 80% into train and validation](images/03-validation-01-train-val-test-split.jpg)
+
 First we set aside the test set - 20% of all the data:
 
 ```python
@@ -48,6 +50,8 @@ len(df_train), len(df_val), len(df_test)
 (4225, 1409, 1409)
 ```
 
+![The two splits and the sizes of the resulting sets](images/03-validation-02-split-sizes.jpg)
+
 The full dataset has 7043 customers: 4225 for training (60%), 1409 for
 validation (20%) and 1409 for testing (20%).
 
@@ -65,6 +69,8 @@ df_train = df_train.reset_index(drop=True)
 df_val = df_val.reset_index(drop=True)
 df_test = df_test.reset_index(drop=True)
 ```
+
+![Resetting the indexes after the shuffle](images/03-validation-03-reset-index.jpg)
 
 The `drop=True` argument discards the old index instead of adding it
 back as a column. We do the same for the full train set when we start
@@ -88,6 +94,8 @@ del df_train['churn']
 del df_val['churn']
 del df_test['churn']
 ```
+
+![Taking the target out of the dataframes and into y vectors](images/03-validation-04-isolate-target.jpg)
 
 This is a safety measure: we don't want to accidentally use the target
 as a feature when we train the model. Note that we keep `churn` inside

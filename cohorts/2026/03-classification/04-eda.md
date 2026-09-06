@@ -51,6 +51,8 @@ churn               0
 dtype: int64
 ```
 
+![Checking for missing values: everything is 0](images/04-eda-01-missing-values.jpg)
+
 Everything is 0 - there are no missing values anywhere. We already took
 care of the only column that had them, `totalcharges`, during data
 preparation.
@@ -70,6 +72,8 @@ df_full_train.churn.value_counts(normalize=True)
 Name: churn, dtype: float64
 ```
 
+![The distribution of the target: 73% stayed, 27% churned](images/04-eda-02-churn-rate.jpg)
+
 About 73% of the customers stayed and 27% churned. The percentage of
 ones - 0.269968, roughly 27% - is called the churn rate.
 
@@ -86,6 +90,8 @@ df_full_train.churn.mean()
 0.26996805111821087
 ```
 
+![The mean of the binary churn column is the churn rate](images/04-eda-03-churn-rate-mean.jpg)
+
 Same number. This works for any binary variable: its mean is always the
 fraction of ones.
 
@@ -100,6 +106,8 @@ leaves three numerical variables:
 ```python
 numerical = ['tenure', 'monthlycharges', 'totalcharges']
 ```
+
+![The three numerical variables](images/04-eda-04-numerical-variables.jpg)
 
 And 16 categorical ones - everything except `customerid` (an
 identifier, useless as a feature), the three numerical variables and
@@ -125,6 +133,8 @@ categorical = [
     'paymentmethod',
 ]
 ```
+
+![The list of categorical variables](images/04-eda-05-categorical-variables.jpg)
 
 It is a good idea to check how many unique values each categorical
 variable has:
