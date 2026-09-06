@@ -30,6 +30,8 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 !wget $data -O data-week-3.csv
 ```
 
+![Downloading the dataset with wget](images/02-data-preparation-01-download-data.jpg)
+
 In a Jupyter notebook, the `!` prefix runs a shell command instead of
 Python code, and the `$` lets us use a Python variable - here `data` -
 inside that shell command. The `-O` flag says how to name the
@@ -86,6 +88,8 @@ totalcharges                      1840.75             151.65
 churn                                  no                 yes
 ```
 
+![Looking at the data with head().T to see all the columns](images/02-data-preparation-02-first-look.jpg)
+
 ## Making everything uniform
 
 The column names are inconsistent: some start with an uppercase letter
@@ -110,6 +114,8 @@ the same transformation to their values. This is exactly what we did in
 the car-price project in the previous module. After this, values like
 `Electronic check` become `electronic_check` and `Month-to-month`
 stays `month-to-month`, but without the space.
+
+![The same dataframe after making the names and values uniform](images/02-data-preparation-03-normalized.jpg)
 
 ## Fixing the totalcharges column
 
@@ -138,6 +144,8 @@ This fails:
 ValueError: Unable to parse string "_" at position 488
 ```
 
+![Converting totalcharges to numbers fails because of the "_" values](images/02-data-preparation-04-totalcharges-error.jpg)
+
 The reason: in the original data, missing values in this column were
 encoded with a space. Our normalization step replaced spaces with
 underscores, so the missing values became `"_"`, and pandas cannot
@@ -161,6 +169,8 @@ There are 11 such rows. We can inspect them:
 ```python
 df[tc.isnull()][['customerid', 'totalcharges']]
 ```
+
+![The 11 customers with missing total charges](images/02-data-preparation-05-coerce-missing.jpg)
 
 These are customers who just joined - their tenure is small and they
 haven't been billed yet, so their total charges are not available. For
@@ -191,6 +201,8 @@ df.churn.head()
 4    yes
 Name: churn, dtype: object
 ```
+
+![Translating churn from yes/no to 1/0](images/02-data-preparation-06-churn-encoding.jpg)
 
 For classification we need numbers. We compare the column with `'yes'`
 - this produces a boolean series - and cast it to integers:

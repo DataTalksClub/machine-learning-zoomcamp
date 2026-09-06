@@ -22,6 +22,8 @@ company can target the customers with high scores and try to retain
 them, for example by sending an email with discounts or special
 promotions.
 
+![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem.jpg)
+
 ## Classification
 
 To predict this score we use machine learning. The task is binary
@@ -30,6 +32,8 @@ outcomes. For the i-th customer, we want our model g to approximate the
 target y:
 
 $$\large g\left(x_{i}\right) \approx y_{i}$$
+
+![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification.jpg)
 
 Here x is the feature vector - everything we know about the customer -
 and y is the target variable. The target is binary, so y belongs to
@@ -74,9 +78,11 @@ the data, set up a validation framework, do EDA and feature importance
 analysis, then train a logistic regression model and use it to score
 customers.
 
+![The plan of the module in the course notebook](images/01-churn-project-03-module-plan.jpg)
+
 ## Materials
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification) empty?
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
 ## Notes
 

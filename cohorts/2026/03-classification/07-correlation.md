@@ -31,11 +31,15 @@ value gives its strength. One way to interpret the magnitude:
 - MEDIUM when it is between 0.2 and 0.5
 - STRONG when it is between 0.5 and 1.0
 
+![The correlation coefficient: the range of r and the low/medium/strong interpretation](images/07-correlation-01-correlation-coefficient.jpg)
+
 In our case one of the two variables is churn - a binary 0/1 column.
 If the correlation between a numerical feature and churn is positive,
 customers with higher values of that feature churn more; if it is
 negative, they churn less. The larger the absolute value, the more
 important the feature.
+
+![Correlation with a binary target: positive means more churn, negative means less churn](images/07-correlation-02-binary-target.jpg)
 
 ## Correlation of numerical features with churn
 
@@ -53,6 +57,8 @@ monthlycharges    0.196805
 totalcharges     -0.196353
 dtype: float64
 ```
+
+![Correlating the numerical features with churn using corrwith](images/07-correlation-03-corrwith-churn.jpg)
 
 Let's read this:
 
@@ -128,6 +134,8 @@ it is about 40%, and for those who stayed longer than a year only
 about 18%. Churn clearly decreases as tenure grows - exactly what the
 negative correlation told us.
 
+![Churn rate by tenure group: 60%, 40%, 17%](images/07-correlation-04-churn-rate-tenure.jpg)
+
 The same check for monthly charges:
 
 ```python
@@ -158,6 +166,8 @@ Here the relationship goes the other way: customers paying at most $20
 churn at about 9%, and customers paying more than $50 churn at about
 32%. The more people pay monthly, the more likely they are to leave -
 the positive correlation confirmed.
+
+![Churn rate by monthly charges group: 8%, 18%, 32%](images/07-correlation-05-churn-rate-monthly-charges.jpg)
 
 We now know the importance of categorical variables (mutual
 information) and numerical variables (correlation). Next we prepare the
