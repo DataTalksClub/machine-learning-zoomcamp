@@ -21,6 +21,8 @@ For churn prediction, each customer in the validation set falls into one of four
 
 Reading the names: "positive"/"negative" is what we predicted, "true"/"false" is whether that prediction was correct. A false positive is a customer we sent a promotional email to, but who was never going to leave. A false negative is a customer who left without us ever flagging them - often the more costly mistake.
 
+![The four outcomes of a churn prediction: true negative, false negative, false positive and true positive](images/03-confusion-table-01-four-outcomes.jpg)
+
 ## Computing the counts
 
 To put every customer into one of the four cells, we compare the actual values with the predictions at threshold 0.5:
@@ -34,6 +36,8 @@ predict_positive = (y_pred >= t)
 predict_negative = (y_pred < t)
 ```
 
+![Defining the actual classes and the positive/negative predictions at threshold 0.5](images/03-confusion-table-02-prediction-conditions.jpg)
+
 Each cell is the number of customers where the two conditions hold at the same time. The `&` operator is the element-wise logical AND:
 
 ```python
@@ -44,7 +48,11 @@ fp = (predict_positive & actual_negative).sum()
 fn = (predict_negative & actual_positive).sum()
 ```
 
+![The element-wise AND of the two conditions: only True and True gives True](images/03-confusion-table-03-and-operator.jpg)
+
 For our model this gives tp = 210, tn = 922, fp = 101 and fn = 176 - and indeed 210 + 922 + 101 + 176 = 1409, all customers accounted for.
+
+![The four groups in the validation set: 922 true negatives, 101 false positives, 176 false negatives and 210 true positives](images/03-confusion-table-04-confusion-counts.jpg)
 
 ## The table
 
@@ -65,6 +73,8 @@ array([[922, 101],
        [176, 210]])
 ```
 
+![The confusion matrix as a NumPy array, with a promo email sketched next to the false positives](images/03-confusion-table-05-confusion-matrix-output.jpg)
+
 |                | Predicted negative | Predicted positive |
 |----------------|--------------------|--------------------|
 | Actual negative | TN = 922          | FP = 101           |
@@ -83,9 +93,13 @@ array([[0.65, 0.07],
        [0.12, 0.15]])
 ```
 
+![Turning the confusion matrix into fractions of the whole validation set](images/03-confusion-table-06-normalized-confusion-matrix.jpg)
+
 So 65% of all customers are true negatives, 7% false positives, 12% false negatives and 15% true positives.
 
 Accuracy fits right back in: it is the sum of the diagonal - the correct decisions TN and TP - divided by the total. Here (922 + 210) / 1409 = 0.8034, the same 80% as before. What the table adds is the split of the remaining 20% into 7% of false positives and 12% of false negatives - two errors with very different business costs.
+
+![The confusion table with percentages: accuracy 80% is the sum of the diagonal](images/03-confusion-table-07-accuracy-from-table.jpg)
 
 ## Materials
 

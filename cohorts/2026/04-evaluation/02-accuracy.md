@@ -12,6 +12,8 @@ In this lesson we look at accuracy, the simplest evaluation metric: the fraction
 
 Accuracy measures the fraction of correct predictions: the number of correct predictions divided by the total number of predictions.
 
+![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example.jpg)
+
 Our validation set has 1409 customers:
 
 ```python
@@ -26,6 +28,8 @@ This gives `1409`. With the decision threshold at 0.5, the model made the right 
 
 This gives `0.8034066713981547`. Indeed, 1132 / 1409 is 0.8034 - about 80% of the predictions match the actual outcomes.
 
+![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook.jpg)
+
 Scikit-learn has this computation built in as `accuracy_score`:
 
 ```python
@@ -35,6 +39,8 @@ accuracy_score(y_val, y_pred >= 0.5)
 ```
 
 This gives the same `0.8034066713981547`.
+
+![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score.jpg)
 
 ## Checking different thresholds
 
@@ -99,6 +105,8 @@ The output confirms it - every single prediction is `False`:
 Counter({False: 1409})
 ```
 
+![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter.jpg)
+
 What accuracy does this dummy model get? The answer is the fraction of customers who did not churn:
 
 ```python
@@ -107,11 +115,17 @@ What accuracy does this dummy model get? The answer is the fraction of customers
 
 This gives `0.7260468417317246` - 73%.
 
+![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy.jpg)
+
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
+
+![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints.jpg)
 
 ## Why accuracy fails here: class imbalance
 
 The reason is that the classes are unbalanced: only 27% of the customers in the validation set churned, and 73% stayed. This is called class imbalance - there are many more instances of one class than of the other.
+
+![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance.jpg)
 
 With such an imbalance, a model can get a high accuracy by always predicting the majority class, while being completely useless for the minority class - which is exactly the class we care about: we want to find the customers who are about to leave.
 
