@@ -10,6 +10,8 @@ In this unit we put the project's dependencies into an isolated virtual
 environment with Pipenv, so our service always runs with the library versions
 we tested it with.
 
+![Environment and dependency management](images/05-pipenv-01-title.jpg)
+
 ## The problem: conflicting library versions
 
 When we install Python packages with `pip install`, they all go to one shared
@@ -18,14 +20,20 @@ need different versions of the same library. An old project may need
 scikit-learn 0.24, while a new one wants the latest 1.0 - upgrade for one, and
 the other breaks.
 
+![Two services sharing one system Python: upgrading scikit-learn for one breaks the other](images/05-pipenv-02-version-conflict.jpg)
+
 The fix is a virtual environment: a private set of packages for one project.
 Each project gets its own versions, and they don't interfere with each other
 or with the system Python.
+
+![Each service gets its own virtual environment - no conflicts](images/05-pipenv-03-isolated-environments.jpg)
 
 There are many tools for this - `venv`, `conda`, `poetry`. In this course we
 use Pipenv, because besides creating the environment it also records the exact
 package versions, which is what we need to reproduce the environment on a
 server later.
+
+![Tools for virtual environments: venv, conda, pipenv, poetry](images/05-pipenv-04-venv-tools.jpg)
 
 ## Installing libraries with Pipenv
 
@@ -73,6 +81,8 @@ It also creates two files in the project directory:
 It is the lock file that makes deployments predictable: "works on my machine"
 stops being a mystery, because the server installs precisely what we tested.
 
+![Installing the dependencies: Pipfile updated, Pipfile.lock created](images/05-pipenv-05-pipenv-install-lock.jpg)
+
 ## Running things with Pipenv
 
 On another machine - or after cloning the project - one command recreates the
@@ -90,6 +100,8 @@ pipenv shell
 
 Inside this shell, `python` and every command use the virtual environment's
 packages, so we can start the service as usual:
+
+![Inside the shell, gunicorn resolves to the virtual environment's bin directory](images/05-pipenv-06-shell-path.jpg)
 
 ```bash
 gunicorn --bind localhost:9696 predict:app

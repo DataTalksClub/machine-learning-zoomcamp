@@ -7,6 +7,8 @@ In this unit we look at what we will build in module 5: taking the churn
 prediction model we trained earlier and turning it into a service that other
 systems can call over the network.
 
+![Deploying machine learning models](images/01-intro-01-title.jpg)
+
 ## The problem: the model lives in a notebook
 
 In module 3 we trained a model that predicts whether a customer of a telecom
@@ -26,10 +28,14 @@ the customer information to this endpoint, and get the prediction back in the
 response. Based on that response, the marketing service can decide to send a
 promo email or do nothing.
 
+![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram.jpg)
+
 ## The plan for this module
 
 We will take the churn model from the notebook to a working web service step
 by step:
+
+![The plan of the module, from the lesson notes](images/01-intro-03-module-plan.jpg)
 
 - Saving and loading the model with pickle, and turning the notebook into a
   Python script, so the model can be used without re-training it every time.
@@ -44,9 +50,13 @@ by step:
 - Finally, deploying the container to the cloud with AWS Elastic Beanstalk
   (optional), which makes the service available on the internet.
 
+![The second half of the plan: Pipenv, Docker and AWS](images/01-intro-04-module-plan-continued.jpg)
+
 Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system
 and finally the local machine itself.
+
+![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments.jpg)
 
 ## Materials
 
