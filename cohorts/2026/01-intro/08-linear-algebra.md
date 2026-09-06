@@ -38,6 +38,8 @@ Addition works element-wise: we add each element of the first vector to the corr
 array([3, 4, 5, 8])
 ```
 
+![Multiplying a vector by a scalar and adding two vectors](images/08-linear-algebra-01-vector-operations.jpg)
+
 This is pretty much the same as we saw in the previous lecture in NumPy: element-wise addition, and multiplication by 2 is element-wise multiplication. So what happens in linear algebra here is exactly what NumPy does.
 
 ## Multiplication
@@ -60,6 +62,8 @@ The dot product, on the other hand, produces a number. The way we compute it: we
 ```
 u·v = 2·1 + 4·0 + 5·0 + 6·2 = 2 + 12 = 14
 ```
+
+![The dot product of u and v, computed element by element](images/08-linear-algebra-02-dot-product.jpg)
 
 The formula: we have a sum that goes over all elements of our vectors, from 1 to n, where n is the dimension of the vector, and inside we multiply the i-th element of `u` with the i-th element of `v`.
 
@@ -94,6 +98,8 @@ Let's test it:
 
 It returns 14, like we calculated by hand.
 
+![The vector-vector multiplication implementation and its test](images/08-linear-algebra-03-vector-vector-implementation.jpg)
+
 Of course, in NumPy there is already a function that does this - `dot`:
 
 ```python
@@ -108,6 +114,8 @@ The result is also 14.
 Now let's say we have a matrix `U` (capital letter) that we want to multiply by a vector `v` (lowercase).
 
 The way we do it: take the first row of the matrix `U` and multiply it with the vector `v`. This is a row - so this is exactly the situation from the dot product: a row vector times a column vector. Let's call the rows `U[0]`, `U[1]` and so on, using the same notation as in NumPy.
+
+![Matrix-vector multiplication: each row of U times the vector v](images/08-linear-algebra-04-matrix-vector-idea.jpg)
 
 For each row of the matrix we do a vector-vector multiplication with `v`, and these results together are the answer. So if `U` has k rows - `U[0]` to `U[k-1]` - the result is k dot products, one per row. Of course the dimensionality should match: each row of `U` and the vector `v` must have the same number of elements, say n.
 
@@ -156,6 +164,8 @@ array([14,  5,  5])
 ```
 
 Same result.
+
+![The matrix-vector multiplication function and its test](images/08-linear-algebra-05-matrix-vector-implementation.jpg)
 
 ### Matrix-matrix multiplication
 
@@ -215,6 +225,8 @@ array([[14. , 20. , 13. ],
 
 Same result - which means our implementation works.
 
+![The matrix-matrix multiplication function and its test](images/08-linear-algebra-06-matrix-matrix.jpg)
+
 This way we expressed matrix-matrix multiplication using matrix-vector multiplication, and in turn we expressed matrix-vector multiplication with vector-vector multiplication.
 
 ## Identity matrix
@@ -247,6 +259,8 @@ array([[1. , 1. , 2. ],
 
 We multiplied `V` by `I` and got `V` back.
 
+![The identity matrix: multiplying V by I gives V back](images/08-linear-algebra-07-identity-matrix.jpg)
+
 ## Inverse
 
 The identity matrix is useful for explaining what a matrix inverse is. Let's say we have a matrix `A`. The inverse of `A`, usually written `A⁻¹`, is a matrix such that when we multiply it by `A`, we get `I`.
@@ -270,6 +284,8 @@ array([[ 1.        , -2.        ,  0.        ],
        [ 0.        , -0.66666667,  0.66666667],
        [ 0.        ,  1.33333333, -0.33333333]])
 ```
+
+![Computing the inverse with np.linalg.inv](images/08-linear-algebra-08-inverse.jpg)
 
 And when we multiply the inverse by the matrix, what we get is the identity matrix:
 

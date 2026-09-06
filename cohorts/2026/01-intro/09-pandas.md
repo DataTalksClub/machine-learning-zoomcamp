@@ -61,6 +61,8 @@ df = pd.DataFrame(data, columns=columns)
 4        Pickup  32340  
 ```
 
+![Creating a DataFrame from a list of lists with named columns](images/09-pandas-01-create-dataframe.jpg)
+
 Usually I call DataFrames `df`.
 
 This is not the only way to create a DataFrame. A more compact way is a list of dictionaries, where we explicitly specify the value for each column - this is the first car, this is the second car, and so on:
@@ -139,6 +141,8 @@ We can also access multiple columns at the same time. Say we want a subset of ou
 
 It returns a DataFrame that has only these three columns.
 
+![A column as a Series and a subset of columns](images/09-pandas-02-series-and-columns.jpg)
+
 We can add a new column using the same brackets notation - for example, a column `id` with numbers:
 
 ```python
@@ -212,6 +216,8 @@ c  convertible  54990
 e        Pickup  32340  
 ```
 
+![Selecting rows by position with iloc](images/09-pandas-03-iloc.jpg)
+
 The index of the DataFrame is still the letter index, but we use the positional index to refer to the records.
 
 Now we have this strange letter index - what if we want to come back to the usual sequential index? We use the function `reset_index`. It resets the index to the sequential one, and keeps the previous index by creating a new column called `index` with the old values. If we don't need the values of the old index, we use the parameter `drop=True`:
@@ -279,6 +285,8 @@ If we want to find all Nissan cars, we write a condition on the Make column - an
 4        Pickup  32340  
 ```
 
+![Filtering rows with a boolean condition on a column](images/09-pandas-04-filtering.jpg)
+
 We can combine conditions. Let's get cars that are manufactured by Nissan and produced after 2015. We combine the two conditions using the logical and operation, `&`:
 
 ```python
@@ -335,6 +343,8 @@ Note that these operations don't modify the Series - they return a new Series wi
 
 Here we use the assignment operator to overwrite the column with this clean version, and now the values in the DataFrame are uniform.
 
+![The Vehicle_Style column after lowercasing and replacing spaces](images/09-pandas-05-string-operations.jpg)
+
 ## Summarizing operations
 
 Like in NumPy, where we have element-wise operations and summarizing operations, we have the same summarizing operators in Pandas.
@@ -377,6 +387,8 @@ min    1991.00     138.00              4.00   2000.00
 75%    2017.00     228.75              4.00  34450.00
 max    2017.00     261.00              6.00  54990.00
 ```
+
+![Summary statistics for all numerical columns with describe](images/09-pandas-06-describe.jpg)
 
 I also often use `round` here to round everything to two decimal points - it makes the output more compact.
 
@@ -421,6 +433,8 @@ MSRP                 0
 dtype: int64
 ```
 
+![Counting missing values per column](images/09-pandas-07-missing-values.jpg)
+
 Seeing a table of Trues and Falses is not always super useful, so what we usually do is call the `sum` method on it. The sum is applied to each column, and it tells us how many missing values there are in each column. Here: one missing value in Engine HP, and none anywhere else.
 
 ## Grouping
@@ -448,6 +462,8 @@ AUTOMATIC    34450
 MANUAL       54990
 Name: MSRP, dtype: int64
 ```
+
+![Maximum price per transmission type with groupby](images/09-pandas-08-groupby.jpg)
 
 We could use `mean`, `min` or `max` - any of the summarizing operations.
 

@@ -41,6 +41,8 @@ And if you want to fill an array with some arbitrary number, use `full`: first y
 array([2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5])
 ```
 
+![Creating arrays with zeros, ones and full](images/07-numpy-01-zeros-ones-full.jpg)
+
 If you have a Python list and want to create an array from it, use the `array` function and pass the list as the argument:
 
 ```python
@@ -63,6 +65,8 @@ And we can use the assignment operator to change it - say, replace 3 with 10:
 >>> a
 array([ 1,  2, 10,  5,  7, 12])
 ```
+
+![Creating an array from a list and changing an element by index](images/07-numpy-02-array-from-list.jpg)
 
 Two more useful functions for creating arrays. `arange` creates a range of numbers - it works like the Python function `range`, except instead of an iterator it gives us a NumPy array. The last element is exclusive:
 
@@ -122,6 +126,8 @@ array([[ 1, 20,  3],
        [ 7,  8,  9]])
 ```
 
+![Accessing and changing an element of a two-dimensional array](images/07-numpy-03-two-d-arrays.jpg)
+
 If we pass only one index, we get an entire row:
 
 ```python
@@ -156,6 +162,8 @@ array([[ 1, 20,  0],
        [ 1,  1,  2]])
 ```
 
+![Reading and assigning a whole column](images/07-numpy-04-columns.jpg)
+
 ## Randomly generated arrays
 
 NumPy can also generate arrays with random numbers. Let's generate a two-dimensional array with 5 rows and 2 columns:
@@ -179,6 +187,8 @@ array([[43.59949021,  2.59262318],
 ```
 
 Now every time we execute the cell, the results are the same, because we fixed the seed. (The exact numbers can vary a bit depending on the version of NumPy or the operating system, but in general the sequence should be the same.)
+
+![Fixing the seed makes random numbers reproducible](images/07-numpy-05-random-seed.jpg)
 
 Here we multiplied everything by 100: instead of numbers between 0 and 1 we get numbers between 0 and 100. Why we can multiply an array by a number like this is explained below - it's an element-wise operation.
 
@@ -230,6 +240,8 @@ If it was a usual Python list, we wouldn't be able to do this - we would need to
 array([0, 2, 4, 6, 8])
 ```
 
+![Adding and multiplying all elements of an array at once](images/07-numpy-06-element-wise.jpg)
+
 This is exactly what we did when we multiplied the random array by 100. And of course we can also divide, subtract, and do everything else we want. We can even chain operations:
 
 ```python
@@ -257,6 +269,8 @@ Comparison operations are also element-wise. Let's check which elements of `a` a
 >>> a >= 2
 array([False, False,  True,  True,  True])
 ```
+
+![Element-wise comparison returns a boolean array](images/07-numpy-07-comparison.jpg)
 
 The first element is less than 2, the second is less than 2, but 2 is greater than or equal to 2 - and the same is true for the rest.
 
@@ -295,6 +309,8 @@ For example, `min` returns the smallest number:
 >>> a.mean()
 2.0
 ```
+
+![Summarizing operations return a single number](images/07-numpy-08-summarizing.jpg)
 
 There is also the standard deviation, if you are interested:
 
