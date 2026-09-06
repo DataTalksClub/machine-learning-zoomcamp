@@ -1,14 +1,82 @@
-
+---
+video_url: "https://www.youtube.com/watch?v=OIlrS14Zi0o&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+code:
+  - label: Gateway
+    path: code/gateway.py
+  - label: Protobuf helper
+    path: code/proto.py
+---
 # Creating a pre-processing service
 
-<a href="https://www.youtube.com/watch?v=OIlrS14Zi0o&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-03.jpg"></a>
- 
+In the previous lesson we created a Jupyter notebook that talks to the
+model deployed with TensorFlow Serving. In this lesson we convert that
+notebook into a Flask application - the gateway that downloads an image,
+prepares the request, sends it to TensorFlow Serving and turns the
+response into a human-readable answer.
 
-In the previous section we created jupyter notebook to communicate with the model deployed with tensorflow. This notebook fetches an image, pre-processes it, turns it into protobuf, sends it to tensorflow-serving, does post-processing, and finally gives a human-readable answer.
+## From notebook to script
 
-In this section we convert the notebook into python script to build a flask application. To convert the notebook into script we can run the command `jupyter nbconvert --to script notebook.ipynb`. We also rename the script to  `gateway.py`.
+The notebook fetches an image, pre-processes it, turns it into protobuf,
+sends it to TensorFlow Serving, does post-processing and finally gives a
+human-readable answer. We now convert the notebook into a Python script
+and wrap it into a Flask app.
 
-Then we create functions to prepare a request, send it, and prepare the response. For the flask app, we can reuse the code from session 5:
+To convert the notebook into a script we can run:
+
+```bash
+jupyter nbconvert --to script notebook.ipynb
+```
+
+We also rename the script to `gateway.py`. This is the
+[code/gateway.py](code/gateway.py) file. After cleaning it up, it has three
+parts: preparing the request, sending it, and preparing the response.
+
+To prepare the request we put the model name, the signature and our
+protobuf tensor into a `PredictRequest`:
+
+```python
+def prepare_request(X):
+    pb_request = predict_pb2.PredictRequest()
+
+    pb_request.model_spec.name = 'clothing-model'
+    pb_request.model_spec.signature_name = 'serving_default'
+
+    pb_request.inputs['input_8'].CopyFrom(np_to_protobuf(X))
+    return pb_request
+```
+
+Sending the request and post-processing the response: TensorFlow Serving
+returns the scores as `float_val`, and we zip them with the class names to
+get a dictionary:
+
+```python
+classes = [
+    'dress',
+    'hat',
+    'longsleeve',
+    'outwear',
+    'pants',
+    'shirt',
+    'shoes',
+    'shorts',
+    'skirt',
+    't-shirt'
+]
+
+def prepare_response(pb_response):
+    preds = pb_response.outputs['dense_7'].float_val
+    return dict(zip(classes, preds))
+
+
+def predict(url):
+    X = preprocessor.from_url(url)
+    pb_request = prepare_request(X)
+    pb_response = stub.Predict(pb_request, timeout=20.0)
+    response = prepare_response(pb_response)
+    return response
+```
+
+For the Flask app we can reuse the code from session 5:
 
 ```python
 # Create flask app
@@ -22,11 +90,35 @@ def predict_endpoint():
     return jsonify(result)
 ```
 
-Our application has two components: docker container with tensorflow serving and flask application with the gateway.
+Our application now has two components: a Docker container with TensorFlow
+Serving, and a Flask application with the gateway.
 
-We also want to put everything in the `pipenv` for deployment. For that we need to install few libraries with pipenv: `pipenv install grpcio==1.42.0 flask gunicorn keras-image-helper`.
+## Creating the virtual environment with Pipenv
 
-As we discussed tensorflow is a large library and we don't want to use it in our application. Instead we can use the following script to convert numpy array into protobuf format and import the `np_to_protobuf` function into our `gateway.py` script. In order the make the script work we need to install the following libraries as well `pipenv install tensorflow-protobuf==2.7.0 protobuf==3.19`:
+We also want to put everything in a `pipenv` environment for deployment.
+For that we need to install a few libraries with pipenv:
+
+```bash
+pipenv install grpcio==1.42.0 flask gunicorn keras-image-helper
+```
+
+## Getting rid of the TensorFlow dependency
+
+Be aware of the library sizes: TensorFlow itself is around 1.7 GB, the
+CPU-only version is around 400 MB. We don't want such a heavy dependency in
+our gateway - we only use TensorFlow to convert a numpy array to protobuf
+format.
+
+Instead, we can use a small package with just the protobuf definitions of
+TensorFlow Serving. To make it work we install:
+
+```bash
+pipenv install tensorflow-protobuf==2.7.0 protobuf==3.19
+```
+
+And we put the conversion code in a separate script,
+[code/proto.py](code/proto.py), and import the `np_to_protobuf` function
+into our `gateway.py`:
 
 ```python
 from tensorflow.core.framework import tensor_pb2, tensor_shape_pb2, types_pb2
@@ -57,14 +149,15 @@ def np_to_protobuf(data):
     return make_tensor_proto(data)
 ```
 
-**Links**
+This code turns a numpy array into the protobuf format that TensorFlow
+Serving expects, without needing the full TensorFlow library installed.
 
-- Bash script to create custom tf-serving-protobuf and compile: https://github.com/alexeygrigorev/tensorflow-protobuf/blob/main/tf-serving-proto.sh
+## Materials
 
+- Bash script to create custom tf-serving-protobuf and compile:
+  https://github.com/alexeygrigorev/tensorflow-protobuf/blob/main/tf-serving-proto.sh
 
 ## Notes
-
-Add notes from the video (PRs are welcome)
 
 * turn jupyter notebook into flask app
 * the notebook communicates with the model deployed with tensorflow

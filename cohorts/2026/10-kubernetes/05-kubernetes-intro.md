@@ -1,49 +1,93 @@
-
+---
+video_url: "https://www.youtube.com/watch?v=UjVkpszDzgk&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+---
 # Introduction to Kubernetes
 
-<a href="https://www.youtube.com/watch?v=UjVkpszDzgk&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-10-05.jpg"></a>
+In this lesson we look at the main concepts of Kubernetes: what a cluster
+consists of, how pods, deployments and services relate to each other, and
+how Kubernetes scales an application up and down depending on the load.
 
+Kubernetes, also known as K8s, is an open-source system for automating
+the deployment, scaling, and management of containerized applications.
+For us the key word is scaling: to scale up means adding more instances of
+our application when the load increases, and removing instances when the
+load decreases. Kubernetes does this automatically.
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
+## Anatomy of a Kubernetes cluster
 
-Kubernetes, also known as **K8s**, is an open-source system for automating the deployment, scaling, and management of containerized applications.  
+Imagine we have a Kubernetes cluster. Within this cluster, there are
+nodes - servers or computers running the processes. Kubernetes itself
+doesn't create these machines; it uses the machines we give it, and on
+each node it can run multiple containers.
 
-### 🧩 Anatomy of a Kubernetes Cluster  
-Imagine we have a Kubernetes cluster. Within this cluster, there are **nodes** (servers or computers running the processes). On these nodes, we find 🐳 **pods:** containers that run specific images, with allocated resources like **RAM/CPU**.  
+On these nodes we find pods. A pod is a container that runs a specific
+image, with allocated resources like RAM and CPU. One container is one
+pod.
 
-Pods are typically grouped into **deployments** 📦. All pods in a deployment share the same Docker image and configuration. Think of a deployment as a set of identical workers, ready to process requests. For example, our **gateway service** can be structured as a deployment.  
+Pods are typically grouped into deployments. All pods in a deployment
+share the same Docker image and configuration - think of a deployment as
+a set of identical workers, ready to process requests. For example, our
+gateway service can be structured as a deployment: several identical
+gateway pods, each downloading images, resizing them and talking to the
+model.
 
-- Larger pods require more resources 💪.  
-- In addition to pods, Kubernetes uses **services** 🛎️, such as:  
-  - 🌐 `gateway service`: An entry point for external requests.  
-  - 🤖 `tf-model service`: Manages communication with model-serving pods.  
+## Services
 
-### 🔄 How it Works  
-1. When a user uploads an image 🖼️ to the website, the request first reaches the **gateway service**.  
-2. The gateway routes the request to one of the available pods, distributing traffic evenly (load balancing ⚖️).  
-3. After pre-processing, the gateway deployment forwards the request to the **model service**.  
-4. The model service routes the request to a pod in the `tf-serving` deployment.  
-5. Predictions are made 🔮 and sent back to the user, following the same path.  
+When there are several pods serving the same application, someone needs to
+route the request to the right pod. That's what services do: a service is
+an entry point that forwards requests to the pods that belong to it.
 
-### 📍 Service Types  
-Kubernetes services act as entry points to route requests to the correct pods:  
-- **External Services** (`Load Balancer` 🌐): Accessible from outside the cluster. Example: `gateway service`.  
-- **Internal Services** (`Cluster IP` 🔒): Accessible **only** within the cluster. Example: `model service`.  
+There are two kinds:
 
-At the front of the cluster, there’s an **entry point** called `INGRESS` 🚪. This directs user traffic to the appropriate external services.  
+- An external service, of type `LoadBalancer`, is accessible from outside
+  the cluster. Our gateway service is an example: it's the visible entry
+  point for clients.
+- An internal service, of type `ClusterIP`, is accessible only within the
+  cluster. Our tf-model service is an example: it manages communication
+  with the model-serving pods, and only the gateway needs to reach it.
 
-### ⚙️ Scaling with Kubernetes  
-To handle multiple users simultaneously, Kubernetes can launch additional pods 🚀.  
-- As traffic increases, Kubernetes **automatically scales** the deployment up 🆙.  
-- When traffic decreases, it scales down 🛑 to save resources.  
-- This dynamic scaling is managed by the **Horizontal Pod Autoscaler (HPA)** 📊.  
-- If existing nodes are overwhelmed, Kubernetes can even request the creation of new nodes to handle the extra load.  
+## How a request flows
 
-Kubernetes ensures that your application stays responsive, efficient, and ready to scale at any moment!
+Putting it together:
+
+1. When a user uploads an image on the website, the request first reaches
+   the gateway service.
+2. The gateway service routes the request to one of the available gateway
+   pods, distributing the traffic evenly - load balancing.
+3. The gateway pod pre-processes the image and forwards the request to
+   the model service.
+4. The model service routes the request to one of the pods in the
+   tf-serving deployment.
+5. The prediction is made and sent back to the user, following the same
+   path in reverse.
+
+At the front of the cluster there's an entry point called `Ingress`. It
+directs user traffic coming into the cluster to the appropriate external
+services.
+
+## Scaling with Kubernetes
+
+To handle multiple users simultaneously, Kubernetes can launch additional
+pods:
+
+- As traffic increases, Kubernetes automatically scales the deployment up
+  - it adds more pods from the same template.
+- When traffic decreases, it scales down to save resources.
+- This dynamic scaling is managed by the Horizontal Pod Autoscaler (HPA):
+  it allocates resources depending on demand.
+- If the existing nodes are overwhelmed, Kubernetes can even request the
+  creation of new nodes to handle the extra load.
+
+All of this - the deployments, the services, the ingress, the scaling
+rules - is described in Kubernetes configuration files, written in YAML.
+In the next lesson we write such configuration ourselves and deploy a
+simple service to a local Kubernetes cluster.
+
+## Materials
+
+- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
 
 ## Notes
-
-Add notes from the video (PRs are welcome)
 
 * kubernetes is open source system for automating deployment scaling and management of containerized applications
 * to scale up = add more instances of our application
