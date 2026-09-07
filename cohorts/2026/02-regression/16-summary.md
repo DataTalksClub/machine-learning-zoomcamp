@@ -24,11 +24,15 @@ column names had spaces and inconsistent capitalization, and the string values
 did too, so we made everything lowercase with underscores - now it looks
 cleaner.
 
+![Cleaning the data: lowercasing the column names and the string values with str.replace](images/16-summary-01-data-cleaning.jpg)
+
 Then we did exploratory data analysis. We identified that the distribution of
 price has a long tail, and we removed the long tail by applying the logarithmic
 transformation. That's a good idea, because when a distribution has a long tail,
 machine learning models usually have problems with it - after the
 transformation it looks like a bell shaped curve.
+
+![Applying the log transformation to the price: the long tail becomes a bell shaped curve](images/16-summary-02-log-transformation.jpg)
 
 We also saw that the dataset has missing values, and with missing data we cannot
 really train a model, so we need to do something about it - we decided to simply
@@ -48,11 +52,19 @@ vector form using the dot product, and finally to the matrix form - a matrix
 vector multiplication. The output of linear regression is the weights vector:
 the bias term and the weights.
 
+![Linear regression for a single example, implemented as a simple formula with a for loop](images/16-summary-03-linear-regression-loop.jpg)
+
+![Extending it to the vector form with the dot product](images/16-summary-04-vector-form.jpg)
+
 And then we looked at how to actually obtain these weights - how to train the
 model. We saw that machine learning is not magic: it's just a formula, and this
 formula is called the normal equation. We implemented it in NumPy, and with this
 implementation we trained our first model - the baseline model, which used only
 the five base numerical features.
+
+![The normal equation implemented in NumPy: inverting the Gram matrix](images/16-summary-05-normal-equation.jpg)
+
+![The baseline model: training with only the five base numerical features](images/16-summary-06-baseline-model.jpg)
 
 The baseline model didn't do really well, as we saw in the graph. But judging
 from a graph alone is not an objective way to measure the performance of a
@@ -71,10 +83,14 @@ existing ones. We created the age feature, and it improved the performance of
 our model drastically: the distribution of predictions started to match the
 distribution of actual values much better than previously.
 
+![After adding the age feature: the distribution of predictions (red) matches the actual values (blue)](images/16-summary-07-feature-engineering.jpg)
+
 Then we looked at how to integrate categorical variables. We represented each
 categorical variable with a bunch of binary columns. This way of encoding
 categorical variables is called one-hot encoding, and we will talk about it in
 more details in the next session, when we talk about classification.
+
+![Categorical variables: each category becomes a binary column, one-hot encoding](images/16-summary-08-categorical-variables.jpg)
 
 After adding all the categorical features we found out that the performance of
 our model degraded significantly - all of a sudden the RMSE became very huge.
