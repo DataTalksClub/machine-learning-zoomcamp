@@ -26,3 +26,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   black frame, webcam tile, recorder controls, and color wheel. Checked the
   five target outcomes, `y ∈ {0, 1}`, mappings to `OK`/`DEFAULT`, and the
   statement `g(xᵢ) → probability of default`; no extra values or overlays.
+- `01-credit-risk-04-dataset-columns.jpg` →
+  `01-credit-risk-04-dataset-columns-cropped.png`: deterministic crop
+  `(x=0, y=25, width=430, height=330)` retained the exact 14-row column
+  reference and removed browser/camera chrome; exact text was not generated.
