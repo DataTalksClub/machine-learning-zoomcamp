@@ -24,7 +24,7 @@ There are many transformations we can apply, and we can combine them:
 - zooming in or out
 - changing brightness and contrast
 
-![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids.jpg)
+![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-cropped.png)
 
 ![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid.jpg)
 
