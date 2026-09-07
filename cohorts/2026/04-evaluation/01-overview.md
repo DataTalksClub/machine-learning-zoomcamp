@@ -82,7 +82,7 @@ This gives us `0.8034066713981547` - the model agrees with the actual outcomes a
 
 The whole module walks through one notebook, [notebook.ipynb](notebook.ipynb) - the same churn prediction project as in module 3.
 
-![The sections of the notebook covering the module topics](images/01-overview-07-module-outline.jpg)
+![The sections of the notebook covering the module topics](images/01-overview-07-module-outline-cropped.jpg)
 
 ## Materials
 

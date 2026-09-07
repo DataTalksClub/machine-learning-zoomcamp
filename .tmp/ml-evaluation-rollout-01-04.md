@@ -45,6 +45,15 @@
 - Final path: `cohorts/2026/04-evaluation/images/01-overview-06-predictions-accuracy-cropped.jpg`
 - QA: accepted after visual inspection; the exact numeric result and code remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
 
+## 07 — module outline notebook
+
+- Source: `cohorts/2026/04-evaluation/images/01-overview-07-module-outline.jpg`
+- Disposition: accepted deterministic crop plus a bounded background patch; exact notebook headings, bullets, and result retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar. Post-crop cursor cleanup: white rectangle `x=144..156, y=216..230` in the cropped image, limited to blank page background.
+- Invariants: `0.8034066713981547`, `4.2 Accuracy and dummy model`, its two bullets, `4.3 Confusion table`, its two bullets, and `4.4 Precision and Recall` remain unchanged and in the original order.
+- Final path: `cohorts/2026/04-evaluation/images/01-overview-07-module-outline-cropped.jpg`
+- QA: accepted after visual inspection; exact headings, bullets, and result remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
 ## 02 — churn prediction scenario
 
 - Source: `cohorts/2026/04-evaluation/images/01-overview-02-churn-scenario.jpg`
