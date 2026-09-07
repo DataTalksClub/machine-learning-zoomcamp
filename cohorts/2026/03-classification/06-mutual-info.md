@@ -73,7 +73,7 @@ The order of the arguments doesn't matter - mutual information is
 symmetric, so `mutual_info_score(df_full_train.contract,
 df_full_train.churn)` gives the same 0.0983.
 
-![Mutual information is symmetric: both argument orders give the same score](images/06-mutual-info-03-symmetric.jpg)
+![Mutual information is symmetric: both argument orders give the same score](images/06-mutual-info-03-symmetric-cropped.png)
 
 The numbers confirm what we saw with the risk ratios. Contract has by
 far the highest score: knowing the contract type teaches us a lot about

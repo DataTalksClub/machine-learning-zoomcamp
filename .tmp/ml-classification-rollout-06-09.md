@@ -25,6 +25,12 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Crop: `480x250+25+38`; removes notebook/recording chrome and camera tile.
   - Invariants: contract `0.0983203874041556`, gender `0.0001174846211139946`, and partner `0.009967689095399745` checked against the source.
 
+- `06-mutual-info-03-symmetric.jpg` →
+  `06-mutual-info-03-symmetric-cropped.png`
+  - Disposition: deterministic crop; exact argument-order comparison retained.
+  - Crop: `480x250+25+39`; removes notebook/recording chrome and camera tile.
+  - Invariants: both argument orders produce the same mutual-information value `0.0983203874041556`; no generated text or values.
+
 ### 07-correlation.md
 
 - `07-correlation-01-correlation-coefficient.jpg` →
