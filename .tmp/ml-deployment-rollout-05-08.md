@@ -7,3 +7,4 @@ Rules applied: preserve originals; remove webcam/recording chrome; use imagegen 
 ## Accepted assets
 
 - `05-pipenv.md` — `05-pipenv-01-title.jpg` → `05-pipenv-01-title-imagegen.png`: imagegen regeneration of the dependency-management title visual; no face, webcam, recording controls, cursor, or watermark.
+- `05-pipenv.md` — `05-pipenv-02-version-conflict.jpg` → `05-pipenv-02-version-conflict-imagegen.png`: imagegen regeneration of the shared-system-Python version-conflict diagram; required service/version labels verified; no face, webcam, recording controls, cursor, or watermark.

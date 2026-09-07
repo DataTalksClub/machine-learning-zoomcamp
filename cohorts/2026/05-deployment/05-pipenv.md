@@ -20,7 +20,7 @@ need different versions of the same library. An old project may need
 scikit-learn 0.24, while a new one wants the latest 1.0 - upgrade for one, and
 the other breaks.
 
-![Two services sharing one system Python: upgrading scikit-learn for one breaks the other](images/05-pipenv-02-version-conflict.jpg)
+![Two services sharing one system Python: upgrading scikit-learn for one breaks the other](images/05-pipenv-02-version-conflict-imagegen.png)
 
 The fix is a virtual environment: a private set of packages for one project.
 Each project gets its own versions, and they don't interfere with each other
