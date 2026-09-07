@@ -104,7 +104,7 @@ Here is what we will cover in this module:
 The [notebook](notebook.ipynb) for this module follows the same
 structure. This is how it starts:
 
-![The module notebook: fashion classification, dataset links and TensorFlow/Keras](images/01-fashion-classification-06-notebook-plan.jpg)
+![The module notebook: fashion classification, dataset links and TensorFlow/Keras](images/01-fashion-classification-06-notebook-plan-cropped.png)
 
 And this is the second half of the plan: adding more layers,
 regularization and dropout, data augmentation, and training a larger
