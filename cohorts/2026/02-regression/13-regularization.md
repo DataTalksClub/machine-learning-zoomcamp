@@ -172,7 +172,7 @@ def train_linear_regression_reg(X, y, r=0.001):
 Everything stays the same except one line: after computing the Gram matrix, we
 add `r` to the main diagonal.
 
-![The train_linear_regression_reg function with the regularization parameter r](images/13-regularization-07-regularized-training.jpg)
+![The train_linear_regression_reg function with the regularization parameter r](images/13-regularization-07-regularized-training-cropped.png)
 
 Let's take the code from the previous unit and replace the training function
 with this new one, using `r=0.01`:
