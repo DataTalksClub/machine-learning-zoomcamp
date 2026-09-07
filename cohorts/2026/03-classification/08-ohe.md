@@ -135,7 +135,7 @@ val_dict = df_val[categorical + numerical].to_dict(orient='records')
 X_val = dv.transform(val_dict)
 ```
 
-![Encoding the validation set: the same vectorizer, only transform - no second fit](images/08-ohe-05-validation-transform.jpg)
+![Encoding the validation set: the same vectorizer, only transform - no second fit](images/08-ohe-05-validation-transform-cropped.png)
 
 If we called `fit` again on validation, the columns could come out in a
 different order - or a category that appears only in validation would

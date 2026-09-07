@@ -74,3 +74,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact feature-name output retained.
   - Crop: `480x325+25+35`; removes notebook/recording chrome and camera tile.
   - Invariants: `get_feature_names()` call and visible ordered names checked; the list remains truncated at the original bottom edge, as in the source frame.
+
+- `08-ohe-05-validation-transform.jpg` →
+  `08-ohe-05-validation-transform-cropped.png`
+  - Disposition: deterministic crop; exact validation `transform` sequence retained.
+  - Crop: `480x225+25+35`; removes notebook/recording chrome and camera tile.
+  - Invariants: fitted training vectorizer is reused for `val_dict` and `X_val`; no second fit is introduced. Long source lines remain clipped at the original frame edge.
