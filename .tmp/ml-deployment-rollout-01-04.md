@@ -10,3 +10,12 @@ This report records the five screenshots referenced by `cohorts/2026/05-deployme
 - Invariants: preserve the exact title lines `ML ZOOMCAMP`, `DEPLOYING`, `MACHINE LEARNING`, `MODELS`, and `DATATALKS.CLUB`, including their order and color hierarchy.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/05-deployment/images/01-intro-01-title-cropped.jpg`.
 - QA: source inspected in lesson context; exact title text and hierarchy preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, overlay, or black border remains; final dimensions `432x336`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 02 — model deployment architecture
+
+- Disposition: `keep` the existing `imagegen-pilot`; this bounded architecture diagram shows how the notebook model becomes a service that the marketing service can call.
+- Source/context: original workshop source `cohorts/2026/05-deployment/images/01-intro-02-model-deployment-diagram.jpg`; current lesson reference `01-intro-02-model-deployment-diagram-imagegen-pilot.png`; caption: “The marketing service asks the churn service, which uses the model, for predictions”.
+- Crop coordinates: original source `540x360`; `465x250+25+10` (`x=25, y=10, width=465, height=250`) was the deterministic pre-generation crop used for the pilot. The final `1536x1024` pilot is already framed without webcam, Zoom controls, color-wheel overlay, cursor, watermark, or black borders; no additional crop is needed.
+- Invariants: preserve the exact labels `5.1 OVERVIEW`, `JUPYTER NOTEBOOK`, `model`, `model.bin`, `MARKETING SERVICE`, `CHURN SERVICE`, and `MODEL`; preserve notebook→`model.bin` and marketing→churn arrow directions and the model inside the churn service.
+- Path: existing imagegen pilot, losslessly re-encoded with pixel identity preserved; final asset `cohorts/2026/05-deployment/images/01-intro-02-model-deployment-diagram-imagegen-pilot.png`.
+- QA: source and current output inspected at lesson size; all labels, boxes, and arrow relationships remain readable; a pixel comparison of the lossless re-encode reports zero differing pixels; no face, webcam, browser/Zoom chrome, cursor, watermark, overlay, or black border remains; lesson reference resolves; `git diff --check` passes before commit.
