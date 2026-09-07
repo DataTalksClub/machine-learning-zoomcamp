@@ -157,3 +157,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; filenames and size values were preserved. The source's native text selection highlight remains because removing it safely would alter exact terminal/notebook pixels.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `83M`, `81M`, and both model filenames remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-05-interpreter-indexes.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-05-interpreter-indexes-cropped.png`
+- **Teaching point:** TF-Lite creates an interpreter, allocates tensors, and obtains the input/output tensor indexes.
+- **Source inspection:** 592×360; deterministic crop `+0+30 500×306` removes browser chrome, webcam tile, and right-side black frame while retaining all relevant notebook cells.
+- **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact imports, model path, and index calls were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; interpreter construction, `allocate_tensors`, `input_index`, and `output_index` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

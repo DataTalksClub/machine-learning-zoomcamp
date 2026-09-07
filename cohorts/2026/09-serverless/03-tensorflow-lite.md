@@ -187,7 +187,7 @@ preds = interpreter.get_tensor(output_index)
 - `get_tensor` fetches the results, which are now sitting in the
   output.
 
-![Creating the interpreter and getting the input and output indexes](images/03-tensorflow-lite-05-interpreter-indexes.jpg)
+![Creating the interpreter and getting the input and output indexes](images/03-tensorflow-lite-05-interpreter-indexes-cropped.png)
 
 The predictions are the same as before - it's the same model, just
 served by TF-Lite instead of Keras. It's more verbose, but it works.
