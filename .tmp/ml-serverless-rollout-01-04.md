@@ -40,3 +40,12 @@ Original source assets remain in place.
 - **Method:** imagegen `scientific-educational` redraw with a blue daytime curve, sun/moon contrast, red `$` marker under the active interval, and exact axis label `TIME`; no numeric axes or invented metrics.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 2, caption/accessibility 2 — **12/12; keep**.
 - **Validation:** generated image inspected at 1660×948; day/night relationship, baseline, cost marker, and `TIME` label match the caption; no face/camera/recording overlay or numeric invention; Markdown reference resolves.
+
+## 02-aws-lambda-01-search-lambda.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-01-search-lambda-cropped.png`
+- **Teaching point:** the AWS console search identifies Lambda and shows its serverless promise.
+- **Source inspection:** 592×360; deterministic crop `+0+20 500×316` removes the browser URL strip, webcam tile, and right-side black frame while retaining the AWS search UI.
+- **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact UI text and labels were not regenerated.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `Lambda` and `Run Code without Thinking about Servers` remain readable, no face/camera/recording overlay remains, and Markdown reference resolves.

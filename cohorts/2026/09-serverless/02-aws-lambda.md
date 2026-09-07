@@ -14,7 +14,7 @@ take a look at what it actually is. In the AWS console, type "lambda"
 in the search box: Lambda is one of the services, and next to it we
 see its promise - "Run code without thinking about servers".
 
-![Searching for Lambda in the AWS console: "Lambda - Run Code without Thinking about Servers"](images/02-aws-lambda-01-search-lambda.jpg)
+![Searching for Lambda in the AWS console: "Lambda - Run Code without Thinking about Servers"](images/02-aws-lambda-01-search-lambda-cropped.png)
 
 That's the main promise of Lambda. All we need to do is write some
 function, and we don't think about creating EC2 instances or any other
