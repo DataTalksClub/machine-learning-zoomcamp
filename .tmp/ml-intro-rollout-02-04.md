@@ -76,6 +76,21 @@ remain in place; accepted replacements are sibling assets.
   face, webcam, browser/Zoom chrome, cursor, watermark, annotations,
   toolbar, and recording overlays absent.
 
+### 03-supervised-ml-03-predictions.jpg
+
+- Disposition: `imagegen`; the table directly illustrates one prediction per
+  feature row.
+- Invariant: six six-value feature rows and exact probabilities `0.93`,
+  `0.48`, `0.19`, `0.32`, `0.01`, `0.94` in the original order; headers
+  `Features (data)` and `Predictions (output)`.
+- Crop: `475x300+50+30`, with the camera sliver masked, from the 598x360
+  source.
+- Output: `03-supervised-ml-03-predictions-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all 36 feature values,
+  six probabilities, row order, and headers checked; face, webcam,
+  browser/Zoom chrome, cursor, watermark, annotation, toolbar, and recording
+  overlays absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the
