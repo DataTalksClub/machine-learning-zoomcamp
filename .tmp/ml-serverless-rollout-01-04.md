@@ -67,3 +67,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact code and deployment state were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `lambda_handler`, `print("parameters: ", event)`, and `return "PONG"` remain readable; no face/camera/recording overlay remains. A small native pointer/hover artifact over the code remains because removing it safely would alter exact UI pixels; Markdown reference resolves.
+
+## 02-aws-lambda-04-test-pong-response.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-04-test-pong-response-cropped.png`
+- **Teaching point:** after deployment, the test response is `PONG` and the function logs show the event parameters.
+- **Source inspection:** 592×360; deterministic crop `+0+75 548×261` removes the browser strip, webcam tile, recording banner edge, and black frame while retaining the deployed status, response, and logs.
+- **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact response and log text were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `Changes deployed`, `Response`, `PONG`, and event parameters remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

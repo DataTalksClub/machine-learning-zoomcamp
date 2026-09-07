@@ -78,7 +78,7 @@ the response of the default code. Look at the button: it says
 "Deploy", then "Test" again - now we see the response, "PONG", and
 also the parameters we printed: the contents of the test event.
 
-![After deploying: the response is "PONG" and the function logs show the printed event](images/02-aws-lambda-04-test-pong-response.jpg)
+![After deploying: the response is "PONG" and the function logs show the printed event](images/02-aws-lambda-04-test-pong-response-cropped.png)
 
 Now let's make the event closer to what we want for our image
 classification model. Change the test event to contain a URL:
