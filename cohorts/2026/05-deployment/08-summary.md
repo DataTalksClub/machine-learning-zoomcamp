@@ -7,7 +7,7 @@ This is the last unit of the module, so let's summarize what we did: we took
 the churn prediction model from the notebook and deployed it as a web service
 that other systems can call.
 
-![The plan of the module: from saving the model to web services](images/08-summary-01-module-plan.jpg)
+![The plan of the module: from saving the model to web services](images/08-summary-01-module-plan-cropped.png)
 
 ## What we covered
 
