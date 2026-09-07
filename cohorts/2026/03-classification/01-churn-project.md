@@ -22,7 +22,7 @@ company can target the customers with high scores and try to retain
 them, for example by sending an email with discounts or special
 promotions.
 
-![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem.jpg)
+![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem-cropped.png)
 
 ## Classification
 
