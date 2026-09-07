@@ -15,7 +15,7 @@ regularization.
 
 Remember the formula for the normal equation we use for training our model:
 
-![The normal equation: w is the inverse of the Gram matrix times X transpose times y](images/13-regularization-01-normal-equation.jpg)
+![The normal equation: w is the inverse of the Gram matrix times X transpose times y](images/13-regularization-01-normal-equation-cropped.png)
 
 ```
 w = (XᵀX)⁻¹ Xᵀ y
