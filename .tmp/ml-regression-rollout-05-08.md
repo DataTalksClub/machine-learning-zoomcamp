@@ -139,3 +139,13 @@
 - Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-07-x-dot-w-new-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code, matrix values, and predictions must not be guessed. A single crop retained the selected green border and clipped preceding code; the accepted two-region export removes the border and keeps all required matrix/prediction content.
 - QA: final `960x406` PNG inspected visually; code, matrix, and prediction array remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 01
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-01-inverse-solution.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the handwritten inverse derivation is exact lesson content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `450x300+50+20` (`x=50, y=20, width=450, height=300`). This removes the recording marker, presenter webcam tile, right black bar, and bottom controls; a tiny cursor in blank board space was removed with a matching board-color patch.
+- Invariants: preserve the crossed inverse-matrix cancellation, boxed `w`, identity `I`, `X⁻¹y`, and the final `w = X⁻¹y` relationship.
+- Path: deterministic crop plus blank-space cursor cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-01-inverse-solution-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact mathematical notation and the instructor’s derivation are source of truth; one cursor-cleanup pass was accepted without touching diagram strokes.
+- QA: final `900x600` PNG inspected visually; derivation remains crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.

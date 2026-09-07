@@ -34,7 +34,7 @@ X⁻¹Xw = X⁻¹y
     w = X⁻¹y
 ```
 
-![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution.jpg)
+![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution-cropped.png)
 
 The inverse "cancels" `X`, and we get the weights directly.
 
