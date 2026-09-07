@@ -165,7 +165,7 @@ array([14,  5,  5])
 
 Same result.
 
-![The matrix-vector multiplication function and its test](images/08-linear-algebra-05-matrix-vector-implementation.jpg)
+![The matrix-vector multiplication function and its test](images/08-linear-algebra-05-matrix-vector-implementation-cropped.png)
 
 ### Matrix-matrix multiplication
 
