@@ -51,7 +51,7 @@ eb init -p docker -r eu-north-1 churn-serving
 - `-r eu-north-1` - the AWS region; pick the one closest to your users.
 - `churn-serving` - the name of the application.
 
-![Initializing the EB application with eb init](images/07-aws-eb-03-eb-init.jpg)
+![Initializing the EB application with eb init](images/07-aws-eb-03-eb-init-cropped.png)
 
 You can look at the generated configuration with `less
 .elasticbeanstalk/config.yml`. Before deploying to the cloud, we can check
