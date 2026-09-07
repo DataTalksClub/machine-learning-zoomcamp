@@ -53,7 +53,7 @@ df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)
 df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=1)
 ```
 
-![Loading and cleaning the data, then splitting it into train, validation and test](images/01-overview-04-load-split.jpg)
+![Loading and cleaning the data, then splitting it into train, validation and test](images/01-overview-04-load-split-cropped.jpg)
 
 We keep 3 numerical features (`tenure`, `monthlycharges`, `totalcharges`) and 16 categorical ones, one-hot encode them with `DictVectorizer(sparse=False)`, and train a logistic regression model.
 

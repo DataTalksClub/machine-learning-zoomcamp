@@ -18,6 +18,15 @@
 - Final path: `cohorts/2026/04-evaluation/images/01-overview-03-metric-definition-cropped.jpg`
 - QA: accepted after visual inspection; exact text and code are legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
 
+## 04 — load and split notebook
+
+- Source: `cohorts/2026/04-evaluation/images/01-overview-04-load-split.jpg`
+- Disposition: accepted deterministic crop; exact data-cleaning and train/validation/test split code retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar.
+- Invariants: the visible `pd.read_csv('data-week-3.csv')`, lowercase/underscore normalization, categorical-column loop, `totalcharges` numeric coercion with `errors='coerce'`, `fillna(0)`, binary churn conversion, and `train_test_split` calls with `test_size=0.2`, `test_size=0.25`, and `random_state=1` remain unchanged.
+- Final path: `cohorts/2026/04-evaluation/images/01-overview-04-load-split-cropped.jpg`
+- QA: accepted after visual inspection; exact code remains legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
 ## 02 — churn prediction scenario
 
 - Source: `cohorts/2026/04-evaluation/images/01-overview-02-churn-scenario.jpg`
