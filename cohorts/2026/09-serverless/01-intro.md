@@ -54,7 +54,7 @@ later in the module.
 
 Here's what we'll cover in this module:
 
-![The module plan: deploy the clothes classification model trained previously](images/01-intro-04-module-plan.jpg)
+![The module plan: deploy the clothes classification model trained previously](images/01-intro-04-module-plan-cropped.png)
 
 - What AWS Lambda actually is, and how it differs from other approaches
   to deploying models
