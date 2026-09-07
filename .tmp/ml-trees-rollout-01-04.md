@@ -131,3 +131,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   impurity table and exact numeric values. A deterministic background mask over
   relative rectangles `(0,0)-(80,95)` and `(480,0)-(549,95)` removed the
   source gauge and webcam tile; no generated text was used.
+- `04-decision-tree-learning-06-split-algorithm.jpg` →
+  `04-decision-tree-learning-06-split-algorithm-cropped.png`: deterministic
+  crop `(x=25, y=0, width=455, height=330)` retained the exact handwritten
+  split-finding pseudocode while removing the camera tile, recording gauge,
+  and bottom-left controls.

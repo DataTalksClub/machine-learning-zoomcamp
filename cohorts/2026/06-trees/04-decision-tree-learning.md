@@ -182,7 +182,7 @@ FOR each feature in FEATURES:
 SELECT the condition with the LOWEST IMPURITY
 ```
 
-![The split-finding algorithm in pseudocode](images/04-decision-tree-learning-06-split-algorithm.jpg)
+![The split-finding algorithm in pseudocode](images/04-decision-tree-learning-06-split-algorithm-cropped.png)
 
 The misclassification rate is not the only impurity measure.
 Scikit-learn uses more sensitive criteria: Gini impurity and entropy.
