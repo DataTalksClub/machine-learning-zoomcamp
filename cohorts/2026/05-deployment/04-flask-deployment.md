@@ -145,7 +145,7 @@ pip install waitress
 waitress-serve --listen=0.0.0.0:9696 predict:app
 ```
 
-![gunicorn fails on Windows because of the fcntl module; waitress is the alternative](images/04-flask-deployment-06-waitress-windows.jpg)
+![gunicorn fails on Windows because of the fcntl module; waitress is the alternative](images/04-flask-deployment-06-waitress-windows-cropped.jpg)
 
 The [next unit](05-pipenv.md) deals with the remaining piece: keeping the
 project's library versions under control.
