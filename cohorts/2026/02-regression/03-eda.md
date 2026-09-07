@@ -98,7 +98,7 @@ it. The bins parameter controls how many bars we get:
 sns.histplot(df.msrp, bins=50)
 ```
 
-![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution.jpg)
+![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution-cropped.jpg)
 
 The 1e6 on the x axis is scientific notation: 10 to the power of 6, that is,
 one million. And what we see is that a lot of prices are pretty cheap — most

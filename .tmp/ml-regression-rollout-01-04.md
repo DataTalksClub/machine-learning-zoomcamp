@@ -143,3 +143,12 @@
 - Invariants: preserve the exact `import matplotlib.pyplot as plt`, `import seaborn as sns`, and `%matplotlib inline` lines, their order, notebook cell styling, and the `Distribution of price` context heading.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-02-import-plotting-libraries-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact heading, code, ordering, and notebook context preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or unrelated table remains; final dimensions `577x136`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 17 — long-tail distribution
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the exact price histogram's long right tail and why `1e6` means one million.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-03-long-tail-distribution.jpg`; caption: “The histogram of prices has a long tail”.
+- Crop coordinates: source `598x360`; `577x255+0+90` (`x=0, y=90, width=577, height=255`). The crop removes the notebook/browser header, webcam tile/face, right black strip, preceding unrelated cell, and following-cell border while retaining the plotting code, output, full visible histogram, axes, and handwritten scientific-notation annotation.
+- Invariants: preserve the exact `sns.histplot(df.msrp, bins=50)` call and output label, the histogram bars and long-tail shape, the `msrp`/`Count` axes, scientific-notation tick, and the handwritten `1e6 = 10^6` / `1,000,000` explanation.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-03-long-tail-distribution-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, plot geometry, axes, values, annotation, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following-cell border remains; final dimensions `577x255`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
