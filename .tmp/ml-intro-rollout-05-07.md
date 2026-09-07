@@ -57,3 +57,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact GitHub UI text and controls are the source of truth
 - Invariants: repository page context; `Code` menu with `Codespaces`; `No codespaces`; `Create codespace on main`; visible repository navigation
 - Validation: exact UI text and button are readable; face, camera tile, browser tab/address chrome, watermark, recording overlay, and black border are gone. Limitation: the original pointer remains over the required click target because removing it deterministically would damage the exact button label; it is retained as an instructional click cue.
+
+### 03 — vscode-desktop
+
+- Source: `cohorts/2026/01-intro/images/06-environment-03-vscode-desktop.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-03-vscode-desktop-cropped.png`
+- Crop: `520×360+0+0` (removes the webcam tile at the right edge; VS Code chrome is retained because it is the demonstrated environment)
+- Path: deterministic lossless PNG crop; imagegen not used because exact editor and terminal UI are the source of truth
+- Invariants: VS Code desktop interface; `README.md` tab; `Hello world`; integrated terminal and Codespaces context
+- Validation: passed visual review; editor text and terminal context remain readable; no face, camera tile, recording/browser overlay, cursor, watermark, or black border

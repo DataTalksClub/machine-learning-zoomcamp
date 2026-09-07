@@ -30,7 +30,7 @@ If you don't like using the browser - it should just work there - you can open t
 
 Everything feels like developing locally. You can edit files, and you can open a terminal with Ctrl+` (or via the View menu). This is the usual file system of a remote Ubuntu machine - `git status`, `git commit` and `git push` all work, and pushing sends your changes back to GitHub.
 
-![The codespace opened in VS Code desktop with a terminal](images/06-environment-03-vscode-desktop.jpg)
+![The codespace opened in VS Code desktop with a terminal](images/06-environment-03-vscode-desktop-cropped.png)
 
 One trick from the video: the default prompt is quite long, so there is little space left for the command you type. You can shorten it:
 
