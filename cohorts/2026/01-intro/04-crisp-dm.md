@@ -58,7 +58,7 @@ For our spam detection system: we have all the emails and the spam marks, and th
 
 From this table we extract features - like "does the body contain the word deposit" - and get the feature vectors. The last column of each vector is the target: spam or not.
 
-![From emails to feature vectors with the target column](images/04-crisp-dm-05-features-target.jpg)
+![From emails to feature vectors with the target column](images/04-crisp-dm-05-features-target-imagegen-pilot.png)
 
 This is exactly the format we talked about in the previous lesson: the feature matrix X and the target y.
 

@@ -45,6 +45,22 @@ remain in place; accepted replacements are sibling assets.
   checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
   recording overlays absent.
 
+### 04-crisp-dm-05-features-target.jpg
+
+- Disposition: `imagegen`; the bounded email-stack → vector transformation
+  remains readable after removing the workshop annotations.
+- Invariant: winner email example, rightward transformation arrow, four
+  six-value rows in order (`[1, 1, 0, 0, 1, 0]`, `[0, 1, 0, 0, 0, 1]`,
+  `[0, 0, 0, 1, 1, 0]`, `[1, 1, 0, 0, 1, 1]`), and highlighted final target
+  column.
+- Crop: `510x300+20+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `04-crisp-dm-05-features-target-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; email teaching point,
+  all 24 vector values, row order, target column, and arrow checked; face,
+  webcam, browser/Zoom chrome, cursor, watermark, toolbar, annotation, and
+  recording overlays absent.
+
 ### 04-crisp-dm-04-data-preparation.jpg
 
 - Disposition: `imagegen`; the teaching point is the raw-email → processing
