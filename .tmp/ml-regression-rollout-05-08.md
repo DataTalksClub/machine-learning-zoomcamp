@@ -259,3 +259,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-05-missing-feature-ignored-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact formula symbols and annotation are source of truth; one crop was accepted after visual inspection.
 - QA: final `900x600` PNG inspected visually; both equations and the missing-feature explanation are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 06
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-06-prediction-histogram.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; notebook code and the plotted distributions are exact source content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x310+15+45` (`x=15, y=45, width=480, height=310`). This preserves all three plotting cells, the `Out[90]` line, and the complete histogram while removing browser chrome, presenter webcam tile, right black bar, and surrounding frame material.
+- Invariants: preserve the `train_linear_regression`/`y_pred`/`histplot` commands, red-vs-blue distribution, y-axis `Count`, x-axis values, and complete chart extent.
+- Path: deterministic crop plus localized `5x5` median cleanup over the cursor coordinates (crop-relative `+224+172`, `28x34`) followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-06-prediction-histogram-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact plotted values and code are source of truth. A plain crop left a white cursor over the bars; a localized median cleanup removed only that small cursor region while retaining the histogram structure.
+- QA: final `960x620` PNG inspected visually; code and complete red/blue histogram remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
