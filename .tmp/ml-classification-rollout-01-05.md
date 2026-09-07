@@ -139,3 +139,13 @@
 - Invariants: all visible column names remain in source order from `customerid` through `churn`; every visible count remains `0`; `dtype: int64` remains; selected `totalcharges` row and output alignment are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, or black capture bar.
 - Final: `cohorts/2026/03-classification/images/04-eda-01-missing-values-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size; column order, zero counts, dtype, and selection state checked against the source; recording framing removed and the Markdown reference resolves.
+
+## 15 — EDA: churn-rate source frame
+
+- Source: `cohorts/2026/03-classification/images/04-eda-02-churn-rate.jpg` (598×360 JPEG).
+- Context/caption: “The distribution of the target: 73% stayed, 27% churned.” The inspected frame itself shows the `3.4 EDA` heading, reset-index cells, and a transposed-looking dataframe preview rather than the later churn-rate output; that source/caption mismatch is preserved and called out here.
+- Rubric/disposition: keep — deterministic crop with bounded cursor cleanup and lossless PNG export. The visible notebook heading, commands, dataframe labels, and values are exact instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, and black capture framing. A deterministic white fill removes the small cursor in blank inter-cell space at `x=204..224, y=108..121` relative to the crop; no code or dataframe pixels are covered.
+- Invariants: heading `3.4 EDA` and its three bullets remain; reset-index and dataframe cells remain in order; visible headers, sample rows, and source-truncated right/lower edges remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, or black capture bar.
+- Final: `cohorts/2026/03-classification/images/04-eda-02-churn-rate-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size and an enlarged cursor-area check; exact visible notebook text/table content checked against the source, cursor and recording framing removed, caption/frame mismatch documented, and Markdown reference resolves.

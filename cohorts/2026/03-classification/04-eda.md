@@ -72,7 +72,7 @@ df_full_train.churn.value_counts(normalize=True)
 Name: churn, dtype: float64
 ```
 
-![The distribution of the target: 73% stayed, 27% churned](images/04-eda-02-churn-rate.jpg)
+![The distribution of the target: 73% stayed, 27% churned](images/04-eda-02-churn-rate-cropped.png)
 
 About 73% of the customers stayed and 27% churned. The percentage of
 ones - 0.269968, roughly 27% - is called the churn rate.
