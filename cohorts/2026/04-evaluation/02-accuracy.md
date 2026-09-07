@@ -40,7 +40,7 @@ accuracy_score(y_val, y_pred >= 0.5)
 
 This gives the same `0.8034066713981547`.
 
-![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score.jpg)
+![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score-cropped.jpg)
 
 ## Checking different thresholds
 
