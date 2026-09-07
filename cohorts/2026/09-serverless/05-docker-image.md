@@ -26,7 +26,7 @@ python", and open the Python image maintained by AWS Lambda. In the
 "image tags" tab we see all the available tags; we pick the one for
 Python 3.8:
 
-![The Amazon ECR Public Gallery: the python image by AWS Lambda, with base images for Python](images/05-docker-image-01-ecr-public-gallery.jpg)
+![The Amazon ECR Public Gallery: the python image by AWS Lambda, with base images for Python](images/05-docker-image-01-ecr-public-gallery-cropped.png)
 
 Next, we install the dependencies. We need keras-image-helper, and we
 need the TF-Lite runtime. For the runtime we use the same install
