@@ -128,7 +128,7 @@ well below the 95% we saw before:
 
 ![nvidia-smi during augmented training: GPU utilization down to 61%](images/10-augmentation-05-nvidia-smi-cpu-bound-cropped.png)
 
-![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077.jpg)
+![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077-cropped.png)
 
 ## How to select augmentations
 
