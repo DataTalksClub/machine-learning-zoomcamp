@@ -33,7 +33,7 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.applications.xception import preprocess_input
 ```
 
-![A fresh notebook: importing TensorFlow, Keras, ImageDataGenerator, load_img and preprocess_input](images/12-using-model-01-fresh-notebook-imports.jpg)
+![A fresh notebook: importing TensorFlow, Keras, ImageDataGenerator, load_img and preprocess_input](images/12-using-model-01-fresh-notebook-imports-cropped.png)
 
 First we prepare the test set with the same preprocessing as for
 train and validation: an `ImageDataGenerator` with
