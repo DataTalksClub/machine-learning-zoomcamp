@@ -233,3 +233,12 @@
 - Invariants: the red `FP` slice, green `TP` slice, dashed non-interesting outline, blue `NOT INTERESTING` label and arrow, `PREDICT CHURN` label and arrow, and blue `INTERESTING` label remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-03-precision-pie-cropped.jpg`
 - QA: accepted after `view_image` inspection; the exact pie geometry, labels, colors, and arrows remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `408×215` output renders cleanly.
+
+## 04.04 — recall definition
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-04-recall-definition.jpg`
+- Disposition: accepted deterministic crop plus bounded pale-board cleanup; the exact handwritten recall definition and ellipse illustration were retained, so imagegen was not used.
+- Crop coordinates: `x=90, y=0, width=458, height=360` from the 598×360 source; removes the black side bars and outer frame. Post-crop cleanup fills only the overlay areas with sampled `srgb(245,245,219)`: `x=0..12, y=250..359` removes the lower-left recording wheel remnant, and `x=415..457, y=0..54` removes the upper-right webcam tile.
+- Invariants: `RECALL`, the blue definition text, the oval with its internal divider, and the `U` arrow remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-04-recall-definition-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact handwritten labels and the ellipse remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `458×360` output renders cleanly.
