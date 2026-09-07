@@ -209,3 +209,13 @@
 - Invariants: title `3.5 FEATURE IMPORTANCE`; sections `1 DIFFERENCE` and `2 RISK RATIO`; formula `GLOBAL - GROUP`; `<0` means `MORE LIKELY TO CHURN`; `>0` means `LESS LIKELY TO CHURN`; risk formula is `RISK = GROUP / GLOBAL` with `GROUP` above `GLOBAL`; `>1 MORE LIKELY TO CHURN`; `<1`; original top-to-bottom ordering, circled section numbers, color hierarchy, and no-extra-label constraint preserved; no people, camera tiles, controls, watermark, cursor, or black bars.
 - Final: `cohorts/2026/03-classification/images/05-risk-03-difference-vs-risk-ratio-imagegen-pilot.png` (1550×1014 PNG).
 - QA: accepted after `view_image` inspection of the output at lesson size and high resolution; all listed labels/signs, formula structure, ordering, and interpretation relationships checked; no capture overlays remain and the Markdown reference resolves.
+
+## 22 — risk: partner risk ratios
+
+- Source: `cohorts/2026/03-classification/images/05-risk-04-risk-ratio.jpg` (598×360 JPEG).
+- Context/caption: “The risk ratios for the two partner groups.” This image teaches calculating each partner group’s churn risk relative to the global churn rate and introduces the following SQL formulation.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook code, exact ratio values, and SQL query are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, left capture margin, and right capture edge while retaining the preceding difference output, `Risk ratio` heading, both ratio cells, and visible SQL.
+- Invariants: `churn_no_partner / global_churn` remains paired with `1.2216593879412643`; `churn_partner / global_churn` remains paired with `0.7594724924338315`; visible SQL remains `SELECT gender, AVG(churn), AVG(churn) - global_churn AS diff, AVG(churn) / global_churn AS risk FROM data GROUP BY gender;`; cell order and syntax remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/05-risk-04-risk-ratio-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size and enlarged output inspection; both exact ratio values, code, SQL text, and ordering checked against the source; capture framing is absent and the Markdown reference resolves.

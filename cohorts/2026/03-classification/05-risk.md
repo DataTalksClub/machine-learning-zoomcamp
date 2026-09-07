@@ -128,7 +128,7 @@ churn_partner / global_churn
 0.7594724924338315
 ```
 
-![The risk ratios for the two partner groups](images/05-risk-04-risk-ratio.jpg)
+![The risk ratios for the two partner groups](images/05-risk-04-risk-ratio-cropped.png)
 
 This is the risk ratio. It is easy to read:
 
