@@ -73,7 +73,7 @@ without knowing anything about the car. But we do know something, so each
 feature is multiplied by its weight: horsepower gets weight w<sub>1</sub>,
 miles per gallon gets w<sub>2</sub>, popularity gets w<sub>3</sub>.
 
-![The linear regression formula written for our three features](images/05-linear-regression-simple-03-regression-formula.jpg)
+![The linear regression formula written for our three features](images/05-linear-regression-simple-03-regression-formula-cropped.png)
 
 The part with the features is a sum, so we can write the formula more
 compactly. Because we already use i for the car, we use j for the features, and

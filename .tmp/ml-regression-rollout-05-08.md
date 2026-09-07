@@ -19,3 +19,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-02-car-10-features-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact notebook UI and numeric values are the source of truth; one crop correction removed a clipped heading fragment before acceptance.
 - QA: final `970x470` PNG inspected visually; exact code, labels, values, and table ordering remain readable; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 03
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-03-regression-formula.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the handwritten vector and regression formula are exact instructional content, so imagegen was not used.
+- Crop coordinates: source `598x360`; content crop `532x340+17+0` (`x=17, y=0, width=532, height=340`) assembled from a clean top strip (`488x55+17+0`) plus a lower strip (`532x285+17+55`), with the top-right webcam area replaced by the adjacent blank board strip (`44x55+460+0`). This removes the recording marker, webcam tile, right black bar, and bottom controls while retaining the full formula.
+- Invariants: preserve `x_i = [453, 11, 86]`, `i=10`, `g(x_i) ≈ y_i`, and the complete lower expression `g(x_i) = w_0 + w_1·x_i1 + w_2·x_i2 + w_3·x_i3`.
+- Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-03-regression-formula-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact handwritten formula content is the source of truth. An initial single rectangle was rejected because it clipped the lower formula; the accepted stepped crop restored the complete expression without the webcam tile.
+- QA: final `1064x680` PNG inspected visually; all numeric values, symbols, and formula terms remain readable, with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
