@@ -93,7 +93,7 @@ array([[0.65, 0.07],
        [0.12, 0.15]])
 ```
 
-![Turning the confusion matrix into fractions of the whole validation set](images/03-confusion-table-06-normalized-confusion-matrix.jpg)
+![Turning the confusion matrix into fractions of the whole validation set](images/03-confusion-table-06-normalized-confusion-matrix-cropped.jpg)
 
 So 65% of all customers are true negatives, 7% false positives, 12% false negatives and 15% true positives.
 

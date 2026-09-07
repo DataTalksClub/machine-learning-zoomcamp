@@ -179,3 +179,12 @@
 - Invariants: `confusion_matrix = np.array([[tn, fp], [fn, tp]])`, the displayed `array([[922, 101], [176, 210]])`, the blue envelope sketch and `25%` note, and the `4.4 Precision and Recall` heading remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-05-confusion-matrix-output-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact code, matrix values, annotation, and heading remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
+
+## 06 — normalized confusion matrix notebook
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-06-normalized-confusion-matrix.jpg`
+- Disposition: accepted deterministic crop; exact matrix construction, count matrix, normalized fractions, and headings retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=54, width=577, height=306` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black strip with no post-crop content edits.
+- Invariants: the `confusion_matrix` array with `922`, `101`, `176`, and `210`, the division by `confusion_matrix.sum()`, exact output values `0.6543648`, `0.07168204`, `0.12491128`, and `0.14904187`, plus the `4.4 Precision and Recall` and `4.5 ROC Curves` headings remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-06-normalized-confusion-matrix-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact code, numeric values, matrix context, and headings remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
