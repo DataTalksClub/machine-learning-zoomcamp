@@ -109,3 +109,13 @@
 - Invariants: heading `3.3 Setting up the validation framework`; visible split calls remain `df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)` and `df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=1)` as captured; output remains `(4225, 1409, 1409)`; `3.4 EDA` and its visible bullets remain; source’s right-edge truncation is retained; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/03-validation-02-split-sizes-cropped.png` (550×320 PNG).
 - QA: accepted after `view_image` inspection at lesson size; heading, code, output values, and EDA context checked against the source; camera/browser framing removed without changing instructional pixels; Markdown reference resolves.
+
+## 12 — validation: resetting indexes
+
+- Source: `cohorts/2026/03-classification/images/03-validation-03-reset-index.jpg` (598×360 JPEG).
+- Context/caption: “Resetting the indexes after the shuffle.” This image teaches that each split dataframe receives a fresh zero-based index after `train_test_split` shuffles the rows.
+- Rubric/disposition: keep — deterministic crop. The three dataframe reset commands are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×52+26+82` removes the browser/Zoom header, face tile, black capture edges, and the unrelated partially typed next-cell line/caret by cropping to the target cell only. No target code pixels are covered.
+- Invariants: the complete three-line cell remains `df_train = df_train.reset_index(drop=True)`, `df_val = df_val.reset_index(drop=True)`, and `df_test = df_test.reset_index(drop=True)`; line order and `drop=True` arguments are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/03-validation-03-reset-index-cropped.png` (550×52 PNG).
+- QA: accepted after `view_image` inspection at lesson size; all three commands and their ordering checked against the original; capture framing, unrelated active-cell content, and caret are absent; Markdown reference resolves.

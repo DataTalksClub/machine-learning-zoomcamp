@@ -70,7 +70,7 @@ df_val = df_val.reset_index(drop=True)
 df_test = df_test.reset_index(drop=True)
 ```
 
-![Resetting the indexes after the shuffle](images/03-validation-03-reset-index.jpg)
+![Resetting the indexes after the shuffle](images/03-validation-03-reset-index-cropped.png)
 
 The `drop=True` argument discards the old index instead of adding it
 back as a column. We do the same for the full train set when we start
