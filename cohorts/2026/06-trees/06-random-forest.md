@@ -130,7 +130,7 @@ for d in [5, 10, 15]:
 plt.legend()
 ```
 
-![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth.jpg)
+![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth-cropped.png)
 
 The curves for `max_depth=10` and `max_depth=15` are clearly better than the
 one for `max_depth=5`, and `max_depth=10` is the best of the three. So we fix
