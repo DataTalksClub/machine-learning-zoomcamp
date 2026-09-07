@@ -73,7 +73,7 @@ n+1 dimensional vector now. And the vector of features becomes
 x<sub>i0</sub>, x<sub>i1</sub>, x<sub>i2</sub> and so on, where
 x<sub>i0</sub> is 1:
 
-![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature.jpg)
+![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature-cropped.png)
 
 Why does this work? When we do the dot product, w0 gets multiplied by 1, so it
 simply stays there, and the rest is the same dot product as before. The result

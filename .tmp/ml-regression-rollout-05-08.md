@@ -99,3 +99,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-03-dot-function-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code must not be guessed. A wider candidate was rejected because it retained the selected green-bordered next cell; the accepted crop ends before it.
 - QA: final `960x340` PNG inspected visually; both functions and all code tokens remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 04
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-04-fake-feature.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the handwritten vectors and added `1` are exact source content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `450x300+50+20` (`x=50, y=20, width=450, height=300`). This removes the recording marker, presenter webcam tile, the partially covered dimension note, right black bar, and bottom controls while preserving both vectors and the dot-product line.
+- Invariants: preserve `w = [w_0, w_1, w_2, …, w_n]`, `x_i = [1, x_{i1}, x_{i2}, …, x_{in}]` with the blue added `1`, and `w^T x_i = x_i^T w`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-04-fake-feature-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact vector notation is the source of truth. Two crop widths were tested; the accepted `width=450` keeps the closing feature-vector bracket complete and excludes a stray edge artifact.
+- QA: final `900x600` PNG inspected visually; vectors, indices, added `1`, transpose marks, and equality are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
