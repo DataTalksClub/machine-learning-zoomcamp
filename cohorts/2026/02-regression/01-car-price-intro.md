@@ -14,7 +14,7 @@ online classified website, and the site asks them to enter a price. If they
 don't know how much the car is worth, they have to guess. We want to help:
 the user describes the car, and our model suggests the best price.
 
-![How can we help our user select the best price](images/01-car-price-intro-01-select-best-price.jpg)
+![How can we help our user select the best price](images/01-car-price-intro-01-select-best-price-cropped.jpg)
 
 ## The dataset
 
