@@ -121,7 +121,7 @@ Internally, an image is just an array with three channels: red, green
 and blue. Each channel is an array, and each cell of that array is a
 number between 0 and 255 - that's one byte:
 
-![An image as three channels; the green channel is a grid of numbers from 0 to 255](images/02-tensorflow-keras-07-rgb-channels.jpg)
+![An image as three channels; the green channel is a grid of numbers from 0 to 255](images/02-tensorflow-keras-07-rgb-channels-imagegen.png)
 
 Each pixel combines three values: one from the red channel, one from
 the green channel and one from the blue channel. Our t-shirt is almost
