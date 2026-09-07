@@ -153,7 +153,7 @@ dict(zip(classes, pred[0]))
  't-shirt': -2.9939806}
 ```
 
-![Zipping the class names with the predictions: pants has the highest score](images/12-using-model-05-classes-prediction-zip.jpg)
+![Zipping the class names with the predictions: pants has the highest score](images/12-using-model-05-classes-prediction-zip-cropped.png)
 
 The highest score is pants (9.29), followed by shorts (3.43) - and
 that makes sense, because shorts look similar to pants. The model
