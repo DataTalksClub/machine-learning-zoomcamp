@@ -45,6 +45,20 @@ remain in place; accepted replacements are sibling assets.
   checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
   recording overlays absent.
 
+### 04-crisp-dm-03-business-understanding.jpg
+
+- Disposition: `imagegen`; this is a process-stage highlight with bounded
+  labels and explanatory text.
+- Invariant: exact text `Identify the business problem, understand how we can
+  solve it`; `Business Understanding` is highlighted within the same six-stage
+  CRISP-DM loop and central `Data` remains visible.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `04-crisp-dm-03-business-understanding-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; explanatory text,
+  highlighted stage, six-stage loop, arrows, and Data label checked; face,
+  webcam, browser/Zoom chrome, cursor, watermark, toolbar, and recording
+  overlays absent.
+
 ### 03-supervised-ml-06-ranking.jpg
 
 - Disposition: `imagegen`; the original ecommerce strip is illustrative, not

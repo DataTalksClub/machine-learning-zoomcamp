@@ -23,7 +23,7 @@ The process has six steps. Let's go through each of them.
 
 The goal of this step is to identify the problem we want to solve.
 
-![Business understanding in the CRISP-DM diagram](images/04-crisp-dm-03-business-understanding.jpg)
+![Business understanding in the CRISP-DM diagram](images/04-crisp-dm-03-business-understanding-imagegen-pilot.png)
 
 For our spam example: the problem is that users complain about spam. First, we want to understand to what extent it is a problem - do a lot of users complain, or is it just one user? This helps us understand how impactful the project is and whether it is worth investing time into it.
 
