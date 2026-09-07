@@ -73,7 +73,7 @@ so the matrix is not exactly singular anymore. It becomes at least numerically
 invertible, and NumPy finds an inverse. But look at what it comes up with: the
 numbers in the inverse are huge, around 10 to the power of 14.
 
-![The noisy Gram matrix and its inverse full of huge numbers](images/13-regularization-03-noisy-gram-matrix.jpg)
+![The noisy Gram matrix and its inverse full of huge numbers](images/13-regularization-03-noisy-gram-matrix-cropped.png)
 
 When we use this inverse to compute the weights, the weights for the duplicated
 features turn out to be very large numbers too. The weight for the unique first
