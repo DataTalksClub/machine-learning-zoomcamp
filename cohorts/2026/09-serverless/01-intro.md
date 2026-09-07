@@ -48,7 +48,7 @@ Lite instead - a lighter version of TensorFlow that is better suited
 for this particular use case. We'll talk about the reasons for that
 later in the module.
 
-![The Lambda function uses TensorFlow Lite internally to score the picture](images/01-intro-03-lambda-uses-tf-lite.jpg)
+![The Lambda function uses TensorFlow Lite internally to score the picture](images/01-intro-03-lambda-uses-tf-lite-imagegen.png)
 
 ## The plan
 

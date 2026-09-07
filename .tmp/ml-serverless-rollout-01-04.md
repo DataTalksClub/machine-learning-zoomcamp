@@ -22,3 +22,12 @@ Original source assets remain in place.
 - **Method:** imagegen `scientific-educational` redraw with exact labels `PICTURE URL`, `AWS LAMBDA`, `CLASSES + SCORES`, and `PANTS`; first draft was rejected because it invented numeric probabilities, then a targeted edit replaced all numbers with qualitative score bars.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 2, caption/accessibility 2 — **12/12; keep**.
 - **Validation:** corrected output inspected at 1691×930; required labels, request/response directions, and strongest `PANTS` score bar match the lesson; no face/camera/recording overlay or invented numeric value; Markdown reference resolves.
+
+## 01-intro-03-lambda-uses-tf-lite.jpg
+
+- **Disposition:** `crop/replace` → `images/01-intro-03-lambda-uses-tf-lite-imagegen.png`
+- **Teaching point:** the AWS Lambda service uses TensorFlow Lite internally to classify the pants image.
+- **Source inspection:** 592×360; source crop `+22+0 408×360` excluded the black frame, webcam tile, and recording overlay before generation.
+- **Method:** imagegen `scientific-educational` redraw with the exact labels `AWS LAMBDA`, `TF-LITE`, and `PANTS`; Lambda contains the TF-Lite inference component and arrows show the data flow.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 2, caption/accessibility 2 — **12/12; keep**.
+- **Validation:** generated image inspected at 1835×857; labels, containment relationship, and arrows match the caption; no face/camera/recording overlay or invented metric; Markdown reference resolves.
