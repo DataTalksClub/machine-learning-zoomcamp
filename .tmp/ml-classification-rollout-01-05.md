@@ -49,3 +49,13 @@
 - Invariants: row order and labels remain `customerID`, `gender`, `SeniorCitizen`, `Partner`, `Dependents`, `tenure`, `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, and `StreamingMovies`; visible sample IDs remain `7590-VHVEG`, `5575-GNVDE`, `3668-QPYBK`, `7795-CFOCW`, and `9237-HQITU`; values retain source capitalization and spaces, including `No phone service`, `DSL`, and `Fiber optic`; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/02-data-preparation-02-first-look-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size; row ordering, labels, sample IDs, and visible values checked against the source; capture overlays removed; Markdown reference resolves.
+
+## 06 — data preparation: normalized dataframe
+
+- Source: `cohorts/2026/03-classification/images/02-data-preparation-03-normalized.jpg` (598×360 JPEG).
+- Context/caption: “The same dataframe after making the names and values uniform.” This image teaches that both column names and string values have been lowercased and spaces replaced with underscores.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The dataframe labels and values are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×308+26+52` in `.tmp/ml-classification-rollout-02-data-preparation-crops/03-candidate-y52.png` removes the browser/notebook header, webcam tile, and right black capture bar while preserving the top `customerid` row and the visible dataframe through `contract`.
+- Invariants: row order remains `customerid`, `gender`, `seniorcitizen`, `partner`, `dependents`, `tenure`, `phoneservice`, `multiplelines`, `internetservice`, `onlinesecurity`, `onlinebackup`, `deviceprotection`, `techsupport`, `streamingtv`, `streamingmovies`, and `contract`; visible values remain normalized, including `no_phone_service`, `fiber_optic`, and `month-to-month`; source’s native dataframe row highlighting/selection is retained without capture framing; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/02-data-preparation-03-normalized-cropped.png` (550×308 PNG).
+- QA: accepted after `view_image` inspection at lesson size; lowercase labels, underscore substitutions, visible values, and row ordering checked against the source; capture framing removed; Markdown reference resolves.

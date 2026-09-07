@@ -115,7 +115,7 @@ the car-price project in the previous module. After this, values like
 `Electronic check` become `electronic_check` and `Month-to-month`
 stays `month-to-month`, but without the space.
 
-![The same dataframe after making the names and values uniform](images/02-data-preparation-03-normalized.jpg)
+![The same dataframe after making the names and values uniform](images/02-data-preparation-03-normalized-cropped.png)
 
 ## Fixing the totalcharges column
 
