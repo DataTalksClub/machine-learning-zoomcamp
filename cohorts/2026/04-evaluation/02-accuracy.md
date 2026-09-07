@@ -125,7 +125,7 @@ So a model that doesn't look at the data at all scores 73%, and our logistic reg
 
 The reason is that the classes are unbalanced: only 27% of the customers in the validation set churned, and 73% stayed. This is called class imbalance - there are many more instances of one class than of the other.
 
-![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance.jpg)
+![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance-cropped.jpg)
 
 With such an imbalance, a model can get a high accuracy by always predicting the majority class, while being completely useless for the minority class - which is exactly the class we care about: we want to find the customers who are about to leave.
 

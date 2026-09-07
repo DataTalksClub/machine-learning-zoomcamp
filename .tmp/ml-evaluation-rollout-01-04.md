@@ -125,3 +125,12 @@
 - Invariants: `plt.plot(thresholds, scores)`, the visible `Line2D` output, the accuracy curve and axes, the blue hand-drawn circles at the threshold `0` and `1` endpoints, the blue vertical marker at `1`, and the `4.3 Confusion table` heading remain unchanged. The hand-drawn marks are instructional content and were preserved.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-07-thresholds-endpoints-cropped.jpg`
 - QA: accepted after visual inspection; the curve, endpoint marks, axes, exact code, and output remain legible; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
+## 08 — class-imbalance whiteboard
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-08-class-imbalance.jpg`
+- Disposition: accepted deterministic crop; the exact whiteboard class-imbalance illustration and numeric annotations are retained, so imagegen was not used.
+- Crop coordinates: `x=27, y=0, width=451, height=340` from the 598×360 source; removes the black side bars, upper-right webcam tile, circular recording overlay, and blank lower frame margin.
+- Invariants: `YOUR MODEL`, `DUMMY MODEL`, `80%`, `73%`, `7%`, the `PRED` and `ACTUAL` rows with their F/T markings, the red/green row boxes, the `27%` arrow annotation, and boxed `73%` remain unchanged with their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-08-class-imbalance-cropped.jpg`
+- QA: accepted after visual inspection; all instructional handwriting, percentages, row labels, markers, arrows, and box remain legible; no face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, or black bar remains; `451×340` output renders cleanly.
