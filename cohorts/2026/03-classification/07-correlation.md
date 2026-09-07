@@ -167,7 +167,7 @@ churn at about 9%, and customers paying more than $50 churn at about
 32%. The more people pay monthly, the more likely they are to leave -
 the positive correlation confirmed.
 
-![Churn rate by monthly charges group: 8%, 18%, 32%](images/07-correlation-05-churn-rate-monthly-charges.jpg)
+![Churn rate by monthly charges group: 8%, 18%, 32%](images/07-correlation-05-churn-rate-monthly-charges-clean.png)
 
 We now know the importance of categorical variables (mutual
 information) and numerical variables (correlation). Next we prepare the

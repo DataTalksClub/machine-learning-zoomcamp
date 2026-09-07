@@ -43,3 +43,8 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   `07-correlation-04-churn-rate-tenure-clean.png`
   - Disposition: deterministic vector redraw; source control wheel overlapped the right edge, so a crop would damage the visual.
   - Invariants: tenure groups `0–2`, `2–12`, `12+`; exact churn rates `60%`, `40%`, `17%`; decreasing relationship preserved; no camera or recording chrome.
+
+- `07-correlation-05-churn-rate-monthly-charges.jpg` →
+  `07-correlation-05-churn-rate-monthly-charges-clean.png`
+  - Disposition: deterministic vector redraw; source control wheel overlapped the right edge and clipped the monthly-charge labels.
+  - Invariants: monthly-charge groups `≤20`, `20–50`, `>50`; exact churn rates `8%`, `18%`, `32%`; positive relationship preserved. The reference tenure panel is retained for context; no camera or recording chrome.
