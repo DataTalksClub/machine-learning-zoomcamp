@@ -31,7 +31,7 @@ Before we go to the matrix form, let's simplify and look at one observation
 instead of the entire feature matrix. One observation is one car, and this is
 its price:
 
-![g(xi) is approximately yi: a car and its price](images/05-linear-regression-simple-01-one-car-one-price.jpg)
+![g(xi) is approximately yi: a car and its price](images/05-linear-regression-simple-01-one-car-one-price-imagegen-pilot.png)
 
 A car can be a row in our feature matrix, so we can think of it as a vector
 with n elements: the first feature is x<sub>i1</sub>, then x<sub>i2</sub>, and
