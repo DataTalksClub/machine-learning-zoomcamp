@@ -26,7 +26,7 @@ There are many transformations we can apply, and we can combine them:
 
 ![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-cropped.png)
 
-![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid.jpg)
+![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid-cropped.png)
 
 The idea is similar to the dropout picture from the previous unit:
 augmentation can randomly hide parts of the image, and it changes
