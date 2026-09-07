@@ -72,7 +72,7 @@ It returns the loss and the accuracy on the test set:
 [0.29389633300403756, 0.89784944]
 ```
 
-![Loading xception_v4_1_13_0.903.h5 and evaluating it: about 0.90 accuracy on the test set](images/12-using-model-02-load-model-evaluate.jpg)
+![Loading xception_v4_1_13_0.903.h5 and evaluating it: about 0.90 accuracy on the test set](images/12-using-model-02-load-model-evaluate-cropped.png)
 
 The test accuracy is about 90%, very close to the 0.903 validation
 accuracy from training. When the test score matches the validation
