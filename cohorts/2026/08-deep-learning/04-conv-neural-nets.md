@@ -19,7 +19,7 @@ We have an image, and we want a neural network to predict what is on
 it. We feed the image to a CNN - for now, think of it as a black box -
 and it outputs a prediction: this is a t-shirt.
 
-![Image goes into a CNN with many layers and comes out as a prediction](images/04-conv-neural-nets-01-cnn-overview.jpg)
+![Image goes into a CNN with many layers and comes out as a prediction](images/04-conv-neural-nets-01-cnn-overview-imagegen.png)
 
 Inside the box there are layers - layer one, layer two, and so on,
 possibly quite a few of them. There are two main types of layers in a

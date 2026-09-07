@@ -36,3 +36,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `03-pretrained-models-06-batch-shape.jpg` → `03-pretrained-models-06-batch-shape-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved `X.shape` output `(1, 299, 299, 3)` and the Xception model cell; removed webcam/black recording chrome.
 - `03-pretrained-models-07-preprocess-input.jpg` → `03-pretrained-models-07-preprocess-input-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact `preprocess_input(X)` output and handwritten `0-255` normalization cue; removed webcam/black recording chrome.
 - `03-pretrained-models-08-decode-predictions.jpg` → `03-pretrained-models-08-decode-predictions-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the ImageNet download, decoded classes (`jersey`, `bulletproof vest`, `sweatshirt`, `maillot`, `velvet`), and probabilities; removed webcam/black recording chrome.
+
+## 04-conv-neural-nets
+
+- `04-conv-neural-nets-01-cnn-overview.jpg` → `04-conv-neural-nets-01-cnn-overview-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved the black t-shirt → CNN layers → `T-SHIRT` pipeline, layer labels, and two-item legend; removed presenter/camera/recording controls and checked all generated text.
