@@ -39,7 +39,7 @@ with open(output_file, 'wb') as f_out:
     pickle.dump((dv, model), f_out)
 ```
 
-![Saving the vectorizer and the model as a tuple with pickle](images/02-pickle-02-pickle-dump.jpg)
+![Saving the vectorizer and the model as a tuple with pickle](images/02-pickle-02-pickle-dump-cropped.jpg)
 
 The `'wb'` mode means write-binary - pickle produces binary data, so we must
 not open the file in text mode. We name the file with the value of `C` we
