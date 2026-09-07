@@ -75,3 +75,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact shell output and command text are the source of truth
 - Invariants: VS Code terminal; `git push`; object-count/output lines; GitHub remote; visible `pip install` command; terminal context
 - Validation: passed visual review; command/output text remains exact and readable; no face, camera tile, browser/recording chrome, watermark, or black border
+
+### 05 — jupyter-notebook
+
+- Source: `cohorts/2026/01-intro/images/06-environment-05-jupyter-notebook.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-05-jupyter-notebook-cropped.png`
+- Crop: `510×270+0+90` (removes browser chrome and the webcam tile while retaining the Jupyter toolbar, `JupyterLab`, kernel context, and `import pandas as pd` cell)
+- Path: deterministic lossless PNG crop; imagegen not used because exact notebook UI and code are the source of truth
+- Invariants: Jupyter toolbar; `JupyterLab`; `Python 3 (ipykernel)` context; `import pandas as pd`; notebook cell area
+- Validation: passed visual review; exact code and UI labels are readable; no face, camera tile, browser tab/address chrome, watermark, recording overlay, or black border

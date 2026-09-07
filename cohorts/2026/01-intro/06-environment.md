@@ -56,7 +56,7 @@ jupyter notebook
 
 It starts remotely on the codespace, but you can use it locally. VS Code automatically detects that something is running on port 8888 and forwards it to your machine - see the Ports panel. Open the forwarded address, and if you are asked to log in, take the token (or the entire URL) from the terminal and paste it into the browser.
 
-![The Jupyter notebook running in the browser](images/06-environment-05-jupyter-notebook.jpg)
+![The Jupyter notebook running in the browser](images/06-environment-05-jupyter-notebook-cropped.png)
 
 That's it - you have a working environment: create a folder like `01-intro`, create a notebook, `import pandas as pd` and you are ready. For the homework you will typically read a CSV file with `pd.read_csv(...)`, finish the notebook, rename it to something like `homework.ipynb`, commit it, push it, and submit the URL of your repository in the homework form.
 
