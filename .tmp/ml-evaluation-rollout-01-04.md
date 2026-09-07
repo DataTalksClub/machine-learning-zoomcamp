@@ -260,3 +260,12 @@
 - Invariants: `g(x_i) ≥ t`, the `TN`/`FP`/`FN`/`TP` cells and green highlights, `y=1`, the right `RECALL` arrow, and the downward `PRECISION` arrow/label remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-06-precision-recall-table-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact table cells, threshold, labels, highlights, and arrows remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `498×320` output renders cleanly.
+
+## 04.07 — metrics summary
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-07-metrics-summary.jpg`
+- Disposition: accepted deterministic crop; the exact handwritten metric summary and error annotations were retained, so imagegen was not used.
+- Crop coordinates: `x=50, y=0, width=440, height=330` from the 598×360 source; removes the black side frame, upper-right webcam tile, lower-right recording wheel, lower-left controls, and blank lower margin by trimming the outer frame.
+- Invariants: `PRECISION`, `67%`, red `33%`, `210/311`, `RECALL`, `54%`, red `46%` and `FAILED TO IDENTIFY`, `210/386`, and `ACCURACY 80%` remain unchanged and in their original layout.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-07-metrics-summary-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact percentages, fractions, labels, and error annotations remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `440×330` output renders cleanly.
