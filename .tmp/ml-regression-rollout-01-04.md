@@ -188,3 +188,12 @@
 - Invariants: preserve the exact `df.isnull().sum()` expression, every visible column name and count (`engine_fuel_type` 3, `engine_hp` 69, `engine_cylinders` 30, `number_of_doors` 6, `market_category` 3742, all other shown counts 0), their order, the `dtype: int64` line, and the source highlight on `engine_cylinders`.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-07-missing-values-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, table labels, counts, order, dtype, highlight, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following heading remains; final dimensions `577x280`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 22 — train, validation, and test split
+
+- Disposition: `keep` via deterministic crop/export; the image teaches how one dataset is divided into train, validation, and test, with an X feature matrix and y target for each part.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-01-train-val-test-split.jpg`; caption: “The dataset split into train, validation and test, each with its own X and y”; context: the opening section explains that the model trains on train, is checked on validation, and uses test only at the end.
+- Crop coordinates: source `598x360`; `505x306+43+54` (`x=43, y=54, width=505, height=306`). The crop removes the left recording bar and controls, top-right webcam tile, and right black bar while retaining the whiteboard diagram.
+- Invariants: preserve the exact handwritten labels `TRAIN`, `VAL`, `TEST`, the three partition boxes, arrow directions, and the paired `X_train/y_train`, `X_val/y_val`, and `X_test/y_test` notation and layout.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-01-train-val-test-split-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact labels, partition ordering, arrows, and X/y relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `505x306`; lesson reference resolves.
