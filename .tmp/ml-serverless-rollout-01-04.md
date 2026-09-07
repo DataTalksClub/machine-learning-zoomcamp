@@ -175,3 +175,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×240 with light sharpening; exact source code and values were preserved. The native code-selection highlight remains because removing it safely would alter exact source pixels.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `if mode == "tf"`, `x /= 127.5`, `x -= 1.`, and `return x` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-07-keras-image-helper.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-07-keras-image-helper-cropped.png`
+- **Teaching point:** `keras-image-helper` is installed and used to create an Xception preprocessor with the expected target size and URL input.
+- **Source inspection:** 592×360; deterministic crop `+0+30 500×306` removes browser chrome, webcam tile, and right-side black frame while retaining the install output and exact code cells.
+- **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact package name, target size, and URL were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; install success, `create_preprocessor('xception', target_size=(299, 299))`, and `from_url` usage remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

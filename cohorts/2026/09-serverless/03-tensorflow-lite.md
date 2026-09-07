@@ -262,7 +262,7 @@ url = 'http://bit.ly/mlbookcamp-pants'
 X = preprocessor.from_url(url)
 ```
 
-![Installing keras-image-helper and creating the Xception preprocessor](images/03-tensorflow-lite-07-keras-image-helper.jpg)
+![Installing keras-image-helper and creating the Xception preprocessor](images/03-tensorflow-lite-07-keras-image-helper-cropped.png)
 
 The predictions stay exactly the same.
 
