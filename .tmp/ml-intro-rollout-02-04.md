@@ -45,3 +45,16 @@ remain in place; accepted replacements are sibling assets.
 - Validation: imagegen output inspected at lesson size; all six labels and
   the `Rules` cue checked verbatim; face, webcam, browser/Zoom chrome,
   cursor, watermark, toolbar, and recording overlays absent.
+
+### 02-ml-vs-rules-02-rules.jpg
+
+- Disposition: `imagegen`; the three hard-coded rules are the lesson's
+  contrast with learned rules.
+- Invariant: title `Rules`; exact three bullet rules and their order, including
+  `promotions@online.com`, `tax review`, `online.com`, `spam`, and
+  `good email`.
+- Crop: `480x280+20+30` from the 598x360 source.
+- Output: `02-ml-vs-rules-02-rules-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all three bullets and
+  order checked verbatim; face, webcam, browser/Zoom chrome, cursor,
+  watermark, toolbar, and recording overlays absent.

@@ -22,7 +22,7 @@ We look at the spam messages and try to find patterns: what makes a spam message
 
 We turn these observations into rules, write them down in Python and deploy the system:
 
-![The rules we came up with](images/02-ml-vs-rules-02-rules.jpg)
+![The rules we came up with](images/02-ml-vs-rules-02-rules-imagegen-pilot.png)
 
 It works - for a while. Then people start complaining about other kinds of unsolicited messages, for example a "prize" email that asks you to pay a small fee and deposit $10 to some account. We analyze it, notice that all these spam messages contain the word "deposit", and add a new rule: if the body contains the word "deposit", mark the message as spam.
 
