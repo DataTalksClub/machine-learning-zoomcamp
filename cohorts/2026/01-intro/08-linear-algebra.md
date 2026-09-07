@@ -259,7 +259,7 @@ array([[1. , 1. , 2. ],
 
 We multiplied `V` by `I` and got `V` back.
 
-![The identity matrix: multiplying V by I gives V back](images/08-linear-algebra-07-identity-matrix.jpg)
+![The identity matrix: multiplying V by I gives V back](images/08-linear-algebra-07-identity-matrix-cropped.png)
 
 ## Inverse
 

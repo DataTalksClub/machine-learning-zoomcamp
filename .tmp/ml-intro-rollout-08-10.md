@@ -60,3 +60,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: matrix-matrix result allocation; column loop; `vi = V[:, i]`; `matrix_vector_multiplication(U, vi)`; assignment to `result[:, i]`; test call and output matrix `[[14., 20., 13.], [5., 6., 5.], [5., 8.5, 9.]]`
 - Output: `cohorts/2026/01-intro/images/08-linear-algebra-06-matrix-matrix-cropped.png`
 - Validation: accepted after visual inspection; visible code and all numeric output are unchanged; browser/recording chrome, face, camera tile, and controls are absent.
+
+### 07 — identity matrix
+
+- Source: `cohorts/2026/01-intro/images/08-linear-algebra-07-identity-matrix.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x193+15+135`
+- Invariants: heading `Identity matrix`; `I = np.eye(3)`; `V.dot(I)`; returned matrix values `[[1., 1., 2.], [0., 0.5, 1.], [0., 2., 1.], [2., 1., 0.]]`
+- Output: `cohorts/2026/01-intro/images/08-linear-algebra-07-identity-matrix-cropped.png`
+- Validation: accepted after visual inspection; command and numeric output are unchanged; face, camera tile, browser chrome, and controls are absent.
