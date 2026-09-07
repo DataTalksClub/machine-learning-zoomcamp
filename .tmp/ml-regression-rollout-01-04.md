@@ -17,3 +17,12 @@
 - Invariants: preserve the exact Kaggle dataset banner “Car Features and MSRP”, feature description, author/version line, tabs, download/new-notebook controls, usability/tags row, “Context” heading and dataset description, and “Content” heading.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-02-kaggle-dataset-cropped.jpg`.
 - QA: source and candidate crops inspected visually; exact UI/text preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or presenter pointer remains; final dimensions `539x246`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 03 — Kaggle data explorer
+
+- Disposition: `crop/replace` via deterministic crop/export; the image teaches that the Kaggle data explorer exposes one row per car and multiple feature columns.
+- Source/context: `cohorts/2026/02-regression/images/01-car-price-intro-03-kaggle-data-explorer.jpg`; caption: “Kaggle data explorer showing the car dataset columns”.
+- Crop coordinates: source `598x360`; `576x283+0+58` (`x=0, y=58, width=576, height=283`). The crop removes browser chrome, the webcam tile/face, the right black bar, and the bottom recording strip.
+- Invariants: preserve the Kaggle left navigation, `data.csv` explorer, Detail/Compact/Column tabs, “About this file”, feature-column headers and distributions, visible car rows, and the Summary showing 16 columns.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-03-kaggle-data-explorer-cropped.jpg`.
+- QA: source and candidate crops inspected visually; exact UI, labels, row values, and column relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `576x283`; lesson reference resolves; `git diff --check` passes before commit.

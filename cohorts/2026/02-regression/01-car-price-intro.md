@@ -28,7 +28,7 @@ properties.
 The data explorer on Kaggle shows what is inside. Every row is one car, and
 every column is one characteristic of that car.
 
-![Kaggle data explorer showing the car dataset columns](images/01-car-price-intro-03-kaggle-data-explorer.jpg)
+![Kaggle data explorer showing the car dataset columns](images/01-car-price-intro-03-kaggle-data-explorer-cropped.jpg)
 
 One column is especially interesting for us: MSRP. It stands for
 Manufacturer Suggested Retail Price — in other words, the price of a car.
