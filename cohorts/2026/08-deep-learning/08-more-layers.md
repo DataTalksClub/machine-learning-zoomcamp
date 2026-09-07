@@ -25,7 +25,7 @@ for non-linearity. Without it, stacking dense layers wouldn't help:
 several linear transformations in a row collapse into one linear
 transformation.
 
-![The diagram with an inner dense layer between the vector representation and the output](images/08-more-layers-01-inner-layer-diagram.jpg)
+![The diagram with an inner dense layer between the vector representation and the output](images/08-more-layers-01-inner-layer-diagram-imagegen.png)
 
 Each activation takes the raw scores coming out of a dense layer and
 transforms them. Softmax turns raw scores into probabilities - that's
