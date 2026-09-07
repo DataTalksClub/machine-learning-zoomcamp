@@ -35,7 +35,7 @@ promo email or do nothing.
 We will take the churn model from the notebook to a working web service step
 by step:
 
-![The plan of the module, from the lesson notes](images/01-intro-03-module-plan.jpg)
+![The plan of the module, from the lesson notes](images/01-intro-03-module-plan-cropped.jpg)
 
 - Saving and loading the model with pickle, and turning the notebook into a
   Python script, so the model can be used without re-training it every time.
