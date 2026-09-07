@@ -242,3 +242,12 @@
 - Invariants: `RECALL`, the blue definition text, the oval with its internal divider, and the `U` arrow remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-04-recall-definition-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact handwritten labels and the ellipse remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `458×360` output renders cleanly.
+
+## 04.05 — recall example
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-05-recall-example.jpg`
+- Disposition: accepted deterministic crop; the exact handwritten recall example, people, marks, calculation, and legend were retained, so imagegen was not used.
+- Crop coordinates: `x=105, y=0, width=400, height=355` from the 598×360 source; removes the left frame/control area, upper-right webcam tile, lower-right status icon, and lower frame margin while retaining the full board content.
+- Invariants: the four upper customer figures, one red `X`, three green checks, red `NO CHURN`, divider and arrow, `R = 3/4 = 75%`, the four lower figures, and the black/blue `NO CHURN`/`CHURN` legend remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-05-recall-example-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact figures, marks, handwritten labels, calculation, and legend remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `400×355` output renders cleanly.

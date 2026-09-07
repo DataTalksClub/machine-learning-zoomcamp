@@ -54,7 +54,7 @@ This gives `0.5440414507772021` - recall of about 54%.
 
 Again in the terms of the problem: 210 + 176 = 386 customers actually churned, but our model flagged only 210 of them. For the remaining 176 - about 46% of all churners - we did nothing: no email, no discount, and the customer left. This is the part accuracy never showed us.
 
-![A recall example: three of the four actual churners are flagged, one is missed](images/04-precision-recall-05-recall-example.jpg)
+![A recall example: three of the four actual churners are flagged, one is missed](images/04-precision-recall-05-recall-example-cropped.jpg)
 
 ## Why not just accuracy
 
