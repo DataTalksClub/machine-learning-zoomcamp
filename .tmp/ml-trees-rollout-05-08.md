@@ -98,3 +98,27 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   crisp, with no face, camera tile, browser/Zoom chrome, cursor, watermark,
   overlay, or black bar. Markdown reference resolves and `git diff --check`
   passes before commit.
+
+## 05 — decision tree parameter tuning, screenshot 05
+
+- Source: `cohorts/2026/06-trees/images/05-decision-tree-tuning-05-heatmap.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the heatmap's
+  exact AUC values, axes, and highlighted winner are source-of-truth content,
+  so imagegen was not used.
+- Crop coordinates: source `598x360`; `330x210+125+115` (`x=125, y=115,
+  width=330, height=210`). This isolates the complete heatmap, legend, axes,
+  and blue annotation while removing notebook output text, webcam, browser
+  chrome, and frame borders.
+- Invariants: preserve the `min_samples_leaf` rows, `auc-4`, `auc-5`, and
+  `auc-6` columns, all annotated AUC values, the color scale `0.68`–`0.78`,
+  and the highlighted `0.786` cell at leaf size `15`, depth `6`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/05-decision-tree-tuning-05-heatmap-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  numeric heatmap content must not be guessed. A candidate with clipped
+  `AxesSubplot` text was rejected; the accepted crop begins below it.
+- QA: final `660x420` PNG inspected visually; the complete heatmap and axes are
+  crisp, with no face, camera tile, browser/Zoom chrome, cursor, watermark,
+  output-text fragment, or black bar. Markdown reference resolves and
+  `git diff --check` passes before commit.

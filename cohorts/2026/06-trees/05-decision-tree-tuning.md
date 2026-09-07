@@ -124,7 +124,7 @@ Even easier to read as a heatmap - the best cell is the lightest one:
 sns.heatmap(df_scores_pivot, annot=True, fmt=".3f")
 ```
 
-![The heatmap of AUC values; max_depth=6 and min_samples_leaf=15 wins](images/05-decision-tree-tuning-05-heatmap.jpg)
+![The heatmap of AUC values; max_depth=6 and min_samples_leaf=15 wins](images/05-decision-tree-tuning-05-heatmap-cropped.png)
 
 The best combination is `max_depth=6` and `min_samples_leaf=15`, with
 an AUC of 0.785 - better than anything we saw when tuning `max_depth`
