@@ -31,3 +31,9 @@ use the built-in imagegen workflow after source inspection.
   `True` glyph from the adjacent unselected output, then 2× Lanczos resize
   and light unsharp; preserved `y_pred >= 0.5` and the exact boolean output,
   removed the camera tile and selection highlight.
+
+- `10-training-log-reg-05-selected-customers.jpg` →
+  `10-training-log-reg-05-selected-customers-cropped.png` — deterministic crop
+  `(15,82,505,220)`, 2× Lanczos resize and light unsharp; preserved the mask,
+  representative customer IDs, and exact `Length: 311` output while removing
+  the camera tile and notebook frame.

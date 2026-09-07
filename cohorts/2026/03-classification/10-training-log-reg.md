@@ -94,7 +94,7 @@ the model thinks will churn - for example, the ones who should receive
 a promotional email with a discount. Selecting the validation rows with
 this mask gives 311 customers.
 
-![Selecting the validation rows with the churn decision mask: 311 customers should receive the promotional email](images/10-training-log-reg-05-selected-customers.jpg)
+![Selecting the validation rows with the churn decision mask: 311 customers should receive the promotional email](images/10-training-log-reg-05-selected-customers-cropped.png)
 
 ## Accuracy
 
