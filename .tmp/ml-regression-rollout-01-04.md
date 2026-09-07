@@ -161,3 +161,12 @@
 - Invariants: preserve the exact `sns.histplot(df.msrp[df.msrp < 100000], bins=50)` expression, the `< 100000` threshold, output label, `msrp`/`Count` axes, bar order/heights, and visible plot geometry.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-04-zoom-below-100k-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, threshold, output, axes, visible bars, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x215`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 19 — log zero problem
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that applying the plain logarithm to zero emits a divide-by-zero warning and returns negative infinity.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-05-log-zero-problem.jpg`; caption: “log(0) fails with a divide-by-zero warning”.
+- Crop coordinates: source `598x360`; `577x116+0+224` (`x=0, y=224, width=577, height=116`). The crop removes the notebook/browser header, webcam tile/face, right black strip, preceding histogram labels, and following blank prompt while retaining the complete log cell, warning, and returned array.
+- Invariants: preserve the exact visible `np.log([0 + 1, 1 + 1, 10 + 1, 1000 + 1, 100000 + 1])` expression, the `RuntimeWarning: divide by zero encountered in log` text, and the output values `-inf`, `0.`, `2.30258509`, `6.90775528`, and `11.51292546` in their original order.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-05-log-zero-problem-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, warning, values, ordering, and notebook cell styling preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or unrelated chart label remains; final dimensions `577x116`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

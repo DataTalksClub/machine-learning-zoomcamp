@@ -145,7 +145,7 @@ There is one problem with the plain logarithm: the logarithm of zero doesn't
 exist. If there is a zero in the data, numpy complains — it returns negative
 infinity and prints a warning:
 
-![log(0) fails with a divide-by-zero warning](images/03-eda-05-log-zero-problem.jpg)
+![log(0) fails with a divide-by-zero warning](images/03-eda-05-log-zero-problem-cropped.jpg)
 
 In our case prices are always 1,000 or more, so this can't happen. Still,
 it's pretty common to add one to all values before taking the logarithm,
