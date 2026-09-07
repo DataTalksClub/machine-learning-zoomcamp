@@ -169,3 +169,13 @@
 - Invariants: the complete assignment remains `numerical = ['tenure', 'monthlycharges', 'totalcharges']`; list order, spelling, punctuation, and syntax coloring are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated cell, or black capture bar.
 - Final: `cohorts/2026/03-classification/images/04-eda-04-numerical-variables-cropped.png` (550×32 PNG).
 - QA: accepted after `view_image` inspection at lesson size; exact assignment text and ordering checked against the source, camera strip and unrelated active-cell content removed, and Markdown reference resolves.
+
+## 18 — EDA: categorical variables
+
+- Source: `cohorts/2026/03-classification/images/04-eda-05-categorical-variables.jpg` (598×360 JPEG).
+- Context/caption: “The list of categorical variables.” This image teaches the exact 16 categorical feature names used after excluding the identifier, numerical variables, and target.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The Python list is exact instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×82+26+124` isolates the complete categorical-variable assignment and removes the browser/notebook header, webcam tile, unrelated dataframe output, active-cell content/caret, and capture framing.
+- Invariants: all 16 labels remain verbatim and in source order: `gender`, `seniorcitizen`, `partner`, `dependents`, `phoneservice`, `multiplelines`, `internetservice`, `onlinesecurity`, `onlinebackup`, `deviceprotection`, `techsupport`, `streamingtv`, `streamingmovies`, `contract`, `paperlessbilling`, and `paymentmethod`; punctuation, line wrapping, and syntax coloring remain; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated cell, or black capture bar.
+- Final: `cohorts/2026/03-classification/images/04-eda-05-categorical-variables-cropped.png` (550×82 PNG).
+- QA: accepted after `view_image` inspection at lesson size; all 16 labels, order, and list syntax checked against the source, unrelated capture content removed, and Markdown reference resolves.

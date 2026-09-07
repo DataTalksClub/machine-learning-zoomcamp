@@ -134,7 +134,7 @@ categorical = [
 ]
 ```
 
-![The list of categorical variables](images/04-eda-05-categorical-variables.jpg)
+![The list of categorical variables](images/04-eda-05-categorical-variables-cropped.png)
 
 It is a good idea to check how many unique values each categorical
 variable has:
