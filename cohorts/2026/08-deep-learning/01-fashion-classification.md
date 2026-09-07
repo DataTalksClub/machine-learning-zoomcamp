@@ -59,7 +59,7 @@ Inside the train folder there are ten folders, one per category:
 dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt and
 t-shirt. Each folder contains the images of that category.
 
-![The train folder of the small dataset with ten category folders](images/01-fashion-classification-04-dataset-small-train.jpg)
+![The train folder of the small dataset with ten category folders](images/01-fashion-classification-04-dataset-small-train-cropped.png)
 
 To get the data, clone the repository with the subset:
 
