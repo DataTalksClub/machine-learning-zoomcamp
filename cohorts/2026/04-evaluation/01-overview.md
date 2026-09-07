@@ -8,7 +8,7 @@ code:
 
 In this session we start module 4. In the previous module we trained a logistic regression model that predicts customer churn - now we need to answer the question: how do we know if it's good? We first recap the code that gets us back to the trained model, and then we look at the metrics we will use to evaluate it.
 
-![The title slide of the session](images/01-overview-01-title.jpg)
+![The title slide of the session](images/01-overview-01-title-cropped.jpg)
 
 ## What is a metric
 
