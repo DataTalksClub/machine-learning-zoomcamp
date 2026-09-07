@@ -137,7 +137,7 @@ we could afford to check more combinations - and if we did, other
 close pairs would show up. It's a good habit to start with a coarse
 search and refine it.
 
-![A wider search over more depths shows several close combinations](images/05-decision-tree-tuning-07-wider-search.jpg)
+![A wider search over more depths shows several close combinations](images/05-decision-tree-tuning-07-wider-search-cropped.png)
 
 ## The final tree
 
