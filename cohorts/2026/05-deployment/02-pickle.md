@@ -10,7 +10,7 @@ In this unit we save the trained churn model to a file with pickle, load it
 back, and turn the notebook into a Python script - so the model can be used
 later without training it again.
 
-![The plan of the module: saving and loading the model](images/02-pickle-01-module-plan.jpg)
+![The plan of the module: saving and loading the model](images/02-pickle-01-module-plan-cropped.jpg)
 
 ## Why we need to save the model
 

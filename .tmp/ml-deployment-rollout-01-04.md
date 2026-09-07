@@ -46,3 +46,12 @@ This report records the five screenshots referenced by `cohorts/2026/05-deployme
 - Invariants: preserve the nesting and exact labels `DOCKER`, `PIPENV`, `FLASK`, `CHURN PREDICTION MODEL`, `WEB SERVICE`, `ENVIRONMENT FOR PYTHON DEPS`, and `ENVIRONMENT — SYSTEM DEPENDENCIES`, including the outer-to-inner dependency relationship.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/05-deployment/images/01-intro-05-environments-cropped.jpg`.
 - QA: source and candidate inspected in lesson context; nested boxes, labels, and hierarchy preserved; no face, webcam, browser/Zoom chrome, cursor, color-wheel overlay, recording control, watermark, or black border remains; final dimensions `432x312`; lesson reference resolves; `git diff --check` passes before commit.
+
+## Pickle lesson — 01 — module plan
+
+- Disposition: `crop/replace` via deterministic crop/export; this exact VS Code plan frame shows where saving/loading the model fits in the deployment module.
+- Source/context: `cohorts/2026/05-deployment/images/02-pickle-01-module-plan.jpg`; caption: “The plan of the module: saving and loading the model”.
+- Crop coordinates: source `598x360`; `510x286+44+53` (`x=44, y=53, width=510, height=286`). The crop removes the VS Code activity bar, top tabs/breadcrumb chrome, right minimap, bottom status bar, webcam tile, and unused frame area. A deterministic background patch at source `x=85..86, y=229..244` removes the insertion cursor from the blank line without touching text.
+- Invariants: preserve the exact visible lines `deploy it as a web service.`, `## 5.1 Intro / Session overview`, `* What we will cover this week`, the highlighted `## 5.2 Saving and loading the model` section and its three bullets, `## 5.3 Web services: introduction to Flask` and its two bullets, and `## 5.4 Serving the churn model with Flask`, including order, punctuation, and highlight hierarchy.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/05-deployment/images/02-pickle-01-module-plan-cropped.jpg`.
+- QA: source inspected in lesson context at native `598x360`; candidate reviewed at lesson size; exact text, ordering, and highlight preserved; no face, webcam, browser/Zoom chrome, minimap, cursor, watermark, overlay, or black border remains; final dimensions `510x286`; image reference resolves; `git diff --check` passes before commit. Imagegen skill was available but not used because this is exact editor text and the deterministic path is required.
