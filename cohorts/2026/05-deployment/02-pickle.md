@@ -67,7 +67,7 @@ Here `'rb'` is read-binary. `pickle.load` returns the tuple we saved, and we
 unpack it into `dv` and `model`. From this point we can score customers
 without running any training code.
 
-![Loading the model back: the tuple unpacks into the vectorizer and the model](images/02-pickle-04-loaded-model.jpg)
+![Loading the model back: the tuple unpacks into the vectorizer and the model](images/02-pickle-04-loaded-model-cropped.jpg)
 
 One warning: never unpickle a file from a source you do not trust. Pickle
 files can contain code, and loading one executes it - only load files you
