@@ -27,7 +27,7 @@ Then we tuned and improved that model, step by step:
 - We can save the best model using callbacks and checkpointing
 - To avoid overfitting, use dropout and augmentation
 
-![The notebook recap: the summary bullets and the explore-more ideas](images/13-summary-03-explore-more.jpg)
+![The notebook recap: the summary bullets and the explore-more ideas](images/13-summary-03-explore-more-cropped.png)
 
 The result of all this is a model that classifies clothes with about
 90% accuracy on the test set - saved as an h5 checkpoint that we can
