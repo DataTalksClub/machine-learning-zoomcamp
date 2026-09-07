@@ -78,3 +78,11 @@ use the built-in imagegen workflow after source inspection.
   `0.030090303318277657`. The source screenshot was rejected because it
   showed the later month-to-month example (`0.418...`) instead of the
   surrounding two-year-customer example; no generated approximation was used.
+
+- `11-log-reg-interpretation-06-second-example-slide.jpg` →
+  `11-log-reg-interpretation-06-second-example-imagegen.png` — built-in
+  imagegen replacement from inspected/cropped source `(0,8,508,285)`.
+  Preserved the exact score equation, `1Y`/`2Y` zeroed contract terms,
+  monthly-charge and tenure terms, and `-0.33` result; removed the presenter,
+  camera/recording controls, and color wheel. Output visually checked at
+  lesson size.

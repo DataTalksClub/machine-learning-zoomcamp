@@ -190,7 +190,7 @@ Try another one: month-to-month contract, $50 per month, 5 months of
 tenure. The score is -2.47 + 0.97 + 50 * 0.027 - 5 * 0.036 = -0.33,
 and the sigmoid of that is about 0.42 - a 42% churn risk.
 
-![Scoring a month-to-month customer by hand: only the month-to-month weight is used, the other contract weights are multiplied by zero](images/11-log-reg-interpretation-06-second-example-slide.jpg)
+![Scoring a month-to-month customer by hand: only the month-to-month weight is used, the other contract weights are multiplied by zero](images/11-log-reg-interpretation-06-second-example-imagegen.png)
 
 ![The same calculation in the notebook: sigmoid of -0.33 is about 0.42](images/11-log-reg-interpretation-07-second-example.jpg)
 
