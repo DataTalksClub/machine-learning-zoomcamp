@@ -79,7 +79,7 @@ If you find older tutorials online, you may see the import written as
 library. You can take such code, add `tensorflow` in front, and it
 should work without changes.
 
-![Importing load_img from tensorflow.keras.preprocessing.image](images/02-tensorflow-keras-04-load-img-import.jpg)
+![Importing load_img from tensorflow.keras.preprocessing.image](images/02-tensorflow-keras-04-load-img-import-cropped.png)
 
 Let's load a t-shirt from the train folder. We build the path with an
 f-string and pass it to `load_img`:
