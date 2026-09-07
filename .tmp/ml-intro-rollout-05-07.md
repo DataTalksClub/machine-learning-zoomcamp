@@ -177,6 +177,15 @@
 - Invariants: `a` output `[0, 1, 2, 3, 4]`; `a >= 2`; output `[False, False, True, True, True]`; `Comparison operations` / `Summarizing operations` headings
 - Validation: passed visual review; code and Boolean output remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 08 — summarizing
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-08-summarizing.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-08-summarizing-cropped.png`
+- Crop: `500×230+0+100` (removes browser frame and webcam tile; retains the summarizing heading, `a`, exact array output, `a.mean()`, `2.0`, and next-lesson context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and numeric output are the source of truth
+- Invariants: `a` output `[0, 1, 2, 3, 4]`; `a.mean()`; output `2.0`; `Summarizing operations`; `Next` / `Linear algebra refresher`
+- Validation: passed visual review; code and numeric output remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)

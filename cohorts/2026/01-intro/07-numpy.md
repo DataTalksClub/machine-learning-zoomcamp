@@ -310,7 +310,7 @@ For example, `min` returns the smallest number:
 2.0
 ```
 
-![Summarizing operations return a single number](images/07-numpy-08-summarizing.jpg)
+![Summarizing operations return a single number](images/07-numpy-08-summarizing-cropped.png)
 
 There is also the standard deviation, if you are interested:
 
