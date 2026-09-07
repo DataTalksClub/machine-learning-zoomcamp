@@ -105,6 +105,19 @@ remain in place; accepted replacements are sibling assets.
   browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
   absent.
 
+### 03-supervised-ml-05-multiclass.jpg
+
+- Disposition: `imagegen`; this is a bounded input-to-category illustration.
+- Invariant: heading `Classification`, panel label `Multiclass:`, one image
+  input, right-pointing arrow, and exactly the ordered categories `cat`,
+  `dog`, `car`.
+- Crop: `550x300+20+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `03-supervised-ml-05-multiclass-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; heading, label,
+  arrow, input, and category order checked; face, webcam, browser/Zoom
+  chrome, cursor, watermark, toolbar, and recording overlays absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

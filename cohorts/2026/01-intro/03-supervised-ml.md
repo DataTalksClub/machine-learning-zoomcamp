@@ -65,7 +65,7 @@ Classification has subclasses:
 - Binary classification: exactly two categories. Spam detection is binary - the target is 0 or 1, and g outputs a probability between 0 and 1. This is a special subtype, and it is very widely used in practice.
 - Multiclass classification: more than two categories. For example, classifying images into cats, dogs and cars. It can be ten categories, a thousand - as many as you need.
 
-![Multiclass classification: the output is one of several categories](images/03-supervised-ml-05-multiclass.jpg)
+![Multiclass classification: the output is one of several categories](images/03-supervised-ml-05-multiclass-imagegen-pilot.png)
 
 ### Ranking
 
