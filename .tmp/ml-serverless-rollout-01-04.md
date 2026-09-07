@@ -85,3 +85,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact JSON response and request URL text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; response JSON, deployed status, and URL parameter remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 02-aws-lambda-06-final-handler-code.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-06-final-handler-code-cropped.png`
+- **Teaching point:** the final Lambda handler reads `event['url']`, calls `predict(url)`, and returns the result.
+- **Source inspection:** 592×360; deterministic crop `+0+75 548×261` removes the browser strip, webcam tile, and black frame while retaining the exact code editor state.
+- **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact handler code and `Changes not deployed` state were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `event['url']`, `predict(url)`, and `return results` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
