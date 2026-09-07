@@ -35,3 +35,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and local endpoint text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `import requests` and the local `2015-03-31/Function` URL remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 05-docker-image-04-glibc-error.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-04-glibc-error-cropped.png`
+- **Teaching point:** the local container invocation fails because the installed TF-Lite runtime requires an unavailable GLIBC version.
+- **Source inspection:** 592×360; crop `+0+52 550×263` removes the webcam tile, editor tabs, and right-side black frame while retaining the Dockerfile context and terminal error.
+- **Method:** deterministic Lanczos upscale to 1100×526 with light sharpening; exact error text and visible Dockerfile lines were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the `GLIBC_2.27` failure and `python test.py` invocation remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The top Dockerfile line is partially clipped by the focused crop.

@@ -117,7 +117,7 @@ The first error says that the module `lambda_function` cannot be
 imported: the underlying TF-Lite library was compiled against a
 version of GLIBC that doesn't exist in the container:
 
-![The GLIBC error in the terminal: lib64/libm.so.6 version GLIBC_2.27 not found](images/05-docker-image-04-glibc-error.jpg)
+![The GLIBC error in the terminal: lib64/libm.so.6 version GLIBC_2.27 not found](images/05-docker-image-04-glibc-error-cropped.png)
 
 ```text
 Unable to import module 'lambda_function':
