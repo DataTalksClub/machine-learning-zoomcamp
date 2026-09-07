@@ -216,6 +216,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and `0.5157995641502978`. Final `1066x310` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-04-doors-rmse-cropped.png`.
 
+### Screenshot 05 — top car makes
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-05-top-makes.jpg`.
+- Caption/context: “The five most popular car makes: chevrolet, ford, volkswagen, toyota, dodge”; the next step uses these index values to build binary columns.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the exact ranked categories and counts justify selecting the top five makes.
+- Disposition: `crop/replace` via deterministic raster export; exact labels and counts are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x115+26+153`, with a small notebook-background patch over the text caret (`local x=305..312, y=4..20`), then 2× Lanczos resize and light unsharp masking. This removes the previous output fragment, browser/Zoom chrome, webcam tile, next heading, and recording frame.
+- Invariants/QA: preserve `df.make.value_counts().head().index`, `chevrolet 1123`, `ford 881`, `volkswagen 809`, `toyota 746`, `dodge 626`, and `Name: make, dtype: int64`. Final `1066x230` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-05-top-makes-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.

@@ -123,7 +123,7 @@ popular ones with `value_counts`:
 df.make.value_counts().head()
 ```
 
-![The five most popular car makes: chevrolet, ford, volkswagen, toyota, dodge](images/12-categorical-variables-05-top-makes.jpg)
+![The five most popular car makes: chevrolet, ford, volkswagen, toyota, dodge](images/12-categorical-variables-05-top-makes-cropped.png)
 
 The output shows the counts, and the names themselves are in the index, so we
 wrap it in a list:
