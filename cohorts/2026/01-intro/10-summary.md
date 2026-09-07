@@ -44,7 +44,7 @@ We also talked about the bigger picture: this g from X to y is only a part of th
 
 Then we talked in more detail about the modeling step and the process of selecting the best model. We take the entire dataset and split it into three parts. We use one part - the validation dataset - for finding the best model, and another part - the test dataset - to make sure we don't accidentally pick a model that got good results just by chance.
 
-![Model selection: splitting the dataset into train, validation and test parts](images/10-summary-06-model-selection-split.jpg)
+![Model selection: splitting the dataset into train, validation and test parts](images/10-summary-06-model-selection-split-imagegen-pilot.png)
 
 ## Setting up the Environment
 

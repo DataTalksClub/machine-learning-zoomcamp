@@ -199,3 +199,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: title `1.4 CRISP-DM`; six stages `Business Understanding`, `Data Understanding`, `Data Preparation`, `Modeling`, `Evaluation`, and `Deployment`; clockwise lifecycle order; central database labeled `Data`; inner feedback arrows; `Modeling` highlighted as the current stage
 - Output: `cohorts/2026/01-intro/images/10-summary-05-crisp-dm-bigger-picture-imagegen-pilot.png`
 - Validation: accepted after visual inspection; all six stage labels, lifecycle relationships, central data element, and directional arrows are preserved; handwritten annotation, face, camera tile, browser/recording chrome, cursor, and watermark are absent.
+
+### 06 — model selection split
+
+- Source: `cohorts/2026/01-intro/images/10-summary-06-model-selection-split.jpg`
+- Disposition: deterministic crop followed by built-in imagegen redraw
+- Crop: `560x300+15+30`; camera/cursor mask in crop: `490,0` to `559,30` and `495,270` to `559,299`
+- Invariants: title `1.5 Model Selection`; exact five-step list in order; dataset split into `train`, `validation`, and `test` parts corresponding to the first step
+- Output: `cohorts/2026/01-intro/images/10-summary-06-model-selection-split-imagegen-pilot.png`
+- Validation: accepted after visual inspection; title, numbered steps, wording, order, and train/validation/test relationship are preserved; handwriting, face, camera tile, browser/recording chrome, cursor, and watermark are absent.
