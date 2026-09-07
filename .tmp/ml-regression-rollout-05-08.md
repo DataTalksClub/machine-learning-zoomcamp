@@ -49,3 +49,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-05-implementation-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code and mathematical notation are the source of truth. An initial narrow crop clipped the right side of the annotated formula; the accepted `width=532` crop restores it.
 - QA: final `1064x440` PNG inspected visually; code, values, formula, and annotation remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 06
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-06-weights-interpretation.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the exact numeric prediction expression is source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `532x130+17+55` (`x=17, y=55, width=532, height=130`). This keeps the equation and removes the recording marker, webcam tile, right black bar, selected annotation box, bottom editor controls, and other blank canvas.
+- Invariants: preserve `7.17 + 453·0.01 + 11·0.04 + 86·0.002 =` exactly, including decimal points, multiplication dots, and the terminal equals sign.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-06-weights-interpretation-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because guessing numeric values would be unsafe; one deterministic crop was accepted after visual inspection.
+- QA: final `1064x260` PNG inspected visually; the full expression is crisp and readable with no face, camera tile, browser/Zoom chrome, cursor, watermark, selection box, editor controls, or black border. Markdown reference resolves and `git diff --check` passes before commit.

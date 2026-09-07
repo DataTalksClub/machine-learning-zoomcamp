@@ -131,7 +131,7 @@ linear_regression(xi)
 
 To make sense of this number, let's look at the parts it is made of:
 
-![The prediction as a sum: 7.17 + 453·0.01 + 11·0.04 + 86·0.002](images/05-linear-regression-simple-06-weights-interpretation.jpg)
+![The prediction as a sum: 7.17 + 453·0.01 + 11·0.04 + 86·0.002](images/05-linear-regression-simple-06-weights-interpretation-cropped.png)
 
 - We start with the bias term, 7.17. This is what we predict for an average
   car if we don't know anything about it.
