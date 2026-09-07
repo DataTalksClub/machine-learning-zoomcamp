@@ -95,7 +95,7 @@ del df_val['churn']
 del df_test['churn']
 ```
 
-![Taking the target out of the dataframes and into y vectors](images/03-validation-04-isolate-target.jpg)
+![Taking the target out of the dataframes and into y vectors](images/03-validation-04-isolate-target-cropped.png)
 
 This is a safety measure: we don't want to accidentally use the target
 as a feature when we train the model. Note that we keep `churn` inside

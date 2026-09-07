@@ -119,3 +119,13 @@
 - Invariants: the complete three-line cell remains `df_train = df_train.reset_index(drop=True)`, `df_val = df_val.reset_index(drop=True)`, and `df_test = df_test.reset_index(drop=True)`; line order and `drop=True` arguments are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/03-validation-03-reset-index-cropped.png` (550×52 PNG).
 - QA: accepted after `view_image` inspection at lesson size; all three commands and their ordering checked against the original; capture framing, unrelated active-cell content, and caret are absent; Markdown reference resolves.
+
+## 13 — validation: isolating the target
+
+- Source: `cohorts/2026/03-classification/images/03-validation-04-isolate-target.jpg` (598×360 JPEG).
+- Context/caption: “Taking the target out of the dataframes and into y vectors.” This image teaches extracting `churn` into the three target arrays before deleting the target column from each split dataframe.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook commands and exact `churn` references are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, and right capture edge while retaining the reset context, target-extraction cell, delete cell, and visible `3.4 EDA` context. The source’s lower-edge truncation is retained rather than inventing content beyond the capture.
+- Invariants: target cell remains `y_train = df_train.churn.values`, `y_val = df_val.churn.values`, and `y_test = df_test.churn.values`; delete cell remains `del df_train['churn']`, `del df_val['churn']`, and `del df_test['churn']`; line order, dataframe names, `churn`, and `.values` are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/03-validation-04-isolate-target-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size and zoomed code-cell inspection; all six exact commands and their order checked against the source, capture framing removed, and Markdown reference resolves.
