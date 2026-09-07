@@ -297,6 +297,30 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   watermark, or unrelated overlay remains. Markdown reference resolves and
   `git diff --check` passes before commit.
 
+## 08 — XGBoost parameter tuning, screenshot 02
+
+- Source: `cohorts/2026/06-trees/images/08-xgb-tuning-02-tuning-eta.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the five exact
+  validation-AUC curves, legend values, axes, and numeric ticks are fidelity-
+  sensitive plot content, so imagegen was not used.
+- Crop coordinates: source `768x576`; `680x500+35+35` (`x=35, y=35,
+  width=680, height=500`). This keeps the complete plot, axes, legend, and
+  x-axis labels while removing excess screenshot margin.
+- Invariants: preserve legend entries `eta=0.3`, `eta=1.0`, `eta=0.1`,
+  `eta=0.05`, and `eta=0.01`; their colors and curve geometry; the
+  `0.800`–`0.840` y-axis scale; and the `0`–`200` boosting-round x-axis.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling
+  `cohorts/2026/06-trees/images/08-xgb-tuning-02-tuning-eta-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  exact plot geometry and values must not be guessed. One crop was accepted
+  after visual review.
+- QA: final `1360x1000` PNG inspected visually; all five curves, axes, tick
+  labels, and legend entries are crisp, with no face, camera tile,
+  browser/Zoom chrome, cursor, watermark, or overlay. Markdown reference
+  resolves and `git diff --check` passes before commit.
+
 ## 07 — gradient boosting and XGBoost, screenshot 01
 
 - Source: `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest.jpg`.

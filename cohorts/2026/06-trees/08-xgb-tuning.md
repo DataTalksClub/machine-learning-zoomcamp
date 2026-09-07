@@ -78,7 +78,7 @@ plt.ylim(0.8, 0.84)
 plt.legend()
 ```
 
-![Comparing validation AUC for eta of 0.3, 1.0, 0.1, 0.05 and 0.01: eta=0.1 reaches the top and stays stable, while eta=1.0 falls below the zoom window](images/08-xgb-tuning-02-tuning-eta.jpg)
+![Comparing validation AUC for eta of 0.3, 1.0, 0.1, 0.05 and 0.01: eta=0.1 reaches the top and stays stable, while eta=1.0 falls below the zoom window](images/08-xgb-tuning-02-tuning-eta-cropped.png)
 
 The learning rate controls how fast the model learns. With `eta=1.0` the
 model takes the full correction from each new tree and quickly saturates -
