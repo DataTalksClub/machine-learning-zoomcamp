@@ -37,3 +37,14 @@
 - Path: built-in imagegen, `scientific-educational`; imagegen skill available and read
 - Invariants: candidate rows `LR / 66%`, `DT / 60%`, `RF / 67%`, selected `NN / 80%`, and final `TEST` check; selected row and arrow relationship
 - Validation: accepted on the second generation after rejecting a faint handwritten artifact in the first table cell; final is crisp with exact labels/values, no scribbles, face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, black border, clipped content, or extra metric
+
+## 06-environment
+
+### 01 — create-repo
+
+- Source: `cohorts/2026/01-intro/images/06-environment-01-create-repo.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-01-create-repo-cropped.png`
+- Crop: `500×314+0+46` (removes browser chrome and the webcam tile while retaining the GitHub repository form)
+- Path: deterministic lossless PNG crop; imagegen not used because exact UI text and controls are the source of truth
+- Invariants: GitHub `New repository` / `Create a new repository`; `No template`; `Owner`; `Repository name`; repository-form context
+- Validation: passed visual review; exact UI text remains readable; no face, camera tile, browser tab/address chrome, cursor, watermark, recording overlay, or black border

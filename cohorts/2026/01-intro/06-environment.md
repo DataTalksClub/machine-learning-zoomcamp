@@ -20,7 +20,7 @@ GitHub Codespaces gives you a remote environment with almost everything we need 
 
 First, create a new repository on GitHub - for example, a repository where you will put your homework. Add a README file, make it public, and choose Python as the .gitignore template.
 
-![Creating a new repository on GitHub](images/06-environment-01-create-repo.jpg)
+![Creating a new repository on GitHub](images/06-environment-01-create-repo-cropped.png)
 
 Then open the Code dropdown, switch to the Codespaces tab, and click "Create codespace on main". GitHub creates a Visual Studio Code instance for you in the browser.
 
