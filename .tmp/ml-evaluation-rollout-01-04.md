@@ -215,3 +215,12 @@
 - Invariants: `4.4. PRECISION & RECALL`, `PRECISION`, the red/blue definition text, the oval `PREDICT` illustration, the internal divider, and the `PREDICT` arrow remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-01-precision-definition-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact handwritten labels and the oval remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `468×340` output renders cleanly.
+
+## 04.02 — precision notebook
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-02-precision-notebook.jpg`
+- Disposition: accepted deterministic crop; exact notebook code, outputs, and section headings were retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black strip with no post-crop content edits.
+- Invariants: the visible normalized confusion output, `4.4 Precision and Recall`, `(tp + tn) / (tp + tn + fp + fn)`, output `0.8034066713981547`, `p = tp / (tp + fp)`, output `0.6752411575562701`, `tp + fp`, output `311`, and `4.5 ROC Curves` remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-02-precision-notebook-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact code, numeric outputs, and headings remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, recording control, overlay, or black strip remains; `577×292` output renders cleanly.

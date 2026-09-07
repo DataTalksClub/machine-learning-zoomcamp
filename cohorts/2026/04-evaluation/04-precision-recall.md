@@ -27,7 +27,7 @@ p
 
 This gives `0.6752411575562701` - precision of about 67%.
 
-![Computing precision in the notebook: 210 correct out of 311 positive predictions](images/04-precision-recall-02-precision-notebook.jpg)
+![Computing precision in the notebook: 210 correct out of 311 positive predictions](images/04-precision-recall-02-precision-notebook-cropped.jpg)
 
 In the terms of the churn problem: we send a retention email to everyone predicted to churn. That is 210 + 101 = 311 people, but only 210 of them (the true positives) were actually going to leave. The other 101 - about a third of all emails - go to customers who were never at risk, and the discount we send them is wasted.
 
