@@ -24,3 +24,10 @@ use the built-in imagegen workflow after source inspection.
   `(15,190,300,100)`, 2× Lanczos resize and light unsharp; preserved the
   `predict_proba` matrix and removed the handwritten “SOFT PREDICTIONS”
   annotation and camera tile.
+
+- `10-training-log-reg-04-churn-decision.jpg` →
+  `10-training-log-reg-04-churn-decision-cropped.png` — deterministic crop
+  `(15,160,505,110)`, with a pixel-level repair restoring the selected
+  `True` glyph from the adjacent unselected output, then 2× Lanczos resize
+  and light unsharp; preserved `y_pred >= 0.5` and the exact boolean output,
+  removed the camera tile and selection highlight.

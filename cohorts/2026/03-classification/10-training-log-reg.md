@@ -87,7 +87,7 @@ more, we predict that the customer will churn:
 churn_decision = (y_pred >= 0.5)
 ```
 
-![Applying the 0.5 threshold: the comparison produces a boolean array with the final churn decision for each customer](images/10-training-log-reg-04-churn-decision.jpg)
+![Applying the 0.5 threshold: the comparison produces a boolean array with the final churn decision for each customer](images/10-training-log-reg-04-churn-decision-cropped.png)
 
 The result is a boolean array. We can use it to select the customers
 the model thinks will churn - for example, the ones who should receive
