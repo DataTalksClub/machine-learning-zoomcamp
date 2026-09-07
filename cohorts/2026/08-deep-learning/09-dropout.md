@@ -166,7 +166,7 @@ plt.plot(hist['val_accuracy'], label=0.2)
 plt.legend()
 ```
 
-![Dropout 0.0: the training accuracy quickly reaches 100% while validation stays around 0.84](images/09-dropout-08-no-regularization-overfit.jpg)
+![Dropout 0.0: the training accuracy quickly reaches 100% while validation stays around 0.84](images/09-dropout-08-no-regularization-overfit-cropped.png)
 
 In the end, `droprate=0.2` is the choice: it's not too large, the
 performance is reasonably good, and unlike plain 0.0 it actually
