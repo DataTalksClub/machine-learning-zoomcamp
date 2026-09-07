@@ -277,7 +277,7 @@ import tensorflow.lite as tflite
 The TF-Lite website has a Python quickstart guide, and there we find a
 separate package with just the inference part - the TF-Lite runtime:
 
-![The TensorFlow Lite website: installing tflite-runtime with pip](images/03-tensorflow-lite-08-tflite-runtime-install.jpg)
+![The TensorFlow Lite website: installing tflite-runtime with pip](images/03-tensorflow-lite-08-tflite-runtime-install-cropped.png)
 
 ```python
 import tflite_runtime.interpreter as tflite

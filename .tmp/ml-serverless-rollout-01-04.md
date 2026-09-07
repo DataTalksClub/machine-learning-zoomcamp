@@ -184,3 +184,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact package name, target size, and URL were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; install success, `create_preprocessor('xception', target_size=(299, 299))`, and `from_url` usage remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-08-tflite-runtime-install.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-08-tflite-runtime-install-cropped.png`
+- **Teaching point:** the TensorFlow Lite guide shows installation of `tflite-runtime` and the separate runtime inference path.
+- **Source inspection:** 592×360; deterministic crop `+0+30 500×306` removes browser chrome, webcam tile, and right-side black frame while retaining the guide heading, install command, and warning.
+- **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact command and page text were preserved. The native command selection highlight remains because removing it safely would alter the exact website capture.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `Install TensorFlow Lite for Python`, the `tflite-runtime` pip command, and inference heading remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
