@@ -71,7 +71,7 @@ Then we take the average of the squared errors:
 (1 + 0 + 0.25 + 2.25) / 4 = 0.875
 ```
 
-![Squaring the differences and taking the mean](images/09-rmse-04-squared-errors-mean.jpg)
+![Squaring the differences and taking the mean](images/09-rmse-04-squared-errors-mean-cropped.png)
 
 This is the mean squared error, MSE. For our example, the mean squared
 error is 0.875:

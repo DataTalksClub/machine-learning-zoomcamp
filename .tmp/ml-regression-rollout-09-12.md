@@ -41,3 +41,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `525x343+23+0`, then a deterministic blank-board mask over only the webcam rectangle (`local x=482..524, y=0..70`), 2× Lanczos resize, and light unsharp masking. The wider crop is needed to keep the final `-1.5` cell complete.
 - Invariants/QA: preserve the formula, both input rows, the error row `1, 0, 0.5, …, -1.5`, and row alignment. Final `1050x686` PNG inspected; the mask touches only blank board behind the camera, and no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border remains. Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/09-rmse-03-differences-cropped.png`.
+
+### Screenshot 04 — squared errors and mean
+
+- Source: `cohorts/2026/02-regression/images/09-rmse-04-squared-errors-mean.jpg`.
+- Caption/context: “Squaring the differences and taking the mean”; the prose explains why squaring avoids cancellation and then calculates MSE as `0.875`.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the visual calculation shows both the squared-error values and their mean in one step.
+- Disposition: `crop/replace` via deterministic raster export; the handwritten arithmetic is exact source content, so imagegen was not used.
+- Crop: source `598x360`; `525x290+23+0`, with the webcam area replaced only over blank board (`local x=482..524, y=0..70`), then 2× Lanczos resize and light unsharp masking. The crop also removes the partial next-step square-root fragment at the source bottom.
+- Invariants/QA: preserve `1, 0, 0.25, 2.25`, `(1+0+0.25+2.25)/4`, `= 0.875`, and the `SQUARED ERROR` / `MEAN SE` annotations. Final `1050x580` PNG inspected; no face, camera tile, browser/Zoom chrome, cursor, watermark, black border, or partial next-step fragment remains. Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/09-rmse-04-squared-errors-mean-cropped.png`.
