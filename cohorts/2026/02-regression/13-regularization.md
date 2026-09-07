@@ -80,7 +80,7 @@ features turn out to be very large numbers too. The weight for the unique first
 feature is fine - 0.62 - but for the second and third features we get something
 like 3.4 million and -3.4 million.
 
-![The weights for the duplicated features are millions apart](images/13-regularization-04-huge-weights.jpg)
+![The weights for the duplicated features are millions apart](images/13-regularization-04-huge-weights-cropped.png)
 
 So whenever we have duplicates - or near-duplicates - in our feature matrix, we
 get this problem.
