@@ -114,7 +114,7 @@ The model improved, and it is quite an improvement - the RMSE went down from
 0.5172055461058291
 ```
 
-![The RMSE dropped from 0.76 to 0.51 with the age feature](images/11-feature-engineering-06-rmse-improvement.jpg)
+![The RMSE dropped from 0.76 to 0.51 with the age feature](images/11-feature-engineering-06-rmse-improvement-cropped.png)
 
 We can see that it is a big improvement by doing the same thing as previously:
 plotting the predicted values and the actual values on the same histogram. Note

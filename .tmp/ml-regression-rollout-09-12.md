@@ -163,3 +163,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x175+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the complete `prepare_X` implementation with `df.copy()` and removes browser/Zoom chrome, webcam tile, headings, incomplete output, and recording frame.
 - Invariants/QA: preserve `df = df.copy()`, age creation, feature selection, `fillna(0)`, `.values`, and `return X`; no clipped output is presented as evidence. Final `1066x350` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-05-dataframe-copy-cropped.png`.
+
+### Screenshot 06 — RMSE improvement
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-06-rmse-improvement.jpg`.
+- Caption/context: “The RMSE dropped from 0.76 to 0.51 with the age feature”; the section compares the new validation result with the baseline.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the exact validation code and measured `0.5172055461058291` output provide evidence of the improvement.
+- Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x145+26+190`, then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, preceding code, headings, and recording frame while retaining the complete validation cell and result.
+- Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and exact output `0.5172055461058291`. The source's small native selection highlight over the leading digits remains because removing it would damage the exact output; it is recorded as a limitation. Final `1066x290` PNG otherwise has no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-06-rmse-improvement-cropped.png`.
