@@ -179,3 +179,13 @@
 - Invariants: all 16 labels remain verbatim and in source order: `gender`, `seniorcitizen`, `partner`, `dependents`, `phoneservice`, `multiplelines`, `internetservice`, `onlinesecurity`, `onlinebackup`, `deviceprotection`, `techsupport`, `streamingtv`, `streamingmovies`, `contract`, `paperlessbilling`, and `paymentmethod`; punctuation, line wrapping, and syntax coloring remain; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated cell, or black capture bar.
 - Final: `cohorts/2026/03-classification/images/04-eda-05-categorical-variables-cropped.png` (550×82 PNG).
 - QA: accepted after `view_image` inspection at lesson size; all 16 labels, order, and list syntax checked against the source, unrelated capture content removed, and Markdown reference resolves.
+
+## 19 — risk: churn rate by gender
+
+- Source: `cohorts/2026/03-classification/images/05-risk-01-churn-rate-gender.jpg` (598×360 JPEG).
+- Context/caption: “Computing the churn rate for each gender and the global churn rate.” This image teaches comparing the female and male churn rates with the global churn rate; the differences are small.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook code and exact churn-rate values are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×294+26+66` removes the browser/notebook header, horizontal scrollbar, webcam tile, left capture margin, and right capture edge while retaining the three churn-rate cells and the following `Risk ratio` heading.
+- Invariants: visible code remains the female, male, and global churn calculations; outputs remain `0.27682403433476394`, `0.2632135306553911`, and `0.26996805111821087`; cell order and notebook hierarchy remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/05-risk-01-churn-rate-gender-cropped.png` (550×294 PNG).
+- QA: accepted after `view_image` inspection at lesson size; code, exact values, ordering, and retained `Risk ratio` context checked against the source; capture framing is absent and the Markdown reference resolves.

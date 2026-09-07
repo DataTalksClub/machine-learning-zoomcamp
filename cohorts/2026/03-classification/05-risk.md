@@ -36,7 +36,7 @@ churn_female = 0.27682403433476394
 churn_male   = 0.2632135306553911
 ```
 
-![Computing the churn rate for each gender and the global churn rate](images/05-risk-01-churn-rate-gender.jpg)
+![Computing the churn rate for each gender and the global churn rate](images/05-risk-01-churn-rate-gender-cropped.png)
 
 The global churn rate is 0.27, women churn at 0.2768 and men at
 0.2632. The differences are tiny. We compute them explicitly as the
