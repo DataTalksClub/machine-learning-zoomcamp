@@ -145,7 +145,7 @@ When comes to a prediction of an LR model, each falls into one of four different
   </tr>
 </table>
 
-![confusion_matrix.png](images/confusion_matrix.png)
+![confusion_matrix.png](images/confusion_matrix-cropped.png)
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations.
 

@@ -197,3 +197,12 @@
 - Invariants: `PREDICTIONS`, `ACTUAL`, the negative/positive row and column labels, `TN 922`, `FP 101`, `FN 176`, `TP 210`, visible cell percentages `65%`, `8%`, `12%`, and `15%`, condition annotations, and `ACCURACY=80%=65%+15%` remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-07-accuracy-from-table-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact table structure, labels, counts, percentages, arrows, and accuracy equation remain legible, and no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black frame bar remains; `522×340` output renders cleanly.
+
+## 08 — confusion matrix reference diagram
+
+- Source: `cohorts/2026/04-evaluation/images/confusion_matrix.png`
+- Disposition: accepted deterministic full-frame native PNG re-export with metadata stripped; exact diagram labels and geometry retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=0, width=1380, height=562` from the 1380×562 source; full frame retained because no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar is present.
+- Invariants: `XY`, both outgoing arrows, `True/False Prediction status`, `Positive/Negative Predict Label`, `Predict Positive`, `Predict Negative`, `Actual Positive`, `Actual Negative`, `TP`, `FN`, `FP`, `TN`, the diagonal true/false prediction lines, and `False Prediction`/`True Prediction` remain unchanged in their original positions.
+- Final path: `cohorts/2026/04-evaluation/images/confusion_matrix-cropped.png`
+- QA: accepted after `view_image` inspection; exact labels, colors, cell geometry, arrows, and diagonal relationships remain crisp and readable; no non-teaching frame artifacts are present; `1380×562` output renders cleanly.
