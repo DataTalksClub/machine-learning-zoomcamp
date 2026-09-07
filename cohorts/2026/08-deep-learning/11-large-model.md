@@ -133,7 +133,7 @@ learning rate went down from 0.001 to 0.0005, because with 0.001 the
 validation score was too jumpy. The final parameters: inner size 100,
 droprate 0.2, and 50 epochs:
 
-![The first run: one step now takes about 700ms instead of 150ms, and validation accuracy is already 0.85 after the first epoch](images/11-large-model-04-first-run-step-time.jpg)
+![The first run: one step now takes about 700ms instead of 150ms, and validation accuracy is already 0.85 after the first epoch](images/11-large-model-04-first-run-step-time-cropped.png)
 
 ```python
 learning_rate = 0.0005
