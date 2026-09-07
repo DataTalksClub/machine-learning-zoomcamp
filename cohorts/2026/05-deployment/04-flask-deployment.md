@@ -110,7 +110,7 @@ body. Running the script prints:
 not sending promo email to xyz-123
 ```
 
-![Sending a test request with the requests library](images/04-flask-deployment-04-test-request.jpg)
+![Sending a test request with the requests library](images/04-flask-deployment-04-test-request-cropped.jpg)
 
 This is exactly how a marketing service would talk to our model: send
 customer data as JSON, get the churn decision back, act on it.
