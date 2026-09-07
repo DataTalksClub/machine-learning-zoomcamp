@@ -27,3 +27,9 @@ Rules applied: preserve originals; remove webcam/recording chrome; use imagegen 
 - `08-summary.md` — `08-summary-01-module-plan.jpg` → `08-summary-01-module-plan-cropped.png`: deterministic crop/upscale/sharpen of the exact Pipenv/Docker lesson-plan section; source text preserved and webcam/editor chrome removed.
 - `08-summary.md` — `08-summary-02-module-plan-continued.jpg` → `08-summary-02-module-plan-continued-cropped.png`: deterministic crop/upscale/sharpen of the exact Docker/AWS lesson-plan continuation; source text preserved and webcam/editor chrome removed.
 - `08-summary.md` — `08-summary-03-summary-list.jpg` → `08-summary-03-summary-list-cropped.png`: deterministic crop/upscale/sharpen of the exact summary-list lesson-plan lines; source text preserved and webcam/editor chrome removed.
+
+## Limitations
+
+- Imagegen assets preserve the lesson concepts and required labels, but are polished semantic regenerations rather than pixel-identical copies of the handwritten source.
+- Deterministic assets preserve exact technical text, values, URLs, and native selection highlights; a few long terminal lines remain truncated where the original viewport was truncated.
+- All original `.jpg` sources remain beside the regenerated/cropped siblings.
