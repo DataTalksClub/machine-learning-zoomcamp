@@ -197,7 +197,7 @@ about the two classes - ok and default - we remove this row:
 df = df[df.status != 'unk'].reset_index(drop=True)
 ```
 
-![Filtering out the one customer with unknown status](images/02-data-prep-05-remove-unknown-status.jpg)
+![Filtering out the one customer with unknown status](images/02-data-prep-05-remove-unknown-status-cropped.png)
 
 This leaves 4454 rows.
 
