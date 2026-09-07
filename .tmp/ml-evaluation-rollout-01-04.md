@@ -269,3 +269,12 @@
 - Invariants: `PRECISION`, `67%`, red `33%`, `210/311`, `RECALL`, `54%`, red `46%` and `FAILED TO IDENTIFY`, `210/386`, and `ACCURACY 80%` remain unchanged and in their original layout.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-07-metrics-summary-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact percentages, fractions, labels, and error annotations remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `440×330` output renders cleanly.
+
+## 04.08 — classification metrics diagram
+
+- Source: `cohorts/2026/04-evaluation/images/classification_metrics.png`
+- Disposition: accepted deterministic full-frame native PNG re-export; the source is already a clean exact diagram, so imagegen was not used.
+- Crop coordinates: `x=0, y=0, width=1134, height=620` from the 1134×620 source; full frame retained and metadata stripped with no geometric crop or content edit.
+- Invariants: `Predict Positive`, `Predict Negative`, `Actual Positive`, `Actual Negative`, the `TP`/`FN`/`FP`/`TN` cells, both arrows, the recall formula, the precision formula, the accuracy formula, and all cell colors and geometry remain unchanged. Pixel comparison reports absolute error `0`.
+- Final path: `cohorts/2026/04-evaluation/images/classification_metrics-cropped.png`
+- QA: accepted after `view_image` inspection and pixel comparison; all exact labels, formulas, arrows, colors, and cell geometry remain crisp and readable, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar is present; `1134×620` output renders cleanly.
