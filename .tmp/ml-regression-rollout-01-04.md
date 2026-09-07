@@ -197,3 +197,12 @@
 - Invariants: preserve the exact handwritten labels `TRAIN`, `VAL`, `TEST`, the three partition boxes, arrow directions, and the paired `X_train/y_train`, `X_val/y_val`, and `X_test/y_test` notation and layout.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-01-train-val-test-split-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact labels, partition ordering, arrows, and X/y relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `505x306`; lesson reference resolves.
+
+## 23 — split sizes
+
+- Disposition: `keep` via deterministic crop/export; the image teaches the notebook calculation of the validation and test sizes and the remainder assigned to training.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-02-split-sizes.jpg`; caption: “Calculating the sizes of the three parts”; context: the lesson introduces the 60/20/20 split, explains integer rounding, and shows the notebook result after the size calculation.
+- Crop coordinates: source `598x360`; `577x209+0+66` (`x=0, y=66, width=577, height=209`). The crop removes the browser/notebook toolbar, webcam tile, earlier output fragment, following blank cell, and right black bar while retaining the validation-framework heading, code, and output.
+- Invariants: preserve the exact visible heading, `n = len(df)`, the `n_val`, `n_test`, and `n_train` assignments, the follow-up expression `n, n_val + n_test + n_train`, and the output `(11914, 11914)` in the original order and notebook styling.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-02-split-sizes-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact code, output, ordering, and notebook layout preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x209`; lesson reference resolves.

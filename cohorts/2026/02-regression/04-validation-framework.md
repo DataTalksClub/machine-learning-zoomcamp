@@ -56,7 +56,7 @@ n, n_val, n_test, n_train
 (11914, 2382, 2382, 7150)
 ```
 
-![Calculating the sizes of the three parts](images/04-validation-framework-02-split-sizes.jpg)
+![Calculating the sizes of the three parts](images/04-validation-framework-02-split-sizes-cropped.jpg)
 
 ## Taking a part of the dataframe with iloc
 
