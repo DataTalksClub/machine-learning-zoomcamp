@@ -197,7 +197,7 @@ Something went wrong. If we look at the weights that our
 around 10 to the power of 15. We wanted to improve our model by adding more
 variables, but we just made it worse.
 
-![The RMSE of 41.45 and the huge weights of the model](images/12-categorical-variables-08-broken-weights.jpg)
+![The RMSE of 41.45 and the huge weights of the model](images/12-categorical-variables-08-broken-weights-cropped.png)
 
 In the [next unit](13-regularization.md) we will see why that happened and how
 to fix it.

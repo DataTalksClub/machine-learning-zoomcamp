@@ -246,6 +246,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve both loops, `df['%s_%s' % (c, v)]`, `astype('int')`, `features.append`, `df_num`, `fillna(0)`, `.values`, and `return X`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped code; Markdown reference resolves and `git diff --check` passes.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-07-prepare-x-all-categories-cropped.png`.
 
+### Screenshot 08 — broken weights
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-08-broken-weights.jpg`.
+- Caption/context: “The RMSE of 41.45 and the huge weights of the model”; the section uses this failure result to motivate regularization.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the exact `41.45414769975256` score and repeated `10^15`-scale weights are evidence of the failure, not merely code.
+- Disposition: `crop/replace` via deterministic raster export; exact numeric output is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x260+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the validation result and complete visible weight array while removing browser/Zoom chrome, webcam tile, heading, and recording frame.
+- Invariants/QA: preserve `rmse(y_val, y_pred)`, `41.45414769975256`, the `w` label, all visible scientific-notation weights, and their order. Final `1066x520` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-08-broken-weights-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.
