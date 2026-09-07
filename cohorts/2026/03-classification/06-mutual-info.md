@@ -120,7 +120,7 @@ gender              0.000117
 dtype: float64
 ```
 
-![All categorical variables ranked by mutual information with churn](images/06-mutual-info-04-sorted-importance.jpg)
+![All categorical variables ranked by mutual information with churn](images/06-mutual-info-04-sorted-importance-cropped.png)
 
 The result puts everything on one scale. Contract is the most
 important categorical variable, followed by `onlinesecurity` and
