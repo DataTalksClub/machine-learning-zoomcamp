@@ -119,7 +119,7 @@ This gives `0.7260468417317246` - 73%.
 
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
 
-![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints.jpg)
+![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints-cropped.jpg)
 
 ## Why accuracy fails here: class imbalance
 

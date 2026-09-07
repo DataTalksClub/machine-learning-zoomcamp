@@ -116,3 +116,12 @@
 - Invariants: `Counter(y_pred >= 1.0)` with `Counter({False: 1409})`, `1 - y_val.mean()`, exact output `0.7260468417317246`, the `4.3 Confusion table` heading and bullets, and the `4.4 Precision and Recall` heading remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-06-dummy-accuracy-cropped.jpg`
 - QA: accepted after visual inspection; exact code, outputs, headings, and bullets remain legible; the cursor is absent; no face, camera tile, browser/Zoom chrome, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
+## 07 — threshold endpoint annotations
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-07-thresholds-endpoints.jpg`
+- Disposition: accepted deterministic crop; exact notebook plot, output, and hand-drawn teaching annotations are retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar.
+- Invariants: `plt.plot(thresholds, scores)`, the visible `Line2D` output, the accuracy curve and axes, the blue hand-drawn circles at the threshold `0` and `1` endpoints, the blue vertical marker at `1`, and the `4.3 Confusion table` heading remain unchanged. The hand-drawn marks are instructional content and were preserved.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-07-thresholds-endpoints-cropped.jpg`
+- QA: accepted after visual inspection; the curve, endpoint marks, axes, exact code, and output remain legible; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
