@@ -143,3 +143,12 @@
 - Invariants: `4.3 CONFUSION TABLE`, `g(x_i)`, the `< t`/`≥ t` branches, `NEGATIVE`, `POSITIVE`, `NO CHURN`, `CHURN`, the four customer boxes, and `TRUE NEGATIVE`, `FALSE NEGATIVE`, `FALSE POSITIVE`, and `TRUE POSITIVE` remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-01-four-outcomes-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact handwritten labels, arrows, boxes, and the green mail icon remain legible; no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black bar remains; `518×360` output renders cleanly.
+
+## 02 — prediction conditions notebook
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-02-prediction-conditions.jpg`
+- Disposition: accepted deterministic crop; exact notebook code, threshold, array values, and teaching annotation retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=54, width=577, height=306` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black strip with no post-crop content edits.
+- Invariants: `actual_positive = (y_val == 1)`, `actual_negative = (y_val == 0)`, `t = 0.5`, `predict_positive = (y_pred >= t)`, `predict_negative = (y_pred < t)`, both sample arrays, the handwritten `TRUE`/`FALSE` grouping, and the final `predict_positive & actual_positive` output remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-02-prediction-conditions-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact code, values, and annotation remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.

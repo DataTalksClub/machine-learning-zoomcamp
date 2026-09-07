@@ -36,7 +36,7 @@ predict_positive = (y_pred >= t)
 predict_negative = (y_pred < t)
 ```
 
-![Defining the actual classes and the positive/negative predictions at threshold 0.5](images/03-confusion-table-02-prediction-conditions.jpg)
+![Defining the actual classes and the positive/negative predictions at threshold 0.5](images/03-confusion-table-02-prediction-conditions-cropped.jpg)
 
 Each cell is the number of customers where the two conditions hold at the same time. The `&` operator is the element-wise logical AND:
 
