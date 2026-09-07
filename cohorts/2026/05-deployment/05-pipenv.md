@@ -81,7 +81,7 @@ It also creates two files in the project directory:
 It is the lock file that makes deployments predictable: "works on my machine"
 stops being a mystery, because the server installs precisely what we tested.
 
-![Installing the dependencies: Pipfile updated, Pipfile.lock created](images/05-pipenv-05-pipenv-install-lock.jpg)
+![Installing the dependencies: Pipfile updated, Pipfile.lock created](images/05-pipenv-05-pipenv-install-lock-cropped.png)
 
 ## Running things with Pipenv
 
