@@ -14,3 +14,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   accepted correction removed an incorrect generated sign; checked labels
   `BANK`, `MONEY`, `YES / NO`, client-to-bank and bank-to-client arrows, and
   absence of people/camera/recording overlays.
+- `01-credit-risk-02-historical-data.jpg` →
+  `01-credit-risk-02-historical-data-imagegen.png`: imagegen regeneration.
+  Source crop `(x=25, y=0, width=455, height=330)` removed the black frame,
+  webcam tile, recorder controls, and color wheel. Checked five rows and exact
+  outcome order `OK`, `OK`, `DEFAULT`, `DEFAULT`, `OK`; no extra rows or
+  overlays remain.

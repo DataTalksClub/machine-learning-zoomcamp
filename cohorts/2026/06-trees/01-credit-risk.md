@@ -29,7 +29,7 @@ default? For example:
 - Customer D - DEFAULT
 - Customer E - OK
 
-![Historical data: customers and whether they paid back](images/01-credit-risk-02-historical-data.jpg)
+![Historical data: customers and whether they paid back](images/01-credit-risk-02-historical-data-imagegen.png)
 
 We use this data to train a model. Then, when a new customer applies
 for a loan, the model looks at their information and predicts the risk
