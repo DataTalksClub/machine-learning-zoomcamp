@@ -99,3 +99,10 @@ use the built-in imagegen workflow after source inspection.
   training-data encoding and `LogisticRegression.fit` cells, removed the
   camera tile and notebook frame. The source's long first code line remains
   clipped at its right edge.
+
+- `12-using-log-reg-02-test-accuracy.jpg` →
+  `12-using-log-reg-02-test-accuracy-cropped.png` — deterministic crop
+  `(15,82,583,220)`, 2× Lanczos resize and light unsharp; preserved the test
+  encoding, prediction, threshold, comparison, and exact
+  `0.815471965933286` accuracy while removing the camera tile and notebook
+  frame.

@@ -54,7 +54,7 @@ churn_decision = (y_pred >= 0.5)
 0.815471965933286
 ```
 
-![Checking the final model on the test set: encode, predict, apply the threshold, and compare with the actual labels](images/12-using-log-reg-02-test-accuracy.jpg)
+![Checking the final model on the test set: encode, predict, apply the threshold, and compare with the actual labels](images/12-using-log-reg-02-test-accuracy-cropped.png)
 
 Accuracy on the test set is about 81.5%. On validation we had 80.3%.
 The two numbers are close, which is what we want to see: the model
