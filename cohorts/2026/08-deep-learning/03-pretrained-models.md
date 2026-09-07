@@ -90,7 +90,7 @@ that was pre-trained on ImageNet. The input to this model is 299x299x3
 The first time you run this, it downloads the model from the internet
 and unpacks it, so it takes some time:
 
-![Creating the Xception model downloads the pre-trained weights](images/03-pretrained-models-05-xception-weights-download.jpg)
+![Creating the Xception model downloads the pre-trained weights](images/03-pretrained-models-05-xception-weights-download-cropped.png)
 
 Now we want to use this model to classify the image of the t-shirt.
 The model doesn't expect just one image - it expects a bunch of
