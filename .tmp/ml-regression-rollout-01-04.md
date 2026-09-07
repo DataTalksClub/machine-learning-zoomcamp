@@ -26,3 +26,12 @@
 - Invariants: preserve the Kaggle left navigation, `data.csv` explorer, Detail/Compact/Column tabs, “About this file”, feature-column headers and distributions, visible car rows, and the Summary showing 16 columns.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-03-kaggle-data-explorer-cropped.jpg`.
 - QA: source and candidate crops inspected visually; exact UI, labels, row values, and column relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `576x283`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 04 — MSRP column
+
+- Disposition: `crop/replace` via deterministic crop/export; the image teaches that `MSRP` is the target price column in the car dataset.
+- Source/context: `cohorts/2026/02-regression/images/01-car-price-intro-04-msrp-column.jpg`; caption: “The MSRP column contains the price of each car”.
+- Crop coordinates: source `598x360`; `576x283+0+58` (`x=0, y=58, width=576, height=283`). The crop removes browser chrome, the webcam tile/face, the right black bar, and the bottom recording strip.
+- Invariants: preserve the Kaggle Data Explorer, `data.csv (1.41 MB)`, visible feature headers and rows, the rightmost `MSRP` column, and its exact visible numeric prices.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-04-msrp-column-cropped.jpg`.
+- QA: source and candidate crop inspected visually; exact UI, `MSRP` values, headers, and row relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `576x283`; lesson reference resolves; `git diff --check` passes before commit.

@@ -36,7 +36,7 @@ This is exactly what we want to predict. The plan is to use all the other
 features — the make, the model, the year, the engine and so on — to predict
 this price.
 
-![The MSRP column contains the price of each car](images/01-car-price-intro-04-msrp-column.jpg)
+![The MSRP column contains the price of each car](images/01-car-price-intro-04-msrp-column-cropped.jpg)
 
 ## The project plan
 
