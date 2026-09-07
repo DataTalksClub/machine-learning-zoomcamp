@@ -188,3 +188,12 @@
 - Invariants: the `confusion_matrix` array with `922`, `101`, `176`, and `210`, the division by `confusion_matrix.sum()`, exact output values `0.6543648`, `0.07168204`, `0.12491128`, and `0.14904187`, plus the `4.4 Precision and Recall` and `4.5 ROC Curves` headings remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-06-normalized-confusion-matrix-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact code, numeric values, matrix context, and headings remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
+
+## 07 — accuracy from confusion table whiteboard
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-07-accuracy-from-table.jpg`
+- Disposition: accepted deterministic crop plus bounded blank-board cleanup; exact table labels, counts, percentages, and accuracy relationship retained, so imagegen was not used.
+- Crop coordinates: `x=27, y=0, width=522, height=340` from the 598×360 source; removes the left/right black frame bars and blank lower frame margin. Post-crop cleanup fills only blank board space with `srgb(246,246,220)`: `x=0..76, y=0..101` removes the partial recording wheel, `x=478..521, y=0..54` removes the webcam tile, and `x=0..3, y=102..339` removes the residual black frame edge.
+- Invariants: `PREDICTIONS`, `ACTUAL`, the negative/positive row and column labels, `TN 922`, `FP 101`, `FN 176`, `TP 210`, visible cell percentages `65%`, `8%`, `12%`, and `15%`, condition annotations, and `ACCURACY=80%=65%+15%` remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-07-accuracy-from-table-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact table structure, labels, counts, percentages, arrows, and accuracy equation remain legible, and no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black frame bar remains; `522×340` output renders cleanly.
