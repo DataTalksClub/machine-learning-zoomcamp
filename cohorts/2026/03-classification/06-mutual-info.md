@@ -27,7 +27,7 @@ mutual information is 0.
 In this project we use mutual information to measure the importance of
 categorical variables.
 
-![Mutual information: how much one variable tells us about another](images/06-mutual-info-01-mutual-information-wikipedia.jpg)
+![Mutual information: how much one variable tells us about another](images/06-mutual-info-01-mutual-information-wikipedia-imagegen-pilot.png)
 
 ## Measuring it with Scikit-Learn
 
