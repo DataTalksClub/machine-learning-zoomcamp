@@ -23,7 +23,7 @@ Kaggle. It has different characteristics of cars — the make (the
 manufacturer), the model, the year, the engine type, the fuel type and other
 properties.
 
-![Car Features and MSRP dataset on Kaggle](images/01-car-price-intro-02-kaggle-dataset.jpg)
+![Car Features and MSRP dataset on Kaggle](images/01-car-price-intro-02-kaggle-dataset-cropped.jpg)
 
 The data explorer on Kaggle shows what is inside. Every row is one car, and
 every column is one characteristic of that car.
