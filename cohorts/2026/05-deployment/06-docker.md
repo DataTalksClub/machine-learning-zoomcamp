@@ -48,7 +48,7 @@ environment - OS, Python, system and Python dependencies, code, model file -
 into an image. A container started from that image behaves identically on any
 machine that runs Docker.
 
-![Each container carries its own OS and Python version - complete isolation](images/06-docker-02-containers-on-host.jpg)
+![Each container carries its own OS and Python version - complete isolation](images/06-docker-02-containers-on-host-imagegen.png)
 
 ## The Dockerfile
 
