@@ -199,3 +199,13 @@
 - Invariants: visible partner counts remain `no 2932` and `yes 2702`; outputs remain `0.20503330866025166`, `0.06493474245795922`, and `0.3298090040927694`; code and cell order remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/05-risk-02-churn-rate-partner-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size; counts, exact outputs, cell order, and retained `Risk ratio` context checked against the source; capture framing is absent and the Markdown reference resolves.
+
+## 21 — risk: difference and risk ratio
+
+- Source: `cohorts/2026/03-classification/images/05-risk-03-difference-vs-risk-ratio.jpg` (598×360 JPEG).
+- Context/caption: “Difference and risk ratio: two ways of comparing a group churn rate with the global one.” This image teaches the two feature-importance comparisons: global minus group for absolute difference, and group divided by global for relative risk.
+- Rubric/disposition: keep — imagegen replacement from a deterministic crop. The source is a bounded conceptual whiteboard diagram; exact labels and signs were specified and checked, while the capture overlays could not be removed safely with a rectangular fill because the palette reached the explanatory text.
+- Capture cleanup: deterministic preparation crop `519×340+31+0` in `.tmp/ml-classification-rollout-05-risk-crops/03-candidate.png` removes the left black edge and bottom Zoom controls before generation. The accepted built-in imagegen output removes the presenter webcam tile, color-wheel/palette overlay, cursor, and remaining capture framing.
+- Invariants: title `3.5 FEATURE IMPORTANCE`; sections `1 DIFFERENCE` and `2 RISK RATIO`; formula `GLOBAL - GROUP`; `<0` means `MORE LIKELY TO CHURN`; `>0` means `LESS LIKELY TO CHURN`; risk formula is `RISK = GROUP / GLOBAL` with `GROUP` above `GLOBAL`; `>1 MORE LIKELY TO CHURN`; `<1`; original top-to-bottom ordering, circled section numbers, color hierarchy, and no-extra-label constraint preserved; no people, camera tiles, controls, watermark, cursor, or black bars.
+- Final: `cohorts/2026/03-classification/images/05-risk-03-difference-vs-risk-ratio-imagegen-pilot.png` (1550×1014 PNG).
+- QA: accepted after `view_image` inspection of the output at lesson size and high resolution; all listed labels/signs, formula structure, ordering, and interpretation relationships checked; no capture overlays remain and the Markdown reference resolves.
