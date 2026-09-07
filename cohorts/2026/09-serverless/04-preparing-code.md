@@ -31,7 +31,7 @@ jupyter nbconvert --to-script tensorflow-model.ipynb
 This converts the notebook to a Python file with the same name -
 `tensorflow-model.py`. Let's open it.
 
-![The generated tensorflow-model.py with the ipython cell magics left behind](images/04-preparing-code-03-generated-script.jpg)
+![The generated tensorflow-model.py with the ipython cell magics left behind](images/04-preparing-code-03-generated-script-cropped.png)
 
 The generated script contains all the cells of the notebook converted
 to Python code, including a lot of stuff we don't need for making

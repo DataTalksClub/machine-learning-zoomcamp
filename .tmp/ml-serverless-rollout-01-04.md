@@ -211,3 +211,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact command, filenames, and byte counts were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; nbconvert command, conversion messages, and `tensorflow-model.py` output remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 04-preparing-code-03-generated-script.jpg
+
+- **Disposition:** `crop/replace` → `images/04-preparing-code-03-generated-script-cropped.png`
+- **Teaching point:** the generated Python file contains leftover IPython cell magics such as `run_line_magic` and `system` calls.
+- **Source inspection:** 592×360; deterministic crop `+0+0 500×336` removes the webcam tile, black frame, and bottom editor status bar while retaining the file header and magic calls.
+- **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact visible code was preserved. The long source URL remains limited by the original editor viewport and is not used as a generated approximation.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `tensorflow-model.py`, `ipython().run_line_magic`, and `ipython().system` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
