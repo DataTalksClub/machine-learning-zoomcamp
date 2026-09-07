@@ -12,7 +12,7 @@ In this unit we wrap the churn model into a Flask web service: it loads the
 pickled model, listens for POST requests with customer data, and replies with
 the churn probability.
 
-![The plan of the module: serving the churn model with Flask](images/04-flask-deployment-01-module-plan.jpg)
+![The plan of the module: serving the churn model with Flask](images/04-flask-deployment-01-module-plan-cropped.jpg)
 
 ## The web service
 
