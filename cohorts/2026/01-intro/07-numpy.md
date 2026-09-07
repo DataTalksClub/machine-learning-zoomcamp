@@ -162,7 +162,7 @@ array([[ 1, 20,  0],
        [ 1,  1,  2]])
 ```
 
-![Reading and assigning a whole column](images/07-numpy-04-columns.jpg)
+![Reading and assigning a whole column](images/07-numpy-04-columns-cropped.png)
 
 ## Randomly generated arrays
 

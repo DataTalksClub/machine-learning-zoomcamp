@@ -141,6 +141,15 @@
 - Invariants: `n = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])`; `n[0, 1] = 20`; output begins `[[1, 20, 3], [4, 5, 6], [7, 8, 9]]`; blue instructional marks
 - Validation: passed visual review; code, values, and annotations remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 04 — columns
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-04-columns.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-04-columns-cropped.png`
+- Crop: `500×250+0+85` (removes browser frame and webcam tile; retains the matrix, column assignment, outputs, and section context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and matrix output are the source of truth
+- Invariants: matrix `n`; `n[:, 2] = [0, 1, 2]`; final output `[[1, 20, 0], [4, 5, 1], [1, 1, 2]]`; `Randomly generated arrays` context
+- Validation: passed visual review; code and matrix values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
