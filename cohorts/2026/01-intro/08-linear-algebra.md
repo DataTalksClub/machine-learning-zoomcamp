@@ -63,7 +63,7 @@ The dot product, on the other hand, produces a number. The way we compute it: we
 u·v = 2·1 + 4·0 + 5·0 + 6·2 = 2 + 12 = 14
 ```
 
-![The dot product of u and v, computed element by element](images/08-linear-algebra-02-dot-product.jpg)
+![The dot product of u and v, computed element by element](images/08-linear-algebra-02-dot-product-cropped.png)
 
 The formula: we have a sum that goes over all elements of our vectors, from 1 to n, where n is the dimension of the vector, and inside we multiply the i-th element of `u` with the i-th element of `v`.
 
