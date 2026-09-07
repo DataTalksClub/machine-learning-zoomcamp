@@ -136,3 +136,11 @@ use the built-in imagegen workflow after source inspection.
   a common canvas and 2× Lanczos resized with light unsharp; preserved the
   exact section title, dataset URLs, and data-preparation bullets while
   removing the camera tile and browser frame.
+
+- `13-summary-03-summary-takeaways.jpg` →
+  `13-summary-03-summary-takeaways-cropped.png` — deterministic crop
+  `(15,80,568,235)` with a small white pixel repair at source coordinates
+  `(52,177)-(72,193)` to remove the mouse cursor from the blank output-cell
+  margin, then 2× Lanczos resize and light unsharp; preserved the exact
+  probability, target, summary heading, and takeaways while removing camera
+  and notebook chrome.

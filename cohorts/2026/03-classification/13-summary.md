@@ -47,7 +47,7 @@ We went through the standard project pipeline:
 - The output of logistic regression is a probability
 - Interpretation of weights is similar to linear regression
 
-![The end of the notebook: scoring one last customer and the summary of the module](images/13-summary-03-summary-takeaways.jpg)
+![The end of the notebook: scoring one last customer and the summary of the module](images/13-summary-03-summary-takeaways-cropped.png)
 
 The same scheme works for many other binary classification problems:
 spam detection, default prediction, lead scoring - anywhere the answer
