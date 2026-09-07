@@ -74,7 +74,7 @@ this, `dicts` is a list that looks like this:
  ...]
 ```
 
-![Turning a dataframe into a list of dictionaries with to_dict(orient='records') - one dictionary per customer](images/08-ohe-02-to-dict-records.jpg)
+![Turning a dataframe into a list of dictionaries with to_dict(orient='records') - one dictionary per customer](images/08-ohe-02-to-dict-records-cropped.png)
 
 ## DictVectorizer
 

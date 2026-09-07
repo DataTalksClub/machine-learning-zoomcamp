@@ -56,3 +56,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact hand-drawn category table and binary values retained.
   - Crop: `450x340+28+0`; removes camera/control edges while retaining the full table and row examples.
   - Invariants: gender/contract columns, row order, and every 0/1 entry checked visually; no face or recording chrome.
+
+- `08-ohe-02-to-dict-records.jpg` →
+  `08-ohe-02-to-dict-records-cropped.png`
+  - Disposition: deterministic crop; exact `to_dict(orient='records')` output retained.
+  - Crop: `480x175+25+70`; removes notebook chrome, the camera tile, and the following lesson heading.
+  - Invariants: dictionary keys, row order, and displayed values checked against the source; the long input line remains source-edge truncated after `records` because the original frame clipped it at the camera boundary.
