@@ -73,7 +73,7 @@ data.csv, the actual dataset we will use for training the model. In this
 cohort we walk through the notebook lesson by lesson; for this module it is
 [notebook.ipynb](notebook.ipynb).
 
-![The notebook and the data file in chapter-02-car-price](images/01-car-price-intro-07-chapter-files.jpg)
+![The notebook and the data file in chapter-02-car-price](images/01-car-price-intro-07-chapter-files-cropped.jpg)
 
 Next, we take the CSV file and do a bit of data preparation — that is the
 next lesson, [data preparation](02-data-preparation.md).

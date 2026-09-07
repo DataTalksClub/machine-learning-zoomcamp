@@ -53,3 +53,12 @@
 - Invariants: preserve the GitHub repository file list, the first `chapter-02-car-price` folder row, neighboring chapter folders, commit messages, timestamps, and the repository’s exact folder/file labels.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-06-github-repo-cropped.jpg`.
 - QA: source and candidate crop inspected visually; exact GitHub UI labels and folder ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `530x283`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 07 — chapter files
+
+- Disposition: `crop/replace` via deterministic crop/export; the image teaches that the project folder contains the notebook and the `data.csv` dataset.
+- Source/context: `cohorts/2026/02-regression/images/01-car-price-intro-07-chapter-files.jpg`; caption: “The notebook and the data file in chapter-02-car-price”.
+- Crop coordinates: source `598x360`; `546x68+15+215` (`x=15, y=215, width=546, height=68`). The crop removes browser chrome, the webcam/face, native avatar and commit/navigation rows, footer, and other recording-frame material.
+- Invariants: preserve the exact file rows `02-carprice.ipynb` and `data.csv`, their visible commit messages (`chapter 02 update` and `chapter 2 code`), and their timestamps.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-07-chapter-files-cropped.jpg`.
+- QA: source and candidate crops inspected visually; exact filenames, row order, labels, and timestamps preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `546x68`; lesson reference resolves; `git diff --check` passes before commit.
