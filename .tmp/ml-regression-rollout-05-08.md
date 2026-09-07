@@ -149,3 +149,13 @@
 - Path: deterministic crop plus blank-space cursor cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-01-inverse-solution-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact mathematical notation and the instructor’s derivation are source of truth; one cursor-cleanup pass was accepted without touching diagram strokes.
 - QA: final `900x600` PNG inspected visually; derivation remains crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 02
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-02-gram-matrix.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact normal-equation notation and dimensions are source of truth, so imagegen was not used.
+- Crop coordinates: formula crop `300x170+200+45` (`x=200, y=45, width=300, height=170`) with blank-space cleanup for the crossed-out material/cursor, plus dimension-label crop `360x120+80+180` (`x=80, y=180, width=360, height=120`), vertically composed with a clean board gap. This removes the webcam, recording marker, black bar, controls, crossed-out clutter, and cursor while preserving the normal equation and `GRAM MATRIX (n+1)×(n+1)` label.
+- Invariants: preserve `w = (XᵀX)⁻¹Xᵀy` and the complete `GRAM MATRIX (n+1)×(n+1)` annotation.
+- Path: deterministic crop/composite with matching board-color cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-02-gram-matrix-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact formula symbols and dimensions must not be guessed. A broad crop retained partially clipped crossed-out material and a cursor; the accepted focused/composed crop removes them and restores a clean equation/label presentation.
+- QA: final `720x610` PNG inspected visually; equation and dimensions are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, crossed-out clutter, or black border. Markdown reference resolves and `git diff --check` passes before commit.

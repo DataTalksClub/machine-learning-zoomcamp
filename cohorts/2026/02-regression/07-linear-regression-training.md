@@ -56,7 +56,7 @@ XᵀXw = Xᵀy
 
 The matrix `XᵀX` is called the Gram matrix:
 
-![The Gram matrix X-transpose-X is square: (n+1) by (n+1)](images/07-linear-regression-training-02-gram-matrix.jpg)
+![The Gram matrix X-transpose-X is square: (n+1) by (n+1)](images/07-linear-regression-training-02-gram-matrix-cropped.png)
 
 Unlike `X`, the Gram matrix is square - it has `n+1` rows and `n+1`
 columns. Square matrices usually have an inverse (not always, and we
