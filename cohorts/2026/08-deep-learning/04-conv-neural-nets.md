@@ -58,7 +58,7 @@ in the middle (the 9), and the rest is mostly zeros.
 We do this for each filter. If a convolutional layer has six filters,
 it produces six feature maps - one feature map per filter:
 
-![The image and three filters produce a stack of feature maps - one per filter](images/04-conv-neural-nets-03-one-feature-map-per-filter.jpg)
+![The image and three filters produce a stack of feature maps - one per filter](images/04-conv-neural-nets-03-one-feature-map-per-filter-imagegen.png)
 
 So the input of a convolutional layer is the image, and the output is
 a set of feature maps, as many as there are filters.
