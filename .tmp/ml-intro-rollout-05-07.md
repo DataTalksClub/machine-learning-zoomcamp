@@ -28,3 +28,12 @@
 - Path: built-in imagegen, `scientific-educational`; imagegen skill available and read
 - Invariants: title `Validation & Test`; contiguous `60%`, `20%`, `20%` split; downward mapping to `TRAIN`, `VALID`, `TEST`; `g`, `X`, `y`, `Xᵥ`, `yᵥ`, `NN`; test held out as the final partition
 - Validation: passed visual review; all labels, percentages, order, arrows, and split meaning are legible and intact; no face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, black border, clipped box, or extra metric
+
+### 04 — select-and-test
+
+- Source: `cohorts/2026/01-intro/images/05-model-selection-04-select-and-test.jpg` (598×360 JPEG)
+- Disposition: accepted imagegen sibling `05-model-selection-04-select-and-test-imagegen-pilot.png`
+- Crop: `500×260+0+70` (deterministic crop before generation; removes the webcam tile and recording frame)
+- Path: built-in imagegen, `scientific-educational`; imagegen skill available and read
+- Invariants: candidate rows `LR / 66%`, `DT / 60%`, `RF / 67%`, selected `NN / 80%`, and final `TEST` check; selected row and arrow relationship
+- Validation: accepted on the second generation after rejecting a faint handwritten artifact in the first table cell; final is crisp with exact labels/values, no scribbles, face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, black border, clipped content, or extra metric

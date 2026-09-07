@@ -64,7 +64,7 @@ So we have three non-overlapping subsets: the training data, the validation data
 
 Then, to make sure this model didn't just get lucky on the validation set, we apply it to the test set - one extra round of validation. If the validation accuracy was 80% and the test accuracy is 79%, the numbers are close, and we conclude that the model indeed behaves well.
 
-![The best model is checked once more on the test set](images/05-model-selection-04-select-and-test.jpg)
+![The best model is checked once more on the test set](images/05-model-selection-04-select-and-test-imagegen-pilot.png)
 
 This is the model selection process, and being able to set it up is one of the most important skills in machine learning. As a recipe:
 
