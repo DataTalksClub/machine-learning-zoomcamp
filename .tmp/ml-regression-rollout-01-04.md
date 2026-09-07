@@ -35,3 +35,12 @@
 - Invariants: preserve the Kaggle Data Explorer, `data.csv (1.41 MB)`, visible feature headers and rows, the rightmost `MSRP` column, and its exact visible numeric prices.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-04-msrp-column-cropped.jpg`.
 - QA: source and candidate crop inspected visually; exact UI, `MSRP` values, headers, and row relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `576x283`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 05 — project plan
+
+- Disposition: `crop/replace` via deterministic crop/export; the image teaches the sequence of work planned for the car-price project.
+- Source/context: `cohorts/2026/02-regression/images/01-car-price-intro-05-project-plan.jpg`; caption: “Project plan slide”.
+- Crop coordinates: source `598x360`; `485x317+20+23` (`x=20, y=23, width=485, height=317`). The crop removes the top watermark/recording marker, webcam tile, right black bar, cursor in the blank area, and bottom controls.
+- Invariants: preserve the exact title “Project plan” and all seven bullets: EDA, linear regression, internals of linear regression, RMSE evaluation, feature engineering, regularization, and using the model.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-05-project-plan-cropped.jpg`.
+- QA: source and candidate crop inspected visually; exact slide text and ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `485x317`; lesson reference resolves; `git diff --check` passes before commit.

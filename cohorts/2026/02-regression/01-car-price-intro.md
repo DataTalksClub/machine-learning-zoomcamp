@@ -56,7 +56,7 @@ We will do the project in several steps:
   regularization.
 - Finally, use the model.
 
-![Project plan slide](images/01-car-price-intro-05-project-plan.jpg)
+![Project plan slide](images/01-car-price-intro-05-project-plan-cropped.jpg)
 
 ## Where the code lives
 
