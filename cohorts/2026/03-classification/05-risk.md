@@ -191,7 +191,7 @@ female  0.276824   2796  0.006856  1.025396
 male    0.263214   2838 -0.006755  0.974980
 ```
 
-![The groupby loop showing mean, count, diff and risk for gender](images/05-risk-05-groupby-gender.jpg)
+![The groupby loop showing mean, count, diff and risk for gender](images/05-risk-05-groupby-gender-cropped.png)
 
 And for partner:
 

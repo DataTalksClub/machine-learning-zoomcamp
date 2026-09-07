@@ -219,3 +219,13 @@
 - Invariants: `churn_no_partner / global_churn` remains paired with `1.2216593879412643`; `churn_partner / global_churn` remains paired with `0.7594724924338315`; visible SQL remains `SELECT gender, AVG(churn), AVG(churn) - global_churn AS diff, AVG(churn) / global_churn AS risk FROM data GROUP BY gender;`; cell order and syntax remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/05-risk-04-risk-ratio-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size and enlarged output inspection; both exact ratio values, code, SQL text, and ordering checked against the source; capture framing is absent and the Markdown reference resolves.
+
+## 23 — risk: groupby result for gender
+
+- Source: `cohorts/2026/03-classification/images/05-risk-05-groupby-gender.jpg` (598×360 JPEG).
+- Context/caption: “The groupby loop showing mean, count, diff and risk for gender.” This image teaches the grouped gender churn means produced after the SQL-style operation and transitions to mutual information.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook code, SQL text, exact output values, and heading are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, left capture margin, and right capture edge while retaining the SQL query, `groupby('gender').churn.mean()` cell, result, and `3.6 Feature importance: Mutual information` heading.
+- Invariants: SQL remains `SELECT gender, AVG(churn), AVG(churn) - global_churn AS diff, AVG(churn) / global_churn AS risk FROM data GROUP BY gender;`; the groupby call remains exact; output remains `female 0.276824`, `male 0.263214`, `Name: churn, dtype: float64`; heading and cell order remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/05-risk-05-groupby-gender-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; SQL, exact groupby code, result values, heading, and ordering checked against the source; capture framing is absent and the Markdown reference resolves.
