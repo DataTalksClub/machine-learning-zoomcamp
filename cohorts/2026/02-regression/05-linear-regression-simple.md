@@ -48,7 +48,7 @@ Rolls-Royce Phantom Drophead Coupe manufactured in 2015, and it has a lot of
 characteristics. We take just three of them: engine horsepower, city miles per
 gallon and popularity:
 
-![The features of car number 10: 453 horsepower, 11 miles per gallon in the city, popularity 86](images/05-linear-regression-simple-02-car-10-features.jpg)
+![The features of car number 10: 453 horsepower, 11 miles per gallon in the city, popularity 86](images/05-linear-regression-simple-02-car-10-features-cropped.png)
 
 So for this car the feature vector is:
 

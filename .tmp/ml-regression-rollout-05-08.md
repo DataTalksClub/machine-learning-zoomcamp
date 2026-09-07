@@ -9,3 +9,13 @@
 - Path: built-in imagegen edit from the inspected crop; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-01-one-car-one-price-imagegen-pilot.png`; original JPG preserved.
 - Iteration/capability: imagegen skill was available and read completely; one generation iteration was accepted. No rejected variant was staged.
 - QA: final `1474x1067` PNG inspected visually; formula, labels, arrows, pale background, and relationship remain readable; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border remains. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 02
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-02-car-10-features.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; this is an exact notebook/table screenshot whose car feature values must remain unchanged.
+- Crop coordinates: source `598x360`; `485x235+15+70` (`x=15, y=70, width=485, height=235`). The crop removes browser chrome, the presenter webcam tile, the right black bar, the lower lesson heading, and recording-frame material.
+- Invariants: preserve `df_train.iloc[10]`, the Rolls-Royce Phantom Drophead Coupe row, year `2015`, `engine_hp` `453.0`, `city_mpg` `11`, `popularity` `86`, every visible feature label/value, row order, and table relationships.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-02-car-10-features-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact notebook UI and numeric values are the source of truth; one crop correction removed a clipped heading fragment before acceptance.
+- QA: final `970x470` PNG inspected visually; exact code, labels, values, and table ordering remain readable; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains. Markdown reference resolves and `git diff --check` passes before commit.
