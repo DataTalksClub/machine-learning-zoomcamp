@@ -81,3 +81,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `380x260+126+31`, then a small blank-board mask over the cursor (`local x=52..70, y=141..158`), 2× Lanczos resize, and light unsharp masking. This removes the recording marker, webcam tile, black frame, controls, and cursor.
 - Invariants/QA: preserve the `TRAIN`, `VAL`, and `TEST` partitions, model `g`, and both arrow directions. Final `760x520` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/10-car-price-validation-01-split-diagram-cropped.png`.
+
+### Screenshot 02 — `prepare_X` function
+
+- Source: `cohorts/2026/02-regression/images/10-car-price-validation-02-prepare-x-function.jpg`.
+- Caption/context: “The prepare_X function in the notebook”; the section breaks one-line feature preparation into selection, filling missing values, and extracting `.values`.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused notebook cell shows the exact three-step transformation and its order.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x90+26+176`, then 2× Lanczos resize and light unsharp masking. This keeps only the complete `prepare_X` cell and removes browser/Zoom chrome, webcam tile, lesson headings, cursor, and recording frame.
+- Invariants/QA: preserve `def prepare_X(df)`, `df[base]`, `fillna(0)`, `.values`, and `return X` exactly. Final `1066x180` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-02-prepare-x-function-cropped.png`.

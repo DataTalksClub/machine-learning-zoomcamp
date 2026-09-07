@@ -59,7 +59,7 @@ The point of this function is that we prepare the data in the same way
 regardless of whether it is the training, validation or test dataset. It works
 on any dataframe - that is why the argument is just `df` and not `df_train`.
 
-![The prepare_X function in the notebook](images/10-car-price-validation-02-prepare-x-function.jpg)
+![The prepare_X function in the notebook](images/10-car-price-validation-02-prepare-x-function-cropped.png)
 
 ## Computing the RMSE on validation data
 
