@@ -167,7 +167,7 @@ Then run the container again and test.
 Now we get a different error - and this one is expected, we have seen
 it before in the Flask sessions:
 
-![The updated Dockerfile with the wheel URL, and the float32 error in the terminal](images/05-docker-image-07-float32-error.jpg)
+![The updated Dockerfile with the wheel URL, and the float32 error in the terminal](images/05-docker-image-07-float32-error-cropped.png)
 
 ```text
 Unable to marshal response: Object of type float32 is not JSON

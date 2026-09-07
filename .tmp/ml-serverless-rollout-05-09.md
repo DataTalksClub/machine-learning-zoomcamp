@@ -62,3 +62,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact installation warnings, Docker steps, and success output were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `Successfully installed ... tflite-runtime-2.7.0`, Docker steps 4–6, and `Successfully built/tagged` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 05-docker-image-07-float32-error.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-07-float32-error-cropped.png`
+- **Teaching point:** after switching to the compatible wheel, inference reaches a JSON serialization error because the prediction contains `float32` values.
+- **Source inspection:** 592×360; crop `+0+52 550×308` removes the webcam tile, editor tabs, and right-side black frame while retaining the Dockerfile context and both terminal errors.
+- **Method:** deterministic Lanczos upscale to 1100×616 with light sharpening; exact wheel URL fragment, GLIBC failure, and `float32 not JSON serializable` output were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the float32 serialization error is visible and readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The long wheel URL remains bounded by the original viewport.
