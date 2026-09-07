@@ -225,7 +225,7 @@ array([[14. , 20. , 13. ],
 
 Same result - which means our implementation works.
 
-![The matrix-matrix multiplication function and its test](images/08-linear-algebra-06-matrix-matrix.jpg)
+![The matrix-matrix multiplication function and its test](images/08-linear-algebra-06-matrix-matrix-cropped.png)
 
 This way we expressed matrix-matrix multiplication using matrix-vector multiplication, and in turn we expressed matrix-vector multiplication with vector-vector multiplication.
 

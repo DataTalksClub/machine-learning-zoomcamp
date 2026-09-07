@@ -51,3 +51,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: visible implementation body with `num_rows`, `np.zeros(num_rows)`, row loop, `vector_vector_multiplication(U[i], v)`, return; test call `matrix_vector_multiplication(U, v)`; output `array([14.,  5.,  5.])`
 - Output: `cohorts/2026/01-intro/images/08-linear-algebra-05-matrix-vector-implementation-cropped.png`
 - Validation: accepted after visual inspection; visible code and numeric output are unchanged; browser/recording chrome, face, camera tile, next-cell pointer, and controls are absent.
+
+### 06 — matrix-matrix implementation
+
+- Source: `cohorts/2026/01-intro/images/08-linear-algebra-06-matrix-matrix.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x205+15+95`
+- Invariants: matrix-matrix result allocation; column loop; `vi = V[:, i]`; `matrix_vector_multiplication(U, vi)`; assignment to `result[:, i]`; test call and output matrix `[[14., 20., 13.], [5., 6., 5.], [5., 8.5, 9.]]`
+- Output: `cohorts/2026/01-intro/images/08-linear-algebra-06-matrix-matrix-cropped.png`
+- Validation: accepted after visual inspection; visible code and all numeric output are unchanged; browser/recording chrome, face, camera tile, and controls are absent.
