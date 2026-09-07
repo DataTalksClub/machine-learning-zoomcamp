@@ -11,7 +11,7 @@ Imagine we have an email system. People use it to talk to colleagues, do work-re
 
 We want to fight these emails. The plan: add a spam folder and send everything that is spam there. To do this we need a classifier - something that classifies each email into spam or not spam.
 
-![Examples of spam emails](images/02-ml-vs-rules-01-spam-examples.jpg)
+![Examples of spam emails](images/02-ml-vs-rules-01-spam-examples-imagegen-pilot.png)
 
 ## The rule-based approach
 
