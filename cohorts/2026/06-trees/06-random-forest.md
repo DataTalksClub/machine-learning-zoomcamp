@@ -55,7 +55,7 @@ and `price`, and the third `debt` and `price`. Each tree gives its own
 prediction - p1, p2 and p3 - and the final prediction is the average:
 1/3 (p1 + p2 + p3).
 
-![A board of three decision trees: each is trained on a different pair of features, and their predictions are averaged](images/06-random-forest-02-random-forest.jpg)
+![A board of three decision trees: each is trained on a different pair of features, and their predictions are averaged](images/06-random-forest-02-random-forest-imagegen.png)
 
 In scikit-learn, random forest lives in the `ensemble` package. Let's take our
 credit scoring data and train a random forest with a varying number of trees -

@@ -196,3 +196,30 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   probabilities, arrows, and average formula are readable. No face, camera
   tile, browser/Zoom chrome, cursor, watermark, or unrelated overlay remains.
   Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — random forest, screenshot 02
+
+- Source: `cohorts/2026/06-trees/images/06-random-forest-02-random-forest.jpg`.
+- Disposition: `replace` via built-in imagegen; this is a bounded conceptual
+  feature-subset diagram where crisp relationships matter more than source
+  pixels.
+- Crop coordinates: source `768x576`; the full frame was used as the clean
+  reference because it already contains no camera or recording overlay. The
+  first `738x548+15+12` prep crop was rejected after clipping the rightmost
+  `DT #3` content; the full-source reference restored the complete layout.
+- Invariants: preserve top headers `ASSETS`, `DEBT`, `PRICE`; lower pairs
+  `ASSETS/DEBT`, `ASSETS/PRICE`, `DEBT/PRICE`; arrows from each top feature
+  column; labels `DT #1`, `DT #2`, `DT #3`; quoted `BOARD OF EXPERTS`; and
+  the averaging formula `1/3 (p₁ + p₂ + p₃)`.
+- Path: imagegen skill was available and read completely; built-in imagegen
+  edit used the inspected full source. Final sibling
+  `cohorts/2026/06-trees/images/06-random-forest-02-random-forest-imagegen.png`;
+  original JPG preserved.
+- Prompt/iteration: one structured `scientific-educational` generation with
+  exact labels, feature-pair order, arrows, formula, and negative constraints.
+  The accepted result uses crisp vector-like tables and typography without
+  inventing columns or people.
+- QA: final `1492x1052` PNG inspected visually; all tables, labels, arrows,
+  and formula are complete and readable, with no face, camera tile,
+  browser/Zoom chrome, cursor, watermark, or unrelated overlay. Markdown
+  reference resolves and `git diff --check` passes before commit.
