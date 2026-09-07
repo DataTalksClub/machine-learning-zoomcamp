@@ -202,7 +202,7 @@ df.churn.head()
 Name: churn, dtype: object
 ```
 
-![Translating churn from yes/no to 1/0](images/02-data-preparation-06-churn-encoding.jpg)
+![Translating churn from yes/no to 1/0](images/02-data-preparation-06-churn-encoding-cropped.png)
 
 For classification we need numbers. We compare the column with `'yes'`
 - this produces a boolean series - and cast it to integers:
