@@ -134,7 +134,7 @@ aggressive. With `droprate=0.2`, the model peaks slightly above 0.84
 early on and then oscillates around 0.83 - better than the best score
 of the previous unit.
 
-![Dropout 0.2: validation accuracy peaks slightly above 0.84 and then oscillates around 0.83](images/09-dropout-07-dropout-02-vs-train.jpg)
+![Dropout 0.2: validation accuracy peaks slightly above 0.84 and then oscillates around 0.83](images/09-dropout-07-dropout-02-vs-train-cropped.png)
 
 One caveat: the single spike of the 0.5 curve to 0.85 looks more like
 luck than a genuinely better model - right after it, the score drops
