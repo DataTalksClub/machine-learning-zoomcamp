@@ -105,7 +105,7 @@ The output confirms it - every single prediction is `False`:
 Counter({False: 1409})
 ```
 
-![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter.jpg)
+![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter-cropped.jpg)
 
 What accuracy does this dummy model get? The answer is the fraction of customers who did not churn:
 

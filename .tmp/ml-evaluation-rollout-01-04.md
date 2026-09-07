@@ -98,3 +98,12 @@
 - Invariants: the visible `scores = []` initialization, threshold loop, `churn_decision = (y_pred >= t)`, `score = (y_val == churn_decision).mean()`, `scores.append(score)`, `plt.plot(thresholds, score)`, and the displayed scores array including the peak `0.8034066713981547` remain unchanged.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-04-accuracy-score-cropped.jpg`
 - QA: accepted after visual inspection; exact code and numeric output remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
+## 05 — dummy-model counter notebook
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-05-dummy-counter.jpg`
+- Disposition: accepted deterministic tight crop; exact `Counter` code and output are retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=155, width=577, height=195` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, right black bar, preceding plot fragment, and blank lower frame margin.
+- Invariants: `from collections import Counter`, `Counter(y_pred >= 1.0)`, exact output `Counter({False: 1409})`, and the `4.3 Confusion table` heading with both bullets remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-05-dummy-counter-cropped.jpg`
+- QA: accepted after visual inspection; exact code, result, heading, and bullets remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×195` output renders cleanly.
