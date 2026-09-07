@@ -32,7 +32,7 @@ Then we talked about the concept of supervised learning. Both examples we saw - 
 
 Our model, g, extracts patterns from data. Then, for data for which we don't know the answer - this is our feature matrix, capital X - we apply the model and get something that is as close as possible to the target.
 
-![In supervised learning, g(X) approximates the target y](images/10-summary-04-supervised-g-x-y.jpg)
+![In supervised learning, g(X) approximates the target y](images/10-summary-04-supervised-g-x-y-imagegen-pilot.png)
 
 ## CRISP-DM and the bigger picture
 

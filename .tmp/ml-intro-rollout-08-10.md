@@ -181,3 +181,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: title `1.2 Rules vs ML`; headings `Features (data)` and `Target (desired output)`; all six exact feature rows and target values `1, 0, 1, 1, 0, 0`
 - Output: `cohorts/2026/01-intro/images/10-summary-03-ml-training-data-imagegen-pilot.png`
 - Validation: accepted after visual inspection; every digit, bracket, comma, row, heading, and target value matches the source; face, camera tile, handwriting, browser/recording chrome, cursor, and watermark are absent.
+
+### 04 — supervised g(X) ≈ y
+
+- Source: `cohorts/2026/01-intro/images/10-summary-04-supervised-g-x-y.jpg`
+- Disposition: deterministic crop followed by built-in imagegen redraw
+- Crop: `560x300+15+30`; camera/cursor mask in crop: `490,0` to `559,30` and `495,270` to `559,299`
+- Invariants: title `1.3 Supervised Machine Learning`; equation `g(X) ≈ y`; `model` points to `g`, `feature` points to `X`, and `target` points to `y`
+- Output: `cohorts/2026/01-intro/images/10-summary-04-supervised-g-x-y-imagegen-pilot.png`
+- Validation: accepted after visual inspection; equation symbols, order, and all three callout relationships are preserved; face, camera tile, handwriting, browser/recording chrome, cursor, and watermark are absent.
