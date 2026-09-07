@@ -158,7 +158,7 @@ image - so I keep the two installs separate.)
 
 Rebuild the image:
 
-![Rebuilding the image: pip installs tflite-runtime-2.7.0 from the wheel and the build succeeds](images/05-docker-image-06-rebuild.jpg)
+![Rebuilding the image: pip installs tflite-runtime-2.7.0 from the wheel and the build succeeds](images/05-docker-image-06-rebuild-cropped.png)
 
 Then run the container again and test.
 

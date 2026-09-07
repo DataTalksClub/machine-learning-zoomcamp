@@ -53,3 +53,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact filenames and version labels were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; the highlighted `tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl` row remains readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The first visible row is partially clipped by the focused crop.
+
+## 05-docker-image-06-rebuild.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-06-rebuild-cropped.png`
+- **Teaching point:** rebuilding the image installs `tflite-runtime-2.7.0` and completes all Dockerfile steps successfully.
+- **Source inspection:** 592×360; crop `+55+20 447×293` isolates the terminal window and removes the editor, webcam tile, and surrounding black frame.
+- **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact installation warnings, Docker steps, and success output were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `Successfully installed ... tflite-runtime-2.7.0`, Docker steps 4–6, and `Successfully built/tagged` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
