@@ -81,7 +81,7 @@ print(df_right.status.value_counts(normalize=True))
 The left side has four customers: three `default` and one `ok`. The
 right side: three `ok` and one `default`.
 
-![Splitting the toy dataset with T = 4000](images/04-decision-tree-learning-03-split-t4000.jpg)
+![Splitting the toy dataset with T = 4000](images/04-decision-tree-learning-03-split-t4000-cropped.png)
 
 For each side we predict the majority class - the most frequent status.
 Left: `default`. Right: `ok`. The mistake rate on the left is 1/4 =

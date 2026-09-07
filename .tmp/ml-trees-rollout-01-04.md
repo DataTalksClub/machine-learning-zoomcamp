@@ -115,3 +115,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   deterministic crop `(x=0, y=65, width=500, height=285)` retained the exact
   sorted assets/status table, threshold annotations, and output while removing
   the webcam tile and browser top bar.
+- `04-decision-tree-learning-03-split-t4000.jpg` →
+  `04-decision-tree-learning-03-split-t4000-cropped.png`: deterministic crop
+  `(x=0, y=65, width=500, height=285)` retained the exact `T = 4000` split
+  code and both resulting status tables while removing the webcam tile and
+  browser top bar.
