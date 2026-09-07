@@ -125,3 +125,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   deterministic crop `(x=0, y=65, width=500, height=285)` retained the exact
   left/right status tables and 25% misclassification evidence while removing
   the webcam tile and browser top bar.
+- `04-decision-tree-learning-05-impurity-table.jpg` →
+  `04-decision-tree-learning-05-impurity-table-prepared.png`: deterministic
+  crop `(x=25, y=0, width=550, height=360)` retained the full handwritten
+  impurity table and exact numeric values. A deterministic background mask over
+  relative rectangles `(0,0)-(80,95)` and `(480,0)-(549,95)` removed the
+  source gauge and webcam tile; no generated text was used.
