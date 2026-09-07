@@ -56,7 +56,7 @@ array([ 0.475, -0.175, -0.408, -0.03 , -0.078,  0.063, -0.089, -0.081,
         0.213, -0.089, -0.232, -0.07 ,  0.   ])
 ```
 
-![The bias term and the 45 weights the model learned - one weight per column produced by DictVectorizer](images/10-training-log-reg-02-coefficients.jpg)
+![The bias term and the 45 weights the model learned - one weight per column produced by DictVectorizer](images/10-training-log-reg-02-coefficients-cropped.png)
 
 We will read these coefficients in the next lesson.
 

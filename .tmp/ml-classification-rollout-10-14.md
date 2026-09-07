@@ -12,3 +12,9 @@ use the built-in imagegen workflow after source inspection.
   — deterministic crop `(x=15, y=32, w=440, h=105)`, 2× Lanczos resize and
   light unsharp; preserved the import, model construction, and `fit` call;
   removed notebook/browser frame and camera tile.
+
+- `10-training-log-reg-02-coefficients.jpg` →
+  `10-training-log-reg-02-coefficients-cropped.png` — deterministic composite
+  of the intercept crop `(15,32,440,52)` and coefficient crop
+  `(15,82,505,115)`, 2× Lanczos resize and light unsharp; preserved the exact
+  bias and 45-weight array and removed the handwritten annotation/camera tile.
