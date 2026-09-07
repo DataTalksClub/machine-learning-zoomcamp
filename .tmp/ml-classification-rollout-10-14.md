@@ -18,3 +18,9 @@ use the built-in imagegen workflow after source inspection.
   of the intercept crop `(15,32,440,52)` and coefficient crop
   `(15,82,505,115)`, 2× Lanczos resize and light unsharp; preserved the exact
   bias and 45-weight array and removed the handwritten annotation/camera tile.
+
+- `10-training-log-reg-03-soft-predictions.jpg` →
+  `10-training-log-reg-03-soft-predictions-cropped.png` — deterministic crop
+  `(15,190,300,100)`, 2× Lanczos resize and light unsharp; preserved the
+  `predict_proba` matrix and removed the handwritten “SOFT PREDICTIONS”
+  annotation and camera tile.
