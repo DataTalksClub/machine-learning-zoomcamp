@@ -67,7 +67,7 @@ mutual_info_score(df_full_train.partner, df_full_train.churn)
 0.009967689095399745
 ```
 
-![Measuring mutual information with churn for contract, gender and partner](images/06-mutual-info-02-mutual-info-scores.jpg)
+![Measuring mutual information with churn for contract, gender and partner](images/06-mutual-info-02-mutual-info-scores-cropped.png)
 
 The order of the arguments doesn't matter - mutual information is
 symmetric, so `mutual_info_score(df_full_train.contract,

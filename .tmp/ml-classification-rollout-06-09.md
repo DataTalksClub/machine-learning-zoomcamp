@@ -19,6 +19,12 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Prep: reference crop `.tmp/ml-classification-rollout-06-09-crops/06-mutual-info-01-reference.png`, coordinates `505x300+0+42`.
   - Invariants: clean overlap diagram; exact labels `X`, `Y`, and `Mutual information`; no people, camera, browser, or extra metrics.
 
+- `06-mutual-info-02-mutual-info-scores.jpg` →
+  `06-mutual-info-02-mutual-info-scores-cropped.png`
+  - Disposition: deterministic crop; exact mutual-information calls and numeric outputs retained.
+  - Crop: `480x250+25+38`; removes notebook/recording chrome and camera tile.
+  - Invariants: contract `0.0983203874041556`, gender `0.0001174846211139946`, and partner `0.009967689095399745` checked against the source.
+
 ### 07-correlation.md
 
 - `07-correlation-01-correlation-coefficient.jpg` →
