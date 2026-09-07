@@ -55,7 +55,7 @@ Features describe each email with numbers. They can be very simple, for example:
 - Is the sender `promotions@online.com`? True or false.
 - And so on.
 
-![The six binary features for our spam example](images/02-ml-vs-rules-04-features.jpg)
+![The six binary features for our spam example](images/02-ml-vs-rules-04-features-imagegen-pilot.png)
 
 Notice that many of these features come directly from the rules we had before - the particular sender, the domain, the word "deposit". It is actually a good idea to start with a rule-based system and not jump into machine learning immediately: the rules you learn along the way become features for the machine learning system.
 

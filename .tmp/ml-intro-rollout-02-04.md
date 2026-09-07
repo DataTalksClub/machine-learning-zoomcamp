@@ -32,3 +32,16 @@ remain in place; accepted replacements are sibling assets.
   fee, email addresses, and single-card relationship checked; face, webcam,
   browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
   absent.
+
+### 02-ml-vs-rules-04-features.jpg
+
+- Disposition: `imagegen`; the feature list makes the transition from rules
+  to numerical ML inputs concrete.
+- Invariant: title `Features`; six bullets in source order, including both
+  sender addresses, `test.com`, and `deposit`; the `Rules` cue remains on the
+  right.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `02-ml-vs-rules-04-features-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all six labels and
+  the `Rules` cue checked verbatim; face, webcam, browser/Zoom chrome,
+  cursor, watermark, toolbar, and recording overlays absent.
