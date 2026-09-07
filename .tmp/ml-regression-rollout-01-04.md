@@ -215,3 +215,12 @@
 - Invariants: preserve the visible `df_val` cell, table headers, row indices `0`–`4` and `2377`–`2381`, BMW and Porsche values, exact visible feature values, column order, and the original clipped right-side viewport.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-03-sequential-split-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact code, labels, values, row ordering, table relationships, and viewport preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves.
+
+## 25 — shuffle the row numbers
+
+- Disposition: `keep` via deterministic crop/export; the image teaches the conceptual step of turning the ordered range `0`–`n-1` into a shuffled sequence before using it as dataframe indices.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-04-shuffle-numbers.jpg`; caption: “Take numbers 0 to n-1 and shuffle them, then use them as row indices”; context: the lesson introduces arbitrary index sequences for `iloc` immediately before showing `np.arange(n)` and `np.random.shuffle(idx)`.
+- Crop coordinates: source `598x360`; `505x253+43+54` (`x=43, y=54, width=505, height=253`). The crop removes the left recording bar and controls, top-right webcam tile, right black bar, and the cursor below the lower array by ending below the teaching content.
+- Invariants: preserve the exact handwritten `0 - n` range, the arrow into the ordered array, the `0` and `n-1` endpoints, the downward arrow, the lower shuffled-index array, and all visible cell boundaries and relationships.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-04-shuffle-numbers-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact labels, arrows, array ordering concept, and cell relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `505x253`; lesson reference resolves.

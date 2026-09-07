@@ -99,7 +99,7 @@ it will return the rows in that order. So we can take the numbers from 0 to
 n-1, reshuffle them, and then take the first 20% of the shuffled numbers for
 validation, the next 20% for test, and the rest for train:
 
-![Take numbers 0 to n-1 and shuffle them, then use them as row indices](images/04-validation-framework-04-shuffle-numbers.jpg)
+![Take numbers 0 to n-1 and shuffle them, then use them as row indices](images/04-validation-framework-04-shuffle-numbers-cropped.jpg)
 
 To generate the sequence of numbers we use `np.arange` from NumPy, and to
 shuffle it we use `np.random.shuffle`:
