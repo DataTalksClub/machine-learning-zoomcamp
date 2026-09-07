@@ -165,7 +165,7 @@ df_test = df_test.reset_index(drop=True)
 
 Now the index goes from 0 to 7149 again.
 
-![Resetting the index after the shuffle](images/04-validation-framework-06-reset-index.jpg)
+![Resetting the index after the shuffle](images/04-validation-framework-06-reset-index-cropped.jpg)
 
 ## Preparing y and removing msrp
 

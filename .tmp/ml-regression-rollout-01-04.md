@@ -233,3 +233,12 @@
 - Invariants: preserve the exact visible code for `df_train`, `df_val`, and `df_test`, the `idx = np.arange(n)` and `np.random.shuffle(idx)` cells, the slice boundaries, the output label, and the exact visible output `array([2257, 6273, 7106, ..., 6335, 7418, 9488])`.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-05-split-with-shuffled-idx-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact code, labels, slice relationships, output values, and notebook styling preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x230`; lesson reference resolves.
+
+## 27 — reset index
+
+- Disposition: `keep` via deterministic crop/export; the image teaches that shuffled dataframe rows retain their original indices until `reset_index(drop=True)` creates clean zero-based indices.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-06-reset-index.jpg`; caption: “Resetting the index after the shuffle”; context: the lesson checks the three dataframe lengths, explains why original random row numbers are inconvenient, and then shows the reset result.
+- Crop coordinates: source `598x360`; `577x298+0+62` (`x=0, y=62, width=577, height=298`). The crop removes the browser/notebook toolbar, webcam tile, unrelated preceding table fragment, and right black bar while retaining the length check, reset code, and visible dataframe output through the source bottom edge.
+- Invariants: preserve the exact `len(df_train), len(df_val), len(df_test)` output `(7150, 2382, 2382)`, all three `reset_index(drop=True)` assignments, the zero-based first rows, visible headers and values, row order, and the original bottom-edge truncation.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-06-reset-index-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact code, labels, values, row order, table relationships, and source truncation preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x298`; lesson reference resolves.
