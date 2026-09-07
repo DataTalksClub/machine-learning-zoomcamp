@@ -89,3 +89,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact command, package suggestions, and version text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; the `aws ecr create-repository` failure and `pip install awscli` command remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 06-creating-lambda-02-docker-push.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-02-docker-push-cropped.png`
+- **Teaching point:** Docker tags the image with the remote ECR URI and uploads its layers with `docker push`.
+- **Source inspection:** 592×360; crop `+55+20 447×293` isolates the terminal and removes editor chrome, webcam tile, and surrounding frame.
+- **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact ECR repository URI, layer states, and transfer sizes were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `docker tag`, `docker push`, repository path, and layer upload states remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

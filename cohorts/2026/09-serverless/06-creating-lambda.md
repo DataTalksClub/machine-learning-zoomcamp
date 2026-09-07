@@ -116,7 +116,7 @@ docker push ${REMOTE_URI}
 I'm pushing from an EC2 instance, so it's quite fast. Afterwards,
 refreshing the ECR page in the console shows the image with our tag.
 
-![docker push uploading the image layers to our ECR registry](images/06-creating-lambda-02-docker-push.jpg)
+![docker push uploading the image layers to our ECR registry](images/06-creating-lambda-02-docker-push-cropped.png)
 
 ## Creating the function
 
