@@ -77,7 +77,7 @@ def make_model(learning_rate=0.01, size_inner=100):
     return model
 ```
 
-![The notebook with the inner layer: Dense(size_inner, activation='relu') between the vectors and the output](images/08-more-layers-03-relu-in-code.jpg)
+![The notebook with the inner layer: Dense(size_inner, activation='relu') between the vectors and the output](images/08-more-layers-03-relu-in-code-cropped.png)
 
 The inner layer size is a hyperparameter, like the learning rate. We
 don't know in advance how big it should be, so we experiment: with
