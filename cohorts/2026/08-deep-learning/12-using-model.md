@@ -95,7 +95,7 @@ into a batch with one image, and apply `preprocess_input`:
 img = load_img(path, target_size=(299, 299))
 ```
 
-![Loading the image: the result of load_img is a picture of pants resized to 299x299](images/12-using-model-03-load-img-pants.jpg)
+![Loading the image: the result of load_img is a picture of pants resized to 299x299](images/12-using-model-03-load-img-pants-cropped.png)
 
 ```python
 import numpy as np
