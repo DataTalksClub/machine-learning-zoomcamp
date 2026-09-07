@@ -149,7 +149,7 @@ The three curves are close to each other even after zooming in with
 `plt.ylim(0.82, 0.84)`: for this parameter the differences are small. So we
 keep the default value, `min_child_weight=1`.
 
-![Validation AUC for min_child_weight of 1, 10 and 30: the three curves are close to each other](images/08-xgb-tuning-04-min-child-weight-curves.jpg)
+![Validation AUC for min_child_weight of 1, 10 and 30: the three curves are close to each other](images/08-xgb-tuning-04-min-child-weight-curves-cropped.png)
 
 ## The final model
 

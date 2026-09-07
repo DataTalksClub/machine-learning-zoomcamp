@@ -345,6 +345,31 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   tile, browser/Zoom chrome, cursor, watermark, or overlay. Markdown
   reference resolves and `git diff --check` passes before commit.
 
+## 08 — XGBoost parameter tuning, screenshot 04
+
+- Source: `cohorts/2026/06-trees/images/08-xgb-tuning-04-min-child-weight-curves.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the three exact
+  validation-AUC curves, legend values, axes, and numeric ticks are
+  fidelity-sensitive plot content, so imagegen was not used.
+- Crop coordinates: source `391x252`; the source frame is already a tightly
+  bounded plot, so the full `391x252+0+0` frame was retained to avoid clipping
+  the y-axis labels and x-axis endpoints.
+- Invariants: preserve legend entries `min_child_weight=1`,
+  `min_child_weight=10`, and `min_child_weight=30`; their colors and curve
+  geometry; the `0.8200`–`0.8400` y-axis scale; and the `0`–`200`
+  boosting-round x-axis.
+- Path: full-frame deterministic export at 3x Lanczos scale with light
+  unsharp masking; final sibling
+  `cohorts/2026/06-trees/images/08-xgb-tuning-04-min-child-weight-curves-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  exact plot geometry and values must not be guessed. One crop/export was
+  accepted after visual review.
+- QA: final `1173x756` PNG inspected visually; all three curves, axes, tick
+  labels, and legend entries are crisp and complete, with no face, camera
+  tile, browser/Zoom chrome, cursor, watermark, or overlay. Markdown
+  reference resolves and `git diff --check` passes before commit.
+
 ## 07 — gradient boosting and XGBoost, screenshot 01
 
 - Source: `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest.jpg`.
