@@ -173,7 +173,7 @@ The maximum values of `income`, `assets` and `debt` look suspicious:
 99999999. This dataset encodes missing values as a long number of
 nines. Instead of NaN, "unknown" became 99999999.
 
-![The summary statistics show the encoded missing values](images/02-data-prep-03-encoded-missing-values.jpg)
+![The summary statistics show the encoded missing values](images/02-data-prep-03-encoded-missing-values-cropped.png)
 
 We replace these values with NaN:
 
