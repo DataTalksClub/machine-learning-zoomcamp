@@ -58,3 +58,9 @@ use the built-in imagegen workflow after source inspection.
   chrome, and the unrelated following lesson heading. The source frame itself
   begins partway through the long dictionary and that source-edge truncation
   remains documented.
+
+- `11-log-reg-interpretation-03-small-features.jpg` →
+  `11-log-reg-interpretation-03-small-features-cropped.png` — deterministic
+  crop `(15,32,490,235)`, 2× Lanczos resize and light unsharp; preserved the
+  five feature names, vectorizer fit, transform, and small-model setup while
+  removing the camera tile and notebook/browser frame.

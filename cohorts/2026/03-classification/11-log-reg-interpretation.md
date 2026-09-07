@@ -107,7 +107,7 @@ dv_small.get_feature_names_out()
  'tenure']
 ```
 
-![The smaller model has only five columns: three for the contract categories plus the two numerical features](images/11-log-reg-interpretation-03-small-features.jpg)
+![The smaller model has only five columns: three for the contract categories plus the two numerical features](images/11-log-reg-interpretation-03-small-features-cropped.png)
 
 Three binary columns for the contract categories, plus the two
 numerical features. Train the model on this small matrix:
