@@ -101,3 +101,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x207+26+82`, then 2× Lanczos resize and light unsharp masking. This retains the complete helper/training/validation cells and result while removing browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
 - Invariants/QA: preserve `prepare_X`, `train_linear_regression`, `df_train`, `df_val`, `rmse(y_val, y_pred)`, and `0.7616530991301577`. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/10-car-price-validation-03-train-and-validate-cropped.png`.
+
+### Screenshot 04 — training versus validation parts
+
+- Source: `cohorts/2026/02-regression/images/10-car-price-validation-04-train-vs-validation-parts.jpg`.
+- Caption/context: “The training part and the validation part of the code”; the bullets immediately below explain which dataset each block may touch.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the handwritten `TRAIN` and `VAL` annotations add a useful visual partition that the code alone does not provide.
+- Disposition: `crop/replace` via deterministic raster export; exact code, output, and annotations are fidelity-sensitive, so imagegen was not used.
+- Crop: source `598x360`; `533x207+26+82`, with a small notebook-background patch over the cursor (`local x=454..470, y=158..173`), then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
+- Invariants/QA: preserve both code blocks, the `TRAIN` / `VAL` annotations and line, and result `0.7616530991301577`; the patch touches only blank cell background. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-04-train-vs-validation-parts-cropped.png`.

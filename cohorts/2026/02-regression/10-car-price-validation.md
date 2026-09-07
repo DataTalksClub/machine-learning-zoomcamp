@@ -91,7 +91,7 @@ learned from.
 
 Looking at the code, we can see the two parts clearly:
 
-![The training part and the validation part of the code](images/10-car-price-validation-04-train-vs-validation-parts.jpg)
+![The training part and the validation part of the code](images/10-car-price-validation-04-train-vs-validation-parts-cropped.png)
 
 - The training part only touches the training dataset: we prepare the matrix and
   learn the weights.
