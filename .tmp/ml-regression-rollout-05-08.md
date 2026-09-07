@@ -219,3 +219,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-01-numerical-columns-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact dataframe output is source of truth. A wider crop retained an incomplete/cursor-obscured input command; the accepted output-only crop keeps the useful complete table and removes that artifact.
 - QA: final `960x410` PNG inspected visually; all visible labels and dtypes are crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 02
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-02-base-features.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact feature names and code are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x42+15+75` (`x=15, y=75, width=480, height=42`). This keeps the complete two-line `base` assignment and removes browser chrome, presenter webcam tile, previous-cell fragment, selected-cell border/cursor, headings, right black bar, and controls.
+- Invariants: preserve `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg`, `popularity`, list punctuation, and line continuation exactly.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-02-base-features-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code/token content must not be guessed. A taller crop retained a previous-cell fragment and green border; the accepted crop isolates the code cell.
+- QA: final `960x84` PNG inspected visually; all five feature names and syntax remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.

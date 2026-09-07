@@ -39,7 +39,7 @@ base = ['engine_hp', 'engine_cylinders', 'highway_mpg',
         'city_mpg', 'popularity']
 ```
 
-![Creating the list of base features](images/08-baseline-model-02-base-features.jpg)
+![Creating the list of base features](images/08-baseline-model-02-base-features-cropped.png)
 
 To get a subset of columns from a dataframe, we select the columns with
 this list and take the values as a NumPy array:
