@@ -37,3 +37,12 @@ This report records the five screenshots referenced by `cohorts/2026/05-deployme
 - Invariants: preserve the exact heading `5. Deploying Machine Learning models`; the prose about using the trained churn model as a web service; the `5.1 Intro / Session overview`, `5.2 Saving and loading the model`, and `5.3 Web services: introduction to Flask` headings; and every visible bullet in its original order.
 - Path: deterministic crop/export and blank-gap cursor cleanup from the original; final asset `cohorts/2026/05-deployment/images/01-intro-04-module-plan-continued-cropped.jpg`.
 - QA: source and candidate inspected in lesson context; exact editor text, apostrophes, punctuation, capitalization, and ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, recording overlay, black border, or bottom status bar remains; final dimensions `455x300`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 05 — nested deployment environments
+
+- Disposition: `crop/replace` via deterministic crop/export; this hand-drawn nesting diagram shows the service, Python dependencies, and system dependencies being wrapped layer by layer.
+- Source/context: `cohorts/2026/05-deployment/images/01-intro-05-environments.jpg`; caption: “The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything”.
+- Crop coordinates: source `540x360`; `432x312+24+12` (`x=24, y=12, width=432, height=312`). The crop removes the webcam tile, color-wheel overlay, recording controls, black borders, and unused frame area while keeping the complete nested drawing.
+- Invariants: preserve the nesting and exact labels `DOCKER`, `PIPENV`, `FLASK`, `CHURN PREDICTION MODEL`, `WEB SERVICE`, `ENVIRONMENT FOR PYTHON DEPS`, and `ENVIRONMENT — SYSTEM DEPENDENCIES`, including the outer-to-inner dependency relationship.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/05-deployment/images/01-intro-05-environments-cropped.jpg`.
+- QA: source and candidate inspected in lesson context; nested boxes, labels, and hierarchy preserved; no face, webcam, browser/Zoom chrome, cursor, color-wheel overlay, recording control, watermark, or black border remains; final dimensions `432x312`; lesson reference resolves; `git diff --check` passes before commit.
