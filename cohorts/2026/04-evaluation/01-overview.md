@@ -14,7 +14,7 @@ In this session we start module 4. In the previous module we trained a logistic 
 
 A metric is a function that compares the predictions with the actual values and outputs a single number that tells how good the predictions are.
 
-![The definition of a metric in the notebook](images/01-overview-03-metric-definition.jpg)
+![The definition of a metric in the notebook](images/01-overview-03-metric-definition-cropped.jpg)
 
 That is all a metric is: predictions go in, the true values go in, and one number comes out. Different metrics look at different aspects of the predictions, and picking the right one for the problem is the topic of this whole module.
 
