@@ -123,3 +123,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `165x215+135+145`, then 2× Lanczos resize and light unsharp masking. This focuses on the complete `make`, `model`, and selected `year` columns and removes browser/Zoom chrome, webcam tile, code-cell fragments, cursor, and clipped adjacent columns.
 - Invariants/QA: preserve the `year` header, rows 0–4 and 7145–7148, and all visible make/model/year values. Final `330x430` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or partial adjacent column; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-01-year-column-cropped.png`.
+
+### Screenshot 02 — car age calculation
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-02-car-age.jpg`.
+- Caption/context: “Computing the age of each car as 2017 minus year”; the lesson defines age as `2017 - year` and shows the resulting series.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the exact vector output demonstrates the transformation across the first and last rows.
+- Disposition: `crop/replace` via deterministic raster export; exact expression and values must remain unchanged, so imagegen was not used.
+- Crop: source `598x360`; `533x190+26+104`, then 2× Lanczos resize and light unsharp masking. This retains the complete expression and visible output while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
+- Invariants/QA: preserve `2017 - df_train.year`, rows 0–4 and 7145–7149, their age values, and `Name: year, Length: 7150, dtype: int64`. Final `1066x380` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-02-car-age-cropped.png`.

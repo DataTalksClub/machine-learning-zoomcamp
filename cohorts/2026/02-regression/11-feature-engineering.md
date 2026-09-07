@@ -28,7 +28,7 @@ are 0 years old, some are 9, some are 26:
 2017 - df_train.year
 ```
 
-![Computing the age of each car as 2017 minus year](images/11-feature-engineering-02-car-age.jpg)
+![Computing the age of each car as 2017 minus year](images/11-feature-engineering-02-car-age-cropped.png)
 
 This age is what we want to use as a feature in our model.
 
