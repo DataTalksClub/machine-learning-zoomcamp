@@ -29,3 +29,26 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   watermark, overlay, or black bar. The source itself truncates the dropdown
   below the visible lower edge; no missing lines were invented. Markdown
   reference resolves and `git diff --check` passes before commit.
+
+## 05 — decision tree parameter tuning, screenshot 02
+
+- Source: `cohorts/2026/06-trees/images/05-decision-tree-tuning-02-max-depth-scores.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the validation
+  AUC values and notebook expression are exact numeric content, so imagegen was
+  not used.
+- Crop coordinates: source `598x360`; `310x195+90+140` (`x=90, y=140,
+  width=310, height=195`). This focuses on the complete printed depth/AUC
+  output and the instructor's blue highlight, removing the notebook chrome,
+  presenter webcam tile, and lesson-frame material.
+- Invariants: preserve depths `1, 2, 3, 4, 5, 6, 10, 15, 20, None`, values
+  `0.606`, `0.669`, `0.739`, `0.761`, `0.766`, `0.762`, `0.683`, `0.672`,
+  `0.667`, `0.664`, and the highlighted 4–6 range.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/05-decision-tree-tuning-02-max-depth-scores-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  guessing numeric output would be unsafe. One crop was accepted.
+- QA: final `620x390` PNG inspected visually; all rows and values are readable,
+  with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay,
+  or black bar. Markdown reference resolves and `git diff --check` passes
+  before commit.
