@@ -22,7 +22,7 @@ That is all a metric is: predictions go in, the true values go in, and one numbe
 
 We keep working with the telco churn dataset from the previous module. Each row is a customer of a telecom company, and the target is the `churn` column: 1 if the customer left, 0 if they stayed. The dataset comes from [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn) (the link is also in the notes below).
 
-![The churn prediction scenario: the telco sends a promo email to the customers with a churn score of 0.5 or higher](images/01-overview-02-churn-scenario.jpg)
+![The churn prediction scenario: the telco sends a promo email to the customers with a churn score of 0.5 or higher](images/01-overview-02-churn-scenario-cropped.jpg)
 
 ## Recap: back to the trained model
 
