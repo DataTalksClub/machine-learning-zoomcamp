@@ -43,7 +43,7 @@ installation. Alternatively, use pip:
 %pip install tensorflow
 ```
 
-![Installing TensorFlow with conda from a notebook cell](images/02-tensorflow-keras-02-install-tensorflow.jpg)
+![Installing TensorFlow with conda from a notebook cell](images/02-tensorflow-keras-02-install-tensorflow-cropped.png)
 
 If you don't have a GPU on your computer, this is all you need. With a
 GPU the setup is a bit more involved. I'm not an expert in that - I
