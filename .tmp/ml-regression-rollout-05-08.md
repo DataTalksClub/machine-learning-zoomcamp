@@ -79,3 +79,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-01-g-x-approx-y-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because the equation, labels, and arrow relationships are exact instructional content. Two crop adjustments removed the cursor while keeping `LINEAR REGRESSION` uncropped.
 - QA: final `830x680` PNG inspected visually; formula, labels, arrows, and relationships remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 02
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-02-dot-product-notation.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the exact handwritten formulas are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `450x300+50+20` (`x=50, y=20, width=450, height=300`). This removes the recording marker, presenter webcam tile, right black bar, bottom controls, and unused frame edges while preserving both formula lines and the blue summation box.
+- Invariants: preserve `g(x_i) = w_0 + \sum_{j=1}^{n} x_{ij}·w_j` and the equivalent `= w_0 + x_i^T w`, including all limits, subscripts, superscript `T`, and equality signs.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-02-dot-product-notation-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact mathematical notation is the source of truth; one crop was accepted after visual inspection.
+- QA: final `900x600` PNG inspected visually; both equations and the explanatory blue box are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.

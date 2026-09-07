@@ -31,7 +31,7 @@ with the vector of weights:
 
 $$g(x_i) = w_0 + x_i^T w$$
 
-![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation.jpg)
+![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation-cropped.png)
 
 This notation is more compact, so let's implement it. We already have the
 `linear_regression` function; let's first extract the sum into a function of
