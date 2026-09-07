@@ -126,7 +126,7 @@ array([[ 1, 20,  3],
        [ 7,  8,  9]])
 ```
 
-![Accessing and changing an element of a two-dimensional array](images/07-numpy-03-two-d-arrays.jpg)
+![Accessing and changing an element of a two-dimensional array](images/07-numpy-03-two-d-arrays-cropped.png)
 
 If we pass only one index, we get an entire row:
 

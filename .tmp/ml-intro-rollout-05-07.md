@@ -132,6 +132,15 @@
 - Invariants: `a = np.array([1, 2, 3, 5, 7, 12])`; output `[1, 2, 3, 5, 7, 12]`; `a[2] = 10`; final output `[1, 2, 10, 5, 7, 12]`; blue instructional circle around index `2`
 - Validation: passed visual review; code, values, and annotation remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 03 — two-d-arrays
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-03-two-d-arrays.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-03-two-d-arrays-cropped.png`
+- Crop: `500×290+0+70` (removes browser frame and webcam tile; retains the matrix construction, index assignment, outputs, and notebook toolbar)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code, matrix values, and output are the source of truth
+- Invariants: `n = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])`; `n[0, 1] = 20`; output begins `[[1, 20, 3], [4, 5, 6], [7, 8, 9]]`; blue instructional marks
+- Validation: passed visual review; code, values, and annotations remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
