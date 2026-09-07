@@ -84,3 +84,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact notebook UI and code are the source of truth
 - Invariants: Jupyter toolbar; `JupyterLab`; `Python 3 (ipykernel)` context; `import pandas as pd`; notebook cell area
 - Validation: passed visual review; exact code and UI labels are readable; no face, camera tile, browser tab/address chrome, watermark, recording overlay, or black border
+
+### 06 — homework-notebook
+
+- Source: `cohorts/2026/01-intro/images/06-environment-06-homework-notebook.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-06-homework-notebook-cropped.png`
+- Crop: `510×360+0+0` (removes the webcam tile at the right edge; retains VS Code, notebook, code cell, and terminal)
+- Path: deterministic lossless PNG crop; imagegen not used because exact notebook/terminal UI, code, URL, and output are the source of truth
+- Invariants: `homework.ipynb`; `import pandas as pd`; `pd.read_csv(...)` cell; terminal with Jupyter server/token context; Codespaces/VS Code context
+- Validation: passed visual review; exact code and terminal output remain readable; no face, camera tile, recording/browser overlay, watermark, or black border

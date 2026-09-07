@@ -60,7 +60,7 @@ It starts remotely on the codespace, but you can use it locally. VS Code automat
 
 That's it - you have a working environment: create a folder like `01-intro`, create a notebook, `import pandas as pd` and you are ready. For the homework you will typically read a CSV file with `pd.read_csv(...)`, finish the notebook, rename it to something like `homework.ipynb`, commit it, push it, and submit the URL of your repository in the homework form.
 
-![Working on the homework in a notebook inside the codespace](images/06-environment-06-homework-notebook.jpg)
+![Working on the homework in a notebook inside the codespace](images/06-environment-06-homework-notebook-cropped.png)
 
 ## Ubuntu 22.04 on AWS
 
