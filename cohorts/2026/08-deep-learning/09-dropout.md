@@ -87,7 +87,7 @@ def make_model(learning_rate=0.01, size_inner=100, droprate=0.5):
     return model
 ```
 
-![Version 3 of the model: vectors, inner Dense(100), dropout, Dense(10) outputs](images/09-dropout-04-v3-diagram.jpg)
+![Version 3 of the model: vectors, inner Dense(100), dropout, Dense(10) outputs](images/09-dropout-04-v3-diagram-imagegen.png)
 
 ## Experimenting with droprate
 
