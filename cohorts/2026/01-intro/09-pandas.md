@@ -343,7 +343,7 @@ Note that these operations don't modify the Series - they return a new Series wi
 
 Here we use the assignment operator to overwrite the column with this clean version, and now the values in the DataFrame are uniform.
 
-![The Vehicle_Style column after lowercasing and replacing spaces](images/09-pandas-05-string-operations.jpg)
+![The Vehicle_Style column after lowercasing and replacing spaces](images/09-pandas-05-string-operations-cropped.png)
 
 ## Summarizing operations
 

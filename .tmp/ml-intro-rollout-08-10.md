@@ -116,3 +116,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: `df['Make'] == 'Nissan'`; two Nissan rows; combined condition `(df['Make'] == 'Nissan') & (df['Year'] >= 2015)`; all visible headers and values
 - Output: `cohorts/2026/01-intro/images/09-pandas-04-filtering-cropped.png`
 - Validation: accepted after visual inspection; boolean conditions, selected rows, headers, and values are unchanged; face, camera tile, browser chrome, and recording controls are absent.
+
+### 05 — string operations
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-05-string-operations.jpg`
+- Disposition: deterministic crop, editor-caret mask, and 2x Lanczos raster conversion
+- Crop: `560x225+15+105`; caret mask in resized crop: `296,142` to `318,181`
+- Invariants: normalized `Vehicle_Style` values `sedan`, `sedan`, `convertible`, `4dr_suv`, `pickup`; all five rows and visible DataFrame columns
+- Output: `cohorts/2026/01-intro/images/09-pandas-05-string-operations-cropped.png`
+- Validation: accepted after visual inspection; exact normalized values and table content are unchanged; face, camera tile, browser chrome, and editor caret are absent.
