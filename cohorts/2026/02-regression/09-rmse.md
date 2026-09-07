@@ -50,7 +50,7 @@ the corresponding actual value:
 10 - 11.5 = -1.5
 ```
 
-![Taking the differences between predictions and actual values](images/09-rmse-03-differences.jpg)
+![Taking the differences between predictions and actual values](images/09-rmse-03-differences-cropped.png)
 
 Next, we square each difference:
 

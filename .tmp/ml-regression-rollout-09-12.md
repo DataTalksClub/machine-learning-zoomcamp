@@ -31,3 +31,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `482x343+23+0`, then 2× Lanczos resize and light unsharp masking. This removes the recording marker, webcam tile, black side frame, and bottom controls while retaining the complete diagram.
 - Invariants/QA: preserve `g(x_i)-y_i`, `PRED`, `PRICE`, `y-pred`, `y-train`, values `10, 9, 11, …, 10` and `9, 9, 10.5, …, 11.5`, and their row alignment. Final `964x686` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/09-rmse-02-predictions-vs-actual-prices-cropped.png`.
+
+### Screenshot 03 — differences
+
+- Source: `cohorts/2026/02-regression/images/09-rmse-03-differences.jpg`.
+- Caption/context: “Taking the differences between predictions and actual values”; the next worked-example step turns the paired rows into four errors.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the third row of values and the resulting error row make the elementwise subtraction concrete.
+- Disposition: `crop/replace` via deterministic raster export; exact notation and values must remain unchanged, so imagegen was not used.
+- Crop: source `598x360`; `525x343+23+0`, then a deterministic blank-board mask over only the webcam rectangle (`local x=482..524, y=0..70`), 2× Lanczos resize, and light unsharp masking. The wider crop is needed to keep the final `-1.5` cell complete.
+- Invariants/QA: preserve the formula, both input rows, the error row `1, 0, 0.5, …, -1.5`, and row alignment. Final `1050x686` PNG inspected; the mask touches only blank board behind the camera, and no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border remains. Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/09-rmse-03-differences-cropped.png`.
