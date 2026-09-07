@@ -123,6 +123,15 @@
 - Invariants: `np.ones(10)` and all ten `1.` values; `np.full(10, 2.5)` and all ten `2.5` values; visible zeros output; `Multi-dimensional arrays` context
 - Validation: passed visual review; code and numeric output remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 02 — array-from-list
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-02-array-from-list.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-02-array-from-list-cropped.png`
+- Crop: `500×240+0+90` (removes browser frame and webcam tile; retains the NumPy cells and outputs)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and output are the source of truth
+- Invariants: `a = np.array([1, 2, 3, 5, 7, 12])`; output `[1, 2, 3, 5, 7, 12]`; `a[2] = 10`; final output `[1, 2, 10, 5, 7, 12]`; blue instructional circle around index `2`
+- Validation: passed visual review; code, values, and annotation remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)

@@ -66,7 +66,7 @@ And we can use the assignment operator to change it - say, replace 3 with 10:
 array([ 1,  2, 10,  5,  7, 12])
 ```
 
-![Creating an array from a list and changing an element by index](images/07-numpy-02-array-from-list.jpg)
+![Creating an array from a list and changing an element by index](images/07-numpy-02-array-from-list-cropped.png)
 
 Two more useful functions for creating arrays. `arange` creates a range of numbers - it works like the Python function `range`, except instead of an iterator it gives us a NumPy array. The last element is exclusive:
 
