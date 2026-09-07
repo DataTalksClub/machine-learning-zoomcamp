@@ -185,7 +185,7 @@ pay for every millisecond the function runs, multiplied by the amount
 of memory. The pricing page has a table with the price per 1ms for
 each memory setting.
 
-![The AWS Lambda pricing page for Europe (Ireland): price per 1ms by memory](images/06-creating-lambda-07-lambda-pricing.jpg)
+![The AWS Lambda pricing page for Europe (Ireland): price per 1ms by memory](images/06-creating-lambda-07-lambda-pricing-cropped.png)
 
 Our function is configured with 1024 MB of memory - in my test run it
 actually used at most 270 MB - and takes about two seconds to classify

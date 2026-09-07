@@ -134,3 +134,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 from the success source; exact duration, billed duration, memory, and max-memory values were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
 - **Validation:** output inspected; `Duration 2226.24 ms`, `1024 MB`, and `270 MB` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 06-creating-lambda-07-lambda-pricing.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-07-lambda-pricing-cropped.png`
+- **Teaching point:** the AWS Lambda Europe (Ireland) pricing table shows the price per millisecond for each memory setting.
+- **Source inspection:** the original filename is swapped with the preceding success asset; the pricing capture is `06-creating-lambda-06-test-success.jpg` (592×360). Crop `+0+50 550×268` removes the browser bar, webcam tile, and side frame while retaining the region, memory, and price table.
+- **Method:** deterministic Lanczos upscale to 1100×536 from the pricing source; exact table values and highlighted 1024 MB row were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
+- **Validation:** output inspected; `Europe (Ireland)`, `Memory (MB)`, `Price per 1ms`, and the highlighted `1024` row remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
