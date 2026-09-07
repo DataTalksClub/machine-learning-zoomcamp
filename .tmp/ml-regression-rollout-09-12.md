@@ -91,3 +91,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x90+26+176`, then 2× Lanczos resize and light unsharp masking. This keeps only the complete `prepare_X` cell and removes browser/Zoom chrome, webcam tile, lesson headings, cursor, and recording frame.
 - Invariants/QA: preserve `def prepare_X(df)`, `df[base]`, `fillna(0)`, `.values`, and `return X` exactly. Final `1066x180` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/10-car-price-validation-02-prepare-x-function-cropped.png`.
+
+### Screenshot 03 — train and validate
+
+- Source: `cohorts/2026/02-regression/images/10-car-price-validation-03-train-and-validate.jpg`.
+- Caption/context: “Training the model and computing the RMSE on the validation set”; the section contrasts preparation/training on `df_train` with prediction and RMSE on `df_val`.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the consecutive notebook cells show the full train/validation handoff and its measured result.
+- Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x207+26+82`, then 2× Lanczos resize and light unsharp masking. This retains the complete helper/training/validation cells and result while removing browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
+- Invariants/QA: preserve `prepare_X`, `train_linear_regression`, `df_train`, `df_val`, `rmse(y_val, y_pred)`, and `0.7616530991301577`. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-03-train-and-validate-cropped.png`.

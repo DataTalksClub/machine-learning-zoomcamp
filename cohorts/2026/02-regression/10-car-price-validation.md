@@ -83,7 +83,7 @@ This gives us:
 0.7616530991301577
 ```
 
-![Training the model and computing the RMSE on the validation set](images/10-car-price-validation-03-train-and-validate.jpg)
+![Training the model and computing the RMSE on the validation set](images/10-car-price-validation-03-train-and-validate-cropped.png)
 
 The number is pretty similar to what we had on the training data. That is what
 we want to see: the model behaves on unseen data about as well as on the data it
