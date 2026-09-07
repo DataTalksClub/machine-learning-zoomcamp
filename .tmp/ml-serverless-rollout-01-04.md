@@ -148,3 +148,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×430 with light sharpening; exact code and source warning text were preserved. The lower log output was intentionally excluded because it is not needed for the caption.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `TFLiteConverter`, `converter.convert()`, and `clothing-model.tflite` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-04-model-sizes.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-04-model-sizes-cropped.png`
+- **Teaching point:** the converted TF-Lite model is present as `clothing-model.tflite` at 81M versus the original Keras model at 83M.
+- **Source inspection:** 592×360; deterministic crop `+0+30 500×306` removes browser chrome, webcam tile, and right-side black frame while retaining the exact `ls -lh` output.
+- **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; filenames and size values were preserved. The source's native text selection highlight remains because removing it safely would alter exact terminal/notebook pixels.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `83M`, `81M`, and both model filenames remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
