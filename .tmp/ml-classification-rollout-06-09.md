@@ -68,3 +68,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact DictVectorizer calls and shape `(4225, 45)` retained.
   - Crop: `480x225+25+35`; removes notebook/recording chrome and camera tile.
   - Invariants: import, fit/transform sequence, and displayed shape checked; long source lines remain clipped at the original frame edge rather than being guessed or regenerated.
+
+- `08-ohe-04-feature-names.jpg` →
+  `08-ohe-04-feature-names-cropped.png`
+  - Disposition: deterministic crop; exact feature-name output retained.
+  - Crop: `480x325+25+35`; removes notebook/recording chrome and camera tile.
+  - Invariants: `get_feature_names()` call and visible ordered names checked; the list remains truncated at the original bottom edge, as in the source frame.

@@ -121,7 +121,7 @@ X_train.shape
 4225 is the number of rows in the training set, 45 is the number of
 features after encoding.
 
-![The feature names created by DictVectorizer: one column per category value such as contract=two_year or internetservice=fiber_optic, plus the numerical columns](images/08-ohe-04-feature-names.jpg)
+![The feature names created by DictVectorizer: one column per category value such as contract=two_year or internetservice=fiber_optic, plus the numerical columns](images/08-ohe-04-feature-names-cropped.png)
 
 ## Encoding the validation set
 
