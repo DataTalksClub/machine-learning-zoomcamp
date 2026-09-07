@@ -88,7 +88,7 @@ totalcharges                      1840.75             151.65
 churn                                  no                 yes
 ```
 
-![Looking at the data with head().T to see all the columns](images/02-data-preparation-02-first-look.jpg)
+![Looking at the data with head().T to see all the columns](images/02-data-preparation-02-first-look-cropped.png)
 
 ## Making everything uniform
 

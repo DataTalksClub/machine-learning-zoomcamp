@@ -39,3 +39,13 @@
 - Invariants: visible download completion output includes `HTTP request sent, awaiting response... 200 OK`, `Saving to: ‘data-week-3.csv’`, `data-week-3.csv`, `954.59K`, and `[977501/977501]`; notebook cell shows `pd.read_csv(...)`; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/02-data-preparation-01-download-data-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size; exact output values, filename, and notebook code checked; capture overlays removed; Markdown reference resolves.
+
+## 05 — data preparation: first look at the transposed dataframe
+
+- Source: `cohorts/2026/03-classification/images/02-data-preparation-02-first-look.jpg` (598×360 JPEG).
+- Context/caption: “Looking at the data with head().T to see all the columns.” This image teaches how transposing the dataframe exposes the feature rows and their values across five sample customers.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The dataframe labels and values are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` in `.tmp/ml-classification-rollout-02-data-preparation-crops/02-candidate.png` removes the browser/notebook header, webcam tile, and right black capture bar. The visible transposed dataframe rows and five sample columns are retained; the source’s cropped lower edge is retained.
+- Invariants: row order and labels remain `customerID`, `gender`, `SeniorCitizen`, `Partner`, `Dependents`, `tenure`, `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, and `StreamingMovies`; visible sample IDs remain `7590-VHVEG`, `5575-GNVDE`, `3668-QPYBK`, `7795-CFOCW`, and `9237-HQITU`; values retain source capitalization and spaces, including `No phone service`, `DSL`, and `Fiber optic`; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/02-data-preparation-02-first-look-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; row ordering, labels, sample IDs, and visible values checked against the source; capture overlays removed; Markdown reference resolves.
