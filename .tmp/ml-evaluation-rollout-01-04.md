@@ -107,3 +107,12 @@
 - Invariants: `from collections import Counter`, `Counter(y_pred >= 1.0)`, exact output `Counter({False: 1409})`, and the `4.3 Confusion table` heading with both bullets remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-05-dummy-counter-cropped.jpg`
 - QA: accepted after visual inspection; exact code, result, heading, and bullets remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×195` output renders cleanly.
+
+## 06 — dummy-model accuracy notebook
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-06-dummy-accuracy.jpg`
+- Disposition: accepted deterministic crop with a bounded background patch; exact notebook code and numeric result are retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar. Post-crop cursor cleanup: white rectangle `x=105..119, y=162..181`, limited to blank page background left of the `4.3 Confusion table` bullets.
+- Invariants: `Counter(y_pred >= 1.0)` with `Counter({False: 1409})`, `1 - y_val.mean()`, exact output `0.7260468417317246`, the `4.3 Confusion table` heading and bullets, and the `4.4 Precision and Recall` heading remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-06-dummy-accuracy-cropped.jpg`
+- QA: accepted after visual inspection; exact code, outputs, headings, and bullets remain legible; the cursor is absent; no face, camera tile, browser/Zoom chrome, watermark, overlay, or black bar remains; `577×292` output renders cleanly.

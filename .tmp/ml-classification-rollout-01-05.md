@@ -59,3 +59,13 @@
 - Invariants: row order remains `customerid`, `gender`, `seniorcitizen`, `partner`, `dependents`, `tenure`, `phoneservice`, `multiplelines`, `internetservice`, `onlinesecurity`, `onlinebackup`, `deviceprotection`, `techsupport`, `streamingtv`, `streamingmovies`, and `contract`; visible values remain normalized, including `no_phone_service`, `fiber_optic`, and `month-to-month`; source’s native dataframe row highlighting/selection is retained without capture framing; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/02-data-preparation-03-normalized-cropped.png` (550×308 PNG).
 - QA: accepted after `view_image` inspection at lesson size; lowercase labels, underscore substitutions, visible values, and row ordering checked against the source; capture framing removed; Markdown reference resolves.
+
+## 07 — data preparation: totalcharges conversion error
+
+- Source: `cohorts/2026/03-classification/images/02-data-preparation-04-totalcharges-error.jpg` (598×360 JPEG).
+- Context/caption: “Converting totalcharges to numbers fails because of the `_` values.” This image teaches that `pd.to_numeric(df.totalcharges)` fails when normalized missing values are represented by the underscore string.
+- Rubric/disposition: keep — deterministic crop plus targeted cursor cleanup and lossless PNG export. The code, exception text, and stack trace are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` in `.tmp/ml-classification-rollout-02-data-preparation-crops/04-candidate.png` removes the browser/notebook header, webcam tile, and right black capture bar. A source cursor over the underscore in the error string was removed deterministically in the bounded crop rectangle `x=306..313, y=143..156` relative to the crop, and the exact underscore glyph was restored; the correction candidate is `.tmp/ml-classification-rollout-02-data-preparation-crops/04-cursor-clean-candidate.png`.
+- Invariants: code cell remains `pd.to_numeric(df.totalcharges)`; the error remains `ValueError: Unable to parse string "_" at position 488`; the visible pandas traceback and error hierarchy remain in place; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/02-data-preparation-04-totalcharges-error-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size and a zoomed cursor-area inspection; exact code and error message checked, restored underscore is legible, capture overlays removed, and Markdown reference resolves.

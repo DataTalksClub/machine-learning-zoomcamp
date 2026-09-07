@@ -115,7 +115,7 @@ What accuracy does this dummy model get? The answer is the fraction of customers
 
 This gives `0.7260468417317246` - 73%.
 
-![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy.jpg)
+![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy-cropped.jpg)
 
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
 

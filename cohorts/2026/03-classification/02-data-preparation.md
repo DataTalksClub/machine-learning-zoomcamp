@@ -144,7 +144,7 @@ This fails:
 ValueError: Unable to parse string "_" at position 488
 ```
 
-![Converting totalcharges to numbers fails because of the "_" values](images/02-data-preparation-04-totalcharges-error.jpg)
+![Converting totalcharges to numbers fails because of the "_" values](images/02-data-preparation-04-totalcharges-error-cropped.png)
 
 The reason: in the original data, missing values in this column were
 encoded with a space. Our normalization step replaced spaces with
