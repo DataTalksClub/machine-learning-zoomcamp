@@ -111,7 +111,7 @@ The previous result was 0.5172, and now we get:
 It improved only slightly - the improvement is almost negligible. The number of
 doors feature is not that useful.
 
-![The RMSE after adding the door features: 0.5158, almost no improvement](images/12-categorical-variables-04-doors-rmse.jpg)
+![The RMSE after adding the door features: 0.5158, almost no improvement](images/12-categorical-variables-04-doors-rmse-cropped.png)
 
 ## Adding the make
 

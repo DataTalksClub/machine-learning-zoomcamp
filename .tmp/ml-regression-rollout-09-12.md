@@ -206,6 +206,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve `base.copy()`, age creation, loop values `[2, 3, 4]`, comparison expression, `astype('int')`, and both feature-name expressions. Final `1066x280` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-03-doors-loop-cropped.png`.
 
+### Screenshot 04 — RMSE after adding door features
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-04-doors-rmse.jpg`.
+- Caption/context: “The RMSE after adding the door features: 0.5158, almost no improvement”; the prose compares this value with the prior `0.5172` result.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the exact validation output supports the lesson's conclusion that doors add little.
+- Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x155+26+130`, then 2× Lanczos resize and light unsharp masking. This keeps the complete validation cell and result while removing browser/Zoom chrome, webcam tile, preceding incomplete code, next heading, and recording frame.
+- Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and `0.5157995641502978`. Final `1066x310` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-04-doors-rmse-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.
