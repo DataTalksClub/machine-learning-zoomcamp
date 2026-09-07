@@ -34,3 +34,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `01-credit-risk-05-module-plan-cropped.png`: deterministic crop
   `(x=0, y=35, width=500, height=320)` retained the exact notebook headings
   and bullets for sections 6.3 and 6.4 while removing browser/camera chrome.
+- `02-data-prep-01-download-data.jpg` →
+  `02-data-prep-01-download-data-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact download result,
+  `head` command, and CSV rows; browser/camera chrome was removed.

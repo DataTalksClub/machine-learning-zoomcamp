@@ -37,7 +37,7 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 The file is small (~178K), so it downloads quickly. Let's peek inside
 with `head`:
 
-![Downloading CreditScoring.csv and looking at the raw file](images/02-data-prep-01-download-data.jpg)
+![Downloading CreditScoring.csv and looking at the raw file](images/02-data-prep-01-download-data-cropped.png)
 
 ```text
 "Status","Seniority","Home","Time","Age","Marital","Records","Job","Expenses","Income","Assets","Debt","Amount","Price"
