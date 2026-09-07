@@ -131,7 +131,7 @@ First, call `predict` directly with the URL of a pants picture:
 lambda_function.predict('http://bit.ly/mlbookcamp-pants')
 ```
 
-![Testing the script in IPython: predict returns the dictionary of scores](images/04-preparing-code-05-test-in-ipython.jpg)
+![Testing the script in IPython: predict returns the dictionary of scores](images/04-preparing-code-05-test-in-ipython-cropped.png)
 
 It works: it fetches the image, prepares it, makes the prediction, and
 converts the prediction to the dictionary form. We see the scores we

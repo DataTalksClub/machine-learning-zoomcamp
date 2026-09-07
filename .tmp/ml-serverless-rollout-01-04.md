@@ -229,3 +229,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1104×440 with light sharpening; exact visible code was preserved. The long `output_index` line remains limited by the original viewport edge.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `predict(url)`, `from_url`, `set_tensor`, `invoke`, `get_tensor`, and the return dictionary remain readable; no face/camera/recording overlay or autocomplete popup remains; Markdown reference resolves.
+
+## 04-preparing-code-05-test-in-ipython.jpg
+
+- **Disposition:** `crop/replace` → `images/04-preparing-code-05-test-in-ipython-cropped.png`
+- **Teaching point:** importing `lambda_function` and calling `predict` returns the expected dictionary of clothing scores, with `pants` highest.
+- **Source inspection:** 592×360; deterministic crop `+0+0 500×336` removes the webcam tile, black frame, and bottom editor status bar while retaining the terminal output and values.
+- **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact URL, class names, and scores were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; IPython command, all class scores, and highest `pants` value remain readable; no face/camera/recording overlay remains. A small native pointer over the URL remains; Markdown reference resolves.
