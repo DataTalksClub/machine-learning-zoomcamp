@@ -122,3 +122,28 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   crisp, with no face, camera tile, browser/Zoom chrome, cursor, watermark,
   output-text fragment, or black bar. Markdown reference resolves and
   `git diff --check` passes before commit.
+
+## 05 — decision tree parameter tuning, screenshot 06
+
+- Source: `cohorts/2026/06-trees/images/05-decision-tree-tuning-06-nan-warning.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; this is an exact
+  sorted dataframe with a `NaN` value and validation AUCs, so imagegen was not
+  used.
+- Crop coordinates: source `598x360`; `360x140+85+90` (`x=85, y=90,
+  width=360, height=140`). This isolates the full five-row sorted table and
+  removes the notebook code cells, presenter webcam tile, browser chrome, and
+  lower frame material.
+- Invariants: preserve headers `max_depth`, `min_samples_leaf`, `auc`; rows
+  `40/10.0/15/0.790439`, `67/NaN/15/0.788356`, `58/20.0/15/0.788074`,
+  `41/10.0/20/0.786370`, and `49/15.0/15/0.785389` exactly.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/05-decision-tree-tuning-06-nan-warning-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  exact numeric output and `NaN` must not be guessed. A shorter crop was
+  rejected because it clipped the fifth row; the accepted crop keeps the full
+  table and only the notebook cell border at the lower edge.
+- QA: final `720x280` PNG inspected visually; headers, `NaN`, row order, and
+  values remain crisp, with no face, camera tile, browser/Zoom chrome, cursor,
+  watermark, or black bar. Markdown reference resolves and `git diff --check`
+  passes before commit.

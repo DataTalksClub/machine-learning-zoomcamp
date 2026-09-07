@@ -179,7 +179,7 @@ that don't make sense, like `nan` creeping into the grid. A
 combination can show a good score by accident - check that the values
 you pick actually control the size of the tree the way you intend.
 
-![Sorting by AUC puts a row with max_depth=NaN on top](images/05-decision-tree-tuning-06-nan-warning.jpg)
+![Sorting by AUC puts a row with max_depth=NaN on top](images/05-decision-tree-tuning-06-nan-warning-cropped.png)
 
 ## Materials
 
