@@ -52,7 +52,7 @@ fn = (predict_negative & actual_positive).sum()
 
 For our model this gives tp = 210, tn = 922, fp = 101 and fn = 176 - and indeed 210 + 922 + 101 + 176 = 1409, all customers accounted for.
 
-![The four groups in the validation set: 922 true negatives, 101 false positives, 176 false negatives and 210 true positives](images/03-confusion-table-04-confusion-counts.jpg)
+![The four groups in the validation set: 922 true negatives, 101 false positives, 176 false negatives and 210 true positives](images/03-confusion-table-04-confusion-counts-cropped.jpg)
 
 ## The table
 

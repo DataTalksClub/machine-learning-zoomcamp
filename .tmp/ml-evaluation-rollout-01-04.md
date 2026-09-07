@@ -161,3 +161,12 @@
 - Invariants: the actual-positive/actual-negative definitions, threshold `t = 0.5`, `predict_positive`/`predict_negative`, `tp = (predict_positive & actual_positive).sum()`, `tn = (predict_negative & actual_negative).sum()`, the visible `fp`/`fn` cell, output `922`, and the `4.4 Precision and Recall` heading remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-03-and-operator-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact code, ampersands, output, and cell structure remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
+
+## 04 — confusion counts whiteboard
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-04-confusion-counts.jpg`
+- Disposition: accepted deterministic crop plus bounded blank-board cleanup; exact handwritten counts, regions, labels, and conditions retained, so imagegen was not used.
+- Crop coordinates: `x=27, y=0, width=522, height=340` from the 598×360 source; removes the left/right black frame bars and bottom-left recording controls. Post-crop cleanup fills only blank board space with `srgb(246,246,220)`: `x=0..76, y=0..101` removes the partial recording wheel, `x=478..521, y=0..54` removes the webcam tile, `x=390..403, y=288..305` removes the cursor, and `x=0..3, y=102..339` removes the residual black frame edge.
+- Invariants: the green/red TN/FP/FN/TP regions, counts `922`, `101`, `176`, and `210`, and all four condition annotations `g(x_i)<t & y=0`, `g(x_i)>=t & y=0`, `g(x_i)>=t & y=1`, and `g(x_i)<t & y=1` remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-04-confusion-counts-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact counts, labels, arrows, regions, and conditions remain legible, and no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black frame bar remains; `522×340` output renders cleanly.
