@@ -51,7 +51,7 @@ between size, accuracy and speed.
 Before I was running TensorFlow locally, but now let me use SageMaker.
 I created an instance there - this instance type has a GPU:
 
-![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu.jpg)
+![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu-cropped.png)
 
 A GPU is needed if you want to run things faster. You can run on your
 usual processor (CPU), but it will be around 8 times slower. GPUs are
