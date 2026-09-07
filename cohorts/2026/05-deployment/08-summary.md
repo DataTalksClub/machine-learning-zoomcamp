@@ -39,7 +39,7 @@ To summarize the whole module in one list:
 - Package it in Docker
 - Deploy to the cloud (AWS Elastic Beanstalk)
 
-![The whole module in one list, from the lesson plan](images/08-summary-03-summary-list.jpg)
+![The whole module in one list, from the lesson plan](images/08-summary-03-summary-list-cropped.png)
 
 The [next unit](09-explore-more.md) has no video - it lists other tools you
 can try on your own. After that there will be homework, where you will deploy
