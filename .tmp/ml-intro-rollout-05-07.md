@@ -159,6 +159,15 @@
 - Invariants: `np.random.seed(2)`; `np.random.rand(5, 2)`; all five rows and two columns of output; `Randomly generated arrays` / `Element-wise operations` headings
 - Validation: passed visual review; code and all numeric values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 06 — element-wise
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-06-element-wise.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-06-element-wise-cropped.png`
+- Crop: `500×200+0+100` (removes browser frame and webcam tile; retains the element-wise heading, array construction, multiplication, exact outputs, and next-section context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and numeric output are the source of truth
+- Invariants: `a = np.arange(5)`; output `[0, 1, 2, 3, 4]`; `a * 2`; output `[0, 2, 4, 6, 8]`; `Element-wise operations` / `Comparison operations` headings
+- Validation: passed visual review; code and values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)

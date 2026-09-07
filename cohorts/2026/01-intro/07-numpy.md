@@ -240,7 +240,7 @@ If it was a usual Python list, we wouldn't be able to do this - we would need to
 array([0, 2, 4, 6, 8])
 ```
 
-![Adding and multiplying all elements of an array at once](images/07-numpy-06-element-wise.jpg)
+![Adding and multiplying all elements of an array at once](images/07-numpy-06-element-wise-cropped.png)
 
 This is exactly what we did when we multiplied the random array by 100. And of course we can also divide, subtract, and do everything else we want. We can even chain operations:
 
