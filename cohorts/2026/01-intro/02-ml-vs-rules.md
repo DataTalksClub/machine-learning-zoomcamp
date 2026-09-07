@@ -63,7 +63,7 @@ Our example has six features. Each of them can only take two values - true or fa
 
 Now we can encode every email as a vector of feature values. For the spam email below: the title is longer than 10 characters (1), the body is long (1), the sender is not `promotions@online.com` (0), it is not the hard-to-read sender (0), the sender domain is "test.com" (1), and the body contains the word "deposit" (1). And because the user marked this email as spam, the target is 1.
 
-![Encoding an email as a vector of features](images/02-ml-vs-rules-05-encode-email.jpg)
+![Encoding an email as a vector of features](images/02-ml-vs-rules-05-encode-email-imagegen-pilot.png)
 
 We do this for every email until we have a dataset: the feature values for each email plus the target variable - spam or not spam.
 

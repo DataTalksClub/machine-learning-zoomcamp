@@ -46,6 +46,19 @@ remain in place; accepted replacements are sibling assets.
   the `Rules` cue checked verbatim; face, webcam, browser/Zoom chrome,
   cursor, watermark, toolbar, and recording overlays absent.
 
+### 02-ml-vs-rules-05-encode-email.jpg
+
+- Disposition: `imagegen`; the email-to-vector mapping is the lesson's key
+  feature-encoding example.
+- Invariant: email content and `SPAM` badge; `Sender
+  promotions@online.com? False`; exact vector `[1, 1, 0, 0, 1, 1]`; arrow
+  from the sender feature to the vector.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `02-ml-vs-rules-05-encode-email-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; email labels, vector
+  values/order, badge, and mapping checked; face, webcam, browser/Zoom
+  chrome, cursor, watermark, toolbar, and recording overlays absent.
+
 ### 02-ml-vs-rules-02-rules.jpg
 
 - Disposition: `imagegen`; the three hard-coded rules are the lesson's
