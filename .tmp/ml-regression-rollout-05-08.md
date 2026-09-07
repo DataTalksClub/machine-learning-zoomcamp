@@ -129,3 +129,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-06-matrix-vector-multiplication-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact matrix notation is the source of truth. A wider crop retained a black frame edge; the accepted crop starts at `x=35` while keeping the row labels visible.
 - QA: final `940x600` PNG inspected visually; matrix and weight vector are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black frame edge. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 07
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-07-x-dot-w-new.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact matrix code, values, and predictions are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; matrix/output crop `480x150+15+90` (`x=15, y=90, width=480, height=150`) plus selected-cell code/output crop `360x53+125+252` (`x=125, y=252, width=360, height=53`) aligned below it. This removes browser chrome, presenter webcam tile, lesson heading, selected-cell border, right black bar, and frame controls.
+- Invariants: preserve `x1`, `x2`, `x10`, the matrix construction `X = [x1, x2, x10]; X = np.array(X)`, the displayed matrix values, `def linear_regression(X): return X.dot(w_new)`, and `array([12.38, 13.552, 12.312])`.
+- Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-07-x-dot-w-new-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code, matrix values, and predictions must not be guessed. A single crop retained the selected green border and clipped preceding code; the accepted two-region export removes the border and keeps all required matrix/prediction content.
+- QA: final `960x406` PNG inspected visually; code, matrix, and prediction array remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.

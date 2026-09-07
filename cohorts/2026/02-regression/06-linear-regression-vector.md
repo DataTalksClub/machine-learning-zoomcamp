@@ -180,7 +180,7 @@ array([12.38 , 13.552, 12.312])
 
 For each of the three cars we get a prediction - the price for that car:
 
-![Building the matrix X and computing all predictions with one multiplication](images/06-linear-regression-vector-07-x-dot-w-new.jpg)
+![Building the matrix X and computing all predictions with one multiplication](images/06-linear-regression-vector-07-x-dot-w-new-cropped.png)
 
 So this is linear regression. To summarize how we got here: we started with a
 for loop for one car, recognized that it is a dot product between the vector of
