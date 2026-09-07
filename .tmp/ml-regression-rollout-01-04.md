@@ -98,3 +98,12 @@
 - Invariants: preserve `df.dtypes`, all sixteen column/type pairs in their original order (`object`, `int64`, and `float64` values), and the final `dtype: object` line.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-04-dtypes-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, type values, order, and final dtype preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x280`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 12 — string columns
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that comparing `df.dtypes` with `object` identifies the string columns, with the original handwritten `VALUES` annotation retained.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-05-string-columns.jpg`; caption: “Selecting the columns of type object”.
+- Crop coordinates: source `598x360`; `577x190+0+54` (`x=0, y=54, width=577, height=190`). The crop removes the notebook/browser header, webcam tile, right black strip, later-section heading, and recording-frame material while retaining the code, complete object-column output, blue bracket/arrows, and `VALUES` annotation.
+- Invariants: preserve `df.dtypes[df.dtypes == 'object']`, the eight exact column names in their original order, every visible `object` value, `dtype: object`, and the handwritten `VALUES` teaching annotation and its pointers.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-05-string-columns-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, values, order, and annotation preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x190`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
