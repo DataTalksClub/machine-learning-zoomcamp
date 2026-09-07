@@ -123,7 +123,7 @@ customers it has seen it's perfect - but these rules don't generalize
 to unseen customers. This is overfitting: memorizing the data but
 failing to generalize.
 
-![An overfit tree memorizes each customer with very specific rules](images/03-decision-trees-05-memorizing.jpg)
+![An overfit tree memorizes each customer with very specific rules](images/03-decision-trees-05-memorizing-imagegen.png)
 
 The reason is that we let the tree grow without limits, so it became
 very deep: it kept splitting until every leaf was pure.

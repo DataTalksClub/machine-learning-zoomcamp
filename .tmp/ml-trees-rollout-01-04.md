@@ -84,3 +84,11 @@ being inspected and assigned an imagegen or deterministic disposition.
   `(x=0, y=65, width=576, height=285)` retained the exact validation AUC,
   customer dictionary, probability prediction, and training AUC output while
   removing the webcam tile and browser top bar.
+- `03-decision-trees-05-memorizing.jpg` →
+  `03-decision-trees-05-memorizing-imagegen.png`: imagegen regeneration from
+  the viewed source crop `(x=110, y=0, width=390, height=330)`, which removed
+  the camera sliver and recording gauge. Checked exact title/subtitles
+  `OVERFITTING`, `MEMORIZING THE DATA`, `BUT FAILING TO GENERALIZE`, the
+  example-tree labels `HOME = "OWNER"`, `AGE > 35`, `AGE < 37`,
+  `JOB = "FREELANCE"`, `DEBT > 0.0`, and red class `1`; no people, camera,
+  browser, cursor, watermark, or extra labels remain.
