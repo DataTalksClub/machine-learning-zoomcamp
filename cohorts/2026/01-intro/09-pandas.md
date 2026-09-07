@@ -285,7 +285,7 @@ If we want to find all Nissan cars, we write a condition on the Make column - an
 4        Pickup  32340  
 ```
 
-![Filtering rows with a boolean condition on a column](images/09-pandas-04-filtering.jpg)
+![Filtering rows with a boolean condition on a column](images/09-pandas-04-filtering-cropped.png)
 
 We can combine conditions. Let's get cars that are manufactured by Nissan and produced after 2015. We combine the two conditions using the logical and operation, `&`:
 

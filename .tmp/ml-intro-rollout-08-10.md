@@ -107,3 +107,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: source table row labels `a`–`e`; command `df.iloc[[1, 2, 4]]`; selected rows `b`, `c`, `e`; all visible columns and values including `NaN`, `AUTOMATIC`, and `54990`
 - Output: `cohorts/2026/01-intro/images/09-pandas-03-iloc-cropped.png`
 - Validation: accepted after visual inspection; command, row selection, headers, and values are unchanged; face, camera tile, browser chrome, and controls are absent.
+
+### 04 — filtering
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-04-filtering.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x205+15+100`
+- Invariants: `df['Make'] == 'Nissan'`; two Nissan rows; combined condition `(df['Make'] == 'Nissan') & (df['Year'] >= 2015)`; all visible headers and values
+- Output: `cohorts/2026/01-intro/images/09-pandas-04-filtering-cropped.png`
+- Validation: accepted after visual inspection; boolean conditions, selected rows, headers, and values are unchanged; face, camera tile, browser chrome, and recording controls are absent.
