@@ -31,7 +31,7 @@ This gives `0.6752411575562701` - precision of about 67%.
 
 In the terms of the churn problem: we send a retention email to everyone predicted to churn. That is 210 + 101 = 311 people, but only 210 of them (the true positives) were actually going to leave. The other 101 - about a third of all emails - go to customers who were never at risk, and the discount we send them is wasted.
 
-![Precision as a pie: the green TP slice and the red FP slice of the predicted-to-churn customers](images/04-precision-recall-03-precision-pie.jpg)
+![Precision as a pie: the green TP slice and the red FP slice of the predicted-to-churn customers](images/04-precision-recall-03-precision-pie-cropped.jpg)
 
 ## Recall
 

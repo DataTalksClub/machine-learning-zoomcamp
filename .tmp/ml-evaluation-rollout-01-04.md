@@ -224,3 +224,12 @@
 - Invariants: the visible normalized confusion output, `4.4 Precision and Recall`, `(tp + tn) / (tp + tn + fp + fn)`, output `0.8034066713981547`, `p = tp / (tp + fp)`, output `0.6752411575562701`, `tp + fp`, output `311`, and `4.5 ROC Curves` remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-02-precision-notebook-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact code, numeric outputs, and headings remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, recording control, overlay, or black strip remains; `577×292` output renders cleanly.
+
+## 04.03 — precision pie
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-03-precision-pie.jpg`
+- Disposition: accepted focused deterministic crop; the caption-target pie illustration was retained exactly, so imagegen was not used.
+- Crop coordinates: `x=140, y=145, width=408, height=215` from the 598×360 source; focuses on the pie teaching target and removes the left recording wheel, upper-right webcam tile, black frame bars, and unrelated upper whiteboard text without post-crop content edits.
+- Invariants: the red `FP` slice, green `TP` slice, dashed non-interesting outline, blue `NOT INTERESTING` label and arrow, `PREDICT CHURN` label and arrow, and blue `INTERESTING` label remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-03-precision-pie-cropped.jpg`
+- QA: accepted after `view_image` inspection; the exact pie geometry, labels, colors, and arrows remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `408×215` output renders cleanly.
