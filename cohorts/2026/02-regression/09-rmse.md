@@ -24,7 +24,7 @@ the square root:
 RMSE = sqrt( (1/m) · Σ (g(xi) - yi)² )
 ```
 
-![Writing the RMSE formula](images/09-rmse-01-rmse-formula.jpg)
+![Writing the RMSE formula](images/09-rmse-01-rmse-formula-cropped.png)
 
 Let's unpack each part with a small example.
 
