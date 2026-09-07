@@ -66,3 +66,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact editor and terminal UI are the source of truth
 - Invariants: VS Code desktop interface; `README.md` tab; `Hello world`; integrated terminal and Codespaces context
 - Validation: passed visual review; editor text and terminal context remain readable; no face, camera tile, recording/browser overlay, cursor, watermark, or black border
+
+### 04 — push-pip-install
+
+- Source: `cohorts/2026/01-intro/images/06-environment-04-push-pip-install.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-04-push-pip-install-cropped.png`
+- Crop: `640×260+0+100` (removes the webcam tile and upper recording frame while retaining the terminal output and `pip install` command)
+- Path: deterministic lossless PNG crop; imagegen not used because exact shell output and command text are the source of truth
+- Invariants: VS Code terminal; `git push`; object-count/output lines; GitHub remote; visible `pip install` command; terminal context
+- Validation: passed visual review; command/output text remains exact and readable; no face, camera tile, browser/recording chrome, watermark, or black border

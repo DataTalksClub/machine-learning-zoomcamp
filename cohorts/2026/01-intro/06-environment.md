@@ -46,7 +46,7 @@ pip install jupyter numpy pandas scikit-learn seaborn
 
 Seaborn is a library for visualization. Later in the course you will also need XGBoost and TensorFlow - and this is exactly how you install them too.
 
-![Pushing to GitHub and installing the libraries with pip](images/06-environment-04-push-pip-install.jpg)
+![Pushing to GitHub and installing the libraries with pip](images/06-environment-04-push-pip-install-cropped.png)
 
 Now start Jupyter:
 
