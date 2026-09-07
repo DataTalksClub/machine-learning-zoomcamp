@@ -48,3 +48,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact UI text and controls are the source of truth
 - Invariants: GitHub `New repository` / `Create a new repository`; `No template`; `Owner`; `Repository name`; repository-form context
 - Validation: passed visual review; exact UI text remains readable; no face, camera tile, browser tab/address chrome, cursor, watermark, recording overlay, or black border
+
+### 02 — create-codespace
+
+- Source: `cohorts/2026/01-intro/images/06-environment-02-create-codespace.jpg` (640×360 JPEG)
+- Disposition: accepted deterministic sibling `06-environment-02-create-codespace-cropped.png`
+- Crop: `520×322+0+38` (removes browser chrome and the webcam tile while retaining the Codespaces menu and target button)
+- Path: deterministic lossless PNG crop; imagegen not used because exact GitHub UI text and controls are the source of truth
+- Invariants: repository page context; `Code` menu with `Codespaces`; `No codespaces`; `Create codespace on main`; visible repository navigation
+- Validation: exact UI text and button are readable; face, camera tile, browser tab/address chrome, watermark, recording overlay, and black border are gone. Limitation: the original pointer remains over the required click target because removing it deterministically would damage the exact button label; it is retained as an instructional click cue.

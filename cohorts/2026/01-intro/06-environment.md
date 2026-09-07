@@ -24,7 +24,7 @@ First, create a new repository on GitHub - for example, a repository where you w
 
 Then open the Code dropdown, switch to the Codespaces tab, and click "Create codespace on main". GitHub creates a Visual Studio Code instance for you in the browser.
 
-![Creating a codespace on the main branch](images/06-environment-02-create-codespace.jpg)
+![Creating a codespace on the main branch](images/06-environment-02-create-codespace-cropped.png)
 
 If you don't like using the browser - it should just work there - you can open the same environment in Visual Studio Code desktop: click the button in the corner and choose "Open in VS Code". The first time you launch VS Code desktop it will prompt you to install an extension for Codespaces; if it doesn't, go to the extensions view and search for "GitHub Codespaces" - you need that extension to connect to the remote instance.
 
