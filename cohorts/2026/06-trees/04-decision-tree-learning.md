@@ -57,7 +57,7 @@ condition is false (`assets <= T`) and the right side where it is true
 between the observed values - if we sort by `assets`, the candidates
 are:
 
-![Sorting by assets and marking the left and right sides](images/04-decision-tree-learning-02-candidate-thresholds.jpg)
+![Sorting by assets and marking the left and right sides](images/04-decision-tree-learning-02-candidate-thresholds-cropped.png)
 
 ```python
 Ts = [0, 2000, 3000, 4000, 5000, 8000]
