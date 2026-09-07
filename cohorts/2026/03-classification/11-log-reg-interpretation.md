@@ -52,7 +52,7 @@ dict(zip(dv.get_feature_names_out(), model.coef_[0].round(3)))
  'totalcharges': 0.0}
 ```
 
-![The weights of the full model paired with their feature names - positive weights push towards churn, negative ones push away from it](images/11-log-reg-interpretation-02-coefficients.jpg)
+![The weights of the full model paired with their feature names - positive weights push towards churn, negative ones push away from it](images/11-log-reg-interpretation-02-coefficients-cropped.png)
 
 Now each weight has a name. The interpretation is the same as in linear
 regression: a positive weight pushes the score - and therefore the

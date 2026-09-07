@@ -50,3 +50,11 @@ use the built-in imagegen workflow after source inspection.
   `(15,82,505,255)`, 2× Lanczos resize and light unsharp; preserved the exact
   dictionary output and coefficient names/values while removing the camera
   tile and browser frame.
+
+- `11-log-reg-interpretation-02-coefficients.jpg` →
+  `11-log-reg-interpretation-02-coefficients-cropped.png` — deterministic crop
+  `(15,82,505,200)`, 2× Lanczos resize and light unsharp; preserved the exact
+  visible feature/weight pairs and their signs while removing camera, browser
+  chrome, and the unrelated following lesson heading. The source frame itself
+  begins partway through the long dictionary and that source-edge truncation
+  remains documented.
