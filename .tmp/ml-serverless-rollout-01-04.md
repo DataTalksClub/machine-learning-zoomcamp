@@ -94,3 +94,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact handler code and `Changes not deployed` state were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `event['url']`, `predict(url)`, and `return results` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 02-aws-lambda-08-invite-link-function.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-08-invite-link-function-cropped.png`
+- **Teaching point:** the `join-datatalks-club` Lambda function is connected to an API Gateway trigger.
+- **Source inspection:** 592×360; deterministic crop `+0+20 500×316` removes the browser URL strip, webcam tile, and right-side black frame while retaining the function overview and trigger relationship.
+- **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact AWS UI labels were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; function name, API Gateway trigger, and overview relationship remain readable; no face/camera/recording overlay remains. A small native pointer on the blank canvas remains; Markdown reference resolves.

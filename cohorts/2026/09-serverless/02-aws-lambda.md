@@ -143,7 +143,7 @@ link expires, I just go to this lambda function, click edit, and
 replace the invite URL there. No server needed - it's serverless, and
 I only pay per request.
 
-![The join-datatalks-club lambda function with its API Gateway trigger](images/02-aws-lambda-08-invite-link-function.jpg)
+![The join-datatalks-club lambda function with its API Gateway trigger](images/02-aws-lambda-08-invite-link-function-cropped.png)
 
 Actually, I'm not paying anything for this function: each account gets
 some amount of free Lambda usage per month - the free tier includes 1
