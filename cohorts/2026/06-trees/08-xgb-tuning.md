@@ -21,7 +21,7 @@ The three parameters we tune are:
 3. `min_child_weight` - the minimal size of a leaf, the analogue of
    `min_samples_leaf` in random forest.
 
-![The three XGBoost parameters to tune: eta is the size of the step, max_depth controls the trees, min_child_weight is the min_samples_leaf of random forest](images/08-xgb-tuning-01-parameters.jpg)
+![The three XGBoost parameters to tune: eta is the size of the step, max_depth controls the trees, min_child_weight is the min_samples_leaf of random forest](images/08-xgb-tuning-01-parameters-imagegen.png)
 
 XGBoost has many more parameters - we tune only these three, in this order:
 first `eta`, then `max_depth`, then `min_child_weight`. For each parameter we

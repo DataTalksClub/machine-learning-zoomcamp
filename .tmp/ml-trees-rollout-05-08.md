@@ -269,6 +269,34 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   cursor, watermark, or overlay. Markdown reference resolves and
   `git diff --check` passes before commit.
 
+## 08 — XGBoost parameter tuning, screenshot 01
+
+- Source: `cohorts/2026/06-trees/images/08-xgb-tuning-01-parameters.jpg`.
+- Disposition: `replace` via built-in imagegen; this is a bounded conceptual
+  parameter-and-sequential-boosting diagram, so generation is safe when all
+  labels, stage order, and arrow relationships are explicitly locked.
+- Crop coordinates: source `1024x724`; deterministic preparation crop
+  `980x690+22+16` (`x=22, y=16, width=980, height=690`) removed only the
+  outer board edge before generation.
+- Invariants: preserve the exact title `6.8 XGBOOST PARAMETER TUNING`, the
+  three numbered lines `ETA = LEARNING RATE = SIZE OF STEP`, `MAX_DEPTH`, and
+  `MIN_CHILD_WEIGHT = MIN_SAMPLES_LEAF IN RF`; the stages `DATA`, `MODEL 1`,
+  `PRED 1`, `ERRORS OF MODEL 1`, through `MODEL 4` and `PRED 4`; sequential
+  error-feedback arrows; and the green annotation `0.3` beneath `PRED 2`.
+- Path: imagegen skill was available and read completely; built-in imagegen
+  edit used the inspected crop. Final sibling
+  `cohorts/2026/06-trees/images/08-xgb-tuning-01-parameters-imagegen.png`;
+  original JPG preserved.
+- Prompt/iteration: one structured `scientific-educational` generation with
+  exact labels, four-stage order, feedback arrows, and negative constraints.
+  The accepted result removes handwriting texture and leaves a crisp,
+  face-free diagram without UI or recording overlays.
+- QA: final `1529x1029` PNG inspected visually; all parameter labels, model
+  stages, predictions, error boxes, arrows, and the `0.3` annotation are
+  complete and readable. No face, camera tile, browser/Zoom chrome, cursor,
+  watermark, or unrelated overlay remains. Markdown reference resolves and
+  `git diff --check` passes before commit.
+
 ## 07 — gradient boosting and XGBoost, screenshot 01
 
 - Source: `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest.jpg`.
