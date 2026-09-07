@@ -86,7 +86,7 @@ This week is about decision trees and tree-based ensemble methods:
 Everything is illustrated with the credit risk scoring project: we
 train the models, compare them, and pick the best one.
 
-![The plan of the module, as a table of contents in the notebook](images/01-credit-risk-05-module-plan.jpg)
+![The plan of the module, as a table of contents in the notebook](images/01-credit-risk-05-module-plan-cropped.png)
 
 ## Materials
 

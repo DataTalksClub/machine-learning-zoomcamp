@@ -30,3 +30,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `01-credit-risk-04-dataset-columns-cropped.png`: deterministic crop
   `(x=0, y=25, width=430, height=330)` retained the exact 14-row column
   reference and removed browser/camera chrome; exact text was not generated.
+- `01-credit-risk-05-module-plan.jpg` →
+  `01-credit-risk-05-module-plan-cropped.png`: deterministic crop
+  `(x=0, y=35, width=500, height=320)` retained the exact notebook headings
+  and bullets for sections 6.3 and 6.4 while removing browser/camera chrome.
