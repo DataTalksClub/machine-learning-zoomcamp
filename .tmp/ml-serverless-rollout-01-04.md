@@ -76,3 +76,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact response and log text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `Changes deployed`, `Response`, `PONG`, and event parameters remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 02-aws-lambda-05-pants-response.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-05-pants-response-cropped.png`
+- **Teaching point:** the deployed handler receives a URL and returns the prediction `{"prediction": "pants"}`.
+- **Source inspection:** 592×360; deterministic crop `+0+75 548×261` removes the browser strip, webcam tile, recording banner edge, and black frame while retaining the response and logs.
+- **Method:** deterministic Lanczos upscale to 1096×522 with light sharpening; exact JSON response and request URL text were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; response JSON, deployed status, and URL parameter remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
