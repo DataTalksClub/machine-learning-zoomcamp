@@ -179,3 +179,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-04-gram-matrix-code-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact numeric matrix/code content must not be guessed. Narrow candidates clipped the right-hand `y`; the accepted width restores it while ending before the lower heading.
 - QA: final `1100x310` PNG inspected visually; matrix values, code, and formula are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, heading overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 05
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-05-inverse-check.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact NumPy code, identity output, and annotated equation are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `550x155+15+100` (`x=15, y=100, width=550, height=155`). A white notebook-background cleanup removes the clipped preceding matrix fragment from the top-left strip. The crop removes browser chrome, presenter webcam tile, the lower lesson headings, right black bar, and controls.
+- Invariants: preserve `XTX = X.T.dot(X)`, `XTX_inv = np.linalg.inv(XTX)`, `XTX.dot(XTX_inv).round(1)`, the complete identity array, and `w = (XᵀX)⁻¹Xᵀy`.
+- Path: deterministic crop with blank-space cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-05-inverse-check-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code, floating-point output, and formula are source of truth. A first crop clipped the identity output and retained a previous-cell fragment; the accepted crop starts earlier and masks only the blank top-left fragment.
+- QA: final `1100x310` PNG inspected visually; code, identity matrix, and equation remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.

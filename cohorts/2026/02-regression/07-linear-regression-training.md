@@ -131,7 +131,7 @@ array([[ 1., -0.,  0.],
        [ 0.,  0.,  1.]])
 ```
 
-![Checking that the Gram matrix times its inverse gives the identity matrix](images/07-linear-regression-training-05-inverse-check.jpg)
+![Checking that the Gram matrix times its inverse gives the identity matrix](images/07-linear-regression-training-05-inverse-check-cropped.png)
 
 We see ones on the diagonal and values that are extremely close to zero
 elsewhere. They are not exactly zero because floating-point numbers
