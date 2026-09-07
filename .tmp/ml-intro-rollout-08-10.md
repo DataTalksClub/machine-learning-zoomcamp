@@ -163,3 +163,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: title `1.1 Introduction to ML`; feature table with `Year`, `Make`, `Mileage`, `...`; visible rows and values; target table `Price` with `$1.1k`, `$0.6k`, `$23k`, `...`; `ML` and `Model` boxes; feature/target-to-ML and ML-to-Model arrows
 - Output: `cohorts/2026/01-intro/images/10-summary-01-features-target-model-imagegen-pilot.png`
 - Validation: accepted after visual inspection; all instructional labels, values, table relationships, and arrow directions are preserved; face, camera tile, handwriting, browser/recording chrome, cursor, and watermark are absent.
+
+### 02 — rule-based spam rules
+
+- Source: `cohorts/2026/01-intro/images/10-summary-02-rule-based-spam-rules.jpg`
+- Disposition: deterministic crop followed by built-in imagegen redraw
+- Crop: `560x300+15+30`; camera/cursor mask in crop: `490,0` to `559,30` and `495,270` to `559,299`
+- Invariants: title `1.2 Rules vs ML`; exact sender, title, domain, body, comparison, spam, and good-email rules; two indented sub-rules under the deposit rule; original order and hierarchy
+- Output: `cohorts/2026/01-intro/images/10-summary-02-rule-based-spam-rules-imagegen-pilot.png`
+- Validation: accepted after visual inspection; every rule, operator, domain, quotation, indentation, and order is preserved; face, camera tile, browser/recording chrome, cursor, handwriting, and watermark are absent.

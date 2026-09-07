@@ -20,7 +20,7 @@ These things go to a machine learning algorithm, and the output is a model. The 
 
 In the second lesson we compared rule-based systems with machine learning. In a rule-based system, humans come up with rules and then convert these rules into a programming language like Python. Using the spam prediction example: we would manually analyze the data, try to extract patterns from it and code them as rules. Over time this becomes quite messy.
 
-![Hand-coded spam-filtering rules that get messy over time](images/10-summary-02-rule-based-spam-rules.jpg)
+![Hand-coded spam-filtering rules that get messy over time](images/10-summary-02-rule-based-spam-rules-imagegen-pilot.png)
 
 With machine learning we don't have this problem, because we don't need to encode the rules manually. The models extract patterns themselves: they just look at the training data - our features - and use statistics and mathematics to figure out what patterns are present in these features, and what we can use to make a decision whether something is spam or not.
 
