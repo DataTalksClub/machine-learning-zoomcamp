@@ -22,7 +22,7 @@ two that matter most are:
   prevents the tree from creating leaves that cover just one or two
   customers.
 
-![The parameters of DecisionTreeClassifier](images/05-decision-tree-tuning-01-parameters.jpg)
+![The parameters of DecisionTreeClassifier](images/05-decision-tree-tuning-01-parameters-cropped.png)
 
 Tuning means selecting the values that give the best score on the
 validation set - AUC in our case.
