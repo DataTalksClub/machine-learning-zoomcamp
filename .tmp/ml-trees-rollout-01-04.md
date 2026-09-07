@@ -120,3 +120,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   `(x=0, y=65, width=500, height=285)` retained the exact `T = 4000` split
   code and both resulting status tables while removing the webcam tile and
   browser top bar.
+- `04-decision-tree-learning-04-misclassification-rate.jpg` →
+  `04-decision-tree-learning-04-misclassification-rate-cropped.png`:
+  deterministic crop `(x=0, y=65, width=500, height=285)` retained the exact
+  left/right status tables and 25% misclassification evidence while removing
+  the webcam tile and browser top bar.

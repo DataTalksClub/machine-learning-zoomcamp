@@ -87,7 +87,7 @@ For each side we predict the majority class - the most frequent status.
 Left: `default`. Right: `ok`. The mistake rate on the left is 1/4 =
 25% (the one `ok` customer), and on the right also 1/4 = 25%.
 
-![Left predicts default with 25% mistakes, right predicts ok with 25%](images/04-decision-tree-learning-04-misclassification-rate.jpg)
+![Left predicts default with 25% mistakes, right predicts ok with 25%](images/04-decision-tree-learning-04-misclassification-rate-cropped.png)
 
 This mistake rate is called the misclassification rate, and it is one
 way of measuring how impure a group is. A pure group contains only one
