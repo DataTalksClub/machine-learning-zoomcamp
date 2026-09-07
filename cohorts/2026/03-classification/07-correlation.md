@@ -39,7 +39,7 @@ customers with higher values of that feature churn more; if it is
 negative, they churn less. The larger the absolute value, the more
 important the feature.
 
-![Correlation with a binary target: positive means more churn, negative means less churn](images/07-correlation-02-binary-target.jpg)
+![Correlation with a binary target: positive means more churn, negative means less churn](images/07-correlation-02-binary-target-imagegen-pilot.png)
 
 ## Correlation of numerical features with churn
 

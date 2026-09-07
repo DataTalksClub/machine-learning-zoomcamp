@@ -26,3 +26,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: imagegen bounded explanatory replacement.
   - Prep: inspected/cropped source reference `.tmp/ml-classification-rollout-06-09-crops/07-correlation-01-correlation-coefficient-cropped.png`.
   - Invariants: `-1 ≤ r ≤ 1`; negative/positive direction; LOW `0–0.2`, MEDIUM `0.2–0.5`, and STRONG `0.5–1.0` ranges; no people, camera, browser, or extra metrics.
+
+- `07-correlation-02-binary-target.jpg` →
+  `07-correlation-02-binary-target-imagegen-pilot.png`
+  - Disposition: imagegen bounded explanatory replacement.
+  - Prep: inspected/cropped source reference `.tmp/ml-classification-rollout-06-09-crops/07-correlation-02-binary-target-cropped.png`.
+  - Invariants: `x = tenure`, `y = churn`, `y ∈ {0, 1}`, `x ∈ ℝ`; positive means more tenure → higher churn and negative means more tenure → less churn; no people, camera, browser, or extra metrics.
