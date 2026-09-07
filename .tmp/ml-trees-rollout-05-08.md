@@ -321,6 +321,29 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   browser/Zoom chrome, cursor, watermark, or unrelated overlay remains.
   Markdown reference resolves and `git diff --check` passes before commit.
 
+## 07 — gradient boosting and XGBoost, screenshot 03
+
+- Source: `cohorts/2026/06-trees/images/07-boosting-03-train-val-auc.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; train/validation
+  AUC curves and their numeric axes are exact plot content, so imagegen was not
+  used.
+- Crop coordinates: source `768x576`; `680x500+35+35` (`x=35, y=35,
+  width=680, height=500`). This keeps the complete plot, axes, and legend while
+  removing excess white screenshot margin.
+- Invariants: preserve `train` and `val` series, their colors and curve
+  geometry, the `0.80`–`1.00` y-axis scale, and the `0`–`200` boosting-round
+  x-axis ticks exactly.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/07-boosting-03-train-val-auc-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  plot values and curves must not be guessed. One crop was accepted after
+  visual review.
+- QA: final `1360x1000` PNG inspected visually; both curves, axes, tick labels,
+  and legend are crisp, with no face, camera tile, browser/Zoom chrome, cursor,
+  watermark, or overlay. Markdown reference resolves and `git diff --check`
+  passes before commit.
+
 ## 06 — random forest, screenshot 05
 
 - Source: `cohorts/2026/06-trees/images/06-random-forest-05-tuning-min-samples-leaf.jpg`.
