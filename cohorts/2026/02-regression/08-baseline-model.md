@@ -21,7 +21,7 @@ has:
 df_train.columns
 ```
 
-![Looking at the columns of the training dataframe](images/08-baseline-model-01-numerical-columns.jpg)
+![Looking at the columns of the training dataframe](images/08-baseline-model-01-numerical-columns-cropped.png)
 
 Linear regression as we implemented it works only with numbers, so for
 the baseline we pick the numerical columns:

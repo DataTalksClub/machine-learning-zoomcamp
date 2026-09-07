@@ -209,3 +209,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-07-train-function-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact assignments and numeric output must not be guessed; one crop was accepted after widening the right edge to retain the final output value.
 - QA: final `1100x180` PNG inspected visually; assignments and all displayed values remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 01
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-01-numerical-columns.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the dataframe column names and dtypes are exact notebook output, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x205+50+105` (`x=50, y=105, width=480, height=205`). This focuses on the complete `df_train.columns` output and removes browser chrome, presenter webcam tile, selected-cell border, cursor, right black bar, controls, and the following `base` cell.
+- Invariants: preserve every visible column/type pair, including `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg`, `popularity`, and `dtype: object`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-01-numerical-columns-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact dataframe output is source of truth. A wider crop retained an incomplete/cursor-obscured input command; the accepted output-only crop keeps the useful complete table and removes that artifact.
+- QA: final `960x410` PNG inspected visually; all visible labels and dtypes are crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
