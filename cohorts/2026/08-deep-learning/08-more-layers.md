@@ -106,7 +106,7 @@ While the models train, we can check that the GPU is actually being
 used. From Jupyter we can open a terminal and run `nvidia-smi` - a
 command-line utility from NVIDIA that shows GPU utilization:
 
-![nvidia-smi showing a Tesla K80 GPU at 95% utilization during training](images/08-more-layers-05-nvidia-smi.jpg)
+![nvidia-smi showing a Tesla K80 GPU at 95% utilization during training](images/08-more-layers-05-nvidia-smi-cropped.png)
 
 Here the GPU is utilized at 95%, so we're using it effectively. If
 during training you see 30-50% utilization, the GPU is underutilized
