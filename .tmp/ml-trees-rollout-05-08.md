@@ -223,3 +223,25 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   and formula are complete and readable, with no face, camera tile,
   browser/Zoom chrome, cursor, watermark, or unrelated overlay. Markdown
   reference resolves and `git diff --check` passes before commit.
+
+## 06 — random forest, screenshot 03
+
+- Source: `cohorts/2026/06-trees/images/06-random-forest-03-auc-vs-trees.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; this exact AUC
+  curve is numeric plot content and was not sent to imagegen.
+- Crop coordinates: source `768x576`; `680x500+35+35` (`x=35, y=35,
+  width=680, height=500`). This keeps the complete axes, tick labels, and
+  curve while removing excess white screenshot margin.
+- Invariants: preserve the plotted validation-AUC curve, its `0.78`–`0.82`
+  y-axis scale, `25`–`200` estimator ticks, and the rapid-growth-then-
+  stabilization shape exactly.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/06-random-forest-03-auc-vs-trees-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  plot geometry and values are fidelity-sensitive. A first crop cut the left
+  y-axis labels; the wider accepted crop restores them.
+- QA: final `1360x1000` PNG inspected visually; curve, axes, and tick labels are
+  crisp, with no face, camera tile, browser/Zoom chrome, cursor, watermark, or
+  overlay. Markdown reference resolves and `git diff --check` passes before
+  commit.

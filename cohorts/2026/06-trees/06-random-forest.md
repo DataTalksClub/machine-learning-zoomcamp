@@ -84,7 +84,7 @@ df_scores = pd.DataFrame(scores, columns=['n_estimators', 'auc'])
 plt.plot(df_scores.n_estimators, df_scores.auc)
 ```
 
-![Validation AUC against the number of trees: it grows quickly, then stabilizes](images/06-random-forest-03-auc-vs-trees.jpg)
+![Validation AUC against the number of trees: it grows quickly, then stabilizes](images/06-random-forest-03-auc-vs-trees-cropped.png)
 
 The curve grows quickly at the beginning and then stabilizes: after some
 number of trees, adding more of them does not improve the score. Still, more
