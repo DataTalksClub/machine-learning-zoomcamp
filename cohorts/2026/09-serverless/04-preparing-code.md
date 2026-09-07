@@ -11,7 +11,7 @@ notebook. Lambda needs a Python script, not a notebook, so in this
 lesson we move the code from the notebook to a script and test it
 locally.
 
-![The plan of the lesson, from the module notes](images/04-preparing-code-01-lesson-plan.jpg)
+![The plan of the lesson, from the module notes](images/04-preparing-code-01-lesson-plan-cropped.png)
 
 > Note: the materials in this unit are outdated.
 > 
