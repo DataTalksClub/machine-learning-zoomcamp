@@ -141,3 +141,10 @@ being inspected and assigned an imagegen or deterministic disposition.
   crop `(x=0, y=0, width=500, height=360)` retained the exact scikit-learn
   documentation page, formulas, and sidebar while removing the webcam tile at
   the right edge.
+- `04-decision-tree-learning-08-stopping-criteria.jpg` →
+  `04-decision-tree-learning-08-stopping-criteria-imagegen.png`: imagegen
+  regeneration from the viewed source crop `(x=25, y=0, width=455,
+  height=330)`, removing the camera tile, recording gauge, and controls.
+  Checked exact title `STOPPING CRITERIA` and bullets `GROUP ALREADY PURE`,
+  `TREE REACHED DEPTH LIMIT`, and `GROUP TOO SMALL TO SPLIT`; no people,
+  camera, browser, cursor, watermark, or extra bullets remain.

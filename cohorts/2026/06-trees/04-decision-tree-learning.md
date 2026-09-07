@@ -204,7 +204,7 @@ recursively to the left and right sides. When does it stop?
 - The group is too small to split - controlled by `min_samples_leaf`.
 - The maximum number of leaves (decision nodes) was reached.
 
-![The stopping criteria](images/04-decision-tree-learning-08-stopping-criteria.jpg)
+![The stopping criteria](images/04-decision-tree-learning-08-stopping-criteria-imagegen.png)
 
 These stopping criteria are what keep a tree from overfitting.
 
