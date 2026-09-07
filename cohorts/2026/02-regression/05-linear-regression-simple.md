@@ -173,7 +173,7 @@ np.log1p(222347.2221101062)
 12.312
 ```
 
-![Applying the model to our car and undoing the log transformation](images/05-linear-regression-simple-07-prediction-undo-log.jpg)
+![Applying the model to our car and undoing the log transformation](images/05-linear-regression-simple-07-prediction-undo-log-cropped.png)
 
 That's linear regression for one car: we implemented the formula on a small
 feature vector of size three. In the next lesson we generalize it to all the

@@ -59,3 +59,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-06-weights-interpretation-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because guessing numeric values would be unsafe; one deterministic crop was accepted after visual inspection.
 - QA: final `1064x260` PNG inspected visually; the full expression is crisp and readable with no face, camera tile, browser/Zoom chrome, cursor, watermark, selection box, editor controls, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 07
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-07-prediction-undo-log.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact notebook commands, values, and outputs are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x200+15+70` (`x=15, y=70, width=480, height=200`). This removes browser chrome, the presenter webcam tile, the right black bar, the clipped preceding function line, the lower lesson heading, and the empty notebook cell.
+- Invariants: preserve `xi = [453, 11, 86]`, `w0 = 7.17`, `w = [0.01, 0.04, 0.002]`, `linear_regression(xi)`, output `12.312`, `np.log(12.312)`, `g(xi)`, and output `10000`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-07-prediction-undo-log-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact notebook content and numeric outputs must not be guessed. A first crop retained a clipped `return pred` fragment and an empty cell; the accepted crop starts at `y=70` and ends at `y=270`.
+- QA: final `960x400` PNG inspected visually; all commands, values, and outputs remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.
