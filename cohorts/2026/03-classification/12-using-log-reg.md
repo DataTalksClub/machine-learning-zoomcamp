@@ -31,7 +31,7 @@ model = LogisticRegression(solver='lbfgs')
 model.fit(X_full_train, y_full_train)
 ```
 
-![Training the final model on the full training data: encode with DictVectorizer, then fit logistic regression](images/12-using-log-reg-01-final-model.jpg)
+![Training the final model on the full training data: encode with DictVectorizer, then fit logistic regression](images/12-using-log-reg-01-final-model-cropped.png)
 
 Note that we fit a new `DictVectorizer` on the full training data as
 well - the encoding and the model always go together.

@@ -92,3 +92,10 @@ use the built-in imagegen workflow after source inspection.
   crop `(15,82,505,230)`, 2× Lanczos resize and light unsharp; preserved the
   exact `sigmoid` expression and `0.41824062315816374` output while removing
   the camera tile, cursor-area chrome, and notebook frame.
+
+- `12-using-log-reg-01-final-model.jpg` →
+  `12-using-log-reg-01-final-model-cropped.png` — deterministic crop
+  `(15,45,483,195)`, 2× Lanczos resize and light unsharp; preserved the full
+  training-data encoding and `LogisticRegression.fit` cells, removed the
+  camera tile and notebook frame. The source's long first code line remains
+  clipped at its right edge.
