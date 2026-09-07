@@ -268,3 +268,26 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   legend entries are crisp, with no face, camera tile, browser/Zoom chrome,
   cursor, watermark, or overlay. Markdown reference resolves and
   `git diff --check` passes before commit.
+
+## 06 — random forest, screenshot 05
+
+- Source: `cohorts/2026/06-trees/images/06-random-forest-05-tuning-min-samples-leaf.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the five exact
+  validation-AUC curves and legend values are plot source of truth, so imagegen
+  was not used.
+- Crop coordinates: source `768x576`; `680x520+35+10` (`x=35, y=10,
+  width=680, height=520`). This keeps the full axes, curves, and legend while
+  removing excess screenshot margin.
+- Invariants: preserve legend labels `min_samples_leaf=1`, `3`, `5`, `10`,
+  `50`; their colors and curve ordering; the `0.790`–`0.825` y-axis scale;
+  and every plotted relationship.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/06-random-forest-05-tuning-min-samples-leaf-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  plot geometry and values must not be guessed. One crop was accepted after
+  visual review.
+- QA: final `1360x1040` PNG inspected visually; all curves, tick labels, and
+  legend entries are crisp, with no face, camera tile, browser/Zoom chrome,
+  cursor, watermark, or overlay. Markdown reference resolves and
+  `git diff --check` passes before commit.

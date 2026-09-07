@@ -183,7 +183,7 @@ for s, col in zip(values, colors):
 plt.legend()
 ```
 
-![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf.jpg)
+![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf-cropped.png)
 
 The curves with small values - 1, 3 and 5 - are close to each other at the
 top, while 10 and especially 50 are worse. We take `min_samples_leaf=3`:
