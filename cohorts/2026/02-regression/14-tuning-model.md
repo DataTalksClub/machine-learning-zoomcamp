@@ -36,7 +36,7 @@ parameter itself, the bias term, and the score:
 
 ## Reading the results
 
-![The RMSE for each value of r: 266 for zero regularization, about 0.46 for the rest](images/14-tuning-model-02-rmse-per-r.jpg)
+![The RMSE for each value of r: 266 for zero regularization, about 0.46 for the rest](images/14-tuning-model-02-rmse-per-r-cropped.png)
 
 What we see: for zero regularization the bias term is huge and the RMSE is huge
 too - 266. That is the broken model with the duplicated columns problem. But for
