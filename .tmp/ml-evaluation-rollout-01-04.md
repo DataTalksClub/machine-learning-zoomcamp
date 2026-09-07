@@ -251,3 +251,12 @@
 - Invariants: the four upper customer figures, one red `X`, three green checks, red `NO CHURN`, divider and arrow, `R = 3/4 = 75%`, the four lower figures, and the black/blue `NO CHURN`/`CHURN` legend remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-05-recall-example-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact figures, marks, handwritten labels, calculation, and legend remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `400×355` output renders cleanly.
+
+## 04.06 — precision and recall table
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-06-precision-recall-table.jpg`
+- Disposition: accepted deterministic crop plus bounded pale-board cleanup; the exact handwritten confusion-table relationships were retained, so imagegen was not used.
+- Crop coordinates: `x=50, y=0, width=498, height=320` from the 598×360 source; removes the outer frame, lower-right status icon, and blank lower margin. Post-crop cleanup fills only the upper-right webcam area with sampled `srgb(245,245,219)`: `x=455..497, y=0..54`.
+- Invariants: `g(x_i) ≥ t`, the `TN`/`FP`/`FN`/`TP` cells and green highlights, `y=1`, the right `RECALL` arrow, and the downward `PRECISION` arrow/label remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-06-precision-recall-table-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact table cells, threshold, labels, highlights, and arrows remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black frame remains; `498×320` output renders cleanly.
