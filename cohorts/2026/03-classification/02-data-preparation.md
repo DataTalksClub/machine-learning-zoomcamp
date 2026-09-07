@@ -170,7 +170,7 @@ There are 11 such rows. We can inspect them:
 df[tc.isnull()][['customerid', 'totalcharges']]
 ```
 
-![The 11 customers with missing total charges](images/02-data-preparation-05-coerce-missing.jpg)
+![The 11 customers with missing total charges](images/02-data-preparation-05-coerce-missing-cropped.png)
 
 These are customers who just joined - their tenure is small and they
 haven't been billed yet, so their total charges are not available. For

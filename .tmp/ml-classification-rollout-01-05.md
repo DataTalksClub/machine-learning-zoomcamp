@@ -69,3 +69,13 @@
 - Invariants: code cell remains `pd.to_numeric(df.totalcharges)`; the error remains `ValueError: Unable to parse string "_" at position 488`; the visible pandas traceback and error hierarchy remain in place; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/02-data-preparation-04-totalcharges-error-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size and a zoomed cursor-area inspection; exact code and error message checked, restored underscore is legible, capture overlays removed, and Markdown reference resolves.
+
+## 08 — data preparation: missing total charges after coercion
+
+- Source: `cohorts/2026/03-classification/images/02-data-preparation-05-coerce-missing.jpg` (598×360 JPEG).
+- Context/caption: “The 11 customers with missing total charges.” This image teaches that `errors='coerce'` exposes the customers whose normalized underscore values became missing numeric values.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook commands and customer output are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` in `.tmp/ml-classification-rollout-02-data-preparation-crops/05-candidate.png` removes the browser/notebook header, webcam tile, and right black capture bar. The source’s visible lower-edge truncation is retained rather than inventing rows beyond the captured output.
+- Invariants: visible commands remain `tc = pd.to_numeric(df.totalcharges, errors='coerce')`, `df.totalcharges = pd.to_numeric(df.totalcharges, errors='coerce')`, and `df[tc.isnull()][['customerid', 'totalcharges']]`; output headers remain `customerid` and `totalcharges`; visible missing values remain `_`; row indices remain `488`, `753`, `936`, `1082`, `1340`, `3331`, `3826`, `4380`, and `5218`, with their source customer IDs unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/02-data-preparation-05-coerce-missing-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size and a zoomed table inspection; commands, headers, missing-value markers, visible row indices, and customer IDs checked against the source; capture framing removed; Markdown reference resolves.
