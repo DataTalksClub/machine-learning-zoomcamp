@@ -29,7 +29,7 @@ dict(zip(a, b))
 {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
 ```
 
-![Using zip to join two sequences element by element: the numbers 1 to 4 with the letters a to d](images/11-log-reg-interpretation-01-zip.jpg)
+![Using zip to join two sequences element by element: the numbers 1 to 4 with the letters a to d](images/11-log-reg-interpretation-01-zip-cropped.png)
 
 We can do the same with the feature names and the weights:
 

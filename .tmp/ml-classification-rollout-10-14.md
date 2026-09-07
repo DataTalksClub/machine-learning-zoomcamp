@@ -43,3 +43,10 @@ use the built-in imagegen workflow after source inspection.
   `(15,82,505,220)`, 2× Lanczos resize and light unsharp; preserved both
   `0.8034066713981547` calculations and the dataframe construction while
   removing the camera tile and notebook frame.
+
+- `11-log-reg-interpretation-01-zip.jpg` →
+  `11-log-reg-interpretation-01-zip-cropped.png` — deterministic composite of
+  the simple `zip` example crop `(15,32,490,48)` and model-output crop
+  `(15,82,505,255)`, 2× Lanczos resize and light unsharp; preserved the exact
+  dictionary output and coefficient names/values while removing the camera
+  tile and browser frame.
