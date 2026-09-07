@@ -85,7 +85,7 @@ and there are videos too. During this module I will sometimes say "I'm
 not covering this in detail" and point you to the specific notes to
 read.
 
-![The CS231n course website](images/01-fashion-classification-05-cs231n.jpg)
+![The CS231n course website](images/01-fashion-classification-05-cs231n-cropped.png)
 
 ## The plan
 
