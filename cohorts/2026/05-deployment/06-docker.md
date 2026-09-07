@@ -10,7 +10,7 @@ In this unit we package the churn service into a Docker container, so it runs
 the same way everywhere - with the same Python version and the same
 dependencies, independent of the host machine.
 
-![The plan of the module: environment management with Docker](images/06-docker-01-module-plan.jpg)
+![The plan of the module: environment management with Docker](images/06-docker-01-module-plan-cropped.png)
 
 ## Installing Docker
 
