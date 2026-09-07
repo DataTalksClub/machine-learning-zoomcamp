@@ -100,7 +100,7 @@ for size in [10, 100, 1000]:
     print()
 ```
 
-![The tuning loop: training models with inner layer sizes 10, 100 and 1000](images/08-more-layers-04-tuning-sizes.jpg)
+![The tuning loop: training models with inner layer sizes 10, 100 and 1000](images/08-more-layers-04-tuning-sizes-cropped.png)
 
 While the models train, we can check that the GPU is actually being
 used. From Jupyter we can open a terminal and run `nvidia-smi` - a
