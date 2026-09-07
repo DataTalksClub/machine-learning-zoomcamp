@@ -9,7 +9,7 @@ code:
 In this unit we learn what a web service is and write our first one: a tiny
 Flask app that answers a ping request with "PONG".
 
-![The plan of the module: web services are the focus of this week](images/03-flask-intro-01-module-overview.jpg)
+![The plan of the module: web services are the focus of this week](images/03-flask-intro-01-module-overview-cropped.jpg)
 
 ## What is a web service?
 
