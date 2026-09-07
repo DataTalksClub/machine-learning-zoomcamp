@@ -160,7 +160,7 @@ augmentation, validation sometimes even beats training accuracy: the
 model sees a slightly different variation of every image at each
 epoch, so it memorizes them less easily.
 
-![Training output: training accuracy grows past 0.94 while validation stays around 0.86-0.89](images/11-large-model-05-training-output.jpg)
+![Training output: training accuracy grows past 0.94 while validation stays around 0.86-0.89](images/11-large-model-05-training-output-cropped.png)
 
 The best checkpoint of this run is `xception_v4_1_13_0.903.h5` -
 0.903 validation accuracy at epoch 13:
