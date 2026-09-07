@@ -38,7 +38,7 @@ Addition works element-wise: we add each element of the first vector to the corr
 array([3, 4, 5, 8])
 ```
 
-![Multiplying a vector by a scalar and adding two vectors](images/08-linear-algebra-01-vector-operations.jpg)
+![Multiplying a vector by a scalar and adding two vectors](images/08-linear-algebra-01-vector-operations-cropped.png)
 
 This is pretty much the same as we saw in the previous lecture in NumPy: element-wise addition, and multiplication by 2 is element-wise multiplication. So what happens in linear algebra here is exactly what NumPy does.
 
