@@ -91,6 +91,20 @@ remain in place; accepted replacements are sibling assets.
   browser/Zoom chrome, cursor, watermark, annotation, toolbar, and recording
   overlays absent.
 
+### 03-supervised-ml-04-regression.jpg
+
+- Disposition: `imagegen`; this bounded car-to-price example communicates
+  numeric regression directly.
+- Invariant: `Supervised Machine Learning`, `Regression:`, one car input,
+  right-pointing arrow, and exact numeric output `$50k`.
+- Crop: `550x300+20+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `03-supervised-ml-04-regression-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; label, input/output
+  relationship, arrow direction, and `$50k` checked; face, webcam,
+  browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
+  absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

@@ -52,7 +52,7 @@ Based on what g outputs and what the target variable looks like, there are diffe
 
 Regression is the car price case: g returns a number. The output can be any number from zero to plus infinity - or whatever range makes sense for the problem.
 
-![Regression: the output is a number](images/03-supervised-ml-04-regression.jpg)
+![Regression: the output is a number](images/03-supervised-ml-04-regression-imagegen-pilot.png)
 
 Predicting the price of a house is another example: from the number of square meters, the number of rooms, the distance from the center and the closest subway station, we predict that the house costs, say, $1 million. Anything where the output is a number is a regression problem.
 
