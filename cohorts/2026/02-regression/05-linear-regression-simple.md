@@ -81,7 +81,7 @@ it goes from 1 to n (in our example, 3):
 
 $$g(x_i) = w_0 + \sum_{j=1}^{n} w_j \cdot x_{ij}$$
 
-![The same formula written with a sum](images/05-linear-regression-simple-04-sum-notation.jpg)
+![The same formula written with a sum](images/05-linear-regression-simple-04-sum-notation-cropped.png)
 
 ## Implementing it in Python
 

@@ -29,3 +29,13 @@
 - Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-03-regression-formula-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact handwritten formula content is the source of truth. An initial single rectangle was rejected because it clipped the lower formula; the accepted stepped crop restored the complete expression without the webcam tile.
 - QA: final `1064x680` PNG inspected visually; all numeric values, symbols, and formula terms remain readable, with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 04
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-04-sum-notation.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the summation notation is exact source content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `450x170+30+135` (`x=30, y=135, width=450, height=170`). This focuses on the clean lower equation and removes the recorder marker, webcam tile, partially covered upper expansion, black bar, and recording controls.
+- Invariants: preserve the complete equation `g(x_i) = w_0 + \sum_{j=1}^{3} w_j · x_{ij}`, including the upper limit `3`, lower limit `j=1`, all subscripts, and the plus sign.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-04-sum-notation-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact mathematical notation is the source of truth. One tighter candidate was rejected because it retained a clipped blue fragment from the upper formula; the accepted crop starts at `y=135`.
+- QA: final `900x340` PNG inspected visually; the full summation equation is crisp and centered with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.
