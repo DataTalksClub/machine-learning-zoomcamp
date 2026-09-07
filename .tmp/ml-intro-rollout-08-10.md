@@ -134,3 +134,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: command `df.describe().round()`; columns `Year`, `Engine HP`, `Engine Cylinders`, `MSRP`; all rows from `count` through `max` and exact statistics
 - Output: `cohorts/2026/01-intro/images/09-pandas-06-describe-cropped.png`
 - Validation: accepted after visual inspection; command, headers, and all summary values are unchanged; face, camera tile, browser chrome, and editor caret are absent.
+
+### 07 — missing values
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-07-missing-values.jpg`
+- Disposition: deterministic crop, output-caret mask, and 2x Lanczos raster conversion
+- Crop: `560x205+15+100`; caret mask in resized crop: `278,165` to `305,197`
+- Invariants: command `df.isnull().sum()`; all eight column names; `Engine HP` has `1`; every other count is `0`; `dtype: int64`
+- Output: `cohorts/2026/01-intro/images/09-pandas-07-missing-values-cropped.png`
+- Validation: accepted after visual inspection; command, column names, counts, and dtype are unchanged; face, camera tile, browser chrome, and cursor are absent.

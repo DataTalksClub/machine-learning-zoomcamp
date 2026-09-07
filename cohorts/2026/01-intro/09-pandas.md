@@ -433,7 +433,7 @@ MSRP                 0
 dtype: int64
 ```
 
-![Counting missing values per column](images/09-pandas-07-missing-values.jpg)
+![Counting missing values per column](images/09-pandas-07-missing-values-cropped.png)
 
 Seeing a table of Trues and Falses is not always super useful, so what we usually do is call the `sum` method on it. The sum is applied to each column, and it tells us how many missing values there are in each column. Here: one missing value in Engine HP, and none anywhere else.
 
