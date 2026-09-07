@@ -7,3 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "scikit-learn>=1.7.1",
 ]
+
+[tool.uv]
+exclude-newer = "7 days"

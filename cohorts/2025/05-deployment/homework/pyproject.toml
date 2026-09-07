@@ -9,3 +9,6 @@ dependencies = [
     "scikit-learn==1.6.1",
     "uvicorn>=0.38.0",
 ]
+
+[tool.uv]
+exclude-newer = "7 days"
