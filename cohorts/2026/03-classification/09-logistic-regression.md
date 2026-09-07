@@ -30,7 +30,7 @@ probability that `xi` belongs to the positive class. If the model
 outputs 0.8 for a customer, we say it believes there is an 80% chance
 this customer will churn.
 
-![Binary classification: the target takes values 0 or 1, and the model outputs the probability of belonging to the positive class](images/09-logistic-regression-01-binary-classification.jpg)
+![Binary classification: the target takes values 0 or 1, and the model outputs the probability of belonging to the positive class](images/09-logistic-regression-01-binary-classification-clean.png)
 
 ## From linear regression to logistic regression
 

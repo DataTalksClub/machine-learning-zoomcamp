@@ -80,3 +80,10 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact validation `transform` sequence retained.
   - Crop: `480x225+25+35`; removes notebook/recording chrome and camera tile.
   - Invariants: fitted training vectorizer is reused for `val_dict` and `X_val`; no second fit is introduced. Long source lines remain clipped at the original frame edge.
+
+### 09-logistic-regression.md
+
+- `09-logistic-regression-01-binary-classification.jpg` →
+  `09-logistic-regression-01-binary-classification-clean.png`
+  - Disposition: deterministic vector redraw; exact binary-class labels and probability mapping retained.
+  - Invariants: `y_i ∈ {0, 1}`, 0 = no churn/no spam, 1 = churn/spam, and `g(x_i) → 0–1` as probability of the positive class; no face or recording chrome.
