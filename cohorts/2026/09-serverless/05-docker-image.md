@@ -95,7 +95,7 @@ result = requests.post(url, json=data).json()
 print(result)
 ```
 
-![Creating test.py with a POST request to the local Lambda endpoint](images/05-docker-image-03-test-script.jpg)
+![Creating test.py with a POST request to the local Lambda endpoint](images/05-docker-image-03-test-script-cropped.png)
 
 The URL looks strange, but that's how AWS does it: this long path
 (`/2015-03-31/functions/function/invocations`) is the local endpoint
