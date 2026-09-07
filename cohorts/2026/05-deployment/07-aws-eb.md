@@ -61,7 +61,7 @@ that everything works locally - EB builds the Docker image and runs it:
 eb local run --port 9696
 ```
 
-![Testing the service locally: the test script gets a prediction from the container](images/07-aws-eb-04-eb-local-test.jpg)
+![Testing the service locally: the test script gets a prediction from the container](images/07-aws-eb-04-eb-local-test-cropped.png)
 
 The test script from the [earlier unit](04-flask-deployment.md) can test it
 as before. When it works, create the real environment in AWS:
