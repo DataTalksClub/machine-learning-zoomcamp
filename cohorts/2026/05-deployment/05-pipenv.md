@@ -10,7 +10,7 @@ In this unit we put the project's dependencies into an isolated virtual
 environment with Pipenv, so our service always runs with the library versions
 we tested it with.
 
-![Environment and dependency management](images/05-pipenv-01-title.jpg)
+![Environment and dependency management](images/05-pipenv-01-title-imagegen.png)
 
 ## The problem: conflicting library versions
 
