@@ -116,3 +116,12 @@
 - Invariants: preserve `strings = list(df.dtypes[df.dtypes == 'object'].index)`, the second `strings` expression, all eight exact list entries and their order, and the visible `for col in strings` / `df[col] =` setup cell.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-06-strings-list-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, values, order, and loop setup preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x230`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 14 — normalize values
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that the loop lowercases string values and replaces spaces with underscores before `df.head()` is inspected.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-07-normalize-values.jpg`; caption: “The normalized string values”.
+- Crop coordinates: source `598x360`; `577x196+0+54` (`x=0, y=54, width=577, height=196`). The crop removes the notebook/browser header, webcam tile, right black strip, horizontal scrollbar/pointer, later-section heading, and recording-frame material while retaining the loop, `df.head()`, and the complete visible five-row output.
+- Invariants: preserve `for col in strings`, the exact lowercase/space-replacement expression, `df.head()`, every visible normalized header and value, all five visible row relationships, and the original horizontal viewport/truncation.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-07-normalize-values-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, values, row order, relationships, and visible viewport preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or scrollbar remains; final dimensions `577x196`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

@@ -170,7 +170,7 @@ values are replaced with underscores:
 df.head()
 ```
 
-![The normalized string values](images/02-data-preparation-07-normalize-values.jpg)
+![The normalized string values](images/02-data-preparation-07-normalize-values-cropped.jpg)
 
 The dataset is prepared, and in the next lesson we take a closer look at it
 with [exploratory data analysis](03-eda.md).
