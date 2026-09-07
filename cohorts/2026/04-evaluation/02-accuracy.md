@@ -12,7 +12,7 @@ In this lesson we look at accuracy, the simplest evaluation metric: the fraction
 
 Accuracy measures the fraction of correct predictions: the number of correct predictions divided by the total number of predictions.
 
-![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example.jpg)
+![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example-cropped.jpg)
 
 Our validation set has 1409 customers:
 

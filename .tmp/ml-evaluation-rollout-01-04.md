@@ -71,3 +71,12 @@
 - Invariants: the blue accuracy curve, its rise from about `0.27` at threshold `0.0` to a peak around `0.80` near `0.5`, its decline to about `0.73`, and the visible x-axis ticks `0.0`, `0.2`, `0.4`, `0.6`, `0.8`, `1.0` plus y-axis ticks `0.3` through `0.8` remain unchanged.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-01-accuracy-vs-threshold-cropped.jpg`
 - QA: accepted after visual inspection; the exact curve and axes remain crisp and readable at lesson size, with no non-teaching overlays; `372×248` output renders cleanly.
+
+## 02 — toy accuracy example
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-02-accuracy-example.jpg`
+- Disposition: accepted deterministic crop; the exact whiteboard teaching example is retained, so imagegen was not used.
+- Crop coordinates: `x=27, y=0, width=451, height=340` from the 598×360 source; removes the black side bars, upper-right webcam tile, circular recording overlay, and bottom-left recording controls, while trimming only blank whiteboard margin at the bottom.
+- Invariants: the handwritten `4.2 ACCURACY` title, six customer figures with their green checks/red crosses and probability annotations, the red/blue grouping, threshold note `>0.5`, and `3/6 = 50%` remain unchanged with the original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-02-accuracy-example-cropped.jpg`
+- QA: accepted after visual inspection; all instructional handwriting, figures, threshold marking, and accuracy calculation remain legible; no face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, or black bar remains; `451×340` output renders cleanly.
