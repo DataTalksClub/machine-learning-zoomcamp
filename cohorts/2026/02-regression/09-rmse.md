@@ -38,7 +38,7 @@ y_pred:  10     9     11    10
 y:        9     9     10.5  11.5
 ```
 
-![Predictions and actual values as two arrays](images/09-rmse-02-predictions-vs-actual-prices.jpg)
+![Predictions and actual values as two arrays](images/09-rmse-02-predictions-vs-actual-prices-cropped.png)
 
 The first step is to take the difference between each prediction and
 the corresponding actual value:
