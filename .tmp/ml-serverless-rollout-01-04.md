@@ -220,3 +220,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact visible code was preserved. The long source URL remains limited by the original editor viewport and is not used as a generated approximation.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `tensorflow-model.py`, `ipython().run_line_magic`, and `ipython().system` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 04-preparing-code-04-predict-function.jpg
+
+- **Disposition:** `crop/replace` → `images/04-preparing-code-04-predict-function-cropped.png`
+- **Teaching point:** the cleaned script's `predict(url)` function prepares the image, invokes TF-Lite, and returns a class-to-score dictionary.
+- **Source inspection:** 592×360; focused deterministic crop `+0+55 552×220` removes the webcam tile, editor chrome, cursor/autocomplete overlay, and bottom status area while retaining the function body.
+- **Method:** deterministic Lanczos upscale to 1104×440 with light sharpening; exact visible code was preserved. The long `output_index` line remains limited by the original viewport edge.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `predict(url)`, `from_url`, `set_tensor`, `invoke`, `get_tensor`, and the return dictionary remain readable; no face/camera/recording overlay or autocomplete popup remains; Markdown reference resolves.

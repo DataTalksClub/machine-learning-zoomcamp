@@ -49,7 +49,7 @@ this line is commented out - we don't need it here, we'll use it for
 testing), runs the inference, and converts the predictions to the
 dictionary form:
 
-![Cleaning up the generated script: the predict function, and the lambda handler about to be written](images/04-preparing-code-04-predict-function.jpg)
+![Cleaning up the generated script: the predict function, and the lambda handler about to be written](images/04-preparing-code-04-predict-function-cropped.png)
 
 After cleaning, the script looks like this:
 
