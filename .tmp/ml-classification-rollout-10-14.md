@@ -64,3 +64,10 @@ use the built-in imagegen workflow after source inspection.
   crop `(15,32,490,235)`, 2× Lanczos resize and light unsharp; preserved the
   five feature names, vectorizer fit, transform, and small-model setup while
   removing the camera tile and notebook/browser frame.
+
+- `11-log-reg-interpretation-04-small-model-weights.jpg` →
+  `11-log-reg-interpretation-04-small-model-weights-cropped.png` —
+  deterministic crop `(15,45,490,220)`, 2× Lanczos resize and light unsharp;
+  preserved the bias and five exact weights plus the training output while
+  removing the camera/browser chrome. The first training cell is source-edge
+  clipped, so that limitation remains visible rather than being invented.

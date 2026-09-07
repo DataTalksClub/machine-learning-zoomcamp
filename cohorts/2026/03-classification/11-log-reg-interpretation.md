@@ -130,7 +130,7 @@ w0
 -2.476775657751665
 ```
 
-![Training the small model and looking at what it learned: the bias term and the five weights](images/11-log-reg-interpretation-04-small-model-weights.jpg)
+![Training the small model and looking at what it learned: the bias term and the five weights](images/11-log-reg-interpretation-04-small-model-weights-cropped.png)
 
 The weights, paired with their names:
 
