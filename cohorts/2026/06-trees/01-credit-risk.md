@@ -57,7 +57,7 @@ returns a value close to 0, the client is likely to pay back and the
 bank can approve the loan. If it returns a value close to 1, the client
 is a likely defaulter and the bank may decline the application.
 
-![The target y is 0 for OK and 1 for default; g(x) is the probability of default](images/01-credit-risk-03-probability-of-default.jpg)
+![The target y is 0 for OK and 1 for default; g(x) is the probability of default](images/01-credit-risk-03-probability-of-default-imagegen.png)
 
 ## The dataset
 

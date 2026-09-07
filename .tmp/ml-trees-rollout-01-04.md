@@ -20,3 +20,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   webcam tile, recorder controls, and color wheel. Checked five rows and exact
   outcome order `OK`, `OK`, `DEFAULT`, `DEFAULT`, `OK`; no extra rows or
   overlays remain.
+- `01-credit-risk-03-probability-of-default.jpg` →
+  `01-credit-risk-03-probability-of-default-imagegen.png`: imagegen
+  regeneration. Source crop `(x=25, y=0, width=480, height=270)` removed the
+  black frame, webcam tile, recorder controls, and color wheel. Checked the
+  five target outcomes, `y ∈ {0, 1}`, mappings to `OK`/`DEFAULT`, and the
+  statement `g(xᵢ) → probability of default`; no extra values or overlays.
