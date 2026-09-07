@@ -80,3 +80,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×616 with light sharpening; exact code, class names, and prediction values were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `float_predictions = preds[0].tolist()` and the successful `python test.py` output remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The long JSON line remains bounded by the original viewport.
+
+## 06-creating-lambda-01-ecr-create-repository.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-01-ecr-create-repository-cropped.png`
+- **Teaching point:** the terminal first shows the missing AWS CLI command and then the `pip install awscli` fallback.
+- **Source inspection:** 592×360; crop `+55+20 447×293` isolates the terminal window and removes the AWS page, webcam tile, and surrounding frame.
+- **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact command, package suggestions, and version text were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the `aws ecr create-repository` failure and `pip install awscli` command remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

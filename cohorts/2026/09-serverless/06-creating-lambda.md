@@ -33,7 +33,7 @@ aws ecr create-repository --repository-name clothing-tflite-images
 installed it with `pip install awscli`.) The response contains the
 details of the repository we just created:
 
-![Creating the ECR repository and installing the AWS CLI](images/06-creating-lambda-01-ecr-create-repository.jpg)
+![Creating the ECR repository and installing the AWS CLI](images/06-creating-lambda-01-ecr-create-repository-cropped.png)
 
 ```text
 "registryId": "387546586013",
