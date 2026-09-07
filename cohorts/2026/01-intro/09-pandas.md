@@ -61,7 +61,7 @@ df = pd.DataFrame(data, columns=columns)
 4        Pickup  32340  
 ```
 
-![Creating a DataFrame from a list of lists with named columns](images/09-pandas-01-create-dataframe.jpg)
+![Creating a DataFrame from a list of lists with named columns](images/09-pandas-01-create-dataframe-cropped.png)
 
 Usually I call DataFrames `df`.
 

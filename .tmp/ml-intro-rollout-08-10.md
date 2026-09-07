@@ -78,3 +78,14 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: heading `Inverse`; `Vs = V[[0, 1, 2]]`; `Vs_inv = np.linalg.inv(Vs)`; inverse matrix values including `-0.66666667`, `0.66666667`, `1.33333333`, and `-0.33333333`
 - Output: `cohorts/2026/01-intro/images/08-linear-algebra-08-inverse-cropped.png`
 - Validation: accepted after visual inspection; commands and numeric output are unchanged; face, camera tile, browser chrome, and recording controls are absent.
+
+## 09-pandas
+
+### 01 — create DataFrame
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-01-create-dataframe.jpg`
+- Disposition: deterministic crop, camera mask, and 2x Lanczos raster conversion
+- Crop: `560x285+15+20`; camera mask in resized crop: `980,0` to `1119,72`
+- Invariants: exact `data` rows and values; exact `columns` list; `df = pd.DataFrame(data, columns=columns)`; five-row DataFrame output and all column names/values
+- Output: `cohorts/2026/01-intro/images/09-pandas-01-create-dataframe-cropped.png`
+- Validation: accepted after visual inspection; code, headers, table values, and `NaN` are unchanged; face, camera tile, browser chrome, and scrollbar are absent.
