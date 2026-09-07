@@ -59,3 +59,13 @@ outputs, and UI are handled deterministically.
 - Rubric: `1 / 2 / 1 / 1 / 0 / 1 = 6/12`; remove because the transient Google calculator adds no durable evidence beyond the written arithmetic and the source UI is low-resolution.
 - Disposition: `remove`; the original JPG remains in the repository but is no longer referenced. A crop candidate was reviewed and rejected for the same redundancy/readability reasons.
 - QA: source and context inspected; the Markdown reference was removed, no other lesson content changed, and `git diff --check` passes before commit.
+
+### Screenshot 06 — RMSE implementation
+
+- Source: `cohorts/2026/02-regression/images/09-rmse-06-rmse-implementation.jpg`.
+- Caption/context: “Implementing rmse and evaluating the baseline model”; the section explains the function and shows the baseline result `0.7554192603920132`.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because it links the handwritten formula, exact NumPy implementation, and observed baseline score in one view.
+- Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `565x288+16+72`, then 2× Lanczos resize and light unsharp masking. This removes the browser header, webcam tile, recording marker, black frame edges, and controls.
+- Invariants/QA: preserve the formula, complete `rmse` function, call `rmse(y_train, y_pred)`, and output `0.7554192603920132`. Final `1130x576` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/09-rmse-06-rmse-implementation-cropped.png`.
