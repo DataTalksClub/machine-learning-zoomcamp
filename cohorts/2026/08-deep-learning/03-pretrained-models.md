@@ -105,7 +105,7 @@ The shape is `(1, 299, 299, 3)`: one image, 299 by 299, with three
 channels. If we had several images - say 3 - we would put all of them
 in this array, and the shape would be `(3, 299, 299, 3)`:
 
-![The batch X has shape (1, 299, 299, 3) - one image](images/03-pretrained-models-06-batch-shape.jpg)
+![The batch X has shape (1, 299, 299, 3) - one image](images/03-pretrained-models-06-batch-shape-cropped.png)
 
 ## Preprocessing
 
