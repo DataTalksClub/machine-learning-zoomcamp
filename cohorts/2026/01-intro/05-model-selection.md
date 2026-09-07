@@ -52,7 +52,7 @@ In statistics this is called the multiple comparisons problem: when we perform t
 
 To guard against this, instead of holding out one dataset we hold out two:
 
-![The 60/20/20 split into train, validation and test](images/05-model-selection-03-train-valid-test.jpg)
+![The 60/20/20 split into train, validation and test](images/05-model-selection-03-train-valid-test-imagegen-pilot.png)
 
 - 20% for validation
 - 20% more for testing
