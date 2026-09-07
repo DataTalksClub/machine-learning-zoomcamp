@@ -86,7 +86,7 @@ notebook:
 - cross-validation with `KFold` to report the AUC for `C=1.0`,
 - training the final model and saving it with pickle.
 
-![The train.py script: the predict function and the cross-validation loop](images/02-pickle-05-train-py.jpg)
+![The train.py script: the predict function and the cross-validation loop](images/02-pickle-05-train-py-cropped.jpg)
 
 A script is what we will actually run on a server: it is reproducible, it can
 be executed by a scheduler or a CI job, and it does not require a running
