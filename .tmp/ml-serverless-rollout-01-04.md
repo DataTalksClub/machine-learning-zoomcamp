@@ -238,3 +238,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact URL, class names, and scores were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; IPython command, all class scores, and highest `pants` value remain readable; no face/camera/recording overlay remains. A small native pointer over the URL remains; Markdown reference resolves.
+
+## 04-preparing-code-06-final-script.jpg
+
+- **Disposition:** `crop/replace` → `images/04-preparing-code-06-final-script-cropped.png`
+- **Teaching point:** the final script combines `predict` with the `lambda_handler` entry point that reads the URL and returns the prediction.
+- **Source inspection:** 592×360; deterministic crop `+0+0 500×336` removes the webcam tile, black frame, and bottom editor status bar while retaining the complete visible code.
+- **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact URL, inference calls, and handler code were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `predict`, TF-Lite calls, `lambda_handler`, URL extraction, and return statement remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

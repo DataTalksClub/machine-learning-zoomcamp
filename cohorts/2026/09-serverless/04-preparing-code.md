@@ -110,7 +110,7 @@ def lambda_handler(event, context):
     return result
 ```
 
-![The complete script: predict and lambda_handler](images/04-preparing-code-06-final-script.jpg)
+![The complete script: predict and lambda_handler](images/04-preparing-code-06-final-script-cropped.png)
 
 We rename the file to `lambda_function.py` - this is where our lambda
 function will live. (The version of this file in the module's
