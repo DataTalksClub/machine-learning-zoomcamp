@@ -67,7 +67,7 @@ score = rmse(y_val, y_pred)
 score
 ```
 
-![Training the model with the selected r of 0.001](images/14-tuning-model-04-final-model.jpg)
+![Training the model with the selected r of 0.001](images/14-tuning-model-04-final-model-cropped.png)
 
 We selected the best regularization parameter, trained the model with it, and we
 saw that it works on the validation set:
