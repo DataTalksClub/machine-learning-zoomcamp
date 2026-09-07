@@ -18,7 +18,7 @@ strings: `make`, `model`, `engine_fuel_type`, `transmission_type`,
 `driven_wheels` and others. If we look at the data types, all the columns of
 type `object` are categorical variables.
 
-![The columns with the object type are the categorical variables](images/12-categorical-variables-01-object-columns.jpg)
+![The columns with the object type are the categorical variables](images/12-categorical-variables-01-object-columns-cropped.png)
 
 There is one variable that looks numerical but is not: `number_of_doors`. It
 contains 2, 3 and 4 - numbers - but these numbers are distinct categories of

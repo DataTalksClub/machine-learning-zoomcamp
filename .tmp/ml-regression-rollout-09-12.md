@@ -183,3 +183,15 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x270+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the plotting code, output label, complete histogram, axes, and annotations while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve both histogram calls, red/blue series, bins `50`, axes, bar heights/shape, and blue arrows. Final `1066x540` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-07-distribution-comparison-cropped.png`.
+
+## 12 — categorical variables
+
+### Screenshot 01 — object columns
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns.jpg`.
+- Caption/context: “The columns with the object type are the categorical variables”; the lesson uses `df_train.dtypes` to identify string columns.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the complete dtype listing distinguishes categorical `object` columns from numeric columns.
+- Disposition: `crop/replace` via deterministic raster export; exact labels and dtypes are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x268+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete command and dtype output while removing browser/Zoom chrome, webcam tile, cursor, headings below the output, and recording frame.
+- Invariants/QA: preserve every visible column/type pair and final `dtype: object`. Final `1066x536` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns-cropped.png`.
