@@ -90,7 +90,7 @@ instances:
 eb terminate churn-serving-env
 ```
 
-![Terminating the environment from the EB console when it is no longer needed](images/07-aws-eb-07-terminate-environment.jpg)
+![Terminating the environment from the EB console when it is no longer needed](images/07-aws-eb-07-terminate-environment-cropped.png)
 
 ## Materials
 
