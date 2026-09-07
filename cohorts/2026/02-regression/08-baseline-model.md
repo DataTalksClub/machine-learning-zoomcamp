@@ -74,7 +74,7 @@ The easiest way to deal with them is to fill them with zeros:
 X_train = df_train[base].fillna(0).values
 ```
 
-![Filling missing values with zeros](images/08-baseline-model-04-fillna-zero.jpg)
+![Filling missing values with zeros](images/08-baseline-model-04-fillna-zero-cropped.png)
 
 Filling with zeros might look strange - a car with zero horsepower
 doesn't exist, and no engine has zero cylinders. To see why it still

@@ -239,3 +239,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-03-nan-weights-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code and failure values must not be guessed; one crop was accepted after removing the preceding `isnull` fragment.
 - QA: final `960x110` PNG inspected visually; command and all `nan` values are crisp with no face, camera tile, browser/Zoom chrome, cursor, clipped source fragment, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 04
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-04-fillna-zero.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the filled dataframe values and column labels are exact notebook output, so imagegen was not used.
+- Crop coordinates: source `598x360`; `520x160+50+180` (`x=50, y=180, width=520, height=160`). This focuses on the complete output table and removes browser chrome, presenter webcam tile, input cursor, selected-cell frame, right black bar, and surrounding notebook cells.
+- Invariants: preserve the headers `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg`, `popularity`, all visible row values, ellipses, and row `7145`.
+- Path: deterministic output-table crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-04-fillna-zero-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact table values are source of truth. A crop including the input cursor required masking over code; the accepted output-only crop removes that cursor without touching any table value.
+- QA: final `1040x320` PNG inspected visually; headers and every visible value are crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
