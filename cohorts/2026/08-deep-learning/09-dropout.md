@@ -22,7 +22,7 @@ can appear on a hoodie, so on the validation set this leads to
 mistakes. What we want instead is for the model to focus on the
 bigger picture: the shape of the item, not the details.
 
-![A t-shirt with a logo: training for 10 epochs means the model sees this image 10 times](images/09-dropout-01-motivation-logo.jpg)
+![A t-shirt with a logo: training for 10 epochs means the model sees this image 10 times](images/09-dropout-01-motivation-logo-imagegen.png)
 
 ## The dropout idea
 
