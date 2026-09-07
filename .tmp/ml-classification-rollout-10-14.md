@@ -121,3 +121,11 @@ use the built-in imagegen workflow after source inspection.
   REGRESSION → CHURN PROBABILITY 0.5968852088293909`, threshold `0.5`, and
   the churn/promotional-email decision. No face, camera, browser chrome, or
   invented numeric result remains.
+
+- `13-summary-01-churn-prediction-slide.jpg` →
+  `13-summary-01-churn-prediction-imagegen.png` — built-in imagegen
+  replacement from inspected/cropped source `(0,8,505,305)`. Preserved the
+  lesson's churn-prediction teaching point, telecom company, ordered customer
+  probabilities `0.20` through `0.85`, high-risk selection, and promotional
+  email; removed the presenter, camera/recording controls, color wheel, and
+  cursor. Output visually checked at lesson size.
