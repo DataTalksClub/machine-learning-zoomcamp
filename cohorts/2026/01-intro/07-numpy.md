@@ -188,7 +188,7 @@ array([[43.59949021,  2.59262318],
 
 Now every time we execute the cell, the results are the same, because we fixed the seed. (The exact numbers can vary a bit depending on the version of NumPy or the operating system, but in general the sequence should be the same.)
 
-![Fixing the seed makes random numbers reproducible](images/07-numpy-05-random-seed.jpg)
+![Fixing the seed makes random numbers reproducible](images/07-numpy-05-random-seed-cropped.png)
 
 Here we multiplied everything by 100: instead of numbers between 0 and 1 we get numbers between 0 and 100. Why we can multiply an array by a number like this is explained below - it's an element-wise operation.
 

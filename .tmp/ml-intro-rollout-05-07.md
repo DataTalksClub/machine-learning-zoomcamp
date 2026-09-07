@@ -150,6 +150,15 @@
 - Invariants: matrix `n`; `n[:, 2] = [0, 1, 2]`; final output `[[1, 20, 0], [4, 5, 1], [1, 1, 2]]`; `Randomly generated arrays` context
 - Validation: passed visual review; code and matrix values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 05 — random-seed
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-05-random-seed.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-05-random-seed-cropped.png`
+- Crop: `500×220+0+100` (removes browser frame and webcam tile; retains the section heading, seed commands, exact 5×2 output, and next-section context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy commands and numeric output are the source of truth
+- Invariants: `np.random.seed(2)`; `np.random.rand(5, 2)`; all five rows and two columns of output; `Randomly generated arrays` / `Element-wise operations` headings
+- Validation: passed visual review; code and all numeric values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
