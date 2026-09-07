@@ -69,3 +69,15 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `565x288+16+72`, then 2× Lanczos resize and light unsharp masking. This removes the browser header, webcam tile, recording marker, black frame edges, and controls.
 - Invariants/QA: preserve the formula, complete `rmse` function, call `rmse(y_train, y_pred)`, and output `0.7554192603920132`. Final `1130x576` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/09-rmse-06-rmse-implementation-cropped.png`.
+
+## 10 — validation data
+
+### Screenshot 01 — train/validation/test split
+
+- Source: `cohorts/2026/02-regression/images/10-car-price-validation-01-split-diagram.jpg`.
+- Caption/context: “Train, validation and test sets: the model g is trained on train and applied to validation”; the opening section explains why validation must use unseen data.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the arrows show the training/validation relationship more directly than prose alone.
+- Disposition: `crop/replace` via deterministic raster export; the exact labels and arrow directions are fidelity-sensitive, so imagegen was not used.
+- Crop: source `598x360`; `380x260+126+31`, then a small blank-board mask over the cursor (`local x=52..70, y=141..158`), 2× Lanczos resize, and light unsharp masking. This removes the recording marker, webcam tile, black frame, controls, and cursor.
+- Invariants/QA: preserve the `TRAIN`, `VAL`, and `TEST` partitions, model `g`, and both arrow directions. Final `760x520` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-01-split-diagram-cropped.png`.
