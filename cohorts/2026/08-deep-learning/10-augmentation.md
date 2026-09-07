@@ -12,7 +12,7 @@ more training images from the existing ones by applying random
 transformations, so the network never sees the same image twice in
 exactly the same form.
 
-![Data augmentation: from one t-shirt image we generate more different images](images/10-augmentation-01-generate-more-images.jpg)
+![Data augmentation: from one t-shirt image we generate more different images](images/10-augmentation-01-generate-more-images-imagegen.png)
 
 ## What augmentations look like
 
