@@ -88,7 +88,7 @@ def prepare_X(df):
     return X
 ```
 
-![With df.copy() the original dataframe is no longer modified](images/11-feature-engineering-05-dataframe-copy.jpg)
+![With df.copy() the original dataframe is no longer modified](images/11-feature-engineering-05-dataframe-copy-cropped.png)
 
 Now `X_train` has six columns - the five base features plus `age`, which is the
 last one.

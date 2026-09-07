@@ -153,3 +153,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x245+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete `df_train.dtypes` output, selected `age` row, and `dtype: object` while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve all visible column/type pairs, especially `age int64`, the selection highlight, and the final dtype line. Final `1066x490` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-04-modified-dataframe-cropped.png`.
+
+### Screenshot 05 — copying the dataframe
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-05-dataframe-copy.jpg`.
+- Caption/context: “With df.copy() the original dataframe is no longer modified”; the lesson presents this function as the fix for the visible side effect.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused code cell makes the non-mutating fix visible without the surrounding notebook clutter.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x175+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the complete `prepare_X` implementation with `df.copy()` and removes browser/Zoom chrome, webcam tile, headings, incomplete output, and recording frame.
+- Invariants/QA: preserve `df = df.copy()`, age creation, feature selection, `fillna(0)`, `.values`, and `return X`; no clipped output is presented as evidence. Final `1066x350` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-05-dataframe-copy-cropped.png`.
