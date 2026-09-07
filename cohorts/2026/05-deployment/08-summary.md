@@ -29,7 +29,7 @@ removed everything that tied it to our laptop:
 - Deployment to the cloud - with AWS Elastic Beanstalk, which runs the
   container on AWS machines and makes the service available on the internet.
 
-![The second half of the plan: Pipenv, Docker and AWS Elastic Beanstalk](images/08-summary-02-module-plan-continued.jpg)
+![The second half of the plan: Pipenv, Docker and AWS Elastic Beanstalk](images/08-summary-02-module-plan-continued-cropped.png)
 
 To summarize the whole module in one list:
 
