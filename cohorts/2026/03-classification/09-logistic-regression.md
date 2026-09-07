@@ -131,7 +131,7 @@ def logistic_regression(xi):
     return result
 ```
 
-![Both models in the notebook: logistic regression is the linear regression function with the score passed through sigmoid before returning](images/09-logistic-regression-05-logistic-regression-function.jpg)
+![Both models in the notebook: logistic regression is the linear regression function with the score passed through sigmoid before returning](images/09-logistic-regression-05-logistic-regression-function-cropped.png)
 
 The two functions are almost identical. That is the whole idea of this
 lesson: logistic regression is linear regression with a sigmoid on top,

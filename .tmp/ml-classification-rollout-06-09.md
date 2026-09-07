@@ -103,3 +103,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic lossless PNG conversion with a two-pixel edge trim; exact native plot retained.
   - Crop: `370x245+0+0`; no face, camera, browser, or recording overlay was present.
   - Invariants: axes, tick values, and sigmoid curve checked against the source.
+
+- `09-logistic-regression-05-logistic-regression-function.jpg` →
+  `09-logistic-regression-05-logistic-regression-function-cropped.png`
+  - Disposition: deterministic crop; exact notebook code retained.
+  - Crop: `480x205+25+36`; removes notebook chrome, camera tile, and following lesson heading.
+  - Invariants: `score = w0`, weighted feature loop, `sigmoid(score)`, and `return result` checked; source-edge truncation is preserved rather than guessed.
