@@ -7,7 +7,7 @@ In this unit we look at what we will build in module 5: taking the churn
 prediction model we trained earlier and turning it into a service that other
 systems can call over the network.
 
-![Deploying machine learning models](images/01-intro-01-title.jpg)
+![Deploying machine learning models](images/01-intro-01-title-cropped.jpg)
 
 ## The problem: the model lives in a notebook
 
