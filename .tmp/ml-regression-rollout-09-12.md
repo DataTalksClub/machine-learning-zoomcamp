@@ -111,3 +111,15 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x207+26+82`, with a small notebook-background patch over the cursor (`local x=454..470, y=158..173`), then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
 - Invariants/QA: preserve both code blocks, the `TRAIN` / `VAL` annotations and line, and result `0.7616530991301577`; the patch touches only blank cell background. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/10-car-price-validation-04-train-vs-validation-parts-cropped.png`.
+
+## 11 — feature engineering
+
+### Screenshot 01 — year column
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-01-year-column.jpg`.
+- Caption/context: “The training dataset with the year column”; the lesson motivates transforming `year` into car age.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the selected `year` column and representative old/new rows make the raw feature concrete.
+- Disposition: `crop/replace` via deterministic raster export; exact table values are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `165x215+135+145`, then 2× Lanczos resize and light unsharp masking. This focuses on the complete `make`, `model`, and selected `year` columns and removes browser/Zoom chrome, webcam tile, code-cell fragments, cursor, and clipped adjacent columns.
+- Invariants/QA: preserve the `year` header, rows 0–4 and 7145–7148, and all visible make/model/year values. Final `330x430` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or partial adjacent column; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-01-year-column-cropped.png`.
