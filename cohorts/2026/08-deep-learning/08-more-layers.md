@@ -125,7 +125,7 @@ plt.yticks([0.78, 0.80, 0.82, 0.825, 0.83])
 plt.legend()
 ```
 
-![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot.jpg)
+![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot-cropped.png)
 
 The curves for all three sizes are close to each other: validation
 accuracy lands somewhere between 0.78 and 0.83 for each size, and the
