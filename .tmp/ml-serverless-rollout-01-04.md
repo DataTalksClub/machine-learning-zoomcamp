@@ -202,3 +202,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact headings and bullets were preserved.
 - **Rubric:** instructional contribution 1, relevance 2, readability 2, complementarity 1, durability 2, caption/accessibility 2 — **10/12; keep**.
 - **Validation:** output inspected; notebook-to-script, local testing, and Docker plan items remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 04-preparing-code-02-nbconvert.jpg
+
+- **Disposition:** `crop/replace` → `images/04-preparing-code-02-nbconvert-cropped.png`
+- **Teaching point:** `jupyter nbconvert --to script tensorflow-model.ipynb` writes the generated `tensorflow-model.py` script.
+- **Source inspection:** 592×360; deterministic crop `+0+0 500×336` removes the webcam tile, black frame, and bottom editor status bar while retaining the terminal command and output.
+- **Method:** deterministic Lanczos upscale to 1000×672 with light sharpening; exact command, filenames, and byte counts were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; nbconvert command, conversion messages, and `tensorflow-model.py` output remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

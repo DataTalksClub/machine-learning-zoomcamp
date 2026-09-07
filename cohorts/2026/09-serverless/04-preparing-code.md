@@ -26,7 +26,7 @@ menu, but there's a command line utility for doing this: nbconvert:
 jupyter nbconvert --to-script tensorflow-model.ipynb
 ```
 
-![Running nbconvert: the notebook is converted to tensorflow-model.py](images/04-preparing-code-02-nbconvert.jpg)
+![Running nbconvert: the notebook is converted to tensorflow-model.py](images/04-preparing-code-02-nbconvert-cropped.png)
 
 This converts the notebook to a Python file with the same name -
 `tensorflow-model.py`. Let's open it.
