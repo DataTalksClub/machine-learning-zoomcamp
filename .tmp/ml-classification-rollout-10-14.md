@@ -71,3 +71,10 @@ use the built-in imagegen workflow after source inspection.
   preserved the bias and five exact weights plus the training output while
   removing the camera/browser chrome. The first training cell is source-edge
   clipped, so that limitation remains visible rather than being invented.
+
+- `11-log-reg-interpretation-05-first-example.jpg` →
+  `11-log-reg-interpretation-05-first-example-rendered.png` — deterministic
+  notebook-style render from the exact lesson code/output: `-3.473` and
+  `0.030090303318277657`. The source screenshot was rejected because it
+  showed the later month-to-month example (`0.418...`) instead of the
+  surrounding two-year-customer example; no generated approximation was used.

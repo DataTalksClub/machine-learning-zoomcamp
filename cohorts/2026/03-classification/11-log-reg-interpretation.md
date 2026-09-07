@@ -181,7 +181,7 @@ sigmoid(_)
 0.030090303318277657
 ```
 
-![Scoring the customer in the notebook: the score -3.473 passed through the sigmoid gives a 3% churn probability](images/11-log-reg-interpretation-05-first-example.jpg)
+![Scoring the customer in the notebook: the score -3.473 passed through the sigmoid gives a 3% churn probability](images/11-log-reg-interpretation-05-first-example-rendered.png)
 
 Only a 3% chance of churn - exactly what we would expect from a
 loyal customer on a two-year contract.
