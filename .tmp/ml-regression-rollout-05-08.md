@@ -89,3 +89,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-02-dot-product-notation-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact mathematical notation is the source of truth; one crop was accepted after visual inspection.
 - QA: final `900x600` PNG inspected visually; both equations and the explanatory blue box are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 03
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-03-dot-function.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact Python code is source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x170+15+65` (`x=15, y=65, width=480, height=170`). This removes browser chrome, the lesson headings, presenter webcam tile, right black bar, cursor/controls, and the selected next cell while retaining the complete `dot` and simplified `linear_regression` functions.
+- Invariants: preserve the exact definitions, loop bounds, `res = res + xi[j] * w[j]`, `return res`, and `return w0 + dot(xi, w)` lines.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-03-dot-function-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code must not be guessed. A wider candidate was rejected because it retained the selected green-bordered next cell; the accepted crop ends before it.
+- QA: final `960x340` PNG inspected visually; both functions and all code tokens remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.

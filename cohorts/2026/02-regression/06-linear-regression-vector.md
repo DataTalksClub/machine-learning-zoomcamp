@@ -59,7 +59,7 @@ def linear_regression(xi):
     return w0 + dot(xi, w)
 ```
 
-![The dot function and the simplified linear_regression](images/06-linear-regression-vector-03-dot-function.jpg)
+![The dot function and the simplified linear_regression](images/06-linear-regression-vector-03-dot-function-cropped.png)
 
 ## The fictional feature
 
