@@ -229,3 +229,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-02-base-features-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code/token content must not be guessed. A taller crop retained a previous-cell fragment and green border; the accepted crop isolates the code cell.
 - QA: final `960x84` PNG inspected visually; all five feature names and syntax remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 03
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-03-nan-weights.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the exact failed training call and `nan` output are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `480x55+50+180` (`x=50, y=180, width=480, height=55`). This isolates the training call/result and removes the prior-cell fragment, browser chrome, presenter webcam tile, lesson headings, selected-cell frame, right black bar, and controls.
+- Invariants: preserve `train_linear_regression(X_train, y_train)` and the complete output `(nan, array([nan, nan, nan, nan, nan]))`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-03-nan-weights-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code and failure values must not be guessed; one crop was accepted after removing the preceding `isnull` fragment.
+- QA: final `960x110` PNG inspected visually; command and all `nan` values are crisp with no face, camera tile, browser/Zoom chrome, cursor, clipped source fragment, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.

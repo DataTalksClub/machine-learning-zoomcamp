@@ -59,7 +59,7 @@ w0, w = train_linear_regression(X_train, y_train)
 The result is not what we expect: both the bias term and the weights
 are `nan` - "not a number".
 
-![Training fails: the weights come back as nan](images/08-baseline-model-03-nan-weights.jpg)
+![Training fails: the weights come back as nan](images/08-baseline-model-03-nan-weights-cropped.png)
 
 Something is wrong with the data. Let's check for missing values:
 
