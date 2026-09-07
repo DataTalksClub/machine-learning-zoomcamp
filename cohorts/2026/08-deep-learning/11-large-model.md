@@ -72,7 +72,7 @@ The generators now produce images of `input_size` x `input_size`. The
 augmentation is reduced to a few gentle transformations: a bit of
 shear, a small zoom and a horizontal flip:
 
-![The train generator with shear_range=10, zoom_range=0.1 and horizontal_flip=True](images/11-large-model-02-generators-shear-zoom-flip.jpg)
+![The train generator with shear_range=10, zoom_range=0.1 and horizontal_flip=True](images/11-large-model-02-generators-shear-zoom-flip-cropped.png)
 
 ```python
 train_gen = ImageDataGenerator(
