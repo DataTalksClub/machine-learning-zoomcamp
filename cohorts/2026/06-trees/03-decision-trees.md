@@ -34,7 +34,7 @@ defaults and works part-time, we predict `default`. If they have
 records but a different job, `ok`. If they have no records, we look at
 their assets: more than 6000 means `ok`, otherwise `default`.
 
-![The same rules drawn as a tree](images/03-decision-trees-01-risk-rules-tree.jpg)
+![The same rules drawn as a tree](images/03-decision-trees-01-risk-rules-tree-imagegen.png)
 
 Let's take one customer from the training data and check what the rules
 say about them:

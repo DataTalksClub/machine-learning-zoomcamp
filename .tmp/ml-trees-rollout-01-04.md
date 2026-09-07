@@ -62,3 +62,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   `02-data-prep-07-binary-target-cropped.png`: deterministic crop
   `(x=0, y=65, width=576, height=285)` retained the exact binary-target
   expressions and array output; browser/camera chrome was removed.
+- `03-decision-trees-01-risk-rules-tree.jpg` →
+  `03-decision-trees-01-risk-rules-tree-imagegen.png`: imagegen regeneration.
+  Source crop `(x=25, y=0, width=480, height=260)` removed the black frame,
+  webcam tile, recorder controls, and color wheel. Checked root and nested
+  conditions, TRUE/FALSE directions, and all four `OK`/`DEFAULT` leaves.
