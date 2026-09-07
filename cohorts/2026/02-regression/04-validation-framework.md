@@ -86,7 +86,7 @@ cars are ordered by make, so validation now contains all the BMWs at the
 beginning and all the Porsches at the end, and there are no BMWs in train at
 all:
 
-![A sequential split puts all the BMWs and Porsches into validation](images/04-validation-framework-03-sequential-split.jpg)
+![A sequential split puts all the BMWs and Porsches into validation](images/04-validation-framework-03-sequential-split-cropped.jpg)
 
 We see that there is some order in this dataset, and we need to break it. In
 general it is always a good idea to shuffle the data: if there is some

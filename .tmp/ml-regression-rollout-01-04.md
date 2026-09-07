@@ -206,3 +206,12 @@
 - Invariants: preserve the exact visible heading, `n = len(df)`, the `n_val`, `n_test`, and `n_train` assignments, the follow-up expression `n, n_val + n_test + n_train`, and the output `(11914, 11914)` in the original order and notebook styling.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-02-split-sizes-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact code, output, ordering, and notebook layout preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x209`; lesson reference resolves.
+
+## 24 — sequential split
+
+- Disposition: `keep` via deterministic crop/export; the image teaches the failure mode of taking contiguous dataframe slices, where validation contains BMWs at the start and Porsches at the end.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-03-sequential-split.jpg`; caption: “A sequential split puts all the BMWs and Porsches into validation”; context: the lesson shows `df_val`, `df_test`, and `df_train` made with sequential `iloc` ranges before explaining why the dataset's ordering must be broken.
+- Crop coordinates: source `598x360`; `577x306+0+54` (`x=0, y=54, width=577, height=306`). The crop removes the browser/notebook toolbar, webcam tile, and right black bar while retaining the sequential-split code context and the visible dataframe output.
+- Invariants: preserve the visible `df_val` cell, table headers, row indices `0`–`4` and `2377`–`2381`, BMW and Porsche values, exact visible feature values, column order, and the original clipped right-side viewport.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-03-sequential-split-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact code, labels, values, row ordering, table relationships, and viewport preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves.
