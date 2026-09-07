@@ -109,7 +109,7 @@ img = load_img(fullname, target_size=(150, 150))
 img
 ```
 
-![Loading the t-shirt image resized to 150x150](images/02-tensorflow-keras-06-load-img.jpg)
+![Loading the t-shirt image resized to 150x150](images/02-tensorflow-keras-06-load-img-cropped.png)
 
 The library behind this is PIL - the Python Imaging Library. It's what
 many libraries use for processing images, and `load_img` returns a PIL
