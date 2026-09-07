@@ -61,6 +61,21 @@ remain in place; accepted replacements are sibling assets.
   browser/Zoom chrome, cursor, watermark, annotations, toolbar, or recording
   overlays remain.
 
+### 03-supervised-ml-02-feature-matrix.jpg
+
+- Disposition: `imagegen`; the original annotations explain rows, columns,
+  X, and y, so this is a bounded educational diagram.
+- Invariant: six rows and six feature columns with the same binary values as
+  the preceding table; one target per row; rows are observations, columns
+  are features, matrix is `X`, target vector is `y`.
+- Crop: `475x300+50+30`, with the camera sliver masked, from the 598x360
+  source.
+- Output: `03-supervised-ml-02-feature-matrix-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all 36 feature
+  values, six targets, row/column labels, X/y labels, and arrows checked;
+  face, webcam, browser/Zoom chrome, cursor, watermark, annotations,
+  toolbar, and recording overlays absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

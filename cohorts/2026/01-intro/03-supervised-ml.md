@@ -26,7 +26,7 @@ The data we show the model has two parts:
 - The feature matrix, usually written as capital X. A matrix is a two-dimensional array: the rows are our observations - the objects we want to make predictions for, one row per email - and the columns are the features.
 - The target variable, usually written as lowercase y. It is a vector - a one-dimensional array of numbers. For each row of X it contains the answer: 1 if the email is spam, 0 if not.
 
-![Rows of X are observations, columns are features; y has one value per row](images/03-supervised-ml-02-feature-matrix.jpg)
+![Rows of X are observations, columns are features; y has one value per row](images/03-supervised-ml-02-feature-matrix-imagegen-pilot.png)
 
 If you studied math a long time ago, don't worry about the terminology: X is just a two-dimensional array - an array of arrays, or a table - and y is a one-dimensional array of numbers.
 
