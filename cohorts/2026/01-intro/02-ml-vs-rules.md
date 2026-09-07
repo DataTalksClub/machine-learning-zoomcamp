@@ -78,7 +78,7 @@ Once the model is trained, we can use it to classify messages. For each message,
 - 0.1 - probably not spam.
 - 0.01 - very unlikely to be spam.
 
-![The model outputs a probability for each email](images/02-ml-vs-rules-06-predictions.jpg)
+![The model outputs a probability for each email](images/02-ml-vs-rules-06-predictions-imagegen-pilot.png)
 
 To actually make a decision - put an email in the spam folder or not - we define a threshold. For example: if the predicted probability is greater than or equal to 0.5 (more than 50% chance of being spam), we put the message in the spam folder. Everything predicted as spam goes to the spam folder, everything else goes to the inbox.
 

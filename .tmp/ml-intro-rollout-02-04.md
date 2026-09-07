@@ -18,6 +18,19 @@ remain in place; accepted replacements are sibling assets.
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
 
+### 02-ml-vs-rules-06-predictions.jpg
+
+- Disposition: `imagegen`; the model-to-probability mapping is central to the
+  threshold explanation.
+- Invariant: `MODEL` arrow into the feature matrix; six rows in order; exact
+  predictions `0.8`, `0.6`, `0.1`, `0.01`, `0.7`, `0.4`; headings for
+  features, predictions, and final outcome; no invented decision values.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `02-ml-vs-rules-06-predictions-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; every matrix row,
+  probability, heading, and arrow checked; face, webcam, browser/Zoom
+  chrome, cursor, watermark, toolbar, and recording overlays absent.
+
 ### 02-ml-vs-rules-03-more-spam.jpg
 
 - Disposition: `imagegen`; the prize/deposit email is the concrete example
