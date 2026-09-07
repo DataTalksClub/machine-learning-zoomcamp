@@ -71,3 +71,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×616 with light sharpening; exact wheel URL fragment, GLIBC failure, and `float32 not JSON serializable` output were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; the float32 serialization error is visible and readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The long wheel URL remains bounded by the original viewport.
+
+## 05-docker-image-08-tolist-fix.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-08-tolist-fix-cropped.png`
+- **Teaching point:** converting the prediction array with `.tolist()` makes the class-score dictionary JSON serializable and the local test succeeds.
+- **Source inspection:** 592×360; crop `+0+52 550×308` removes the webcam tile, editor tabs, and right-side black frame while retaining the fix and terminal response.
+- **Method:** deterministic Lanczos upscale to 1100×616 with light sharpening; exact code, class names, and prediction values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `float_predictions = preds[0].tolist()` and the successful `python test.py` output remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The long JSON line remains bounded by the original viewport.

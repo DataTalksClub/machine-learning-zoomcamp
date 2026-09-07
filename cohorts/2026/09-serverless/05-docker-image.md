@@ -188,7 +188,7 @@ return dict(zip(classes, float_predictions))
 `tolist()` takes a NumPy array and converts it to a usual Python list
 with usual Python floats - and those are serializable.
 
-![The fixed predict function with float_predictions = preds[0].tolist(), and the successful test output in the terminal](images/05-docker-image-08-tolist-fix.jpg)
+![The fixed predict function with float_predictions = preds[0].tolist(), and the successful test output in the terminal](images/05-docker-image-08-tolist-fix-cropped.png)
 
 Rebuild, run, and test once more. This time it works: we get back the
 dictionary of scores with "pants" on top, plus some statistics like
