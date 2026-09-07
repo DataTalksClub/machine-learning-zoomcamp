@@ -99,7 +99,7 @@ recorded a couple of videos wearing it.
 A neural network expects an image of a certain size. Common sizes are
 299x299, 224x224, or smaller ones like 150x150:
 
-![Common input sizes for neural networks: 299x299 and 224x224](images/02-tensorflow-keras-05-image-sizes.jpg)
+![Common input sizes for neural networks: 299x299 and 224x224](images/02-tensorflow-keras-05-image-sizes-imagegen.png)
 
 If we have an image of a different size, we need to resize it to one
 of these formats. We do that with the `target_size` parameter:

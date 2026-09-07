@@ -18,3 +18,4 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 ## 02-tensorflow-keras
 
 - `02-tensorflow-keras-01-keras-inside-tensorflow.jpg` → `02-tensorflow-keras-01-keras-inside-tensorflow-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 478x360`; preserved the exact Keras-inside-TensorFlow nesting and heading, removed presenter/camera/recording chrome, and verified the generated labels.
+- `02-tensorflow-keras-05-image-sizes.jpg` → `02-tensorflow-keras-05-image-sizes-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 478x360`; preserved the Keras/TensorFlow nesting and exact `299x299` left / `224x224` right dimensions, with no presenter/camera/recording chrome or extra sizes.
