@@ -149,7 +149,7 @@ names:
 decode_predictions(pred)
 ```
 
-![The decoded predictions: jersey, bulletproof vest, sweatshirt, maillot, velvet](images/03-pretrained-models-08-decode-predictions.jpg)
+![The decoded predictions: jersey, bulletproof vest, sweatshirt, maillot, velvet](images/03-pretrained-models-08-decode-predictions-cropped.png)
 
 The top class is jersey with probability 0.68. Jersey is an item of
 knitted clothing, usually made of wool or cotton. It's not exactly a
