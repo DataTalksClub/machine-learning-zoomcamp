@@ -270,7 +270,7 @@ Comparison operations are also element-wise. Let's check which elements of `a` a
 array([False, False,  True,  True,  True])
 ```
 
-![Element-wise comparison returns a boolean array](images/07-numpy-07-comparison.jpg)
+![Element-wise comparison returns a boolean array](images/07-numpy-07-comparison-cropped.png)
 
 The first element is less than 2, the second is less than 2, but 2 is greater than or equal to 2 - and the same is true for the rest.
 

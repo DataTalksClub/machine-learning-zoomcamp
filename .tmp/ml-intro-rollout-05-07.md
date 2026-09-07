@@ -168,6 +168,15 @@
 - Invariants: `a = np.arange(5)`; output `[0, 1, 2, 3, 4]`; `a * 2`; output `[0, 2, 4, 6, 8]`; `Element-wise operations` / `Comparison operations` headings
 - Validation: passed visual review; code and values remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
 
+### 07 — comparison
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-07-comparison.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-07-comparison-cropped.png`
+- Crop: `500×185+0+135` (removes browser frame and webcam tile; retains the comparison heading, `a`, `a >= 2`, exact Boolean output, and next-section context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and Boolean values are the source of truth
+- Invariants: `a` output `[0, 1, 2, 3, 4]`; `a >= 2`; output `[False, False, True, True, True]`; `Comparison operations` / `Summarizing operations` headings
+- Validation: passed visual review; code and Boolean output remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
