@@ -21,7 +21,7 @@ Keras is a higher-level abstraction on top of TensorFlow. It makes it
 simpler to create, train and use neural networks. Keras lives inside
 TensorFlow:
 
-![Keras is a high-level library inside TensorFlow](images/02-tensorflow-keras-01-keras-inside-tensorflow.jpg)
+![Keras is a high-level library inside TensorFlow](images/02-tensorflow-keras-01-keras-inside-tensorflow-imagegen.png)
 
 Keras used to be a separate library, but it got absorbed into
 TensorFlow. Since TensorFlow 2.0 it is a part of TensorFlow - so make

@@ -14,3 +14,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `01-fashion-classification-05-cs231n.jpg` → `01-fashion-classification-05-cs231n-cropped.png`: deterministic exact-UI crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the CS231n course heading, course-site button, assignments, and module list; removed the recording strip without approximating webpage text.
 - `01-fashion-classification-06-notebook-plan.jpg` → `01-fashion-classification-06-notebook-plan-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the fashion-classification heading, dataset links, CS231n link, clone command, and TensorFlow/Keras section; removed webcam/black recording chrome and retained exact URLs/code.
 - `01-fashion-classification-07-notebook-plan-2.jpg` → `01-fashion-classification-07-notebook-plan-2-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact experiment, data-augmentation, and 299×299 training-plan text/cells; removed webcam/black recording chrome without regenerating notebook UI.
+
+## 02-tensorflow-keras
+
+- `02-tensorflow-keras-01-keras-inside-tensorflow.jpg` → `02-tensorflow-keras-01-keras-inside-tensorflow-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 478x360`; preserved the exact Keras-inside-TensorFlow nesting and heading, removed presenter/camera/recording chrome, and verified the generated labels.
