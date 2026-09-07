@@ -54,3 +54,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `02-data-prep-05-remove-unknown-status-cropped.png`: deterministic crop
   `(x=0, y=65, width=576, height=285)` retained the exact filter result and
   `4454 rows × 14 columns` output; browser/camera chrome was removed.
+- `02-data-prep-06-train-val-test-split.jpg` →
+  `02-data-prep-06-train-val-test-split-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact two-step
+  `train_test_split` and index-reset code; browser/camera chrome was removed.

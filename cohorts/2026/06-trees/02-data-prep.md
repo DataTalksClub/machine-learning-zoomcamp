@@ -217,7 +217,7 @@ df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=
 
 We reset the indexes so they are fresh and unique in each dataframe:
 
-![The two-step split and resetting the indexes](images/02-data-prep-06-train-val-test-split.jpg)
+![The two-step split and resetting the indexes](images/02-data-prep-06-train-val-test-split-cropped.png)
 
 ```python
 df_train = df_train.reset_index(drop=True)
