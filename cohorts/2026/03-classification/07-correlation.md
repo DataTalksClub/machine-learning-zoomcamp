@@ -31,7 +31,7 @@ value gives its strength. One way to interpret the magnitude:
 - MEDIUM when it is between 0.2 and 0.5
 - STRONG when it is between 0.5 and 1.0
 
-![The correlation coefficient: the range of r and the low/medium/strong interpretation](images/07-correlation-01-correlation-coefficient.jpg)
+![The correlation coefficient: the range of r and the low/medium/strong interpretation](images/07-correlation-01-correlation-coefficient-imagegen-pilot.png)
 
 In our case one of the two variables is churn - a binary 0/1 column.
 If the correlation between a numerical feature and churn is positive,
