@@ -136,7 +136,7 @@ converts the SavedModel to TF-Lite. After this we have two files on
 disk: the original `clothing-model.h5` and the converted
 `clothing-model.tflite`.
 
-![The "Convert Keras to TF-Lite" cell: TFLiteConverter writes the converted model to clothing-model.tflite](images/03-tensorflow-lite-03-convert-to-tflite.jpg)
+![The "Convert Keras to TF-Lite" cell: TFLiteConverter writes the converted model to clothing-model.tflite](images/03-tensorflow-lite-03-convert-to-tflite-cropped.png)
 
 ![The sizes: clothing-model.h5 is 83M, the converted clothing-model.tflite is 81M](images/03-tensorflow-lite-04-model-sizes.jpg)
 
