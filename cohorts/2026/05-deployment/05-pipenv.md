@@ -101,7 +101,7 @@ pipenv shell
 Inside this shell, `python` and every command use the virtual environment's
 packages, so we can start the service as usual:
 
-![Inside the shell, gunicorn resolves to the virtual environment's bin directory](images/05-pipenv-06-shell-path.jpg)
+![Inside the shell, gunicorn resolves to the virtual environment's bin directory](images/05-pipenv-06-shell-path-cropped.png)
 
 ```bash
 gunicorn --bind localhost:9696 predict:app
