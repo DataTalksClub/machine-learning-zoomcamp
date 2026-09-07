@@ -188,7 +188,7 @@ A tree with a depth of 1 - a single condition - is called a decision
 stump. It's not really a tree, just one split, and it's the simplest
 possible decision tree.
 
-![A deep tree versus a decision stump with one split](images/03-decision-trees-07-decision-stump.jpg)
+![A deep tree versus a decision stump with one split](images/03-decision-trees-07-decision-stump-imagegen.png)
 
 The question is: how does the learning algorithm decide which
 condition and which threshold to use at each split? That's the topic of

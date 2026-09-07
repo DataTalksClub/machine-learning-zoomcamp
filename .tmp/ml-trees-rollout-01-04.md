@@ -98,3 +98,10 @@ being inspected and assigned an imagegen or deterministic disposition.
   the camera sliver and recording gauge. Checked the exact labels
   `RECORDS = NO` and `JOB = 1`, the two-step branching structure, and absence
   of people, camera, browser, cursor, watermark, or extra labels.
+- `03-decision-trees-07-decision-stump.jpg` →
+  `03-decision-trees-07-decision-stump-imagegen.png`: imagegen regeneration
+  from the viewed source crop `(x=110, y=0, width=390, height=330)`, removing
+  the camera sliver and recording gauge. Checked `DEPTH=3`, the deep-tree
+  labels `HOME = "OWNER"`, `AGE > 35`, `RECORDS = "YES"`, the stump label
+  `RECORDS = "NO"`, caption `DECISION STUMP`, and leaves `DEFAULT`/`OK`; no
+  people, camera, browser, cursor, watermark, or extra labels remain.
