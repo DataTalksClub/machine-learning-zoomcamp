@@ -110,7 +110,7 @@ And this is the second half of the plan: adding more layers,
 regularization and dropout, data augmentation, and training a larger
 299x299 model:
 
-![The module notebook: data augmentation and training a larger model](images/01-fashion-classification-07-notebook-plan-2.jpg)
+![The module notebook: data augmentation and training a larger model](images/01-fashion-classification-07-notebook-plan-2-cropped.png)
 
 There are 13 videos in this module. Let's get started.
 
