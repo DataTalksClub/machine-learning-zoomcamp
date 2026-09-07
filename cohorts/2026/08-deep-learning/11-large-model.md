@@ -19,7 +19,7 @@ First, `make_model` gets one more parameter, `input_size`, which is
 used in the input shape - both for the input layer and for the base
 model. The default of 150 keeps the old behaviour:
 
-![The notebook with make_model: the input size becomes a parameter, used in both input shapes](images/11-large-model-01-input-size-parameter.jpg)
+![The notebook with make_model: the input size becomes a parameter, used in both input shapes](images/11-large-model-01-input-size-parameter-cropped.png)
 
 ```python
 def make_model(input_size=150, learning_rate=0.01, size_inner=100,
