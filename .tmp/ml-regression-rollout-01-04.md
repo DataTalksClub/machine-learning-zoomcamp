@@ -224,3 +224,12 @@
 - Invariants: preserve the exact handwritten `0 - n` range, the arrow into the ordered array, the `0` and `n-1` endpoints, the downward arrow, the lower shuffled-index array, and all visible cell boundaries and relationships.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-04-shuffle-numbers-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact labels, arrows, array ordering concept, and cell relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `505x253`; lesson reference resolves.
+
+## 26 — split with shuffled indices
+
+- Disposition: `keep` via deterministic crop/export; the image teaches how the shuffled `idx` sequence is sliced into train, validation, and test dataframe selections.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-05-split-with-shuffled-idx.jpg`; caption: “Splitting the dataframe using the shuffled indices”; context: after introducing `np.arange(n)` and `np.random.shuffle(idx)`, the lesson applies the three slices with `df.iloc`.
+- Crop coordinates: source `598x360`; `577x230+0+109` (`x=0, y=109, width=577, height=230`). The crop removes the browser/notebook toolbar, webcam tile, unrelated preceding table and scrollbar, following section heading, and right black bar while retaining the relevant code cells and output.
+- Invariants: preserve the exact visible code for `df_train`, `df_val`, and `df_test`, the `idx = np.arange(n)` and `np.random.shuffle(idx)` cells, the slice boundaries, the output label, and the exact visible output `array([2257, 6273, 7106, ..., 6335, 7418, 9488])`.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-05-split-with-shuffled-idx-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact code, labels, slice relationships, output values, and notebook styling preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x230`; lesson reference resolves.

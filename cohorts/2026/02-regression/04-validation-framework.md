@@ -121,7 +121,7 @@ df_test = df.iloc[idx[n_train+n_val:]]
 We take the first `n_train` numbers for train, the next `n_val` numbers for
 validation, and everything that is left for test:
 
-![Splitting the dataframe using the shuffled indices](images/04-validation-framework-05-split-with-shuffled-idx.jpg)
+![Splitting the dataframe using the shuffled indices](images/04-validation-framework-05-split-with-shuffled-idx-cropped.jpg)
 
 There is one more problem with this code: when you run it on your computer, you
 will get different records - your first car will not be a Porsche or a GMC, but
