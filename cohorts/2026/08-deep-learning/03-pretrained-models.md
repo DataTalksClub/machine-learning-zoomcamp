@@ -122,7 +122,7 @@ X = preprocess_input(X)
 After preprocessing, our image no longer contains numbers between 0
 and 255 - they are converted to numbers between -1 and 1:
 
-![After preprocess_input the pixel values are between -1 and 1](images/03-pretrained-models-07-preprocess-input.jpg)
+![After preprocess_input the pixel values are between -1 and 1](images/03-pretrained-models-07-preprocess-input-cropped.png)
 
 We have to do this if we want the model to function correctly, because
 this is the preprocessing that was used for training it.
