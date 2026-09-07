@@ -71,3 +71,12 @@
 - Invariants: preserve the exact `!wget $data` command, raw GitHub URL/output, HTTP 200 result, `data.csv` filename, byte count, progress result, and the relationship that the command writes the local CSV.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-01-download-data-cropped.jpg`.
 - QA: source inspected in lesson context; exact command, URL, output, values, and order preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 09 — read_csv and df.head()
+
+- Disposition: `keep` via deterministic crop/export with a deterministic blank-gap pointer cleanup; the screenshot teaches that pandas loads `data.csv` and `df.head()` displays the first five rows.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-02-read-csv.jpg`; caption: “read_csv and df.head() show the first five rows”.
+- Crop coordinates: source `598x360`; `577x290+0+54` (`x=0, y=54, width=577, height=290`). The crop removes the notebook/browser header, webcam tile, right black strip, and horizontal scrollbar; the source pointer in the blank gap above the table rule was removed by copying the adjacent blank `14x14` source patch from `x=232, y=132` to `x=218, y=132`.
+- Invariants: preserve `df = pd.read_csv('data.csv')`, `df.head()`, the visible column labels, row indices `0` through `4`, every visible value, and the table's original column/row relationships.
+- Path: deterministic crop/export and blank-gap source patch from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-02-read-csv-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, values, ordering, and table relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or scrollbar remains; final dimensions `577x290`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

@@ -45,7 +45,7 @@ this is what head() is for:
 df.head()
 ```
 
-![read_csv and df.head() show the first five rows](images/02-data-preparation-02-read-csv.jpg)
+![read_csv and df.head() show the first five rows](images/02-data-preparation-02-read-csv-cropped.jpg)
 
 We see the manufacturer of the car, the model, the year and a lot of other
 characteristics. And this — MSRP, the manufacturer suggested retail price —
