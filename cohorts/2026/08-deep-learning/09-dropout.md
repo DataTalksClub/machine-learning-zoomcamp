@@ -151,7 +151,7 @@ plt.ylim(0.78, 0.86)
 plt.legend()
 ```
 
-![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout.jpg)
+![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout-cropped.png)
 
 It also helps to zoom in on the two curves with the best validation
 accuracy, 0.0 and 0.2:
