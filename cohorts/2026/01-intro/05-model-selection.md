@@ -40,7 +40,7 @@ However, there can be a problem with this approach. Here is a made-up but illust
 
 We test several coins on the same validation set. A euro gets 20% correct. An American dollar gets 40%. A Polish zloty - 20%. A ruble - 20%. And then a Ukrainian hryvnia produces exactly the right sequence for all five emails and gets 100% correct.
 
-![Five coins evaluated on the same validation set](images/05-model-selection-02-multiple-comparisons.jpg)
+![Five coins evaluated on the same validation set](images/05-model-selection-02-multiple-comparisons-imagegen-pilot.png)
 
 Looking at the numbers, the hryvnia is the best model for spam detection. But we all know this is random: the coin just got lucky and produced the same sequence as in the validation data.
 
