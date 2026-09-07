@@ -179,3 +179,12 @@
 - Invariants: preserve the exact `sns.histplot(price_logs, bins=50)` call and output label, `msrp`/`Count` axes, tick labels, bar order/heights, and the compact post-log distribution shape.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-06-log1p-normal-distribution-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, plot geometry, labels, values, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following-cell border remains; final dimensions `577x260`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 21 — missing values
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the per-column missing-value counts returned by `df.isnull().sum()`.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-07-missing-values.jpg`; caption: “Counting missing values per column”.
+- Crop coordinates: source `598x360`; `577x280+0+54` (`x=0, y=54, width=577, height=280`). The crop removes the notebook/browser header, webcam tile/face, right black strip, and following validation-framework heading while retaining the complete code cell and output table.
+- Invariants: preserve the exact `df.isnull().sum()` expression, every visible column name and count (`engine_fuel_type` 3, `engine_hp` 69, `engine_cylinders` 30, `number_of_doors` 6, `market_category` 3742, all other shown counts 0), their order, the `dtype: int64` line, and the source highlight on `engine_cylinders`.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-07-missing-values-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, table labels, counts, order, dtype, highlight, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following heading remains; final dimensions `577x280`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

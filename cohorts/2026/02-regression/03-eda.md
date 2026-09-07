@@ -223,7 +223,7 @@ msrp                    0
 dtype: int64
 ```
 
-![Counting missing values per column](images/03-eda-07-missing-values.jpg)
+![Counting missing values per column](images/03-eda-07-missing-values-cropped.jpg)
 
 For quite a few cars we don't know the fuel type, the market category, the
 horsepower or the number of cylinders. We need to keep this in mind: before
