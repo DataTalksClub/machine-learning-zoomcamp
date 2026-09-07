@@ -80,3 +80,12 @@
 - Invariants: preserve `df = pd.read_csv('data.csv')`, `df.head()`, the visible column labels, row indices `0` through `4`, every visible value, and the table's original column/row relationships.
 - Path: deterministic crop/export and blank-gap source patch from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-02-read-csv-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, values, ordering, and table relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or scrollbar remains; final dimensions `577x290`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 10 — lowercase columns
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the column-name string operation and shows the resulting pandas `Index`.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-03-lowercase-columns.jpg`; caption: “Lowercasing column names and replacing spaces”.
+- Crop coordinates: source `598x360`; `577x145+0+54` (`x=0, y=54, width=577, height=145`). The crop removes the notebook/browser header, webcam tile, right black strip, later exploratory-section cells, and recording-frame material while retaining the `df.columns.str.lower()` cell and complete `Index` output.
+- Invariants: preserve the exact code, all sixteen visible column labels and their order, spaces in the pre-replacement labels, and the exact `dtype='object'` result.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-03-lowercase-columns-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, values, order, and dtype preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x145`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

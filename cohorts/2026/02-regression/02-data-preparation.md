@@ -99,7 +99,7 @@ df.columns = df.columns.str.lower().str.replace(' ', '_')
 
 Now the column names are uniform: all lowercase, no spaces. Cleaner.
 
-![Lowercasing column names and replacing spaces](images/02-data-preparation-03-lowercase-columns.jpg)
+![Lowercasing column names and replacing spaces](images/02-data-preparation-03-lowercase-columns-cropped.jpg)
 
 ## Finding the string columns
 
