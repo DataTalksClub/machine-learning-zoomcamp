@@ -48,7 +48,7 @@ train_gen = ImageDataGenerator(
 )
 ```
 
-![The same parameters in Keras: rotation_range=30, width and height shift 10, shear, zoom_range=0.1, flips](images/10-augmentation-04-keras-parameters.jpg)
+![The same parameters in Keras: rotation_range=30, width and height shift 10, shear, zoom_range=0.1, flips](images/10-augmentation-04-keras-parameters-cropped.png)
 
 ## One important detail (and a bug in the video)
 
