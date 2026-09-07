@@ -195,3 +195,11 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x268+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete command and dtype output while removing browser/Zoom chrome, webcam tile, cursor, headings below the output, and recording frame.
 - Invariants/QA: preserve every visible column/type pair and final `dtype: object`. Final `1066x536` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns-cropped.png`.
+
+### Screenshot 02 — one-hot encoding diagram
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.
+- Caption/context: “One categorical column with values 2, 3, 4, 2 represented as three binary columns”; the section explains the one-hot transformation row by row.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the diagram directly shows the original category and the resulting one-hot columns, values, and row alignment.
+- Disposition: `keep` original; this is already a clean `1492x1054` explanatory diagram with no face, webcam tile, browser/Zoom chrome, cursor, watermark, or black border. Imagegen was not used because the existing exact labels and matrix values are already crisp.
+- QA: source inspected with `view_image`; all required headers, rows, arrows, and 0/1 values are readable at lesson size, the Markdown reference resolves, and `git diff --check` passes. No replacement asset was created.
