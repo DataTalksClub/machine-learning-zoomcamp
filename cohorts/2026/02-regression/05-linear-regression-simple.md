@@ -115,7 +115,7 @@ so our loop goes from 0 to n-1. That's the whole implementation - it simply
 adds up w<sub>j</sub> times x<sub>ij</sub> for every element of the feature
 vector.
 
-![The linear_regression function in the notebook](images/05-linear-regression-simple-05-implementation.jpg)
+![The linear_regression function in the notebook](images/05-linear-regression-simple-05-implementation-cropped.png)
 
 ## What the prediction is made of
 

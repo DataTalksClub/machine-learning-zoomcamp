@@ -39,3 +39,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-04-sum-notation-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact mathematical notation is the source of truth. One tighter candidate was rejected because it retained a clipped blue fragment from the upper formula; the accepted crop starts at `y=135`.
 - QA: final `900x340` PNG inspected visually; the full summation equation is crisp and centered with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 05 — simple regression, screenshot 05
+
+- Source: `cohorts/2026/02-regression/images/05-linear-regression-simple-05-implementation.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; notebook code and the handwritten summation are exact source content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `532x220+17+100` (`x=17, y=100, width=532, height=220`). This removes browser chrome, the presenter webcam tile, the right black bar, and the lower output fragment while retaining the feature vector, weight setup, complete `linear_regression` function, and annotated sum.
+- Invariants: preserve `xi = [453, 11, 86]`, `w0 = 0`, `w = [1, 1, 1]`, the exact loop and `return pred`, plus the visible annotated `w_0 + \sum w_j·x_{ij}` relationship.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-05-implementation-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code and mathematical notation are the source of truth. An initial narrow crop clipped the right side of the annotated formula; the accepted `width=532` crop restores it.
+- QA: final `1064x440` PNG inspected visually; code, values, formula, and annotation remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
