@@ -58,3 +58,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact UI values were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; function name, runtime, architecture, and permissions text remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 02-aws-lambda-03-pong-handler.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-03-pong-handler-cropped.png`
+- **Teaching point:** the Lambda handler prints the event parameters and returns `PONG` before deployment.
+- **Source inspection:** 592×360; deterministic crop `+0+20 500×316` removes the browser URL strip, webcam tile, and right-side black frame while retaining the exact code editor state.
+- **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact code and deployment state were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `lambda_handler`, `print("parameters: ", event)`, and `return "PONG"` remain readable; no face/camera/recording overlay remains. A small native pointer/hover artifact over the code remains because removing it safely would alter exact UI pixels; Markdown reference resolves.

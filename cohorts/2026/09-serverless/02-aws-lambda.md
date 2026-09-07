@@ -64,7 +64,7 @@ sure what `context` is needed for - usually it's not needed. What we
 can do for now is print the event to see what's inside, and of course
 we can access it and do whatever we want with it.
 
-![The edited handler: print the parameters and return "PONG" - the changes are not deployed yet](images/02-aws-lambda-03-pong-handler.jpg)
+![The edited handler: print the parameters and return "PONG" - the changes are not deployed yet](images/02-aws-lambda-03-pong-handler-cropped.png)
 
 ## Testing the function
 
