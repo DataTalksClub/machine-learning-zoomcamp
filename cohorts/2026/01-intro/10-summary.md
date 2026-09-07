@@ -24,7 +24,7 @@ In the second lesson we compared rule-based systems with machine learning. In a 
 
 With machine learning we don't have this problem, because we don't need to encode the rules manually. The models extract patterns themselves: they just look at the training data - our features - and use statistics and mathematics to figure out what patterns are present in these features, and what we can use to make a decision whether something is spam or not.
 
-![Training data: the features matrix and the target](images/10-summary-03-ml-training-data.jpg)
+![Training data: the features matrix and the target](images/10-summary-03-ml-training-data-imagegen-pilot.png)
 
 ## Supervised Machine Learning
 
