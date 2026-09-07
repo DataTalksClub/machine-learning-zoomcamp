@@ -46,3 +46,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `02-data-prep-03-encoded-missing-values-cropped.png`: deterministic crop
   `(x=0, y=65, width=576, height=285)` retained the exact summary table and
   visible `99999999` encoded-missing values; browser/camera chrome was removed.
+- `02-data-prep-04-replace-missing-with-nan.jpg` →
+  `02-data-prep-04-replace-missing-with-nan-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact replacement code
+  and post-replacement statistics; browser/camera chrome was removed.

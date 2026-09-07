@@ -186,7 +186,7 @@ After this, `df.describe().round()` shows the true picture - the counts
 drop (income now has 4421 values instead of 4455, assets 4408, debt
 4437) and the maximums become realistic.
 
-![After replacing 99999999 with NaN the statistics look realistic](images/02-data-prep-04-replace-missing-with-nan.jpg)
+![After replacing 99999999 with NaN the statistics look realistic](images/02-data-prep-04-replace-missing-with-nan-cropped.png)
 
 ## Removing the one unknown status
 
