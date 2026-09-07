@@ -107,7 +107,7 @@ leaves three numerical variables:
 numerical = ['tenure', 'monthlycharges', 'totalcharges']
 ```
 
-![The three numerical variables](images/04-eda-04-numerical-variables.jpg)
+![The three numerical variables](images/04-eda-04-numerical-variables-cropped.png)
 
 And 16 categorical ones - everything except `customerid` (an
 identifier, useless as a feature), the three numerical variables and

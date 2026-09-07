@@ -159,3 +159,13 @@
 - Invariants: `df_full_train.churn.value_counts(normalize=True)` remains visible; proportions remain `0.730032` and `0.269968`; `Name: churn, dtype: float64` remains; `df_full_train.churn.mean()` and `0.26996805111821087` remain verbatim and in order; no face, camera tile, browser/Zoom chrome, watermark, or black capture bar.
 - Final: `cohorts/2026/03-classification/images/04-eda-03-churn-rate-mean-cropped.png` (550×132 PNG).
 - QA: accepted after `view_image` inspection at lesson size and enlarged numeric-output inspection; exact code, proportions, dtype, and mean value checked against the source, framing removed, cursor limitation documented, and Markdown reference resolves.
+
+## 17 — EDA: numerical variables
+
+- Source: `cohorts/2026/03-classification/images/04-eda-04-numerical-variables.jpg` (598×360 JPEG).
+- Context/caption: “The three numerical variables.” This image teaches the exact `numerical` feature list used for the classification dataset: `tenure`, `monthlycharges`, and `totalcharges`.
+- Rubric/disposition: keep — deterministic crop with bounded background cleanup and lossless PNG export. The Python assignment is exact instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×32+26+40` isolates the complete numerical-variable assignment and removes the browser/notebook header, webcam tile, unrelated active-cell content/caret, and capture framing. A white fill at `x=452..549, y=0..18` relative to the crop removes the residual camera-tile strip in blank margin.
+- Invariants: the complete assignment remains `numerical = ['tenure', 'monthlycharges', 'totalcharges']`; list order, spelling, punctuation, and syntax coloring are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated cell, or black capture bar.
+- Final: `cohorts/2026/03-classification/images/04-eda-04-numerical-variables-cropped.png` (550×32 PNG).
+- QA: accepted after `view_image` inspection at lesson size; exact assignment text and ordering checked against the source, camera strip and unrelated active-cell content removed, and Markdown reference resolves.
