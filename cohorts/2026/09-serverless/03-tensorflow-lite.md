@@ -79,7 +79,7 @@ X = np.array([x])
 X = preprocess_input(X)
 ```
 
-![The notebook: importing TensorFlow 2.7.0 and loading clothing-model.h5 with Keras](images/03-tensorflow-lite-01-load-keras-model.jpg)
+![The notebook: importing TensorFlow 2.7.0 and loading clothing-model.h5 with Keras](images/03-tensorflow-lite-01-load-keras-model-cropped.png)
 
 We read the image, resize it to 299 by 299, convert it to an array,
 turn the array into a batch of one image, and apply the Xception
