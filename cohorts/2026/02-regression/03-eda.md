@@ -53,7 +53,7 @@ engine_hp
 356
 ```
 
-![The loop that prints unique values and their counts for every column](images/03-eda-01-explore-columns.jpg)
+![The loop that prints unique values and their counts for every column](images/03-eda-01-explore-columns-cropped.jpg)
 
 Walking through the output: make is the manufacturer of a car — BMW, Audi,
 Fiat, Mercedes-Benz, Chrysler, 48 of them in total. Model is more granular:

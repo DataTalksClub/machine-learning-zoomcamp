@@ -125,3 +125,12 @@
 - Invariants: preserve `for col in strings`, the exact lowercase/space-replacement expression, `df.head()`, every visible normalized header and value, all five visible row relationships, and the original horizontal viewport/truncation.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-07-normalize-values-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, values, row order, relationships, and visible viewport preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or scrollbar remains; final dimensions `577x196`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 15 — explore columns
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the loop that prints each column, sample unique values, and the unique-value count.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-01-explore-columns.jpg`; caption: “The loop that prints unique values and their counts for every column”.
+- Crop coordinates: source `598x360`; `577x306+0+54` (`x=0, y=54, width=577, height=306`). The crop removes the notebook/browser header, webcam tile/face, right black strip, and recording-frame material while retaining the complete visible code cell and output through the `engine_hp` sample.
+- Invariants: preserve the exact `for col in df.columns` loop, the `unique()[:5]` and `nunique()` calls, the visible column names, unique-value samples, counts, ordering, and the partial `engine_hp` output at the source bottom edge.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-01-explore-columns-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, labels, values, ordering, and output relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
