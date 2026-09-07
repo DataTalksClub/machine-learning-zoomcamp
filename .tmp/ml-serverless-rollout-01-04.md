@@ -166,3 +166,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact imports, model path, and index calls were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; interpreter construction, `allocate_tensors`, `input_index`, and `output_index` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-06-keras-preprocess-source.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-06-keras-preprocess-source-cropped.png`
+- **Teaching point:** Keras' `tf` preprocessing mode divides by 127.5, subtracts 1, and returns the normalized array.
+- **Source inspection:** 592×360; focused deterministic crop `+0+185 500×120` removes browser chrome, webcam tile, empty page area, and unrelated source lines while retaining the exact `tf` branch.
+- **Method:** deterministic Lanczos upscale to 1000×240 with light sharpening; exact source code and values were preserved. The native code-selection highlight remains because removing it safely would alter exact source pixels.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `if mode == "tf"`, `x /= 127.5`, `x -= 1.`, and `return x` remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

@@ -220,7 +220,7 @@ def preprocess_input(x):
 
 We also need to make sure the array is `float32`:
 
-![The Keras source code: for mode "tf" the preprocessing is x /= 127.5 and x -= 1](images/03-tensorflow-lite-06-keras-preprocess-source.jpg)
+![The Keras source code: for mode "tf" the preprocessing is x /= 127.5 and x -= 1](images/03-tensorflow-lite-06-keras-preprocess-source-cropped.png)
 
 ```python
 x = np.array(img, dtype='float32')
