@@ -163,7 +163,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
 
    a. Find the URL of the datafile in github. 
    
-   ![See this example](images/sample-data-file.png)
+   ![See this example](images/sample-data-file-cropped.png)
    
    b. Suppose the URL is https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/data.csv , you need use the URL to raw file, which will look something like https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv
    
