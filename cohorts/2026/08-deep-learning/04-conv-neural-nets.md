@@ -71,7 +71,7 @@ the original one - and feed it to another convolutional layer. This
 layer has its own set of filters, applies them to the output of the
 first layer, and produces its own feature maps:
 
-![Chained convolutional layers: 6 filters produce 6 feature maps, then 12 filters produce 12 feature maps](images/04-conv-neural-nets-04-chained-conv-layers.jpg)
+![Chained convolutional layers: 6 filters produce 6 feature maps, then 12 filters produce 12 feature maps](images/04-conv-neural-nets-04-chained-conv-layers-imagegen.png)
 
 Here the first layer has 6 filters and produces 6 feature maps, the
 second has 12 filters and produces 12 feature maps, and we can keep
