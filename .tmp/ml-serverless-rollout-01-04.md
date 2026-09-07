@@ -49,3 +49,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact UI text and labels were not regenerated.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `Lambda` and `Run Code without Thinking about Servers` remain readable, no face/camera/recording overlay remains, and Markdown reference resolves.
+
+## 02-aws-lambda-02-create-function.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-02-create-function-cropped.png`
+- **Teaching point:** the new Lambda function is configured with name `mlzoomcamp-test`, Python 3.9, and `x86_64` architecture.
+- **Source inspection:** 592×360; deterministic crop `+0+20 500×316` removes the browser URL strip, webcam tile, and right-side black frame while retaining the form choices.
+- **Method:** deterministic Lanczos upscale to 1000×632 with light sharpening; exact UI values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; function name, runtime, architecture, and permissions text remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

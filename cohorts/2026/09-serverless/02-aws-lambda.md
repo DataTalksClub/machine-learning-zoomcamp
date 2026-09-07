@@ -38,7 +38,7 @@ architecture, so this could be interesting to explore - but for now
 let's go with the usual one, `x86_64`. Nothing else needs to change,
 so click "Create function".
 
-![The create function form: name mlzoomcamp-test, runtime Python 3.9, x86_64 architecture](images/02-aws-lambda-02-create-function.jpg)
+![The create function form: name mlzoomcamp-test, runtime Python 3.9, x86_64 architecture](images/02-aws-lambda-02-create-function-cropped.png)
 
 ## The lambda handler
 
