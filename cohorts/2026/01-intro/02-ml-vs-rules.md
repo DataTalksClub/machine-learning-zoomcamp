@@ -26,7 +26,7 @@ We turn these observations into rules, write them down in Python and deploy the 
 
 It works - for a while. Then people start complaining about other kinds of unsolicited messages, for example a "prize" email that asks you to pay a small fee and deposit $10 to some account. We analyze it, notice that all these spam messages contain the word "deposit", and add a new rule: if the body contains the word "deposit", mark the message as spam.
 
-![A new kind of spam that mentions a deposit](images/02-ml-vs-rules-03-more-spam.jpg)
+![A new kind of spam that mentions a deposit](images/02-ml-vs-rules-03-more-spam-imagegen-pilot.png)
 
 That works fine for a little while too - until a genuine user, Pedro, writes about the deposit he paid and wants to get back. His legitimate email contains the word "deposit", so our system incorrectly marks it as spam.
 

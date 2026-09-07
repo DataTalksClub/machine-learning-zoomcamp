@@ -17,3 +17,18 @@ remain in place; accepted replacements are sibling assets.
 - Validation: imagegen output inspected at lesson size; exact headers, URL,
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
+
+### 02-ml-vs-rules-03-more-spam.jpg
+
+- Disposition: `imagegen`; the prize/deposit email is the concrete example
+  that motivates adding a new spam rule.
+- Invariant: title `More`; one bordered email; `Waiting for your reply`,
+  `prince1@test.com`, the 1.000.000-dollar claim, `$10`,
+  `prince@test.com`, transfer message, and `Congratulations again!` remain
+  readable.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `02-ml-vs-rules-03-more-spam-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; exact amount, dollar
+  fee, email addresses, and single-card relationship checked; face, webcam,
+  browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
+  absent.
