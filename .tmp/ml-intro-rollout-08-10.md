@@ -190,3 +190,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: title `1.3 Supervised Machine Learning`; equation `g(X) ≈ y`; `model` points to `g`, `feature` points to `X`, and `target` points to `y`
 - Output: `cohorts/2026/01-intro/images/10-summary-04-supervised-g-x-y-imagegen-pilot.png`
 - Validation: accepted after visual inspection; equation symbols, order, and all three callout relationships are preserved; face, camera tile, handwriting, browser/recording chrome, cursor, and watermark are absent.
+
+### 05 — CRISP-DM bigger picture
+
+- Source: `cohorts/2026/01-intro/images/10-summary-05-crisp-dm-bigger-picture.jpg`
+- Disposition: deterministic crop followed by built-in imagegen redraw
+- Crop: `560x300+15+30`; camera/cursor mask in crop: `490,0` to `559,30` and `495,270` to `559,299`
+- Invariants: title `1.4 CRISP-DM`; six stages `Business Understanding`, `Data Understanding`, `Data Preparation`, `Modeling`, `Evaluation`, and `Deployment`; clockwise lifecycle order; central database labeled `Data`; inner feedback arrows; `Modeling` highlighted as the current stage
+- Output: `cohorts/2026/01-intro/images/10-summary-05-crisp-dm-bigger-picture-imagegen-pilot.png`
+- Validation: accepted after visual inspection; all six stage labels, lifecycle relationships, central data element, and directional arrows are preserved; handwritten annotation, face, camera tile, browser/recording chrome, cursor, and watermark are absent.

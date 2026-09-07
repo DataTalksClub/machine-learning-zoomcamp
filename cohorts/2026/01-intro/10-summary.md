@@ -38,7 +38,7 @@ Our model, g, extracts patterns from data. Then, for data for which we don't kno
 
 We also talked about the bigger picture: this g from X to y is only a part of the entire process. In addition to modeling there are many other steps: business understanding, where we need to understand the problem; understanding the data sources; preparing the data - because X needs to be prepared in the right form so we can actually put it into a model; and, of course, the deployment step - without it even the best model is not useful. Machine learning is just a part of the entire process.
 
-![The CRISP-DM diagram: modeling is only one step of the whole process](images/10-summary-05-crisp-dm-bigger-picture.jpg)
+![The CRISP-DM diagram: modeling is only one step of the whole process](images/10-summary-05-crisp-dm-bigger-picture-imagegen-pilot.png)
 
 ## Model Selection
 
