@@ -17,3 +17,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×500 with light sharpening; exact gallery labels and image-card content were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; AWS Lambda Python card and surrounding base-image cards remain visible, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 05-docker-image-02-dockerfile.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-02-dockerfile-cropped.png`
+- **Teaching point:** the Dockerfile installs the dependencies, copies the model and handler, and points `CMD` to `lambda_function.lambda_handler`.
+- **Source inspection:** 592×360; crop `+0+0 500×315` removes the webcam tile, right-side black frame, and bottom status strip while retaining the complete visible Dockerfile.
+- **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and dependency URL were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `FROM`, both `RUN` lines, `COPY` lines, and the Lambda handler command remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

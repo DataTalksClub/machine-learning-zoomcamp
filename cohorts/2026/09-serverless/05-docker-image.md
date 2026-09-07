@@ -57,7 +57,7 @@ function is: it lives in the `lambda_function.py` file, in the
 is a bit mysterious - the Lambda base images specify an ENTRYPOINT
 already, and we only overwrite the arguments passed to it.
 
-![The complete Dockerfile with the CMD instruction pointing to lambda_function.lambda_handler](images/05-docker-image-02-dockerfile.jpg)
+![The complete Dockerfile with the CMD instruction pointing to lambda_function.lambda_handler](images/05-docker-image-02-dockerfile-cropped.png)
 
 ## Building and running the image
 
