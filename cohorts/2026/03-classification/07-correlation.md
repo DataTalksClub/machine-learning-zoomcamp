@@ -58,7 +58,7 @@ totalcharges     -0.196353
 dtype: float64
 ```
 
-![Correlating the numerical features with churn using corrwith](images/07-correlation-03-corrwith-churn.jpg)
+![Correlating the numerical features with churn using corrwith](images/07-correlation-03-corrwith-churn-cropped.png)
 
 Let's read this:
 

@@ -32,3 +32,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: imagegen bounded explanatory replacement.
   - Prep: inspected/cropped source reference `.tmp/ml-classification-rollout-06-09-crops/07-correlation-02-binary-target-cropped.png`.
   - Invariants: `x = tenure`, `y = churn`, `y ∈ {0, 1}`, `x ∈ ℝ`; positive means more tenure → higher churn and negative means more tenure → less churn; no people, camera, browser, or extra metrics.
+
+- `07-correlation-03-corrwith-churn.jpg` →
+  `07-correlation-03-corrwith-churn-cropped.png`
+  - Disposition: deterministic crop; exact code and output retained.
+  - Crop: `480x105+25+50`; removes notebook/recording chrome and camera tile.
+  - Invariants: `corrwith` call and exact values `-0.351885`, `0.196805`, and `-0.196353` checked against the lesson.
