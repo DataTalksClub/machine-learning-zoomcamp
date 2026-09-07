@@ -180,7 +180,7 @@ for c, values in categories.items():
         features.append('%s_%s' % (c, v))
 ```
 
-![The prepare_X function with loops over all categorical variables](images/12-categorical-variables-07-prepare-x-all-categories.jpg)
+![The prepare_X function with loops over all categorical variables](images/12-categorical-variables-07-prepare-x-all-categories-cropped.png)
 
 ## Something went wrong
 

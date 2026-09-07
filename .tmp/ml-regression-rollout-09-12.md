@@ -236,6 +236,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve all seven categorical variable names, `categories = {}`, `for c in categorical_variables`, and `list(df[c].value_counts().head().index)`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-06-categories-dict-cropped.png`.
 
+### Screenshot 07 — all-category `prepare_X` loops
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-07-prepare-x-all-categories.jpg`.
+- Caption/context: “The prepare_X function with loops over all categorical variables”; the section adds nested loops over category names and values.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused cell shows the nested loop, generated feature names, and final matrix preparation together.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x135+26+54`, with a white notebook-background mask over the webcam rectangle (`local x=480..532, y=0..14`), then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, preceding partial line, validation output, heading, and recording frame.
+- Invariants/QA: preserve both loops, `df['%s_%s' % (c, v)]`, `astype('int')`, `features.append`, `df_num`, `fillna(0)`, `.values`, and `return X`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped code; Markdown reference resolves and `git diff --check` passes.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-07-prepare-x-all-categories-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.
