@@ -206,3 +206,12 @@
 - Invariants: `XY`, both outgoing arrows, `True/False Prediction status`, `Positive/Negative Predict Label`, `Predict Positive`, `Predict Negative`, `Actual Positive`, `Actual Negative`, `TP`, `FN`, `FP`, `TN`, the diagonal true/false prediction lines, and `False Prediction`/`True Prediction` remain unchanged in their original positions.
 - Final path: `cohorts/2026/04-evaluation/images/confusion_matrix-cropped.png`
 - QA: accepted after `view_image` inspection; exact labels, colors, cell geometry, arrows, and diagonal relationships remain crisp and readable; no non-teaching frame artifacts are present; `1380×562` output renders cleanly.
+
+## 04.01 — precision definition
+
+- Source: `cohorts/2026/04-evaluation/images/04-precision-recall-01-precision-definition.jpg`
+- Disposition: accepted deterministic crop; the exact handwritten precision definition and ellipse illustration were retained, so imagegen was not used.
+- Crop coordinates: `x=27, y=0, width=468, height=340` from the 598×360 source; removes the black side bars, upper-right webcam tile, lower-right recording wheel, and lower-left recording controls by trimming only the outer blank frame margin.
+- Invariants: `4.4. PRECISION & RECALL`, `PRECISION`, the red/blue definition text, the oval `PREDICT` illustration, the internal divider, and the `PREDICT` arrow remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/04-precision-recall-01-precision-definition-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact handwritten labels and the oval remain legible, and no face, camera tile, browser/Zoom chrome, cursor, recording control, watermark, overlay, or black bar remains; `468×340` output renders cleanly.
