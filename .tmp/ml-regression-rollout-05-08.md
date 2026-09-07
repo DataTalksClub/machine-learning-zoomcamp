@@ -169,3 +169,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-03-normal-equation-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact formula symbols are the source of truth; one crop was accepted after visual inspection.
 - QA: final `930x560` PNG inspected visually; equation and identity remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 04
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-04-gram-matrix-code.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact matrix values, code, and annotated formula are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `550x155+15+85` (`x=15, y=85, width=550, height=155`). This removes browser chrome, presenter webcam tile, right black bar, lesson headings, and bottom controls while preserving the matrix output, `w = (XᵀX)⁻¹Xᵀy`, and `XTX = X.T.dot(X)`.
+- Invariants: preserve all nine matrix rows and their values, the exact `XTX` code, and the complete annotated normal-equation formula.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-04-gram-matrix-code-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact numeric matrix/code content must not be guessed. Narrow candidates clipped the right-hand `y`; the accepted width restores it while ending before the lower heading.
+- QA: final `1100x310` PNG inspected visually; matrix values, code, and formula are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, heading overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.

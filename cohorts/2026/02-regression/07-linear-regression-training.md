@@ -110,7 +110,7 @@ The first step of the normal equation is the Gram matrix:
 XTX = X.T.dot(X)
 ```
 
-![Computing the Gram matrix on the toy feature matrix](images/07-linear-regression-training-04-gram-matrix-code.jpg)
+![Computing the Gram matrix on the toy feature matrix](images/07-linear-regression-training-04-gram-matrix-code-cropped.png)
 
 Then its inverse:
 
