@@ -194,7 +194,7 @@ the categorical variables:
 0.4608208286209523
 ```
 
-![The RMSE with regularization: 0.46, better than everything before](images/13-regularization-08-rmse-result.jpg)
+![The RMSE with regularization: 0.46, better than everything before](images/13-regularization-08-rmse-result-cropped.png)
 
 By adding a number to the diagonal we were able to control our weights and
 regularize the model. But `r` is a parameter: if we set it too high, the model

@@ -173,7 +173,7 @@ init duration: the function is already warm. It did all the imports
 and loaded the model, so it's ready to serve requests. The first
 invocation is usually slower, the consequent ones are faster.
 
-![The second invocation: Duration 2226 ms, 1024 MB configured, at most 270 MB actually used](images/06-creating-lambda-06-test-success.jpg)
+![The second invocation: Duration 2226 ms, 1024 MB configured, at most 270 MB actually used](images/06-creating-lambda-06-test-success-cropped.png)
 
 ## Pricing
 
