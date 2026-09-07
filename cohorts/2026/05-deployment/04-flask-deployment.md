@@ -124,7 +124,7 @@ not built for heavy load. A WSGI server is the production replacement. WSGI
 are served: the WSGI server imports our `app` object and handles all the
 network work around it.
 
-![Flask warns that the development server is not for production](images/04-flask-deployment-05-dev-server-warning.jpg)
+![Flask warns that the development server is not for production](images/04-flask-deployment-05-dev-server-warning-cropped.jpg)
 
 The common choice is gunicorn:
 
