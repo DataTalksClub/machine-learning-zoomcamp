@@ -152,3 +152,12 @@
 - Invariants: preserve the exact `sns.histplot(df.msrp, bins=50)` call and output label, the histogram bars and long-tail shape, the `msrp`/`Count` axes, scientific-notation tick, and the handwritten `1e6 = 10^6` / `1,000,000` explanation.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-03-long-tail-distribution-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, plot geometry, axes, values, annotation, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following-cell border remains; final dimensions `577x255`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 18 — zoom below 100k
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the price histogram after restricting `msrp` to values below 100,000.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-04-zoom-below-100k.jpg`; caption: “Zooming in on prices below 100,000”.
+- Crop coordinates: source `598x360`; `577x215+0+145` (`x=0, y=145, width=577, height=215`). The crop removes the notebook/browser header, webcam tile/face, right black strip, preceding histogram, and unrelated recording-frame material while retaining the exact filter/plot cell, output label, axes, and visible below-100,000 histogram.
+- Invariants: preserve the exact `sns.histplot(df.msrp[df.msrp < 100000], bins=50)` expression, the `< 100000` threshold, output label, `msrp`/`Count` axes, bar order/heights, and visible plot geometry.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-04-zoom-below-100k-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, threshold, output, axes, visible bars, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x215`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

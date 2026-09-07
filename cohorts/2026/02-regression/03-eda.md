@@ -119,7 +119,7 @@ To see the shape better, we zoom in on prices below 100,000:
 sns.histplot(df.msrp[df.msrp < 100000], bins=50)
 ```
 
-![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k.jpg)
+![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k-cropped.jpg)
 
 This is the left part of the previous histogram, and it is much easier to
 read. There is a strange peak of cars that cost 1,000 — probably the minimal
