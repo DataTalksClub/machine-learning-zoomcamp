@@ -121,7 +121,7 @@ the matrix X. Because of the fictional feature, each row of this matrix starts
 with 1, followed by the features of that car: row one is car one, row two is
 car two, and so on until row m.
 
-![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication.jpg)
+![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication-cropped.png)
 
 For us X has m rows and n+1 columns. What we need to do is take each row of
 this matrix, do the dot product of that row with the vector of weights w, and

@@ -119,3 +119,13 @@
 - Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-05-prepend-one-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code and values must not be guessed. A simple rectangle retained a green selected-cell border and clipped preceding code; the accepted two-region export removes those artifacts while preserving both code sections.
 - QA: final `960x350` PNG inspected visually; all code tokens and values are crisp, with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 06
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-06-matrix-vector-multiplication.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the matrix/vector symbols and row structure are exact source content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `470x300+35+0` (`x=35, y=0, width=470, height=300`). This removes the recording marker, presenter webcam tile, right black bar, bottom controls, and left frame edge while preserving `X`, the matrix rows beginning with `1`, and the weight vector.
+- Invariants: preserve the `X` label and `m×(n+1)` annotation, matrix entries `1`, `x_{i1}`, `x_{i2}`, `…`, `x_{in}`, row labels/ellipsis, and weight vector entries `w_0`, `w_1`, `…`, `w_n`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-06-matrix-vector-multiplication-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact matrix notation is the source of truth. A wider crop retained a black frame edge; the accepted crop starts at `x=35` while keeping the row labels visible.
+- QA: final `940x600` PNG inspected visually; matrix and weight vector are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black frame edge. Markdown reference resolves and `git diff --check` passes before commit.
