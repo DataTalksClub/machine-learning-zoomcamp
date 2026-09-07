@@ -85,7 +85,7 @@ The first parameter, `weights='imagenet'`, means we want the network
 that was pre-trained on ImageNet. The input to this model is 299x299x3
 - so we also load our t-shirt image with `target_size=(299, 299)`:
 
-![Loading the image at 299x299 and creating the Xception model](images/03-pretrained-models-04-xception-model.jpg)
+![Loading the image at 299x299 and creating the Xception model](images/03-pretrained-models-04-xception-model-cropped.png)
 
 The first time you run this, it downloads the model from the internet
 and unpacks it, so it takes some time:
