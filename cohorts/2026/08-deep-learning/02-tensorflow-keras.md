@@ -62,7 +62,7 @@ import tensorflow as tf
 from tensorflow import keras
 ```
 
-![Importing TensorFlow and Keras](images/02-tensorflow-keras-03-imports.jpg)
+![Importing TensorFlow and Keras](images/02-tensorflow-keras-03-imports-cropped.png)
 
 ## Loading an image
 
