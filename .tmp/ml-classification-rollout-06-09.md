@@ -92,3 +92,8 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   `09-logistic-regression-02-from-linear-to-logistic-clean.png`
   - Disposition: deterministic vector redraw; mathematical notation is kept exact rather than generated.
   - Invariants: `g(x_i) = Sigmoid(w_0 + w_1 x_1 + ... + w_n x_n)`; the real-valued weighted sum passes through sigmoid to `g(x_i) ∈ [0, 1]`; no face or recording chrome.
+
+- `09-logistic-regression-03-sigmoid-formula.jpg` →
+  `09-logistic-regression-03-sigmoid-formula-clean.png`
+  - Disposition: deterministic vector redraw; exact sigmoid formula and curve retained.
+  - Invariants: `Sigmoid(z) = 1 / (1 + exp(-z))`, score sign, 0.5 at `z = 0`, and asymptotes toward 0/1 checked; no face or recording chrome.

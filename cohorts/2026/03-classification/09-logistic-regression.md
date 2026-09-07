@@ -60,7 +60,7 @@ apply the sigmoid function to the weighted sum:
     $\large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$
 </p>
 
-![The sigmoid curve: scores below zero map to probabilities below 0.5, scores above zero to probabilities above 0.5](images/09-logistic-regression-03-sigmoid-formula.jpg)
+![The sigmoid curve: scores below zero map to probabilities below 0.5, scores above zero to probabilities above 0.5](images/09-logistic-regression-03-sigmoid-formula-clean.png)
 
 The sigmoid squashes any real number into the range between 0 and 1.
 That turns the raw score into a probability. Both models are called
