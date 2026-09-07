@@ -31,3 +31,12 @@ Original source assets remain in place.
 - **Method:** imagegen `scientific-educational` redraw with the exact labels `AWS LAMBDA`, `TF-LITE`, and `PANTS`; Lambda contains the TF-Lite inference component and arrows show the data flow.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 2, caption/accessibility 2 — **12/12; keep**.
 - **Validation:** generated image inspected at 1835×857; labels, containment relationship, and arrows match the caption; no face/camera/recording overlay or invented metric; Markdown reference resolves.
+
+## 02-aws-lambda-07-serverless-vs-serverful.jpg
+
+- **Disposition:** `crop/replace` → `images/02-aws-lambda-07-serverless-vs-serverful-imagegen.png`
+- **Teaching point:** Lambda activity and cost rise during daytime traffic and return to zero at night, illustrating pay-per-request behavior.
+- **Source inspection:** 592×360; source crop `+22+0 408×360` removed the black frame, webcam tile, and recording control overlay.
+- **Method:** imagegen `scientific-educational` redraw with a blue daytime curve, sun/moon contrast, red `$` marker under the active interval, and exact axis label `TIME`; no numeric axes or invented metrics.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 2, caption/accessibility 2 — **12/12; keep**.
+- **Validation:** generated image inspected at 1660×948; day/night relationship, baseline, cost marker, and `TIME` label match the caption; no face/camera/recording overlay or numeric invention; Markdown reference resolves.

@@ -124,7 +124,7 @@ are none. With a regular server you pay all the time, even at night
 when there's no traffic. With Lambda, when there are no requests, you
 don't pay any money.
 
-![The hand-drawn picture: traffic (and cost) during the day, but no requests and no cost at night](images/02-aws-lambda-07-serverless-vs-serverful.jpg)
+![The hand-drawn picture: traffic (and cost) during the day, but no requests and no cost at night](images/02-aws-lambda-07-serverless-vs-serverful-imagegen.png)
 
 By the way, when you no longer need a function, deleting it is easy:
 go to "Actions" and select "Delete function", and it's gone.
