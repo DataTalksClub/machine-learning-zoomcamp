@@ -116,3 +116,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 with light sharpening; exact error JSON and summary identifiers were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `Execution result: failed` and `timed out after 3.00 seconds` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. Lower summary rows are intentionally excluded because they are not needed for the caption.
+
+## 06-creating-lambda-05-configure-timeout-memory.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-05-configure-timeout-memory-cropped.png`
+- **Teaching point:** the Lambda configuration is changed to 1024 MB of memory and a 30-second timeout.
+- **Source inspection:** 592×360; crop `+0+50 550×268` removes the browser bar, webcam tile, and side frame while retaining memory, timeout, role, and save controls.
+- **Method:** deterministic Lanczos upscale to 1100×536 with light sharpening; exact values and role text were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `1024 MB`, `30 sec`, role selection, and `Save` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

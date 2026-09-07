@@ -160,7 +160,7 @@ more memory - 1024 MB, that is 1 GB. The first invocation needs this:
 it has to initialize everything, download the image, import the
 libraries and load the model. Save.
 
-![Editing the configuration: 1024 MB of memory and a 30 second timeout](images/06-creating-lambda-05-configure-timeout-memory.jpg)
+![Editing the configuration: 1024 MB of memory and a 30 second timeout](images/06-creating-lambda-05-configure-timeout-memory-cropped.png)
 
 Test again - it's successful. We see the output we know: the
 predictions with "pants" having the highest score. But this time it
