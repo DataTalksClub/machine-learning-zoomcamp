@@ -50,7 +50,7 @@ len(df_train), len(df_val), len(df_test)
 (4225, 1409, 1409)
 ```
 
-![The two splits and the sizes of the resulting sets](images/03-validation-02-split-sizes.jpg)
+![The two splits and the sizes of the resulting sets](images/03-validation-02-split-sizes-cropped.png)
 
 The full dataset has 7043 customers: 4225 for training (60%), 1409 for
 validation (20%) and 1409 for testing (20%).

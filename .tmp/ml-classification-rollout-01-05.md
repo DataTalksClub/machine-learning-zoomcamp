@@ -99,3 +99,13 @@
 - Invariants: section marker `3.3`; top row `TRAIN`, `VAL`, `TEST` with `60%`, `20%`, and `20%`; `80%` arrow to `FULL TRAIN`; `20%` arrow to `TEST`; lower arrows to `TRAIN` and `VAL`; box order and arrow directions preserved; no face, camera tile, cursor, watermark, overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/03-validation-01-train-val-test-split-cropped.png` (521×360 PNG).
 - QA: accepted after `view_image` inspection at lesson size; all labels, percentages, box relationships, and arrow directions checked against the original; face/capture framing and cursor are absent; Markdown reference resolves.
+
+## 11 — validation: split sizes
+
+- Source: `cohorts/2026/03-classification/images/03-validation-02-split-sizes.jpg` (598×360 JPEG).
+- Context/caption: “The two splits and the sizes of the resulting sets.” This image teaches the exact two-step split code and confirms that train, validation, and test contain 4225, 1409, and 1409 rows.
+- Rubric/disposition: keep — deterministic crop with bounded camera-tile cleanup. The notebook heading, code, output tuple, and UI text are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×320+26+40` removes the browser/Zoom header and right capture edge. A deterministic white fill removes the remaining webcam-tile rectangle at `x=478..549, y=0..20` relative to the cropped image; it covers only blank margin and does not touch the heading or notebook cells.
+- Invariants: heading `3.3 Setting up the validation framework`; visible split calls remain `df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)` and `df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=1)` as captured; output remains `(4225, 1409, 1409)`; `3.4 EDA` and its visible bullets remain; source’s right-edge truncation is retained; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/03-validation-02-split-sizes-cropped.png` (550×320 PNG).
+- QA: accepted after `view_image` inspection at lesson size; heading, code, output values, and EDA context checked against the source; camera/browser framing removed without changing instructional pixels; Markdown reference resolves.
