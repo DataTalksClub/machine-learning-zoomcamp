@@ -109,3 +109,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-04-fake-feature-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact vector notation is the source of truth. Two crop widths were tested; the accepted `width=450` keeps the closing feature-vector bracket complete and excludes a stray edge artifact.
 - QA: final `900x600` PNG inspected visually; vectors, indices, added `1`, transpose marks, and equality are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 05
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-05-prepend-one.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact notebook code and numeric output are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; primary code crop `480x125+15+120` (`x=15, y=120, width=480, height=125`) plus the selected-cell code crop `360x50+125+251` (`x=125, y=251, width=360, height=50`) aligned below it. This removes browser chrome, presenter webcam tile, lesson heading, green selected-cell border, cursor, and other UI frame material.
+- Invariants: preserve the simplified `linear_regression` cell, `w_new = [w0] + w`, displayed vector `[7.17, 0.01, 0.04, 0.002]`, and the exact fictional-feature implementation `xi = [1] + xi; return dot(xi, w)`.
+- Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-05-prepend-one-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code and values must not be guessed. A simple rectangle retained a green selected-cell border and clipped preceding code; the accepted two-region export removes those artifacts while preserving both code sections.
+- QA: final `960x350` PNG inspected visually; all code tokens and values are crisp, with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
