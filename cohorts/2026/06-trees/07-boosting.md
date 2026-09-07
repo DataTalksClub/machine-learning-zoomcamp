@@ -29,7 +29,7 @@ models in the sequence have learned.
 When the models in this sequence are decision trees, the method is called
 gradient boosting trees:
 
-![Gradient boosting trees: each tree is trained on the errors of the previous model, and the final prediction combines all of them](images/07-boosting-02-gradient-boosting-trees.jpg)
+![Gradient boosting trees: each tree is trained on the errors of the previous model, and the final prediction combines all of them](images/07-boosting-02-gradient-boosting-trees-imagegen.png)
 
 ## Installing XGBoost
 

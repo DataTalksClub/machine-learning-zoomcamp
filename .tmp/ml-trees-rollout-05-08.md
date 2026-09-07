@@ -296,6 +296,31 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   overlay remains. Markdown reference resolves and `git diff --check` passes
   before commit.
 
+## 07 — gradient boosting and XGBoost, screenshot 02
+
+- Source: `cohorts/2026/06-trees/images/07-boosting-02-gradient-boosting-trees.jpg`.
+- Disposition: `replace` via built-in imagegen; this is a bounded conceptual
+  four-stage error-correction diagram.
+- Crop coordinates: source `1024x724`; deterministic preparation crop
+  `980x690+22+16` (`x=22, y=16, width=980, height=690`) removed only the
+  outer board edge before generation.
+- Invariants: preserve title `GRADIENT BOOSTING TREES / XGBOOST`; stage order
+  `DATA`, `TREE 1`, `PRED 1`, `ERRORS OF MODEL 1`, `TREE 2`, `PRED 2`,
+  `ERRORS OF MODEL 2`, `TREE 3`, `PRED 3`, `ERRORS OF MODEL 3`, `TREE 4`,
+  `PRED 4`; every arrow direction; and `FINAL PREDICTION`.
+- Path: imagegen skill was available and read completely; built-in imagegen
+  edit used the inspected crop. Final sibling
+  `cohorts/2026/06-trees/images/07-boosting-02-gradient-boosting-trees-imagegen.png`;
+  original JPG preserved.
+- Prompt/iteration: one structured `scientific-educational` generation with
+  exact labels, four-stage order, curved error-feedback arrows, and negative
+  constraints. The accepted result removes handwriting texture and leaves a
+  crisp, face-free diagram.
+- QA: final `1496x1051` PNG inspected visually; all stages, labels, arrows,
+  and the final connector are complete and readable. No face, camera tile,
+  browser/Zoom chrome, cursor, watermark, or unrelated overlay remains.
+  Markdown reference resolves and `git diff --check` passes before commit.
+
 ## 06 — random forest, screenshot 05
 
 - Source: `cohorts/2026/06-trees/images/06-random-forest-05-tuning-min-samples-leaf.jpg`.
