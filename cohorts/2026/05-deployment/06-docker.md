@@ -74,7 +74,7 @@ EXPOSE 9696
 ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
 ```
 
-![Choosing the python:3.8.12-slim base image on Docker Hub](images/06-docker-03-base-image-docker-hub.jpg)
+![Choosing the python:3.8.12-slim base image on Docker Hub](images/06-docker-03-base-image-docker-hub-cropped.png)
 
 Instruction by instruction:
 
