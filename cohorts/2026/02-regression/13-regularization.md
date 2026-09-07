@@ -101,7 +101,7 @@ XTX = [
 If we try to invert it, NumPy refuses: it complains that the matrix is singular
 and it cannot compute the inverse:
 
-![NumPy raising LinAlgError: Singular matrix for a matrix with duplicate columns](images/13-regularization-05-singular-matrix.jpg)
+![NumPy raising LinAlgError: Singular matrix for a matrix with duplicate columns](images/13-regularization-05-singular-matrix-cropped.png)
 
 Now let's do the same trick as before and add a tiny bit of noise:
 
