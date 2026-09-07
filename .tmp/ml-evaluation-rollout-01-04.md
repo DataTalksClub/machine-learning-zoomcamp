@@ -27,6 +27,15 @@
 - Final path: `cohorts/2026/04-evaluation/images/01-overview-04-load-split-cropped.jpg`
 - QA: accepted after visual inspection; exact code remains legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
 
+## 05 — feature lists notebook
+
+- Source: `cohorts/2026/04-evaluation/images/01-overview-05-features.jpg`
+- Disposition: accepted deterministic crop; exact feature names and notebook output retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar.
+- Invariants: the target-value cleanup lines remain visible, and the feature definitions preserve `numerical = ['tenure', 'monthlycharges', 'totalcharges']` plus the visible categorical order beginning with `gender`, `seniorcitizen`, `partner`, `dependents`, `phoneservice`, `multiplelines`, `internetservice`, `onlinesecurity`, `onlinebackup`, `deviceprotection`, and `techsupport`.
+- Final path: `cohorts/2026/04-evaluation/images/01-overview-05-features-cropped.jpg`
+- QA: accepted after visual inspection; exact labels and ordering remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
 ## 02 — churn prediction scenario
 
 - Source: `cohorts/2026/04-evaluation/images/01-overview-02-churn-scenario.jpg`

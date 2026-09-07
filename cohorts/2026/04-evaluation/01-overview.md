@@ -57,7 +57,7 @@ df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=
 
 We keep 3 numerical features (`tenure`, `monthlycharges`, `totalcharges`) and 16 categorical ones, one-hot encode them with `DictVectorizer(sparse=False)`, and train a logistic regression model.
 
-![The numerical and categorical features of the dataset](images/01-overview-05-features.jpg)
+![The numerical and categorical features of the dataset](images/01-overview-05-features-cropped.jpg)
 
 At the end of the recap we get predictions on the validation set. `predict_proba` returns the churn probability for each customer, and we say the model predicts churn when this probability is at least 0.5:
 
