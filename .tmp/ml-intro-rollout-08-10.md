@@ -89,3 +89,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: exact `data` rows and values; exact `columns` list; `df = pd.DataFrame(data, columns=columns)`; five-row DataFrame output and all column names/values
 - Output: `cohorts/2026/01-intro/images/09-pandas-01-create-dataframe-cropped.png`
 - Validation: accepted after visual inspection; code, headers, table values, and `NaN` are unchanged; face, camera tile, browser chrome, and scrollbar are absent.
+
+### 02 — Series and columns
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-02-series-and-columns.jpg`
+- Disposition: deterministic crop, cursor mask, and 2x Lanczos raster conversion
+- Crop: `560x230+15+95`; cursor mask in resized crop: `325,238` to `356,267`
+- Invariants: `Engine HP` Series values `138.0`, `NaN`, `218.0`, `194.0`, `261.0`; `df[['Make', 'Model', 'MSRP']]`; all five rows and three selected columns
+- Output: `cohorts/2026/01-intro/images/09-pandas-02-series-and-columns-cropped.png`
+- Validation: accepted after visual inspection; exact Series values, command, headers, and table values are unchanged; face, camera tile, browser chrome, and cursor are absent.

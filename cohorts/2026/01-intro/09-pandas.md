@@ -141,7 +141,7 @@ We can also access multiple columns at the same time. Say we want a subset of ou
 
 It returns a DataFrame that has only these three columns.
 
-![A column as a Series and a subset of columns](images/09-pandas-02-series-and-columns.jpg)
+![A column as a Series and a subset of columns](images/09-pandas-02-series-and-columns-cropped.png)
 
 We can add a new column using the same brackets notation - for example, a column `id` with numbers:
 
