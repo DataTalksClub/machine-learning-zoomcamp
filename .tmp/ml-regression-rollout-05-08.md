@@ -189,3 +189,13 @@
 - Path: deterministic crop with blank-space cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-05-inverse-check-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code, floating-point output, and formula are source of truth. A first crop clipped the identity output and retained a previous-cell fragment; the accepted crop starts earlier and masks only the blank top-left fragment.
 - QA: final `1100x310` PNG inspected visually; code, identity matrix, and equation remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 06
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-06-ones-column-stack.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact Python code and target values are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; setup crop `480x70+15+165` (`x=15, y=165, width=480, height=70`), plus code-line crops `365x18+125+246` and `365x18+125+276`, aligned below with clean notebook gaps. This removes browser chrome, presenter webcam tile, the selected-cell green border, lesson headings, right black bar, and controls.
+- Invariants: preserve `ones = np.ones(X.shape[0])`, the nine-element ones output, `np.column_stack()`, and `y = [100, 200, 150, 250, 100, 200, 150, 250, 120]` exactly.
+- Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-06-ones-column-stack-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact code and numeric targets must not be guessed. A single crop retained a green selected-cell border; the accepted multi-region export removes it while keeping both code lines.
+- QA: final `960x252` PNG inspected visually; setup, ones output, `column_stack`, and target vector remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.

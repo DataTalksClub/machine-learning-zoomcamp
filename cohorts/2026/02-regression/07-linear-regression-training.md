@@ -168,7 +168,7 @@ The `np.column_stack` function stacks the vector of ones and the
 feature matrix together as columns, so the ones become the first
 column of `X`.
 
-![Adding the column of ones with np.column_stack](images/07-linear-regression-training-06-ones-column-stack.jpg)
+![Adding the column of ones with np.column_stack](images/07-linear-regression-training-06-ones-column-stack-cropped.png)
 
 The result `w_full` contains all the weights: the first element is the
 bias term, the rest are the feature weights. We can split them apart:
