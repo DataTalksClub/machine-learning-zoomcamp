@@ -149,3 +149,13 @@
 - Invariants: heading `3.4 EDA` and its three bullets remain; reset-index and dataframe cells remain in order; visible headers, sample rows, and source-truncated right/lower edges remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, or black capture bar.
 - Final: `cohorts/2026/03-classification/images/04-eda-02-churn-rate-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size and an enlarged cursor-area check; exact visible notebook text/table content checked against the source, cursor and recording framing removed, caption/frame mismatch documented, and Markdown reference resolves.
+
+## 16 — EDA: churn rate and binary mean
+
+- Source: `cohorts/2026/03-classification/images/04-eda-03-churn-rate-mean.jpg` (598×360 JPEG).
+- Context/caption: “The mean of the binary churn column is the churn rate.” This image teaches that `value_counts(normalize=True)` and `churn.mean()` produce the same churn-rate value.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The code, exact proportions, dtype, and numeric result are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×132+26+96` removes the browser/notebook header, webcam tile, empty active-cell area, and black capture framing. A small source cursor remains over the exact mean-output glyph area because removing it safely would require repainting numeric pixels; no attempt was made to guess or alter the value.
+- Invariants: `df_full_train.churn.value_counts(normalize=True)` remains visible; proportions remain `0.730032` and `0.269968`; `Name: churn, dtype: float64` remains; `df_full_train.churn.mean()` and `0.26996805111821087` remain verbatim and in order; no face, camera tile, browser/Zoom chrome, watermark, or black capture bar.
+- Final: `cohorts/2026/03-classification/images/04-eda-03-churn-rate-mean-cropped.png` (550×132 PNG).
+- QA: accepted after `view_image` inspection at lesson size and enlarged numeric-output inspection; exact code, proportions, dtype, and mean value checked against the source, framing removed, cursor limitation documented, and Markdown reference resolves.

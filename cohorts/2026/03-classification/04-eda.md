@@ -90,7 +90,7 @@ df_full_train.churn.mean()
 0.26996805111821087
 ```
 
-![The mean of the binary churn column is the churn rate](images/04-eda-03-churn-rate-mean.jpg)
+![The mean of the binary churn column is the churn rate](images/04-eda-03-churn-rate-mean-cropped.png)
 
 Same number. This works for any binary variable: its mean is always the
 fraction of ones.
