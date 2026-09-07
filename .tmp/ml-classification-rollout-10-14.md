@@ -112,3 +112,12 @@ use the built-in imagegen workflow after source inspection.
   `(15,82,583,250)`, 2× Lanczos resize and light unsharp; preserved the exact
   customer dictionary and all feature values while removing the camera tile,
   notebook frame, and recording chrome.
+
+- `12-using-log-reg-04-production-diagram.jpg` →
+  `12-using-log-reg-04-production-diagram-imagegen.png` — built-in imagegen
+  replacement from inspected/cropped source `(15,82,583,255)`. The source
+  frame duplicated a customer dictionary despite the production-flow caption;
+  the bounded diagram now shows `CUSTOMER DATA → DICTVECTORIZER → LOGISTIC
+  REGRESSION → CHURN PROBABILITY 0.5968852088293909`, threshold `0.5`, and
+  the churn/promotional-email decision. No face, camera, browser chrome, or
+  invented numeric result remains.
