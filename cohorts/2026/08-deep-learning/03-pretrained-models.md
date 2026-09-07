@@ -22,7 +22,7 @@ ImageNet is a dataset with a lot of images. On its website we can see
 that it spans 1000 object classes and has almost 1,300,000 images in
 the training set, 50,000 in validation and 100,000 in test:
 
-![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet.jpg)
+![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet-cropped.png)
 
 We will not download it - it's huge. It contains all sorts of animals,
 objects, wheels, yachts, planes, nature, people, even clothes. It's a
