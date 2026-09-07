@@ -115,7 +115,7 @@ Now let's say we have a matrix `U` (capital letter) that we want to multiply by 
 
 The way we do it: take the first row of the matrix `U` and multiply it with the vector `v`. This is a row - so this is exactly the situation from the dot product: a row vector times a column vector. Let's call the rows `U[0]`, `U[1]` and so on, using the same notation as in NumPy.
 
-![Matrix-vector multiplication: each row of U times the vector v](images/08-linear-algebra-04-matrix-vector-idea.jpg)
+![Matrix-vector multiplication: each row of U times the vector v](images/08-linear-algebra-04-matrix-vector-idea-cropped.png)
 
 For each row of the matrix we do a vector-vector multiplication with `v`, and these results together are the answer. So if `U` has k rows - `U[0]` to `U[k-1]` - the result is k dot products, one per row. Of course the dimensionality should match: each row of `U` and the vector `v` must have the same number of elements, say n.
 
