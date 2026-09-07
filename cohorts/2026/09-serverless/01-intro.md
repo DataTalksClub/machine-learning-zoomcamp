@@ -66,7 +66,7 @@ Here's what we'll cover in this module:
   Lambda
 - Exposing the Lambda function as a web service using API Gateway
 
-![The plan continues: creating the lambda function and exposing it with API Gateway](images/01-intro-05-module-plan-lambda-gateway.jpg)
+![The plan continues: creating the lambda function and exposing it with API Gateway](images/01-intro-05-module-plan-lambda-gateway-cropped.png)
 
 That's the plan. In the next lesson we start with AWS Lambda: what it
 is and how it's different from other approaches.
