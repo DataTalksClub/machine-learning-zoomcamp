@@ -111,7 +111,7 @@ Then we plot the remaining curves again, zooming in with
 is a small one - `max_depth=3` gives the highest and most stable validation
 AUC.
 
-![Validation AUC for max_depth of 6, 3 and 4: depth 3 keeps climbing and stays on top, while deeper trees degrade](images/08-xgb-tuning-03-max-depth-curves.jpg)
+![Validation AUC for max_depth of 6, 3 and 4: depth 3 keeps climbing and stays on top, while deeper trees degrade](images/08-xgb-tuning-03-max-depth-curves-cropped.png)
 
 ## Tuning min_child_weight
 
