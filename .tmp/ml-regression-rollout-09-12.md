@@ -196,6 +196,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve every visible column/type pair and final `dtype: object`. Final `1066x536` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns-cropped.png`.
 
+### Screenshot 03 — number-of-doors loop
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-03-doors-loop.jpg`.
+- Caption/context: “The prepare_X function with the number-of-doors columns added”; the section introduces the loop that creates `num_doors_2`, `num_doors_3`, and `num_doors_4`.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused code cell shows the categorical-to-binary loop and the exact generated column names.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x140+26+158`, then 2× Lanczos resize and light unsharp masking. This retains the complete function through the door-feature loop and removes browser/Zoom chrome, webcam tile, previous output fragment, cursor, and following incomplete lines.
+- Invariants/QA: preserve `base.copy()`, age creation, loop values `[2, 3, 4]`, comparison expression, `astype('int')`, and both feature-name expressions. Final `1066x280` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-03-doors-loop-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.

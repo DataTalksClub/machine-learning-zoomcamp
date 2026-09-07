@@ -89,7 +89,7 @@ def prepare_X(df):
 Now the features list contains the baseline features, then `age`, and then the
 three new features: `num_doors_2`, `num_doors_3` and `num_doors_4`.
 
-![The prepare_X function with the number-of-doors columns added](images/12-categorical-variables-03-doors-loop.jpg)
+![The prepare_X function with the number-of-doors columns added](images/12-categorical-variables-03-doors-loop-cropped.png)
 
 We validate the model with the same code as before:
 
