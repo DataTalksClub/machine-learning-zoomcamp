@@ -184,7 +184,7 @@ weight means the opposite - as the feature value grows, the predicted
 price goes down. If this feature were the age of a car, that would make
 perfect sense: the older the car, the lower the price.
 
-![Splitting w_full into the bias term and the feature weights](images/07-linear-regression-training-07-train-function.jpg)
+![Splitting w_full into the bias term and the feature weights](images/07-linear-regression-training-07-train-function-cropped.png)
 
 Finally, let's wrap everything into a function. The function takes `X`
 and `y`, adds the column of ones internally, applies the normal

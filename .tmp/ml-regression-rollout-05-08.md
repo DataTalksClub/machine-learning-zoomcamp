@@ -199,3 +199,13 @@
 - Path: deterministic crop/composite followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-06-ones-column-stack-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact code and numeric targets must not be guessed. A single crop retained a green selected-cell border; the accepted multi-region export removes it while keeping both code lines.
 - QA: final `960x252` PNG inspected visually; setup, ones output, `column_stack`, and target vector remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 07
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-07-train-function.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact NumPy assignments and floating-point output are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `550x90+15+55` (`x=15, y=55, width=550, height=90`). This focuses on the split-weight cells, removes browser chrome, presenter webcam tile, selected unfinished function cell, lesson headings, right black bar, and controls, and keeps the full output array.
+- Invariants: preserve `w0 = w_full[0]`, `w = w_full[1:]`, `w0, w`, and the complete displayed tuple/weight array values.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-07-train-function-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact assignments and numeric output must not be guessed; one crop was accepted after widening the right edge to retain the final output value.
+- QA: final `1100x180` PNG inspected visually; assignments and all displayed values remain crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
