@@ -192,7 +192,7 @@ and the sigmoid of that is about 0.42 - a 42% churn risk.
 
 ![Scoring a month-to-month customer by hand: only the month-to-month weight is used, the other contract weights are multiplied by zero](images/11-log-reg-interpretation-06-second-example-imagegen.png)
 
-![The same calculation in the notebook: sigmoid of -0.33 is about 0.42](images/11-log-reg-interpretation-07-second-example.jpg)
+![The same calculation in the notebook: sigmoid of -0.33 is about 0.42](images/11-log-reg-interpretation-07-second-example-cropped.png)
 
 One useful observation: the sigmoid of 0 is 0.5. So if the score is
 positive, the customer is more likely to churn than not; if it is

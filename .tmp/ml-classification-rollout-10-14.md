@@ -86,3 +86,9 @@ use the built-in imagegen workflow after source inspection.
   monthly-charge and tenure terms, and `-0.33` result; removed the presenter,
   camera/recording controls, and color wheel. Output visually checked at
   lesson size.
+
+- `11-log-reg-interpretation-07-second-example.jpg` →
+  `11-log-reg-interpretation-07-second-example-cropped.png` — deterministic
+  crop `(15,82,505,230)`, 2× Lanczos resize and light unsharp; preserved the
+  exact `sigmoid` expression and `0.41824062315816374` output while removing
+  the camera tile, cursor-area chrome, and notebook frame.
