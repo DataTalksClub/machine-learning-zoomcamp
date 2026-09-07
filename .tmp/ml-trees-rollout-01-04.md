@@ -67,3 +67,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   Source crop `(x=25, y=0, width=480, height=260)` removed the black frame,
   webcam tile, recorder controls, and color wheel. Checked root and nested
   conditions, TRUE/FALSE directions, and all four `OK`/`DEFAULT` leaves.
+- `03-decision-trees-02-assess-risk.jpg` →
+  `03-decision-trees-02-assess-risk-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact customer-dictionary,
+  `assess_risk(xi)`, output, and classifier import cells while removing the
+  webcam tile and browser top bar. A notebook autocomplete tooltip visible in
+  the source is retained because this is exact code/UI content.

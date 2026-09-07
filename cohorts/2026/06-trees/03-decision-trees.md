@@ -48,7 +48,7 @@ assess_risk(xi)
 'ok'
 ```
 
-![Checking the rules on one customer, then importing the model](images/03-decision-trees-02-assess-risk.jpg)
+![Checking the rules on one customer, then importing the model](images/03-decision-trees-02-assess-risk-cropped.png)
 
 Writing rules by hand doesn't scale. The point of the decision tree
 algorithm is that it learns these rules from data automatically.
