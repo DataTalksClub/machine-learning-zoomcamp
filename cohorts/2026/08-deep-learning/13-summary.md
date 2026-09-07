@@ -6,7 +6,7 @@ video_url: "https://www.youtube.com/watch?v=mn0BcXJlRFM&list=PL3MmuxUbc_hIhxl5Ji
 In this short unit we wrap up the module and recall what we built
 over the past lessons.
 
-![The use case of this module: a user uploads an image, the fashion classification service puts it into one of ten categories](images/13-summary-01-use-case-diagram.jpg)
+![The use case of this module: a user uploads an image, the fashion classification service puts it into one of ten categories](images/13-summary-01-use-case-diagram-imagegen.png)
 
 We started from a pre-trained model - Xception, trained on ImageNet -
 and reused it for our clothing dataset. The main ideas:
