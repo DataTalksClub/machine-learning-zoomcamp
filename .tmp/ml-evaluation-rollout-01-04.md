@@ -170,3 +170,12 @@
 - Invariants: the green/red TN/FP/FN/TP regions, counts `922`, `101`, `176`, and `210`, and all four condition annotations `g(x_i)<t & y=0`, `g(x_i)>=t & y=0`, `g(x_i)>=t & y=1`, and `g(x_i)<t & y=1` remain unchanged and in their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-04-confusion-counts-cropped.jpg`
 - QA: accepted after `view_image` inspection; all exact counts, labels, arrows, regions, and conditions remain legible, and no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black frame bar remains; `522×340` output renders cleanly.
+
+## 05 — confusion matrix NumPy output
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-05-confusion-matrix-output.jpg`
+- Disposition: accepted deterministic crop plus bounded blank-cell cursor cleanup; exact matrix code, values, and promo-email annotation retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=54, width=577, height=306` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black strip. Post-crop cleanup fills only blank notebook-cell space: `x=344..364, y=136..158` with `srgb(247,247,247)` removes the gray cursor without touching the code or handwritten annotation.
+- Invariants: `confusion_matrix = np.array([[tn, fp], [fn, tp]])`, the displayed `array([[922, 101], [176, 210]])`, the blue envelope sketch and `25%` note, and the `4.4 Precision and Recall` heading remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-05-confusion-matrix-output-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact code, matrix values, annotation, and heading remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.

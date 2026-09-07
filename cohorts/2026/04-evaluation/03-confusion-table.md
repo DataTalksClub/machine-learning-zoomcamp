@@ -73,7 +73,7 @@ array([[922, 101],
        [176, 210]])
 ```
 
-![The confusion matrix as a NumPy array, with a promo email sketched next to the false positives](images/03-confusion-table-05-confusion-matrix-output.jpg)
+![The confusion matrix as a NumPy array, with a promo email sketched next to the false positives](images/03-confusion-table-05-confusion-matrix-output-cropped.jpg)
 
 |                | Predicted negative | Predicted positive |
 |----------------|--------------------|--------------------|
