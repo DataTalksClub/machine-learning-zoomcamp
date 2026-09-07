@@ -182,7 +182,7 @@ This is the tree in text form: customers without records and with more
 than 6.5 years of seniority are predicted as `ok` (class 0), customers
 with records who work part-time as `default` (class 1), and so on.
 
-![The learned tree: first split on records, then job](images/03-decision-trees-06-learned-rules.jpg)
+![The learned tree: first split on records, then job](images/03-decision-trees-06-learned-rules-imagegen.png)
 
 A tree with a depth of 1 - a single condition - is called a decision
 stump. It's not really a tree, just one split, and it's the simplest

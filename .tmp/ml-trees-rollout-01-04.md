@@ -92,3 +92,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   example-tree labels `HOME = "OWNER"`, `AGE > 35`, `AGE < 37`,
   `JOB = "FREELANCE"`, `DEBT > 0.0`, and red class `1`; no people, camera,
   browser, cursor, watermark, or extra labels remain.
+- `03-decision-trees-06-learned-rules.jpg` →
+  `03-decision-trees-06-learned-rules-imagegen.png`: imagegen regeneration
+  from the viewed source crop `(x=110, y=0, width=390, height=330)`, removing
+  the camera sliver and recording gauge. Checked the exact labels
+  `RECORDS = NO` and `JOB = 1`, the two-step branching structure, and absence
+  of people, camera, browser, cursor, watermark, or extra labels.
