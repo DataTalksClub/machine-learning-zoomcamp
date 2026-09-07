@@ -105,7 +105,7 @@ Instruction by instruction:
 Note the double quotes in the exec form of ENTRYPOINT - the JSON array form
 is what makes Docker run the command directly, without a shell wrapping it.
 
-![Writing the Dockerfile for the churn service](images/06-docker-04-dockerfile.jpg)
+![Writing the Dockerfile for the churn service](images/06-docker-04-dockerfile-cropped.png)
 
 ## Building and running
 
