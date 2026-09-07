@@ -130,7 +130,7 @@ The flags here:
   machine. The first port is on our machine, the second is inside the
   container.
 
-![Port publishing: the test script talks to port 9696 on the host, which maps into the container](images/06-docker-05-port-mapping.jpg)
+![Port publishing: the test script talks to port 9696 on the host, which maps into the container](images/06-docker-05-port-mapping-imagegen.png)
 
 The test script from the [previous unit](04-flask-deployment.md) now talks to
 the containerized service - same URL, same response, but everything inside
