@@ -105,3 +105,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   labels `HOME = "OWNER"`, `AGE > 35`, `RECORDS = "YES"`, the stump label
   `RECORDS = "NO"`, caption `DECISION STUMP`, and leaves `DEFAULT`/`OK`; no
   people, camera, browser, cursor, watermark, or extra labels remain.
+- `04-decision-tree-learning-01-best-threshold.jpg` →
+  `04-decision-tree-learning-01-best-threshold-cropped.png`: deterministic
+  crop `(x=0, y=65, width=500, height=285)` retained the exact toy dataset
+  array, `df_example`, and lesson heading while removing the webcam tile and
+  browser top bar.

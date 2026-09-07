@@ -49,7 +49,7 @@ df_example = pd.DataFrame(data, columns=['assets', 'status'])
 We want to build a decision stump - a tree with one condition,
 `assets > T`. The question is: which threshold `T` is the best?
 
-![A decision stump: one condition, assets > T - but which T?](images/04-decision-tree-learning-01-best-threshold.jpg)
+![A decision stump: one condition, assets > T - but which T?](images/04-decision-tree-learning-01-best-threshold-cropped.png)
 
 The condition splits the data into two parts: the left side where the
 condition is false (`assets <= T`) and the right side where it is true
