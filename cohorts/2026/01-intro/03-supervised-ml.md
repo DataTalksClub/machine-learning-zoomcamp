@@ -73,7 +73,7 @@ The last type is ranking. It usually shows up in recommender systems. Imagine yo
 
 Under the hood there is a function that scores every item - for example, the probability that you will like it, from 0 to 1. Then it takes all the items, sorts them by score and shows you the top results, for example the top six.
 
-![Ranking: items are scored and the top ones are shown](images/03-supervised-ml-06-ranking.jpg)
+![Ranking: items are scored and the top ones are shown](images/03-supervised-ml-06-ranking-imagegen-pilot.png)
 
 Google search does something similar: when you search for "machine learning zoomcamp", it looks at all the documents containing this phrase, scores each one by how likely it is to be relevant for you, and shows the highest-scored document first. Search on marketplaces like eBay works the same way: type "iPhone" and the site shows what is most relevant for you first.
 

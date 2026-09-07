@@ -18,6 +18,20 @@ remain in place; accepted replacements are sibling assets.
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
 
+### 03-supervised-ml-06-ranking.jpg
+
+- Disposition: `imagegen`; the original ecommerce strip is illustrative, not
+  an exact UI source of truth, and the concept is scored/ranked items.
+- Invariant: title `Ranking`; product recommendations are ordered along an
+  explicit score axis; axis direction is exactly `0` on the left to `1` on
+  the right; higher score means more relevant.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `03-supervised-ml-06-ranking-imagegen-pilot.png`.
+- Validation: first generation rejected because it reversed the score axis;
+  second generation inspected at lesson size and passed with `0 → 1`.
+  Face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
+  recording overlays are absent.
+
 ### 02-ml-vs-rules-07-rule-based-summary.jpg
 
 - Disposition: `imagegen`; this bounded diagram summarizes how data and code
