@@ -16,7 +16,7 @@ the columns were model, make, miles per gallon in the city and outside,
 and MSRP - the price we tried to predict. Linear regression, logistic
 regression and tree-based models are all made for data like this.
 
-![Tabular data from a CSV file versus an image of a t-shirt](images/01-fashion-classification-01-tabular-vs-images.jpg)
+![Tabular data from a CSV file versus an image of a t-shirt](images/01-fashion-classification-01-tabular-vs-images-imagegen.png)
 
 This week the data is different. Instead of a table, we have images -
 pictures of clothes. Given a picture, we want to predict what kind of
