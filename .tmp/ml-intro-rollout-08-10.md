@@ -143,3 +143,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: command `df.isnull().sum()`; all eight column names; `Engine HP` has `1`; every other count is `0`; `dtype: int64`
 - Output: `cohorts/2026/01-intro/images/09-pandas-07-missing-values-cropped.png`
 - Validation: accepted after visual inspection; command, column names, counts, and dtype are unchanged; face, camera tile, browser chrome, and cursor are absent.
+
+### 08 — groupby
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-08-groupby.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x105+15+150`
+- Invariants: `df.groupby('Transmission Type').MSRP.max()`; `AUTOMATIC 34450`; `MANUAL 54990`; `Name: MSRP, dtype: int64`
+- Output: `cohorts/2026/01-intro/images/09-pandas-08-groupby-cropped.png`
+- Validation: accepted after visual inspection; command and all grouped values are unchanged; face, camera tile, browser chrome, and next-cell border are absent.

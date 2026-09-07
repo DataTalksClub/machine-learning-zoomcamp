@@ -463,7 +463,7 @@ MANUAL       54990
 Name: MSRP, dtype: int64
 ```
 
-![Maximum price per transmission type with groupby](images/09-pandas-08-groupby.jpg)
+![Maximum price per transmission type with groupby](images/09-pandas-08-groupby-cropped.png)
 
 We could use `mean`, `min` or `max` - any of the summarizing operations.
 
