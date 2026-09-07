@@ -130,3 +130,12 @@ Original source assets remain in place.
 - **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; exact code, version, and warning text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `2.7.0`, `keras.models.load_model('clothing-model.h5')`, and notebook output remain readable; no face/camera/recording overlay remains; Markdown reference resolves.
+
+## 03-tensorflow-lite-02-keras-predictions.jpg
+
+- **Disposition:** `crop/replace` → `images/03-tensorflow-lite-02-keras-predictions-cropped.png`
+- **Teaching point:** the notebook prepares `pants.jpg`, calls `model.predict(X)`, and shows the raw prediction vector.
+- **Source inspection:** 592×360; deterministic crop `+0+30 500×306` removes browser chrome, webcam tile, and right-side black frame while retaining the exact cells and numeric output.
+- **Method:** deterministic Lanczos upscale to 1000×612 with light sharpening; code and prediction values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `load_img`, `preprocess_input`, `model.predict(X)`, and all displayed values remain readable; no face/camera/recording overlay remains; Markdown reference resolves.

@@ -90,7 +90,7 @@ in the batch, 299 by 299 pixels, 3 color channels.
 preds = model.predict(X)
 ```
 
-![Preparing the image with load_img and preprocess_input, then running model.predict](images/03-tensorflow-lite-02-keras-predictions.jpg)
+![Preparing the image with load_img and preprocess_input, then running model.predict](images/03-tensorflow-lite-02-keras-predictions-cropped.png)
 
 The raw predictions are scores for each class. To make them
 meaningful, we combine them with the class names from the previous
