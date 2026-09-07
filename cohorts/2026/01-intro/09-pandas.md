@@ -388,7 +388,7 @@ min    1991.00     138.00              4.00   2000.00
 max    2017.00     261.00              6.00  54990.00
 ```
 
-![Summary statistics for all numerical columns with describe](images/09-pandas-06-describe.jpg)
+![Summary statistics for all numerical columns with describe](images/09-pandas-06-describe-cropped.png)
 
 I also often use `round` here to round everything to two decimal points - it makes the output more compact.
 

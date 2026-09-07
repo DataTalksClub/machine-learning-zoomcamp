@@ -125,3 +125,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: normalized `Vehicle_Style` values `sedan`, `sedan`, `convertible`, `4dr_suv`, `pickup`; all five rows and visible DataFrame columns
 - Output: `cohorts/2026/01-intro/images/09-pandas-05-string-operations-cropped.png`
 - Validation: accepted after visual inspection; exact normalized values and table content are unchanged; face, camera tile, browser chrome, and editor caret are absent.
+
+### 06 — describe
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-06-describe.jpg`
+- Disposition: deterministic crop, editor-caret mask, and 2x Lanczos raster conversion
+- Crop: `560x240+15+95`; caret mask in resized crop: `590,55` to `620,105`
+- Invariants: command `df.describe().round()`; columns `Year`, `Engine HP`, `Engine Cylinders`, `MSRP`; all rows from `count` through `max` and exact statistics
+- Output: `cohorts/2026/01-intro/images/09-pandas-06-describe-cropped.png`
+- Validation: accepted after visual inspection; command, headers, and all summary values are unchanged; face, camera tile, browser chrome, and editor caret are absent.
