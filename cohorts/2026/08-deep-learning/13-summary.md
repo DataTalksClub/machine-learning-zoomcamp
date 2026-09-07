@@ -33,7 +33,7 @@ The result of all this is a model that classifies clothes with about
 90% accuracy on the test set - saved as an h5 checkpoint that we can
 load and use anywhere.
 
-![The predictions we ended up with: zipping the class names with the model scores](images/13-summary-02-final-predictions.jpg)
+![The predictions we ended up with: zipping the class names with the model scores](images/13-summary-02-final-predictions-cropped.png)
 
 If you want to go further, the video mentions a few directions:
 other datasets with fashion items, the
