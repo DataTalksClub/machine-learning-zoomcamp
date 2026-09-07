@@ -90,7 +90,7 @@ status_values = {
 df.status = df.status.map(status_values)
 ```
 
-![Decoding the status column with a dictionary and map](images/02-data-prep-02-decode-status.jpg)
+![Decoding the status column with a dictionary and map](images/02-data-prep-02-decode-status-cropped.png)
 
 We do the same for the other categorical columns:
 

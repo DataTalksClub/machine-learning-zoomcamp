@@ -38,3 +38,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `02-data-prep-01-download-data-cropped.png`: deterministic crop
   `(x=0, y=65, width=576, height=285)` retained the exact download result,
   `head` command, and CSV rows; browser/camera chrome was removed.
+- `02-data-prep-02-decode-status.jpg` →
+  `02-data-prep-02-decode-status-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact `status_values`
+  dictionary and `map` calls; browser/camera chrome was removed.
