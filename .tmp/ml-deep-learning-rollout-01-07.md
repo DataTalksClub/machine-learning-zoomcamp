@@ -40,3 +40,4 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 ## 04-conv-neural-nets
 
 - `04-conv-neural-nets-01-cnn-overview.jpg` → `04-conv-neural-nets-01-cnn-overview-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved the black t-shirt → CNN layers → `T-SHIRT` pipeline, layer labels, and two-item legend; removed presenter/camera/recording controls and checked all generated text.
+- `04-conv-neural-nets-02-feature-map.jpg` → `04-conv-neural-nets-02-feature-map-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved filter kernels, a highlighted filter position, feature-map grid, and response value `9`; removed presenter/camera/recording controls and checked the labels.

@@ -47,7 +47,7 @@ similarity.
 We record this number for each position of the filter. The resulting
 array is called a feature map:
 
-![Sliding a filter across the image and recording the similarity at each position gives a feature map](images/04-conv-neural-nets-02-feature-map.jpg)
+![Sliding a filter across the image and recording the similarity at each position gives a feature map](images/04-conv-neural-nets-02-feature-map-imagegen.png)
 
 The feature map is the result of applying one filter to an image: we
 slide the filter across the image, compute the similarity at every
