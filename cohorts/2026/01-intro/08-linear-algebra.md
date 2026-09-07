@@ -285,7 +285,7 @@ array([[ 1.        , -2.        ,  0.        ],
        [ 0.        ,  1.33333333, -0.33333333]])
 ```
 
-![Computing the inverse with np.linalg.inv](images/08-linear-algebra-08-inverse.jpg)
+![Computing the inverse with np.linalg.inv](images/08-linear-algebra-08-inverse-cropped.png)
 
 And when we multiply the inverse by the matrix, what we get is the identity matrix:
 

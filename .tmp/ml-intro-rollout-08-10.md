@@ -69,3 +69,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: heading `Identity matrix`; `I = np.eye(3)`; `V.dot(I)`; returned matrix values `[[1., 1., 2.], [0., 0.5, 1.], [0., 2., 1.], [2., 1., 0.]]`
 - Output: `cohorts/2026/01-intro/images/08-linear-algebra-07-identity-matrix-cropped.png`
 - Validation: accepted after visual inspection; command and numeric output are unchanged; face, camera tile, browser chrome, and controls are absent.
+
+### 08 — inverse
+
+- Source: `cohorts/2026/01-intro/images/08-linear-algebra-08-inverse.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x205+15+100`
+- Invariants: heading `Inverse`; `Vs = V[[0, 1, 2]]`; `Vs_inv = np.linalg.inv(Vs)`; inverse matrix values including `-0.66666667`, `0.66666667`, `1.33333333`, and `-0.33333333`
+- Output: `cohorts/2026/01-intro/images/08-linear-algebra-08-inverse-cropped.png`
+- Validation: accepted after visual inspection; commands and numeric output are unchanged; face, camera tile, browser chrome, and recording controls are absent.
