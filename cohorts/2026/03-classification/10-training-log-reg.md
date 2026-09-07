@@ -134,7 +134,7 @@ df_pred.correct.mean()
 0.8034066713981547
 ```
 
-![Computing accuracy both ways: comparing predictions with actual values, and taking the mean of the correct column](images/10-training-log-reg-06-accuracy.jpg)
+![Computing accuracy both ways: comparing predictions with actual values, and taking the mean of the correct column](images/10-training-log-reg-06-accuracy-cropped.png)
 
 Same number, as expected. Taking the mean of a boolean column counts
 the fraction of `True` values, because `True` is 1 and `False` is 0.

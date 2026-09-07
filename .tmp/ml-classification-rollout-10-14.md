@@ -37,3 +37,9 @@ use the built-in imagegen workflow after source inspection.
   `(15,82,505,220)`, 2× Lanczos resize and light unsharp; preserved the mask,
   representative customer IDs, and exact `Length: 311` output while removing
   the camera tile and notebook frame.
+
+- `10-training-log-reg-06-accuracy.jpg` →
+  `10-training-log-reg-06-accuracy-cropped.png` — deterministic crop
+  `(15,82,505,220)`, 2× Lanczos resize and light unsharp; preserved both
+  `0.8034066713981547` calculations and the dataframe construction while
+  removing the camera tile and notebook frame.
