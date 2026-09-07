@@ -26,7 +26,7 @@ The fix is a virtual environment: a private set of packages for one project.
 Each project gets its own versions, and they don't interfere with each other
 or with the system Python.
 
-![Each service gets its own virtual environment - no conflicts](images/05-pipenv-03-isolated-environments.jpg)
+![Each service gets its own virtual environment - no conflicts](images/05-pipenv-03-isolated-environments-imagegen.png)
 
 There are many tools for this - `venv`, `conda`, `poetry`. In this course we
 use Pipenv, because besides creating the environment it also records the exact
