@@ -107,3 +107,12 @@
 - Invariants: preserve `df.dtypes[df.dtypes == 'object']`, the eight exact column names in their original order, every visible `object` value, `dtype: object`, and the handwritten `VALUES` teaching annotation and its pointers.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-05-string-columns-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, values, order, and annotation preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x190`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 13 — strings list
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the Python list of object-column names that will drive the normalization loop.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-06-strings-list.jpg`; caption: “The list of column names that contain strings”.
+- Crop coordinates: source `598x360`; `577x230+0+54` (`x=0, y=54, width=577, height=230`). The crop removes the notebook/browser header, webcam tile, right black strip, later-section heading, and recording-frame material while retaining the list output and the following loop cell.
+- Invariants: preserve `strings = list(df.dtypes[df.dtypes == 'object'].index)`, the second `strings` expression, all eight exact list entries and their order, and the visible `for col in strings` / `df[col] =` setup cell.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-06-strings-list-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, values, order, and loop setup preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x230`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

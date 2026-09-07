@@ -150,7 +150,7 @@ strings
 
 ![Selecting the columns of type object](images/02-data-preparation-05-string-columns-cropped.jpg)
 
-![The list of column names that contain strings](images/02-data-preparation-06-strings-list.jpg)
+![The list of column names that contain strings](images/02-data-preparation-06-strings-list-cropped.jpg)
 
 ## Normalizing the string values
 
