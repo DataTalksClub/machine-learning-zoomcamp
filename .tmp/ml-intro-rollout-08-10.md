@@ -98,3 +98,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: `Engine HP` Series values `138.0`, `NaN`, `218.0`, `194.0`, `261.0`; `df[['Make', 'Model', 'MSRP']]`; all five rows and three selected columns
 - Output: `cohorts/2026/01-intro/images/09-pandas-02-series-and-columns-cropped.png`
 - Validation: accepted after visual inspection; exact Series values, command, headers, and table values are unchanged; face, camera tile, browser chrome, and cursor are absent.
+
+### 03 — iloc
+
+- Source: `cohorts/2026/01-intro/images/09-pandas-03-iloc.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x245+15+100`
+- Invariants: source table row labels `a`–`e`; command `df.iloc[[1, 2, 4]]`; selected rows `b`, `c`, `e`; all visible columns and values including `NaN`, `AUTOMATIC`, and `54990`
+- Output: `cohorts/2026/01-intro/images/09-pandas-03-iloc-cropped.png`
+- Validation: accepted after visual inspection; command, row selection, headers, and values are unchanged; face, camera tile, browser chrome, and controls are absent.

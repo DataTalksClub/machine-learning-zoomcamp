@@ -216,7 +216,7 @@ c  convertible  54990
 e        Pickup  32340  
 ```
 
-![Selecting rows by position with iloc](images/09-pandas-03-iloc.jpg)
+![Selecting rows by position with iloc](images/09-pandas-03-iloc-cropped.png)
 
 The index of the DataFrame is still the letter index, but we use the positional index to refer to the records.
 
