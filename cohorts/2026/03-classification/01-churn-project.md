@@ -33,7 +33,7 @@ target y:
 
 $$\large g\left(x_{i}\right) \approx y_{i}$$
 
-![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification.jpg)
+![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification-cropped.png)
 
 Here x is the feature vector - everything we know about the customer -
 and y is the target variable. The target is binary, so y belongs to
