@@ -21,7 +21,7 @@ For churn prediction, each customer in the validation set falls into one of four
 
 Reading the names: "positive"/"negative" is what we predicted, "true"/"false" is whether that prediction was correct. A false positive is a customer we sent a promotional email to, but who was never going to leave. A false negative is a customer who left without us ever flagging them - often the more costly mistake.
 
-![The four outcomes of a churn prediction: true negative, false negative, false positive and true positive](images/03-confusion-table-01-four-outcomes.jpg)
+![The four outcomes of a churn prediction: true negative, false negative, false positive and true positive](images/03-confusion-table-01-four-outcomes-cropped.jpg)
 
 ## Computing the counts
 

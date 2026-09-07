@@ -134,3 +134,12 @@
 - Invariants: `YOUR MODEL`, `DUMMY MODEL`, `80%`, `73%`, `7%`, the `PRED` and `ACTUAL` rows with their F/T markings, the red/green row boxes, the `27%` arrow annotation, and boxed `73%` remain unchanged with their original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-08-class-imbalance-cropped.jpg`
 - QA: accepted after visual inspection; all instructional handwriting, percentages, row labels, markers, arrows, and box remain legible; no face, camera tile, browser/Zoom chrome, cursor, watermark, recording overlay, or black bar remains; `451×340` output renders cleanly.
+
+## 01 — confusion-table four outcomes
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-01-four-outcomes.jpg`
+- Disposition: accepted deterministic crop plus bounded blank-board cleanup; exact handwritten outcome labels and relationships retained, so imagegen was not used.
+- Crop coordinates: `x=31, y=0, width=518, height=360` from the 598×360 source; removes the left/right black bars and keeps the full four-outcome board. Post-crop cleanup fills only blank board space: `x=474..517, y=0..53` for the webcam tile, `x=466..517, y=75..204` for the partial recording-wheel overlay, and `x=326..339, y=55..72` for the cursor, all with the sampled pale board background `srgb(246,246,220)`.
+- Invariants: `4.3 CONFUSION TABLE`, `g(x_i)`, the `< t`/`≥ t` branches, `NEGATIVE`, `POSITIVE`, `NO CHURN`, `CHURN`, the four customer boxes, and `TRUE NEGATIVE`, `FALSE NEGATIVE`, `FALSE POSITIVE`, and `TRUE POSITIVE` remain unchanged and in their original relationships.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-01-four-outcomes-cropped.jpg`
+- QA: accepted after `view_image` inspection; all exact handwritten labels, arrows, boxes, and the green mail icon remain legible; no face, camera tile, recording overlay, cursor, watermark, browser/Zoom chrome, or black bar remains; `518×360` output renders cleanly.
