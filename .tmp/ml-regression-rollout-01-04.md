@@ -170,3 +170,12 @@
 - Invariants: preserve the exact visible `np.log([0 + 1, 1 + 1, 10 + 1, 1000 + 1, 100000 + 1])` expression, the `RuntimeWarning: divide by zero encountered in log` text, and the output values `-inf`, `0.`, `2.30258509`, `6.90775528`, and `11.51292546` in their original order.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-05-log-zero-problem-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, warning, values, ordering, and notebook cell styling preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or unrelated chart label remains; final dimensions `577x116`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 20 — log1p normal distribution
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that the logged price values produce a compact, approximately bell-shaped histogram without the original long tail.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-06-log1p-normal-distribution.jpg`; caption: “After the log transformation the tail is gone”.
+- Crop coordinates: source `598x360`; `577x260+0+54` (`x=0, y=54, width=577, height=260`). The crop removes the notebook/browser header, webcam tile/face, right black strip, preceding unrelated cell, and following-cell border while retaining the exact plot cell, output label, complete visible histogram, and axes.
+- Invariants: preserve the exact `sns.histplot(price_logs, bins=50)` call and output label, `msrp`/`Count` axes, tick labels, bar order/heights, and the compact post-log distribution shape.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-06-log1p-normal-distribution-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact code, plot geometry, labels, values, and teaching relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or following-cell border remains; final dimensions `577x260`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

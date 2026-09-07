@@ -173,7 +173,7 @@ Now we can plot the histogram of the logged prices:
 sns.histplot(price_logs, bins=50)
 ```
 
-![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution.jpg)
+![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution-cropped.jpg)
 
 The tail is gone. All the large prices collapsed into a small area on the
 right, and the cars for usual consumers are still concentrated around the
