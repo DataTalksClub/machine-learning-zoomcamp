@@ -30,7 +30,7 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 !wget $data -O data-week-3.csv
 ```
 
-![Downloading the dataset with wget](images/02-data-preparation-01-download-data.jpg)
+![Downloading the dataset with wget](images/02-data-preparation-01-download-data-cropped.png)
 
 In a Jupyter notebook, the `!` prefix runs a shell command instead of
 Python code, and the `$` lets us use a Python variable - here `data` -

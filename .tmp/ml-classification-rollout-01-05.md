@@ -29,3 +29,13 @@
 - Invariants: headings `3.3 Setting up the validation framework`, `3.4 EDA`, and `3.5 Feature importance: Churn rate and risk ratio`; visible bullets and notebook prompts remain verbatim, including the train/validation/test split, missing values, target variable, numerical and categorical variables, feature-importance sentence, `Churn rate`, and the visible `Risk ratio` line; order and UI hierarchy preserved; no face, camera tile, browser toolbar, cursor, watermark, or black bar.
 - Final: `cohorts/2026/03-classification/images/01-churn-project-03-module-plan-cropped.png` (492×321 PNG).
 - QA: accepted after `view_image` inspection at lesson size; exact visible UI text and ordering checked; webcam/browser framing removed; source’s bottom-edge truncation is retained rather than invented; Markdown reference resolves.
+
+## 04 — data preparation: downloading and reading the data
+
+- Source: `cohorts/2026/03-classification/images/02-data-preparation-01-download-data.jpg` (598×360 JPEG).
+- Context/caption: “Downloading the dataset with wget.” This image teaches that the notebook download completed successfully and saved the dataset as `data-week-3.csv`.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The terminal output and notebook cell are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` in `.tmp/ml-classification-rollout-02-data-preparation-crops/01-candidate-y58.png` removes the browser/notebook header, webcam tile, and right black capture bar. The crop keeps the HTTP `200 OK` result, `Length: 977501 (955K)`, saved filename, transfer result, `pd.read_csv` cell, and surrounding notebook context.
+- Invariants: visible download completion output includes `HTTP request sent, awaiting response... 200 OK`, `Saving to: ‘data-week-3.csv’`, `data-week-3.csv`, `954.59K`, and `[977501/977501]`; notebook cell shows `pd.read_csv(...)`; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/02-data-preparation-01-download-data-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; exact output values, filename, and notebook code checked; capture overlays removed; Markdown reference resolves.
