@@ -17,7 +17,7 @@ CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a met
 
 The process has six steps. Let's go through each of them.
 
-![The CRISP-DM process diagram](images/04-crisp-dm-02-process-diagram.jpg)
+![The CRISP-DM process diagram](images/04-crisp-dm-02-process-diagram-imagegen-pilot.png)
 
 ## Step 1: Business understanding
 

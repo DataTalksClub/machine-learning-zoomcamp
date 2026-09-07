@@ -32,6 +32,19 @@ remain in place; accepted replacements are sibling assets.
   bullets/order checked; face, webcam, browser/Zoom chrome, cursor, watermark,
   toolbar, and recording overlays absent.
 
+### 04-crisp-dm-02-process-diagram.jpg
+
+- Disposition: `imagegen`; this is a bounded process/architecture diagram.
+- Invariant: title `CRISP-DM`; central `Data`; exact six stages and order:
+  `Business Understanding`, `Data Understanding`, `Data Preparation`,
+  `Modeling`, `Evaluation`, `Deployment`; circular and feedback arrows remain.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `04-crisp-dm-02-process-diagram-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all six labels, stage
+  relationships, data cylinder, circular iteration, and feedback arrows
+  checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
+  recording overlays absent.
+
 ### 03-supervised-ml-06-ranking.jpg
 
 - Disposition: `imagegen`; the original ecommerce strip is illustrative, not
