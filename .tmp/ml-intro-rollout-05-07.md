@@ -112,6 +112,17 @@
 - Invariants: `!wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv`; `df = pd.read_csv('data.csv')`; `len(df)` output `11914`; red highlight
 - Validation: passed visual review; exact code, URL, output, and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border
 
+## 07-numpy
+
+### 01 — zeros-ones-full
+
+- Source: `cohorts/2026/01-intro/images/07-numpy-01-zeros-ones-full.jpg` (598×360 JPEG)
+- Disposition: accepted deterministic sibling `07-numpy-01-zeros-ones-full-cropped.png`
+- Crop: `500×290+0+40` (removes the browser frame and webcam tile; retains the NumPy notebook toolbar, `np.ones(10)`, `np.full(10, 2.5)`, exact outputs, and section context)
+- Path: deterministic lossless PNG crop; imagegen not used because exact NumPy code and numeric output are the source of truth
+- Invariants: `np.ones(10)` and all ten `1.` values; `np.full(10, 2.5)` and all ten `2.5` values; visible zeros output; `Multi-dimensional arrays` context
+- Validation: passed visual review; code and numeric output remain exact and readable; no face, camera tile, browser/recording chrome, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)

@@ -41,7 +41,7 @@ And if you want to fill an array with some arbitrary number, use `full`: first y
 array([2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5])
 ```
 
-![Creating arrays with zeros, ones and full](images/07-numpy-01-zeros-ones-full.jpg)
+![Creating arrays with zeros, ones and full](images/07-numpy-01-zeros-ones-full-cropped.png)
 
 If you have a Python list and want to create an array from it, use the `array` function and pass the list as the argument:
 
