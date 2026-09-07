@@ -143,3 +143,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x130+26+230`, then 2× Lanczos resize and light unsharp masking. This retains the complete function and removes the browser/Zoom frame, webcam tile, clipped lesson heading, and following-cell material.
 - Invariants/QA: preserve `df['age'] = 2017 - df.year`, `df[base]`, `fillna(0)`, `.values`, and `return X`. Final `1066x260` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-03-age-feature-cropped.png`.
+
+### Screenshot 04 — modified dataframe
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-04-modified-dataframe.jpg`.
+- Caption/context: “Running prepare_X added the age column to df_train”; the section uses this visible mutation to motivate copying the dataframe.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the added `age` row is concrete evidence of the unintended side effect discussed in the prose.
+- Disposition: `crop/replace` via deterministic raster export; exact dtype output and selection highlight are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x245+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete `df_train.dtypes` output, selected `age` row, and `dtype: object` while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
+- Invariants/QA: preserve all visible column/type pairs, especially `age int64`, the selection highlight, and the final dtype line. Final `1066x490` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-04-modified-dataframe-cropped.png`.

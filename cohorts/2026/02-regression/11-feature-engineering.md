@@ -68,7 +68,7 @@ don't want it to change my data - what if it does something that cannot be
 undone? It is much better if the function doesn't modify the dataframes it
 receives.
 
-![Running prepare_X added the age column to df_train](images/11-feature-engineering-04-modified-dataframe.jpg)
+![Running prepare_X added the age column to df_train](images/11-feature-engineering-04-modified-dataframe-cropped.png)
 
 The fix is simple: before doing anything, we take a copy of the dataframe and
 work with that copy inside the function. The original dataframe stays unchanged
