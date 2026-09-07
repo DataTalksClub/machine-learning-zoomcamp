@@ -40,7 +40,7 @@ zero and don't participate in that step. The next step freezes a
 different part. The output layer, on the other hand, sees all the
 parts, including the frozen ones.
 
-![The inner layer with one neuron frozen for this training step - its connections don't get updated](images/09-dropout-03-frozen-neuron.jpg)
+![The inner layer with one neuron frozen for this training step - its connections don't get updated](images/09-dropout-03-frozen-neuron-imagegen.png)
 
 The `droprate` parameter controls how much is hidden: with
 `droprate=0.5`, each iteration freezes 50% of the layer. Dropout
