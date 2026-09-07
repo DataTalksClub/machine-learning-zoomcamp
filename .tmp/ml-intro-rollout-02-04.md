@@ -43,6 +43,24 @@ remain in place; accepted replacements are sibling assets.
   bottom relationship checked; face, webcam, browser/Zoom chrome, cursor,
   watermark, toolbar, black bars, and recording overlays absent.
 
+## 03-supervised-ml
+
+### 03-supervised-ml-01-features-target.jpg
+
+- Disposition: `imagegen`; the side-by-side feature matrix and target vector
+  establish the formal supervised-learning inputs.
+- Invariant: headers `Features (data)` and `Target (desired output)`; six
+  rows with exactly six feature values each; target sequence `1, 0, 1, 1,
+  0, 0`.
+- Crop: `475x300+50+30`, with the camera sliver masked, from the 598x360
+  source. The first generation was rejected because it omitted the sixth
+  feature column; the second generation passed.
+- Output: `03-supervised-ml-01-features-target-imagegen-pilot.png`.
+- Validation: final image inspected at lesson size; all 36 feature values,
+  six target values, headers, and row alignment checked; no face, webcam,
+  browser/Zoom chrome, cursor, watermark, annotations, toolbar, or recording
+  overlays remain.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

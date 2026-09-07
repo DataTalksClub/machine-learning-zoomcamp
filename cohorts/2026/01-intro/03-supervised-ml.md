@@ -21,7 +21,7 @@ Now let's make it formal. Machine learning is a branch of computer science and a
 
 The data we show the model has two parts:
 
-![The feature matrix X and the target vector y](images/03-supervised-ml-01-features-target.jpg)
+![The feature matrix X and the target vector y](images/03-supervised-ml-01-features-target-imagegen-pilot.png)
 
 - The feature matrix, usually written as capital X. A matrix is a two-dimensional array: the rows are our observations - the objects we want to make predictions for, one row per email - and the columns are the features.
 - The target variable, usually written as lowercase y. It is a vector - a one-dimensional array of numbers. For each row of X it contains the answer: 1 if the email is spam, 0 if not.
