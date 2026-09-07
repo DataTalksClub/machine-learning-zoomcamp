@@ -214,7 +214,7 @@ one_year        0.120573   1186 -0.149395  0.446621
 two_year        0.028274   1344 -0.241694  0.104730
 ```
 
-![The contract table: month-to-month customers churn far more than average](images/05-risk-06-groupby-contract.jpg)
+![The contract table: month-to-month customers churn far more than average](images/05-risk-06-groupby-contract-cropped.png)
 
 `internetservice` tells a similar story - fiber optic customers churn
 much more than DSL customers:

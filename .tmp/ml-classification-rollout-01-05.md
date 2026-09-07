@@ -229,3 +229,13 @@
 - Invariants: SQL remains `SELECT gender, AVG(churn), AVG(churn) - global_churn AS diff, AVG(churn) / global_churn AS risk FROM data GROUP BY gender;`; the groupby call remains exact; output remains `female 0.276824`, `male 0.263214`, `Name: churn, dtype: float64`; heading and cell order remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/05-risk-05-groupby-gender-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size; SQL, exact groupby code, result values, heading, and ordering checked against the source; capture framing is absent and the Markdown reference resolves.
+
+## 24 — risk: groupby result for contract
+
+- Source: `cohorts/2026/03-classification/images/05-risk-06-groupby-contract.jpg` (598×360 JPEG).
+- Context/caption: “The contract table: month-to-month customers churn far more than average.” This image teaches scanning the groupby output to identify contract type as a strong risk-related variable.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The loop, dataframe table, exact values, and visible continuation are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, left capture margin, and right capture edge while retaining the groupby loop, complete contract table, and visible `paperlessbilling` continuation.
+- Invariants: loop remains `for c in categorical`, `df_group = df_full_train.groupby(c).churn.agg(['mean', 'count'])`, `df_group['diff'] = df_group['mean'] - global_churn`, `df_group['risk'] = df_group['mean'] / global_churn`, and `display(df_group)` with print calls; contract rows remain `month-to-month`, `one_year`, and `two_year`; values remain `(0.431701, 3104, 0.161733, 1.599082)`, `(0.120573, 1186, -0.149395, 0.446621)`, and `(0.028274, 1344, -0.241694, 0.104730)`; row/column order remains unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/05-risk-06-groupby-contract-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; loop, table headers, row order, all visible contract values, and continuation context checked against the source; capture framing is absent and the Markdown reference resolves.
