@@ -19,7 +19,7 @@ A REST API is organized into resources. Usually resources are nouns -
 ours `predict`, following what we did in the Flask lessons, where the
 endpoint was `/predict`.
 
-![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api.jpg)
+![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api-cropped.png)
 
 So: create a resource called `predict`. We don't need to configure
 anything else - in particular, we don't need to make it a proxy
