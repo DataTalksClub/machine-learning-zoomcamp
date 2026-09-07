@@ -33,7 +33,7 @@ use Pipenv, because besides creating the environment it also records the exact
 package versions, which is what we need to reproduce the environment on a
 server later.
 
-![Tools for virtual environments: venv, conda, pipenv, poetry](images/05-pipenv-04-venv-tools.jpg)
+![Tools for virtual environments: venv, conda, pipenv, poetry](images/05-pipenv-04-venv-tools-imagegen.png)
 
 ## Installing libraries with Pipenv
 
