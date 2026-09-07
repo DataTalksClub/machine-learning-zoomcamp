@@ -31,6 +31,18 @@ remain in place; accepted replacements are sibling assets.
   relationship checked; face, webcam, browser/Zoom chrome, cursor, watermark,
   toolbar, black bars, and recording overlays absent.
 
+### 02-ml-vs-rules-08-ml-summary.jpg
+
+- Disposition: `imagegen`; this diagram summarizes the learned-model flow.
+- Invariant: `DATA` and `OUTCOME`/`SPAM / NOT` enter `ML`; `ML` points to
+  `MODEL`; the bottom statement is `DATA + MODEL => OUTCOME`.
+- Crop: `598x300+0+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `02-ml-vs-rules-08-ml-summary-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; labels, arrows, and
+  bottom relationship checked; face, webcam, browser/Zoom chrome, cursor,
+  watermark, toolbar, black bars, and recording overlays absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

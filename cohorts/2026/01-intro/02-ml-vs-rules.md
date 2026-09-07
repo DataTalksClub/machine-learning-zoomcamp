@@ -92,7 +92,7 @@ In a rule-based system, we extract rules ourselves and write them in code. The d
 
 In machine learning, the roles flip. The outcome - spam or not spam - becomes the input to the machine learning algorithm, together with the data. The algorithm produces a model. Then, for cases where we don't know the outcome, we take the data and the model, and the model produces the prediction.
 
-![Machine learning: data and outcomes go in, a model comes out](images/02-ml-vs-rules-08-ml-summary.jpg)
+![Machine learning: data and outcomes go in, a model comes out](images/02-ml-vs-rules-08-ml-summary-imagegen-pilot.png)
 
 So in usual software we hard-code the outcome in the code. In machine learning the outcome is the input, and the rules are learned automatically from data.
 
