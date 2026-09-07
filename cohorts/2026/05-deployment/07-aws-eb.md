@@ -6,7 +6,7 @@ video_url: https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8
 In this optional unit we deploy the Docker image of the churn service to AWS
 Elastic Beanstalk, which makes it reachable from anywhere on the internet.
 
-![The plan of the module: deployment to the cloud with AWS Elastic Beanstalk](images/07-aws-eb-01-module-plan.jpg)
+![The plan of the module: deployment to the cloud with AWS Elastic Beanstalk](images/07-aws-eb-01-module-plan-cropped.png)
 
 ## Why the cloud
 
