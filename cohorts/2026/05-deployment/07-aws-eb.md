@@ -70,7 +70,7 @@ as before. When it works, create the real environment in AWS:
 eb create churn-serving-env
 ```
 
-![Creating the environment: EB starts instances, a load balancer and an auto scaling group](images/07-aws-eb-05-eb-create.jpg)
+![Creating the environment: EB starts instances, a load balancer and an auto scaling group](images/07-aws-eb-05-eb-create-cropped.png)
 
 This takes a few minutes: EB starts the instances, deploys the container and
 creates a URL for the environment. That URL is the endpoint for the
