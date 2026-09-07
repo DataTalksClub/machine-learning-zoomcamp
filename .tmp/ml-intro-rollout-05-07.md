@@ -102,3 +102,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact GitHub UI, filename, menu labels, and instructional annotation are the source of truth
 - Invariants: `mlbookcamp-code / chapter-02-car-price`; `02-carprice.ipynb`; context menu; `Copy link address`; red instructional highlight
 - Validation: passed visual review; exact UI text and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border
+
+### 08 — sample-code
+
+- Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
+- Disposition: accepted deterministic sibling `sample-code-cropped.png`
+- Crop: `930×450+70+100` (trims notebook navigation/sidebar while retaining the code cells, output, and red instructional highlight)
+- Path: deterministic lossless PNG crop; imagegen not used because exact Python code, output, and UI annotation are the source of truth
+- Invariants: `import pandas as pd`; `import numpy as np`; `import seaborn as sns`; `df = pd.read_csv('data.csv')`; `len(df)` output `11914`; red highlight around the CSV read
+- Validation: passed visual review; exact code, output, and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border

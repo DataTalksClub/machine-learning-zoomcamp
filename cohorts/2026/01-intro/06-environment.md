@@ -157,7 +157,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
   
 3. Check if the notebook uses any datafile to read data from it. If yes, note the datafile name from the code.- *look for pd.read_csv("somefilename.csv")*. 
    
-   ![See this example](images/sample-code.png)
+   ![See this example](images/sample-code-cropped.png)
    
 4. You need to download the file into Kaggle. For this:
 
