@@ -89,3 +89,13 @@
 - Invariants: `df.churn.head()` output remains `no`, `no`, `yes`, `no`, `yes` with `Name: churn, dtype: object`; the comparison expression `(df.churn == 'yes')` remains visible; boolean output remains `False`, `False`, `True`, `False`, `True` for indices `0`–`4`, followed by the source ellipsis and tail rows beginning at `7038`; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/02-data-preparation-06-churn-encoding-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size and zoomed code/output inspections; string values, comparison expression, boolean sequence, and tail-row context checked against the source; both cursors removed without changing instructional text; Markdown reference resolves.
+
+## 10 — validation: train/validation/test split plan
+
+- Source: `cohorts/2026/03-classification/images/03-validation-01-train-val-test-split.jpg` (598×360 JPEG).
+- Context/caption: “The plan: first split off 20% for the test set, then split the remaining 80% into train and validation.” This image teaches the two-step 60/20/20 partition and the relationship between the full train, train, validation, and test sets.
+- Rubric/disposition: keep — deterministic crop with bounded background cleanup. The diagram’s labels, percentages, boxes, and arrows are exact instructional content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `521×360+28+0` removes the left black bar, right black bar, and face tile. A deterministic background fill removes the face-tile rectangle at `x=478..520, y=0..57` and a small cursor in blank background at `x=450..463, y=222..237`, all relative to the cropped image; no instructional pixels are covered.
+- Invariants: section marker `3.3`; top row `TRAIN`, `VAL`, `TEST` with `60%`, `20%`, and `20%`; `80%` arrow to `FULL TRAIN`; `20%` arrow to `TEST`; lower arrows to `TRAIN` and `VAL`; box order and arrow directions preserved; no face, camera tile, cursor, watermark, overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/03-validation-01-train-val-test-split-cropped.png` (521×360 PNG).
+- QA: accepted after `view_image` inspection at lesson size; all labels, percentages, box relationships, and arrow directions checked against the original; face/capture framing and cursor are absent; Markdown reference resolves.

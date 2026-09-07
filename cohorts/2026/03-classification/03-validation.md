@@ -22,7 +22,7 @@ We want the classic 60/20/20 split: 60% of the data for training, 20%
 for validation and 20% for testing. The function only splits in two, so
 we do it in two steps.
 
-![The plan: first split off 20% for the test set, then split the remaining 80% into train and validation](images/03-validation-01-train-val-test-split.jpg)
+![The plan: first split off 20% for the test set, then split the remaining 80% into train and validation](images/03-validation-01-train-val-test-split-cropped.png)
 
 First we set aside the test set - 20% of all the data:
 
