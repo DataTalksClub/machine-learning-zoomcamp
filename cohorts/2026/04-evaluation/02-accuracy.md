@@ -28,7 +28,7 @@ This gives `1409`. With the decision threshold at 0.5, the model made the right 
 
 This gives `0.8034066713981547`. Indeed, 1132 / 1409 is 0.8034 - about 80% of the predictions match the actual outcomes.
 
-![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook.jpg)
+![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook-cropped.jpg)
 
 Scikit-learn has this computation built in as `accuracy_score`:
 
