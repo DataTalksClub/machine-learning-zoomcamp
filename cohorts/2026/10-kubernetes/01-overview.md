@@ -29,7 +29,7 @@ image, already prepared. We download the image, turn it into a numpy array
 and apply the `prepare_input` function to get `X`. The result is a numpy
 array with 10 predictions - one score for each of the 10 classes we have.
 
-![TensorFlow Serving: C++ inference with the clothes model](images/01-overview-01-tf-serving-inference.jpg)
+![TensorFlow Serving: C++ inference with the clothes model](images/01-overview-01-tf-serving-inference-imagegen.png)
 
 ## The gateway
 
