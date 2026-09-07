@@ -62,3 +62,12 @@
 - Invariants: preserve the exact file rows `02-carprice.ipynb` and `data.csv`, their visible commit messages (`chapter 02 update` and `chapter 2 code`), and their timestamps.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-07-chapter-files-cropped.jpg`.
 - QA: source and candidate crops inspected visually; exact filenames, row order, labels, and timestamps preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `546x68`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 08 — download data
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that `wget` downloads the CSV from the raw GitHub URL and saves it locally as `data.csv`.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-01-download-data.jpg`; caption: “Downloading data.csv with wget”.
+- Crop coordinates: source `598x360`; `577x306+0+54` (`x=0, y=54, width=577, height=306`). The crop removes the notebook/browser header, webcam tile, right black strip, and recording-frame area while retaining the data URL cell, `!wget $data`, download URL/output, `200 OK`, progress line, and saved-file line.
+- Invariants: preserve the exact `!wget $data` command, raw GitHub URL/output, HTTP 200 result, `data.csv` filename, byte count, progress result, and the relationship that the command writes the local CSV.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-01-download-data-cropped.jpg`.
+- QA: source inspected in lesson context; exact command, URL, output, values, and order preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.

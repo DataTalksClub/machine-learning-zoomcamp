@@ -25,7 +25,7 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 wget fetches the file and puts it in the current directory, so now we have
 data.csv locally.
 
-![Downloading data.csv with wget](images/02-data-preparation-01-download-data.jpg)
+![Downloading data.csv with wget](images/02-data-preparation-01-download-data-cropped.jpg)
 
 ## Loading the data
 
