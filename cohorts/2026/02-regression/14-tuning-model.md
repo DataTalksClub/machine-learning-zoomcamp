@@ -50,7 +50,7 @@ degrade in performance there, and it's not too large. To be honest, it doesn't
 really matter here - it could be this one or the one next to it. We can just go
 with 0.001.
 
-![Choosing r equals 0.001](images/14-tuning-model-03-choosing-r.jpg)
+![Choosing r equals 0.001](images/14-tuning-model-03-choosing-r-cropped.png)
 
 ## Training the final model
 

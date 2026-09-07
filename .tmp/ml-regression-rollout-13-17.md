@@ -24,3 +24,4 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | 13 | `13-regularization-08-rmse-result.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the exact `r=0.01` validation cell and RMSE `0.4608208286209523`; remove browser/camera frame. |
 | 14 | `14-tuning-model-01-r-values-loop.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the exact loop over `r` values and validation-cell code; remove browser/camera frame. |
 | 14 | `14-tuning-model-02-rmse-per-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve every printed `r`, bias, and RMSE value; remove browser/camera frame. The source's native blue selection highlight remains over the first RMSE value without changing the text. |
+| 14 | `14-tuning-model-03-choosing-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the full comparison table used to justify choosing `r=0.001`; remove browser/camera frame. |
