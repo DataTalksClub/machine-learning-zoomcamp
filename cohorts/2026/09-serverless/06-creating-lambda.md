@@ -132,7 +132,7 @@ change anything else. Click "Create function".
 One difference from the first function we created: there is no code
 preview, because the code now lives in the container image.
 
-![Creating the function from a container image; the console stores the image digest, and x86_64 is selected](images/06-creating-lambda-03-create-function.jpg)
+![Creating the function from a container image; the console stores the image digest, and x86_64 is selected](images/06-creating-lambda-03-create-function-cropped.png)
 
 ## Testing and configuring
 

@@ -98,3 +98,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 894×586 with light sharpening; exact ECR repository URI, layer states, and transfer sizes were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `docker tag`, `docker push`, repository path, and layer upload states remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 06-creating-lambda-03-create-function.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-03-create-function-cropped.png`
+- **Teaching point:** the Lambda function is created from the ECR container image with `x86_64` selected and the default logging role.
+- **Source inspection:** 592×360; crop `+0+50 550×268` removes the browser bar and webcam tile while retaining the image field, architecture choice, permissions, and create button.
+- **Method:** deterministic Lanczos upscale to 1100×536 with light sharpening; exact console labels and selected architecture were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `x86_64`, permissions text, and `Create function` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The image URI field is partially visible because the crop focuses on the configuration controls.
