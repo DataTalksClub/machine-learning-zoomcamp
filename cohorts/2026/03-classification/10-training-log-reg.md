@@ -26,7 +26,7 @@ model = LogisticRegression(solver='lbfgs')
 model.fit(X_train, y_train)
 ```
 
-![Training logistic regression: create the model with LogisticRegression and call fit with the feature matrix and the target vector](images/10-training-log-reg-01-fit.jpg)
+![Training logistic regression: create the model with LogisticRegression and call fit with the feature matrix and the target vector](images/10-training-log-reg-01-fit-cropped.png)
 
 The `solver` is the optimization algorithm that finds the best weights.
 After `fit`, the model has learned both parts of the formula from the
