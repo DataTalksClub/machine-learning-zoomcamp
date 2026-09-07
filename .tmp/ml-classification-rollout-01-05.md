@@ -19,3 +19,13 @@
 - Invariants: heading `BINARY CLASSIFICATION`; formula `g(x_i) ≈ y_i`; `x_i` and `y_i` remain in the same order; blue arrow points to `x_i` with the `i-th customer` annotation; blue arrow points toward `y_i`; no faces, camera tile, Zoom controls, color-wheel overlay, cursor, watermark, or black border.
 - Final: `cohorts/2026/03-classification/images/01-churn-project-02-binary-classification-cropped.png` (598×360 PNG).
 - QA: accepted after `view_image` inspection at lesson size; heading, formula, subscripts, annotation, and arrow directions checked; no capture overlays remain; Markdown reference resolves.
+
+## 03 — module plan
+
+- Source: `cohorts/2026/03-classification/images/01-churn-project-03-module-plan.jpg` (598×360 JPEG).
+- Context/caption: “The plan of the module in the course notebook.” This image teaches the sequence of the validation framework, EDA, and feature-importance sections in the notebook.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook UI text is exact instructional content; imagegen was not used.
+- Capture cleanup: crop `492×321+58+39` removes the browser toolbar, left margin, and black/capture framing. After cropping, a `45×14` white rectangle in the blank notebook margin removes the remaining bottom edge of the webcam tile; no instructional pixels are covered.
+- Invariants: headings `3.3 Setting up the validation framework`, `3.4 EDA`, and `3.5 Feature importance: Churn rate and risk ratio`; visible bullets and notebook prompts remain verbatim, including the train/validation/test split, missing values, target variable, numerical and categorical variables, feature-importance sentence, `Churn rate`, and the visible `Risk ratio` line; order and UI hierarchy preserved; no face, camera tile, browser toolbar, cursor, watermark, or black bar.
+- Final: `cohorts/2026/03-classification/images/01-churn-project-03-module-plan-cropped.png` (492×321 PNG).
+- QA: accepted after `view_image` inspection at lesson size; exact visible UI text and ordering checked; webcam/browser framing removed; source’s bottom-edge truncation is retained rather than invented; Markdown reference resolves.

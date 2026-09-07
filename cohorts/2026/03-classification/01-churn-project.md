@@ -78,7 +78,7 @@ the data, set up a validation framework, do EDA and feature importance
 analysis, then train a logistic regression model and use it to score
 customers.
 
-![The plan of the module in the course notebook](images/01-churn-project-03-module-plan.jpg)
+![The plan of the module in the course notebook](images/01-churn-project-03-module-plan-cropped.png)
 
 ## Materials
 
