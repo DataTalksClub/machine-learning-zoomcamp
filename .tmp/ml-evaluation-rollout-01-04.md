@@ -95,7 +95,7 @@
 - Source: `cohorts/2026/04-evaluation/images/02-accuracy-04-accuracy-score.jpg`
 - Disposition: accepted deterministic crop; exact threshold-loop code and numeric output are retained, so imagegen was not used.
 - Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar.
-- Invariants: the visible `scores = []` initialization, threshold loop, `churn_decision = (y_pred >= t)`, `score = (y_val == churn_decision).mean()`, `scores.append(score)`, `plt.plot(thresholds, score)`, and the displayed scores array including the peak `0.8034066713981547` remain unchanged.
+- Invariants: the visible `scores = []` initialization, threshold loop, `churn_decision = (y_pred >= t)`, `score = (y_val == churn_decision).mean()`, `scores.append(score)`, the plotting call beginning with `plt.plot(thresholds, ...)`, and the displayed scores array including the peak `0.8034066713981547` remain unchanged.
 - Final path: `cohorts/2026/04-evaluation/images/02-accuracy-04-accuracy-score-cropped.jpg`
 - QA: accepted after visual inspection; exact code and numeric output remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
 
