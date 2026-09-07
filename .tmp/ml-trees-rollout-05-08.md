@@ -269,6 +269,33 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   cursor, watermark, or overlay. Markdown reference resolves and
   `git diff --check` passes before commit.
 
+## 07 — gradient boosting and XGBoost, screenshot 01
+
+- Source: `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest.jpg`.
+- Disposition: `replace` via built-in imagegen; this is a bounded conceptual
+  comparison diagram, so generation is safe when the workflows and labels are
+  explicitly locked.
+- Crop coordinates: source `1024x724`; deterministic preparation crop
+  `980x690+22+16` (`x=22, y=16, width=980, height=690`) removed only the
+  outer board edge before generation.
+- Invariants: preserve the top RF parallel workflow with `DATA`, `DT 1`,
+  `DT 2`, `DT 3`, `1/n Σ pᵢ`, `PREDICTION`; the bottom boosting sequential
+  workflow with `ERRORS OF MODEL 1/2/3`, `MODEL 1/2/3/4`, `PRED 1/2/3/4`;
+  labels `RF`, `PARALLEL`, `BOOSTING`, `SEQUENTIAL`; and `FINAL PREDICTION`.
+- Path: imagegen skill was available and read completely; built-in imagegen
+  edit used the inspected crop. Final sibling
+  `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest-imagegen.png`;
+  original JPG preserved.
+- Prompt/iteration: one structured `scientific-educational` generation with
+  exact labels, arrow directions, average formula, stage count, and negative
+  constraints. The accepted result removes handwriting texture and uses crisp
+  boxed workflows without people or UI overlays.
+- QA: final `1494x1054` PNG inspected visually; parallel versus sequential
+  relationships, all stages, formula, and labels are complete and readable.
+  No face, camera tile, browser/Zoom chrome, cursor, watermark, or unrelated
+  overlay remains. Markdown reference resolves and `git diff --check` passes
+  before commit.
+
 ## 06 — random forest, screenshot 05
 
 - Source: `cohorts/2026/06-trees/images/06-random-forest-05-tuning-min-samples-leaf.jpg`.
