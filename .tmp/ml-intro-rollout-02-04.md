@@ -18,6 +18,20 @@ remain in place; accepted replacements are sibling assets.
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
 
+## 04-crisp-dm
+
+### 04-crisp-dm-01-ml-projects.jpg
+
+- Disposition: `imagegen`; this introductory four-step list is a bounded
+  conceptual slide.
+- Invariant: title `ML Projects`; bullets in order: `Understand the problem`,
+  `Collect the data`, `Train the model`, `Use it`.
+- Crop: `505x300+0+30` from the 598x360 source.
+- Output: `04-crisp-dm-01-ml-projects-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; title and all four
+  bullets/order checked; face, webcam, browser/Zoom chrome, cursor, watermark,
+  toolbar, and recording overlays absent.
+
 ### 03-supervised-ml-06-ranking.jpg
 
 - Disposition: `imagegen`; the original ecommerce strip is illustrative, not

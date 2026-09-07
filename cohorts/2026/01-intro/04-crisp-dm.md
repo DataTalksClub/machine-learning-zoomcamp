@@ -9,7 +9,7 @@ In this lesson we step back from the machine learning itself and look at the big
 
 For a machine learning project we need to understand the problem, collect the data, train the model and use it. Methodologies like CRISP-DM help us organize these steps in a way that is manageable, so we know what needs to happen and in which order.
 
-![The high-level steps of an ML project](images/04-crisp-dm-01-ml-projects.jpg)
+![The high-level steps of an ML project](images/04-crisp-dm-01-ml-projects-imagegen-pilot.png)
 
 To remind you the spam detection system from the previous lessons: we get an email, extract features from it, put them into the model, and the model gives a score to each email. If the score is higher than 50%, the email goes to the spam folder; otherwise it goes to the inbox. We will map this project to the methodology.
 
