@@ -106,3 +106,9 @@ use the built-in imagegen workflow after source inspection.
   encoding, prediction, threshold, comparison, and exact
   `0.815471965933286` accuracy while removing the camera tile and notebook
   frame.
+
+- `12-using-log-reg-03-score-one-customer.jpg` →
+  `12-using-log-reg-03-score-one-customer-cropped.png` — deterministic crop
+  `(15,82,583,250)`, 2× Lanczos resize and light unsharp; preserved the exact
+  customer dictionary and all feature values while removing the camera tile,
+  notebook frame, and recording chrome.

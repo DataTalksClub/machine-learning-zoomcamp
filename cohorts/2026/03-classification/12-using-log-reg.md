@@ -94,7 +94,7 @@ customer
  'totalcharges': 1743.5}
 ```
 
-![Using the model in production: a customer with their features goes into the model, which outputs a prediction](images/12-using-log-reg-03-score-one-customer.jpg)
+![Using the model in production: a customer with their features goes into the model, which outputs a prediction](images/12-using-log-reg-03-score-one-customer-cropped.png)
 
 The vectorizer expects a list of dictionaries, so we wrap the customer
 in a list. `transform` - not `fit_transform`, because the vectorizer is
