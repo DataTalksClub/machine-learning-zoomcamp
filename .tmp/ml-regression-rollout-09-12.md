@@ -226,6 +226,16 @@ outputs, and UI are handled deterministically.
 - Invariants/QA: preserve `df.make.value_counts().head().index`, `chevrolet 1123`, `ford 881`, `volkswagen 809`, `toyota 746`, `dodge 626`, and `Name: make, dtype: int64`. Final `1066x230` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
 - Final: `cohorts/2026/02-regression/images/12-categorical-variables-05-top-makes-cropped.png`.
 
+### Screenshot 06 — categories dictionary
+
+- Source: `cohorts/2026/02-regression/images/12-categorical-variables-06-categories-dict.jpg`.
+- Caption/context: “The categories dictionary with the most popular values of each categorical variable”; the section collects the top five values for each selected categorical column.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused cells show the selected variable list, dictionary initialization, and value-count loop together.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x135+26+143`, then 2× Lanczos resize and light unsharp masking. This retains the complete variable list and dictionary-building loop while removing browser/Zoom chrome, webcam tile, preceding dtype output, following partial cell, and recording frame.
+- Invariants/QA: preserve all seven categorical variable names, `categories = {}`, `for c in categorical_variables`, and `list(df[c].value_counts().head().index)`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-06-categories-dict-cropped.png`.
+
 ### Screenshot 02 — one-hot encoding diagram
 
 - Source: `cohorts/2026/02-regression/images/12-categorical-variables-02-encoding-diagram.jpg`.

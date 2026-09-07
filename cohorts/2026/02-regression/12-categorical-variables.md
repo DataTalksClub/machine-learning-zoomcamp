@@ -167,7 +167,7 @@ for c in categorical_variables:
     categories[c] = list(df_train[c].value_counts().head().index)
 ```
 
-![The categories dictionary with the most popular values of each categorical variable](images/12-categorical-variables-06-categories-dict.jpg)
+![The categories dictionary with the most popular values of each categorical variable](images/12-categorical-variables-06-categories-dict-cropped.png)
 
 Then we take `prepare_X` and throw in all the categories. We need two loops: one
 over the key-value pairs of the dictionary, and inside it another loop over the
