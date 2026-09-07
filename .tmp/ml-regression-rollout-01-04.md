@@ -242,3 +242,12 @@
 - Invariants: preserve the exact `len(df_train), len(df_val), len(df_test)` output `(7150, 2382, 2382)`, all three `reset_index(drop=True)` assignments, the zero-based first rows, visible headers and values, row order, and the original bottom-edge truncation.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-06-reset-index-cropped.jpg`.
 - QA: source and final inspected with `view_image` in lesson context; exact code, labels, values, row order, table relationships, and source truncation preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x298`; lesson reference resolves.
+
+## 28 — create y and delete msrp
+
+- Disposition: `keep` via deterministic crop/export; the image teaches extracting the log-transformed `msrp` values into the three target arrays and deleting `msrp` from each feature dataframe.
+- Source/context: `cohorts/2026/02-regression/images/04-validation-framework-07-y-target-and-delete-msrp.jpg`; caption: “Creating y with log1p and deleting msrp from the dataframes”; context: the lesson explains why `y` uses `.values`, why `log1p` is required for the long-tailed target, and why `msrp` must be removed to prevent leakage.
+- Crop coordinates: source `598x360`; `577x181+0+78` (`x=0, y=78, width=577, height=181`). The crop removes the browser/notebook toolbar, webcam tile, preceding output fragment, following linear-regression heading and blank prompt, and right black bar while retaining the reset, target-extraction, and deletion cells.
+- Invariants: preserve the exact three `reset_index(drop=True)` assignments, the three `np.log1p(...msrp.values)` assignments for `y_train`, `y_val`, and `y_test`, all three `del df_*['msrp']` statements, their order, and notebook cell styling.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/04-validation-framework-07-y-target-and-delete-msrp-cropped.jpg`.
+- QA: source and final inspected with `view_image` in lesson context; exact code, labels, ordering, and target-removal relationship preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x181`; lesson reference resolves.

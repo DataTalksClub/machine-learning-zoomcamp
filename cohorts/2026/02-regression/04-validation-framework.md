@@ -197,7 +197,7 @@ This happened to me many times, so after splitting the data I always take the
 target out into a separate variable and delete it from the dataframe
 completely.
 
-![Creating y with log1p and deleting msrp from the dataframes](images/04-validation-framework-07-y-target-and-delete-msrp.jpg)
+![Creating y with log1p and deleting msrp from the dataframes](images/04-validation-framework-07-y-target-and-delete-msrp-cropped.jpg)
 
 That is the whole validation framework. We implemented it manually, without any
 library - just plain pandas and NumPy. We saw how to split the dataset into
