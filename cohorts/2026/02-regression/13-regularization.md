@@ -134,7 +134,7 @@ matrix, the diagonal increases by one:
 XTX + np.eye(3)
 ```
 
-![Adding the identity matrix puts ones on the diagonal](images/13-regularization-06-eye-diagonal.jpg)
+![Adding the identity matrix puts ones on the diagonal](images/13-regularization-06-eye-diagonal-cropped.png)
 
 To add only a small number, we multiply the identity matrix by that number first:
 
