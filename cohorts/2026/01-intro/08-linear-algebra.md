@@ -98,7 +98,7 @@ Let's test it:
 
 It returns 14, like we calculated by hand.
 
-![The vector-vector multiplication implementation and its test](images/08-linear-algebra-03-vector-vector-implementation.jpg)
+![The vector-vector multiplication implementation and its test](images/08-linear-algebra-03-vector-vector-implementation-cropped.png)
 
 Of course, in NumPy there is already a function that does this - `dot`:
 

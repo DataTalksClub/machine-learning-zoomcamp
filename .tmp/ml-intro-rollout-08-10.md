@@ -24,3 +24,12 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: title `Vector-vector multiplication (dot product)`; vectors `u = [2, 4, 5, 6]` and `v = [1, 0, 0, 2]`; element-wise products `2·1`, `4·0`, `5·0`, `6·2`; sum relationship and arrows
 - Output: `cohorts/2026/01-intro/images/08-linear-algebra-02-dot-product-cropped.png`
 - Validation: accepted after visual inspection; diagram labels and values are unchanged; face, camera tile, browser chrome, and cursor are absent.
+
+### 03 — vector-vector implementation
+
+- Source: `cohorts/2026/01-intro/images/08-linear-algebra-03-vector-vector-implementation.jpg`
+- Disposition: deterministic crop and 2x Lanczos raster conversion
+- Crop: `560x213+15+100`
+- Invariants: `def vector_vector_multiplication(u, v)`; shape assertion; loop `for i in range(n)`; accumulation `result = result + u[i] * v[i]`; return value; call and output `14.0`
+- Output: `cohorts/2026/01-intro/images/08-linear-algebra-03-vector-vector-implementation-cropped.png`
+- Validation: accepted after visual inspection; code and output remain exact; face, camera tile, browser chrome, and recording controls are absent.
