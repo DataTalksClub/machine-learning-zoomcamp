@@ -54,7 +54,7 @@ if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
 ```
 
-![The predict.py service in the editor](images/04-flask-deployment-02-predict-py.jpg)
+![The predict.py service in the editor](images/04-flask-deployment-02-predict-py-cropped.jpg)
 
 The parts worth noting:
 
