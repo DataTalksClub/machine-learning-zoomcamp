@@ -249,3 +249,13 @@
 - Path: deterministic output-table crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-04-fillna-zero-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact table values are source of truth. A crop including the input cursor required masking over code; the accepted output-only crop removes that cursor without touching any table value.
 - QA: final `1040x320` PNG inspected visually; headers and every visible value are crisp with no face, camera tile, browser/Zoom chrome, cursor, selected-cell border, watermark, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 08 — baseline model, screenshot 05
+
+- Source: `cohorts/2026/02-regression/images/08-baseline-model-05-missing-feature-ignored.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; the exact formula and missing-feature annotation are source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `450x300+50+20` (`x=50, y=20, width=450, height=300`). This removes the recording marker, presenter webcam tile, right black bar, and bottom controls while preserving both equation lines and the `missing` annotation.
+- Invariants: preserve `g(x_i) = w_0 + x_{i1}·w_1 + x_{i2}·w_2`, the crossed/zeroed missing `x_{i1}` term, the `missing` label, and `= w_0 + x_{i2}·w_2`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/08-baseline-model-05-missing-feature-ignored-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact formula symbols and annotation are source of truth; one crop was accepted after visual inspection.
+- QA: final `900x600` PNG inspected visually; both equations and the missing-feature explanation are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
