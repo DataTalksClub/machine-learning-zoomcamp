@@ -25,7 +25,7 @@ So: create a resource called `predict`. We don't need to configure
 anything else - in particular, we don't need to make it a proxy
 resource.
 
-![Creating the predict resource](images/07-api-gateway-02-create-resource.jpg)
+![Creating the predict resource](images/07-api-gateway-02-create-resource-cropped.png)
 
 ## Adding a POST method
 
