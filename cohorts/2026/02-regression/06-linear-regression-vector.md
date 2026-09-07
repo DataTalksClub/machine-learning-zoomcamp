@@ -15,7 +15,7 @@ that produces predictions for all the cars in the dataset at once.
 Remember where we are. g is our model - linear regression, X is the feature
 matrix (the training data) and y is the target, the price:
 
-![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y.jpg)
+![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y-cropped.png)
 
 Let's again write the formula for a single car first. We have the bias term and
 then a sum that goes from 1 to n, where we multiply each feature with its

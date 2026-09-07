@@ -69,3 +69,13 @@
 - Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/05-linear-regression-simple-07-prediction-undo-log-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact notebook content and numeric outputs must not be guessed. A first crop retained a clipped `return pred` fragment and an empty cell; the accepted crop starts at `y=70` and ends at `y=270`.
 - QA: final `960x400` PNG inspected visually; all commands, values, and outputs remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, clipped source fragment, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 06 — vector form, screenshot 01
+
+- Source: `cohorts/2026/02-regression/images/06-linear-regression-vector-01-g-x-approx-y.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; this bounded chalkboard diagram contains the exact lesson notation and labels, so the source pixels were retained rather than guessed with imagegen.
+- Crop coordinates: source `598x360`; `415x340+90+0` (`x=90, y=0, width=415, height=340`). This removes the recording marker, presenter webcam tile, right black bar, bottom controls, and the cursor in the blank left margin.
+- Invariants: preserve `g(X) ≈ y`, the arrows and labels `model`, `feature matrix (TRAIN)`, `target`, `PRICE`, and `LINEAR REGRESSION`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/06-linear-regression-vector-01-g-x-approx-y-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because the equation, labels, and arrow relationships are exact instructional content. Two crop adjustments removed the cursor while keeping `LINEAR REGRESSION` uncropped.
+- QA: final `830x680` PNG inspected visually; formula, labels, arrows, and relationships remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.
