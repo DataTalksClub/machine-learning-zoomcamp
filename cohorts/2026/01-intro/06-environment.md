@@ -169,7 +169,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
    
 5. In the notebook opened in Kaggle, add a Code block with the command to download the file - !wget your-datafile-url 
 
-   ![See this example](images/add-code-for-datafile-download.png)
+   ![See this example](images/add-code-for-datafile-download-cropped.png)
    
 This way you can start with the exercise using Kaggle
 

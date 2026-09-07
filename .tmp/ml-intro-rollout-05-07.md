@@ -103,6 +103,15 @@
 - Invariants: `mlbookcamp-code / chapter-02-car-price`; `02-carprice.ipynb`; context menu; `Copy link address`; red instructional highlight
 - Validation: passed visual review; exact UI text and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border
 
+### 10 — add-code-for-datafile-download
+
+- Source: `cohorts/2026/01-intro/images/add-code-for-datafile-download.png` (1299×564 PNG)
+- Disposition: accepted deterministic sibling `add-code-for-datafile-download-cropped.png`
+- Crop: `1200×440+70+90` (trims outer notebook chrome while retaining the exact import cell, `wget` URL, `pd.read_csv('data.csv')`, output, and red instructional highlight)
+- Path: deterministic lossless PNG crop; imagegen not used because exact Python, shell command, URL, output, and annotation are the source of truth
+- Invariants: `!wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv`; `df = pd.read_csv('data.csv')`; `len(df)` output `11914`; red highlight
+- Validation: passed visual review; exact code, URL, output, and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border
+
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.png` (1299×550 PNG)
