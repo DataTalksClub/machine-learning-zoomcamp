@@ -65,7 +65,7 @@ All the code for this project is available on GitHub, in the
 this is the repository for the Machine Learning Bookcamp book. We need the
 chapter-02-car-price folder.
 
-![The mlbookcamp-code repository with chapter-02-car-price](images/01-car-price-intro-06-github-repo.jpg)
+![The mlbookcamp-code repository with chapter-02-car-price](images/01-car-price-intro-06-github-repo-cropped.jpg)
 
 The folder has two files. The first one is the notebook with all the code —
 it contains everything we will do in this session. The second one is

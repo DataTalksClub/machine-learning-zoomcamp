@@ -44,3 +44,12 @@
 - Invariants: preserve the exact title “Project plan” and all seven bullets: EDA, linear regression, internals of linear regression, RMSE evaluation, feature engineering, regularization, and using the model.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-05-project-plan-cropped.jpg`.
 - QA: source and candidate crop inspected visually; exact slide text and ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `485x317`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 06 — GitHub repository
+
+- Disposition: `crop/replace` via deterministic crop/export; the image teaches where the `chapter-02-car-price` project directory lives in the `mlbookcamp-code` repository.
+- Source/context: `cohorts/2026/02-regression/images/01-car-price-intro-06-github-repo.jpg`; caption: “The mlbookcamp-code repository with chapter-02-car-price”.
+- Crop coordinates: source `598x360`; `530x283+47+57` (`x=47, y=57, width=530, height=283`). The crop removes the watermark, top recording/webcam area, captured avatar/commit strip, left recording controls, right black bar, and bottom recording strip.
+- Invariants: preserve the GitHub repository file list, the first `chapter-02-car-price` folder row, neighboring chapter folders, commit messages, timestamps, and the repository’s exact folder/file labels.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/01-car-price-intro-06-github-repo-cropped.jpg`.
+- QA: source and candidate crop inspected visually; exact GitHub UI labels and folder ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `530x283`; lesson reference resolves; `git diff --check` passes before commit.
