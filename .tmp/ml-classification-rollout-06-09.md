@@ -62,3 +62,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact `to_dict(orient='records')` output retained.
   - Crop: `480x175+25+70`; removes notebook chrome, the camera tile, and the following lesson heading.
   - Invariants: dictionary keys, row order, and displayed values checked against the source; the long input line remains source-edge truncated after `records` because the original frame clipped it at the camera boundary.
+
+- `08-ohe-03-dictvectorizer-fit.jpg` →
+  `08-ohe-03-dictvectorizer-fit-cropped.png`
+  - Disposition: deterministic crop; exact DictVectorizer calls and shape `(4225, 45)` retained.
+  - Crop: `480x225+25+35`; removes notebook/recording chrome and camera tile.
+  - Invariants: import, fit/transform sequence, and displayed shape checked; long source lines remain clipped at the original frame edge rather than being guessed or regenerated.

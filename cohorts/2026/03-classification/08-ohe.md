@@ -102,7 +102,7 @@ because most of the matrix is zeros. Sparse matrices are more memory
 efficient, but for this dataset it is simpler to work with a dense
 array.
 
-![Fitting DictVectorizer on the training dictionaries: fit learns the categories, transform produces the matrix, and the result has shape (4225, 45)](images/08-ohe-03-dictvectorizer-fit.jpg)
+![Fitting DictVectorizer on the training dictionaries: fit learns the categories, transform produces the matrix, and the result has shape (4225, 45)](images/08-ohe-03-dictvectorizer-fit-cropped.png)
 
 To see what columns the vectorizer created, use
 `dv.get_feature_names_out()`. For the full dataset we get 45 names:
