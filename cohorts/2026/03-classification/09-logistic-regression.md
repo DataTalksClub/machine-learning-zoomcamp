@@ -95,7 +95,7 @@ z = np.linspace(-7, 7, 51)
 plt.plot(z, sigmoid(z))
 ```
 
-![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot.jpg)
+![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot-cropped.png)
 
 The curve has an S shape: scores below roughly -5 give a probability
 close to 0, scores above roughly 5 give a probability close to 1, and

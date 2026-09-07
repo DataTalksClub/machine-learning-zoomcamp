@@ -97,3 +97,9 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   `09-logistic-regression-03-sigmoid-formula-clean.png`
   - Disposition: deterministic vector redraw; exact sigmoid formula and curve retained.
   - Invariants: `Sigmoid(z) = 1 / (1 + exp(-z))`, score sign, 0.5 at `z = 0`, and asymptotes toward 0/1 checked; no face or recording chrome.
+
+- `09-logistic-regression-04-sigmoid-plot.jpg` →
+  `09-logistic-regression-04-sigmoid-plot-cropped.png`
+  - Disposition: deterministic lossless PNG conversion with a two-pixel edge trim; exact native plot retained.
+  - Crop: `370x245+0+0`; no face, camera, browser, or recording overlay was present.
+  - Invariants: axes, tick values, and sigmoid curve checked against the source.
