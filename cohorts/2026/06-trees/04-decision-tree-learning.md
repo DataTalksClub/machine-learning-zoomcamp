@@ -190,7 +190,7 @@ For regression trees the equivalent is MSE. The idea stays the same:
 pick the split with the lowest impurity. And while we looked at
 classification here, decision trees can also solve regression problems.
 
-![Impurity criteria in the scikit-learn documentation](images/04-decision-tree-learning-07-impurity-criteria.jpg)
+![Impurity criteria in the scikit-learn documentation](images/04-decision-tree-learning-07-impurity-criteria-cropped.png)
 
 ## Stopping criteria
 

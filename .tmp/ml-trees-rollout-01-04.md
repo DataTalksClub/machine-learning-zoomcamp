@@ -136,3 +136,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   crop `(x=25, y=0, width=455, height=330)` retained the exact handwritten
   split-finding pseudocode while removing the camera tile, recording gauge,
   and bottom-left controls.
+- `04-decision-tree-learning-07-impurity-criteria.jpg` →
+  `04-decision-tree-learning-07-impurity-criteria-cropped.png`: deterministic
+  crop `(x=0, y=0, width=500, height=360)` retained the exact scikit-learn
+  documentation page, formulas, and sidebar while removing the webcam tile at
+  the right edge.
