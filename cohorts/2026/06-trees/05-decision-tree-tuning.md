@@ -84,7 +84,7 @@ for depth in [4, 5, 6]:
         scores.append((depth, s, auc))
 ```
 
-![Trying all combinations of max_depth and min_samples_leaf](images/05-decision-tree-tuning-03-grid-search.jpg)
+![Trying all combinations of max_depth and min_samples_leaf](images/05-decision-tree-tuning-03-grid-search-cropped.png)
 
 Then we put the scores into a dataframe:
 

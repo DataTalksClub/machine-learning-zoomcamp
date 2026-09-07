@@ -52,3 +52,26 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay,
   or black bar. Markdown reference resolves and `git diff --check` passes
   before commit.
+
+## 05 — decision tree parameter tuning, screenshot 03
+
+- Source: `cohorts/2026/06-trees/images/05-decision-tree-tuning-03-grid-search.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; this is an exact
+  dataframe preview with numeric AUC values, so imagegen was not used.
+- Crop coordinates: source `598x360`; `260x120+125+220` (`x=125, y=220,
+  width=260, height=120`). This isolates the dataframe header and first five
+  rows, removing the notebook code cell, presenter webcam tile, frame chrome,
+  and cell borders.
+- Invariants: preserve dataframe columns `0`, `1`, `2`; rows `(4, 1,
+  0.761283)`, `(4, 2, 0.761283)`, `(4, 5, 0.761283)`, `(4, 10,
+  0.761283)`, and `(4, 15, 0.763726)` exactly.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/05-decision-tree-tuning-03-grid-search-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  numeric dataframe content is fidelity-sensitive. The tighter second crop was
+  accepted after rejecting a candidate with a clipped notebook border.
+- QA: final `520x240` PNG inspected visually; all visible headers, indices, and
+  values remain crisp, with no face, camera tile, browser/Zoom chrome, cursor,
+  watermark, overlay, or border artifact. Markdown reference resolves and
+  `git diff --check` passes before commit.
