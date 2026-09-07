@@ -48,7 +48,7 @@ and predicts the category.
 To train this model we use the clothing dataset. It has over 5000
 images of 20 different classes.
 
-![The clothing dataset on GitHub: over 5,000 images of 20 different classes](images/01-fashion-classification-03-clothing-dataset.jpg)
+![The clothing dataset on GitHub: over 5,000 images of 20 different classes](images/01-fashion-classification-03-clothing-dataset-cropped.png)
 
 We will not use all 20 classes. There is a smaller dataset, a subset
 with the 10 most popular classes. This subset is already split into
