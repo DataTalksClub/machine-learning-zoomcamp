@@ -52,7 +52,7 @@ if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
 ```
 
-![The ping.py service in the editor](images/03-flask-intro-03-ping-app.jpg)
+![The ping.py service in the editor](images/03-flask-intro-03-ping-app-cropped.jpg)
 
 Line by line:
 
