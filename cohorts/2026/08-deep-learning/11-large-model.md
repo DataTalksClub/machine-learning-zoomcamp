@@ -165,7 +165,7 @@ epoch, so it memorizes them less easily.
 The best checkpoint of this run is `xception_v4_1_13_0.903.h5` -
 0.903 validation accuracy at epoch 13:
 
-![The saved checkpoints: the best one is xception_v4_1_13_0.903.h5](images/11-large-model-06-checkpoint-files.jpg)
+![The saved checkpoints: the best one is xception_v4_1_13_0.903.h5](images/11-large-model-06-checkpoint-files-cropped.png)
 
 In all the experiments before,
 80% was the best we could squeeze out of the 150x150 models; the
