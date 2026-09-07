@@ -32,7 +32,7 @@ We go through this list, and for every `r` we train the model and compute the
 RMSE on the validation data. For each value we print the regularization
 parameter itself, the bias term, and the score:
 
-![The loop over r values and the RMSE printed for each of them](images/14-tuning-model-01-r-values-loop.jpg)
+![The loop over r values and the RMSE printed for each of them](images/14-tuning-model-01-r-values-loop-cropped.png)
 
 ## Reading the results
 
