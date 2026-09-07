@@ -17,7 +17,7 @@ When we evaluate the model in July, we want to mimic this way of using it: we wa
 
 Of course, we cannot go into the future and take the August data. But we can do something close enough: take our dataset, put aside a small part of it - say 20% - and pretend this part doesn't exist. We train on the remaining 80% only. The held-out part plays the role of the August data; we call it the validation set.
 
-![Train data is used to fit g; the validation set is used to check it](images/05-model-selection-01-train-validation.jpg)
+![Train data is used to fit g; the validation set is used to check it](images/05-model-selection-01-train-validation-imagegen-pilot.png)
 
 From the training set we extract the feature matrix X and the target y, and we train the model g using only these. From the validation set we extract another matrix, Xv, and its target yv - the model has never seen them during training.
 
