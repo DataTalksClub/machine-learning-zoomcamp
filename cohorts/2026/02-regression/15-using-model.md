@@ -33,7 +33,7 @@ concatenate. It takes a list of dataframes and concatenates them together:
 df_full_train = pd.concat([df_train, df_val])
 ```
 
-![Section 2.15 "Using the model": the pd.concat cell combining df_train and df_val into df_full_train](images/15-using-model-01-full-train-concat.jpg)
+![Section 2.15 "Using the model": the pd.concat cell combining df_train and df_val into df_full_train](images/15-using-model-01-full-train-concat-cropped.png)
 
 If we look at the result, we see that even though there are around 9500 rows
 now, the index still contains the values from the validation dataframe. We can
