@@ -151,7 +151,7 @@ Click "Test". It fails:
 Task timed out after 3.00 seconds
 ```
 
-![The execution result: Task timed out after 3.00 seconds](images/06-creating-lambda-04-timeout-error.jpg)
+![The execution result: Task timed out after 3.00 seconds](images/06-creating-lambda-04-timeout-error-cropped.png)
 
 Three seconds is the default timeout, and it's not sufficient for us.
 To change it, go to "Configuration", then "General configuration", and
