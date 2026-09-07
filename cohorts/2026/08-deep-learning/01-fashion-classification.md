@@ -31,7 +31,7 @@ The use case: an online classifieds website, the kind of website where
 people sell things. A user wants to sell a t-shirt, so they create a
 listing in the fashion category and upload a picture of it.
 
-![A user uploads a picture of a t-shirt to the website](images/01-fashion-classification-02-upload-service.jpg)
+![A user uploads a picture of a t-shirt to the website](images/01-fashion-classification-02-upload-service-imagegen.png)
 
 On the backend we have a fashion classification service. It takes the
 picture and replies with a suggested category - in this case
