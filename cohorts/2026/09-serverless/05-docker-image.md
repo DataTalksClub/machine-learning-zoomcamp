@@ -140,7 +140,7 @@ different Python and TensorFlow versions, but you can simply take a
 ready wheel: we use Python 3.8 and TensorFlow 2.7.0, so we take the
 matching one:
 
-![The tflite folder of the tflite-aws-lambda repository with precompiled wheels; the 2.7.0-cp38 wheel is highlighted](images/05-docker-image-05-tflite-wheels.jpg)
+![The tflite folder of the tflite-aws-lambda repository with precompiled wheels; the 2.7.0-cp38 wheel is highlighted](images/05-docker-image-05-tflite-wheels-cropped.png)
 
 With `pip install` you can pass a URL to a wheel file instead of a
 package name, and pip downloads and installs it. So we replace the

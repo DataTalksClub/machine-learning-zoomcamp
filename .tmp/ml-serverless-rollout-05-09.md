@@ -44,3 +44,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×526 with light sharpening; exact error text and visible Dockerfile lines were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; the `GLIBC_2.27` failure and `python test.py` invocation remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The top Dockerfile line is partially clipped by the focused crop.
+
+## 05-docker-image-05-tflite-wheels.jpg
+
+- **Disposition:** `crop/replace` → `images/05-docker-image-05-tflite-wheels-cropped.png`
+- **Teaching point:** the repository provides precompiled TF-Lite runtime wheels, including the Python 3.8 / TF-Lite 2.7.0 wheel needed by the image.
+- **Source inspection:** 592×360; crop `+0+52 550×265` removes browser chrome, webcam tile, footer, and black frame while retaining the wheel list and highlighted `cp38` file.
+- **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact filenames and version labels were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the highlighted `tflite_runtime-2.7.0-cp38-cp38-linux_x86_64.whl` row remains readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The first visible row is partially clipped by the focused crop.
