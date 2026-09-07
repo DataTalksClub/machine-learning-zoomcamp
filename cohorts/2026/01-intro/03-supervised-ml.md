@@ -85,7 +85,7 @@ The goal is to come up with a function g such that when we apply it to the featu
 
 Depending on the type of the target variable, we get regression, classification - which can be multiclass or binary - and ranking.
 
-![Summary: g(X) approximates y, and y can be a number, a category, or a ranking](images/03-supervised-ml-07-summary.jpg)
+![Summary: g(X) approximates y, and y can be a number, a category, or a ranking](images/03-supervised-ml-07-summary-imagegen-pilot.png)
 
 In this course we focus mostly on classification, but the next lesson is about regression. Binary classification is probably the most widely used type of supervised machine learning - you will definitely encounter a problem that can be solved as binary classification.
 

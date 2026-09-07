@@ -32,6 +32,19 @@ remain in place; accepted replacements are sibling assets.
   Face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
   recording overlays are absent.
 
+### 03-supervised-ml-07-summary.jpg
+
+- Disposition: `imagegen`; the source is a conceptual handwritten summary,
+  not an exact code, plot, or UI asset.
+- Invariant: exact formula `g(X) ≈ y`; y branches to `number`/regression,
+  `category`/classification, and `ranking`/ranking-recommenders.
+- Crop: `550x300+20+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `03-supervised-ml-07-summary-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; formula, three output
+  types, and branch relationships checked; face, webcam, browser/Zoom
+  chrome, cursor, watermark, toolbar, and recording overlays absent.
+
 ### 02-ml-vs-rules-07-rule-based-summary.jpg
 
 - Disposition: `imagegen`; this bounded diagram summarizes how data and code
