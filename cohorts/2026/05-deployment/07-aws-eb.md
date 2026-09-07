@@ -78,7 +78,7 @@ prediction requests - update the host in the test script to use it. No port
 number is needed: EB accepts requests on the standard HTTP port and routes
 them to the container.
 
-![The test script now points to the Elastic Beanstalk environment URL](images/07-aws-eb-06-eb-url-test.jpg)
+![The test script now points to the Elastic Beanstalk environment URL](images/07-aws-eb-06-eb-url-test-cropped.png)
 
 Two things to keep in mind. The environment URL is public - anyone who finds
 it can call our service, so a real production deployment needs authentication
