@@ -72,7 +72,7 @@ The parts worth noting:
   cannot serialize them.
 - `jsonify(result)` turns the dictionary into a JSON response.
 
-![Flask cannot serialize NumPy types to JSON, so we cast to native Python types](images/04-flask-deployment-03-json-serializable-error.jpg)
+![Flask cannot serialize NumPy types to JSON, so we cast to native Python types](images/04-flask-deployment-03-json-serializable-error-cropped.jpg)
 
 ## Testing the service
 
