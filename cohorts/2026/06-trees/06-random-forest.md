@@ -23,7 +23,7 @@ application and decides: approve or reject. The final decision is made by
 majority vote. The idea is that the collective opinion of five experts is
 more reliable than the opinion of one.
 
-![Random forest: each expert sees a random subset of features, gives a probability of default, and the final prediction is the average of all probabilities](images/06-random-forest-01-board-of-experts.jpg)
+![Random forest: each expert sees a random subset of features, gives a probability of default, and the final prediction is the average of all probabilities](images/06-random-forest-01-board-of-experts-imagegen.png)
 
 We can do the same with models. Instead of five people, we have five models
 - g1, g2 and so on - and each of them returns its probability of default.

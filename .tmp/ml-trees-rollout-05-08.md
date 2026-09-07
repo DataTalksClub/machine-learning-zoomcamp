@@ -171,3 +171,28 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   legend remain crisp, with no face, camera tile, browser/Zoom chrome, cursor,
   watermark, output-text fragment, or black bar. Markdown reference resolves
   and `git diff --check` passes before commit.
+
+## 06 — random forest, screenshot 01
+
+- Source: `cohorts/2026/06-trees/images/06-random-forest-01-board-of-experts.jpg`.
+- Disposition: `replace` via built-in imagegen; this is a bounded conceptual
+  ensemble diagram, not an exact code, UI, plot, or numeric-result source.
+- Crop coordinates: source `1024x724`; deterministic preparation crop
+  `980x690+22+16` (`x=22, y=16, width=980, height=690`) removed only the
+  outer board edge before generation.
+- Invariants: preserve the top-to-bottom flow, arrows, `YES/NO`, `PROB OF
+  DEFAULT`, the random-subset explanation, the five model outputs, the
+  probabilities `0.6`, `0.7`, `0.3`, `0.7`, `0.65`, and the average formula
+  `1/n Σ pᵢ`; no extra model or metric may be introduced.
+- Path: imagegen skill was available and read completely; built-in imagegen
+  edit used the inspected crop as the reference. Final sibling
+  `cohorts/2026/06-trees/images/06-random-forest-01-board-of-experts-imagegen.png`;
+  original JPG preserved.
+- Prompt/iteration: one structured `scientific-educational` generation with
+  exact labels, values, relationships, and negative constraints. The accepted
+  result replaces handwriting with crisp vector-like geometry and uses simple
+  non-human model icons rather than faces.
+- QA: final `1496x1052` PNG inspected visually; all required labels, five
+  probabilities, arrows, and average formula are readable. No face, camera
+  tile, browser/Zoom chrome, cursor, watermark, or unrelated overlay remains.
+  Markdown reference resolves and `git diff --check` passes before commit.
