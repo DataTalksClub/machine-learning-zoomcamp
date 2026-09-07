@@ -124,7 +124,7 @@ slower. In this experiment we don't add checkpointing - though it
 would have been useful here to keep the best model instead of the
 last one.
 
-![The tuning loop: training models with dropout rates 0.0, 0.2, 0.5 and 0.8 for 30 epochs](images/09-dropout-05-tuning-dropout.jpg)
+![The tuning loop: training models with dropout rates 0.0, 0.2, 0.5 and 0.8 for 30 epochs](images/09-dropout-05-tuning-dropout-cropped.png)
 
 Looking at the results: without dropout, training accuracy quickly
 goes to 100% and stays there, while the validation accuracy stays
