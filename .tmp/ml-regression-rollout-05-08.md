@@ -159,3 +159,13 @@
 - Path: deterministic crop/composite with matching board-color cleanup followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-02-gram-matrix-cropped.png`; original JPG preserved.
 - Iteration/capability: imagegen was not used because exact formula symbols and dimensions must not be guessed. A broad crop retained partially clipped crossed-out material and a cursor; the accepted focused/composed crop removes them and restores a clean equation/label presentation.
 - QA: final `720x610` PNG inspected visually; equation and dimensions are crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, crossed-out clutter, or black border. Markdown reference resolves and `git diff --check` passes before commit.
+
+## 07 — normal equation, screenshot 03
+
+- Source: `cohorts/2026/02-regression/images/07-linear-regression-training-03-normal-equation.jpg`.
+- Disposition: `crop/replace` via deterministic native raster export; exact normal-equation notation is source of truth, so imagegen was not used.
+- Crop coordinates: source `598x360`; `465x280+35+20` (`x=35, y=20, width=465, height=280`). This removes the recording marker, presenter webcam tile, right black bar, left frame edge, and bottom controls while preserving the main equation and `Iw = w` identity line.
+- Invariants: preserve `w = (XᵀX)⁻¹Xᵀy`, the underlined `w`, and the identity simplification `Iw = w`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp masking; final sibling `cohorts/2026/02-regression/images/07-linear-regression-training-03-normal-equation-cropped.png`; original JPG preserved.
+- Iteration/capability: imagegen was not used because exact formula symbols are the source of truth; one crop was accepted after visual inspection.
+- QA: final `930x560` PNG inspected visually; equation and identity remain crisp with no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black border. Markdown reference resolves and `git diff --check` passes before commit.

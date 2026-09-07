@@ -76,7 +76,7 @@ w = (XᵀX)⁻¹Xᵀy
 
 This is the normal equation:
 
-![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation.jpg)
+![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation-cropped.png)
 
 This `w` is not the solution to the original system - that solution
 doesn't exist - but it is the closest possible solution. There are
