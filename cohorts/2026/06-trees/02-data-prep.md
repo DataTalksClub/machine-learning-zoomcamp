@@ -236,7 +236,7 @@ y_val = (df_val.status == 'default').astype('int').values
 y_test = (df_test.status == 'default').astype('int').values
 ```
 
-![Turning the status column into a binary target](images/02-data-prep-07-binary-target.jpg)
+![Turning the status column into a binary target](images/02-data-prep-07-binary-target-cropped.png)
 
 Finally, we delete `status` from the dataframes - otherwise we would
 use the target as a feature, and the model would learn to cheat:

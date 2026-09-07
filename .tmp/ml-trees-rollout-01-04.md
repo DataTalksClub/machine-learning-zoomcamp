@@ -58,3 +58,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `02-data-prep-06-train-val-test-split-cropped.png`: deterministic crop
   `(x=0, y=65, width=576, height=285)` retained the exact two-step
   `train_test_split` and index-reset code; browser/camera chrome was removed.
+- `02-data-prep-07-binary-target.jpg` →
+  `02-data-prep-07-binary-target-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact binary-target
+  expressions and array output; browser/camera chrome was removed.
