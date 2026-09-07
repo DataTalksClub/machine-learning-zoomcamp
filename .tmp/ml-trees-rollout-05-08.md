@@ -75,3 +75,26 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   values remain crisp, with no face, camera tile, browser/Zoom chrome, cursor,
   watermark, overlay, or border artifact. Markdown reference resolves and
   `git diff --check` passes before commit.
+
+## 05 — decision tree parameter tuning, screenshot 04
+
+- Source: `cohorts/2026/06-trees/images/05-decision-tree-tuning-04-pivot.jpg`.
+- Disposition: `crop/replace` via deterministic raster export; the pivot table
+  and highlighted best AUC are exact numeric content, so imagegen was not used.
+- Crop coordinates: source `598x360`; `350x235+125+75` (`x=125, y=75,
+  width=350, height=235`). This focuses on the complete pivot table and blue
+  highlight, removing the notebook chrome, presenter webcam tile, lower lesson
+  heading, and recording frame.
+- Invariants: preserve headers `max_depth`, `min_samples_leaf`, `auc`, depth
+  columns `4`, `5`, `6`, all visible leaf-size rows `1`, `2`, `5`, `10`, `15`,
+  `20`, `100`, `200`, `500`, every AUC value, and the highlighted `0.785695`.
+- Path: deterministic crop followed by 2x Lanczos export with light unsharp
+  masking; final sibling `cohorts/2026/06-trees/images/05-decision-tree-tuning-04-pivot-cropped.png`;
+  original JPG preserved.
+- Iteration/capability: imagegen skill was available and read completely, but
+  changing a numeric pivot table would be unsafe. A tighter crop was accepted
+  after removing the stray output-label fragment from the first candidate.
+- QA: final `700x470` PNG inspected visually; the complete table and winner are
+  crisp, with no face, camera tile, browser/Zoom chrome, cursor, watermark,
+  overlay, or black bar. Markdown reference resolves and `git diff --check`
+  passes before commit.

@@ -116,7 +116,7 @@ min_samples_leaf
 500               0.680  0.680  0.680
 ```
 
-![The pivot table with the best cell, 0.785](images/05-decision-tree-tuning-04-pivot.jpg)
+![The pivot table with the best cell, 0.785](images/05-decision-tree-tuning-04-pivot-cropped.png)
 
 Even easier to read as a heatmap - the best cell is the lightest one:
 
