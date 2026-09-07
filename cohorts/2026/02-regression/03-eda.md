@@ -87,7 +87,7 @@ import seaborn as sns
 %matplotlib inline
 ```
 
-![Importing matplotlib and seaborn](images/03-eda-02-import-plotting-libraries.jpg)
+![Importing matplotlib and seaborn](images/03-eda-02-import-plotting-libraries-cropped.jpg)
 
 We want to see the distribution of prices — how many cars cost what. A
 histogram shows exactly that: it splits the value range into buckets and

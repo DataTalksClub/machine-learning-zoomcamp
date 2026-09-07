@@ -134,3 +134,12 @@
 - Invariants: preserve the exact `for col in df.columns` loop, the `unique()[:5]` and `nunique()` calls, the visible column names, unique-value samples, counts, ordering, and the partial `engine_hp` output at the source bottom edge.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-01-explore-columns-cropped.jpg`.
 - QA: source inspected in lesson context and candidate crop inspected visually; exact code, labels, values, ordering, and output relationships preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x306`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 16 — import plotting libraries
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches the imports for matplotlib and seaborn and the notebook's inline plotting directive.
+- Source/context: `cohorts/2026/02-regression/images/03-eda-02-import-plotting-libraries.jpg`; caption: “Importing matplotlib and seaborn”.
+- Crop coordinates: source `598x360`; `577x136+0+183` (`x=0, y=183, width=577, height=136`). The crop removes the notebook/browser header, webcam tile/face, right black strip, preceding table/scrollbar, and following unrelated section while retaining the `Distribution of price` heading, import cell, and blank prompt immediately below it.
+- Invariants: preserve the exact `import matplotlib.pyplot as plt`, `import seaborn as sns`, and `%matplotlib inline` lines, their order, notebook cell styling, and the `Distribution of price` context heading.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/03-eda-02-import-plotting-libraries-cropped.jpg`.
+- QA: source inspected in lesson context and candidate crop inspected visually; exact heading, code, ordering, and notebook context preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, black border, or unrelated table remains; final dimensions `577x136`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
