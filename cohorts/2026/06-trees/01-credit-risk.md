@@ -21,7 +21,7 @@ about past customers. For each of them we know what they asked for and
 what happened afterwards - did they pay back the loan, or did they
 default? For example:
 
-![A client applies for a loan, the bank answers yes or no](images/01-credit-risk-01-loan-application.jpg)
+![A client applies for a loan, the bank answers yes or no](images/01-credit-risk-01-loan-application-imagegen.png)
 
 - Customer A - OK
 - Customer B - OK
