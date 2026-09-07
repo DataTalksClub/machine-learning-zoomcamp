@@ -46,7 +46,7 @@ not open the file in text mode. We name the file with the value of `C` we
 used, because after tuning in the previous module we know this parameter, and
 it is useful to see it in the filename: `model_C=1.0.bin`.
 
-![The filename contains the value of C](images/02-pickle-03-model-filename.jpg)
+![The filename contains the value of C](images/02-pickle-03-model-filename-cropped.jpg)
 
 The vectorizer has to travel with the model. It was fitted on the training
 data and it "remembers" which categorical values map to which feature columns
