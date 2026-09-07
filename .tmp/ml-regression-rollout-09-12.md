@@ -133,3 +133,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x190+26+104`, then 2× Lanczos resize and light unsharp masking. This retains the complete expression and visible output while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve `2017 - df_train.year`, rows 0–4 and 7145–7149, their age values, and `Name: year, Length: 7150, dtype: int64`. Final `1066x380` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-02-car-age-cropped.png`.
+
+### Screenshot 03 — adding `age` to `prepare_X`
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-03-age-feature.jpg`.
+- Caption/context: “The prepare_X function with the new age feature”; the section adds `df['age'] = 2017 - df.year` before selecting the numerical features.
+- Rubric: `2 / 2 / 2 / 1 / 2 / 2 = 11/12`; keep because the focused cell shows exactly where the derived feature is created and then included in the matrix.
+- Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x130+26+230`, then 2× Lanczos resize and light unsharp masking. This retains the complete function and removes the browser/Zoom frame, webcam tile, clipped lesson heading, and following-cell material.
+- Invariants/QA: preserve `df['age'] = 2017 - df.year`, `df[base]`, `fillna(0)`, `.values`, and `return X`. Final `1066x260` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-03-age-feature-cropped.png`.

@@ -55,7 +55,7 @@ def prepare_X(df):
     return X
 ```
 
-![The prepare_X function with the new age feature](images/11-feature-engineering-03-age-feature.jpg)
+![The prepare_X function with the new age feature](images/11-feature-engineering-03-age-feature-cropped.png)
 
 ## The function should not modify the data
 
