@@ -189,3 +189,13 @@
 - Invariants: visible code remains the female, male, and global churn calculations; outputs remain `0.27682403433476394`, `0.2632135306553911`, and `0.26996805111821087`; cell order and notebook hierarchy remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/05-risk-01-churn-rate-gender-cropped.png` (550×294 PNG).
 - QA: accepted after `view_image` inspection at lesson size; code, exact values, ordering, and retained `Risk ratio` context checked against the source; capture framing is absent and the Markdown reference resolves.
+
+## 20 — risk: churn rate by partner status
+
+- Source: `cohorts/2026/03-classification/images/05-risk-02-churn-rate-partner.jpg` (598×360 JPEG).
+- Context/caption: “The churn rate for customers with and without a partner.” This image teaches that the partner groups have materially different churn rates and that the partner-group difference from the global rate is positive for customers with a partner.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The notebook code, counts, and exact churn-rate values are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, left capture margin, and right capture edge while retaining the partner counts, group churn-rate cells, global-rate subtraction, and following `Risk ratio` heading.
+- Invariants: visible partner counts remain `no 2932` and `yes 2702`; outputs remain `0.20503330866025166`, `0.06493474245795922`, and `0.3298090040927694`; code and cell order remain unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
+- Final: `cohorts/2026/03-classification/images/05-risk-02-churn-rate-partner-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; counts, exact outputs, cell order, and retained `Risk ratio` context checked against the source; capture framing is absent and the Markdown reference resolves.

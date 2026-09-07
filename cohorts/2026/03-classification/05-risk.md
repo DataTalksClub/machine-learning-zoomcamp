@@ -87,7 +87,7 @@ churn_partner     = 0.20503330866025166
 churn_no_partner  = 0.3298090040927694
 ```
 
-![The churn rate for customers with and without a partner](images/05-risk-02-churn-rate-partner.jpg)
+![The churn rate for customers with and without a partner](images/05-risk-02-churn-rate-partner-cropped.png)
 
 This looks very different from gender. Customers with a partner churn
 at 20.5%, customers without one at 33% - and the global rate is 27%. So
