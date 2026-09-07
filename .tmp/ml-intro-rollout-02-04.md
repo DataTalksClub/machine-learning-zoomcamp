@@ -45,6 +45,19 @@ remain in place; accepted replacements are sibling assets.
   checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
   recording overlays absent.
 
+### 04-crisp-dm-06-summary.jpg
+
+- Disposition: `imagegen`; this is a bounded summary slide plus process flow.
+- Invariant: exact six bullets and order; bottom flow contains the six stages
+  in order with feedback arrows; `Deployment` has the red dashed highlight.
+- Crop: `598x300+0+30`, with the camera and black right bar masked, from the
+  598x360 source.
+- Output: `04-crisp-dm-06-summary-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; all bullet text,
+  stage labels/order, feedback flow, and Deployment highlight checked; face,
+  webcam, browser/Zoom chrome, cursor, watermark, toolbar, black bars, and
+  recording overlays absent.
+
 ### 04-crisp-dm-05-features-target.jpg
 
 - Disposition: `imagegen`; the bounded email-stack → vector transformation

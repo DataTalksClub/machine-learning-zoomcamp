@@ -88,7 +88,7 @@ At this step the focus shifts from machine learning to engineering. We want to m
 
 We don't deploy and forget. We always iterate: we start simple, learn from the feedback, and improve.
 
-![The six steps of CRISP-DM summarized](images/04-crisp-dm-06-summary.jpg)
+![The six steps of CRISP-DM summarized](images/04-crisp-dm-06-summary-imagegen-pilot.png)
 
 It is a very good idea to always start simple. Do something very simple on the first iteration, quickly move through all the steps, evaluate, deploy - and learn from the process. You see that even a simple model is useful. Then go back to business understanding and make the model a bit more complex. Two or three fast iterations like this don't waste a lot of time, and you can quickly show that what you're working on is useful.
 
