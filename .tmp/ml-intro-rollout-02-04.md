@@ -18,6 +18,19 @@ remain in place; accepted replacements are sibling assets.
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
 
+### 02-ml-vs-rules-07-rule-based-summary.jpg
+
+- Disposition: `imagegen`; this bounded diagram summarizes how data and code
+  feed ordinary software to produce an outcome.
+- Invariant: `DATA` and `CODE` arrows enter `SOFTWARE`; one arrow exits to
+  `OUTCOME`; directions and central box relationship are unchanged.
+- Crop: `598x300+0+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; labels, arrows, and
+  relationship checked; face, webcam, browser/Zoom chrome, cursor, watermark,
+  toolbar, black bars, and recording overlays absent.
+
 ### 02-ml-vs-rules-06-predictions.jpg
 
 - Disposition: `imagegen`; the model-to-probability mapping is central to the

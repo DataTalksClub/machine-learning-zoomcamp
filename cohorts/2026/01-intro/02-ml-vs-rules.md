@@ -88,7 +88,7 @@ Let's summarize the difference between the two approaches.
 
 In a rule-based system, we extract rules ourselves and write them in code. The data (emails) and the code together form the software, and the software produces the outcome: spam or not spam. The rules are hard-coded - and, as we saw, such a system becomes difficult to maintain.
 
-![Rule-based systems: data and code go into the software, which produces the outcome](images/02-ml-vs-rules-07-rule-based-summary.jpg)
+![Rule-based systems: data and code go into the software, which produces the outcome](images/02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.png)
 
 In machine learning, the roles flip. The outcome - spam or not spam - becomes the input to the machine learning algorithm, together with the data. The algorithm produces a model. Then, for cases where we don't know the outcome, we take the data and the model, and the model produces the prediction.
 
