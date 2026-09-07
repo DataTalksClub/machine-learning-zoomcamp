@@ -51,7 +51,7 @@ churn               0
 dtype: int64
 ```
 
-![Checking for missing values: everything is 0](images/04-eda-01-missing-values.jpg)
+![Checking for missing values: everything is 0](images/04-eda-01-missing-values-cropped.png)
 
 Everything is 0 - there are no missing values anywhere. We already took
 care of the only column that had them, `totalcharges`, during data

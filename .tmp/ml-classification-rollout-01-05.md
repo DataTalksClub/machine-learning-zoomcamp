@@ -129,3 +129,13 @@
 - Invariants: target cell remains `y_train = df_train.churn.values`, `y_val = df_val.churn.values`, and `y_test = df_test.churn.values`; delete cell remains `del df_train['churn']`, `del df_val['churn']`, and `del df_test['churn']`; line order, dataframe names, `churn`, and `.values` are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, unrelated overlay, or black bar.
 - Final: `cohorts/2026/03-classification/images/03-validation-04-isolate-target-cropped.png` (550×302 PNG).
 - QA: accepted after `view_image` inspection at lesson size and zoomed code-cell inspection; all six exact commands and their order checked against the source, capture framing removed, and Markdown reference resolves.
+
+## 14 — EDA: missing values
+
+- Source: `cohorts/2026/03-classification/images/04-eda-01-missing-values.jpg` (598×360 JPEG).
+- Context/caption: “Checking for missing values: everything is 0.” This image teaches that the dataframe-wide `isnull().sum()` result contains zero missing values for every column.
+- Rubric/disposition: keep — deterministic crop and lossless PNG export. The pandas output and exact column names/counts are instructional source content; imagegen was not used despite the capability being available.
+- Capture cleanup: accepted crop `550×302+26+58` removes the browser/notebook header, webcam tile, and black capture framing. The native blue selection highlight on `totalcharges` is retained because its white glyphs are exact output content and repainting it would risk altering the result.
+- Invariants: all visible column names remain in source order from `customerid` through `churn`; every visible count remains `0`; `dtype: int64` remains; selected `totalcharges` row and output alignment are unchanged; no face, camera tile, browser/Zoom chrome, cursor, watermark, or black capture bar.
+- Final: `cohorts/2026/03-classification/images/04-eda-01-missing-values-cropped.png` (550×302 PNG).
+- QA: accepted after `view_image` inspection at lesson size; column order, zero counts, dtype, and selection state checked against the source; recording framing removed and the Markdown reference resolves.
