@@ -48,3 +48,11 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   `07-correlation-05-churn-rate-monthly-charges-clean.png`
   - Disposition: deterministic vector redraw; source control wheel overlapped the right edge and clipped the monthly-charge labels.
   - Invariants: monthly-charge groups `≤20`, `20–50`, `>50`; exact churn rates `8%`, `18%`, `32%`; positive relationship preserved. The reference tenure panel is retained for context; no camera or recording chrome.
+
+### 08-ohe.md
+
+- `08-ohe-01-one-hot-table.jpg` →
+  `08-ohe-01-one-hot-table-cropped.png`
+  - Disposition: deterministic crop; exact hand-drawn category table and binary values retained.
+  - Crop: `450x340+28+0`; removes camera/control edges while retaining the full table and row examples.
+  - Invariants: gender/contract columns, row order, and every 0/1 entry checked visually; no face or recording chrome.

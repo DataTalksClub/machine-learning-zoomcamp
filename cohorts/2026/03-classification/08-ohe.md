@@ -49,7 +49,7 @@ contract=month-to-month  contract=one_year  contract=two_year  tenure  monthlych
 Only one of the contract columns is "hot" (set to 1) - that is where
 the name one-hot encoding comes from.
 
-![One-hot encoding: the gender and contract values of each customer are turned into binary columns, with exactly one 1 per feature](images/08-ohe-01-one-hot-table.jpg)
+![One-hot encoding: the gender and contract values of each customer are turned into binary columns, with exactly one 1 per feature](images/08-ohe-01-one-hot-table-cropped.png)
 
 We do this for every categorical feature. The `paymentmethod` feature
 has four values, so it becomes four columns. `gender` has two values,
