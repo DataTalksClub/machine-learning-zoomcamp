@@ -14,7 +14,7 @@ In the first lesson we did a quick introduction to machine learning using the ca
 
 These things go to a machine learning algorithm, and the output is a model. The model is something we can use later to predict the prices of cars for which we don't know the price: if there is a car for which we don't know the price, we put its features into the model, and the model tells us that the price for this car is, say, $23,000.
 
-![Features and the target go into a machine learning algorithm, which produces a model](images/10-summary-01-features-target-model.jpg)
+![Features and the target go into a machine learning algorithm, which produces a model](images/10-summary-01-features-target-model-imagegen-pilot.png)
 
 ## ML vs Rule-Based Systems
 

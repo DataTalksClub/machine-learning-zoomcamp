@@ -152,3 +152,14 @@ diagrams in the summary use imagegen only after a deterministic crop.
 - Invariants: `df.groupby('Transmission Type').MSRP.max()`; `AUTOMATIC 34450`; `MANUAL 54990`; `Name: MSRP, dtype: int64`
 - Output: `cohorts/2026/01-intro/images/09-pandas-08-groupby-cropped.png`
 - Validation: accepted after visual inspection; command and all grouped values are unchanged; face, camera tile, browser chrome, and next-cell border are absent.
+
+## 10-summary
+
+### 01 — features, target, and model
+
+- Source: `cohorts/2026/01-intro/images/10-summary-01-features-target-model.jpg`
+- Disposition: deterministic crop followed by built-in imagegen redraw
+- Crop: `560x300+15+30`; camera/cursor mask in crop: `490,0` to `559,30` and `495,270` to `559,299`
+- Invariants: title `1.1 Introduction to ML`; feature table with `Year`, `Make`, `Mileage`, `...`; visible rows and values; target table `Price` with `$1.1k`, `$0.6k`, `$23k`, `...`; `ML` and `Model` boxes; feature/target-to-ML and ML-to-Model arrows
+- Output: `cohorts/2026/01-intro/images/10-summary-01-features-target-model-imagegen-pilot.png`
+- Validation: accepted after visual inspection; all instructional labels, values, table relationships, and arrow directions are preserved; face, camera tile, handwriting, browser/recording chrome, cursor, and watermark are absent.
