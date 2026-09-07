@@ -28,7 +28,7 @@ the customer information to this endpoint, and get the prediction back in the
 response. Based on that response, the marketing service can decide to send a
 promo email or do nothing.
 
-![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram.jpg)
+![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram-imagegen-pilot.png)
 
 ## The plan for this module
 
