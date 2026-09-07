@@ -129,3 +129,10 @@ use the built-in imagegen workflow after source inspection.
   probabilities `0.20` through `0.85`, high-risk selection, and promotional
   email; removed the presenter, camera/recording controls, color wheel, and
   cursor. Output visually checked at lesson size.
+
+- `13-summary-02-notebook-recap.jpg` →
+  `13-summary-02-notebook-recap-cropped.png` — deterministic composite of a
+  top crop `(15,32,493,48)` and lower slide crop `(15,80,568,166)`, padded to
+  a common canvas and 2× Lanczos resized with light unsharp; preserved the
+  exact section title, dataset URLs, and data-preparation bullets while
+  removing the camera tile and browser frame.

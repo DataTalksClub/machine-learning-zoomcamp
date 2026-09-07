@@ -37,7 +37,7 @@ We went through the standard project pipeline:
 - Using the model - retrained on the full training data and scored
   individual customers
 
-![The notebook we built throughout the module, from data preparation to using the model](images/13-summary-02-notebook-recap.jpg)
+![The notebook we built throughout the module, from data preparation to using the model](images/13-summary-02-notebook-recap-cropped.png)
 
 ## Main takeaways
 
