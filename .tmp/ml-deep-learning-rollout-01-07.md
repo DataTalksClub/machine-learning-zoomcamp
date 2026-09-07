@@ -25,3 +25,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `02-tensorflow-keras-04-load-img-import.jpg` → `02-tensorflow-keras-04-load-img-import-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact `from tensorflow.keras.preprocessing.image import load_img` code and lesson context; removed webcam/black recording chrome.
 - `02-tensorflow-keras-06-load-img.jpg` → `02-tensorflow-keras-06-load-img-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved `load_img(..., target_size=(150, 150))`, the t-shirt output, and lesson heading; removed webcam/black recording chrome.
 - `02-tensorflow-keras-08-numpy-array.jpg` → `02-tensorflow-keras-08-numpy-array-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact `np.array(img)` output, RGB tuple annotation, and visible numeric values; removed webcam/black recording chrome. The source's lower output remains truncated because the exact screenshot is the source of truth.
+
+## 03-pretrained-models
+
+- `03-pretrained-models-01-keras-applications.jpg` → `03-pretrained-models-01-keras-applications-cropped.png`: deterministic browser/UI crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the Keras Applications heading, explanatory text, and visible model table columns/values; removed webcam/black recording chrome without approximating web text.

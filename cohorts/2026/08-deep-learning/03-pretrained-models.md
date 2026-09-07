@@ -33,7 +33,7 @@ to a lot of data and cool computers, took this dataset, took some
 neural networks, trained them on ImageNet and shared the results. The
 results are the models on the Keras Applications page:
 
-![The Keras Applications page lists pre-trained models with size, accuracy, parameters and speed](images/03-pretrained-models-01-keras-applications.jpg)
+![The Keras Applications page lists pre-trained models with size, accuracy, parameters and speed](images/03-pretrained-models-01-keras-applications-cropped.png)
 
 There are different kinds of models - Xception, VGG, ResNet and many
 others. They have different so-called architectures: an architecture
