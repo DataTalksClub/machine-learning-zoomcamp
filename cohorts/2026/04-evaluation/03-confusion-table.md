@@ -48,7 +48,7 @@ fp = (predict_positive & actual_negative).sum()
 fn = (predict_negative & actual_positive).sum()
 ```
 
-![The element-wise AND of the two conditions: only True and True gives True](images/03-confusion-table-03-and-operator.jpg)
+![The element-wise AND of the two conditions: only True and True gives True](images/03-confusion-table-03-and-operator-cropped.jpg)
 
 For our model this gives tp = 210, tn = 922, fp = 101 and fn = 176 - and indeed 210 + 922 + 101 + 176 = 1409, all customers accounted for.
 

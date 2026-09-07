@@ -152,3 +152,12 @@
 - Invariants: `actual_positive = (y_val == 1)`, `actual_negative = (y_val == 0)`, `t = 0.5`, `predict_positive = (y_pred >= t)`, `predict_negative = (y_pred < t)`, both sample arrays, the handwritten `TRUE`/`FALSE` grouping, and the final `predict_positive & actual_positive` output remain unchanged and in order.
 - Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-02-prediction-conditions-cropped.jpg`
 - QA: accepted after `view_image` inspection; exact code, values, and annotation remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
+
+## 03 — element-wise AND notebook
+
+- Source: `cohorts/2026/04-evaluation/images/03-confusion-table-03-and-operator.jpg`
+- Disposition: accepted deterministic crop plus bounded blank-cell cursor cleanup; exact AND expressions and visible output retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=54, width=577, height=306` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black strip. Post-crop cleanup fills only blank notebook-cell space with `srgb(254,254,254)`: `x=149..160, y=183..199`, `x=143..152, y=220..243`, and `x=150..162, y=216..236` remove the I-beam/text caret artifacts without touching code glyphs.
+- Invariants: the actual-positive/actual-negative definitions, threshold `t = 0.5`, `predict_positive`/`predict_negative`, `tp = (predict_positive & actual_positive).sum()`, `tn = (predict_negative & actual_negative).sum()`, the visible `fp`/`fn` cell, output `922`, and the `4.4 Precision and Recall` heading remain unchanged and in order.
+- Final path: `cohorts/2026/04-evaluation/images/03-confusion-table-03-and-operator-cropped.jpg`
+- QA: accepted after `view_image` inspection; exact code, ampersands, output, and cell structure remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black strip remains; `577×306` output renders cleanly.
