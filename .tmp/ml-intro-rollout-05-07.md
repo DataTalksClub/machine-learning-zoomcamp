@@ -93,3 +93,12 @@
 - Path: deterministic lossless PNG crop; imagegen not used because exact notebook/terminal UI, code, URL, and output are the source of truth
 - Invariants: `homework.ipynb`; `import pandas as pd`; `pd.read_csv(...)` cell; terminal with Jupyter server/token context; Codespaces/VS Code context
 - Validation: passed visual review; exact code and terminal output remain readable; no face, camera tile, recording/browser overlay, watermark, or black border
+
+### 07 — sample-jupyter-notebook
+
+- Source: `cohorts/2026/01-intro/images/sample-jupyter-notebook.png` (1266×494 PNG)
+- Disposition: accepted deterministic sibling `sample-jupyter-notebook-cropped.png`
+- Crop: `560×374+20+120` (trims GitHub navigation while retaining the repository breadcrumb, notebook filename, context menu, and `Copy link address` target)
+- Path: deterministic lossless PNG crop; imagegen not used because exact GitHub UI, filename, menu labels, and instructional annotation are the source of truth
+- Invariants: `mlbookcamp-code / chapter-02-car-price`; `02-carprice.ipynb`; context menu; `Copy link address`; red instructional highlight
+- Validation: passed visual review; exact UI text and annotation remain crisp; no face, camera tile, browser/recording overlay, watermark, cursor, or black border

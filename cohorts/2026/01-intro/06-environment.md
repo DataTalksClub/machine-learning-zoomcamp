@@ -149,7 +149,7 @@ To use Kaggle to open and run the Jupyter notebooks provided as part of this cou
 
 1. Find the URL of the notebook. 
    
-   ![See this example](images/sample-jupyter-notebook.png)
+   ![See this example](images/sample-jupyter-notebook-cropped.png)
    
 2. To open the notebook in Kaggle, in your web browser launch paste the URL as shown in below example. (*note the additional https://kaggle.com/kernels/welcome?src= before the URL of the notebook*)
 
