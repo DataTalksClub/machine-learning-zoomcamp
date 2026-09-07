@@ -108,7 +108,7 @@ Since training takes long and we don't want to lose the best model,
 we bring back the checkpoint callback - the filename pattern encodes
 the epoch and the validation accuracy:
 
-![The checkpoint callback saving xception_v4_1 models by validation accuracy](images/11-large-model-03-checkpoint-callback.jpg)
+![The checkpoint callback saving xception_v4_1 models by validation accuracy](images/11-large-model-03-checkpoint-callback-cropped.png)
 
 ```python
 checkpoint = keras.callbacks.ModelCheckpoint(
