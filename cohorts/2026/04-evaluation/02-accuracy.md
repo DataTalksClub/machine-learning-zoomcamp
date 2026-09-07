@@ -85,7 +85,7 @@ The output:
 
 Plotted, the accuracy rises quickly, peaks around 0.5, and then slowly declines before flattening out:
 
-![Accuracy of the model at different decision thresholds](images/02-accuracy-01-accuracy-vs-threshold.jpg)
+![Accuracy of the model at different decision thresholds](images/02-accuracy-01-accuracy-vs-threshold-cropped.jpg)
 
 So for this problem the best decision cutoff is indeed 0.5, with 80% accuracy. That was a lucky guess - but it didn't have to be. On other problems the best threshold is often different from 0.5, and this simple loop is how you find it.
 

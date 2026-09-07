@@ -62,3 +62,12 @@
 - Invariants: `CHURN PREDICTION`, `TELCO`, the promo-mail arrow, `25%`, customer scores `0.2`, `0.3`, `0.35`, `0.40`, `0.45`, `0.85`, the highlighted customer, and `ACCURACY 80%` remain unchanged with the original relationships.
 - Final path: `cohorts/2026/04-evaluation/images/01-overview-02-churn-scenario-cropped.jpg`
 - QA: accepted after visual inspection; no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `478×360` output renders cleanly.
+
+## 01 — accuracy versus threshold plot
+
+- Source: `cohorts/2026/04-evaluation/images/02-accuracy-01-accuracy-vs-threshold.jpg`
+- Disposition: accepted deterministic re-export; the exact plot is already a clean frame, so no crop or imagegen was needed.
+- Crop coordinates: `x=0, y=0, width=372, height=248` (full frame) from the 372×248 source; no recording frame, browser/Zoom chrome, face, camera tile, cursor, watermark, overlay, or black bar is present.
+- Invariants: the blue accuracy curve, its rise from about `0.27` at threshold `0.0` to a peak around `0.80` near `0.5`, its decline to about `0.73`, and the visible x-axis ticks `0.0`, `0.2`, `0.4`, `0.6`, `0.8`, `1.0` plus y-axis ticks `0.3` through `0.8` remain unchanged.
+- Final path: `cohorts/2026/04-evaluation/images/02-accuracy-01-accuracy-vs-threshold-cropped.jpg`
+- QA: accepted after visual inspection; the exact curve and axes remain crisp and readable at lesson size, with no non-teaching overlays; `372×248` output renders cleanly.
