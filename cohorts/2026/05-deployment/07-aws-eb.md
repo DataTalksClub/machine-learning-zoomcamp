@@ -28,7 +28,7 @@ marketing service sends requests to the EB environment; EB forwards them to
 the Docker container running our Flask app; the container responds with the
 churn probability, and EB relays the answer back.
 
-![The marketing service talks to the churn service inside the Elastic Beanstalk environment](images/07-aws-eb-02-eb-architecture.jpg)
+![The marketing service talks to the churn service inside the Elastic Beanstalk environment](images/07-aws-eb-02-eb-architecture-imagegen.png)
 
 ## Deploying step by step
 
