@@ -15,3 +15,4 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | Lesson | Source | Decision | Score | Preparation and invariants |
 | --- | --- | --- | ---: | --- |
 | 13 | `13-regularization-01-normal-equation.jpg` | keep/crop | 10/12 | Crop `(x=95,y=55,w=230,h=170)`; retain the exact handwritten `XᵀX` teaching fragment; remove camera tile, controls, and black frame. |
+| 13 | `13-regularization-02-duplicate-columns.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the feature and Gram-matrix values; remove browser/camera frame. A native notebook caret remains in the code cell without obscuring the values. |

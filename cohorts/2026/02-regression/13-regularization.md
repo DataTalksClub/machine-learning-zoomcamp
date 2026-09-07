@@ -42,7 +42,7 @@ X = [
 When we compute the Gram matrix, we see that it also has duplicate columns - the
 second and the third are the same:
 
-![The feature matrix with duplicate columns and its Gram matrix](images/13-regularization-02-duplicate-columns.jpg)
+![The feature matrix with duplicate columns and its Gram matrix](images/13-regularization-02-duplicate-columns-cropped.png)
 
 When something like that happens, the inverse simply doesn't exist. In linear
 algebra they say that one column is a linear combination of the other columns -
