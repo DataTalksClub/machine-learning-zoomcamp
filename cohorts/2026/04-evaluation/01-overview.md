@@ -67,7 +67,7 @@ churn_decision = (y_pred >= 0.5)
 (y_val == churn_decision).mean()
 ```
 
-![Predicting churn and computing the agreement with the actual outcomes: 0.8034](images/01-overview-06-predictions-accuracy.jpg)
+![Predicting churn and computing the agreement with the actual outcomes: 0.8034](images/01-overview-06-predictions-accuracy-cropped.jpg)
 
 This gives us `0.8034066713981547` - the model agrees with the actual outcomes about 80% of the time. Is 80% good? That is exactly what we cannot tell yet: a single agreement number is the simplest metric, accuracy, and in the next lesson we start poking at it.
 

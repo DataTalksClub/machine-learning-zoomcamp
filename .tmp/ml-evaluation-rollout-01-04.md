@@ -36,6 +36,15 @@
 - Final path: `cohorts/2026/04-evaluation/images/01-overview-05-features-cropped.jpg`
 - QA: accepted after visual inspection; exact labels and ordering remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
 
+## 06 — predictions and accuracy notebook
+
+- Source: `cohorts/2026/04-evaluation/images/01-overview-06-predictions-accuracy.jpg`
+- Disposition: accepted deterministic crop; exact prediction code and evaluation result retained, so imagegen was not used.
+- Crop coordinates: `x=0, y=68, width=577, height=292` from the 598×360 source; removes the browser/Notebook chrome, upper-right webcam tile, and right black bar.
+- Invariants: `DictVectorizer(sparse=False)`, the training transform, `LogisticRegression`, `predict_proba(X_val)[:, 1]`, threshold `0.5`, the agreement calculation, exact result `0.8034066713981547`, and the `4.2 Accuracy and dummy model` heading remain unchanged.
+- Final path: `cohorts/2026/04-evaluation/images/01-overview-06-predictions-accuracy-cropped.jpg`
+- QA: accepted after visual inspection; the exact numeric result and code remain legible, and no face, camera tile, browser/Zoom chrome, cursor, watermark, overlay, or black bar remains; `577×292` output renders cleanly.
+
 ## 02 — churn prediction scenario
 
 - Source: `cohorts/2026/04-evaluation/images/01-overview-02-churn-scenario.jpg`
