@@ -114,7 +114,7 @@ every column, what type it is:
 df.dtypes
 ```
 
-![df.dtypes shows the type of every column](images/02-data-preparation-04-dtypes.jpg)
+![df.dtypes shows the type of every column](images/02-data-preparation-04-dtypes-cropped.jpg)
 
 The type we are interested in is object — in pandas, that is how strings are
 stored. It can technically be other objects, but when we read data from a CSV

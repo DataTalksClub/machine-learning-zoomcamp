@@ -89,3 +89,12 @@
 - Invariants: preserve the exact code, all sixteen visible column labels and their order, spaces in the pre-replacement labels, and the exact `dtype='object'` result.
 - Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-03-lowercase-columns-cropped.jpg`.
 - QA: source inspected in lesson context; exact code, labels, values, order, and dtype preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x145`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
+
+## 11 — dtypes
+
+- Disposition: `keep` via deterministic crop/export; the screenshot teaches that `df.dtypes` identifies the string (`object`) and numeric types for every column.
+- Source/context: `cohorts/2026/02-regression/images/02-data-preparation-04-dtypes.jpg`; caption: “df.dtypes shows the type of every column”.
+- Crop coordinates: source `598x360`; `577x280+0+54` (`x=0, y=54, width=577, height=280`). The crop removes the notebook/browser header, webcam tile, right black strip, later-section heading, and recording-frame material while retaining the code cell and complete dtype output.
+- Invariants: preserve `df.dtypes`, all sixteen column/type pairs in their original order (`object`, `int64`, and `float64` values), and the final `dtype: object` line.
+- Path: deterministic crop/export from the original; final asset `cohorts/2026/02-regression/images/02-data-preparation-04-dtypes-cropped.jpg`.
+- QA: source inspected in lesson context; exact code, labels, type values, order, and final dtype preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, or black border remains; final dimensions `577x280`; lesson reference resolves; `git diff --check` and missing-reference check pass before commit.
