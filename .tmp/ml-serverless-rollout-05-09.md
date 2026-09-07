@@ -143,3 +143,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 from the pricing source; exact table values and highlighted 1024 MB row were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
 - **Validation:** output inspected; `Europe (Ireland)`, `Memory (MB)`, `Price per 1ms`, and the highlighted `1024` row remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 06-creating-lambda-08-price-calculation.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-08-price-calculation-cropped.png`
+- **Teaching point:** the IPython calculation multiplies the per-millisecond Lambda price by 2000 ms for one image, 10,000 images, and one million images, including an ARM comparison.
+- **Source inspection:** 592×360; crop `+0+0 500×340` removes the webcam tile, right-side black frame, and bottom status strip while retaining the code and four numeric results.
+- **Method:** deterministic Lanczos upscale to 1000×680 with light sharpening; exact expressions and values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the per-image, 10,000-image, one-million-image, and ARM calculations remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

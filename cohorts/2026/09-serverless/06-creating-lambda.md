@@ -192,7 +192,7 @@ actually used at most 270 MB - and takes about two seconds to classify
 an image. At 1024 MB we pay $0.000000167 per millisecond. Let's do a
 quick calculation in Python:
 
-![The calculation in IPython: price per image, per 10,000 images, per 1 million images on x86 and on ARM](images/06-creating-lambda-08-price-calculation.jpg)
+![The calculation in IPython: price per image, per 10,000 images, per 1 million images on x86 and on ARM](images/06-creating-lambda-08-price-calculation-cropped.png)
 
 - One image costs about 0.0000334 dollars ($0.000000167 x 2000 ms).
 - Classifying 10,000 images costs about 33 cents.
