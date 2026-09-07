@@ -76,8 +76,6 @@ Then we take the average of the squared errors:
 This is the mean squared error, MSE. For our example, the mean squared
 error is 0.875:
 
-![Computing the mean of the squared errors](images/09-rmse-05-mean-calculator.jpg)
-
 The last step is the square root:
 
 ```text

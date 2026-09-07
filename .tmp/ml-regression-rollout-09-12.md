@@ -51,3 +51,11 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `525x290+23+0`, with the webcam area replaced only over blank board (`local x=482..524, y=0..70`), then 2× Lanczos resize and light unsharp masking. The crop also removes the partial next-step square-root fragment at the source bottom.
 - Invariants/QA: preserve `1, 0, 0.25, 2.25`, `(1+0+0.25+2.25)/4`, `= 0.875`, and the `SQUARED ERROR` / `MEAN SE` annotations. Final `1050x580` PNG inspected; no face, camera tile, browser/Zoom chrome, cursor, watermark, black border, or partial next-step fragment remains. Markdown reference resolves and `git diff --check` passes before commit.
 - Final: `cohorts/2026/02-regression/images/09-rmse-04-squared-errors-mean-cropped.png`.
+
+### Screenshot 05 — mean calculator
+
+- Source: `cohorts/2026/02-regression/images/09-rmse-05-mean-calculator.jpg`.
+- Caption/context: “Computing the mean of the squared errors”; the surrounding prose and code already show `(1 + 0 + 0.25 + 2.25) / 4 = 0.875`.
+- Rubric: `1 / 2 / 1 / 1 / 0 / 1 = 6/12`; remove because the transient Google calculator adds no durable evidence beyond the written arithmetic and the source UI is low-resolution.
+- Disposition: `remove`; the original JPG remains in the repository but is no longer referenced. A crop candidate was reviewed and rejected for the same redundancy/readability reasons.
+- QA: source and context inspected; the Markdown reference was removed, no other lesson content changed, and `git diff --check` passes before commit.
