@@ -50,7 +50,7 @@ by step:
 - Finally, deploying the container to the cloud with AWS Elastic Beanstalk
   (optional), which makes the service available on the internet.
 
-![The second half of the plan: Pipenv, Docker and AWS](images/01-intro-04-module-plan-continued.jpg)
+![The second half of the plan: Pipenv, Docker and AWS](images/01-intro-04-module-plan-continued-cropped.jpg)
 
 Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system

@@ -28,3 +28,12 @@ This report records the five screenshots referenced by `cohorts/2026/05-deployme
 - Invariants: preserve the visible exact bullets `Wrapping the predict script into a Flask app`, `Querying it with 'requests'`, `Preparing for production: gunicorn`, and `Running it on Windows with waitress`; preserve the `5.5 Dependency and environment management: Pipenv` and `5.6 Environment management: Docker` headings and every bullet under each heading in its original order.
 - Path: deterministic crop/export and blank-gap cursor cleanup from the original; final asset `cohorts/2026/05-deployment/images/01-intro-03-module-plan-cropped.jpg`.
 - QA: source and candidate inspected in lesson context; exact editor text, punctuation, capitalization, and ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, recording overlay, black border, or bottom status bar remains; final dimensions `455x300`; lesson reference resolves; `git diff --check` passes before commit.
+
+## 04 — first module plan
+
+- Disposition: `crop/replace` via deterministic crop/export; this editor capture gives the exact opening sequence from the deployment overview through the first Flask exercise.
+- Source/context: `cohorts/2026/05-deployment/images/01-intro-04-module-plan-continued.jpg`; caption: “The second half of the plan: Pipenv, Docker and AWS”.
+- Crop coordinates: source `540x360`; `455x300+0+42` (`x=0, y=42, width=455, height=300`). The crop removes the webcam tile, right recording strip, bottom status/control bar, and black border; a deterministic blank-source patch at `x=300, y=104, width=20, height=26` removes the editor cursor without touching text.
+- Invariants: preserve the exact heading `5. Deploying Machine Learning models`; the prose about using the trained churn model as a web service; the `5.1 Intro / Session overview`, `5.2 Saving and loading the model`, and `5.3 Web services: introduction to Flask` headings; and every visible bullet in its original order.
+- Path: deterministic crop/export and blank-gap cursor cleanup from the original; final asset `cohorts/2026/05-deployment/images/01-intro-04-module-plan-continued-cropped.jpg`.
+- QA: source and candidate inspected in lesson context; exact editor text, apostrophes, punctuation, capitalization, and ordering preserved; no face, webcam, browser/Zoom chrome, cursor, watermark, recording overlay, black border, or bottom status bar remains; final dimensions `455x300`; lesson reference resolves; `git diff --check` passes before commit.
