@@ -18,7 +18,7 @@ same protocol your browser uses to load websites. One application (a client)
 sends a request to an address (a URL), and the other application (the server)
 sends back a response.
 
-![A client sends a request to the web service and gets a response back](images/03-flask-intro-02-request-response.jpg)
+![A client sends a request to the web service and gets a response back](images/03-flask-intro-02-request-response-cropped.jpg)
 
 The client says not only where to send the request, but also what it wants to
 do - this is the HTTP method. The most common ones:
