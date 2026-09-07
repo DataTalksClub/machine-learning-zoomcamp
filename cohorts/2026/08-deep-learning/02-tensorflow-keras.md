@@ -143,7 +143,7 @@ channels. Each row of the array is one pixel with its RGB values -
 the first number is red, the second green, the third blue. We have
 150x150 of them.
 
-![The image as a NumPy array; each row holds the R, G and B values of one pixel](images/02-tensorflow-keras-08-numpy-array.jpg)
+![The image as a NumPy array; each row holds the R, G and B values of one pixel](images/02-tensorflow-keras-08-numpy-array-cropped.png)
 
 The dtype is `uint8`. "u" means unsigned - the values go from 0 to
 255, not from -128 to 127 - and "int8" means an integer that takes
