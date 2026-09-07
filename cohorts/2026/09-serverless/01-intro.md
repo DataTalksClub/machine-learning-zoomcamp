@@ -41,7 +41,7 @@ picture to the model deployed with Lambda, and the service replies with
 many different classes. One of these classes will be "pants", together
 with a score. This is what we respond with to the user.
 
-![We send the picture URL to the model deployed on AWS Lambda, and it replies with classes and scores](images/01-intro-02-aws-lambda-deployment.jpg)
+![We send the picture URL to the model deployed on AWS Lambda, and it replies with classes and scores](images/01-intro-02-aws-lambda-deployment-imagegen.png)
 
 Inside Lambda we won't use plain TensorFlow. We will use TensorFlow
 Lite instead - a lighter version of TensorFlow that is better suited
