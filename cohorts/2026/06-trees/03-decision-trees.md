@@ -85,7 +85,7 @@ dt = DecisionTreeClassifier()
 dt.fit(X_train, y_train)
 ```
 
-![Turning rows into dictionaries, vectorizing, and fitting the tree](images/03-decision-trees-03-training.jpg)
+![Turning rows into dictionaries, vectorizing, and fitting the tree](images/03-decision-trees-03-training-cropped.png)
 
 And check how it performs on the validation set:
 

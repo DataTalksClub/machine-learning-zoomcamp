@@ -73,3 +73,9 @@ being inspected and assigned an imagegen or deterministic disposition.
   `assess_risk(xi)`, output, and classifier import cells while removing the
   webcam tile and browser top bar. A notebook autocomplete tooltip visible in
   the source is retained because this is exact code/UI content.
+- `03-decision-trees-03-training.jpg` →
+  `03-decision-trees-03-training-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact imports,
+  `DictVectorizer`, training-dictionary conversion, and classifier fit cells
+  while removing the webcam tile and browser top bar. The source's notebook
+  autocomplete tooltip is retained for code fidelity.
