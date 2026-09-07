@@ -79,3 +79,8 @@ being inspected and assigned an imagegen or deterministic disposition.
   `DictVectorizer`, training-dictionary conversion, and classifier fit cells
   while removing the webcam tile and browser top bar. The source's notebook
   autocomplete tooltip is retained for code fidelity.
+- `03-decision-trees-04-overfit-auc.jpg` →
+  `03-decision-trees-04-overfit-auc-cropped.png`: deterministic crop
+  `(x=0, y=65, width=576, height=285)` retained the exact validation AUC,
+  customer dictionary, probability prediction, and training AUC output while
+  removing the webcam tile and browser top bar.

@@ -115,7 +115,7 @@ roc_auc_score(y_train, y_pred)
 1.0
 ```
 
-![Validation AUC 0.65 versus training AUC 1.0](images/03-decision-trees-04-overfit-auc.jpg)
+![Validation AUC 0.65 versus training AUC 1.0](images/03-decision-trees-04-overfit-auc-cropped.png)
 
 AUC of 1.0 on training but 0.65 on validation: the tree memorized the
 training data. It learned one specific rule per customer, so on the
