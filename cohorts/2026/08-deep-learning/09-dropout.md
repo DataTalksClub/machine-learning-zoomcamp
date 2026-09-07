@@ -32,7 +32,7 @@ layer. The intuition: it's as if we hid random parts of the image with
 a black patch at each step, so the model never sees the same image
 twice.
 
-![What if we could randomly hide a part of the input - the same shirt with different parts covered](images/09-dropout-02-hiding-input.jpg)
+![What if we could randomly hide a part of the input - the same shirt with different parts covered](images/09-dropout-02-hiding-input-imagegen.png)
 
 Take a dense layer with 4 inputs and 3 outputs. With dropout,
 each training step freezes part of this layer: some inputs are set to
