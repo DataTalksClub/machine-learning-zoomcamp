@@ -38,3 +38,8 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Disposition: deterministic crop; exact code and output retained.
   - Crop: `480x105+25+50`; removes notebook/recording chrome and camera tile.
   - Invariants: `corrwith` call and exact values `-0.351885`, `0.196805`, and `-0.196353` checked against the lesson.
+
+- `07-correlation-04-churn-rate-tenure.jpg` →
+  `07-correlation-04-churn-rate-tenure-clean.png`
+  - Disposition: deterministic vector redraw; source control wheel overlapped the right edge, so a crop would damage the visual.
+  - Invariants: tenure groups `0–2`, `2–12`, `12+`; exact churn rates `60%`, `40%`, `17%`; decreasing relationship preserved; no camera or recording chrome.

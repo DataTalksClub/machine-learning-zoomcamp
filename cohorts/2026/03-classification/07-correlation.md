@@ -134,7 +134,7 @@ it is about 40%, and for those who stayed longer than a year only
 about 18%. Churn clearly decreases as tenure grows - exactly what the
 negative correlation told us.
 
-![Churn rate by tenure group: 60%, 40%, 17%](images/07-correlation-04-churn-rate-tenure.jpg)
+![Churn rate by tenure group: 60%, 40%, 17%](images/07-correlation-04-churn-rate-tenure-clean.png)
 
 The same check for monthly charges:
 
