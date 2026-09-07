@@ -109,7 +109,7 @@ X.shape
 
 The shape is `(1, 299, 299, 3)` - a batch with one image:
 
-![Turning the image into a numpy array and putting it into a batch: the shape is (1, 299, 299, 3)](images/12-using-model-04-numpy-batch-shape.jpg)
+![Turning the image into a numpy array and putting it into a batch: the shape is (1, 299, 299, 3)](images/12-using-model-04-numpy-batch-shape-cropped.png)
 
 Then:
 
