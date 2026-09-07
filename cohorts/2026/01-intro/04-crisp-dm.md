@@ -54,7 +54,7 @@ At this point we know we have enough good data. Now we transform it in such a wa
 
 For our spam detection system: we have all the emails and the spam marks, and the pipeline puts everything together into a table where we clearly see the sender, the receiver, the subject, the body, and - most importantly - the target variable.
 
-![Data preparation: raw emails go through a processing pipeline into a table](images/04-crisp-dm-04-data-preparation.jpg)
+![Data preparation: raw emails go through a processing pipeline into a table](images/04-crisp-dm-04-data-preparation-imagegen-pilot.png)
 
 From this table we extract features - like "does the body contain the word deposit" - and get the feature vectors. The last column of each vector is the target: spam or not.
 

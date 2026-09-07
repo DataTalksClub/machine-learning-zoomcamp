@@ -45,6 +45,21 @@ remain in place; accepted replacements are sibling assets.
   checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
   recording overlays absent.
 
+### 04-crisp-dm-04-data-preparation.jpg
+
+- Disposition: `imagegen`; the teaching point is the raw-email → processing
+  pipeline → tabular schema, not the exact sample email text.
+- Invariant: title `Data preparation`; inputs `Emails` and `Mark as spam`;
+  `Data processing pipeline`; rightward flow into a table with headers
+  `sender`, `receiver`, `subject`, `...`, `spam`; TRUE/FALSE target values.
+- Crop: `570x300+0+30`, with the camera area masked, from the 598x360
+  source.
+- Output: `04-crisp-dm-04-data-preparation-imagegen-pilot.png`.
+- Validation: imagegen output inspected at lesson size; title, input labels,
+  arrows, pipeline, table schema, and boolean target column checked; face,
+  webcam, browser/Zoom chrome, cursor, watermark, toolbar, black bars, and
+  recording overlays absent.
+
 ### 04-crisp-dm-03-business-understanding.jpg
 
 - Disposition: `imagegen`; this is a process-stage highlight with bounded
