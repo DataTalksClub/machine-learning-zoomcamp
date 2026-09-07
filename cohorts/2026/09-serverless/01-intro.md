@@ -22,7 +22,7 @@ service. The service looks at the image and replies that it's pants.
 We use this answer to pre-fill the category for the user: "looks like
 you're trying to sell pants, so we'll put it in the pants category."
 
-![Clothes classification use case: a user uploads a photo of pants, the website sends it to the clothes classification service, and the service replies "pants"](images/01-intro-01-clothes-classification-use-case.jpg)
+![Clothes classification use case: a user uploads a photo of pants, the website sends it to the clothes classification service, and the service replies "pants"](images/01-intro-01-clothes-classification-use-case-imagegen.png)
 
 In the previous session we covered the training part of this pipeline.
 We used Keras and TensorFlow to train an image classification model
