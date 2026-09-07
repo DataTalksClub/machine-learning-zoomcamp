@@ -173,3 +173,13 @@ outputs, and UI are handled deterministically.
 - Crop: source `598x360`; `533x145+26+190`, then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, preceding code, headings, and recording frame while retaining the complete validation cell and result.
 - Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and exact output `0.5172055461058291`. The source's small native selection highlight over the leading digits remains because removing it would damage the exact output; it is recorded as a limitation. Final `1066x290` PNG otherwise has no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
 - Final: `cohorts/2026/02-regression/images/11-feature-engineering-06-rmse-improvement-cropped.png`.
+
+### Screenshot 07 — prediction/target distributions
+
+- Source: `cohorts/2026/02-regression/images/11-feature-engineering-07-distribution-comparison.jpg`.
+- Caption/context: “The distributions of predictions and actual values are now much closer”; the prose interprets the red/blue histogram overlap after adding age.
+- Rubric: `2 / 2 / 2 / 2 / 2 / 2 = 12/12`; keep because the plot supplies visual evidence of the distributional improvement and the handwritten arrows call out the remaining mismatch.
+- Disposition: `crop/replace` via deterministic raster export; plot geometry, colors, and values are the source of truth, so imagegen was not used.
+- Crop: source `598x360`; `533x270+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the plotting code, output label, complete histogram, axes, and annotations while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
+- Invariants/QA: preserve both histogram calls, red/blue series, bins `50`, axes, bar heights/shape, and blue arrows. Final `1066x540` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-07-distribution-comparison-cropped.png`.

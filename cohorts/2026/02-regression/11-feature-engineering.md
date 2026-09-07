@@ -127,7 +127,7 @@ sns.histplot(y_val, label='target', color='blue',  alpha=0.5, bins=50)
 plt.legend()
 ```
 
-![The distributions of predictions and actual values are now much closer](images/11-feature-engineering-07-distribution-comparison.jpg)
+![The distributions of predictions and actual values are now much closer](images/11-feature-engineering-07-distribution-comparison-cropped.png)
 
 The shapes of the two distributions are now much closer. There is still a lot of
 room for improvement - for example, the model completely misses this bar here -
