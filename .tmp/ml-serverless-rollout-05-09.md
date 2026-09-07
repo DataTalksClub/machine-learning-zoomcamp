@@ -125,3 +125,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 with light sharpening; exact values and role text were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `1024 MB`, `30 sec`, role selection, and `Save` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 06-creating-lambda-06-test-success.jpg
+
+- **Disposition:** `crop/replace` → `images/06-creating-lambda-06-test-success-cropped.png`
+- **Teaching point:** the warm Lambda invocation completes in about 2226 ms with 1024 MB configured and 270 MB used.
+- **Source inspection:** the original filename is swapped with the following pricing asset; the success capture is `06-creating-lambda-07-lambda-pricing.jpg` (592×360). Crop `+0+50 550×268` removes the browser bar, webcam tile, and side frame while retaining the successful invocation summary.
+- **Method:** deterministic Lanczos upscale to 1100×536 from the success source; exact duration, billed duration, memory, and max-memory values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
+- **Validation:** output inspected; `Duration 2226.24 ms`, `1024 MB`, and `270 MB` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
