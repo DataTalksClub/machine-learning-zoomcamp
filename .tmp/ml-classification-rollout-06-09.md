@@ -87,3 +87,8 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   `09-logistic-regression-01-binary-classification-clean.png`
   - Disposition: deterministic vector redraw; exact binary-class labels and probability mapping retained.
   - Invariants: `y_i ∈ {0, 1}`, 0 = no churn/no spam, 1 = churn/spam, and `g(x_i) → 0–1` as probability of the positive class; no face or recording chrome.
+
+- `09-logistic-regression-02-from-linear-to-logistic.jpg` →
+  `09-logistic-regression-02-from-linear-to-logistic-clean.png`
+  - Disposition: deterministic vector redraw; mathematical notation is kept exact rather than generated.
+  - Invariants: `g(x_i) = Sigmoid(w_0 + w_1 x_1 + ... + w_n x_n)`; the real-valued weighted sum passes through sigmoid to `g(x_i) ∈ [0, 1]`; no face or recording chrome.

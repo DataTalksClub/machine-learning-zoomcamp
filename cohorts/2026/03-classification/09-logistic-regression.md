@@ -54,7 +54,7 @@ apply the sigmoid function to the weighted sum:
     $\large g\left(x_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_{2}x_{2} + ... + w_{n}x_{n}\right)$
 </p>
 
-![Logistic regression: the same weighted sum as in linear regression, passed through the sigmoid so the output lands between 0 and 1 instead of anywhere on the real line](images/09-logistic-regression-02-from-linear-to-logistic.jpg)
+![Logistic regression: the same weighted sum as in linear regression, passed through the sigmoid so the output lands between 0 and 1 instead of anywhere on the real line](images/09-logistic-regression-02-from-linear-to-logistic-clean.png)
 
 <p align="center">
     $\large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$
