@@ -53,7 +53,7 @@ AUC has a second, probabilistic interpretation that makes it very intuitive: AUC
 
 In our case: pick a random customer who churned and a random customer who stayed - how likely is it that our model gave the churner the higher risk score? That probability is exactly the AUC.
 
-![The AUC interpretation: comparing the scores of a randomly selected positive and a randomly selected negative customer](images/06-auc-05-auc-interpretation.jpg)
+![The AUC interpretation: comparing the scores of a randomly selected positive and a randomly selected negative customer](images/06-auc-05-auc-interpretation-imagegen.png)
 
 We can check this by simulation. First we split the predictions into the scores of negatives and positives:
 
