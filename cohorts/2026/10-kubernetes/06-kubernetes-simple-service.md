@@ -98,7 +98,7 @@ docker build -t ping:v001 .
 Now we can run the Docker container and, in a separate terminal, test the
 application with `curl localhost:9696/ping` - it should answer `PONG`.
 
-![Building the image: Successfully tagged ping:v001](images/06-kubernetes-simple-service-02-build-ping.jpg)
+![Building the image: Successfully tagged ping:v001](images/06-kubernetes-simple-service-02-build-ping-cropped.png)
 
 ## Installing kubectl and kind
 
