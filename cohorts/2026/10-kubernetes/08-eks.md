@@ -15,7 +15,7 @@ We download it from the AWS docs and unpack it into the `~/bin` directory
 - the same directory where we put `docker-compose`, `kind` and `kubectl`
 before, so it's on the `PATH`:
 
-![Downloading and unpacking eksctl into ~/bin](images/08-eks-01-eksctl-install.jpg)
+![Downloading and unpacking eksctl into ~/bin](images/08-eks-01-eksctl-install-cropped.png)
 
 One thing to note before starting: EKS is not part of the Amazon Web
 Services Free Tier. You pay for the instances EKS uses as nodes, and you
