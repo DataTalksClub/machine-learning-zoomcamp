@@ -87,7 +87,7 @@ def make_model(learning_rate=0.01):
     return model
 ```
 
-![The make_model function: the base model, the new top, and the optimizer/loss/compile part](images/06-learning-rate-02-make-model-cropped.png)
+![The make_model function: the base model, the new top, and the optimizer/loss/compile part](images/06-learning-rate-02-make-model-crisp.png)
 
 Inside, everything is exactly what we had before: the base model with
 frozen convolutional layers, the new top with pooling and a dense
@@ -118,7 +118,7 @@ for lr in [0.0001, 0.001, 0.01, 0.1]:
     print()
 ```
 
-![The training loop: one model per learning rate, the histories stored in the scores dictionary](images/06-learning-rate-03-scores-loop-cropped.png)
+![The training loop: one model per learning rate, the histories stored in the scores dictionary](images/06-learning-rate-03-scores-loop-crisp.png)
 
 We try `0.0001` and `0.001` - smaller than the `0.01` we used before -
 and `0.1`, larger. We print the learning rate before each model and two
@@ -143,7 +143,7 @@ On the training set the smallest learning rate `0.0001` learns too
 slowly: after 10 epochs it reaches only about 80% accuracy, while the
 others are higher.
 
-![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy-cropped.png)
+![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy-crisp.png)
 
 Now the same for validation:
 
@@ -159,14 +159,14 @@ Again `0.0001` is too slow - after 10 epochs it's still below 80% - and
 `0.1` is the worst of all four. Let's remove both from `scores` and
 compare only `0.001` and `0.01`:
 
-![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy-cropped.png)
+![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy-crisp.png)
 
 ```python
 del scores[0.1]
 del scores[0.0001]
 ```
 
-![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation-cropped.png)
+![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation-crisp.png)
 
 `0.001` is better on validation in general - it's better in all cases
 except one, where `0.01` just got lucky. Out of curiosity we can also
@@ -181,7 +181,7 @@ plt.xticks(np.arange(10))
 plt.legend()
 ```
 
-![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001-cropped.png)
+![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001-crisp.png)
 
 It turns out `0.01` is better on the training data, but worse on
 validation - the gap between its train and validation curves is bigger.
