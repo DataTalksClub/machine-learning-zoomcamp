@@ -62,7 +62,7 @@ Depths 4, 5 and 6 are the best (AUC around 0.76). Trees that are too
 shallow underfit; deep trees overfit and end up worse than the simple
 ones.
 
-![Validation AUC for different values of max_depth](images/05-decision-tree-tuning-02-max-depth-scores-cropped.png)
+![Validation AUC for different values of max_depth](images/05-decision-tree-tuning-02-max-depth-scores-crisp.png)
 
 ## Adding min_samples_leaf
 
