@@ -166,7 +166,7 @@ del scores[0.1]
 del scores[0.0001]
 ```
 
-![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation.jpg)
+![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation-cropped.png)
 
 `0.001` is better on validation in general - it's better in all cases
 except one, where `0.01` just got lucky. Out of curiosity we can also
