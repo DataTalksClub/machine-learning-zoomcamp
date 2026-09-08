@@ -62,3 +62,4 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 ## 06-learning-rate
 
 - `06-learning-rate-01-book-analogy.jpg` → `06-learning-rate-01-book-analogy-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 478x360`; preserved the fast/high → poorly, medium → OK, and slow/low reading analogy plus exact labels; removed presenter/camera/recording chrome.
+- `06-learning-rate-02-make-model.jpg` → `06-learning-rate-02-make-model-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact `make_model` body, base model freezing, pooling, Dense(10), optimizer, loss, and accuracy metric; removed webcam/black recording chrome.

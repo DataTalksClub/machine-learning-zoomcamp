@@ -87,7 +87,7 @@ def make_model(learning_rate=0.01):
     return model
 ```
 
-![The make_model function: the base model, the new top, and the optimizer/loss/compile part](images/06-learning-rate-02-make-model.jpg)
+![The make_model function: the base model, the new top, and the optimizer/loss/compile part](images/06-learning-rate-02-make-model-cropped.png)
 
 Inside, everything is exactly what we had before: the base model with
 frozen convolutional layers, the new top with pooling and a dense
