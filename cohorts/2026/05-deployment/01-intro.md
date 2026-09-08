@@ -7,7 +7,7 @@ In this unit we look at what we will build in module 5: taking the churn
 prediction model we trained earlier and turning it into a service that other
 systems can call over the network.
 
-![Deploying machine learning models](images/01-intro-01-title-crisp.png)
+![Deploying machine learning models](images/01-intro-01-title-imagegen.png)
 
 ## The problem: the model lives in a notebook
 
@@ -28,7 +28,7 @@ the customer information to this endpoint, and get the prediction back in the
 response. Based on that response, the marketing service can decide to send a
 promo email or do nothing.
 
-![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram-imagegen-pilot.png)
+![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram-imagegen.png)
 
 ## The plan for this module
 
@@ -52,7 +52,7 @@ Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system
 and finally the local machine itself.
 
-![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-crisp.png)
+![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-imagegen.png)
 
 ## Materials
 
