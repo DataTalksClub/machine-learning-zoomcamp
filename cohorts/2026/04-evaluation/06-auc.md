@@ -96,8 +96,6 @@ neg_ind = np.random.randint(0, len(neg), size=n)
 
 This gives `0.84646` - again close to the AUC.
 
-![The vectorized version of the simulation with NumPy](images/06-auc-07-auc-simulation-numpy.jpg)
-
 Because of this ranking interpretation, AUC is a popular metric for binary classification: it says how well the model separates the two classes, and it does not depend on the class balance or on any particular threshold.
 
 ## Materials
