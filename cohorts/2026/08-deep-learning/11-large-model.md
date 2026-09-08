@@ -19,8 +19,6 @@ First, `make_model` gets one more parameter, `input_size`, which is
 used in the input shape - both for the input layer and for the base
 model. The default of 150 keeps the old behaviour:
 
-![The notebook with make_model: the input size becomes a parameter, used in both input shapes](images/11-large-model-01-input-size-parameter-crisp.png)
-
 ```python
 def make_model(input_size=150, learning_rate=0.01, size_inner=100,
                droprate=0.5):
@@ -72,8 +70,6 @@ The generators now produce images of `input_size` x `input_size`. The
 augmentation is reduced to a few gentle transformations: a bit of
 shear, a small zoom and a horizontal flip:
 
-![The train generator with shear_range=10, zoom_range=0.1 and horizontal_flip=True](images/11-large-model-02-generators-shear-zoom-flip-crisp.png)
-
 ```python
 train_gen = ImageDataGenerator(
     preprocessing_function=preprocess_input,
@@ -108,8 +104,6 @@ Since training takes long and we don't want to lose the best model,
 we bring back the checkpoint callback - the filename pattern encodes
 the epoch and the validation accuracy:
 
-![The checkpoint callback saving xception_v4_1 models by validation accuracy](images/11-large-model-03-checkpoint-callback-crisp.png)
-
 ```python
 checkpoint = keras.callbacks.ModelCheckpoint(
     'xception_v4_1_{epoch:02d}_{val_accuracy:.3f}.h5',
@@ -132,8 +126,6 @@ quickly - signs of overfitting - so augmentation came back, and the
 learning rate went down from 0.001 to 0.0005, because with 0.001 the
 validation score was too jumpy. The final parameters: inner size 100,
 droprate 0.2, and 50 epochs:
-
-![The first run: one step now takes about 700ms instead of 150ms, and validation accuracy is already 0.85 after the first epoch](images/11-large-model-04-first-run-step-time-crisp.png)
 
 ```python
 learning_rate = 0.0005
@@ -160,12 +152,38 @@ augmentation, validation sometimes even beats training accuracy: the
 model sees a slightly different variation of every image at each
 epoch, so it memorizes them less easily.
 
-![Training output: training accuracy grows past 0.94 while validation stays around 0.86-0.89](images/11-large-model-05-training-output-crisp.png)
+```text
+Epoch 15/50
+96/96 [==============================] - 76s 796ms/step - loss: 0.1941 - accuracy: 0.9312 - val_loss: 0.3390 - val_accuracy: 0.8886
+Epoch 16/50
+96/96 [==============================] - 74s 773ms/step - loss: 0.1773 - accuracy: 0.9439 - val_loss: 0.3915 - val_accuracy: 0.8768
+Epoch 17/50
+96/96 [==============================] - 76s 789ms/step - loss: 0.1729 - accuracy: 0.9420 - val_loss: 0.3564 - val_accuracy: 0.8915
+Epoch 18/50
+96/96 [==============================] - 75s 777ms/step - loss: 0.1632 - accuracy: 0.9439 - val_loss: 0.3387 - val_accuracy: 0.8944
+Epoch 19/50
+96/96 [==============================] - 75s 783ms/step - loss: 0.1548 - accuracy: 0.9462 - val_loss: 0.3415 - val_accuracy: 0.8768
+Epoch 20/50
+96/96 [==============================] - 74s 775ms/step - loss: 0.1484 - accuracy: 0.9527 - val_loss: 0.3625 - val_accuracy: 0.8651
+Epoch 21/50
+55/96 [================>.............] - ETA: 28s - loss: 0.1404 - accuracy: 0.9584
+```
 
 The best checkpoint of this run is `xception_v4_1_13_0.903.h5` -
 0.903 validation accuracy at epoch 13:
 
-![The saved checkpoints: the best one is xception_v4_1_13_0.903.h5](images/11-large-model-06-checkpoint-files-crisp.png)
+The checkpoint directory contains these model files:
+
+| File | Last modified | Size |
+| --- | --- | ---: |
+| `xception_v1_06_0.836.h5` | 4 days ago | 84 MB |
+| `xception_v4_01_0.845.h5` | 34 minutes ago | 86.2 MB |
+| `xception_v4_02_0.868.h5` | 33 minutes ago | 86.2 MB |
+| `xception_v4_04_0.891.h5` | 31 minutes ago | 86.2 MB |
+| `xception_v4_1_01_0.821.h5` | 25 minutes ago | 86.2 MB |
+| `xception_v4_1_02_0.862.h5` | 23 minutes ago | 86.2 MB |
+| `xception_v4_1_04_0.886.h5` | 21 minutes ago | 86.2 MB |
+| `xception_v4_1_13_0.903.h5` | 10 minutes ago | 86.2 MB |
 
 In all the experiments before,
 80% was the best we could squeeze out of the 150x150 models; the
