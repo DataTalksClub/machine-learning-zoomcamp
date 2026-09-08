@@ -48,7 +48,7 @@ and predicts the category.
 To train this model we use the clothing dataset. It has over 5000
 images of 20 different classes.
 
-![The clothing dataset on GitHub: over 5,000 images of 20 different classes](images/01-fashion-classification-03-clothing-dataset-cropped.png)
+![The clothing dataset on GitHub: over 5,000 images of 20 different classes](images/01-fashion-classification-03-clothing-dataset-crisp.png)
 
 We will not use all 20 classes. There is a smaller dataset, a subset
 with the 10 most popular classes. This subset is already split into
@@ -59,7 +59,7 @@ Inside the train folder there are ten folders, one per category:
 dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt and
 t-shirt. Each folder contains the images of that category.
 
-![The train folder of the small dataset with ten category folders](images/01-fashion-classification-04-dataset-small-train-cropped.png)
+![The train folder of the small dataset with ten category folders](images/01-fashion-classification-04-dataset-small-train-crisp.png)
 
 To get the data, clone the repository with the subset:
 
@@ -85,7 +85,7 @@ and there are videos too. During this module I will sometimes say "I'm
 not covering this in detail" and point you to the specific notes to
 read.
 
-![The CS231n course website](images/01-fashion-classification-05-cs231n-cropped.png)
+![The CS231n course website](images/01-fashion-classification-05-cs231n-crisp.png)
 
 ## The plan
 
@@ -104,13 +104,13 @@ Here is what we will cover in this module:
 The [notebook](notebook.ipynb) for this module follows the same
 structure. This is how it starts:
 
-![The module notebook: fashion classification, dataset links and TensorFlow/Keras](images/01-fashion-classification-06-notebook-plan-cropped.png)
+![The module notebook: fashion classification, dataset links and TensorFlow/Keras](images/01-fashion-classification-06-notebook-plan-crisp.png)
 
 And this is the second half of the plan: adding more layers,
 regularization and dropout, data augmentation, and training a larger
 299x299 model:
 
-![The module notebook: data augmentation and training a larger model](images/01-fashion-classification-07-notebook-plan-2-cropped.png)
+![The module notebook: data augmentation and training a larger model](images/01-fashion-classification-07-notebook-plan-2-crisp.png)
 
 There are 13 videos in this module. Let's get started.
 
