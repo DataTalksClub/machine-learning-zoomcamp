@@ -150,3 +150,13 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-02-gateway-script-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `clothing-model`, `serving_default`, `input_8`, `np_to_protobuf`, the pants URL, and `timeout=20.0` remain exact.
 - Output: `images/03-preprocessing-02-gateway-script-cropped.png`.
+
+### `03-preprocessing-03-flask-app.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: The Flask app part of `gateway.py`.
+- Disposition: deterministic crop/prep; the visible Python source is exact and must not be approximated with imagegen.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-03-flask-app-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: Flask imports, model loading, `/predict` route, request handling, churn threshold, JSON keys, and `jsonify` call remain unchanged.
+- Limitation: the source screenshot is intrinsically low-resolution and text remains softer than the other crops; no generated approximation was used because code fidelity is required.
+- Output: `images/03-preprocessing-03-flask-app-cropped.png`.

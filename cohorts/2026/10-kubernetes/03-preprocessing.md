@@ -102,7 +102,7 @@ def predict_endpoint():
     return jsonify(result)
 ```
 
-![The Flask app part of gateway.py](images/03-preprocessing-03-flask-app.jpg)
+![The Flask app part of gateway.py](images/03-preprocessing-03-flask-app-cropped.png)
 
 Like in session 5, we also create a `test.py` for testing the service:
 we copy it from the previous session and replace the URL with
