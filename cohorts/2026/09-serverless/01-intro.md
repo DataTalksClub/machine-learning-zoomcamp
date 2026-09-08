@@ -54,8 +54,6 @@ later in the module.
 
 Here's what we'll cover in this module:
 
-![The module plan: deploy the clothes classification model trained previously](images/01-intro-04-module-plan-crisp.png)
-
 - What AWS Lambda actually is, and how it differs from other approaches
   to deploying models
 - TensorFlow Lite as an alternative to TensorFlow, and why it's better
@@ -65,8 +63,6 @@ Here's what we'll cover in this module:
 - Packaging everything as a Docker container and deploying it to AWS
   Lambda
 - Exposing the Lambda function as a web service using API Gateway
-
-![The plan continues: creating the lambda function and exposing it with API Gateway](images/01-intro-05-module-plan-lambda-gateway-crisp.png)
 
 That's the plan. In the next lesson we start with AWS Lambda: what it
 is and how it's different from other approaches.

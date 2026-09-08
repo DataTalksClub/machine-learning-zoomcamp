@@ -26,8 +26,6 @@ python", and open the Python image maintained by AWS Lambda. In the
 "image tags" tab we see all the available tags; we pick the one for
 Python 3.8:
 
-![The Amazon ECR Public Gallery: the python image by AWS Lambda, with base images for Python](images/05-docker-image-01-ecr-public-gallery-crisp.png)
-
 Next, we install the dependencies. We need keras-image-helper, and we
 need the TF-Lite runtime. For the runtime we use the same install
 command we used in the notebook, which points pip to the extra index
@@ -56,8 +54,6 @@ function is: it lives in the `lambda_function.py` file, in the
 `lambda_handler` function. Exactly how `CMD` translates to the handler
 is a bit mysterious - the Lambda base images specify an ENTRYPOINT
 already, and we only overwrite the arguments passed to it.
-
-![The complete Dockerfile with the CMD instruction pointing to lambda_function.lambda_handler](images/05-docker-image-02-dockerfile-crisp.png)
 
 ## Building and running the image
 
@@ -95,8 +91,6 @@ result = requests.post(url, json=data).json()
 print(result)
 ```
 
-![Creating test.py with a POST request to the local Lambda endpoint](images/05-docker-image-03-test-script-crisp.png)
-
 The URL looks strange, but that's how AWS does it: this long path
 (`/2015-03-31/functions/function/invocations`) is the local endpoint
 the Lambda base image exposes. We send a POST request with a JSON
@@ -116,8 +110,6 @@ And we get an error.
 The first error says that the module `lambda_function` cannot be
 imported: the underlying TF-Lite library was compiled against a
 version of GLIBC that doesn't exist in the container:
-
-![The GLIBC error in the terminal: lib64/libm.so.6 version GLIBC_2.27 not found](images/05-docker-image-04-glibc-error-crisp.png)
 
 ```text
 Unable to import module 'lambda_function':
@@ -140,8 +132,6 @@ different Python and TensorFlow versions, but you can simply take a
 ready wheel: we use Python 3.8 and TensorFlow 2.7.0, so we take the
 matching one:
 
-![The tflite folder of the tflite-aws-lambda repository with precompiled wheels; the 2.7.0-cp38 wheel is highlighted](images/05-docker-image-05-tflite-wheels-crisp.png)
-
 With `pip install` you can pass a URL to a wheel file instead of a
 package name, and pip downloads and installs it. So we replace the
 tflite-runtime line in the Dockerfile:
@@ -158,16 +148,12 @@ image - so I keep the two installs separate.)
 
 Rebuild the image:
 
-![Rebuilding the image: pip installs tflite-runtime-2.7.0 from the wheel and the build succeeds](images/05-docker-image-06-rebuild-crisp.png)
-
 Then run the container again and test.
 
 ## Error 2: float32 is not JSON serializable
 
 Now we get a different error - and this one is expected, we have seen
 it before in the Flask sessions:
-
-![The updated Dockerfile with the wheel URL, and the float32 error in the terminal](images/05-docker-image-07-float32-error-crisp.png)
 
 ```text
 Unable to marshal response: Object of type float32 is not JSON
@@ -187,8 +173,6 @@ return dict(zip(classes, float_predictions))
 
 `tolist()` takes a NumPy array and converts it to a usual Python list
 with usual Python floats - and those are serializable.
-
-![The fixed predict function with float_predictions = preds[0].tolist(), and the successful test output in the terminal](images/05-docker-image-08-tolist-fix-crisp.png)
 
 Rebuild, run, and test once more. This time it works: we get back the
 dictionary of scores with "pants" on top, plus some statistics like

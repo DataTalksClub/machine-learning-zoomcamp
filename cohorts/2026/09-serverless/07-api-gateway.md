@@ -41,8 +41,6 @@ AWS tells us that it needs to modify the permissions of the Lambda
 function to let API Gateway invoke it - click OK. Now our function can
 be called by the gateway.
 
-![The "Add Permission to Lambda Function" dialog](images/07-api-gateway-03-lambda-permission-crisp.png)
-
 ## Testing
 
 The interesting part is the "Test" link with the lightning bolt icon.
@@ -88,8 +86,6 @@ data = {'url': 'http://bit.ly/mlbookcamp-pants'}
 result = requests.post(url, json=data).json()
 print(result)
 ```
-
-![The updated test.py with the API Gateway URL](images/07-api-gateway-07-test-py-gateway-url-crisp.png)
 
 When we run it, the request goes to API Gateway, which invokes the
 Lambda function, gets the response, and passes it back to us. And this

@@ -11,8 +11,6 @@ notebook. Lambda needs a Python script, not a notebook, so in this
 lesson we move the code from the notebook to a script and test it
 locally.
 
-![The plan of the lesson, from the module notes](images/04-preparing-code-01-lesson-plan-crisp.png)
-
 > Note: the materials in this unit are outdated.
 > 
 > Refer to the [ONNX Workshop](workshop/) for the up-to-date materials.
@@ -26,12 +24,8 @@ menu, but there's a command line utility for doing this: nbconvert:
 jupyter nbconvert --to-script tensorflow-model.ipynb
 ```
 
-![Running nbconvert: the notebook is converted to tensorflow-model.py](images/04-preparing-code-02-nbconvert-crisp.png)
-
 This converts the notebook to a Python file with the same name -
 `tensorflow-model.py`. Let's open it.
-
-![The generated tensorflow-model.py with the ipython cell magics left behind](images/04-preparing-code-03-generated-script-crisp.png)
 
 The generated script contains all the cells of the notebook converted
 to Python code, including a lot of stuff we don't need for making
@@ -48,8 +42,6 @@ that takes a URL. Inside, it fetches the image from the URL (for now
 this line is commented out - we don't need it here, we'll use it for
 testing), runs the inference, and converts the predictions to the
 dictionary form:
-
-![Cleaning up the generated script: the predict function, and the lambda handler about to be written](images/04-preparing-code-04-predict-function-crisp.png)
 
 After cleaning, the script looks like this:
 
@@ -110,8 +102,6 @@ def lambda_handler(event, context):
     return result
 ```
 
-![The complete script: predict and lambda_handler](images/04-preparing-code-06-final-script-crisp.png)
-
 We rename the file to `lambda_function.py` - this is where our lambda
 function will live. (The version of this file in the module's
 [code/](code/) directory already includes a small fix we add in the
@@ -130,8 +120,6 @@ First, call `predict` directly with the URL of a pants picture:
 ```python
 lambda_function.predict('http://bit.ly/mlbookcamp-pants')
 ```
-
-![Testing the script in IPython: predict returns the dictionary of scores](images/04-preparing-code-05-test-in-ipython-crisp.png)
 
 It works: it fetches the image, prepares it, makes the prediction, and
 converts the prediction to the dictionary form. We see the scores we

@@ -16,8 +16,6 @@ that takes the request and returns the response. It doesn't even have
 to be called `lambda_handler`; we can name it whatever we want. We
 deploy it to Lambda, and AWS takes care of everything else.
 
-![The lambda handler and the predict function we wrote in this session](images/08-summary-01-lambda-handler-code-crisp.png)
-
 We only pay when the function is actually doing something: a request
 comes in, the function computes the answer and replies. We don't pay
 for the idle time when no requests are coming. This makes Lambda a
@@ -33,8 +31,6 @@ make sure that the environment you have locally works. After verifying
 that everything is fine, you deploy it to Lambda - and you will not
 have any surprises there.
 
-![The summary points of this module](images/08-summary-02-summary-points-crisp.png)
-
 After deploying, the only things left to do were giving the function
 more RAM, increasing the timeout, and exposing it with API Gateway.
 That's all you need.
@@ -46,21 +42,15 @@ on the inference part of TensorFlow models. It's very small, but it's
 not as simple to use: you remember that we needed to write quite a lot
 more code than a plain `model.predict`.
 
-![The TF-Lite inference code: set the input, invoke, get the output](images/08-summary-03-tflite-inference-code-crisp.png)
-
 The benefit is the size. Let's actually look at it. The TF-Lite
 runtime wheel is tiny - about 2-3 MB. There are precompiled wheels for
 different Python and TensorFlow versions:
-
-![The precompiled TF-Lite runtime wheels for different Python versions](images/08-summary-04-tflite-wheels-crisp.png)
 
 Now compare that with TensorFlow: the TensorFlow 2.7.0 wheel is a
 couple hundred megabytes, almost 500 MB - and that's packed, unpacked
 it's much more than that (we saw 1.7 GB in lesson three). So using
 TF-Lite instead of TensorFlow gives us roughly a hundredfold reduction
 in size, which is exactly what we want when we deploy.
-
-![The TensorFlow 2.7.0 wheels on PyPI: around 480 MB for Linux, packed](images/08-summary-05-tensorflow-wheel-size-crisp.png)
 
 ## Explore more
 

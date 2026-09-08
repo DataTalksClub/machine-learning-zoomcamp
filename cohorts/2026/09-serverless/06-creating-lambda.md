@@ -33,8 +33,6 @@ aws ecr create-repository --repository-name clothing-tflite-images
 installed it with `pip install awscli`.) The response contains the
 details of the repository we just created:
 
-![Creating the ECR repository and installing the AWS CLI](images/06-creating-lambda-01-ecr-create-repository-crisp.png)
-
 ```text
 "registryId": "387546586013",
 "repositoryName": "clothing-tflite-images",
@@ -116,8 +114,6 @@ docker push ${REMOTE_URI}
 I'm pushing from an EC2 instance, so it's quite fast. Afterwards,
 refreshing the ECR page in the console shows the image with our tag.
 
-![docker push uploading the image layers to our ECR registry](images/06-creating-lambda-02-docker-push-crisp.png)
-
 ## Creating the function
 
 Now back to Lambda. Click "Create function", select "Container image",
@@ -185,14 +181,10 @@ pay for every millisecond the function runs, multiplied by the amount
 of memory. The pricing page has a table with the price per 1ms for
 each memory setting.
 
-![The AWS Lambda pricing page for Europe (Ireland): price per 1ms by memory](images/06-creating-lambda-07-lambda-pricing-crisp.png)
-
 Our function is configured with 1024 MB of memory - in my test run it
 actually used at most 270 MB - and takes about two seconds to classify
 an image. At 1024 MB we pay $0.000000167 per millisecond. Let's do a
 quick calculation in Python:
-
-![The calculation in IPython: price per image, per 10,000 images, per 1 million images on x86 and on ARM](images/06-creating-lambda-08-price-calculation-crisp.png)
 
 - One image costs about 0.0000334 dollars ($0.000000167 x 2000 ms).
 - Classifying 10,000 images costs about 33 cents.

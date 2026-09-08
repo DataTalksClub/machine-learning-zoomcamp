@@ -64,8 +64,6 @@ sure what `context` is needed for - usually it's not needed. What we
 can do for now is print the event to see what's inside, and of course
 we can access it and do whatever we want with it.
 
-![The edited handler: print the parameters and return "PONG" - the changes are not deployed yet](images/02-aws-lambda-03-pong-handler-crisp.png)
-
 ## Testing the function
 
 We can test it right now: click the "Test" button. This opens the
@@ -107,8 +105,6 @@ return the results. This is a lambda function: all we need to do is
 write some code, deploy it, and test it - no EC2 instances, no servers.
 
 ![The test response: {"prediction": "pants"}](images/02-aws-lambda-05-pants-response-crisp.png)
-
-![The final handler code: read the URL from the event, call predict, return the results](images/02-aws-lambda-06-final-handler-code-crisp.png)
 
 ## Serverless vs serverful
 
