@@ -66,7 +66,7 @@ from the beginning. One is
 [Rancher Desktop](https://rancherdesktop.io/) - similar to Docker
 Desktop, but for Kubernetes.
 
-![Rancher Desktop: Kubernetes and container management on the desktop](images/09-summary-03-rancher.jpg)
+![Rancher Desktop: Kubernetes and container management on the desktop](images/09-summary-03-rancher-cropped.png)
 
 By the way, speaking of Docker Desktop: it also ships some sort of
 Kubernetes cluster. If you use Windows, that may be easier than setting
