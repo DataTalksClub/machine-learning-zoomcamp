@@ -78,7 +78,7 @@ for i in range(n):
 success / n
 ```
 
-![The simulation in the notebook: 100000 random positive-negative pairs, 84% of them won by the positive](images/06-auc-06-auc-simulation.jpg)
+![The simulation in the notebook: 100000 random positive-negative pairs, 84% of them won by the positive](images/06-auc-06-auc-simulation-cropped.png)
 
 The result is `0.8434` - practically the same as the AUC of `0.843850505725819`.
 
