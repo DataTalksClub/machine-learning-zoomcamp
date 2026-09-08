@@ -156,10 +156,8 @@ accuracy, 0.0 and 0.2:
 
 ```python
 hist = scores[0.0]
-plt.plot(hist['val_accuracy'], label=0.0)
-
-hist = scores[0.2]
-plt.plot(hist['val_accuracy'], label=0.2)
+plt.plot(hist['val_accuracy'], label='val')
+plt.plot(hist['accuracy'], label='train')
 
 plt.legend()
 ```
