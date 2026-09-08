@@ -91,7 +91,7 @@ And one technical detail: in front of the cluster there's a thing called
 routes the request to one of the external services. It's the entry point
 to the cluster.
 
-![The whiteboard definitions: node, pod, deployment, service, ingress](images/05-kubernetes-intro-05-definitions-cropped.png)
+![The whiteboard definitions: node, pod, deployment, service, ingress](images/05-kubernetes-intro-05-definitions-imagegen.png)
 
 ![External and internal services, with ingress in front of the cluster](images/05-kubernetes-intro-04-external-internal-ingress-imagegen.png)
 
