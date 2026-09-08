@@ -8,9 +8,10 @@ unchanged.
 ## Native cleanup
 
 Commit `c613aa7` removed the 33 `REMOVE-NATIVE` image references from the
-lesson Markdown. The corresponding source binaries remain in `images/` for
-historical/source inspection. The remaining two unresolved references were
-inspected separately below.
+lesson Markdown. After inspecting the unresolved references, commit
+`d679ff8` also removed the duplicate Docker command screenshot. The
+corresponding source binaries remain in `images/` for historical/source
+inspection. One unresolved AWS console reference remains active.
 
 ## Imagegen repair batch
 
@@ -37,8 +38,8 @@ The original, bounded crop, and current target are a terminal/code capture
 with handwritten annotations. The lesson already includes the complete
 `docker run` command and explains the model name/version mapping in prose.
 This is native command content rather than a useful conceptual visual, so its
-Markdown image reference should be removed while preserving the JPG, crop,
-and existing PNG source binaries.
+Markdown image reference was removed in `d679ff8` while preserving the JPG,
+crop, and existing PNG source binaries.
 
 ### `08-eks-06-aws-console-crisp.png`
 
@@ -49,4 +50,3 @@ evidence screenshot, not a diagram that can safely be regenerated without
 inventing AWS interface text. It remains unresolved pending either a
 faithful source-backed redraw or an explicit decision to remove the image;
 no new imagegen asset was substituted.
-
