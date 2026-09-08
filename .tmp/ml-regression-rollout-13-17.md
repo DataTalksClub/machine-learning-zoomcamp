@@ -27,3 +27,4 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | 14 | `14-tuning-model-03-choosing-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the full comparison table used to justify choosing `r=0.001`; remove browser/camera frame. |
 | 14 | `14-tuning-model-04-final-model.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the selected `r=0.001` training cell and validation RMSE `0.46081585838957173`; remove browser/camera frame. |
 | 15 | `15-using-model-01-full-train-concat.jpg` | keep/crop | 10/12 | Crop `(x=20,y=210,w=540,h=145)`; focus on the `pd.concat` cell and resulting combined dataframe; remove browser/camera frame and unrelated preceding cells. |
+| 15 | `15-using-model-02-full-train-prepare-x.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve `concat`, `reset_index`, `prepare_X`, and the resulting feature matrix; remove browser/camera frame. |

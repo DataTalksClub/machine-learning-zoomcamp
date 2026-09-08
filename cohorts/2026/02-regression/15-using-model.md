@@ -50,7 +50,7 @@ feature matrix:
 X_full_train = prepare_X(df_full_train)
 ```
 
-![The three cells together: concat, reset_index, and prepare_X for the full train dataset](images/15-using-model-02-full-train-prepare-x.jpg)
+![The three cells together: concat, reset_index, and prepare_X for the full train dataset](images/15-using-model-02-full-train-prepare-x-cropped.png)
 
 We also need the target values `y`. There is a function in NumPy called
 `concatenate` that does the same thing for arrays - and since arrays have no
