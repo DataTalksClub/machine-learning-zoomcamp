@@ -51,12 +51,25 @@ This is native command content rather than a useful conceptual visual, so its
 Markdown image reference was removed in `d679ff8` while preserving the JPG,
 crop, and existing PNG source binaries.
 
-### `08-eks-06-aws-console-crisp.png`
+### Removed `08-eks-06-aws-console-crisp.png` reference
 
-The original, bounded crop, and current target show the EC2 Instances page,
-but the source includes browser/camera capture artifacts and the current PNG
-is an enlarged screenshot rather than a verified redraw. It is a factual UI
-evidence screenshot, not a diagram that can safely be regenerated without
-inventing AWS interface text. It remains unresolved pending either a
-faithful source-backed redraw or an explicit decision to remove the image;
-no new imagegen asset was substituted.
+The Markdown embed was removed from `08-eks.md` because this is a factual AWS
+console evidence screenshot, not a conceptual diagram. The source contains
+browser/camera capture artifacts, and the current PNG is an enlarged screenshot
+rather than a verified redraw. Regenerating it with imagegen would require
+inventing AWS interface text and therefore would not be faithful to the lesson.
+The surrounding lesson explanation remains and still describes the EKS node,
+EC2 instances, and load balancer.
+
+The source and preserved output files were not deleted. Their exact hashes at
+removal time are:
+
+| File | SHA-256 |
+| --- | --- |
+| `08-eks-06-aws-console.jpg` (original source) | `852acf5139771b097cd11bbf47336c7f63dc6dafbb07e3b6bed7844de64e469a` |
+| `08-eks-06-aws-console-cropped.png` (bounded crop) | `958342ba36a6a42f43f23f1396dbed55bca0356c7835e77d6d4db0976a514320` |
+| `08-eks-06-aws-console-crisp.png` (preserved prior output) | `d1837f297698b2ce324edac008cd6c93662127a2da5075644043e3e8cbff4011` |
+
+No replacement image was generated. This is an intentional removal of the
+Markdown reference only; the original, crop, and prior PNG remain available
+for historical/source inspection.
