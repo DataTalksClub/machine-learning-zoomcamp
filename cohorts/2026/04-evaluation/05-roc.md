@@ -74,7 +74,7 @@ plt.plot(df_scores.threshold, df_scores['fpr'], label='FPR')
 plt.legend()
 ```
 
-![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold-cropped.png)
+![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold-crisp.png)
 
 ## The random model
 
@@ -87,7 +87,7 @@ y_rand = np.random.uniform(0, 1, size=len(y_val))
 
 Its accuracy at threshold 0.5 is `0.5017743080198722` - a coin flip, as expected. Computing the TPR/FPR table for these random scores (with the same loop, wrapped in a reusable function `tpr_fpr_dataframe`) and plotting gives two almost straight lines going down together:
 
-![TPR and FPR of the random model at different thresholds](images/05-roc-02-random-model-tpr-fpr-cropped.png)
+![TPR and FPR of the random model at different thresholds](images/05-roc-02-random-model-tpr-fpr-crisp.png)
 
 For the random model, at any threshold the fraction of positives we catch is the same as the fraction of negatives we bother - it cannot tell the two groups apart.
 
@@ -111,7 +111,7 @@ accuracy_score(y_ideal, y_ideal_pred >= 0.726)
 
 This gives `1.0` - perfect predictions, as an ideal model should. Its TPR and FPR vs threshold:
 
-![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr-cropped.png)
+![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr-crisp.png)
 
 The ideal TPR stays at 1.0 for every threshold below 0.726 - it catches all churners while they all score higher than any non-churner - and only then drops. The ideal FPR falls to 0 at that same point.
 
@@ -129,7 +129,7 @@ plt.plot(df_ideal.threshold, df_ideal['fpr'], label='FPR ideal')
 plt.legend()
 ```
 
-![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr-cropped.png)
+![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr-crisp.png)
 
 ## The ROC curve
 
@@ -147,7 +147,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual-cropped.png)
+![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual-crisp.png)
 
 The lesson to take away: the closer the curve hugs the top-left corner - high true positive rate at a low false positive rate - the better the model. A curve sitting on the diagonal belongs to a random model.
 
@@ -175,7 +175,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn-cropped.png)
+![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn-crisp.png)
 
 What kind of information do we get from this curve - and how do we boil it down to a single number? That is the ROC AUC metric, the topic of the next lesson.
 

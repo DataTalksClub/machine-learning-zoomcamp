@@ -12,7 +12,7 @@ In this lesson we look at accuracy, the simplest evaluation metric: the fraction
 
 Accuracy measures the fraction of correct predictions: the number of correct predictions divided by the total number of predictions.
 
-![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example-cropped.jpg)
+![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example-crisp.png)
 
 Our validation set has 1409 customers:
 
@@ -28,7 +28,7 @@ This gives `1409`. With the decision threshold at 0.5, the model made the right 
 
 This gives `0.8034066713981547`. Indeed, 1132 / 1409 is 0.8034 - about 80% of the predictions match the actual outcomes.
 
-![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook-cropped.jpg)
+![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook-crisp.png)
 
 Scikit-learn has this computation built in as `accuracy_score`:
 
@@ -40,7 +40,7 @@ accuracy_score(y_val, y_pred >= 0.5)
 
 This gives the same `0.8034066713981547`.
 
-![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score-cropped.jpg)
+![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score-crisp.png)
 
 ## Checking different thresholds
 
@@ -85,7 +85,7 @@ The output:
 
 Plotted, the accuracy rises quickly, peaks around 0.5, and then slowly declines before flattening out:
 
-![Accuracy of the model at different decision thresholds](images/02-accuracy-01-accuracy-vs-threshold-cropped.jpg)
+![Accuracy of the model at different decision thresholds](images/02-accuracy-01-accuracy-vs-threshold-crisp.png)
 
 So for this problem the best decision cutoff is indeed 0.5, with 80% accuracy. That was a lucky guess - but it didn't have to be. On other problems the best threshold is often different from 0.5, and this simple loop is how you find it.
 
@@ -105,7 +105,7 @@ The output confirms it - every single prediction is `False`:
 Counter({False: 1409})
 ```
 
-![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter-cropped.jpg)
+![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter-crisp.png)
 
 What accuracy does this dummy model get? The answer is the fraction of customers who did not churn:
 
@@ -115,17 +115,17 @@ What accuracy does this dummy model get? The answer is the fraction of customers
 
 This gives `0.7260468417317246` - 73%.
 
-![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy-cropped.jpg)
+![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy-crisp.png)
 
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
 
-![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints-cropped.jpg)
+![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints-crisp.png)
 
 ## Why accuracy fails here: class imbalance
 
 The reason is that the classes are unbalanced: only 27% of the customers in the validation set churned, and 73% stayed. This is called class imbalance - there are many more instances of one class than of the other.
 
-![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance-cropped.jpg)
+![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance-crisp.png)
 
 With such an imbalance, a model can get a high accuracy by always predicting the majority class, while being completely useless for the minority class - which is exactly the class we care about: we want to find the customers who are about to leave.
 
