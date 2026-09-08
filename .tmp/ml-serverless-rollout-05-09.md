@@ -251,3 +251,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact filenames, Python tags, and version labels were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `tflite_runtime` rows across 2.4.4, 2.5.2, 2.6.2, and 2.7.0 remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 08-summary-05-tensorflow-wheel-size.jpg
+
+- **Disposition:** `crop/replace` → `images/08-summary-05-tensorflow-wheel-size-cropped.png`
+- **Teaching point:** the TensorFlow 2.7.0 PyPI page shows the large Linux wheel files, around 480 MB each.
+- **Source inspection:** 594×360; crop `+0+52 550×265` removes browser chrome, webcam tile, and side frame while retaining the download table and file sizes.
+- **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact wheel names, Python versions, and MB values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; Linux wheel filenames and roughly 430–490 MB sizes remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The page title/header is outside the focused crop.

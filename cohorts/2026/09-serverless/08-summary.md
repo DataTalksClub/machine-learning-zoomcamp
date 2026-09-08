@@ -60,7 +60,7 @@ it's much more than that (we saw 1.7 GB in lesson three). So using
 TF-Lite instead of TensorFlow gives us roughly a hundredfold reduction
 in size, which is exactly what we want when we deploy.
 
-![The TensorFlow 2.7.0 wheels on PyPI: around 480 MB for Linux, packed](images/08-summary-05-tensorflow-wheel-size.jpg)
+![The TensorFlow 2.7.0 wheels on PyPI: around 480 MB for Linux, packed](images/08-summary-05-tensorflow-wheel-size-cropped.png)
 
 ## Explore more
 
