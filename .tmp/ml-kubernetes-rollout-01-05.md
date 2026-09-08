@@ -237,3 +237,13 @@ crops and upscaling.
 - Invariants checked: gateway/gunicorn startup, `localhost:9696`, TensorFlow Serving model load, `clothing-model` version `1`, and `Status: success: OK` remain exact.
 - Limitation: the source itself truncates some long log lines at both edges; no log text was guessed or expanded.
 - Output: `images/04-docker-compose-05-compose-up-cropped.png`.
+
+### `05-kubernetes-intro-01-cluster-nodes-pods.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: A cluster with two nodes, each running pods.
+- Disposition: imagegen replacement; the source is a bounded Kubernetes cluster diagram.
+- Source inspection: `596x360`; webcam sliver and black side bars present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-01-cluster-nodes-pods-source-clean.png`, coordinates `475x360+23+0`.
+- Invariants checked: one `CLUSTER`, exactly two stacked `NODE` regions, pods inside each node, and the labels `10.5 INTRODUCTION TO KUBERNETES`, `CLUSTER`, `NODE`, and `POD`.
+- Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or unrelated Kubernetes component remains.
+- Output: `images/05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png`.

@@ -31,7 +31,7 @@ image with specific parameters. Each node can have multiple pods, and
 different pods may need different amounts of resources - one pod might
 take more CPU and RAM, another one less.
 
-![A cluster with two nodes, each running pods](images/05-kubernetes-intro-01-cluster-nodes-pods.jpg)
+![A cluster with two nodes, each running pods](images/05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png)
 
 ## Deployments
 
