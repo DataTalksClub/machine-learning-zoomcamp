@@ -144,7 +144,7 @@ needed - it's fine if the images always come in the same order. This
 one finds 341 images belonging to the same 10 classes. Right below it
 we can already start writing the base model:
 
-![The validation generator finds 341 images; below it, the Xception base model](images/05-transfer-learning-04-validation-341.jpg)
+![The validation generator finds 341 images; below it, the Xception base model](images/05-transfer-learning-04-validation-341-cropped.png)
 
 ## Building the model
 
