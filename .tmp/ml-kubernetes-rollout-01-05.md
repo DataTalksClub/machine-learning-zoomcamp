@@ -189,3 +189,12 @@ crops and upscaling.
 - Invariants checked: `dtypes_as_dtype`, `DT_FLOAT`, shape/dims conversion, `TensorShapeProto`, `TensorProto`, and `tensor_content` remain exact.
 - Limitation: the source itself truncates long right-side code lines; the crop does not invent or reflow them.
 - Output: `images/03-preprocessing-06-proto-py-cropped.png`.
+
+### `04-docker-compose-01-model-image.jpg`
+
+- Lesson: `04-docker-compose.md`; caption: Building the model image and running it: TensorFlow Serving loads the model successfully.
+- Disposition: deterministic crop/prep; exact TensorFlow Serving logs and Docker build command are the source of truth.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-01-model-image-source-clean.png`, coordinates `500x320+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: model load success, gRPC/HTTP endpoints, event loop, and `docker build -t zoomcamp-10-model:xception-v4-001 -f image-model.dockerfile .` remain exact.
+- Output: `images/04-docker-compose-01-model-image-cropped.png`.

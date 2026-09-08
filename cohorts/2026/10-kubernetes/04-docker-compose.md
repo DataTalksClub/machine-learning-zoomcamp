@@ -46,7 +46,7 @@ Now we could simply run the image with
 check that it works, we can run the gateway locally (with the prediction
 call in `gateway.py` uncommented) and point it at the container:
 
-![Building the model image and running it: TensorFlow Serving loads the model successfully](images/04-docker-compose-01-model-image.jpg)
+![Building the model image and running it: TensorFlow Serving loads the model successfully](images/04-docker-compose-01-model-image-cropped.png)
 
 ## Preparing the gateway image
 
