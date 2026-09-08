@@ -75,7 +75,7 @@ AWS now gives us a URL for this stage. Let's take it and update our
 `test.py` script: comment out the local address and use the gateway
 URL instead, followed by `/predict` - the resource we created:
 
-![Deploying the API to a new stage called "test"](images/07-api-gateway-06-deploy-stage-cropped.png)
+![Deploying the API to a new stage called "test"](images/07-api-gateway-06-deploy-stage-crisp.png)
 
 ```python
 import requests
