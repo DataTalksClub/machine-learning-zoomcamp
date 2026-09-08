@@ -210,7 +210,7 @@ the same way. Once we stop the port-forwarding, the same `curl` fails
 with `connection refused` - there is nothing listening on our local port
 anymore.
 
-![Loading the image into kind, checking the pod, and port-forwarding](images/06-kubernetes-simple-service-05-kind-load.jpg)
+![Loading the image into kind, checking the pod, and port-forwarding](images/06-kubernetes-simple-service-05-kind-load-cropped.png)
 
 ## Creating a service
 
