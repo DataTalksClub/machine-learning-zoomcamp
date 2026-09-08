@@ -22,7 +22,7 @@ ImageNet is a dataset with a lot of images. On its website we can see
 that it spans 1000 object classes and has almost 1,300,000 images in
 the training set, 50,000 in validation and 100,000 in test:
 
-![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet-cropped.png)
+![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet-crisp.png)
 
 We will not download it - it's huge. It contains all sorts of animals,
 objects, wheels, yachts, planes, nature, people, even clothes. It's a
@@ -33,7 +33,7 @@ to a lot of data and cool computers, took this dataset, took some
 neural networks, trained them on ImageNet and shared the results. The
 results are the models on the Keras Applications page:
 
-![The Keras Applications page lists pre-trained models with size, accuracy, parameters and speed](images/03-pretrained-models-01-keras-applications-cropped.png)
+![The Keras Applications page lists pre-trained models with size, accuracy, parameters and speed](images/03-pretrained-models-01-keras-applications-crisp.png)
 
 There are different kinds of models - Xception, VGG, ResNet and many
 others. They have different so-called architectures: an architecture
@@ -51,7 +51,7 @@ between size, accuracy and speed.
 Before I was running TensorFlow locally, but now let me use SageMaker.
 I created an instance there - this instance type has a GPU:
 
-![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu-cropped.png)
+![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu-crisp.png)
 
 A GPU is needed if you want to run things faster. You can run on your
 usual processor (CPU), but it will be around 8 times slower. GPUs are
@@ -85,12 +85,12 @@ The first parameter, `weights='imagenet'`, means we want the network
 that was pre-trained on ImageNet. The input to this model is 299x299x3
 - so we also load our t-shirt image with `target_size=(299, 299)`:
 
-![Loading the image at 299x299 and creating the Xception model](images/03-pretrained-models-04-xception-model-cropped.png)
+![Loading the image at 299x299 and creating the Xception model](images/03-pretrained-models-04-xception-model-crisp.png)
 
 The first time you run this, it downloads the model from the internet
 and unpacks it, so it takes some time:
 
-![Creating the Xception model downloads the pre-trained weights](images/03-pretrained-models-05-xception-weights-download-cropped.png)
+![Creating the Xception model downloads the pre-trained weights](images/03-pretrained-models-05-xception-weights-download-crisp.png)
 
 Now we want to use this model to classify the image of the t-shirt.
 The model doesn't expect just one image - it expects a bunch of
@@ -105,7 +105,7 @@ The shape is `(1, 299, 299, 3)`: one image, 299 by 299, with three
 channels. If we had several images - say 3 - we would put all of them
 in this array, and the shape would be `(3, 299, 299, 3)`:
 
-![The batch X has shape (1, 299, 299, 3) - one image](images/03-pretrained-models-06-batch-shape-cropped.png)
+![The batch X has shape (1, 299, 299, 3) - one image](images/03-pretrained-models-06-batch-shape-crisp.png)
 
 ## Preprocessing
 
@@ -122,7 +122,7 @@ X = preprocess_input(X)
 After preprocessing, our image no longer contains numbers between 0
 and 255 - they are converted to numbers between -1 and 1:
 
-![After preprocess_input the pixel values are between -1 and 1](images/03-pretrained-models-07-preprocess-input-cropped.png)
+![After preprocess_input the pixel values are between -1 and 1](images/03-pretrained-models-07-preprocess-input-crisp.png)
 
 We have to do this if we want the model to function correctly, because
 this is the preprocessing that was used for training it.
@@ -149,7 +149,7 @@ names:
 decode_predictions(pred)
 ```
 
-![The decoded predictions: jersey, bulletproof vest, sweatshirt, maillot, velvet](images/03-pretrained-models-08-decode-predictions-cropped.png)
+![The decoded predictions: jersey, bulletproof vest, sweatshirt, maillot, velvet](images/03-pretrained-models-08-decode-predictions-crisp.png)
 
 The top class is jersey with probability 0.68. Jersey is an item of
 knitted clothing, usually made of wool or cotton. It's not exactly a
