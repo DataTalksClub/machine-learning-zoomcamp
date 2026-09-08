@@ -176,7 +176,7 @@ spec:
         - containerPort: 9696 # port to expose
 ```
 
-![The deployment.yaml: all pods with label app=ping belong to this deployment, and each pod gets this label](images/06-kubernetes-simple-service-04-deployment-yaml.jpg)
+![The deployment.yaml: all pods with label app=ping belong to this deployment, and each pod gets this label](images/06-kubernetes-simple-service-04-deployment-yaml-cropped.png)
 
 We can now apply the `deployment.yaml` to our Kubernetes cluster:
 
