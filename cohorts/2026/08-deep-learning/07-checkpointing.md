@@ -84,6 +84,9 @@ Python's `format` notation:
 So after the third epoch with validation accuracy 0.836, the file on
 disk will be called `xception_v1_03_0.836.h5`.
 
+For example, epoch 12 with validation accuracy 0.840 produces
+`xception_v1_12_0.840.h5`.
+
 Then `save_best_only`. Say after the first epoch the validation
 accuracy is 75% - that's the best so far, so we save the model. If
 after the second epoch it's 80%, that's an improvement, so we save it

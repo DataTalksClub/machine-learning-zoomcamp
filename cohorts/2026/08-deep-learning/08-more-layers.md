@@ -36,6 +36,8 @@ ReLU: a negative input becomes zero, a positive input goes through
 unchanged. For a good overview of activation functions, see the
 [CS231n course notes](http://cs231n.stanford.edu/2017/).
 
+In formula form, the activation is `f(x) = max(0, x)`.
+
 ![The CS231n notes on the ReLU activation function: f(x) = max(0, x)](images/08-more-layers-02-activation-functions-crisp.png)
 
 Here's the updated `make_model` function - the only change is the
