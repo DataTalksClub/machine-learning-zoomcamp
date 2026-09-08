@@ -74,7 +74,7 @@ plt.plot(df_scores.threshold, df_scores['fpr'], label='FPR')
 plt.legend()
 ```
 
-![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold.jpg)
+![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold-cropped.png)
 
 ## The random model
 
