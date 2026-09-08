@@ -13,6 +13,10 @@ use the built-in imagegen workflow after source inspection.
   light unsharp; preserved the import, model construction, and `fit` call;
   removed notebook/browser frame and camera tile.
 
+Correction: replaced the first crop with a tighter source crop
+`(15,52,440,84)` to remove the remaining Jupyter menu bar while preserving
+both code cells and their exact text.
+
 - `10-training-log-reg-02-coefficients.jpg` →
   `10-training-log-reg-02-coefficients-cropped.png` — deterministic composite
   of the intercept crop `(15,32,440,52)` and coefficient crop
