@@ -88,11 +88,11 @@ predictions at the end.
 When we execute this cell, it says that in the train folder it found
 3068 images belonging to 10 classes:
 
-![The train generator found 3068 images belonging to 10 classes](images/05-transfer-learning-02-found-3068-images-cropped.png)
+![The train generator found 3068 images belonging to 10 classes](images/05-transfer-learning-02-found-3068-images-crisp.png)
 
 We can look at which classes it found with `train_ds.class_indices`:
 
-![The class indices: dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt, t-shirt](images/05-transfer-learning-03-class-indices-one-hot-cropped.png)
+![The class indices: dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt, t-shirt](images/05-transfer-learning-03-class-indices-one-hot-crisp.png)
 
 The first class is dress, then hat, longsleeve, outwear, pants, and so
 on - t-shirt is the last one. These are the same names as the folders
@@ -144,7 +144,7 @@ needed - it's fine if the images always come in the same order. This
 one finds 341 images belonging to the same 10 classes. Right below it
 we can already start writing the base model:
 
-![The validation generator finds 341 images; below it, the Xception base model](images/05-transfer-learning-04-validation-341-cropped.png)
+![The validation generator finds 341 images; below it, the Xception base model](images/05-transfer-learning-04-validation-341-crisp.png)
 
 ## Building the model
 
@@ -211,7 +211,7 @@ three-dimensional. We want to turn it into a one-dimensional vector.
 For that we can slice this 5x5x2048 thing into 2048 squares of 5x5,
 take the average of each square, and put that average into the vector:
 
-![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors-cropped.png)
+![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors-crisp.png)
 
 Taking something and representing it in a smaller dimensionality is
 called pooling. Here we need average pooling, because we take an
@@ -236,7 +236,7 @@ numbers per image, because we have 10 classes:
 outputs = keras.layers.Dense(10)(vectors)
 ```
 
-![The dense layer with 10 outputs; the predictions have shape (32, 10)](images/05-transfer-learning-06-dense-10-outputs-cropped.png)
+![The dense layer with 10 outputs; the predictions have shape (32, 10)](images/05-transfer-learning-06-dense-10-outputs-crisp.png)
 
 So the whole picture: the t-shirt image goes to inputs, from there to
 the base model, which produces the 5x5x2048 thing; pooling turns it
@@ -338,7 +338,7 @@ Also, `model.fit` returns a history object which contains all the
 training information - useful to have, so let's capture it in a
 variable.
 
-![Training output: loss goes down and accuracy grows on train, validation accuracy shown after each epoch](images/05-transfer-learning-07-training-output-cropped.png)
+![Training output: loss goes down and accuracy grows on train, validation accuracy shown after each epoch](images/05-transfer-learning-07-training-output-crisp.png)
 
 Now training works: the accuracy on train grows, the loss goes down.
 After the first epoch the validation accuracy is already 75%. Accuracy
@@ -354,7 +354,7 @@ plot them: for training it almost reaches 1.0, and for validation it
 quickly reaches about 80 and then just oscillates around 80 for the
 rest of the iterations - sometimes it jumps up, sometimes down.
 
-![Train accuracy almost reaches 1.0 while validation accuracy oscillates around 0.80](images/05-transfer-learning-08-history-plot-cropped.png)
+![Train accuracy almost reaches 1.0 while validation accuracy oscillates around 0.80](images/05-transfer-learning-08-history-plot-crisp.png)
 
 With just these parameters - no tuning - we already have a reasonably
 good model: about 80% validation accuracy. Of course, there are many
