@@ -81,8 +81,6 @@ It also creates two files in the project directory:
 It is the lock file that makes deployments predictable: "works on my machine"
 stops being a mystery, because the server installs precisely what we tested.
 
-![Installing the dependencies: Pipfile updated, Pipfile.lock created](images/05-pipenv-05-pipenv-install-lock-crisp.png)
-
 ## Running things with Pipenv
 
 On another machine - or after cloning the project - one command recreates the
@@ -100,8 +98,6 @@ pipenv shell
 
 Inside this shell, `python` and every command use the virtual environment's
 packages, so we can start the service as usual:
-
-![Inside the shell, gunicorn resolves to the virtual environment's bin directory](images/05-pipenv-06-shell-path-crisp.png)
 
 ```bash
 gunicorn --bind localhost:9696 predict:app

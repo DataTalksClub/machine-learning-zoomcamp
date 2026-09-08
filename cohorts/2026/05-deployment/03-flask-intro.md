@@ -9,8 +9,6 @@ code:
 In this unit we learn what a web service is and write our first one: a tiny
 Flask app that answers a ping request with "PONG".
 
-![The plan of the module: web services are the focus of this week](images/03-flask-intro-01-module-overview-crisp.png)
-
 ## What is a web service?
 
 A web service is a way for applications to talk to each other over HTTP - the
@@ -51,8 +49,6 @@ def ping():
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
 ```
-
-![The ping.py service in the editor](images/03-flask-intro-03-ping-app-crisp.png)
 
 Line by line:
 

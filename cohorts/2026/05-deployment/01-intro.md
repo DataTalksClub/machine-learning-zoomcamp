@@ -35,8 +35,6 @@ promo email or do nothing.
 We will take the churn model from the notebook to a working web service step
 by step:
 
-![The plan of the module, from the lesson notes](images/01-intro-03-module-plan-crisp.png)
-
 - Saving and loading the model with pickle, and turning the notebook into a
   Python script, so the model can be used without re-training it every time.
 - Creating a web service with Flask: first a small ping/pong service, then
@@ -49,8 +47,6 @@ by step:
   any machine.
 - Finally, deploying the container to the cloud with AWS Elastic Beanstalk
   (optional), which makes the service available on the internet.
-
-![The second half of the plan: Pipenv, Docker and AWS](images/01-intro-04-module-plan-continued-crisp.png)
 
 Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system
