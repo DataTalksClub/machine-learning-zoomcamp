@@ -338,7 +338,7 @@ Also, `model.fit` returns a history object which contains all the
 training information - useful to have, so let's capture it in a
 variable.
 
-![Training output: loss goes down and accuracy grows on train, validation accuracy shown after each epoch](images/05-transfer-learning-07-training-output.jpg)
+![Training output: loss goes down and accuracy grows on train, validation accuracy shown after each epoch](images/05-transfer-learning-07-training-output-cropped.png)
 
 Now training works: the accuracy on train grows, the loss goes down.
 After the first epoch the validation accuracy is already 75%. Accuracy
