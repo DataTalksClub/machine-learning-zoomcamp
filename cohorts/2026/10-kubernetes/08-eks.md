@@ -171,7 +171,7 @@ Kubernetes created - because our gateway service has the type
 `LoadBalancer`, applying the config went to AWS and created an elastic
 load balancer for us.
 
-![The EKS node in the EC2 panel of the AWS console](images/08-eks-06-aws-console.jpg)
+![The EKS node in the EC2 panel of the AWS console](images/08-eks-06-aws-console-cropped.png)
 
 One thing to keep in mind: this load balancer is open to everyone.
 Anyone who has this DNS name can send requests to our EKS cluster.
