@@ -26,7 +26,7 @@ model = LogisticRegression(solver='lbfgs')
 model.fit(X_train, y_train)
 ```
 
-![Training logistic regression: create the model with LogisticRegression and call fit with the feature matrix and the target vector](images/10-training-log-reg-01-fit-cropped.png)
+![Training logistic regression: create the model with LogisticRegression and call fit with the feature matrix and the target vector](images/10-training-log-reg-01-fit-crisp.png)
 
 The `solver` is the optimization algorithm that finds the best weights.
 After `fit`, the model has learned both parts of the formula from the
@@ -56,7 +56,7 @@ array([ 0.475, -0.175, -0.408, -0.03 , -0.078,  0.063, -0.089, -0.081,
         0.213, -0.089, -0.232, -0.07 ,  0.   ])
 ```
 
-![The bias term and the 45 weights the model learned - one weight per column produced by DictVectorizer](images/10-training-log-reg-02-coefficients-cropped.png)
+![The bias term and the 45 weights the model learned - one weight per column produced by DictVectorizer](images/10-training-log-reg-02-coefficients-crisp.png)
 
 We will read these coefficients in the next lesson.
 
@@ -87,14 +87,14 @@ more, we predict that the customer will churn:
 churn_decision = (y_pred >= 0.5)
 ```
 
-![Applying the 0.5 threshold: the comparison produces a boolean array with the final churn decision for each customer](images/10-training-log-reg-04-churn-decision-cropped.png)
+![Applying the 0.5 threshold: the comparison produces a boolean array with the final churn decision for each customer](images/10-training-log-reg-04-churn-decision-crisp.png)
 
 The result is a boolean array. We can use it to select the customers
 the model thinks will churn - for example, the ones who should receive
 a promotional email with a discount. Selecting the validation rows with
 this mask gives 311 customers.
 
-![Selecting the validation rows with the churn decision mask: 311 customers should receive the promotional email](images/10-training-log-reg-05-selected-customers-cropped.png)
+![Selecting the validation rows with the churn decision mask: 311 customers should receive the promotional email](images/10-training-log-reg-05-selected-customers-crisp.png)
 
 ## Accuracy
 
@@ -134,7 +134,7 @@ df_pred.correct.mean()
 0.8034066713981547
 ```
 
-![Computing accuracy both ways: comparing predictions with actual values, and taking the mean of the correct column](images/10-training-log-reg-06-accuracy-cropped.png)
+![Computing accuracy both ways: comparing predictions with actual values, and taking the mean of the correct column](images/10-training-log-reg-06-accuracy-crisp.png)
 
 Same number, as expected. Taking the mean of a boolean column counts
 the fraction of `True` values, because `True` is 1 and `False` is 0.
