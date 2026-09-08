@@ -118,7 +118,7 @@ kubectl port-forward service/tf-serving-clothing-model 8500:8500
 
 then run `gateway.py` again for predictions.
 
-![The model service: a ClusterIP service in front of the TF-Serving pods](images/07-kubernetes-tf-serving-04-model-service.jpg)
+![The model service: a ClusterIP service in front of the TF-Serving pods](images/07-kubernetes-tf-serving-04-model-service-cropped.png)
 
 ## Deploying the gateway
 
