@@ -57,7 +57,7 @@ kfold = KFold(n_splits=5, shuffle=True, random_state=1)
 
 `kfold.split(df_full_train)` is a Python generator: each call to `next` yields the next split as two arrays of row indices - the indices to train on and the indices to validate on. We slice the dataframe with `iloc`, train, predict and score with AUC:
 
-![Demonstrating the split generator: every split gives a training and a validation part](images/07-cross-validation-03-split-generator.jpg)
+![Demonstrating the split generator: every split gives a training and a validation part](images/07-cross-validation-03-split-generator-cropped.png)
 
 ```python
 from tqdm.auto import tqdm
