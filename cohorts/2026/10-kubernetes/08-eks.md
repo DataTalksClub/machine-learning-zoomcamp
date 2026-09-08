@@ -108,7 +108,7 @@ name, which is why we replace it with `-`. The `get-login` command prints
 a warning that there are more secure ways of logging in - this way is
 simple, but check the AWS docs for the recommended one.
 
-![Tagging the local images for ECR](images/08-eks-03-ecr-push.jpg)
+![Tagging the local images for ECR](images/08-eks-03-ecr-push-cropped.png)
 
 Finally we get the URI of these images with `echo ${MODEL_REMOTE}` and
 `echo ${GATEWAY_REMOTE}`, and put them into `model-deployment.yaml` and
