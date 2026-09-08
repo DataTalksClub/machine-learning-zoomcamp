@@ -89,7 +89,7 @@ result = requests.post(url, json=data).json()
 print(result)
 ```
 
-![The updated test.py with the API Gateway URL](images/07-api-gateway-07-test-py-gateway-url.jpg)
+![The updated test.py with the API Gateway URL](images/07-api-gateway-07-test-py-gateway-url-cropped.png)
 
 When we run it, the request goes to API Gateway, which invokes the
 Lambda function, gets the response, and passes it back to us. And this

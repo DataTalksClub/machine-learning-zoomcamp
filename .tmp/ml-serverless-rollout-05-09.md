@@ -206,3 +206,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 760×490 with light sharpening; exact stage fields and `Deploy` control were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `Deploy API`, `[New Stage]`, stage name `test`, and `Deploy` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 07-api-gateway-07-test-py-gateway-url.jpg
+
+- **Disposition:** `crop/replace` → `images/07-api-gateway-07-test-py-gateway-url-cropped.png`
+- **Teaching point:** `test.py` replaces the local invocation URL with the deployed API Gateway URL and keeps the `/predict` request payload.
+- **Source inspection:** 592×360; crop `+0+52 552×308` removes the webcam tile, editor tabs, and right-side black frame while retaining the URL line, terminal calculation, and file listing.
+- **Method:** deterministic Lanczos upscale to 1104×616 with light sharpening; exact URL prefix, payload, and terminal values were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; the API Gateway URL, commented local URL, and `/predict` context remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The final URL characters are clipped by the original editor viewport.
