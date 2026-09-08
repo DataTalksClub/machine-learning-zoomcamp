@@ -231,7 +231,7 @@ spec:
     targetPort: 9696 # port of the pod
 ```
 
-![The service.yaml: the name of the service, and which pods qualify for forwarding requests](images/06-kubernetes-simple-service-06-service-yaml.jpg)
+![The service.yaml: the name of the service, and which pods qualify for forwarding requests](images/06-kubernetes-simple-service-06-service-yaml-cropped.png)
 
 One more thing to fill in: the service type. There are several options -
 `ClusterIP`, `ExternalName`, `LoadBalancer`, `NodePort`. Remember the two
