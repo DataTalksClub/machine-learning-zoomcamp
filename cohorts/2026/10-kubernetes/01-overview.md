@@ -81,7 +81,7 @@ expensive, so we don't want more TensorFlow Serving instances than we
 need. The gateway needs less powerful machines, but maybe more of them.
 With one monolithic service we couldn't do that.
 
-![Everything runs inside Kubernetes](images/01-overview-04-kubernetes.jpg)
+![Everything runs inside Kubernetes](images/01-overview-04-kubernetes-imagegen.png)
 
 One more thing the gateway does is post-processing the output. We already
 have all this code: we wrote most of it in the previous session, when we
