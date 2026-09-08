@@ -14,7 +14,7 @@ take a look at what it actually is. In the AWS console, type "lambda"
 in the search box: Lambda is one of the services, and next to it we
 see its promise - "Run code without thinking about servers".
 
-![Searching for Lambda in the AWS console: "Lambda - Run Code without Thinking about Servers"](images/02-aws-lambda-01-search-lambda-cropped.png)
+![Searching for Lambda in the AWS console: "Lambda - Run Code without Thinking about Servers"](images/02-aws-lambda-01-search-lambda-crisp.png)
 
 That's the main promise of Lambda. All we need to do is write some
 function, and we don't think about creating EC2 instances or any other
@@ -38,7 +38,7 @@ architecture, so this could be interesting to explore - but for now
 let's go with the usual one, `x86_64`. Nothing else needs to change,
 so click "Create function".
 
-![The create function form: name mlzoomcamp-test, runtime Python 3.9, x86_64 architecture](images/02-aws-lambda-02-create-function-cropped.png)
+![The create function form: name mlzoomcamp-test, runtime Python 3.9, x86_64 architecture](images/02-aws-lambda-02-create-function-crisp.png)
 
 ## The lambda handler
 
@@ -64,7 +64,7 @@ sure what `context` is needed for - usually it's not needed. What we
 can do for now is print the event to see what's inside, and of course
 we can access it and do whatever we want with it.
 
-![The edited handler: print the parameters and return "PONG" - the changes are not deployed yet](images/02-aws-lambda-03-pong-handler-cropped.png)
+![The edited handler: print the parameters and return "PONG" - the changes are not deployed yet](images/02-aws-lambda-03-pong-handler-crisp.png)
 
 ## Testing the function
 
@@ -78,7 +78,7 @@ the response of the default code. Look at the button: it says
 "Deploy", then "Test" again - now we see the response, "PONG", and
 also the parameters we printed: the contents of the test event.
 
-![After deploying: the response is "PONG" and the function logs show the printed event](images/02-aws-lambda-04-test-pong-response-cropped.png)
+![After deploying: the response is "PONG" and the function logs show the printed event](images/02-aws-lambda-04-test-pong-response-crisp.png)
 
 Now let's make the event closer to what we want for our image
 classification model. Change the test event to contain a URL:
@@ -106,9 +106,9 @@ is where the model call goes: `results = predict(url)`, and then we
 return the results. This is a lambda function: all we need to do is
 write some code, deploy it, and test it - no EC2 instances, no servers.
 
-![The test response: {"prediction": "pants"}](images/02-aws-lambda-05-pants-response-cropped.png)
+![The test response: {"prediction": "pants"}](images/02-aws-lambda-05-pants-response-crisp.png)
 
-![The final handler code: read the URL from the event, call predict, return the results](images/02-aws-lambda-06-final-handler-code-cropped.png)
+![The final handler code: read the URL from the event, call predict, return the results](images/02-aws-lambda-06-final-handler-code-crisp.png)
 
 ## Serverless vs serverful
 
@@ -143,7 +143,7 @@ link expires, I just go to this lambda function, click edit, and
 replace the invite URL there. No server needed - it's serverless, and
 I only pay per request.
 
-![The join-datatalks-club lambda function with its API Gateway trigger](images/02-aws-lambda-08-invite-link-function-cropped.png)
+![The join-datatalks-club lambda function with its API Gateway trigger](images/02-aws-lambda-08-invite-link-function-crisp.png)
 
 Actually, I'm not paying anything for this function: each account gets
 some amount of free Lambda usage per month - the free tier includes 1
