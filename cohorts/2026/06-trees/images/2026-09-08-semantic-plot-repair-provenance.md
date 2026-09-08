@@ -31,7 +31,7 @@ directory for auditability.
 | Published target | Original source | Crop `(x, y, width, height)` | Imagegen output ID | Source SHA-256 | Crop SHA-256 | Final SHA-256 |
 |---|---|---:|---|---|---|---|
 | `01-credit-risk-01-loan-application-imagegen.png` | `01-credit-risk-01-loan-application.jpg` | `(20, 0, 450, 330)` | `exec-112ce2a6-f0d0-4e5c-bd68-ec5cca438c72` | `49a3473b88e1adbb6aa00050a07553b6d15f5cb41c6a3343e8eef17d20925bd5` | `f9d44d3f6fa9b5ca40c32cf5f90e21a6c9722ab974da493156dfa12ae69dd9bf` | `a52c7775d2210ee941244b4d06ae5f0c6372261bbf310e0d8f9b1f48ccd75858` |
-| `03-decision-trees-06-learned-rules-imagegen.png` | `03-decision-trees-06-learned-rules.jpg` | `(90, 0, 410, 250)` | `exec-d4263c43-7815-4eec-aa29-2e95afcef680` | `e9317ab139386d90e8c85ce0c33279cb2aa35be7f827a8daa0826a77c8b14d1c` | `235c424f6df6bc486ad4cfe2c49c93a9b7161bab3650f9752c327ab987354449` | `b3551a804bb49bffb809e3036b0f737d0eea7a572779f5622c192b5f966c84ef` |
+| `03-decision-trees-06-learned-rules-imagegen.png` | `03-decision-trees-06-learned-rules.jpg` | `(90, 0, 410, 250)` | `exec-5b5656e1-89aa-4d84-8dd0-a370f726423b` | `e9317ab139386d90e8c85ce0c33279cb2aa35be7f827a8daa0826a77c8b14d1c` | `235c424f6df6bc486ad4cfe2c49c93a9b7161bab3650f9752c327ab987354449` | `202c1f75deebda1c7a6ce2254978cf33730de85959877954165742ad86bca3ee` |
 | `10-summary-02-decision-tree-imagegen.png` | `10-summary-02-decision-tree.jpg` | `(10, 0, 500, 240)` | `exec-ee7fcc30-5c7f-484b-abb5-f87d4173923e` | `8882074ceff13ffaaa8751350d298d00ce9f9a5a461b5b666dc152913ba1bd14` | `935d07b9388ab6b33b2dd6e19851b540a1207365b4efa011b594dbd879659539` | `59b8a1493da0c47d95d57f542fd14c9e22dd0460cd854852e7eca4ac5ece39be` |
 
 The loan diagram was regenerated once after an intermediate candidate added an
@@ -39,10 +39,14 @@ unwanted `MORE` label (`exec-b790533a-1286-43be-85ff-a209d02f3ea4`). The final
 run used the clean crop above and has only the required labels. The final
 arrows are explicit: loan application left-to-right, `YES / NO` right-to-left.
 
-The learned tree preserves the lesson's class mapping: `DEFAULT (class 1)` and
-`OK (class 0)`, with all four leaves connected. The summary tree makes the
-`records`, `job`, and `seniority` branch directions explicit with YES/NO labels.
-All three generated PNGs carry C2PA metadata from the built-in imagegen tool.
+The learned-rules target was regenerated after an independent review found that
+the root branches were reversed. The new diagram uses the original JPG and its
+bounded crop as the only inputs and preserves the corrected lesson semantics:
+`records = no?` → `Yes` → `job in [yes]`, and `No` → `seniority < 5`. It contains
+only those two child tests, with no invented leaves or extra labels. The other
+two generated PNGs preserve the class mapping and summary-tree semantics
+described above. All three generated PNGs carry C2PA metadata from the built-in
+imagegen tool.
 
 ## Deterministic native chart renders
 
