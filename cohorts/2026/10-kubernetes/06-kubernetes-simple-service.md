@@ -93,12 +93,8 @@ Kubernetes setup `kind` that we use in this lesson doesn't like the
 docker build -t ping:v001 .
 ```
 
-![The ping application: ping.py, and pipenv adding gunicorn](images/06-kubernetes-simple-service-01-ping-app-crisp.png)
-
 Now we can run the Docker container and, in a separate terminal, test the
 application with `curl localhost:9696/ping` - it should answer `PONG`.
-
-![Building the image: Successfully tagged ping:v001](images/06-kubernetes-simple-service-02-build-ping-crisp.png)
 
 ## Installing kubectl and kind
 
@@ -138,8 +134,6 @@ And we check the running services to make sure it works:
 kubectl get service
 ```
 
-![cluster-info, and the default kubernetes service in a fresh cluster](images/06-kubernetes-simple-service-03-cluster-info-crisp.png)
-
 ## Creating a deployment
 
 Kubernetes requires quite a lot of configuration, and for that VS Code has
@@ -176,8 +170,6 @@ spec:
         - containerPort: 9696 # port to expose
 ```
 
-![The deployment.yaml: all pods with label app=ping belong to this deployment, and each pod gets this label](images/06-kubernetes-simple-service-04-deployment-yaml-crisp.png)
-
 We can now apply the `deployment.yaml` to our Kubernetes cluster:
 
 ```bash
@@ -210,8 +202,6 @@ the same way. Once we stop the port-forwarding, the same `curl` fails
 with `connection refused` - there is nothing listening on our local port
 anymore.
 
-![Loading the image into kind, checking the pod, and port-forwarding](images/06-kubernetes-simple-service-05-kind-load-crisp.png)
-
 ## Creating a service
 
 Instead of forwarding ports to individual pods, we create a service in
@@ -230,8 +220,6 @@ spec:
   - port: 80 # port of the service
     targetPort: 9696 # port of the pod
 ```
-
-![The service.yaml: the name of the service, and which pods qualify for forwarding requests](images/06-kubernetes-simple-service-06-service-yaml-crisp.png)
 
 One more thing to fill in: the service type. There are several options -
 `ClusterIP`, `ExternalName`, `LoadBalancer`, `NodePort`. Remember the two
@@ -258,8 +246,6 @@ provider - the provider assigns an external IP or name to a
 `LoadBalancer` service automatically. But this is a local cluster, and we
 haven't configured it to hand out external IPs, so it stays pending
 forever.
-
-![Creating the service: first ClusterIP, then LoadBalancer with external IP pending](images/06-kubernetes-simple-service-07-service-lb-crisp.png)
 
 We can still test the service by port forwarding, pretending that we are
 connected to an external service:

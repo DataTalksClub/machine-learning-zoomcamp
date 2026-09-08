@@ -36,8 +36,6 @@ parts: preparing the request, sending it, and preparing the response.
 We can run the script right away to check that it still works - it
 prints the predictions, with `pants` on top.
 
-![Converting the notebook with jupyter nbconvert](images/03-preprocessing-01-nbconvert-crisp.png)
-
 To prepare the request we put the model name, the signature and our
 protobuf tensor into a `PredictRequest`:
 
@@ -83,8 +81,6 @@ def predict(url):
     return response
 ```
 
-![Preparing the request and invoking the model in the gateway script](images/03-preprocessing-02-gateway-script-crisp.png)
-
 For the Flask app we can reuse the code from session 5 - the churn
 prediction service. We copy the Flask imports and the endpoint pattern,
 and adjust it: the app is called `gateway`, the endpoint function becomes
@@ -101,8 +97,6 @@ def predict_endpoint():
     result = predict(url)
     return jsonify(result)
 ```
-
-![The Flask app part of gateway.py](images/03-preprocessing-03-flask-app-crisp.png)
 
 Like in session 5, we also create a `test.py` for testing the service:
 we copy it from the previous session and replace the URL with
@@ -146,8 +140,6 @@ pipenv install tensorflow-protobuf==2.7.0 protobuf==3.19
 We install it instead of TensorFlow and `tensorflow-serving-api`. The
 code becomes a bit more verbose - but without the 2 GB baggage:
 
-![The tensorflow-protobuf README: the verbose version without the baggage](images/03-preprocessing-05-tensorflow-protobuf-crisp.png)
-
 And we put the conversion code in a separate script,
 [code/proto.py](code/proto.py), and import the `np_to_protobuf` function
 into our `gateway.py`:
@@ -184,16 +176,12 @@ def np_to_protobuf(data):
 This code turns a numpy array into the protobuf format that TensorFlow
 Serving expects, without needing the full TensorFlow library installed.
 
-![The proto.py script with the protobuf conversion code](images/03-preprocessing-06-proto-py-crisp.png)
-
 In `gateway.py` we remove the old function and simply import from this
 script - it does exactly the same thing as before. To check that
 everything works, we activate the pipenv environment (`pipenv shell`) and
 run `python gateway.py`: it still prints the predictions, and this time
 it doesn't require TensorFlow at all - no CUDA warnings in the logs,
 because we only load the parts of the code we need.
-
-![Installing the dependencies with pipenv and testing the gateway](images/03-preprocessing-04-pipenv-install-crisp.png)
 
 That's it for this lesson: TensorFlow Serving runs in a Docker container,
 the gateway is a Flask application, and everything is put into a pipenv

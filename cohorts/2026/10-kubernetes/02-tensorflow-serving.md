@@ -36,8 +36,6 @@ tf.saved_model.save(model, 'clothing-model')
 This creates a `clothing-model` directory with the model in the new
 format - `saved_model.pb` plus a `variables` folder with the weights:
 
-![The SavedModel directory: saved_model.pb and variables](images/02-tensorflow-serving-01-saved-model-crisp.png)
-
 ## Looking inside the SavedModel
 
 We can inspect what's inside the saved model with `saved_model_cli`, a
@@ -64,8 +62,6 @@ signature_def['serving_default']:
         name: StatefulPartitionedCall:0
   Method name is: tensorflow/serving/predict
 ```
-
-![The signature definition of the model](images/02-tensorflow-serving-02-signature-crisp.png)
 
 This tells us how to talk to the model: the input is called `input_8` and
 expects float tensors of shape `(-1, 299, 299, 3)`, and the output is
@@ -133,8 +129,6 @@ First we install the dependencies. We need `grpcio` for talking gRPC,
 !pip install keras-image-helper
 ```
 
-![Installing the libraries in the notebook](images/02-tensorflow-serving-04-install-libraries-crisp.png)
-
 Then we import what we need and create a gRPC channel to the server:
 
 ```python
@@ -162,8 +156,6 @@ from the outside. We won't cover secure channels in this course.
 
 The stub is the thing we use for invoking the remote service - it's what
 we'll use for making predictions.
-
-![Connecting to TensorFlow Serving: host, channel and stub](images/02-tensorflow-serving-05-grpc-stub-crisp.png)
 
 For pre-processing we use `keras-image-helper`. It downloads the image from
 a URL, resizes it to 299 by 299 and applies the Xception pre-processing:
@@ -200,8 +192,6 @@ pb_request.model_spec.signature_name = 'serving_default'
 
 pb_request.inputs['input_8'].CopyFrom(np_to_protobuf(X))
 ```
-
-![Preparing the prediction request](images/02-tensorflow-serving-06-prepare-request-crisp.png)
 
 Then we send the request to TensorFlow Serving:
 
@@ -257,8 +247,6 @@ The result for the picture of pants:
 ```
 
 'pants' clearly wins, so the model classified the image correctly.
-
-![Turning the raw scores into class names](images/02-tensorflow-serving-07-prediction-crisp.png)
 
 In the next lesson we turn this notebook into a pre-processing service.
 
