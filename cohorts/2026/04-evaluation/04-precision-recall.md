@@ -86,8 +86,6 @@ $$R = \cfrac{TP}{TP + FN}$$
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
 
-![classification_metrics.png](images/classification_metrics-cropped.png)
-
 **MNEMONICS:**
 
 - Precision : From the `pre`dicted positives, how many we predicted right. See how the word `pre`cision is similar to the word `pre`diction? 

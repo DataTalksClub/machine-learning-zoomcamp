@@ -24,8 +24,6 @@ The false positive rate (FPR) is the fraction of actual negatives we got wrong: 
 FPR = FP / (FP + TN)
 ```
 
-![TPR and FPR in the confusion table](images/TPR_FPR.png)
-
 For our model at threshold 0.5:
 
 ```python
@@ -200,8 +198,6 @@ In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) 
 <p align="center">
     $TPR =\large \frac{TP}{TP + FN}$
 </p>
-
-![TPR_FPR.png](images/TPR_FPR.png)
 
 ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the FPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
 
