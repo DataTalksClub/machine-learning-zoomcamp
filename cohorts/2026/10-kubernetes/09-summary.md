@@ -59,14 +59,14 @@ include minikube, k3d, k3s, microk8s and EKS Anywhere. For example,
 minikube uses VirtualBox for creating the nodes, so it's more isolated,
 while kind is more lightweight. Try them and see what you like more.
 
-![Local Kubernetes alternatives, and tools worth knowing](images/09-summary-02-local-alternatives-cropped.png)
+![Local Kubernetes alternatives, and tools worth knowing](images/09-summary-02-local-alternatives-crisp.png)
 
 There are also a couple of tools worth knowing that weren't in that list
 from the beginning. One is
 [Rancher Desktop](https://rancherdesktop.io/) - similar to Docker
 Desktop, but for Kubernetes.
 
-![Rancher Desktop: Kubernetes and container management on the desktop](images/09-summary-03-rancher-cropped.png)
+![Rancher Desktop: Kubernetes and container management on the desktop](images/09-summary-03-rancher-crisp.png)
 
 By the way, speaking of Docker Desktop: it also ships some sort of
 Kubernetes cluster. If you use Windows, that may be easier than setting
@@ -84,7 +84,7 @@ provider you can think of has Kubernetes as a service. Look up
 "managed Kubernetes" and you will see many options - the one from
 DigitalOcean, for example, starts at $10 per month.
 
-![Searching for managed Kubernetes offers](images/09-summary-04-managed-kubernetes-cropped.png)
+![Searching for managed Kubernetes offers](images/09-summary-04-managed-kubernetes-crisp.png)
 
 The good thing about Kubernetes is that the configuration files we
 created in this session work on any Kubernetes. You will only need to
