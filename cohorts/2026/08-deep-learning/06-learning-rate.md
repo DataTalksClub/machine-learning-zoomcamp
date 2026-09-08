@@ -87,7 +87,6 @@ def make_model(learning_rate=0.01):
     return model
 ```
 
-![The make_model function: the base model, the new top, and the optimizer/loss/compile part](images/06-learning-rate-02-make-model-crisp.png)
 
 Inside, everything is exactly what we had before: the base model with
 frozen convolutional layers, the new top with pooling and a dense
@@ -118,7 +117,6 @@ for lr in [0.0001, 0.001, 0.01, 0.1]:
     print()
 ```
 
-![The training loop: one model per learning rate, the histories stored in the scores dictionary](images/06-learning-rate-03-scores-loop-crisp.png)
 
 We try `0.0001` and `0.001` - smaller than the `0.01` we used before -
 and `0.1`, larger. We print the learning rate before each model and two
