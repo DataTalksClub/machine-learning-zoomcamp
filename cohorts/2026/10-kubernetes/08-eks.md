@@ -47,7 +47,7 @@ nodeGroups:
     desiredCapacity: 1
 ```
 
-![The eks-config.yaml file with the cluster and node group configuration](images/08-eks-02-eks-config.jpg)
+![The eks-config.yaml file with the cluster and node group configuration](images/08-eks-02-eks-config-cropped.png)
 
 Creating the cluster takes a while - up to 15-20 minutes. Eksctl
 provisions the control plane and boots the worker nodes:
