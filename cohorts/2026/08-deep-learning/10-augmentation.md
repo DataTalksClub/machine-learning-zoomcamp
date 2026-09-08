@@ -24,9 +24,9 @@ There are many transformations we can apply, and we can combine them:
 - zooming in or out
 - changing brightness and contrast
 
-![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-cropped.png)
+![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-crisp.png)
 
-![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid-cropped.png)
+![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid-crisp.png)
 
 The idea is similar to the dropout picture from the previous unit:
 augmentation can randomly hide parts of the image, and it changes
@@ -48,7 +48,7 @@ train_gen = ImageDataGenerator(
 )
 ```
 
-![The same parameters in Keras: rotation_range=30, width and height shift 10, shear, zoom_range=0.1, flips](images/10-augmentation-04-keras-parameters-cropped.png)
+![The same parameters in Keras: rotation_range=30, width and height shift 10, shear, zoom_range=0.1, flips](images/10-augmentation-04-keras-parameters-crisp.png)
 
 ## One important detail (and a bug in the video)
 
@@ -126,9 +126,9 @@ while the CPU prepares the next batch. We can watch this with
 `nvidia-smi` - during this run the utilization dropped to around 60%,
 well below the 95% we saw before:
 
-![nvidia-smi during augmented training: GPU utilization down to 61%](images/10-augmentation-05-nvidia-smi-cpu-bound-cropped.png)
+![nvidia-smi during augmented training: GPU utilization down to 61%](images/10-augmentation-05-nvidia-smi-cpu-bound-crisp.png)
 
-![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077-cropped.png)
+![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077-crisp.png)
 
 ## How to select augmentations
 
