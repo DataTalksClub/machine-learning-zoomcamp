@@ -243,7 +243,7 @@ kubectl port-forward service/gateway 8080:80
 
 and replace the url in `test.py` with port 8080 to get predictions.
 
-![The gateway service as a LoadBalancer, and port-forwarding to it for testing](images/07-kubernetes-tf-serving-07-gateway-service.jpg)
+![The gateway service as a LoadBalancer, and port-forwarding to it for testing](images/07-kubernetes-tf-serving-07-gateway-service-cropped.png)
 
 On kind the external IP of the service stays `<pending>` unless MetalLB
 is set up (see the previous lesson for the recipe). With MetalLB - or on
