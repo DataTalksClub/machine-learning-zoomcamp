@@ -43,7 +43,7 @@ installation. Alternatively, use pip:
 %pip install tensorflow
 ```
 
-![Installing TensorFlow with conda from a notebook cell](images/02-tensorflow-keras-02-install-tensorflow-cropped.png)
+![Installing TensorFlow with conda from a notebook cell](images/02-tensorflow-keras-02-install-tensorflow-crisp.png)
 
 If you don't have a GPU on your computer, this is all you need. With a
 GPU the setup is a bit more involved. I'm not an expert in that - I
@@ -62,7 +62,7 @@ import tensorflow as tf
 from tensorflow import keras
 ```
 
-![Importing TensorFlow and Keras](images/02-tensorflow-keras-03-imports-cropped.png)
+![Importing TensorFlow and Keras](images/02-tensorflow-keras-03-imports-crisp.png)
 
 ## Loading an image
 
@@ -79,7 +79,7 @@ If you find older tutorials online, you may see the import written as
 library. You can take such code, add `tensorflow` in front, and it
 should work without changes.
 
-![Importing load_img from tensorflow.keras.preprocessing.image](images/02-tensorflow-keras-04-load-img-import-cropped.png)
+![Importing load_img from tensorflow.keras.preprocessing.image](images/02-tensorflow-keras-04-load-img-import-crisp.png)
 
 Let's load a t-shirt from the train folder. We build the path with an
 f-string and pass it to `load_img`:
@@ -109,7 +109,7 @@ img = load_img(fullname, target_size=(150, 150))
 img
 ```
 
-![Loading the t-shirt image resized to 150x150](images/02-tensorflow-keras-06-load-img-cropped.png)
+![Loading the t-shirt image resized to 150x150](images/02-tensorflow-keras-06-load-img-crisp.png)
 
 The library behind this is PIL - the Python Imaging Library. It's what
 many libraries use for processing images, and `load_img` returns a PIL
@@ -143,7 +143,7 @@ channels. Each row of the array is one pixel with its RGB values -
 the first number is red, the second green, the third blue. We have
 150x150 of them.
 
-![The image as a NumPy array; each row holds the R, G and B values of one pixel](images/02-tensorflow-keras-08-numpy-array-cropped.png)
+![The image as a NumPy array; each row holds the R, G and B values of one pixel](images/02-tensorflow-keras-08-numpy-array-crisp.png)
 
 The dtype is `uint8`. "u" means unsigned - the values go from 0 to
 255, not from -128 to 127 - and "int8" means an integer that takes
