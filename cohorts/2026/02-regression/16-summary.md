@@ -52,7 +52,7 @@ the bias term and the weights.
 
 ![Linear regression for a single example, implemented as a simple formula with a for loop](images/16-summary-03-linear-regression-loop-cropped.png)
 
-![Extending it to the vector form with the dot product](images/16-summary-04-vector-form.jpg)
+![Extending it to the vector form with the dot product](images/16-summary-04-vector-form-cropped.png)
 
 And then we looked at how to actually obtain these weights - how to train the
 model. We saw that machine learning is not magic: it's just a formula, and this
