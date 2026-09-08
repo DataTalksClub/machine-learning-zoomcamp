@@ -271,19 +271,36 @@ crops and upscaling.
 ### `05-kubernetes-intro-04-external-internal-ingress.jpg`
 
 - Lesson: `05-kubernetes-intro.md`; caption: External and internal services, with ingress in front of the cluster.
-- Disposition: deterministic crop/upscale; exact service boundaries, arrows, labels, and pod placement are the source of truth.
+- Disposition: imagegen replacement; this is a bounded Kubernetes service/ingress diagram.
 - Source inspection: `950x720` prepared source-clean crop; webcam face and black side bars are excluded.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-04-external-internal-ingress-source-clean.png`, full prepared crop; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `INGRESS`, `EXTERNAL`, `INTERNAL`, gateway/model services, two nodes, both deployments, pod placement, request arrows, and same-image/config annotations remain unchanged.
-- Limitation: deterministic processing preserves the source's hand-drawn lettering and presentation-control artifact in the prepared source; no labels or topology were reconstructed.
-- Output: `images/05-kubernetes-intro-04-external-internal-ingress-cropped.png`.
+- Prompt constraint: preserve the exact service boundaries, arrows, labels, pod placement, and Kubernetes relationships while removing the recording UI and face/camera artifacts.
+- Output: `images/05-kubernetes-intro-04-external-internal-ingress-imagegen.png`.
 
 ### `05-kubernetes-intro-05-definitions.jpg`
 
 - Lesson: `05-kubernetes-intro.md`; caption: The whiteboard definitions: node, pod, deployment, service, ingress.
-- Disposition: deterministic crop/upscale; the exact handwritten definitions are the source of truth.
+- Disposition: imagegen replacement; this is a bounded Kubernetes definitions whiteboard.
 - Source inspection: `950x720` prepared source-clean crop; webcam face and black side bars are excluded.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-05-definitions-source-clean.png`, full prepared crop; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: the definitions of `NODE`, `POD`, `DEPLOYMENT`, `SERVICE`, `EXTERNAL`, `INTERNAL`, and `INGRESS` remain exact and readable.
-- Limitation: deterministic processing preserves the source's hand-drawn lettering and presentation-control artifact in the prepared source; no text was reconstructed.
-- Output: `images/05-kubernetes-intro-05-definitions-cropped.png`.
+- Prompt constraint: preserve every handwritten definition and line break while removing the recording UI and face/camera artifacts.
+- Output: `images/05-kubernetes-intro-05-definitions-imagegen.png`.
+
+### `05-kubernetes-intro-06-scaling.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: More users, more pods: Kubernetes scales the deployments up.
+- Disposition: imagegen replacement; this is a bounded Kubernetes scaling diagram.
+- Source inspection: `950x720` prepared source-clean crop; webcam face and black side bars are excluded.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-06-scaling-source-clean.png`, full prepared crop; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: multiple users, ingress, external/internal services, gateway and model deployments, additional gateway pods, and the two-node cluster remain unchanged.
+- Prompt constraint: preserve the users, arrows, added pods, deployment boundaries, labels, and scaling relationship while removing recording UI and face/camera artifacts.
+- Output: `images/05-kubernetes-intro-06-scaling-imagegen.png`.
+
+## Lesson 05 validation
+
+- Six lesson-05 image references resolve: `01-cluster-nodes-pods-imagegen.png`, `02-deployments-imagegen.png`, `03-services-cropped.png`, `04-external-internal-ingress-imagegen.png`, `05-definitions-imagegen.png`, and `06-scaling-imagegen.png`.
+- All six original `.jpg` assets remain in `cohorts/2026/10-kubernetes/images/`.
+- The services asset uses deterministic crop/prep; the ingress, definitions, and scaling assets use imagegen after source inspection and prompt constraints.
+- `git diff --check` passes.
