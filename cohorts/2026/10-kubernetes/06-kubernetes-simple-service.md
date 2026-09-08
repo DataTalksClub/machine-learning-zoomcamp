@@ -93,7 +93,7 @@ Kubernetes setup `kind` that we use in this lesson doesn't like the
 docker build -t ping:v001 .
 ```
 
-![The ping application: ping.py, and pipenv adding gunicorn](images/06-kubernetes-simple-service-01-ping-app.jpg)
+![The ping application: ping.py, and pipenv adding gunicorn](images/06-kubernetes-simple-service-01-ping-app-cropped.png)
 
 Now we can run the Docker container and, in a separate terminal, test the
 application with `curl localhost:9696/ping` - it should answer `PONG`.
