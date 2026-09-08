@@ -53,7 +53,7 @@ The gateway itself we implement in Flask - that gives us full control over
 the pre- and post-processing code. TensorFlow Serving is C++, so we don't
 have much control over what happens there; we just use it as is.
 
-![The gateway talks to TensorFlow Serving over gRPC](images/01-overview-03-grpc.jpg)
+![The gateway talks to TensorFlow Serving over gRPC](images/01-overview-03-grpc-imagegen.png)
 
 ## Two components, two ways to scale
 

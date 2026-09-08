@@ -27,3 +27,13 @@ crops and upscaling.
 - Invariants checked: `WEBSITE` → `GATEWAY` → `TF-SERVING`, request labels `URL` and `X`, return arrows, `10 NUMBERS`, and the response notation `"pants": 9.88,...`.
 - Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra service remains.
 - Output: `images/01-overview-02-architecture-imagegen.png`.
+
+### `01-overview-03-grpc.jpg`
+
+- Lesson: `01-overview.md`; caption: The gateway talks to TensorFlow Serving over gRPC.
+- Disposition: imagegen replacement; the source is a bounded protocol/architecture diagram.
+- Source inspection: `594x360`; camera tile and black side bars present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/01-overview-03-grpc-source.png`, coordinates `475x360+23+0`.
+- Invariants checked: website → gateway → TF-Serving flow, `URL`, `X`, `gRPC`, return arrows, `10 NUMBERS`, and the clothing model.
+- Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra component remains.
+- Output: `images/01-overview-03-grpc-imagegen.png`.
