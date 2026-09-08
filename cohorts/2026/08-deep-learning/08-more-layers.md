@@ -77,8 +77,6 @@ def make_model(learning_rate=0.01, size_inner=100):
     return model
 ```
 
-![The notebook with the inner layer: Dense(size_inner, activation='relu') between the vectors and the output](images/08-more-layers-03-relu-in-code-crisp.png)
-
 The inner layer size is a hyperparameter, like the learning rate. We
 don't know in advance how big it should be, so we experiment: with
 the best learning rate from the previous unit (0.001), we try sizes
@@ -100,13 +98,22 @@ for size in [10, 100, 1000]:
     print()
 ```
 
-![The tuning loop: training models with inner layer sizes 10, 100 and 1000](images/08-more-layers-04-tuning-sizes-crisp.png)
-
 While the models train, we can check that the GPU is actually being
 used. From Jupyter we can open a terminal and run `nvidia-smi` - a
 command-line utility from NVIDIA that shows GPU utilization:
 
-![nvidia-smi showing a Tesla K80 GPU at 95% utilization during training](images/08-more-layers-05-nvidia-smi-crisp.png)
+The terminal reports the Tesla K80 and its utilization:
+
+```text
+sh-4.2$ nvidia-smi
+Wed Nov 3 13:36:39 2021
+
+NVIDIA-SMI 450.142.00    Driver Version: 450.142.00    CUDA Version: 11.0
+GPU: Tesla K80
+Memory-Usage: 11061MiB / 11441MiB
+GPU-Util: 95%
+Process: ...ensorflow2_p36/bin/python    GPU Memory Usage: 11056MiB
+```
 
 Here the GPU is utilized at 95%, so we're using it effectively. If
 during training you see 30-50% utilization, the GPU is underutilized

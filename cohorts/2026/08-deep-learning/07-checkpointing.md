@@ -84,8 +84,6 @@ Python's `format` notation:
 So after the third epoch with validation accuracy 0.836, the file on
 disk will be called `xception_v1_03_0.836.h5`.
 
-![Filling the filename template with format produces xception_v1_12_0.840.h5](images/07-checkpointing-03-filename-template-crisp.png)
-
 Then `save_best_only`. Say after the first epoch the validation
 accuracy is 75% - that's the best so far, so we save the model. If
 after the second epoch it's 80%, that's an improvement, so we save it
@@ -124,15 +122,27 @@ history = model.fit(
 )
 ```
 
-![The ModelCheckpoint cell and the fit call with the callbacks parameter](images/07-checkpointing-05-checkpoint-and-fit-crisp.png)
-
 While this trains, we can watch the folder: every time the validation
 accuracy improves, a new file appears. The first epoch gives 78% - and
 we see the file `xception_v1_01_0.780.h5` is created. The second epoch
 is slightly better, the third one even better, and so on - each
 improvement adds a file.
 
-![Checkpoint files created during training: one file per improvement](images/07-checkpointing-06-checkpoint-files-crisp.png)
+The folder contains one checkpoint file for each improvement:
+
+```text
+clothing-dataset-small/       5 months ago
+old/                          3 months ago
+7-nnets.ipynb                 Running 2 days ago
+8-nnets-live.ipynb            Running 42 minutes ago
+model_v1.h5                   12 minutes ago      83.7 MB
+xception_v1_01_0.780.h5       3 minutes ago       84 MB
+xception_v1_02_0.786.h5       2 minutes ago       84 MB
+xception_v1_03_0.809.h5       2 minutes ago       84 MB
+xception_v1_04_0.815.h5       2 minutes ago       84 MB
+xception_v1_05_0.821.h5       2 minutes ago       84 MB
+xception_v1_06_0.836.h5       a minute ago        84 MB
+```
 
 The improvements continue up to epoch 6. Epoch 7 is half a percent
 worse - and no file for it appears. Neither for epoch 8: it's also not
@@ -146,7 +156,15 @@ validation accuracy. We can delete all the other files and keep only
 this one: it's the best model we have so far, trained with the learning
 rate we tuned.
 
-![Keeping only the best checkpoint: xception_v1_06_0.836.h5](images/07-checkpointing-07-best-model-crisp.png)
+After deleting the other checkpoints, the folder contains:
+
+```text
+clothing-dataset-small/       5 months ago
+old/                          3 months ago
+7-nnets.ipynb                 Running 2 days ago
+8-nnets-live.ipynb            Running 43 minutes ago
+xception_v1_06_0.836.h5       2 minutes ago
+```
 
 In the next lesson we will increment the version - v1 becomes v2 - by
 adding more layers: right now we have only one dense layer, and we'll
