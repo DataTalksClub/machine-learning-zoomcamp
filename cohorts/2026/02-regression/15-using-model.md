@@ -91,7 +91,7 @@ point:
 0.4600753970266562
 ```
 
-![Checking the final model on the test set: RMSE 0.4600753970266562](images/15-using-model-04-test-rmse.jpg)
+![Checking the final model on the test set: RMSE 0.4600753970266562](images/15-using-model-04-test-rmse-cropped.png)
 
 That is a very good sign. It means our model generalizes well: it didn't get
 this score just by chance.
