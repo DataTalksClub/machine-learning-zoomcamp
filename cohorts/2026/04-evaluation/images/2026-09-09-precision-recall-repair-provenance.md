@@ -52,3 +52,16 @@ Validation:
   respectively; all four confusion-table labels are visible at 608px.
 - No camera, cursor, playback controls, borders, watermark, or overwritten label
   remain.
+
+## Removed low-value recall-definition embed
+
+The Markdown embed for `04-precision-recall-04-recall-definition-crisp.png` was
+removed from `04-precision-recall.md`. The surrounding prose and exact recall
+formula remain in the lesson, so this generic oval-and-label screenshot added no
+instructional information beyond the text. The source JPG and generated PNG are
+preserved in the repository for auditability and possible future reuse.
+
+| Preserved artifact | SHA-256 |
+|---|---|
+| Source JPG `04-precision-recall-04-recall-definition.jpg` | `2b20b09e0efc03d9010b590c126bc4c04c3bd4ea6d89e590765ea56402cb3755` |
+| Removed embed PNG `04-precision-recall-04-recall-definition-crisp.png` | `f855ccc29c0cb6d4741a4ce50b30872028321e744b68846ad5467ab06d11b37d` |

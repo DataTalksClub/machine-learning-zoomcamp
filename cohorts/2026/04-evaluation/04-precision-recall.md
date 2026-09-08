@@ -39,8 +39,6 @@ Recall measures the fraction of actual positive instances that we identified cor
 R = TP / (TP + FN)
 ```
 
-![The definition of recall: the fraction of correctly identified positive examples](images/04-precision-recall-04-recall-definition-crisp.png)
-
 For our model:
 
 ```python
