@@ -354,7 +354,7 @@ plot them: for training it almost reaches 1.0, and for validation it
 quickly reaches about 80 and then just oscillates around 80 for the
 rest of the iterations - sometimes it jumps up, sometimes down.
 
-![Train accuracy almost reaches 1.0 while validation accuracy oscillates around 0.80](images/05-transfer-learning-08-history-plot.jpg)
+![Train accuracy almost reaches 1.0 while validation accuracy oscillates around 0.80](images/05-transfer-learning-08-history-plot-cropped.png)
 
 With just these parameters - no tuning - we already have a reasonably
 good model: about 80% validation accuracy. Of course, there are many
