@@ -100,7 +100,7 @@ We could do this with plain Docker, but there is a nicer way of linking
 multiple related services: Docker Compose. It runs all the containers in
 one network, where they can talk to each other.
 
-![Two isolated containers: each maps its port to the host, but they cannot reach each other](images/04-docker-compose-03-isolated-containers.jpg)
+![Two isolated containers: each maps its port to the host, but they cannot reach each other](images/04-docker-compose-03-isolated-containers-imagegen.png)
 
 Docker Compose requires a YAML file which is executed when running the
 commands from Docker Compose; usually the file is named

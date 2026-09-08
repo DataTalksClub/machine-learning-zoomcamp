@@ -207,3 +207,13 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-02-gateway-image-source-clean.png`, coordinates `500x320+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `gateway.py`, `image-gateway.dockerfile`, prediction keys/values, and `docker build -t zoomcamp-10-gateway:001 -f image-gateway.dockerfile .` remain exact.
 - Output: `images/04-docker-compose-02-gateway-image-cropped.png`.
+
+### `04-docker-compose-03-isolated-containers.jpg`
+
+- Lesson: `04-docker-compose.md`; caption: Two isolated containers: each maps its port to the host, but they cannot reach each other.
+- Disposition: imagegen replacement; the source is a bounded Docker networking diagram.
+- Source inspection: `594x360`; camera tile, playback controls, and a green edge overlay present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-03-isolated-containers-source-clean.png`, coordinates `450x320+50+20`; overlays removed before generation.
+- Invariants checked: outer `UBUNTU - HOST`, separate `GATEWAY`/`FLASK` and `TF-SERVING`/`TFSERVING` areas, ports `9696` and `8500`, host mappings, and `TEST.PY` connections.
+- Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra container remains.
+- Output: `images/04-docker-compose-03-isolated-containers-imagegen.png`.
