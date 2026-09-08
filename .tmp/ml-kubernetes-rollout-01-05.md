@@ -76,3 +76,12 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-01-saved-model-source-clean.png`, coordinates `460x255+20+38`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `clothing-model`, `assets`, `saved_model.pb`, `variables`, both variable files, and the final directory/file counts remain exact.
 - Output: `images/02-tensorflow-serving-01-saved-model-cropped.png`.
+
+### `02-tensorflow-serving-02-signature.jpg`
+
+- Lesson: `02-tensorflow-serving.md`; caption: The signature definition of the model.
+- Disposition: deterministic focused crop/prep; exact signature names, dtype, shape, and method are the source of truth.
+- Source inspection: `594x360`; Save As dialog, webcam tile, editor chrome, and status bar present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-02-signature-source-clean.png`, coordinates `500x165+0+78`; resized 2.5x with Lanczos and light unsharp masking.
+- Invariants checked: `outputs['dense_7']`, `DT_FLOAT`, `(-1, 10)`, `StatefulPartitionedCall:0`, and `tensorflow/serving/predict` remain exact; the obstructing Save As dialog is excluded by the crop.
+- Output: `images/02-tensorflow-serving-02-signature-cropped.png`.

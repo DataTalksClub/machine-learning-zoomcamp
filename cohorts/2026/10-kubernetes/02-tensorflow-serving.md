@@ -65,7 +65,7 @@ signature_def['serving_default']:
   Method name is: tensorflow/serving/predict
 ```
 
-![The signature definition of the model](images/02-tensorflow-serving-02-signature.jpg)
+![The signature definition of the model](images/02-tensorflow-serving-02-signature-cropped.png)
 
 This tells us how to talk to the model: the input is called `input_8` and
 expects float tensors of shape `(-1, 299, 299, 3)`, and the output is
