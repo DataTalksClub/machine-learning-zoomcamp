@@ -160,3 +160,13 @@ crops and upscaling.
 - Invariants checked: Flask imports, model loading, `/predict` route, request handling, churn threshold, JSON keys, and `jsonify` call remain unchanged.
 - Limitation: the source screenshot is intrinsically low-resolution and text remains softer than the other crops; no generated approximation was used because code fidelity is required.
 - Output: `images/03-preprocessing-03-flask-app-cropped.png`.
+
+### `03-preprocessing-04-pipenv-install.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: Installing the dependencies with pipenv and testing the gateway.
+- Disposition: deterministic crop/prep; exact shell output, package versions, and prediction values are the source of truth.
+- Source inspection: `594x360`; editor/browser chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-04-pipenv-install-source-clean.png`, coordinates `460x300+20+30`, then top `8px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `grpcio==1.42.0`, Flask, gunicorn, `keras-image-helper`, Python `3.8.10`, virtualenv creation, and visible prediction values remain exact.
+- Limitation: long terminal lines retain the source-edge truncation; no output was guessed or expanded.
+- Output: `images/03-preprocessing-04-pipenv-install-cropped.png`.

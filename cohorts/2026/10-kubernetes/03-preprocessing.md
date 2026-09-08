@@ -193,7 +193,7 @@ run `python gateway.py`: it still prints the predictions, and this time
 it doesn't require TensorFlow at all - no CUDA warnings in the logs,
 because we only load the parts of the code we need.
 
-![Installing the dependencies with pipenv and testing the gateway](images/03-preprocessing-04-pipenv-install.jpg)
+![Installing the dependencies with pipenv and testing the gateway](images/03-preprocessing-04-pipenv-install-cropped.png)
 
 That's it for this lesson: TensorFlow Serving runs in a Docker container,
 the gateway is a Flask application, and everything is put into a pipenv
