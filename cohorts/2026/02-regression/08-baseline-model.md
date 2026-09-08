@@ -83,8 +83,6 @@ g(xi) = w0 + xi1·w1 + xi2·w2      (xi1 is missing)
      = w0 +          xi2·w2
 ```
 
-![Setting a missing feature to zero simply removes its term](images/08-baseline-model-05-missing-feature-ignored-crisp.png)
-
 When `xi1` is zero, its term `xi1 · w1` disappears, so the model
 effectively ignores that feature. From a common-sense point of view,
 replacing a value with the mean of that feature is often more

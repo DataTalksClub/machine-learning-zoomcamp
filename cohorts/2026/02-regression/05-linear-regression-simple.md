@@ -31,8 +31,6 @@ Before we go to the matrix form, let's simplify and look at one observation
 instead of the entire feature matrix. One observation is one car, and this is
 its price:
 
-![g(xi) is approximately yi: a car and its price](images/05-linear-regression-simple-01-one-car-one-price-imagegen-pilot.png)
-
 A car can be a row in our feature matrix, so we can think of it as a vector
 with n elements: the first feature is x<sub>i1</sub>, then x<sub>i2</sub>, and
 so on until x<sub>in</sub>. We want a function that takes all these features
@@ -72,15 +70,11 @@ without knowing anything about the car. But we do know something, so each
 feature is multiplied by its weight: horsepower gets weight w<sub>1</sub>,
 miles per gallon gets w<sub>2</sub>, popularity gets w<sub>3</sub>.
 
-![The linear regression formula written for our three features](images/05-linear-regression-simple-03-regression-formula-crisp.png)
-
 The part with the features is a sum, so we can write the formula more
 compactly. Because we already use i for the car, we use j for the features, and
 it goes from 1 to n (in our example, 3):
 
 $$g(x_i) = w_0 + \sum_{j=1}^{n} w_j \cdot x_{ij}$$
-
-![The same formula written with a sum](images/05-linear-regression-simple-04-sum-notation-crisp.png)
 
 ## Implementing it in Python
 
@@ -129,7 +123,9 @@ linear_regression(xi)
 
 To make sense of this number, let's look at the parts it is made of:
 
-![The prediction as a sum: 7.17 + 453·0.01 + 11·0.04 + 86·0.002](images/05-linear-regression-simple-06-weights-interpretation-crisp.png)
+```text
+7.17 + 453·0.01 + 11·0.04 + 86·0.002 = 12.312
+```
 
 - We start with the bias term, 7.17. This is what we predict for an average
   car if we don't know anything about it.

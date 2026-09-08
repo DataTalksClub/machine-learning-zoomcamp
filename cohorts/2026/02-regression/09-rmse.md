@@ -24,8 +24,6 @@ the square root:
 RMSE = sqrt( (1/m) · Σ (g(xi) - yi)² )
 ```
 
-![Writing the RMSE formula](images/09-rmse-01-rmse-formula-crisp.png)
-
 Let's unpack each part with a small example.
 
 ## A worked example
@@ -38,8 +36,6 @@ y_pred:  10     9     11    10
 y:        9     9     10.5  11.5
 ```
 
-![Predictions and actual values as two arrays](images/09-rmse-02-predictions-vs-actual-prices-crisp.png)
-
 The first step is to take the difference between each prediction and
 the corresponding actual value:
 
@@ -49,8 +45,6 @@ the corresponding actual value:
 11 - 10.5 =  0.5
 10 - 11.5 = -1.5
 ```
-
-![Taking the differences between predictions and actual values](images/09-rmse-03-differences-crisp.png)
 
 Next, we square each difference:
 
@@ -70,8 +64,6 @@ Then we take the average of the squared errors:
 ```text
 (1 + 0 + 0.25 + 2.25) / 4 = 0.875
 ```
-
-![Squaring the differences and taking the mean](images/09-rmse-04-squared-errors-mean-crisp.png)
 
 This is the mean squared error, MSE. For our example, the mean squared
 error is 0.875:

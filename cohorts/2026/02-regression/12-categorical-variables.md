@@ -37,7 +37,12 @@ a separate binary column. If our column contains the values 2, 3, 4 and 2 again,
 we represent it with three columns - one for each door count - and put 1 in the
 column that matches the row, and 0 everywhere else:
 
-![One categorical column with values 2, 3, 4, 2 represented as three binary columns](images/12-categorical-variables-02-encoding-diagram.jpg)
+| number_of_doors | num_doors_2 | num_doors_3 | num_doors_4 |
+| --- | ---: | ---: | ---: |
+| 2 | 1 | 0 | 0 |
+| 3 | 0 | 1 | 0 |
+| 4 | 0 | 0 | 1 |
+| 2 | 1 | 0 | 0 |
 
 One categorical column becomes multiple binary columns, and each row gets
 exactly one 1.

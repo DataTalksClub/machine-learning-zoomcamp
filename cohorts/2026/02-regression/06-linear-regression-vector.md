@@ -111,8 +111,6 @@ linear_regression(xi)
 
 And it is - the same 12.312 we got in the previous lesson.
 
-![Prepending 1 to xi and w0 to w gives the same prediction](images/06-linear-regression-vector-05-prepend-one-crisp.png)
-
 ## Linear regression for all cars
 
 Now let's go back to thinking about all the examples, not just one. We have
