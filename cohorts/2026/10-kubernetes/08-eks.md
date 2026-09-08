@@ -15,7 +15,7 @@ We download it from the AWS docs and unpack it into the `~/bin` directory
 - the same directory where we put `docker-compose`, `kind` and `kubectl`
 before, so it's on the `PATH`:
 
-![Downloading and unpacking eksctl into ~/bin](images/08-eks-01-eksctl-install-cropped.png)
+![Downloading and unpacking eksctl into ~/bin](images/08-eks-01-eksctl-install-crisp.png)
 
 One thing to note before starting: EKS is not part of the Amazon Web
 Services Free Tier. You pay for the instances EKS uses as nodes, and you
@@ -47,7 +47,7 @@ nodeGroups:
     desiredCapacity: 1
 ```
 
-![The eks-config.yaml file with the cluster and node group configuration](images/08-eks-02-eks-config-cropped.png)
+![The eks-config.yaml file with the cluster and node group configuration](images/08-eks-02-eks-config-crisp.png)
 
 Creating the cluster takes a while - up to 15-20 minutes. Eksctl
 provisions the control plane and boots the worker nodes:
@@ -60,7 +60,7 @@ After it finishes, eksctl has also configured kubectl to talk to the new
 cluster - `kubectl get nodes` shows the node coming from EKS (the local
 kind node is still there, but kubectl already points to EKS).
 
-![eksctl create cluster, and the EKS node visible with kubectl get nodes](images/08-eks-04-create-cluster-cropped.png)
+![eksctl create cluster, and the EKS node visible with kubectl get nodes](images/08-eks-04-create-cluster-crisp.png)
 
 ## Publishing the images to ECR
 
@@ -108,7 +108,7 @@ name, which is why we replace it with `-`. The `get-login` command prints
 a warning that there are more secure ways of logging in - this way is
 simple, but check the AWS docs for the recommended one.
 
-![Tagging the local images for ECR](images/08-eks-03-ecr-push-cropped.png)
+![Tagging the local images for ECR](images/08-eks-03-ecr-push-crisp.png)
 
 Finally we get the URI of these images with `echo ${MODEL_REMOTE}` and
 `echo ${GATEWAY_REMOTE}`, and put them into `model-deployment.yaml` and
@@ -149,7 +149,7 @@ gateway's load balancer. On kind this external IP was pending forever -
 here we actually get a DNS name. It doesn't resolve immediately: the DNS
 update needs some time to propagate through the internet.
 
-![The gateway service with its external load balancer DNS name](images/08-eks-05-external-ip-cropped.png)
+![The gateway service with its external load balancer DNS name](images/08-eks-05-external-ip-crisp.png)
 
 We take this URL and put it into `test.py` as the access URL for
 predictions, adding `http://` at the beginning and `/predict` at the end:
@@ -171,7 +171,7 @@ Kubernetes created - because our gateway service has the type
 `LoadBalancer`, applying the config went to AWS and created an elastic
 load balancer for us.
 
-![The EKS node in the EC2 panel of the AWS console](images/08-eks-06-aws-console-cropped.png)
+![The EKS node in the EC2 panel of the AWS console](images/08-eks-06-aws-console-crisp.png)
 
 One thing to keep in mind: this load balancer is open to everyone.
 Anyone who has this DNS name can send requests to our EKS cluster.
