@@ -10,8 +10,6 @@ In this unit we put the project's dependencies into an isolated virtual
 environment with Pipenv, so our service always runs with the library versions
 we tested it with.
 
-![Environment and dependency management](images/05-pipenv-01-title-imagegen.png)
-
 ## The problem: conflicting library versions
 
 When we install Python packages with `pip install`, they all go to one shared
@@ -32,8 +30,6 @@ There are many tools for this - `venv`, `conda`, `poetry`. In this course we
 use Pipenv, because besides creating the environment it also records the exact
 package versions, which is what we need to reproduce the environment on a
 server later.
-
-![Tools for virtual environments: venv, conda, pipenv, poetry](images/05-pipenv-04-venv-tools-imagegen.png)
 
 ## Installing libraries with Pipenv
 

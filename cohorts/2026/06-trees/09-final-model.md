@@ -54,8 +54,6 @@ roc_auc_score(y_val, y_pred)
 0.8249709379767989
 ```
 
-![Tuned random forest with 200 trees, max_depth=10 and min_samples_leaf=3](images/09-final-model-02-tuned-random-forest-imagegen.png)
-
 And the tuned XGBoost model - `eta=0.1`, `max_depth=3`,
 `min_child_weight=1`, 175 rounds - gives:
 
@@ -85,8 +83,6 @@ roc_auc_score(y_val, y_pred)
 0.8360387251459157
 ```
 
-![XGBoost validation AUC of 0.836 - the best of the three](images/09-final-model-03-xgb-validation-auc-imagegen.png)
-
 XGBoost wins with an AUC of about 0.836, ahead of random forest at about
 0.825 and the single decision tree at about 0.785. This is a typical
 outcome: boosted trees are very strong on tabular data. The price is that
@@ -108,8 +104,6 @@ y_full_train = (df_full_train.status == 'default').astype(int).values
 del df_full_train['status']
 ```
 
-![Preparing df_full_train for training the final model](images/09-final-model-04-full-train-prep-imagegen.png)
-
 We turn both `df_full_train` and the test set into feature matrices with a
 newly fitted `DictVectorizer`, and wrap them in DMatrix objects - note that
 the test DMatrix needs no labels:
@@ -124,16 +118,12 @@ dicts_test = df_test.to_dict(orient='records')
 X_test = dv.transform(dicts_test)
 ```
 
-![Feature matrices for the full train and test sets](images/09-final-model-05-feature-matrices-imagegen.png)
-
 ```python
 dfulltrain = xgb.DMatrix(X_full_train, label=y_full_train,
                     feature_names=dv.get_feature_names_out())
 
 dtest = xgb.DMatrix(X_test, feature_names=dv.get_feature_names_out())
 ```
-
-![DMatrix objects for the full train and test sets](images/09-final-model-06-dmatrix-imagegen.png)
 
 Then we train the final model and look at its AUC on the test data:
 
@@ -162,8 +152,6 @@ roc_auc_score(y_test, y_pred)
 ```text
 0.8322662626460096
 ```
-
-![Training the final model and checking its AUC on the test set](images/09-final-model-07-final-test-auc-imagegen.png)
 
 The test AUC is about 0.832, close to the 0.836 we saw on validation. There
 is no big gap between the two, which means the model generalized well: it
