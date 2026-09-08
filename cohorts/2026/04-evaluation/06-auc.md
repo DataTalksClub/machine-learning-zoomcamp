@@ -31,7 +31,7 @@ auc(fpr, tpr)
 
 This gives `0.843850505725819`. Feeding it the table we computed by hand in the previous lesson gives practically the same number - `0.8438796286447967` - and the ideal curve gives `0.9999430203759136`, almost exactly 1.
 
-![Computing the area with sklearn auc: for the sklearn curve and for the hand-computed table](images/06-auc-03-auc-notebook.jpg)
+![Computing the area with sklearn auc: for the sklearn curve and for the hand-computed table](images/06-auc-03-auc-notebook-cropped.png)
 
 There is also a shortcut that computes the ROC curve and the area in one step:
 
