@@ -19,13 +19,13 @@ A REST API is organized into resources. Usually resources are nouns -
 ours `predict`, following what we did in the Flask lessons, where the
 endpoint was `/predict`.
 
-![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api-cropped.png)
+![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api-crisp.png)
 
 So: create a resource called `predict`. We don't need to configure
 anything else - in particular, we don't need to make it a proxy
 resource.
 
-![Creating the predict resource](images/07-api-gateway-02-create-resource-cropped.png)
+![Creating the predict resource](images/07-api-gateway-02-create-resource-crisp.png)
 
 ## Adding a POST method
 
@@ -41,7 +41,7 @@ AWS tells us that it needs to modify the permissions of the Lambda
 function to let API Gateway invoke it - click OK. Now our function can
 be called by the gateway.
 
-![The "Add Permission to Lambda Function" dialog](images/07-api-gateway-03-lambda-permission-cropped.png)
+![The "Add Permission to Lambda Function" dialog](images/07-api-gateway-03-lambda-permission-crisp.png)
 
 ## Testing
 
@@ -55,7 +55,7 @@ Click it and put the request body in - the JSON payload from our
 }
 ```
 
-![The method test page for POST /predict](images/07-api-gateway-04-method-test-cropped.png)
+![The method test page for POST /predict](images/07-api-gateway-04-method-test-crisp.png)
 
 Run the test. It took about four seconds, and the response body
 contains what we already know - the scores for all ten classes, with
@@ -63,7 +63,7 @@ contains what we already know - the scores for all ten classes, with
 we don't care about.) Testing one more time is faster, as usual, since
 the function is already warm.
 
-![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response-cropped.png)
+![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response-crisp.png)
 
 ## Deploying the API
 
@@ -89,7 +89,7 @@ result = requests.post(url, json=data).json()
 print(result)
 ```
 
-![The updated test.py with the API Gateway URL](images/07-api-gateway-07-test-py-gateway-url-cropped.png)
+![The updated test.py with the API Gateway URL](images/07-api-gateway-07-test-py-gateway-url-crisp.png)
 
 When we run it, the request goes to API Gateway, which invokes the
 Lambda function, gets the response, and passes it back to us. And this
