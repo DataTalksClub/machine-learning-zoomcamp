@@ -217,3 +217,13 @@ crops and upscaling.
 - Invariants checked: outer `UBUNTU - HOST`, separate `GATEWAY`/`FLASK` and `TF-SERVING`/`TFSERVING` areas, ports `9696` and `8500`, host mappings, and `TEST.PY` connections.
 - Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra container remains.
 - Output: `images/04-docker-compose-03-isolated-containers-imagegen.png`.
+
+### `04-docker-compose-04-compose-file.jpg`
+
+- Lesson: `04-docker-compose.md`; caption: The docker-compose file with the two services.
+- Disposition: deterministic focused crop/prep; the YAML values are exact and must not be regenerated.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, terminal panel, and native text-selection highlights present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-04-compose-file-source-clean.png`, coordinates `500x215+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: Compose version `3.9`, both service names/images, `TF_SERVING_HOST=clothing-model:8500`, and `9696:9696` remain exact.
+- Limitation: native editor selection highlights remain because removing pixels from exact YAML text would risk damaging the code; unrelated terminal output and webcam/chrome are cropped away.
+- Output: `images/04-docker-compose-04-compose-file-cropped.png`.

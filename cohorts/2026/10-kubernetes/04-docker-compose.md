@@ -139,7 +139,7 @@ Docker Compose resolves service names inside that network: the gateway
 looks for the host `clothing-model` on port 8500, and Docker Compose turns
 that name into the address of the TF-Serving container.
 
-![The docker-compose file with the two services](images/04-docker-compose-04-compose-file.jpg)
+![The docker-compose file with the two services](images/04-docker-compose-04-compose-file-cropped.png)
 
 Running the command `docker-compose up` establishes this connection
 between both images. In the logs we see gunicorn starting for the
