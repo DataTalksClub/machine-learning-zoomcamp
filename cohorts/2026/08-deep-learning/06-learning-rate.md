@@ -159,7 +159,7 @@ Again `0.0001` is too slow - after 10 epochs it's still below 80% - and
 `0.1` is the worst of all four. Let's remove both from `scores` and
 compare only `0.001` and `0.01`:
 
-![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy.jpg)
+![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy-cropped.png)
 
 ```python
 del scores[0.1]
