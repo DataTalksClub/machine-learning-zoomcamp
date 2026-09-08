@@ -170,3 +170,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 with light sharpening; exact resource name, path, proxy-resource option, and CORS control were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `New Child Resource`, `predict`, `/ predict`, and `Enable API Gateway CORS` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 07-api-gateway-03-lambda-permission.jpg
+
+- **Disposition:** `crop/replace` → `images/07-api-gateway-03-lambda-permission-cropped.png` (**source/caption mismatch recorded for parent review**).
+- **Teaching point stated by the lesson:** the AWS “Add Permission to Lambda Function” dialog confirms API Gateway may invoke Lambda.
+- **Source inspection:** the 592×360 source is actually a local `test.py` editor frame, not that AWS dialog. Crop `+0+0 500×315` removes the webcam tile, right-side black frame, and bottom status strip while preserving the exact source rather than inventing UI.
+- **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; no text or controls were regenerated.
+- **Rubric:** instructional contribution 0, relevance 0, readability 2, complementarity 0, durability 1, caption/accessibility 0 — **3/12; parent review required**. The asset should be removed or replaced if a matching permission-dialog source is found.
+- **Validation:** output inspected; the actual test script remains readable and no face/camera/recording overlay remains. The screenshot does not substantiate the surrounding permission-dialog paragraph; the Markdown reference resolves.

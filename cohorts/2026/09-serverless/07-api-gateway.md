@@ -41,7 +41,7 @@ AWS tells us that it needs to modify the permissions of the Lambda
 function to let API Gateway invoke it - click OK. Now our function can
 be called by the gateway.
 
-![The "Add Permission to Lambda Function" dialog](images/07-api-gateway-03-lambda-permission.jpg)
+![The "Add Permission to Lambda Function" dialog](images/07-api-gateway-03-lambda-permission-cropped.png)
 
 ## Testing
 
