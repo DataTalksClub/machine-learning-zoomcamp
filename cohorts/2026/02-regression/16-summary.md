@@ -81,7 +81,7 @@ existing ones. We created the age feature, and it improved the performance of
 our model drastically: the distribution of predictions started to match the
 distribution of actual values much better than previously.
 
-![After adding the age feature: the distribution of predictions (red) matches the actual values (blue)](images/16-summary-07-feature-engineering.jpg)
+![After adding the age feature: the distribution of predictions (red) matches the actual values (blue)](images/16-summary-07-feature-engineering-cropped.png)
 
 Then we looked at how to integrate categorical variables. We represented each
 categorical variable with a bunch of binary columns. This way of encoding
