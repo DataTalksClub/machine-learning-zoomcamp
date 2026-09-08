@@ -37,7 +37,7 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 The file is small (~178K), so it downloads quickly. Let's peek inside
 with `head`:
 
-![Downloading CreditScoring.csv and looking at the raw file](images/02-data-prep-01-download-data-cropped.png)
+![Downloading CreditScoring.csv and looking at the raw file](images/02-data-prep-01-download-data-crisp.png)
 
 ```text
 "Status","Seniority","Home","Time","Age","Marital","Records","Job","Expenses","Income","Assets","Debt","Amount","Price"
@@ -90,7 +90,7 @@ status_values = {
 df.status = df.status.map(status_values)
 ```
 
-![Decoding the status column with a dictionary and map](images/02-data-prep-02-decode-status-cropped.png)
+![Decoding the status column with a dictionary and map](images/02-data-prep-02-decode-status-crisp.png)
 
 We do the same for the other categorical columns:
 
@@ -173,7 +173,7 @@ The maximum values of `income`, `assets` and `debt` look suspicious:
 99999999. This dataset encodes missing values as a long number of
 nines. Instead of NaN, "unknown" became 99999999.
 
-![The summary statistics show the encoded missing values](images/02-data-prep-03-encoded-missing-values-cropped.png)
+![The summary statistics show the encoded missing values](images/02-data-prep-03-encoded-missing-values-crisp.png)
 
 We replace these values with NaN:
 
@@ -186,7 +186,7 @@ After this, `df.describe().round()` shows the true picture - the counts
 drop (income now has 4421 values instead of 4455, assets 4408, debt
 4437) and the maximums become realistic.
 
-![After replacing 99999999 with NaN the statistics look realistic](images/02-data-prep-04-replace-missing-with-nan-cropped.png)
+![After replacing 99999999 with NaN the statistics look realistic](images/02-data-prep-04-replace-missing-with-nan-crisp.png)
 
 ## Removing the one unknown status
 
@@ -197,7 +197,7 @@ about the two classes - ok and default - we remove this row:
 df = df[df.status != 'unk'].reset_index(drop=True)
 ```
 
-![Filtering out the one customer with unknown status](images/02-data-prep-05-remove-unknown-status-cropped.png)
+![Filtering out the one customer with unknown status](images/02-data-prep-05-remove-unknown-status-crisp.png)
 
 This leaves 4454 rows.
 
@@ -217,7 +217,7 @@ df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=
 
 We reset the indexes so they are fresh and unique in each dataframe:
 
-![The two-step split and resetting the indexes](images/02-data-prep-06-train-val-test-split-cropped.png)
+![The two-step split and resetting the indexes](images/02-data-prep-06-train-val-test-split-crisp.png)
 
 ```python
 df_train = df_train.reset_index(drop=True)
@@ -236,7 +236,7 @@ y_val = (df_val.status == 'default').astype('int').values
 y_test = (df_test.status == 'default').astype('int').values
 ```
 
-![Turning the status column into a binary target](images/02-data-prep-07-binary-target-cropped.png)
+![Turning the status column into a binary target](images/02-data-prep-07-binary-target-crisp.png)
 
 Finally, we delete `status` from the dataframes - otherwise we would
 use the target as a feature, and the model would learn to cheat:

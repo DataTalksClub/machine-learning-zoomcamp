@@ -84,7 +84,7 @@ for depth in [4, 5, 6]:
         scores.append((depth, s, auc))
 ```
 
-![Trying all combinations of max_depth and min_samples_leaf](images/05-decision-tree-tuning-03-grid-search-cropped.png)
+![Trying all combinations of max_depth and min_samples_leaf](images/05-decision-tree-tuning-03-grid-search-crisp.png)
 
 Then we put the scores into a dataframe:
 
@@ -116,7 +116,7 @@ min_samples_leaf
 500               0.680  0.680  0.680
 ```
 
-![The pivot table with the best cell, 0.785](images/05-decision-tree-tuning-04-pivot-cropped.png)
+![The pivot table with the best cell, 0.785](images/05-decision-tree-tuning-04-pivot-crisp.png)
 
 Even easier to read as a heatmap - the best cell is the lightest one:
 
@@ -124,7 +124,7 @@ Even easier to read as a heatmap - the best cell is the lightest one:
 sns.heatmap(df_scores_pivot, annot=True, fmt=".3f")
 ```
 
-![The heatmap of AUC values; max_depth=6 and min_samples_leaf=15 wins](images/05-decision-tree-tuning-05-heatmap-cropped.png)
+![The heatmap of AUC values; max_depth=6 and min_samples_leaf=15 wins](images/05-decision-tree-tuning-05-heatmap-crisp.png)
 
 The best combination is `max_depth=6` and `min_samples_leaf=15`, with
 an AUC of 0.785 - better than anything we saw when tuning `max_depth`
@@ -137,7 +137,7 @@ we could afford to check more combinations - and if we did, other
 close pairs would show up. It's a good habit to start with a coarse
 search and refine it.
 
-![A wider search over more depths shows several close combinations](images/05-decision-tree-tuning-07-wider-search-cropped.png)
+![A wider search over more depths shows several close combinations](images/05-decision-tree-tuning-07-wider-search-crisp.png)
 
 ## The final tree
 
@@ -179,7 +179,7 @@ that don't make sense, like `nan` creeping into the grid. A
 combination can show a good score by accident - check that the values
 you pick actually control the size of the tree the way you intend.
 
-![Sorting by AUC puts a row with max_depth=NaN on top](images/05-decision-tree-tuning-06-nan-warning-cropped.png)
+![Sorting by AUC puts a row with max_depth=NaN on top](images/05-decision-tree-tuning-06-nan-warning-crisp.png)
 
 ## Materials
 

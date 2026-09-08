@@ -48,7 +48,7 @@ assess_risk(xi)
 'ok'
 ```
 
-![Checking the rules on one customer, then importing the model](images/03-decision-trees-02-assess-risk-cropped.png)
+![Checking the rules on one customer, then importing the model](images/03-decision-trees-02-assess-risk-crisp.png)
 
 Writing rules by hand doesn't scale. The point of the decision tree
 algorithm is that it learns these rules from data automatically.
@@ -85,7 +85,7 @@ dt = DecisionTreeClassifier()
 dt.fit(X_train, y_train)
 ```
 
-![Turning rows into dictionaries, vectorizing, and fitting the tree](images/03-decision-trees-03-training-cropped.png)
+![Turning rows into dictionaries, vectorizing, and fitting the tree](images/03-decision-trees-03-training-crisp.png)
 
 And check how it performs on the validation set:
 
@@ -115,7 +115,7 @@ roc_auc_score(y_train, y_pred)
 1.0
 ```
 
-![Validation AUC 0.65 versus training AUC 1.0](images/03-decision-trees-04-overfit-auc-cropped.png)
+![Validation AUC 0.65 versus training AUC 1.0](images/03-decision-trees-04-overfit-auc-crisp.png)
 
 AUC of 1.0 on training but 0.65 on validation: the tree memorized the
 training data. It learned one specific rule per customer, so on the
