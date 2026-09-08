@@ -46,7 +46,7 @@ Now we could simply run the image with
 check that it works, we can run the gateway locally (with the prediction
 call in `gateway.py` uncommented) and point it at the container:
 
-![Building the model image and running it: TensorFlow Serving loads the model successfully](images/04-docker-compose-01-model-image-cropped.png)
+![Building the model image and running it: TensorFlow Serving loads the model successfully](images/04-docker-compose-01-model-image-crisp.png)
 
 ## Preparing the gateway image
 
@@ -81,7 +81,7 @@ Build the image:
 docker build -t zoomcamp-10-gateway:001 -f image-gateway.dockerfile .
 ```
 
-![Building the gateway image](images/04-docker-compose-02-gateway-image-cropped.png)
+![Building the gateway image](images/04-docker-compose-02-gateway-image-crisp.png)
 
 Run it:
 
@@ -139,14 +139,14 @@ Docker Compose resolves service names inside that network: the gateway
 looks for the host `clothing-model` on port 8500, and Docker Compose turns
 that name into the address of the TF-Serving container.
 
-![The docker-compose file with the two services](images/04-docker-compose-04-compose-file-cropped.png)
+![The docker-compose file with the two services](images/04-docker-compose-04-compose-file-crisp.png)
 
 Running the command `docker-compose up` establishes this connection
 between both images. In the logs we see gunicorn starting for the
 gateway, and TensorFlow Serving reporting `Successfully loaded servable
 version name: clothing-model version: 1`.
 
-![docker-compose up: both services start](images/04-docker-compose-05-compose-up-cropped.png)
+![docker-compose up: both services start](images/04-docker-compose-05-compose-up-crisp.png)
 
 As everything is configured properly we get the predictions back - we can
 test it by posting an image URL to `localhost:9696/predict`:
