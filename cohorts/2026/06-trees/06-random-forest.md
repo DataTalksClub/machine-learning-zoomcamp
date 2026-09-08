@@ -84,7 +84,7 @@ df_scores = pd.DataFrame(scores, columns=['n_estimators', 'auc'])
 plt.plot(df_scores.n_estimators, df_scores.auc)
 ```
 
-![Validation AUC against the number of trees: it grows quickly, then stabilizes](images/06-random-forest-03-auc-vs-trees-crisp.png)
+![Validation AUC against the number of trees: it grows quickly, then stabilizes](images/06-random-forest-03-auc-vs-trees-imagegen.png)
 
 The curve grows quickly at the beginning and then stabilizes: after some
 number of trees, adding more of them does not improve the score. Still, more
@@ -130,7 +130,7 @@ for d in [5, 10, 15]:
 plt.legend()
 ```
 
-![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth-crisp.png)
+![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth-imagegen.png)
 
 The curves for `max_depth=10` and `max_depth=15` are clearly better than the
 one for `max_depth=5`, and `max_depth=10` is the best of the three. So we fix
@@ -183,7 +183,7 @@ for s, col in zip(values, colors):
 plt.legend()
 ```
 
-![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf-crisp.png)
+![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf-imagegen.png)
 
 The curves with small values - 1, 3 and 5 - are close to each other at the
 top, while 10 and especially 50 are worse. We take `min_samples_leaf=3`:

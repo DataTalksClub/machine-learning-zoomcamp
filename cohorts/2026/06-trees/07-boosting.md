@@ -184,7 +184,7 @@ plt.plot(df_score.num_iter, df_score.val_auc, label='val')
 plt.legend()
 ```
 
-![Train AUC grows to one while validation AUC flattens and starts to degrade](images/07-boosting-03-train-val-auc-crisp.png)
+![Train AUC grows to one while validation AUC flattens and starts to degrade](images/07-boosting-03-train-val-auc-imagegen.png)
 
 The train curve goes to one, while the validation curve quickly stops
 improving. This plot is what we will use in the next unit for tuning: the
