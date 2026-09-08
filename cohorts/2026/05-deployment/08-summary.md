@@ -7,7 +7,7 @@ This is the last unit of the module, so let's summarize what we did: we took
 the churn prediction model from the notebook and deployed it as a web service
 that other systems can call.
 
-![The plan of the module: from saving the model to web services](images/08-summary-01-module-plan-cropped.png)
+![The plan of the module: from saving the model to web services](images/08-summary-01-module-plan-crisp.png)
 
 ## What we covered
 
@@ -29,7 +29,7 @@ removed everything that tied it to our laptop:
 - Deployment to the cloud - with AWS Elastic Beanstalk, which runs the
   container on AWS machines and makes the service available on the internet.
 
-![The second half of the plan: Pipenv, Docker and AWS Elastic Beanstalk](images/08-summary-02-module-plan-continued-cropped.png)
+![The second half of the plan: Pipenv, Docker and AWS Elastic Beanstalk](images/08-summary-02-module-plan-continued-crisp.png)
 
 To summarize the whole module in one list:
 
@@ -39,7 +39,7 @@ To summarize the whole module in one list:
 - Package it in Docker
 - Deploy to the cloud (AWS Elastic Beanstalk)
 
-![The whole module in one list, from the lesson plan](images/08-summary-03-summary-list-cropped.png)
+![The whole module in one list, from the lesson plan](images/08-summary-03-summary-list-crisp.png)
 
 The [next unit](09-explore-more.md) has no video - it lists other tools you
 can try on your own. After that there will be homework, where you will deploy
