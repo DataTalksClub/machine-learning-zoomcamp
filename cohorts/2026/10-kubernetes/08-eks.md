@@ -60,7 +60,7 @@ After it finishes, eksctl has also configured kubectl to talk to the new
 cluster - `kubectl get nodes` shows the node coming from EKS (the local
 kind node is still there, but kubectl already points to EKS).
 
-![eksctl create cluster, and the EKS node visible with kubectl get nodes](images/08-eks-04-create-cluster.jpg)
+![eksctl create cluster, and the EKS node visible with kubectl get nodes](images/08-eks-04-create-cluster-cropped.png)
 
 ## Publishing the images to ECR
 
