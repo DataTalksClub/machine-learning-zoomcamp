@@ -36,7 +36,7 @@ ReLU: a negative input becomes zero, a positive input goes through
 unchanged. For a good overview of activation functions, see the
 [CS231n course notes](http://cs231n.stanford.edu/2017/).
 
-![The CS231n notes on the ReLU activation function: f(x) = max(0, x)](images/08-more-layers-02-activation-functions-cropped.png)
+![The CS231n notes on the ReLU activation function: f(x) = max(0, x)](images/08-more-layers-02-activation-functions-crisp.png)
 
 Here's the updated `make_model` function - the only change is the
 `inner` layer with `size_inner` neurons and `activation='relu'`:
@@ -77,7 +77,7 @@ def make_model(learning_rate=0.01, size_inner=100):
     return model
 ```
 
-![The notebook with the inner layer: Dense(size_inner, activation='relu') between the vectors and the output](images/08-more-layers-03-relu-in-code-cropped.png)
+![The notebook with the inner layer: Dense(size_inner, activation='relu') between the vectors and the output](images/08-more-layers-03-relu-in-code-crisp.png)
 
 The inner layer size is a hyperparameter, like the learning rate. We
 don't know in advance how big it should be, so we experiment: with
@@ -100,13 +100,13 @@ for size in [10, 100, 1000]:
     print()
 ```
 
-![The tuning loop: training models with inner layer sizes 10, 100 and 1000](images/08-more-layers-04-tuning-sizes-cropped.png)
+![The tuning loop: training models with inner layer sizes 10, 100 and 1000](images/08-more-layers-04-tuning-sizes-crisp.png)
 
 While the models train, we can check that the GPU is actually being
 used. From Jupyter we can open a terminal and run `nvidia-smi` - a
 command-line utility from NVIDIA that shows GPU utilization:
 
-![nvidia-smi showing a Tesla K80 GPU at 95% utilization during training](images/08-more-layers-05-nvidia-smi-cropped.png)
+![nvidia-smi showing a Tesla K80 GPU at 95% utilization during training](images/08-more-layers-05-nvidia-smi-crisp.png)
 
 Here the GPU is utilized at 95%, so we're using it effectively. If
 during training you see 30-50% utilization, the GPU is underutilized
@@ -125,7 +125,7 @@ plt.yticks([0.78, 0.80, 0.82, 0.825, 0.83])
 plt.legend()
 ```
 
-![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot-cropped.png)
+![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot-crisp.png)
 
 The curves for all three sizes are close to each other: validation
 accuracy lands somewhere between 0.78 and 0.83 for each size, and the
