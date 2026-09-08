@@ -128,8 +128,6 @@ change anything else. Click "Create function".
 One difference from the first function we created: there is no code
 preview, because the code now lives in the container image.
 
-![Creating the function from a container image; the console stores the image digest, and x86_64 is selected](images/06-creating-lambda-03-create-function-crisp.png)
-
 ## Testing and configuring
 
 The console suggests invoking the function with a test event. Let's do
@@ -147,16 +145,12 @@ Click "Test". It fails:
 Task timed out after 3.00 seconds
 ```
 
-![The execution result: Task timed out after 3.00 seconds](images/06-creating-lambda-04-timeout-error-crisp.png)
-
 Three seconds is the default timeout, and it's not sufficient for us.
 To change it, go to "Configuration", then "General configuration", and
 click "Edit". Increase the timeout to 30 seconds and give the function
 more memory - 1024 MB, that is 1 GB. The first invocation needs this:
 it has to initialize everything, download the image, import the
 libraries and load the model. Save.
-
-![Editing the configuration: 1024 MB of memory and a 30 second timeout](images/06-creating-lambda-05-configure-timeout-memory-crisp.png)
 
 Test again - it's successful. We see the output we know: the
 predictions with "pants" having the highest score. But this time it
@@ -169,7 +163,9 @@ init duration: the function is already warm. It did all the imports
 and loaded the model, so it's ready to serve requests. The first
 invocation is usually slower, the consequent ones are faster.
 
-![The second invocation: Duration 2226 ms, 1024 MB configured, at most 270 MB actually used](images/06-creating-lambda-06-test-success-crisp.png)
+In the recorded warm invocation, Lambda reported a duration of 2226 ms,
+1024 MB configured memory, and at most 270 MB used. There was no init
+duration because the function was already warm.
 
 ## Pricing
 
