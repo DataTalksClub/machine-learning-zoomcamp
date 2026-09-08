@@ -201,7 +201,7 @@ before closing the connection. That's all we need to know: the DNS name
 resolves, the port is open, and this is exactly the address the gateway
 should use.
 
-![Testing connectivity from inside a pod with telnet](images/07-kubernetes-tf-serving-06-telnet.jpg)
+![Testing connectivity from inside a pod with telnet](images/07-kubernetes-tf-serving-06-telnet-cropped.png)
 
 ## Creating the gateway service
 
