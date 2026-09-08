@@ -84,7 +84,7 @@ Python's `format` notation:
 So after the third epoch with validation accuracy 0.836, the file on
 disk will be called `xception_v1_03_0.836.h5`.
 
-![Filling the filename template with format produces xception_v1_12_0.840.h5](images/07-checkpointing-03-filename-template.jpg)
+![Filling the filename template with format produces xception_v1_12_0.840.h5](images/07-checkpointing-03-filename-template-cropped.png)
 
 Then `save_best_only`. Say after the first epoch the validation
 accuracy is 75% - that's the best so far, so we save the model. If
