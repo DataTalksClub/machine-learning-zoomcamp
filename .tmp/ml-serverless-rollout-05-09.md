@@ -270,3 +270,14 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** no course asset committed; a deterministic trial crop was rejected as redundant and unhelpful.
 - **Rubric:** instructional contribution 0, relevance 1, readability 2, complementarity 0, durability 2, caption/accessibility 0 — **5/12; remove**.
 - **Validation:** the Markdown image reference was removed, the original `.jpg` remains untouched, and no broken reference is introduced. Rejected crop: `/tmp/ml-serverless-rejected/08-summary-06-explore-more-cropped.png`.
+
+## Batch limitations
+
+- Deterministic crops remove all presenter/webcam tiles, browser/recording
+  chrome, black frame edges, and cookie/footer banners where those areas were
+  outside the exact teaching content.
+- Native text selections, cursors, and long-line/source-edge truncation remain
+  in a few code/UI captures because painting them out would change exact
+  technical pixels; these are not imagegen-generated approximations.
+- The source/caption mismatch for the permission-dialog frame remains flagged
+  for parent review; no matching permission-dialog source was available.
