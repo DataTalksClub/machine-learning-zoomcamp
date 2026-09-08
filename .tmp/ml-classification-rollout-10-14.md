@@ -23,6 +23,10 @@ both code cells and their exact text.
   `(15,82,505,115)`, 2× Lanczos resize and light unsharp; preserved the exact
   bias and 45-weight array and removed the handwritten annotation/camera tile.
 
+Correction: replaced the composite's intercept crop with `(15,52,440,38)`
+to remove the remaining Jupyter menu bar; the coefficient crop and exact
+45-weight array are unchanged.
+
 - `10-training-log-reg-03-soft-predictions.jpg` →
   `10-training-log-reg-03-soft-predictions-cropped.png` — deterministic crop
   `(15,190,300,100)`, 2× Lanczos resize and light unsharp; preserved the
