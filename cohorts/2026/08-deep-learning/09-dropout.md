@@ -124,7 +124,7 @@ slower. In this experiment we don't add checkpointing - though it
 would have been useful here to keep the best model instead of the
 last one.
 
-![The tuning loop: training models with dropout rates 0.0, 0.2, 0.5 and 0.8 for 30 epochs](images/09-dropout-05-tuning-dropout-cropped.png)
+![The tuning loop: training models with dropout rates 0.0, 0.2, 0.5 and 0.8 for 30 epochs](images/09-dropout-05-tuning-dropout-crisp.png)
 
 Looking at the results: without dropout, training accuracy quickly
 goes to 100% and stays there, while the validation accuracy stays
@@ -134,7 +134,7 @@ aggressive. With `droprate=0.2`, the model peaks slightly above 0.84
 early on and then oscillates around 0.83 - better than the best score
 of the previous unit.
 
-![Dropout 0.2: validation accuracy peaks slightly above 0.84 and then oscillates around 0.83](images/09-dropout-07-dropout-02-vs-train-cropped.png)
+![Dropout 0.2: validation accuracy peaks slightly above 0.84 and then oscillates around 0.83](images/09-dropout-07-dropout-02-vs-train-crisp.png)
 
 One caveat: the single spike of the 0.5 curve to 0.85 looks more like
 luck than a genuinely better model - right after it, the score drops
@@ -151,7 +151,7 @@ plt.ylim(0.78, 0.86)
 plt.legend()
 ```
 
-![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout-cropped.png)
+![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout-crisp.png)
 
 It also helps to zoom in on the two curves with the best validation
 accuracy, 0.0 and 0.2:
@@ -166,7 +166,7 @@ plt.plot(hist['val_accuracy'], label=0.2)
 plt.legend()
 ```
 
-![Dropout 0.0: the training accuracy quickly reaches 100% while validation stays around 0.84](images/09-dropout-08-no-regularization-overfit-cropped.png)
+![Dropout 0.0: the training accuracy quickly reaches 100% while validation stays around 0.84](images/09-dropout-08-no-regularization-overfit-crisp.png)
 
 In the end, `droprate=0.2` is the choice: it's not too large, the
 performance is reasonably good, and unlike plain 0.0 it actually
