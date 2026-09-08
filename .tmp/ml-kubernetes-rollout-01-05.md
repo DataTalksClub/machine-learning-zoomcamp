@@ -257,3 +257,13 @@ crops and upscaling.
 - Invariants checked: one `CLUSTER` boundary, exactly two stacked `NODE` regions, a gateway deployment and a TF-Serving deployment spanning both nodes, exactly one gateway pod and one TF-Serving pod in each node, and same-image/config relationships.
 - Prompt iteration: first generation was rejected because it duplicated pods within each node and changed the topology; a targeted correction restored exactly four pods distributed one per deployment per node.
 - Output: `images/05-kubernetes-intro-02-deployments-imagegen.png`.
+
+### `05-kubernetes-intro-03-services.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: The user talks to the gateway service; the gateway talks to the model service.
+- Disposition: deterministic crop/prep; the diagram's exact arrows, labels, and pod placement are the source of truth.
+- Source inspection: `596x360`; webcam tile and black side bars present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-03-services-source-clean.png`, coordinates `475x360+23+0`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: client, gateway service, model service, cluster, two nodes, gateway and TF-Serving pods, and the handwritten same-image/config annotations remain visible; recording overlays are excluded.
+- Limitation: deterministic preparation preserves the source's hand-drawn lettering and source-edge composition; no text or topology was reconstructed.
+- Output: `images/05-kubernetes-intro-03-services-cropped.png`.

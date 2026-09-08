@@ -71,7 +71,7 @@ goes to the model service, and the model service routes the request to
 one of the TensorFlow Serving pods. That pod gets the protobuf request
 and replies with predictions, which come all the way back to the user.
 
-![The user talks to the gateway service; the gateway talks to the model service](images/05-kubernetes-intro-03-services.jpg)
+![The user talks to the gateway service; the gateway talks to the model service](images/05-kubernetes-intro-03-services-cropped.png)
 
 So we can think of a service as the main point of entry to a deployment:
 it gets the request and decides which pod should handle it.
