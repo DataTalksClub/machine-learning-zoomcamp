@@ -227,3 +227,13 @@ crops and upscaling.
 - Invariants checked: Compose version `3.9`, both service names/images, `TF_SERVING_HOST=clothing-model:8500`, and `9696:9696` remain exact.
 - Limitation: native editor selection highlights remain because removing pixels from exact YAML text would risk damaging the code; unrelated terminal output and webcam/chrome are cropped away.
 - Output: `images/04-docker-compose-04-compose-file-cropped.png`.
+
+### `04-docker-compose-05-compose-up.jpg`
+
+- Lesson: `04-docker-compose.md`; caption: docker-compose up: both services start.
+- Disposition: deterministic crop/prep; exact container logs and successful model-load status are the source of truth.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-05-compose-up-source-clean.png`, coordinates `500x320+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: gateway/gunicorn startup, `localhost:9696`, TensorFlow Serving model load, `clothing-model` version `1`, and `Status: success: OK` remain exact.
+- Limitation: the source itself truncates some long log lines at both edges; no log text was guessed or expanded.
+- Output: `images/04-docker-compose-05-compose-up-cropped.png`.

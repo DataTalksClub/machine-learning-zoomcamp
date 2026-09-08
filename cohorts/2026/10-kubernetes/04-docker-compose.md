@@ -146,7 +146,7 @@ between both images. In the logs we see gunicorn starting for the
 gateway, and TensorFlow Serving reporting `Successfully loaded servable
 version name: clothing-model version: 1`.
 
-![docker-compose up: both services start](images/04-docker-compose-05-compose-up.jpg)
+![docker-compose up: both services start](images/04-docker-compose-05-compose-up-cropped.png)
 
 As everything is configured properly we get the predictions back - we can
 test it by posting an image URL to `localhost:9696/predict`:
