@@ -25,7 +25,6 @@ We already have a lot of data about the cars on our website:
 - The mileage - how many kilometers the car has driven so far.
 - The model, the number of doors and many other characteristics.
 
-![The table of what we know about cars](images/01-what-is-ml-02-known-about-cars-imagegen-pilot.png)
 
 Using this information, an expert can determine the price. If you want to sell a car through a dealership, an expert looks at the year, the manufacturer, the mileage, and tells you how much this car costs. Experts can do this because they have seen many cars: they learned from data, extracted patterns - an old car is less expensive, the more a car drove the cheaper it becomes - and now they apply these patterns to new cars.
 
@@ -42,7 +41,6 @@ Two names to remember:
 
 We collect the features of all the cars we have into a table, together with a column of prices - the target.
 
-![Features - what we know about cars; target - what we want to predict](images/01-what-is-ml-04-features-target-imagegen-pilot.png)
 
 ## Training a model
 

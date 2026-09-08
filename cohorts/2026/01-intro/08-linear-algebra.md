@@ -38,7 +38,6 @@ Addition works element-wise: we add each element of the first vector to the corr
 array([3, 4, 5, 8])
 ```
 
-![Multiplying a vector by a scalar and adding two vectors](images/08-linear-algebra-01-vector-operations-crisp.png)
 
 This is pretty much the same as we saw in the previous lecture in NumPy: element-wise addition, and multiplication by 2 is element-wise multiplication. So what happens in linear algebra here is exactly what NumPy does.
 
@@ -98,7 +97,6 @@ Let's test it:
 
 It returns 14, like we calculated by hand.
 
-![The vector-vector multiplication implementation and its test](images/08-linear-algebra-03-vector-vector-implementation-crisp.png)
 
 Of course, in NumPy there is already a function that does this - `dot`:
 
@@ -165,7 +163,6 @@ array([14,  5,  5])
 
 Same result.
 
-![The matrix-vector multiplication function and its test](images/08-linear-algebra-05-matrix-vector-implementation-crisp.png)
 
 ### Matrix-matrix multiplication
 
@@ -225,7 +222,6 @@ array([[14. , 20. , 13. ],
 
 Same result - which means our implementation works.
 
-![The matrix-matrix multiplication function and its test](images/08-linear-algebra-06-matrix-matrix-crisp.png)
 
 This way we expressed matrix-matrix multiplication using matrix-vector multiplication, and in turn we expressed matrix-vector multiplication with vector-vector multiplication.
 
@@ -259,7 +255,6 @@ array([[1. , 1. , 2. ],
 
 We multiplied `V` by `I` and got `V` back.
 
-![The identity matrix: multiplying V by I gives V back](images/08-linear-algebra-07-identity-matrix-crisp.png)
 
 ## Inverse
 
@@ -285,7 +280,6 @@ array([[ 1.        , -2.        ,  0.        ],
        [ 0.        ,  1.33333333, -0.33333333]])
 ```
 
-![Computing the inverse with np.linalg.inv](images/08-linear-algebra-08-inverse-crisp.png)
 
 And when we multiply the inverse by the matrix, what we get is the identity matrix:
 

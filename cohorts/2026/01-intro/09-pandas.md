@@ -61,7 +61,6 @@ df = pd.DataFrame(data, columns=columns)
 4        Pickup  32340  
 ```
 
-![Creating a DataFrame from a list of lists with named columns](images/09-pandas-01-create-dataframe-crisp.png)
 
 Usually I call DataFrames `df`.
 
@@ -141,7 +140,6 @@ We can also access multiple columns at the same time. Say we want a subset of ou
 
 It returns a DataFrame that has only these three columns.
 
-![A column as a Series and a subset of columns](images/09-pandas-02-series-and-columns-crisp.png)
 
 We can add a new column using the same brackets notation - for example, a column `id` with numbers:
 
@@ -216,7 +214,6 @@ c  convertible  54990
 e        Pickup  32340  
 ```
 
-![Selecting rows by position with iloc](images/09-pandas-03-iloc-crisp.png)
 
 The index of the DataFrame is still the letter index, but we use the positional index to refer to the records.
 
@@ -285,7 +282,6 @@ If we want to find all Nissan cars, we write a condition on the Make column - an
 4        Pickup  32340  
 ```
 
-![Filtering rows with a boolean condition on a column](images/09-pandas-04-filtering-crisp.png)
 
 We can combine conditions. Let's get cars that are manufactured by Nissan and produced after 2015. We combine the two conditions using the logical and operation, `&`:
 
@@ -343,7 +339,6 @@ Note that these operations don't modify the Series - they return a new Series wi
 
 Here we use the assignment operator to overwrite the column with this clean version, and now the values in the DataFrame are uniform.
 
-![The Vehicle_Style column after lowercasing and replacing spaces](images/09-pandas-05-string-operations-crisp.png)
 
 ## Summarizing operations
 
@@ -388,7 +383,6 @@ min    1991.00     138.00              4.00   2000.00
 max    2017.00     261.00              6.00  54990.00
 ```
 
-![Summary statistics for all numerical columns with describe](images/09-pandas-06-describe-crisp.png)
 
 I also often use `round` here to round everything to two decimal points - it makes the output more compact.
 
@@ -433,7 +427,6 @@ MSRP                 0
 dtype: int64
 ```
 
-![Counting missing values per column](images/09-pandas-07-missing-values-crisp.png)
 
 Seeing a table of Trues and Falses is not always super useful, so what we usually do is call the `sum` method on it. The sum is applied to each column, and it tells us how many missing values there are in each column. Here: one missing value in Engine HP, and none anywhere else.
 
@@ -463,7 +456,6 @@ MANUAL       54990
 Name: MSRP, dtype: int64
 ```
 
-![Maximum price per transmission type with groupby](images/09-pandas-08-groupby-crisp.png)
 
 We could use `mean`, `min` or `max` - any of the summarizing operations.
 

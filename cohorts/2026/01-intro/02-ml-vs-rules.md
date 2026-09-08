@@ -22,7 +22,6 @@ We look at the spam messages and try to find patterns: what makes a spam message
 
 We turn these observations into rules, write them down in Python and deploy the system:
 
-![The rules we came up with](images/02-ml-vs-rules-02-rules-imagegen-pilot.png)
 
 It works - for a while. Then people start complaining about other kinds of unsolicited messages, for example a "prize" email that asks you to pay a small fee and deposit $10 to some account. We analyze it, notice that all these spam messages contain the word "deposit", and add a new rule: if the body contains the word "deposit", mark the message as spam.
 
@@ -55,7 +54,6 @@ Features describe each email with numbers. They can be very simple, for example:
 - Is the sender `promotions@online.com`? True or false.
 - And so on.
 
-![The six binary features for our spam example](images/02-ml-vs-rules-04-features-imagegen-pilot.png)
 
 Notice that many of these features come directly from the rules we had before - the particular sender, the domain, the word "deposit". It is actually a good idea to start with a rule-based system and not jump into machine learning immediately: the rules you learn along the way become features for the machine learning system.
 
@@ -78,7 +76,6 @@ Once the model is trained, we can use it to classify messages. For each message,
 - 0.1 - probably not spam.
 - 0.01 - very unlikely to be spam.
 
-![The model outputs a probability for each email](images/02-ml-vs-rules-06-predictions-imagegen-pilot.png)
 
 To actually make a decision - put an email in the spam folder or not - we define a threshold. For example: if the predicted probability is greater than or equal to 0.5 (more than 50% chance of being spam), we put the message in the spam folder. Everything predicted as spam goes to the spam folder, everything else goes to the inbox.
 
