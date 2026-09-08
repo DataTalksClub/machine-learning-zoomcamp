@@ -138,7 +138,7 @@ And we check the running services to make sure it works:
 kubectl get service
 ```
 
-![cluster-info, and the default kubernetes service in a fresh cluster](images/06-kubernetes-simple-service-03-cluster-info.jpg)
+![cluster-info, and the default kubernetes service in a fresh cluster](images/06-kubernetes-simple-service-03-cluster-info-cropped.png)
 
 ## Creating a deployment
 
