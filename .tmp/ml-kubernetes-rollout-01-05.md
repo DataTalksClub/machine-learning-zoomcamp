@@ -121,3 +121,13 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-06-prepare-request-source-clean.png`, coordinates `500x290+0+20`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `create_preprocessor`, `xception`, `(299, 299)`, the pants URL, `np_to_protobuf`, `clothing-model`, `serving_default`, and `input_8` remain exact.
 - Output: `images/02-tensorflow-serving-06-prepare-request-cropped.png`.
+
+### `02-tensorflow-serving-07-prediction.jpg`
+
+- Lesson: `02-tensorflow-serving.md`; caption: Turning the raw scores into class names.
+- Disposition: deterministic crop/prep; this is an exact UI screenshot, but its visible content must not be reconstructed with imagegen.
+- Source inspection: `594x360`; GitHub browser chrome, profile/contributor avatars, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-07-prediction-source-clean.png`, coordinates `380x280+0+40`; resized 2x with Lanczos and light unsharp masking, excluding browser header/sidebar avatars.
+- Invariants checked: the visible repository listing remains exact; no generated text or inferred prediction output was added.
+- Limitation: the supplied source does not show raw scores or class names despite the caption; the crop removes unrelated avatars/chrome but cannot repair this source-content mismatch.
+- Output: `images/02-tensorflow-serving-07-prediction-cropped.png`.
