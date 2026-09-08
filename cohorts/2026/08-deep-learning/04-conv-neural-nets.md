@@ -182,7 +182,7 @@ some inner representation with a dense layer, and then finally convert
 it to the output - 10 values, one per class. From this output we
 select the one with the highest value, and hopefully it's t-shirt:
 
-![The summary: convolutional layers, then the vector representation, then dense layers, then the prediction](images/04-conv-neural-nets-08-summary.jpg)
+![The summary: convolutional layers, then the vector representation, then dense layers, then the prediction](images/04-conv-neural-nets-08-summary-imagegen.png)
 
 That's the whole picture. Of course, here I only scratched the surface
 of how convolutional neural networks work. If you want to go deeper,
