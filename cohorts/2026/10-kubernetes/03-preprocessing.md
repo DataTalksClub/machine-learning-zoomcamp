@@ -184,7 +184,7 @@ def np_to_protobuf(data):
 This code turns a numpy array into the protobuf format that TensorFlow
 Serving expects, without needing the full TensorFlow library installed.
 
-![The proto.py script with the protobuf conversion code](images/03-preprocessing-06-proto-py.jpg)
+![The proto.py script with the protobuf conversion code](images/03-preprocessing-06-proto-py-cropped.png)
 
 In `gateway.py` we remove the old function and simply import from this
 script - it does exactly the same thing as before. To check that

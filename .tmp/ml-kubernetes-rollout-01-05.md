@@ -179,3 +179,13 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-05-tensorflow-protobuf-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `make_tensor_proto`, shape/dims conversion, dtype conversion, `TensorProto`, `tensor_content`, and `np_to_protobuf` remain exact.
 - Output: `images/03-preprocessing-05-tensorflow-protobuf-cropped.png`.
+
+### `03-preprocessing-06-proto-py.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: The `proto.py` script with the protobuf conversion code.
+- Disposition: deterministic crop/prep; exact Python conversion code is the source of truth.
+- Source inspection: `594x360`; editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-06-proto-py-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `dtypes_as_dtype`, `DT_FLOAT`, shape/dims conversion, `TensorShapeProto`, `TensorProto`, and `tensor_content` remain exact.
+- Limitation: the source itself truncates long right-side code lines; the crop does not invent or reflow them.
+- Output: `images/03-preprocessing-06-proto-py-cropped.png`.
