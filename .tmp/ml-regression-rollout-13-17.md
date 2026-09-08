@@ -3,7 +3,8 @@
 Scope: every Markdown image reference in `13-regularization.md` through
 `17-explore-more.md`. The rubric cutoff is 4/12: scores 0–3 are removed,
 4–6 are reviewed for crop/replace, and 7–12 are kept when no hard gate is
-violated. No image in this batch scored below the cutoff; `17-explore-more.md`
+violated. One caption-mismatched source is removed below the cutoff and one
+useful source is remapped to the correct summary caption; `17-explore-more.md`
 has no image references.
 
 Capability: this worker has the `imagegen` skill. Exact code, commands, URLs,
@@ -26,6 +27,7 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | 14 | `14-tuning-model-02-rmse-per-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve every printed `r`, bias, and RMSE value; remove browser/camera frame. The source's native blue selection highlight remains over the first RMSE value without changing the text. |
 | 14 | `14-tuning-model-03-choosing-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the full comparison table used to justify choosing `r=0.001`; remove browser/camera frame. |
 | 14 | `14-tuning-model-04-final-model.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the selected `r=0.001` training cell and validation RMSE `0.46081585838957173`; remove browser/camera frame. |
+| 16 | `16-summary-01-data-cleaning.jpg` | replace/remap | 9/12 | The original file was a categorical-variable frame and failed the caption-match hard gate, so it was removed. The useful data-cleaning capture from `16-summary-02-log-transformation.jpg` was deterministically cropped `(x=20,y=65,w=550,h=290)` into `16-summary-01-data-cleaning-cropped.png`; exact `str.lower().str.replace` code and output are preserved. |
 | 15 | `15-using-model-01-full-train-concat.jpg` | keep/crop | 10/12 | Crop `(x=20,y=210,w=540,h=145)`; focus on the `pd.concat` cell and resulting combined dataframe; remove browser/camera frame and unrelated preceding cells. |
 | 15 | `15-using-model-02-full-train-prepare-x.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve `concat`, `reset_index`, `prepare_X`, and the resulting feature matrix; remove browser/camera frame. |
 | 15 | `15-using-model-03-final-model-weights.jpg` | keep/crop | 9/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the final-model training cell and printed weights with a wider content area; remove browser/camera frame. The source cuts off the final weight row at the bottom, so that source-edge limitation remains. |

@@ -24,7 +24,7 @@ column names had spaces and inconsistent capitalization, and the string values
 did too, so we made everything lowercase with underscores - now it looks
 cleaner.
 
-![Cleaning the data: lowercasing the column names and the string values with str.replace](images/16-summary-01-data-cleaning.jpg)
+![Cleaning the data: lowercasing the column names and the string values with str.replace](images/16-summary-01-data-cleaning-cropped.png)
 
 Then we did exploratory data analysis. We identified that the distribution of
 price has a long tail, and we removed the long tail by applying the logarithmic
