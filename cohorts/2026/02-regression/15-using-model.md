@@ -33,7 +33,7 @@ concatenate. It takes a list of dataframes and concatenates them together:
 df_full_train = pd.concat([df_train, df_val])
 ```
 
-![Section 2.15 "Using the model": the pd.concat cell combining df_train and df_val into df_full_train](images/15-using-model-01-full-train-concat-cropped.png)
+![Section 2.15 "Using the model": the pd.concat cell combining df_train and df_val into df_full_train](images/15-using-model-01-full-train-concat-crisp.png)
 
 If we look at the result, we see that even though there are around 9500 rows
 now, the index still contains the values from the validation dataframe. We can
@@ -50,7 +50,7 @@ feature matrix:
 X_full_train = prepare_X(df_full_train)
 ```
 
-![The three cells together: concat, reset_index, and prepare_X for the full train dataset](images/15-using-model-02-full-train-prepare-x-cropped.png)
+![The three cells together: concat, reset_index, and prepare_X for the full train dataset](images/15-using-model-02-full-train-prepare-x-crisp.png)
 
 We also need the target values `y`. There is a function in NumPy called
 `concatenate` that does the same thing for arrays - and since arrays have no
@@ -70,7 +70,7 @@ w0, w = train_linear_regression_reg(X_full_train, y_full_train, r=0.001)
 
 This is our final model, and these are its weights.
 
-![Training the final model on X_full_train and y_full_train with r=0.001, and the weights it produces](images/15-using-model-03-final-model-weights-cropped.png)
+![Training the final model on X_full_train and y_full_train with r=0.001, and the weights it produces](images/15-using-model-03-final-model-weights-crisp.png)
 
 ## Checking the model on test data
 
@@ -91,7 +91,7 @@ point:
 0.4600753970266562
 ```
 
-![Checking the final model on the test set: RMSE 0.4600753970266562](images/15-using-model-04-test-rmse-cropped.png)
+![Checking the final model on the test set: RMSE 0.4600753970266562](images/15-using-model-04-test-rmse-crisp.png)
 
 That is a very good sign. It means our model generalizes well: it didn't get
 this score just by chance.
@@ -131,7 +131,7 @@ This gives us a dictionary with all the information about the car:
  'popularity': 2031}
 ```
 
-![The car dictionary: a Toyota Sienna extracted from the test set](images/15-using-model-06-car-dictionary-cropped.png)
+![The car dictionary: a Toyota Sienna extracted from the test set](images/15-using-model-06-car-dictionary-crisp.png)
 
 Usually we don't get a dataframe when we want to make a prediction. In a real
 life scenario it could be a website or an app where people enter the values
@@ -164,7 +164,7 @@ The prediction is:
 10.63249250912739
 ```
 
-![Creating a one-row dataframe from the car dictionary and predicting: 10.63, the logarithm of the price](images/15-using-model-07-single-car-prediction-cropped.png)
+![Creating a one-row dataframe from the car dictionary and predicting: 10.63, the logarithm of the price](images/15-using-model-07-single-car-prediction-crisp.png)
 
 There is just one single car, so we take the first number of the array. And
 remember: this is the logarithm of the price, not the price itself. To undo the
@@ -193,7 +193,7 @@ The actual price is:
 35000.00000000001
 ```
 
-![The two prices side by side: our prediction is 41,459 dollars, the actual price is 35,000](images/15-using-model-08-prediction-vs-actual-cropped.png)
+![The two prices side by side: our prediction is 41,459 dollars, the actual price is 35,000](images/15-using-model-08-prediction-vs-actual-crisp.png)
 
 So our prediction was a bit off - the car costs 35,000 dollars and we predicted
 around 41,500. It's not perfect, but it's a relatively good prediction.
