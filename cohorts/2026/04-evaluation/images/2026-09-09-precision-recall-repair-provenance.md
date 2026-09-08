@@ -29,3 +29,26 @@ Validation:
 - The final PNG carries C2PA metadata identifying `gpt-image`.
 - No camera, cursor, playback controls, borders, watermark, or extra text remain.
 - The generated text was checked visually against the required wording.
+
+## Precision/recall table
+
+Target: `04-precision-recall-06-precision-recall-table-crisp.png`
+
+The previous redraw retained an overwritten/crossed-out `PRECISION` label. The
+repaired redraw cleanly labels the predicted-positive column `PRECISION` and the
+actual-positive row `RECALL`, with the original `TN`, `FP`, `FN`, and `TP` cells.
+
+| Artifact | SHA-256 |
+|---|---|
+| Original JPG `04-precision-recall-06-precision-recall-table.jpg` | `6a6671d0d41b134fefc7ba035f60da38244437002c9ff764f9b272230894a3a7` |
+| Bounded crop (temporary) | `c671c9595b5c18a7cde8fbffd82d5814bdc89e9d615a9e929ec81c159e7b4e79` |
+| Final PNG `04-precision-recall-06-precision-recall-table-crisp.png` | `795de7c988e33653ef9c1b73dde4dfb261af726e1927097279b8cf336b8b0267` |
+
+Validation:
+
+- Final dimensions: `1536×1024`; simulated 608px render: `608×405`.
+- The final PNG carries C2PA metadata identifying `gpt-image`.
+- The green bottom row and right column correspond to recall and precision,
+  respectively; all four confusion-table labels are visible at 608px.
+- No camera, cursor, playback controls, borders, watermark, or overwritten label
+  remain.
