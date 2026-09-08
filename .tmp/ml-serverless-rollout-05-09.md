@@ -233,3 +233,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact summary text and heading were preserved.
 - **Rubric:** instructional contribution 1, relevance 2, readability 2, complementarity 1, durability 2, caption/accessibility 2 — **10/12; keep**. It is a recap, so it complements the lesson rather than adding a new procedure.
 - **Validation:** output inspected; the four summary bullets and `Explore more` heading remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 08-summary-03-tflite-inference-code.jpg
+
+- **Disposition:** `crop/replace` → `images/08-summary-03-tflite-inference-code-cropped.png`
+- **Teaching point:** the TF-Lite inference path sets the input tensor, invokes the interpreter, reads the output tensor, and converts predictions to a class-score mapping.
+- **Source inspection:** 594×360; crop `+0+0 500×315` removes the webcam tile, right-side black frame, and bottom status strip while retaining the selected inference lines and surrounding function context.
+- **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and selection were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `set_tensor`, `invoke`, `get_tensor`, and `float_predictions` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

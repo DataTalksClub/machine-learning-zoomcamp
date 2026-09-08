@@ -46,7 +46,7 @@ on the inference part of TensorFlow models. It's very small, but it's
 not as simple to use: you remember that we needed to write quite a lot
 more code than a plain `model.predict`.
 
-![The TF-Lite inference code: set the input, invoke, get the output](images/08-summary-03-tflite-inference-code.jpg)
+![The TF-Lite inference code: set the input, invoke, get the output](images/08-summary-03-tflite-inference-code-cropped.png)
 
 The benefit is the size. Let's actually look at it. The TF-Lite
 runtime wheel is tiny - about 2-3 MB. There are precompiled wheels for
