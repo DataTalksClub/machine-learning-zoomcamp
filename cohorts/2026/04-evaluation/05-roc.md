@@ -129,7 +129,7 @@ plt.plot(df_ideal.threshold, df_ideal['fpr'], label='FPR ideal')
 plt.legend()
 ```
 
-![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr.jpg)
+![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr-cropped.png)
 
 ## The ROC curve
 
