@@ -259,7 +259,7 @@ provider - the provider assigns an external IP or name to a
 haven't configured it to hand out external IPs, so it stays pending
 forever.
 
-![Creating the service: first ClusterIP, then LoadBalancer with external IP pending](images/06-kubernetes-simple-service-07-service-lb.jpg)
+![Creating the service: first ClusterIP, then LoadBalancer with external IP pending](images/06-kubernetes-simple-service-07-service-lb-cropped.png)
 
 We can still test the service by port forwarding, pretending that we are
 connected to an external service:
