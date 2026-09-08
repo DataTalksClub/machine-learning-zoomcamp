@@ -22,7 +22,7 @@ our model is doing good.
 Then, from each of these parts we create a feature matrix X and the target
 variable y:
 
-![The dataset split into train, validation and test, each with its own X and y](images/04-validation-framework-01-train-val-test-split-cropped.jpg)
+![The dataset split into train, validation and test, each with its own X and y](images/04-validation-framework-01-train-val-test-split-crisp.png)
 
 This is what we implement now with pandas.
 
