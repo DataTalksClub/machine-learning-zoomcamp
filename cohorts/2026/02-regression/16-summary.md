@@ -60,7 +60,7 @@ formula is called the normal equation. We implemented it in NumPy, and with this
 implementation we trained our first model - the baseline model, which used only
 the five base numerical features.
 
-![The normal equation implemented in NumPy: inverting the Gram matrix](images/16-summary-05-normal-equation.jpg)
+![The normal equation implemented in NumPy: inverting the Gram matrix](images/16-summary-05-normal-equation-cropped.png)
 
 ![The baseline model: training with only the five base numerical features](images/16-summary-06-baseline-model.jpg)
 
