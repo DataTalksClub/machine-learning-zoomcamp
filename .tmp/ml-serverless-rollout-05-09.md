@@ -260,3 +260,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact wheel names, Python versions, and MB values were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; Linux wheel filenames and roughly 430–490 MB sizes remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The page title/header is outside the focused crop.
+
+## 08-summary-06-explore-more.jpg
+
+- **Disposition:** `remove` (original preserved; rejected crop moved outside the repository).
+- **Teaching point:** the source only shows the editor's empty `9.9 Explore more` heading beneath a duplicate copy of the summary.
+- **Source inspection:** 594×360; the frame contains the webcam tile and editor chrome, but no additional lesson content beyond the already-used summary screenshot.
+- **Method:** no course asset committed; a deterministic trial crop was rejected as redundant and unhelpful.
+- **Rubric:** instructional contribution 0, relevance 1, readability 2, complementarity 0, durability 2, caption/accessibility 0 — **5/12; remove**.
+- **Validation:** the Markdown image reference was removed, the original `.jpg` remains untouched, and no broken reference is introduced. Rejected crop: `/tmp/ml-serverless-rejected/08-summary-06-explore-more-cropped.png`.

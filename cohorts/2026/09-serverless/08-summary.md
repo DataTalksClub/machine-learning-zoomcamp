@@ -81,7 +81,6 @@ There are more things you can explore on your own:
 That's all I have about this topic. Next week we'll talk about
 Kubernetes as an alternative way of deploying machine learning models.
 
-![The "Explore more" section of the module notes](images/08-summary-06-explore-more.jpg)
 
 ## Notes
 
