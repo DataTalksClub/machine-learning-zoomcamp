@@ -88,7 +88,7 @@ predictions at the end.
 When we execute this cell, it says that in the train folder it found
 3068 images belonging to 10 classes:
 
-![The train generator found 3068 images belonging to 10 classes](images/05-transfer-learning-02-found-3068-images.jpg)
+![The train generator found 3068 images belonging to 10 classes](images/05-transfer-learning-02-found-3068-images-cropped.png)
 
 We can look at which classes it found with `train_ds.class_indices`:
 
