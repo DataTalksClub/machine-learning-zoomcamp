@@ -43,7 +43,7 @@ roc_auc_score(y_val, y_pred)
 
 This gives `0.843850505725819` - the same value as with `auc(fpr, tpr)`. Our churn model has an AUC of 0.84: clearly better than random, not far from ideal.
 
-![The roc_auc_score shortcut giving the same value](images/06-auc-04-roc-auc-score.jpg)
+![The roc_auc_score shortcut giving the same value](images/06-auc-04-roc-auc-score-cropped.png)
 
 ## Interpreting AUC
 
