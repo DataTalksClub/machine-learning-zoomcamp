@@ -108,7 +108,7 @@ these filters are learned automatically. We don't tell the network
 We take our image and pass it through a set of convolutional layers.
 The result of this is a vector representation of the image:
 
-![The image (299x299x3) goes through convolutional layers and comes out as a vector of 2048 numbers](images/04-conv-neural-nets-05-vector-representation.jpg)
+![The image (299x299x3) goes through convolutional layers and comes out as a vector of 2048 numbers](images/04-conv-neural-nets-05-vector-representation-imagegen.png)
 
 If the input image is 299x299x3, the vector representation could be
 something like 2048 numbers - a one-dimensional array. The
