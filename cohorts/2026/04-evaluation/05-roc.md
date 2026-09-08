@@ -175,7 +175,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn.jpg)
+![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn-cropped.png)
 
 What kind of information do we get from this curve - and how do we boil it down to a single number? That is the ROC AUC metric, the topic of the next lesson.
 
