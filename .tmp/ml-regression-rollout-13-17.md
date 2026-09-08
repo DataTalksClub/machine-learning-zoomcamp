@@ -51,6 +51,10 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
   retain native cursor/selection artifacts or source-edge truncation where
   removing them would risk changing code, values, or the teaching evidence;
   those cases are noted above.
+- Shared-worktree exception: the regularization RMSE change is present in
+  `b91dbc4`, where a concurrent worker also staged an unrelated serverless
+  edit. The focused `23e2adb` object remains outside the shared branch; no
+  history rewrite or cross-worker revert was performed.
 | 15 | `15-using-model-01-full-train-concat.jpg` | keep/crop | 10/12 | Crop `(x=20,y=210,w=540,h=145)`; focus on the `pd.concat` cell and resulting combined dataframe; remove browser/camera frame and unrelated preceding cells. |
 | 15 | `15-using-model-02-full-train-prepare-x.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve `concat`, `reset_index`, `prepare_X`, and the resulting feature matrix; remove browser/camera frame. |
 | 15 | `15-using-model-03-final-model-weights.jpg` | keep/crop | 9/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the final-model training cell and printed weights with a wider content area; remove browser/camera frame. The source cuts off the final weight row at the bottom, so that source-edge limitation remains. |
