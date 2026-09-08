@@ -139,7 +139,7 @@ about the car, and the website sends a request with all this information to the
 model - the model replies back with the price. That's why we turn the car into
 a dictionary: this is how such requests usually look.
 
-![The real-life scenario: a website form with the car details sends a dictionary to the model](images/15-using-model-05-website-request-diagram.jpg)
+![The real-life scenario: a website form with the car details sends a dictionary to the model](images/15-using-model-05-website-request-diagram-imagegen.png)
 
 Our `prepare_X` function expects a dataframe, though. So we create a small
 dataframe with a single row - pandas can create a dataframe from a list of
