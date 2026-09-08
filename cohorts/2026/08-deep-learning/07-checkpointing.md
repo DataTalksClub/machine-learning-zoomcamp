@@ -124,7 +124,7 @@ history = model.fit(
 )
 ```
 
-![The ModelCheckpoint cell and the fit call with the callbacks parameter](images/07-checkpointing-05-checkpoint-and-fit.jpg)
+![The ModelCheckpoint cell and the fit call with the callbacks parameter](images/07-checkpointing-05-checkpoint-and-fit-cropped.png)
 
 While this trains, we can watch the folder: every time the validation
 accuracy improves, a new file appears. The first epoch gives 78% - and
