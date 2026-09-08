@@ -48,7 +48,6 @@ Rolls-Royce Phantom Drophead Coupe manufactured in 2015, and it has a lot of
 characteristics. We take just three of them: engine horsepower, city miles per
 gallon and popularity:
 
-![The features of car number 10: 453 horsepower, 11 miles per gallon in the city, popularity 86](images/05-linear-regression-simple-02-car-10-features-crisp.png)
 
 So for this car the feature vector is:
 
@@ -115,7 +114,6 @@ so our loop goes from 0 to n-1. That's the whole implementation - it simply
 adds up w<sub>j</sub> times x<sub>ij</sub> for every element of the feature
 vector.
 
-![The linear_regression function in the notebook](images/05-linear-regression-simple-05-implementation-crisp.png)
 
 ## What the prediction is made of
 
@@ -173,7 +171,6 @@ np.log1p(222347.2221101062)
 12.312
 ```
 
-![Applying the model to our car and undoing the log transformation](images/05-linear-regression-simple-07-prediction-undo-log-crisp.png)
 
 That's linear regression for one car: we implemented the formula on a small
 feature vector of size three. In the next lesson we generalize it to all the

@@ -21,7 +21,6 @@ has:
 df_train.columns
 ```
 
-![Looking at the columns of the training dataframe](images/08-baseline-model-01-numerical-columns-crisp.png)
 
 Linear regression as we implemented it works only with numbers, so for
 the baseline we pick the numerical columns:
@@ -39,7 +38,6 @@ base = ['engine_hp', 'engine_cylinders', 'highway_mpg',
         'city_mpg', 'popularity']
 ```
 
-![Creating the list of base features](images/08-baseline-model-02-base-features-crisp.png)
 
 To get a subset of columns from a dataframe, we select the columns with
 this list and take the values as a NumPy array:
@@ -59,7 +57,6 @@ w0, w = train_linear_regression(X_train, y_train)
 The result is not what we expect: both the bias term and the weights
 are `nan` - "not a number".
 
-![Training fails: the weights come back as nan](images/08-baseline-model-03-nan-weights-crisp.png)
 
 Something is wrong with the data. Let's check for missing values:
 
@@ -74,7 +71,6 @@ The easiest way to deal with them is to fill them with zeros:
 X_train = df_train[base].fillna(0).values
 ```
 
-![Filling missing values with zeros](images/08-baseline-model-04-fillna-zero-crisp.png)
 
 Filling with zeros might look strange - a car with zero horsepower
 doesn't exist, and no engine has zero cylinders. To see why it still
