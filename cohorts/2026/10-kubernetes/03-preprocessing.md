@@ -146,7 +146,7 @@ pipenv install tensorflow-protobuf==2.7.0 protobuf==3.19
 We install it instead of TensorFlow and `tensorflow-serving-api`. The
 code becomes a bit more verbose - but without the 2 GB baggage:
 
-![The tensorflow-protobuf README: the verbose version without the baggage](images/03-preprocessing-05-tensorflow-protobuf.jpg)
+![The tensorflow-protobuf README: the verbose version without the baggage](images/03-preprocessing-05-tensorflow-protobuf-cropped.png)
 
 And we put the conversion code in a separate script,
 [code/proto.py](code/proto.py), and import the `np_to_protobuf` function

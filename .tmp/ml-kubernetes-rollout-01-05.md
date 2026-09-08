@@ -170,3 +170,12 @@ crops and upscaling.
 - Invariants checked: `grpcio==1.42.0`, Flask, gunicorn, `keras-image-helper`, Python `3.8.10`, virtualenv creation, and visible prediction values remain exact.
 - Limitation: long terminal lines retain the source-edge truncation; no output was guessed or expanded.
 - Output: `images/03-preprocessing-04-pipenv-install-cropped.png`.
+
+### `03-preprocessing-05-tensorflow-protobuf.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: The tensorflow-protobuf README: the verbose version without the baggage.
+- Disposition: deterministic crop/prep; exact protobuf Python code is the source of truth.
+- Source inspection: `594x360`; browser chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-05-tensorflow-protobuf-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `make_tensor_proto`, shape/dims conversion, dtype conversion, `TensorProto`, `tensor_content`, and `np_to_protobuf` remain exact.
+- Output: `images/03-preprocessing-05-tensorflow-protobuf-cropped.png`.
