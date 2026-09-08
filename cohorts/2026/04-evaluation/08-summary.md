@@ -14,7 +14,7 @@ In this final lesson of module 4 we wrap up everything we learned about evaluati
 - ROC AUC: the area under the ROC curve - 0.5 for a random model, 1.0 for an ideal one; interpretable as the probability that a random positive scores higher than a random negative
 - K-Fold CV: a more reliable estimate for performance (mean + std), used for parameter tuning
 
-![The summary slide in the notebook: the metrics of this module in one list](images/08-summary-01-metrics-list.jpg)
+![The summary slide in the notebook: the metrics of this module in one list](images/08-summary-01-metrics-list-cropped.png)
 
 ![The confusion table recap: accuracy 80% is the diagonal, 65% plus 15%](images/08-summary-02-confusion-table-recap.jpg)
 
