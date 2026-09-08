@@ -12,8 +12,6 @@ A curve is a picture, not a number. In this lesson we compress the ROC curve int
 
 Here is the ROC curve of our model again - the TPR against the FPR at all thresholds. The AUC of a model is the area under this curve:
 
-![ROC curve of the model - the AUC is the area under it](images/06-auc-01-roc-curve-area.jpg)
-
 The interpretation of the reference points follows straight from the shape of the curve:
 
 - The ideal model covers the whole square above the diagonal, so its AUC is 1.
