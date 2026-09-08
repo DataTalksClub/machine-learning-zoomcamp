@@ -33,7 +33,7 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.applications.xception import preprocess_input
 ```
 
-![A fresh notebook: importing TensorFlow, Keras, ImageDataGenerator, load_img and preprocess_input](images/12-using-model-01-fresh-notebook-imports-cropped.png)
+![A fresh notebook: importing TensorFlow, Keras, ImageDataGenerator, load_img and preprocess_input](images/12-using-model-01-fresh-notebook-imports-crisp.png)
 
 First we prepare the test set with the same preprocessing as for
 train and validation: an `ImageDataGenerator` with
@@ -72,7 +72,7 @@ It returns the loss and the accuracy on the test set:
 [0.29389633300403756, 0.89784944]
 ```
 
-![Loading xception_v4_1_13_0.903.h5 and evaluating it: about 0.90 accuracy on the test set](images/12-using-model-02-load-model-evaluate-cropped.png)
+![Loading xception_v4_1_13_0.903.h5 and evaluating it: about 0.90 accuracy on the test set](images/12-using-model-02-load-model-evaluate-crisp.png)
 
 The test accuracy is about 90%, very close to the 0.903 validation
 accuracy from training. When the test score matches the validation
@@ -95,7 +95,7 @@ into a batch with one image, and apply `preprocess_input`:
 img = load_img(path, target_size=(299, 299))
 ```
 
-![Loading the image: the result of load_img is a picture of pants resized to 299x299](images/12-using-model-03-load-img-pants-cropped.png)
+![Loading the image: the result of load_img is a picture of pants resized to 299x299](images/12-using-model-03-load-img-pants-crisp.png)
 
 ```python
 import numpy as np
@@ -109,7 +109,7 @@ X.shape
 
 The shape is `(1, 299, 299, 3)` - a batch with one image:
 
-![Turning the image into a numpy array and putting it into a batch: the shape is (1, 299, 299, 3)](images/12-using-model-04-numpy-batch-shape-cropped.png)
+![Turning the image into a numpy array and putting it into a batch: the shape is (1, 299, 299, 3)](images/12-using-model-04-numpy-batch-shape-crisp.png)
 
 Then:
 
@@ -153,7 +153,7 @@ dict(zip(classes, pred[0]))
  't-shirt': -2.9939806}
 ```
 
-![Zipping the class names with the predictions: pants has the highest score](images/12-using-model-05-classes-prediction-zip-cropped.png)
+![Zipping the class names with the predictions: pants has the highest score](images/12-using-model-05-classes-prediction-zip-crisp.png)
 
 The highest score is pants (9.29), followed by shorts (3.43) - and
 that makes sense, because shorts look similar to pants. The model
