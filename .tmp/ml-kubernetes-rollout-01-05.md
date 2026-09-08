@@ -277,3 +277,13 @@ crops and upscaling.
 - Invariants checked: `INGRESS`, `EXTERNAL`, `INTERNAL`, gateway/model services, two nodes, both deployments, pod placement, request arrows, and same-image/config annotations remain unchanged.
 - Limitation: deterministic processing preserves the source's hand-drawn lettering and presentation-control artifact in the prepared source; no labels or topology were reconstructed.
 - Output: `images/05-kubernetes-intro-04-external-internal-ingress-cropped.png`.
+
+### `05-kubernetes-intro-05-definitions.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: The whiteboard definitions: node, pod, deployment, service, ingress.
+- Disposition: deterministic crop/upscale; the exact handwritten definitions are the source of truth.
+- Source inspection: `950x720` prepared source-clean crop; webcam face and black side bars are excluded.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-05-definitions-source-clean.png`, full prepared crop; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: the definitions of `NODE`, `POD`, `DEPLOYMENT`, `SERVICE`, `EXTERNAL`, `INTERNAL`, and `INGRESS` remain exact and readable.
+- Limitation: deterministic processing preserves the source's hand-drawn lettering and presentation-control artifact in the prepared source; no text was reconstructed.
+- Output: `images/05-kubernetes-intro-05-definitions-cropped.png`.
