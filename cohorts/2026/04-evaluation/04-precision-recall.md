@@ -16,7 +16,7 @@ Precision tells us the fraction of positive predictions that are correct. It loo
 P = TP / (TP + FP)
 ```
 
-![The definition of precision: the fraction of positive predictions that are correct](images/04-precision-recall-01-precision-definition-cropped.jpg)
+![The definition of precision: the fraction of positive predictions that are correct](images/04-precision-recall-01-precision-definition-crisp.png)
 
 For our model:
 
