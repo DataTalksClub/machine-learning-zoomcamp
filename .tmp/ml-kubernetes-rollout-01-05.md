@@ -47,3 +47,13 @@ crops and upscaling.
 - Invariants checked: website outside the boundary; gateway/Flask and TF-Serving/C++ inside `KUBERNETES`; `URL`, `X`, `gRPC`, return arrows, `10 NUMBERS`, and the clothing model.
 - Prompt iteration: first generation was rejected because it omitted the gateway-to-website response arrow; one targeted imagegen correction restored that arrow without changing the other relationships.
 - Output: `images/01-overview-04-kubernetes-imagegen.png`.
+
+### `01-overview-05-cpu-gpu.jpg`
+
+- Lesson: `01-overview.md`; caption: The gateway runs on CPU, TensorFlow Serving on GPU.
+- Disposition: imagegen replacement; the source is a bounded CPU/GPU deployment diagram.
+- Source inspection: `594x360`; camera tile and black side bars present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/01-overview-05-cpu-gpu-source.png`, coordinates `475x360+23+0`.
+- Invariants checked: gateway/Flask/CPU assignment, TF-Serving/C++/GPU assignment, Kubernetes boundary, `URL`, `X`, `gRPC`, return arrows, `10 NUMBERS`, and `DOWNLOADING IMAGES RESIZING THEM`.
+- Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra service remains.
+- Output: `images/01-overview-05-cpu-gpu-imagegen.png`.

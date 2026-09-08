@@ -72,7 +72,7 @@ arrays, preparing the input. A usual CPU is enough for that. Applying the
 model, on the other hand, means a lot of matrix multiplication, and that
 runs much faster on a GPU.
 
-![The gateway runs on CPU, TensorFlow Serving on GPU](images/01-overview-05-cpu-gpu.jpg)
+![The gateway runs on CPU, TensorFlow Serving on GPU](images/01-overview-05-cpu-gpu-imagegen.png)
 
 Because the components are separate, we can scale them independently. For
 example, we can have five instances of the gateway on CPU machines and two
