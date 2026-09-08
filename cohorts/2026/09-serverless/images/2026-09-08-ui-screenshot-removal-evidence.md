@@ -56,10 +56,25 @@ camera inset, browser chrome, or uncertain request IDs and timestamps.
 They are genuine redraws, not enlarged or sharpened screenshots, and
 contain C2PA metadata identifying the OpenAI image-generation service.
 
-| Reference | Source JPG SHA-256 | Bounded crop SHA-256 | Imagegen PNG SHA-256 | Disposition |
+There is a source-file naming mismatch in the captured inputs for references
+04 and 05. `07-api-gateway-04-method-test.jpg` contains the response/logs
+screen, while `07-api-gateway-05-test-response.jpg` contains the method-test
+screen. The bounded crops are correctly paired with the lesson references
+and are the authoritative visual inputs for those two redraws. The table
+therefore records both the stored JPG bytes and the semantic JPG source
+instead of silently claiming that the filenames match their contents. No
+visible pixels in references 02, 04, or 05 were changed in this ledger fix.
+
+The `Stored source JPG` column is the actual file paired with the reference
+when the redraw was made. The `Semantic source JPG` column identifies the
+file whose captured UI matches the reference’s lesson meaning. For 04 and
+05 those columns intentionally cross-reference one another; the hashes are
+the exact SHA-256 values of the named files.
+
+| Reference | Stored source JPG (SHA-256) | Semantic source JPG (SHA-256) | Bounded crop (SHA-256) | Imagegen PNG (SHA-256) | Disposition |
 | --- | --- | --- | --- | --- |
-| `07-api-gateway-01-create-rest-api-crisp.png` | `333e3a90976ff6cae69e3d73d91bab8a2e06c98f30d6680e8fb0c9581679ff45` | `2edac7e09527e6443a764117513c09100a1c25341899d0ac6fb647f0aff24136` | `5155d18d1757da023ced5bddc499602d1a31ac61d230379ee3d7b33a963af462` | Keep: clean redraw preserves the REST API choices, Settings form, and Regional endpoint |
-| `07-api-gateway-02-create-resource-crisp.png` | `fc58b24df98f1f32621e369f6c3d9fc00e1f458247eb0199e2025a1f3dc` | `0e719e37ee598cbb26f356e17e1176e99009c8d3814c1c4934b96d050f8a447c` | `977d13ea4a6b038c532453be5666517722e8c1527320d59fc89b1051595a871b` | Keep: clean redraw preserves the `predict` resource, `/predict` path, and unchecked proxy/CORS controls |
-| `07-api-gateway-04-method-test-crisp.png` | `810292ea5e06d780520f80d25021057be5d6fd129479135d550f19591afdb4bc` | `f228f9076fbf3a7f789c8eaf2f1d2c46aa7da70788fca391b71245cf6ee4bf4a` | `e5b9408059ce65f1a2947f99610752a5a382c783c2b46fc3242f1a927d46ce8b` | Keep: clean redraw preserves `POST /predict`, the test form, and the exact pants request body |
-| `07-api-gateway-05-test-response-crisp.png` | `ec556c6addd08614104a9fe51bc8beba24f9ce715ccde45db62767d99348ee89` | `2e4ae52f141d77fcd5c854989fc0e9de3f979613d3fa9cba0c9c7c0ddbbcfbc2` | `17427b85e7adcd37341c5f46d2d48bfef8e71e4092fd85f6edbcdbbcdd927fef` | Keep: clean redraw preserves all ten class scores, `pants` as the highest score, response headers, and `/predict` logs |
-| `07-api-gateway-06-deploy-stage-crisp.png` | `c23a55f392f3132ffef54866385b6903afc2c17f327d477654d70c2c4ae84435` | `248c24a19e1f22cb52652b5b9f987291ef9bbc25a389e69cf88db6bd662f6ded` | `3a970abce3eb3137b9add273c9e199072e636a9686416db4d3e8e5a36586b7d1` | Keep: clean redraw preserves the new stage form and exact stage name `test` |
+| `07-api-gateway-01-create-rest-api-crisp.png` | `333e3a90976ff6cae69e3d73d91bab8a2e06c98f30d6680e8fb0c9581679ff45` | `333e3a90976ff6cae69e3d73d91bab8a2e06c98f30d6680e8fb0c9581679ff45` | `2edac7e09527e6443a764117513c09100a1c25341899d0ac6fb647f0aff24136` | `5155d18d1757da023ced5bddc499602d1a31ac61d230379ee3d7b33a963af462` | Keep: clean redraw preserves the REST API choices, Settings form, and Regional endpoint |
+| `07-api-gateway-02-create-resource-crisp.png` | `fc58b24df98f1f32621e369f6c3d9fc00e1f458247eb0199e2025a1f3021f3dc` | `fc58b24df98f1f32621e369f6c3d9fc00e1f458247eb0199e2025a1f3021f3dc` | `0e719e37ee598cbb26f356e17e1176e99009c8d3814c1c4934b96d050f8a447c` | `977d13ea4a6b038c532453be5666517722e8c1527320d59fc89b1051595a871b` | Keep: clean redraw preserves the `predict` resource, `/predict` path, and unchecked proxy/CORS controls |
+| `07-api-gateway-04-method-test-crisp.png` | `07-api-gateway-04-method-test.jpg` — `810292ea5e06d780520f80d25021057be5d6fd129479135d550f19591afdb4bc` (stored file contains response/logs) | `07-api-gateway-05-test-response.jpg` — `ec556c6addd08614104a9fe51bc8beba24f9ce715ccde45db62767d99348ee89` (method-test content) | `f228f9076fbf3a7f789c8eaf2f1d2c46aa7da70788fca391b71245cf6ee4bf4a` | `e5b9408059ce65f1a2947f99610752a5a382c783c2b46fc3242f1a927d46ce8b` | Keep: the correctly paired crop and redraw preserve `POST /predict`, the test form, and the exact pants request body; stored JPG/content mismatch documented above |
+| `07-api-gateway-05-test-response-crisp.png` | `07-api-gateway-05-test-response.jpg` — `ec556c6addd08614104a9fe51bc8beba24f9ce715ccde45db62767d99348ee89` (stored file contains method-test) | `07-api-gateway-04-method-test.jpg` — `810292ea5e06d780520f80d25021057be5d6fd129479135d550f19591afdb4bc` (response/logs content) | `2e4ae52f141d77fcd5c854989fc0e9de3f979613d3fa9cba0c9c7c0ddbbcfbc2` | `17427b85e7adcd37341c5f46d2d48bfef8e71e4092fd85f6edbcdbbcdd927fef` | Keep: the correctly paired crop and redraw preserve all ten class scores, `pants` as the highest score, response headers, and `/predict` logs; stored JPG/content mismatch documented above |
+| `07-api-gateway-06-deploy-stage-crisp.png` | `c23a55f392f3132ffef54866385b6903afc2c17f327d477654d70c2c4ae84435` | `c23a55f392f3132ffef54866385b6903afc2c17f327d477654d70c2c4ae84435` | `248c24a19e1f22cb52652b5b9f987291ef9bbc25a389e69cf88db6bd662f6ded` | `aa1c6781eacad1fb1117d9533da35ec9e263f564ed123f1bdfdce6b4f4ae9f8c` | Keep: re-generated from the original JPG plus bounded crop to remove the orange cursor/highlight beside `Deploy API`; preserves the exact stage form and stage name `test`, verified native `1561×1008` and 608px `608×393` |
