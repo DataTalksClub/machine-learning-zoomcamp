@@ -198,3 +198,12 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-01-model-image-source-clean.png`, coordinates `500x320+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: model load success, gRPC/HTTP endpoints, event loop, and `docker build -t zoomcamp-10-model:xception-v4-001 -f image-model.dockerfile .` remain exact.
 - Output: `images/04-docker-compose-01-model-image-cropped.png`.
+
+### `04-docker-compose-02-gateway-image.jpg`
+
+- Lesson: `04-docker-compose.md`; caption: Building the gateway image.
+- Disposition: deterministic crop/prep; exact file list, prediction output, and Docker build command are the source of truth.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/04-docker-compose-02-gateway-image-source-clean.png`, coordinates `500x320+0+20`, then top `20px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `gateway.py`, `image-gateway.dockerfile`, prediction keys/values, and `docker build -t zoomcamp-10-gateway:001 -f image-gateway.dockerfile .` remain exact.
+- Output: `images/04-docker-compose-02-gateway-image-cropped.png`.

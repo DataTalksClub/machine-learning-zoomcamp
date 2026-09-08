@@ -81,7 +81,7 @@ Build the image:
 docker build -t zoomcamp-10-gateway:001 -f image-gateway.dockerfile .
 ```
 
-![Building the gateway image](images/04-docker-compose-02-gateway-image.jpg)
+![Building the gateway image](images/04-docker-compose-02-gateway-image-cropped.png)
 
 Run it:
 
