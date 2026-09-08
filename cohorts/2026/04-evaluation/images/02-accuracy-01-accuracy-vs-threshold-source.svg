@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1488" height="992" viewBox="0 0 1488 992" role="img" aria-labelledby="title description">
+  <title id="title">Accuracy of the model at different decision thresholds</title>
+  <desc id="description">A deterministic plot of the 21 accuracy values from the lesson, for thresholds from 0.00 to 1.00 in steps of 0.05.</desc>
+  <style>
+    text { font-family: DejaVu Sans, sans-serif; fill: #222; }
+    .axis { stroke: #222; stroke-width: 3; }
+    .tick { stroke: #222; stroke-width: 2; }
+    .curve { fill: none; stroke: #1f77b4; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="1488" height="992" fill="#fff"/>
+  <line class="axis" x1="130" y1="40" x2="130" y2="870"/>
+  <line class="axis" x1="130" y1="870" x2="1430" y2="870"/>
+
+  <g class="tick">
+    <line x1="130" y1="870" x2="130" y2="882"/><line x1="390" y1="870" x2="390" y2="882"/>
+    <line x1="650" y1="870" x2="650" y2="882"/><line x1="910" y1="870" x2="910" y2="882"/>
+    <line x1="1170" y1="870" x2="1170" y2="882"/><line x1="1430" y1="870" x2="1430" y2="882"/>
+    <line x1="118" y1="732" x2="130" y2="732"/><line x1="118" y1="599" x2="130" y2="599"/>
+    <line x1="118" y1="465" x2="130" y2="465"/><line x1="118" y1="332" x2="130" y2="332"/>
+    <line x1="118" y1="199" x2="130" y2="199"/><line x1="118" y1="66" x2="130" y2="66"/>
+  </g>
+  <g font-size="32" text-anchor="middle">
+    <text x="130" y="925">0.0</text><text x="390" y="925">0.2</text>
+    <text x="650" y="925">0.4</text><text x="910" y="925">0.6</text>
+    <text x="1170" y="925">0.8</text><text x="1430" y="925">1.0</text>
+  </g>
+  <g font-size="32" text-anchor="end">
+    <text x="105" y="743">0.3</text><text x="105" y="610">0.4</text>
+    <text x="105" y="476">0.5</text><text x="105" y="343">0.6</text>
+    <text x="105" y="210">0.7</text><text x="105" y="77">0.8</text>
+  </g>
+  <path class="curve" d="M130 824.67 L195 511.33 L260 402 L325 302 L390 243.33 L455 204.67 L520 176.67 L585 160.67 L650 143.33 L715 132.67 L780 119.33 L845 122 L910 130 L975 142 L1040 168.67 L1105 198 L1170 210 L1235 222 L1300 222 L1365 222 L1430 222"/>
+</svg>
