@@ -55,7 +55,7 @@ Click it and put the request body in - the JSON payload from our
 }
 ```
 
-![The method test page for POST /predict](images/07-api-gateway-04-method-test.jpg)
+![The method test page for POST /predict](images/07-api-gateway-04-method-test-cropped.png)
 
 Run the test. It took about four seconds, and the response body
 contains what we already know - the scores for all ten classes, with

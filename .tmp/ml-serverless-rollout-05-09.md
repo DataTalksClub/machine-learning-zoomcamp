@@ -179,3 +179,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; no text or controls were regenerated.
 - **Rubric:** instructional contribution 0, relevance 0, readability 2, complementarity 0, durability 1, caption/accessibility 0 — **3/12; parent review required**. The asset should be removed or replaced if a matching permission-dialog source is found.
 - **Validation:** output inspected; the actual test script remains readable and no face/camera/recording overlay remains. The screenshot does not substantiate the surrounding permission-dialog paragraph; the Markdown reference resolves.
+
+## 07-api-gateway-04-method-test.jpg
+
+- **Disposition:** `crop/replace` → `images/07-api-gateway-04-method-test-cropped.png`
+- **Teaching point:** the API Gateway method-test page is ready for a `POST /predict` request.
+- **Source inspection:** the original filename is swapped with the following response asset; the method-test capture is `07-api-gateway-05-test-response.jpg` (592×360). Crop `+0+50 550×268` removes browser chrome, webcam tile, and surrounding frame while retaining the method tree and test form.
+- **Method:** deterministic Lanczos upscale to 1100×536 from the method-test source; exact `POST`, `/predict`, path, query-string, and header controls were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
+- **Validation:** output inspected; `/predict - POST - Method Test` and the test form remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
