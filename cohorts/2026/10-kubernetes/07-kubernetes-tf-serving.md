@@ -12,7 +12,7 @@ each service we create a deployment (the pods) and a service (the entry
 point to the pods). To keep things tidy we put the Kubernetes
 configuration files in a separate folder `kube-config`.
 
-![The kube-config folder with the configuration files, and the deployment template](images/07-kubernetes-tf-serving-01-kube-config-cropped.png)
+![The kube-config folder with the configuration files, and the deployment template](images/07-kubernetes-tf-serving-01-kube-config-crisp.png)
 
 ## Deploying the TF-Serving model
 
@@ -75,7 +75,7 @@ Then we take `gateway.py` - in the Docker Compose lesson we already made
 it capable of sending one request when run directly - and run it. It
 connects to `localhost:8500` by default, so we get predictions.
 
-![Loading the model image into kind, applying the deployment](images/07-kubernetes-tf-serving-02-model-deployment-cropped.png)
+![Loading the model image into kind, applying the deployment](images/07-kubernetes-tf-serving-02-model-deployment-crisp.png)
 
 ![Testing the model deployment: port-forwarding to the pod and running gateway.py](images/07-kubernetes-tf-serving-03-model-test-crisp.png)
 
@@ -118,7 +118,7 @@ kubectl port-forward service/tf-serving-clothing-model 8500:8500
 
 then run `gateway.py` again for predictions.
 
-![The model service: a ClusterIP service in front of the TF-Serving pods](images/07-kubernetes-tf-serving-04-model-service-cropped.png)
+![The model service: a ClusterIP service in front of the TF-Serving pods](images/07-kubernetes-tf-serving-04-model-service-crisp.png)
 
 ## Deploying the gateway
 
@@ -158,7 +158,7 @@ spec:
             value: tf-serving-clothing-model.default.svc.cluster.local:8500 # kubernetes naming convention
 ```
 
-![The gateway deployment: the TF_SERVING_HOST env var points to the model service](images/07-kubernetes-tf-serving-05-gateway-deployment-cropped.png)
+![The gateway deployment: the TF_SERVING_HOST env var points to the model service](images/07-kubernetes-tf-serving-05-gateway-deployment-crisp.png)
 
 Load the gateway image into kind and create the gateway deployment:
 
@@ -201,7 +201,7 @@ before closing the connection. That's all we need to know: the DNS name
 resolves, the port is open, and this is exactly the address the gateway
 should use.
 
-![Testing connectivity from inside a pod with telnet](images/07-kubernetes-tf-serving-06-telnet-cropped.png)
+![Testing connectivity from inside a pod with telnet](images/07-kubernetes-tf-serving-06-telnet-crisp.png)
 
 ## Creating the gateway service
 
@@ -243,7 +243,7 @@ kubectl port-forward service/gateway 8080:80
 
 and replace the url in `test.py` with port 8080 to get predictions.
 
-![The gateway service as a LoadBalancer, and port-forwarding to it for testing](images/07-kubernetes-tf-serving-07-gateway-service-cropped.png)
+![The gateway service as a LoadBalancer, and port-forwarding to it for testing](images/07-kubernetes-tf-serving-07-gateway-service-crisp.png)
 
 On kind the external IP of the service stays `<pending>` unless MetalLB
 is set up (see the previous lesson for the recipe). With MetalLB - or on
