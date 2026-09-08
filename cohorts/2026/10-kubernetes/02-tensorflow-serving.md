@@ -36,7 +36,7 @@ tf.saved_model.save(model, 'clothing-model')
 This creates a `clothing-model` directory with the model in the new
 format - `saved_model.pb` plus a `variables` folder with the weights:
 
-![The SavedModel directory: saved_model.pb and variables](images/02-tensorflow-serving-01-saved-model.jpg)
+![The SavedModel directory: saved_model.pb and variables](images/02-tensorflow-serving-01-saved-model-cropped.png)
 
 ## Looking inside the SavedModel
 
