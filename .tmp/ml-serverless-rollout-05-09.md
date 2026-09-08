@@ -188,3 +188,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×536 from the method-test source; exact `POST`, `/predict`, path, query-string, and header controls were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
 - **Validation:** output inspected; `/predict - POST - Method Test` and the test form remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 07-api-gateway-05-test-response.jpg
+
+- **Disposition:** `crop/replace` → `images/07-api-gateway-05-test-response-cropped.png`
+- **Teaching point:** the API Gateway test returns the class-score JSON and records the request in execution logs.
+- **Source inspection:** the original filename is swapped with the preceding method-test asset; the response/log capture is `07-api-gateway-04-method-test.jpg` (592×360). Crop `+0+52 550×255` removes browser chrome, webcam tile, cookie/footer banner, and side frame while retaining response headers and logs.
+- **Method:** deterministic Lanczos upscale to 1100×510 from the response source; exact score fragments, response headers, and `POST /predict` logs were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
+- **Validation:** output inspected; response-score text, `Response Headers`, and execution logs remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The uppermost score rows are outside the source viewport crop.

@@ -63,7 +63,7 @@ contains what we already know - the scores for all ten classes, with
 we don't care about.) Testing one more time is faster, as usual, since
 the function is already warm.
 
-![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response.jpg)
+![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response-cropped.png)
 
 ## Deploying the API
 
