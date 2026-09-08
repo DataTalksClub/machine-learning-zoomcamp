@@ -149,7 +149,7 @@ gateway's load balancer. On kind this external IP was pending forever -
 here we actually get a DNS name. It doesn't resolve immediately: the DNS
 update needs some time to propagate through the internet.
 
-![The gateway service with its external load balancer DNS name](images/08-eks-05-external-ip.jpg)
+![The gateway service with its external load balancer DNS name](images/08-eks-05-external-ip-cropped.png)
 
 We take this URL and put it into `test.py` as the access URL for
 predictions, adding `http://` at the beginning and `/predict` at the end:
