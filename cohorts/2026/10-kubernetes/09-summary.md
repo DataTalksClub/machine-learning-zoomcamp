@@ -59,7 +59,7 @@ include minikube, k3d, k3s, microk8s and EKS Anywhere. For example,
 minikube uses VirtualBox for creating the nodes, so it's more isolated,
 while kind is more lightweight. Try them and see what you like more.
 
-![Local Kubernetes alternatives, and tools worth knowing](images/09-summary-02-local-alternatives.jpg)
+![Local Kubernetes alternatives, and tools worth knowing](images/09-summary-02-local-alternatives-cropped.png)
 
 There are also a couple of tools worth knowing that weren't in that list
 from the beginning. One is
