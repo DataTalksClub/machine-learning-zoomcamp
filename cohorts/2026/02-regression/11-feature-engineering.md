@@ -28,7 +28,7 @@ are 0 years old, some are 9, some are 26:
 2017 - df_train.year
 ```
 
-![Computing the age of each car as 2017 minus year](images/11-feature-engineering-02-car-age-cropped.png)
+![Computing the age of each car as 2017 minus year](images/11-feature-engineering-02-car-age-crisp.png)
 
 This age is what we want to use as a feature in our model.
 
@@ -55,7 +55,7 @@ def prepare_X(df):
     return X
 ```
 
-![The prepare_X function with the new age feature](images/11-feature-engineering-03-age-feature-cropped.png)
+![The prepare_X function with the new age feature](images/11-feature-engineering-03-age-feature-crisp.png)
 
 ## The function should not modify the data
 
@@ -68,7 +68,7 @@ don't want it to change my data - what if it does something that cannot be
 undone? It is much better if the function doesn't modify the dataframes it
 receives.
 
-![Running prepare_X added the age column to df_train](images/11-feature-engineering-04-modified-dataframe-cropped.png)
+![Running prepare_X added the age column to df_train](images/11-feature-engineering-04-modified-dataframe-crisp.png)
 
 The fix is simple: before doing anything, we take a copy of the dataframe and
 work with that copy inside the function. The original dataframe stays unchanged
@@ -88,7 +88,7 @@ def prepare_X(df):
     return X
 ```
 
-![With df.copy() the original dataframe is no longer modified](images/11-feature-engineering-05-dataframe-copy-cropped.png)
+![With df.copy() the original dataframe is no longer modified](images/11-feature-engineering-05-dataframe-copy-crisp.png)
 
 Now `X_train` has six columns - the five base features plus `age`, which is the
 last one.
@@ -114,7 +114,7 @@ The model improved, and it is quite an improvement - the RMSE went down from
 0.5172055461058291
 ```
 
-![The RMSE dropped from 0.76 to 0.51 with the age feature](images/11-feature-engineering-06-rmse-improvement-cropped.png)
+![The RMSE dropped from 0.76 to 0.51 with the age feature](images/11-feature-engineering-06-rmse-improvement-crisp.png)
 
 We can see that it is a big improvement by doing the same thing as previously:
 plotting the predicted values and the actual values on the same histogram. Note
@@ -127,7 +127,7 @@ sns.histplot(y_val, label='target', color='blue',  alpha=0.5, bins=50)
 plt.legend()
 ```
 
-![The distributions of predictions and actual values are now much closer](images/11-feature-engineering-07-distribution-comparison-cropped.png)
+![The distributions of predictions and actual values are now much closer](images/11-feature-engineering-07-distribution-comparison-crisp.png)
 
 The shapes of the two distributions are now much closer. There is still a lot of
 room for improvement - for example, the model completely misses this bar here -
