@@ -111,7 +111,7 @@ accuracy_score(y_ideal, y_ideal_pred >= 0.726)
 
 This gives `1.0` - perfect predictions, as an ideal model should. Its TPR and FPR vs threshold:
 
-![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr.jpg)
+![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr-cropped.png)
 
 The ideal TPR stays at 1.0 for every threshold below 0.726 - it catches all churners while they all score higher than any non-churner - and only then drops. The ideal FPR falls to 0 at that same point.
 
