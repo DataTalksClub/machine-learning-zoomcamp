@@ -14,7 +14,7 @@ online classified website, and the site asks them to enter a price. If they
 don't know how much the car is worth, they have to guess. We want to help:
 the user describes the car, and our model suggests the best price.
 
-![How can we help our user select the best price](images/01-car-price-intro-01-select-best-price-cropped.jpg)
+![How can we help our user select the best price](images/01-car-price-intro-01-select-best-price-crisp.png)
 
 ## The dataset
 
@@ -23,12 +23,12 @@ Kaggle. It has different characteristics of cars — the make (the
 manufacturer), the model, the year, the engine type, the fuel type and other
 properties.
 
-![Car Features and MSRP dataset on Kaggle](images/01-car-price-intro-02-kaggle-dataset-cropped.jpg)
+![Car Features and MSRP dataset on Kaggle](images/01-car-price-intro-02-kaggle-dataset-crisp.png)
 
 The data explorer on Kaggle shows what is inside. Every row is one car, and
 every column is one characteristic of that car.
 
-![Kaggle data explorer showing the car dataset columns](images/01-car-price-intro-03-kaggle-data-explorer-cropped.jpg)
+![Kaggle data explorer showing the car dataset columns](images/01-car-price-intro-03-kaggle-data-explorer-crisp.png)
 
 One column is especially interesting for us: MSRP. It stands for
 Manufacturer Suggested Retail Price — in other words, the price of a car.
@@ -36,7 +36,7 @@ This is exactly what we want to predict. The plan is to use all the other
 features — the make, the model, the year, the engine and so on — to predict
 this price.
 
-![The MSRP column contains the price of each car](images/01-car-price-intro-04-msrp-column-cropped.jpg)
+![The MSRP column contains the price of each car](images/01-car-price-intro-04-msrp-column-crisp.png)
 
 ## The project plan
 
@@ -56,7 +56,7 @@ We will do the project in several steps:
   regularization.
 - Finally, use the model.
 
-![Project plan slide](images/01-car-price-intro-05-project-plan-cropped.jpg)
+![Project plan slide](images/01-car-price-intro-05-project-plan-crisp.png)
 
 ## Where the code lives
 
@@ -65,7 +65,7 @@ All the code for this project is available on GitHub, in the
 this is the repository for the Machine Learning Bookcamp book. We need the
 chapter-02-car-price folder.
 
-![The mlbookcamp-code repository with chapter-02-car-price](images/01-car-price-intro-06-github-repo-cropped.jpg)
+![The mlbookcamp-code repository with chapter-02-car-price](images/01-car-price-intro-06-github-repo-crisp.png)
 
 The folder has two files. The first one is the notebook with all the code —
 it contains everything we will do in this session. The second one is
@@ -73,7 +73,7 @@ data.csv, the actual dataset we will use for training the model. In this
 cohort we walk through the notebook lesson by lesson; for this module it is
 [notebook.ipynb](notebook.ipynb).
 
-![The notebook and the data file in chapter-02-car-price](images/01-car-price-intro-07-chapter-files-cropped.jpg)
+![The notebook and the data file in chapter-02-car-price](images/01-car-price-intro-07-chapter-files-crisp.png)
 
 Next, we take the CSV file and do a bit of data preparation — that is the
 next lesson, [data preparation](02-data-preparation.md).

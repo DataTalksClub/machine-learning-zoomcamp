@@ -19,7 +19,7 @@ parts: the training set, the validation set and the test set. We train the model
 - let's call it g - on the training part, and then we apply it to the validation
 part to see how it performs on data it has never seen.
 
-![Train, validation and test sets: the model g is trained on train and applied to validation](images/10-car-price-validation-01-split-diagram-cropped.png)
+![Train, validation and test sets: the model g is trained on train and applied to validation](images/10-car-price-validation-01-split-diagram-crisp.png)
 
 Two lessons ago we built our first baseline model using five numerical features
 - `engine_hp`, `engine_cylinders`, `highway_mpg`, `city_mpg` and `popularity` -

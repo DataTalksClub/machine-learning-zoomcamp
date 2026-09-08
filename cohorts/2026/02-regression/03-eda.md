@@ -53,7 +53,7 @@ engine_hp
 356
 ```
 
-![The loop that prints unique values and their counts for every column](images/03-eda-01-explore-columns-cropped.jpg)
+![The loop that prints unique values and their counts for every column](images/03-eda-01-explore-columns-crisp.png)
 
 Walking through the output: make is the manufacturer of a car — BMW, Audi,
 Fiat, Mercedes-Benz, Chrysler, 48 of them in total. Model is more granular:
@@ -87,7 +87,7 @@ import seaborn as sns
 %matplotlib inline
 ```
 
-![Importing matplotlib and seaborn](images/03-eda-02-import-plotting-libraries-cropped.jpg)
+![Importing matplotlib and seaborn](images/03-eda-02-import-plotting-libraries-crisp.png)
 
 We want to see the distribution of prices — how many cars cost what. A
 histogram shows exactly that: it splits the value range into buckets and
@@ -98,7 +98,7 @@ it. The bins parameter controls how many bars we get:
 sns.histplot(df.msrp, bins=50)
 ```
 
-![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution-cropped.jpg)
+![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution-crisp.png)
 
 The 1e6 on the x axis is scientific notation: 10 to the power of 6, that is,
 one million. And what we see is that a lot of prices are pretty cheap — most
@@ -119,7 +119,7 @@ To see the shape better, we zoom in on prices below 100,000:
 sns.histplot(df.msrp[df.msrp < 100000], bins=50)
 ```
 
-![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k-cropped.jpg)
+![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k-crisp.png)
 
 This is the left part of the previous histogram, and it is much easier to
 read. There is a strange peak of cars that cost 1,000 — probably the minimal
@@ -145,7 +145,7 @@ There is one problem with the plain logarithm: the logarithm of zero doesn't
 exist. If there is a zero in the data, numpy complains — it returns negative
 infinity and prints a warning:
 
-![log(0) fails with a divide-by-zero warning](images/03-eda-05-log-zero-problem-cropped.jpg)
+![log(0) fails with a divide-by-zero warning](images/03-eda-05-log-zero-problem-crisp.png)
 
 In our case prices are always 1,000 or more, so this can't happen. Still,
 it's pretty common to add one to all values before taking the logarithm,
@@ -173,7 +173,7 @@ Now we can plot the histogram of the logged prices:
 sns.histplot(price_logs, bins=50)
 ```
 
-![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution-cropped.jpg)
+![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution-crisp.png)
 
 The tail is gone. All the large prices collapsed into a small area on the
 right, and the cars for usual consumers are still concentrated around the
@@ -223,7 +223,7 @@ msrp                    0
 dtype: int64
 ```
 
-![Counting missing values per column](images/03-eda-07-missing-values-cropped.jpg)
+![Counting missing values per column](images/03-eda-07-missing-values-crisp.png)
 
 For quite a few cars we don't know the fuel type, the market category, the
 horsepower or the number of cylinders. We need to keep this in mind: before

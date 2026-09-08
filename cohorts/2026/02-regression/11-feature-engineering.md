@@ -17,7 +17,7 @@ Let's take a look again at our training dataset. One of the columns there is
 the price of a car: if a car is old, it is usually cheaper, and if it is new, it
 is more expensive.
 
-![The training dataset with the year column](images/11-feature-engineering-01-year-column-cropped.png)
+![The training dataset with the year column](images/11-feature-engineering-01-year-column-crisp.png)
 
 Instead of using the year as it is, we can compute the age of a car. For that we
 need to know when this data was collected - it turns out it was collected in
