@@ -109,7 +109,7 @@ them. And in principle it can go further: if all our nodes are already
 occupied with too many pods, it can request a new node - the new node
 gets created, and the new pods are placed there.
 
-![More users, more pods: Kubernetes scales the deployments up](images/05-kubernetes-intro-06-scaling.jpg)
+![More users, more pods: Kubernetes scales the deployments up](images/05-kubernetes-intro-06-scaling-imagegen.png)
 
 This is the mechanism for dealing with traffic increases. Most of what we
 discussed here we won't need to set up ourselves in this course - we
