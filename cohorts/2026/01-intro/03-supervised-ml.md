@@ -40,7 +40,14 @@ For the car price example, the target is the price, and X is all the information
 
 When we apply the trained g to the features, we get predictions:
 
-![The model produces predictions for each row of features](images/03-supervised-ml-03-predictions-imagegen-pilot.png)
+| Features (data) | Predictions (output) |
+| --- | ---: |
+| `[0, 0, 0, 1, 0, 1]` | 0.93 |
+| `[0, 0, 0, 1, 1, 0]` | 0.48 |
+| `[1, 0, 1, 0, 1, 1]` | 0.19 |
+| `[1, 1, 1, 0, 1, 0]` | 0.32 |
+| `[1, 0, 0, 0, 0, 1]` | 0.01 |
+| `[1, 1, 0, 0, 1, 1]` | 0.94 |
 
 ## Types of supervised machine learning
 

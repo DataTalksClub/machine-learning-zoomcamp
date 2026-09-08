@@ -14,17 +14,49 @@ In the first lesson we did a quick introduction to machine learning using the ca
 
 These things go to a machine learning algorithm, and the output is a model. The model is something we can use later to predict the prices of cars for which we don't know the price: if there is a car for which we don't know the price, we put its features into the model, and the model tells us that the price for this car is, say, $23,000.
 
-![Features and the target go into a machine learning algorithm, which produces a model](images/10-summary-01-features-target-model-imagegen-pilot.png)
+**Features**
+
+| Year | Make | Mileage | ... |
+| --- | --- | ---: | --- |
+| 1995 | GAZ | 200.000 | ... |
+| 1980 | VAZ | 100.000 | ... |
+| 2016 | BWM | 5.000 | ... |
+| ... | ... | ... | ... |
+
+**Target**
+
+| Price |
+| ---: |
+| $1.1k |
+| $0.6k |
+| $23k |
+| ... |
 
 ## ML vs Rule-Based Systems
 
 In the second lesson we compared rule-based systems with machine learning. In a rule-based system, humans come up with rules and then convert these rules into a programming language like Python. Using the spam prediction example: we would manually analyze the data, try to extract patterns from it and code them as rules. Over time this becomes quite messy.
 
-![Hand-coded spam-filtering rules that get messy over time](images/10-summary-02-rule-based-spam-rules-imagegen-pilot.png)
+The hand-coded rules looked like this:
+
+- If sender = `promotions@online.com` then “spam”
+- If title contains “tax review” and sender domain is “online.com” then “spam”
+- If body contains a word “deposit”:
+  - If sender domain is “test.com” then “spam”
+  - If body >= 100 words then spam
+- Otherwise, “good email”
 
 With machine learning we don't have this problem, because we don't need to encode the rules manually. The models extract patterns themselves: they just look at the training data - our features - and use statistics and mathematics to figure out what patterns are present in these features, and what we can use to make a decision whether something is spam or not.
 
-![Training data: the features matrix and the target](images/10-summary-03-ml-training-data-imagegen-pilot.png)
+The training data combines the feature vector with the target:
+
+| Features (data) | Target (desired output) |
+| --- | ---: |
+| `[1, 1, 0, 0, 1, 1]` | 1 |
+| `[0, 0, 0, 1, 0, 1]` | 0 |
+| `[1, 1, 1, 0, 1, 0]` | 1 |
+| `[1, 0, 0, 0, 0, 1]` | 1 |
+| `[0, 0, 0, 1, 1, 0]` | 0 |
+| `[1, 0, 1, 0, 1, 1]` | 0 |
 
 ## Supervised Machine Learning
 
