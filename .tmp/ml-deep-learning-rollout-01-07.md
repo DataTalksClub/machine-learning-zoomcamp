@@ -68,3 +68,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `06-learning-rate-05-val-accuracy.jpg` → `06-learning-rate-05-val-accuracy-cropped.png`: deterministic plot crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved all four validation curves, legend, axes, and visible notebook context; removed webcam/black recording chrome without regenerating plotted values.
 - `06-learning-rate-06-two-lr-validation.jpg` → `06-learning-rate-06-two-lr-validation-cropped.png`: deterministic plot/code crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved deletion of `scores[0.1]`/`scores[0.0001]`, the two-curve plot, legend, and axes; removed webcam/black recording chrome.
 - `06-learning-rate-07-select-001.jpg` → `06-learning-rate-07-select-001-cropped.png`: deterministic plot/code crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved deletion of `scores[0.1]`/`scores[0.0001]`, train/validation curve labels, learning-rate legend, and exact comparison; removed webcam/black recording chrome.
+
+## 07-checkpointing
+
+- `07-checkpointing-02-callbacks.jpg` → `07-checkpointing-02-callbacks-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 456x315`; preserved the validation/callback cycle, epoch order `1`, `2`, `3`, `...`, `10`, and exact labels; removed presenter/camera/recording chrome.

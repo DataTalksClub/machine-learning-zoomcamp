@@ -41,7 +41,7 @@ mechanism. We can add more things using the same mechanism. Callbacks
 live in `keras.callbacks`, and the interesting one for us is
 `ModelCheckpoint`.
 
-![After each epoch the model is evaluated on validation, and then callbacks are invoked](images/07-checkpointing-02-callbacks.jpg)
+![After each epoch the model is evaluated on validation, and then callbacks are invoked](images/07-checkpointing-02-callbacks-imagegen.png)
 
 ## Saving a model
 
