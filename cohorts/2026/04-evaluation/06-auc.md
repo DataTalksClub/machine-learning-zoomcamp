@@ -31,7 +31,7 @@ auc(fpr, tpr)
 
 This gives `0.843850505725819`. Feeding it the table we computed by hand in the previous lesson gives practically the same number - `0.8438796286447967` - and the ideal curve gives `0.9999430203759136`, almost exactly 1.
 
-![Computing the area with sklearn auc: for the sklearn curve and for the hand-computed table](images/06-auc-03-auc-notebook-cropped.png)
+![Computing the area with sklearn auc: for the sklearn curve and for the hand-computed table](images/06-auc-03-auc-notebook-crisp.png)
 
 There is also a shortcut that computes the ROC curve and the area in one step:
 
@@ -43,7 +43,7 @@ roc_auc_score(y_val, y_pred)
 
 This gives `0.843850505725819` - the same value as with `auc(fpr, tpr)`. Our churn model has an AUC of 0.84: clearly better than random, not far from ideal.
 
-![The roc_auc_score shortcut giving the same value](images/06-auc-04-roc-auc-score-cropped.png)
+![The roc_auc_score shortcut giving the same value](images/06-auc-04-roc-auc-score-crisp.png)
 
 ## Interpreting AUC
 
@@ -78,7 +78,7 @@ for i in range(n):
 success / n
 ```
 
-![The simulation in the notebook: 100000 random positive-negative pairs, 84% of them won by the positive](images/06-auc-06-auc-simulation-cropped.png)
+![The simulation in the notebook: 100000 random positive-negative pairs, 84% of them won by the positive](images/06-auc-06-auc-simulation-crisp.png)
 
 The result is `0.8434` - practically the same as the AUC of `0.843850505725819`.
 
