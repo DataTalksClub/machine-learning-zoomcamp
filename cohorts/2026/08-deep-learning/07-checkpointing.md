@@ -19,7 +19,7 @@ Look at the validation accuracy plot from the previous unit: the model
 goes up to about 82.5% around epoch 8, then drops, and after training
 for 10 epochs we end up with a model that's a bit worse - around 82%.
 
-![The validation accuracy of the tuned model reaches 82.5% around epoch 8 and ends at 82%](images/07-checkpointing-01-oscillation.jpg)
+![The validation accuracy of the tuned model reaches 82.5% around epoch 8 and ends at 82%](images/07-checkpointing-01-oscillation-cropped.png)
 
 The model at epoch 8 is sweeter - it can identify some of the pictures
 more correctly than the final one. But if we just train for 10 epochs
