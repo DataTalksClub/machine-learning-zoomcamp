@@ -9,6 +9,10 @@ in the course work successfully with this setup.
 
 Here's how you do it
 
+![Python, NumPy, and the TensorFlow Lite runtime form a compatible pinned stack; mixing incompatible generations causes runtime problems.](images/updates-01-runtime-compatibility-imagegen.png)
+
+*Figure: Pin and test the runtime components together instead of mixing incompatible generations.*
+
 
 First, use Python 3.10. It means that you will need to use
 `public.ecr.aws/lambda/python:3.10` as the base image:
@@ -33,7 +37,6 @@ RUN pip install --no-deps https://github.com/alexeygrigorev/tflite-aws-lambda/ra
 If you don't do it, pip will try to upgdate the version of numpy
 and your code won't work (as the tflite runtime was compiled 
 with numpy 1, not numpy 2).
-
 
 
 

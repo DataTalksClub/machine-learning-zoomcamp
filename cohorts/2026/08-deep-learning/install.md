@@ -6,6 +6,10 @@ This installation guide is specific to the use case as in the pre-requisites. I'
 
 Also, welcome to edit and make corrections directly (via PRs) or let me know via Slack.
 
+![The installation stack moves from a Windows host through WSL2, CUDA and cuDNN, and TensorFlow to a GPU verification check.](images/install-01-gpu-stack-imagegen.png)
+
+*Figure: Install the GPU-enabled stack in layers, then verify that TensorFlow can access the GPU.*
+
 
 ## pre-requisites
 - wsl2 on Windows 10 19044 or higher

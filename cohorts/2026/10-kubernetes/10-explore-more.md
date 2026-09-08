@@ -1,6 +1,10 @@
 
 # Explore more
 
+![A Kubernetes namespace contains model and gateway services, while the same deployment idea can run locally or in managed cloud Kubernetes.](images/10-explore-more-01-cluster-options-imagegen.png)
+
+*Figure: Reuse the same service deployment pattern across local clusters and managed cloud Kubernetes.*
+
 - Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
 - [Rancher desktop](https://rancherdesktop.io/)
 - [Docker desktop](https://www.docker.com/products/docker-desktop/)

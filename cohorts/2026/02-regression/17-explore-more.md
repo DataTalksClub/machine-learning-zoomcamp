@@ -1,6 +1,10 @@
 
 # Explore more
 
+![Two feature sets flow through separate models into a validation comparison board.](images/17-explore-more-01-feature-experiments-imagegen.png)
+
+*Figure: Test a compact and an expanded feature set by comparing their validation results.*
+
 ### Questions
 
 * In this project, we included only 5 top features. What happens if we include 10?

@@ -3,6 +3,10 @@
 
 More things
 
+![A classification experiment bench for selecting features, encoding categories, scaling numbers, and comparing models.](images/14-explore-more-01-preprocessing-model-comparison-imagegen.png)
+
+*Figure: Try alternative preprocessing and models, then compare them on validation data.*
+
 * Try to exclude least useful features
 
 Use scikit-learn in project of last week

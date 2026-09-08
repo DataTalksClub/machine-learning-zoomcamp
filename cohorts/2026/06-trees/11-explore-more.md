@@ -1,6 +1,10 @@
 
 # Explore more
 
+![A dataset branches into EDA, feature importance, forests, and boosting before producing new insights.](images/11-explore-more-01-ensemble-experiments-imagegen.png)
+
+*Figure: Explore several analyses and ensemble models to learn more from the same data.*
+
 * For this dataset we didn't do EDA or feature engineering. You can do it to get more insights into the problem.
 * For random forest, there are more parameters that we can tune. Check max_features and bootstrap.
 * There's a variation of random forest caled "extremely randomized trees", or "extra trees". Instead of selecting the best split among all possible thresholds, it selects a few thresholds randomly and picks the best one among them. Because of that extra trees never overfit. In Scikit-Learn, they are implemented in ExtraTreesClassifier. Try it for this project.
