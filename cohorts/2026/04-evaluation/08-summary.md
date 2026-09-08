@@ -18,7 +18,6 @@ In this final lesson of module 4 we wrap up everything we learned about evaluati
 
 With the metric chosen and the parameter tuned, the model is ready: in module 5 we take this churn model and deploy it as a service. There are also a few ideas to dig deeper in [Explore more](09-explore-more.md).
 
-![The cross-validation recap: train on two folds, validate on the third, then average the AUCs](images/08-summary-03-cross-validation.jpg)
 
 ## Materials
 
