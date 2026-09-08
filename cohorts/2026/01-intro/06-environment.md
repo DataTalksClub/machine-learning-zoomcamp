@@ -46,8 +46,6 @@ pip install jupyter numpy pandas scikit-learn seaborn
 
 Seaborn is a library for visualization. Later in the course you will also need XGBoost and TensorFlow - and this is exactly how you install them too.
 
-![Pushing to GitHub and installing the libraries with pip](images/06-environment-04-push-pip-install-crisp.png)
-
 Now start Jupyter:
 
 ```bash
@@ -56,11 +54,7 @@ jupyter notebook
 
 It starts remotely on the codespace, but you can use it locally. VS Code automatically detects that something is running on port 8888 and forwards it to your machine - see the Ports panel. Open the forwarded address, and if you are asked to log in, take the token (or the entire URL) from the terminal and paste it into the browser.
 
-![The Jupyter notebook running in the browser](images/06-environment-05-jupyter-notebook-crisp.png)
-
 That's it - you have a working environment: create a folder like `01-intro`, create a notebook, `import pandas as pd` and you are ready. For the homework you will typically read a CSV file with `pd.read_csv(...)`, finish the notebook, rename it to something like `homework.ipynb`, commit it, push it, and submit the URL of your repository in the homework form.
-
-![Working on the homework in a notebook inside the codespace](images/06-environment-06-homework-notebook-crisp.png)
 
 ## Ubuntu 22.04 on AWS
 
