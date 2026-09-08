@@ -247,3 +247,13 @@ crops and upscaling.
 - Invariants checked: one `CLUSTER`, exactly two stacked `NODE` regions, pods inside each node, and the labels `10.5 INTRODUCTION TO KUBERNETES`, `CLUSTER`, `NODE`, and `POD`.
 - Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or unrelated Kubernetes component remains.
 - Output: `images/05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png`.
+
+### `05-kubernetes-intro-02-deployments.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: Two deployments: gateway pods and TF-Serving pods, each with the same image and config.
+- Disposition: imagegen replacement; the source is a bounded Kubernetes deployment diagram.
+- Source inspection: `596x360`; webcam tile, recording controls, and black side bars present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-02-deployments-source-clean.png`, coordinates `475x360+23+0`; resized 2x with Lanczos and light unsharp masking before generation.
+- Invariants checked: one `CLUSTER` boundary, exactly two stacked `NODE` regions, a gateway deployment and a TF-Serving deployment spanning both nodes, exactly one gateway pod and one TF-Serving pod in each node, and same-image/config relationships.
+- Prompt iteration: first generation was rejected because it duplicated pods within each node and changed the topology; a targeted correction restored exactly four pods distributed one per deployment per node.
+- Output: `images/05-kubernetes-intro-02-deployments-imagegen.png`.

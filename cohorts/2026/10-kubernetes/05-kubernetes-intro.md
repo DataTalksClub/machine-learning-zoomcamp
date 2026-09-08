@@ -45,7 +45,7 @@ deployment is our TensorFlow Serving model: its pods also share the same
 image and config, but they are larger - serving the model needs more
 resources.
 
-![Two deployments: gateway pods and TF-Serving pods, each with the same image and config](images/05-kubernetes-intro-02-deployments.jpg)
+![Two deployments: gateway pods and TF-Serving pods, each with the same image and config](images/05-kubernetes-intro-02-deployments-imagegen.png)
 
 So, to write it down: a node is approximately a server or computer, a pod
 is approximately a Docker container that runs on a node, and a deployment
