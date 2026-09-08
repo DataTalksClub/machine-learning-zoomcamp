@@ -193,7 +193,7 @@ The actual price is:
 35000.00000000001
 ```
 
-![The two prices side by side: our prediction is 41,459 dollars, the actual price is 35,000](images/15-using-model-08-prediction-vs-actual.jpg)
+![The two prices side by side: our prediction is 41,459 dollars, the actual price is 35,000](images/15-using-model-08-prediction-vs-actual-cropped.png)
 
 So our prediction was a bit off - the car costs 35,000 dollars and we predicted
 around 41,500. It's not perfect, but it's a relatively good prediction.
