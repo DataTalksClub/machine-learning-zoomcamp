@@ -78,7 +78,7 @@ y_pred = model.predict_proba(X_val)[:, 1]
 class 0 and the probability of class 1. The two columns always sum up
 to 1, so it is enough to take the second one - hence `[:, 1]`.
 
-![Hard predictions with predict give the final 0/1 answer, soft predictions with predict_proba give the actual probabilities](images/10-training-log-reg-03-soft-predictions-cropped.png)
+![Hard predictions with predict give the final 0/1 answer, soft predictions with predict_proba give the actual probabilities](images/10-training-log-reg-03-soft-predictions-crisp.png)
 
 Now we decide: if the model thinks the probability of churn is 50% or
 more, we predict that the customer will churn:

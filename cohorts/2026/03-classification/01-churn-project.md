@@ -22,7 +22,7 @@ company can target the customers with high scores and try to retain
 them, for example by sending an email with discounts or special
 promotions.
 
-![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem-cropped.png)
+![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem-crisp.png)
 
 ## Classification
 
@@ -33,7 +33,7 @@ target y:
 
 $$\large g\left(x_{i}\right) \approx y_{i}$$
 
-![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification-cropped.png)
+![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification-crisp.png)
 
 Here x is the feature vector - everything we know about the customer -
 and y is the target variable. The target is binary, so y belongs to
@@ -78,7 +78,7 @@ the data, set up a validation framework, do EDA and feature importance
 analysis, then train a logistic regression model and use it to score
 customers.
 
-![The plan of the module in the course notebook](images/01-churn-project-03-module-plan-cropped.png)
+![The plan of the module in the course notebook](images/01-churn-project-03-module-plan-crisp.png)
 
 ## Materials
 

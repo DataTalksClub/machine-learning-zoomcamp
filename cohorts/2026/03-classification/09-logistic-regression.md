@@ -95,7 +95,7 @@ z = np.linspace(-7, 7, 51)
 plt.plot(z, sigmoid(z))
 ```
 
-![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot-cropped.png)
+![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot-crisp.png)
 
 The curve has an S shape: scores below roughly -5 give a probability
 close to 0, scores above roughly 5 give a probability close to 1, and
@@ -131,7 +131,7 @@ def logistic_regression(xi):
     return result
 ```
 
-![Both models in the notebook: logistic regression is the linear regression function with the score passed through sigmoid before returning](images/09-logistic-regression-05-logistic-regression-function-cropped.png)
+![Both models in the notebook: logistic regression is the linear regression function with the score passed through sigmoid before returning](images/09-logistic-regression-05-logistic-regression-function-crisp.png)
 
 The two functions are almost identical. That is the whole idea of this
 lesson: logistic regression is linear regression with a sigmoid on top,

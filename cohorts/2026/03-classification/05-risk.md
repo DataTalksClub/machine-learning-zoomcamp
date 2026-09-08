@@ -36,7 +36,7 @@ churn_female = 0.27682403433476394
 churn_male   = 0.2632135306553911
 ```
 
-![Computing the churn rate for each gender and the global churn rate](images/05-risk-01-churn-rate-gender-cropped.png)
+![Computing the churn rate for each gender and the global churn rate](images/05-risk-01-churn-rate-gender-crisp.png)
 
 The global churn rate is 0.27, women churn at 0.2768 and men at
 0.2632. The differences are tiny. We compute them explicitly as the
@@ -87,7 +87,7 @@ churn_partner     = 0.20503330866025166
 churn_no_partner  = 0.3298090040927694
 ```
 
-![The churn rate for customers with and without a partner](images/05-risk-02-churn-rate-partner-cropped.png)
+![The churn rate for customers with and without a partner](images/05-risk-02-churn-rate-partner-crisp.png)
 
 This looks very different from gender. Customers with a partner churn
 at 20.5%, customers without one at 33% - and the global rate is 27%. So
@@ -128,7 +128,7 @@ churn_partner / global_churn
 0.7594724924338315
 ```
 
-![The risk ratios for the two partner groups](images/05-risk-04-risk-ratio-cropped.png)
+![The risk ratios for the two partner groups](images/05-risk-04-risk-ratio-crisp.png)
 
 This is the risk ratio. It is easy to read:
 
@@ -191,7 +191,7 @@ female  0.276824   2796  0.006856  1.025396
 male    0.263214   2838 -0.006755  0.974980
 ```
 
-![The groupby loop showing mean, count, diff and risk for gender](images/05-risk-05-groupby-gender-cropped.png)
+![The groupby loop showing mean, count, diff and risk for gender](images/05-risk-05-groupby-gender-crisp.png)
 
 And for partner:
 
@@ -214,7 +214,7 @@ one_year        0.120573   1186 -0.149395  0.446621
 two_year        0.028274   1344 -0.241694  0.104730
 ```
 
-![The contract table: month-to-month customers churn far more than average](images/05-risk-06-groupby-contract-cropped.png)
+![The contract table: month-to-month customers churn far more than average](images/05-risk-06-groupby-contract-crisp.png)
 
 `internetservice` tells a similar story - fiber optic customers churn
 much more than DSL customers:
