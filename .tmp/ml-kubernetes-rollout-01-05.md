@@ -112,3 +112,12 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-05-grpc-stub-source-clean.png`, coordinates `500x275+0+20`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: package installs, `import grpc`, TensorFlow Serving protobuf imports, `host = 'localhost:8500'`, and `grpc.insecure_channel` remain exact.
 - Output: `images/02-tensorflow-serving-05-grpc-stub-cropped.png`.
+
+### `02-tensorflow-serving-06-prepare-request.jpg`
+
+- Lesson: `02-tensorflow-serving.md`; caption: Preparing the prediction request.
+- Disposition: deterministic crop/prep; exact preprocessing, URL, protobuf, model, signature, and input names are the source of truth.
+- Source inspection: `594x360`; notebook chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-06-prepare-request-source-clean.png`, coordinates `500x290+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `create_preprocessor`, `xception`, `(299, 299)`, the pants URL, `np_to_protobuf`, `clothing-model`, `serving_default`, and `input_8` remain exact.
+- Output: `images/02-tensorflow-serving-06-prepare-request-cropped.png`.

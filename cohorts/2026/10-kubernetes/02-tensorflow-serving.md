@@ -201,7 +201,7 @@ pb_request.model_spec.signature_name = 'serving_default'
 pb_request.inputs['input_8'].CopyFrom(np_to_protobuf(X))
 ```
 
-![Preparing the prediction request](images/02-tensorflow-serving-06-prepare-request.jpg)
+![Preparing the prediction request](images/02-tensorflow-serving-06-prepare-request-cropped.png)
 
 Then we send the request to TensorFlow Serving:
 
