@@ -84,7 +84,7 @@ provider you can think of has Kubernetes as a service. Look up
 "managed Kubernetes" and you will see many options - the one from
 DigitalOcean, for example, starts at $10 per month.
 
-![Searching for managed Kubernetes offers](images/09-summary-04-managed-kubernetes.jpg)
+![Searching for managed Kubernetes offers](images/09-summary-04-managed-kubernetes-cropped.png)
 
 The good thing about Kubernetes is that the configuration files we
 created in this session work on any Kubernetes. You will only need to
