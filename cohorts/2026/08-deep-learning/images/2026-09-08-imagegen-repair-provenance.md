@@ -74,10 +74,32 @@ The dropout filenames retain their existing `imagegen` suffix for stable
 lesson links, but the replacement pixels are deterministic native renders;
 they are not imagegen output.
 
-## Remaining target in this batch
+## Imagegen repair
 
-The ReLU page screenshot still requires the original-JPG-plus-bounded-crop
-imagegen redraw. It is intentionally kept separate from the deterministic
-chart commit:
+### `08-more-layers-02-activation-functions-crisp.png`
 
-- `08-more-layers-02-activation-functions-crisp.png`
+- **Status:** locally verified at native and simulated 608px resolution.
+- **Source JPG:** `08-more-layers-02-activation-functions.jpg`
+  - SHA-256: `226feb24e2a34e73d50f74fdc9e75c8c432dbc060ab91e5c21a0b38e77fdccee`
+- **Bounded crop:** `08-more-layers-02-activation-functions-cropped.png`
+  - SHA-256: `7beca8558d57b7ab881a6aa3e72db55b71b6ee1dda2130920437094e8cd8fc09`
+- **Generated output:** `08-more-layers-02-activation-functions-crisp.png`
+  - SHA-256: `3a0f8f0404e299d9d7726b05b462daf5dd8ca4d2dbecda8ca9de5a52d2deeae9`
+  - Dimensions: `1536x1024`
+- **Method:** built-in imagegen redraw using the original JPG and bounded crop
+  as references. This is a genuine clean redraw, not an upscale or sharpened
+  copy.
+- **Semantic checks:** exact formula `f(x) = max(0, x)`; zero-valued negative
+  branch; positive branch with slope 1; and readable `x`/`f(x)` axes. The
+  browser chrome, webcam, cursor, highlighted page text, unrelated training-
+  error chart, and overlays were removed.
+- **Metadata:** generated PNG contains C2PA metadata identifying OpenAI image
+  generation.
+
+## Batch status
+
+The eight targets named in the original pending list are now rendered and
+locally verified at native and simulated 608px resolution. No other module was
+changed by this batch. The deterministic chart renderer and this ledger are
+the reproducibility record; the visual status here is a local verification,
+not a claim that every deep-learning asset has passed an independent audit.
