@@ -35,6 +35,22 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | 16 | `16-summary-06-baseline-model.jpg` | keep/crop | 9/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the baseline section, five base-feature list, and training setup; remove browser/camera frame. The source ends before the later baseline result, so that source-edge limitation remains. |
 | 16 | `16-summary-07-feature-engineering.jpg` | keep/crop | 10/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the exact prediction/target histogram and legend showing the age-feature improvement; remove browser/camera frame. |
 | 16 | `16-summary-08-categorical-variables.jpg` | keep/crop | 9/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the categorical-column list and `prepare_X` integration code; remove browser/camera frame. |
+
+## Final validation
+
+- 28 original Markdown references were inspected and received a rubric decision.
+- 27 active references now resolve: 26 deterministic crops and 1 imagegen
+  diagram. `17-explore-more.md` has no image references.
+- The original categorical-variable frame for `16-summary-01` was removed
+  because its caption mismatched the content. The useful data-cleaning source
+  formerly named `16-summary-02-log-transformation.jpg` was remapped into the
+  corrected `16-summary-01-data-cleaning-cropped.png`; its misleading original
+  Markdown reference was removed.
+- Broken-reference scan: 0 missing files. `git diff --check`: passed.
+- Accepted assets contain no face or camera tile. A few exact notebook crops
+  retain native cursor/selection artifacts or source-edge truncation where
+  removing them would risk changing code, values, or the teaching evidence;
+  those cases are noted above.
 | 15 | `15-using-model-01-full-train-concat.jpg` | keep/crop | 10/12 | Crop `(x=20,y=210,w=540,h=145)`; focus on the `pd.concat` cell and resulting combined dataframe; remove browser/camera frame and unrelated preceding cells. |
 | 15 | `15-using-model-02-full-train-prepare-x.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve `concat`, `reset_index`, `prepare_X`, and the resulting feature matrix; remove browser/camera frame. |
 | 15 | `15-using-model-03-final-model-weights.jpg` | keep/crop | 9/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the final-model training cell and printed weights with a wider content area; remove browser/camera frame. The source cuts off the final weight row at the bottom, so that source-edge limitation remains. |
