@@ -50,7 +50,7 @@ vector form using the dot product, and finally to the matrix form - a matrix
 vector multiplication. The output of linear regression is the weights vector:
 the bias term and the weights.
 
-![Linear regression for a single example, implemented as a simple formula with a for loop](images/16-summary-03-linear-regression-loop.jpg)
+![Linear regression for a single example, implemented as a simple formula with a for loop](images/16-summary-03-linear-regression-loop-cropped.png)
 
 ![Extending it to the vector form with the dot product](images/16-summary-04-vector-form.jpg)
 
