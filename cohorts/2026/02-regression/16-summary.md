@@ -88,7 +88,7 @@ categorical variable with a bunch of binary columns. This way of encoding
 categorical variables is called one-hot encoding, and we will talk about it in
 more details in the next session, when we talk about classification.
 
-![Categorical variables: each category becomes a binary column, one-hot encoding](images/16-summary-08-categorical-variables.jpg)
+![Categorical variables: each category becomes a binary column, one-hot encoding](images/16-summary-08-categorical-variables-cropped.png)
 
 After adding all the categorical features we found out that the performance of
 our model degraded significantly - all of a sudden the RMSE became very huge.
