@@ -67,13 +67,9 @@ mutual_info_score(df_full_train.partner, df_full_train.churn)
 0.009967689095399745
 ```
 
-![Measuring mutual information with churn for contract, gender and partner](images/06-mutual-info-02-mutual-info-scores-crisp.png)
-
 The order of the arguments doesn't matter - mutual information is
 symmetric, so `mutual_info_score(df_full_train.contract,
 df_full_train.churn)` gives the same 0.0983.
-
-![Mutual information is symmetric: both argument orders give the same score](images/06-mutual-info-03-symmetric-crisp.png)
 
 The numbers confirm what we saw with the risk ratios. Contract has by
 far the highest score: knowing the contract type teaches us a lot about
@@ -119,8 +115,6 @@ phoneservice        0.000229
 gender              0.000117
 dtype: float64
 ```
-
-![All categorical variables ranked by mutual information with churn](images/06-mutual-info-04-sorted-importance-crisp.png)
 
 The result puts everything on one scale. Contract is the most
 important categorical variable, followed by `onlinesecurity` and

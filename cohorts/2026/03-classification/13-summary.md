@@ -37,8 +37,6 @@ We went through the standard project pipeline:
 - Using the model - retrained on the full training data and scored
   individual customers
 
-![The notebook we built throughout the module, from data preparation to using the model](images/13-summary-02-notebook-recap-crisp.png)
-
 ## Main takeaways
 
 - Feature importance - risk, mutual information, correlation
@@ -46,8 +44,6 @@ We went through the standard project pipeline:
 - Logistic regression - a linear model like linear regression
 - The output of logistic regression is a probability
 - Interpretation of weights is similar to linear regression
-
-![The end of the notebook: scoring one last customer and the summary of the module](images/13-summary-03-summary-takeaways-crisp.png)
 
 The same scheme works for many other binary classification problems:
 spam detection, default prediction, lead scoring - anywhere the answer

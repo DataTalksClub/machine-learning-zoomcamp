@@ -29,8 +29,6 @@ dict(zip(a, b))
 {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
 ```
 
-![Using zip to join two sequences element by element: the numbers 1 to 4 with the letters a to d](images/11-log-reg-interpretation-01-zip-crisp.png)
-
 We can do the same with the feature names and the weights:
 
 ```python
@@ -51,8 +49,6 @@ dict(zip(dv.get_feature_names_out(), model.coef_[0].round(3)))
  'tenure': -0.07,
  'totalcharges': 0.0}
 ```
-
-![The weights of the full model paired with their feature names - positive weights push towards churn, negative ones push away from it](images/11-log-reg-interpretation-02-coefficients-crisp.png)
 
 Now each weight has a name. The interpretation is the same as in linear
 regression: a positive weight pushes the score - and therefore the
@@ -107,8 +103,6 @@ dv_small.get_feature_names_out()
  'tenure']
 ```
 
-![The smaller model has only five columns: three for the contract categories plus the two numerical features](images/11-log-reg-interpretation-03-small-features-crisp.png)
-
 Three binary columns for the contract categories, plus the two
 numerical features. Train the model on this small matrix:
 
@@ -129,8 +123,6 @@ w0
 ```
 -2.476775657751665
 ```
-
-![Training the small model and looking at what it learned: the bias term and the five weights](images/11-log-reg-interpretation-04-small-model-weights-crisp.png)
 
 The weights, paired with their names:
 
@@ -181,8 +173,6 @@ sigmoid(_)
 0.030090303318277657
 ```
 
-![Scoring the customer in the notebook: the score -3.473 passed through the sigmoid gives a 3% churn probability](images/11-log-reg-interpretation-05-first-example-rendered.png)
-
 Only a 3% chance of churn - exactly what we would expect from a
 loyal customer on a two-year contract.
 
@@ -191,8 +181,6 @@ tenure. The score is -2.47 + 0.97 + 50 * 0.027 - 5 * 0.036 = -0.33,
 and the sigmoid of that is about 0.42 - a 42% churn risk.
 
 ![Scoring a month-to-month customer by hand: only the month-to-month weight is used, the other contract weights are multiplied by zero](images/11-log-reg-interpretation-06-second-example-imagegen.png)
-
-![The same calculation in the notebook: sigmoid of -0.33 is about 0.42](images/11-log-reg-interpretation-07-second-example-crisp.png)
 
 One useful observation: the sigmoid of 0 is 0.5. So if the score is
 positive, the customer is more likely to churn than not; if it is
