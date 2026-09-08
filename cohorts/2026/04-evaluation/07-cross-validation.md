@@ -131,7 +131,7 @@ auc
 
 This gives `0.8572386167896259`. That is slightly better than the cross-validation average - a small difference like this is normal.
 
-![Training the final model on the full training data and evaluating it on the test set: AUC 0.857](images/07-cross-validation-06-final-model.jpg)
+![Training the final model on the full training data and evaluating it on the test set: AUC 0.857](images/07-cross-validation-06-final-model-cropped.png)
 
 ## When to use cross-validation
 
