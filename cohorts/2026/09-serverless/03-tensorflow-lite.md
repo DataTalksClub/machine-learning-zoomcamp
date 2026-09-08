@@ -79,7 +79,7 @@ X = np.array([x])
 X = preprocess_input(X)
 ```
 
-![The notebook: importing TensorFlow 2.7.0 and loading clothing-model.h5 with Keras](images/03-tensorflow-lite-01-load-keras-model-cropped.png)
+![The notebook: importing TensorFlow 2.7.0 and loading clothing-model.h5 with Keras](images/03-tensorflow-lite-01-load-keras-model-crisp.png)
 
 We read the image, resize it to 299 by 299, convert it to an array,
 turn the array into a batch of one image, and apply the Xception
@@ -90,7 +90,7 @@ in the batch, 299 by 299 pixels, 3 color channels.
 preds = model.predict(X)
 ```
 
-![Preparing the image with load_img and preprocess_input, then running model.predict](images/03-tensorflow-lite-02-keras-predictions-cropped.png)
+![Preparing the image with load_img and preprocess_input, then running model.predict](images/03-tensorflow-lite-02-keras-predictions-crisp.png)
 
 The raw predictions are scores for each class. To make them
 meaningful, we combine them with the class names from the previous
@@ -136,9 +136,9 @@ converts the SavedModel to TF-Lite. After this we have two files on
 disk: the original `clothing-model.h5` and the converted
 `clothing-model.tflite`.
 
-![The "Convert Keras to TF-Lite" cell: TFLiteConverter writes the converted model to clothing-model.tflite](images/03-tensorflow-lite-03-convert-to-tflite-cropped.png)
+![The "Convert Keras to TF-Lite" cell: TFLiteConverter writes the converted model to clothing-model.tflite](images/03-tensorflow-lite-03-convert-to-tflite-crisp.png)
 
-![The sizes: clothing-model.h5 is 83M, the converted clothing-model.tflite is 81M](images/03-tensorflow-lite-04-model-sizes-cropped.png)
+![The sizes: clothing-model.h5 is 83M, the converted clothing-model.tflite is 81M](images/03-tensorflow-lite-04-model-sizes-crisp.png)
 
 ## Using the TF-Lite model
 
@@ -187,7 +187,7 @@ preds = interpreter.get_tensor(output_index)
 - `get_tensor` fetches the results, which are now sitting in the
   output.
 
-![Creating the interpreter and getting the input and output indexes](images/03-tensorflow-lite-05-interpreter-indexes-cropped.png)
+![Creating the interpreter and getting the input and output indexes](images/03-tensorflow-lite-05-interpreter-indexes-crisp.png)
 
 The predictions are the same as before - it's the same model, just
 served by TF-Lite instead of Keras. It's more verbose, but it works.
@@ -220,7 +220,7 @@ def preprocess_input(x):
 
 We also need to make sure the array is `float32`:
 
-![The Keras source code: for mode "tf" the preprocessing is x /= 127.5 and x -= 1](images/03-tensorflow-lite-06-keras-preprocess-source-cropped.png)
+![The Keras source code: for mode "tf" the preprocessing is x /= 127.5 and x -= 1](images/03-tensorflow-lite-06-keras-preprocess-source-crisp.png)
 
 ```python
 x = np.array(img, dtype='float32')
@@ -262,7 +262,7 @@ url = 'http://bit.ly/mlbookcamp-pants'
 X = preprocessor.from_url(url)
 ```
 
-![Installing keras-image-helper and creating the Xception preprocessor](images/03-tensorflow-lite-07-keras-image-helper-cropped.png)
+![Installing keras-image-helper and creating the Xception preprocessor](images/03-tensorflow-lite-07-keras-image-helper-crisp.png)
 
 The predictions stay exactly the same.
 
@@ -277,7 +277,7 @@ import tensorflow.lite as tflite
 The TF-Lite website has a Python quickstart guide, and there we find a
 separate package with just the inference part - the TF-Lite runtime:
 
-![The TensorFlow Lite website: installing tflite-runtime with pip](images/03-tensorflow-lite-08-tflite-runtime-install-cropped.png)
+![The TensorFlow Lite website: installing tflite-runtime with pip](images/03-tensorflow-lite-08-tflite-runtime-install-crisp.png)
 
 ```python
 import tflite_runtime.interpreter as tflite
