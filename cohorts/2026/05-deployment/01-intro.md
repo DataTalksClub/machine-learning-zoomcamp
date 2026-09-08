@@ -56,7 +56,7 @@ Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system
 and finally the local machine itself.
 
-![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-cropped.jpg)
+![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-crisp.png)
 
 ## Materials
 
