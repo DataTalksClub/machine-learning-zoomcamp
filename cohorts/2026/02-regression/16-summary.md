@@ -32,8 +32,6 @@ transformation. That's a good idea, because when a distribution has a long tail,
 machine learning models usually have problems with it - after the
 transformation it looks like a bell shaped curve.
 
-![Applying the log transformation to the price: the long tail becomes a bell shaped curve](images/16-summary-02-log-transformation.jpg)
-
 We also saw that the dataset has missing values, and with missing data we cannot
 really train a model, so we need to do something about it - we decided to simply
 replace them with zeros.
