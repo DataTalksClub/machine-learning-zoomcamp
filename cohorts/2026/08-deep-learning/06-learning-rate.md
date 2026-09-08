@@ -118,7 +118,7 @@ for lr in [0.0001, 0.001, 0.01, 0.1]:
     print()
 ```
 
-![The training loop: one model per learning rate, the histories stored in the scores dictionary](images/06-learning-rate-03-scores-loop.jpg)
+![The training loop: one model per learning rate, the histories stored in the scores dictionary](images/06-learning-rate-03-scores-loop-cropped.png)
 
 We try `0.0001` and `0.001` - smaller than the `0.01` we used before -
 and `0.1`, larger. We print the learning rate before each model and two
