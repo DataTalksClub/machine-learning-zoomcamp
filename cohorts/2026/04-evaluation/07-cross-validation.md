@@ -99,7 +99,7 @@ C=5 0.841 +- 0.008
 C=10 0.841 +- 0.008
 ```
 
-![The tuning results: mean and standard deviation of AUC for each C](images/07-cross-validation-05-tuning-results.jpg)
+![The tuning results: mean and standard deviation of AUC for each C](images/07-cross-validation-05-tuning-results-cropped.png)
 
 For each value of `C` we get the mean AUC across the 5 folds and the standard deviation. The mean tells us the average performance; the standard deviation tells us how spread out the scores are across the folds - how stable the model is. For example, for the last run (`C=10`) the five fold scores were:
 
