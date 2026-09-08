@@ -72,3 +72,4 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 ## 07-checkpointing
 
 - `07-checkpointing-02-callbacks.jpg` → `07-checkpointing-02-callbacks-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 456x315`; preserved the validation/callback cycle, epoch order `1`, `2`, `3`, `...`, `10`, and exact labels; removed presenter/camera/recording chrome.
+- `07-checkpointing-04-save-best-only.jpg` → `07-checkpointing-04-save-best-only-imagegen.png`: imagegen chart. Source inspected and cropped to `+22+0 456x315`; preserved validation accuracy, 75%/80% reference levels, epochs 1–10, best-so-far line, and SAVE versus DON'T SAVE decisions; removed presenter/camera/recording chrome and checked the instructional relationship.

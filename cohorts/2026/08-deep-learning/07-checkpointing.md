@@ -95,7 +95,7 @@ model when it's better than everything we have seen so far. If
 `save_best_only` is `False`, we save after each epoch; when it's
 `True`, we save only when there's an improvement.
 
-![The save_best_only drawing: the model is saved on improvements and skipped when the accuracy is worse than the best](images/07-checkpointing-04-save-best-only.jpg)
+![The save_best_only drawing: the model is saved on improvements and skipped when the accuracy is worse than the best](images/07-checkpointing-04-save-best-only-imagegen.png)
 
 To decide whether the model improved, the callback needs to know which
 metric to watch - for us it's `monitor='val_accuracy'`. The last
