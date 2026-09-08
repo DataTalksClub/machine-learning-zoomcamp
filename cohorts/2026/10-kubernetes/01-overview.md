@@ -107,7 +107,7 @@ Here is what we will do in this module:
   will use EKS, the Kubernetes offering from AWS, but in principle this
   should work with any cloud provider.
 
-![The lesson plan for this module](images/01-overview-06-plan-cropped.png)
+![The lesson plan for this module](images/01-overview-06-plan-crisp.png)
 
 ## Materials
 
