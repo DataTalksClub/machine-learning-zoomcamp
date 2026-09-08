@@ -15,7 +15,7 @@ that produces predictions for all the cars in the dataset at once.
 Remember where we are. g is our model - linear regression, X is the feature
 matrix (the training data) and y is the target, the price:
 
-![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y-cropped.png)
+![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y-crisp.png)
 
 Let's again write the formula for a single car first. We have the bias term and
 then a sum that goes from 1 to n, where we multiply each feature with its
@@ -31,7 +31,7 @@ with the vector of weights:
 
 $$g(x_i) = w_0 + x_i^T w$$
 
-![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation-cropped.png)
+![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation-crisp.png)
 
 This notation is more compact, so let's implement it. We already have the
 `linear_regression` function; let's first extract the sum into a function of
@@ -59,7 +59,7 @@ def linear_regression(xi):
     return w0 + dot(xi, w)
 ```
 
-![The dot function and the simplified linear_regression](images/06-linear-regression-vector-03-dot-function-cropped.png)
+![The dot function and the simplified linear_regression](images/06-linear-regression-vector-03-dot-function-crisp.png)
 
 ## The fictional feature
 
@@ -73,7 +73,7 @@ n+1 dimensional vector now. And the vector of features becomes
 x<sub>i0</sub>, x<sub>i1</sub>, x<sub>i2</sub> and so on, where
 x<sub>i0</sub> is 1:
 
-![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature-cropped.png)
+![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature-crisp.png)
 
 Why does this work? When we do the dot product, w0 gets multiplied by 1, so it
 simply stays there, and the rest is the same dot product as before. The result
@@ -112,7 +112,7 @@ linear_regression(xi)
 
 And it is - the same 12.312 we got in the previous lesson.
 
-![Prepending 1 to xi and w0 to w gives the same prediction](images/06-linear-regression-vector-05-prepend-one-cropped.png)
+![Prepending 1 to xi and w0 to w gives the same prediction](images/06-linear-regression-vector-05-prepend-one-crisp.png)
 
 ## Linear regression for all cars
 
@@ -121,7 +121,7 @@ the matrix X. Because of the fictional feature, each row of this matrix starts
 with 1, followed by the features of that car: row one is car one, row two is
 car two, and so on until row m.
 
-![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication-cropped.png)
+![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication-crisp.png)
 
 For us X has m rows and n+1 columns. What we need to do is take each row of
 this matrix, do the dot product of that row with the vector of weights w, and
@@ -180,7 +180,7 @@ array([12.38 , 13.552, 12.312])
 
 For each of the three cars we get a prediction - the price for that car:
 
-![Building the matrix X and computing all predictions with one multiplication](images/06-linear-regression-vector-07-x-dot-w-new-cropped.png)
+![Building the matrix X and computing all predictions with one multiplication](images/06-linear-regression-vector-07-x-dot-w-new-crisp.png)
 
 So this is linear regression. To summarize how we got here: we started with a
 for loop for one car, recognized that it is a dot product between the vector of
