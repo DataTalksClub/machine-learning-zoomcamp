@@ -132,7 +132,7 @@ we see the file `xception_v1_01_0.780.h5` is created. The second epoch
 is slightly better, the third one even better, and so on - each
 improvement adds a file.
 
-![Checkpoint files created during training: one file per improvement](images/07-checkpointing-06-checkpoint-files.jpg)
+![Checkpoint files created during training: one file per improvement](images/07-checkpointing-06-checkpoint-files-cropped.png)
 
 The improvements continue up to epoch 6. Epoch 7 is half a percent
 worse - and no file for it appears. Neither for epoch 8: it's also not
