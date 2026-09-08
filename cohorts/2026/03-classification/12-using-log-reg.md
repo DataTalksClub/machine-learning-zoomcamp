@@ -31,7 +31,7 @@ model = LogisticRegression(solver='lbfgs')
 model.fit(X_full_train, y_full_train)
 ```
 
-![Training the final model on the full training data: encode with DictVectorizer, then fit logistic regression](images/12-using-log-reg-01-final-model-cropped.png)
+![Training the final model on the full training data: encode with DictVectorizer, then fit logistic regression](images/12-using-log-reg-01-final-model-crisp.png)
 
 Note that we fit a new `DictVectorizer` on the full training data as
 well - the encoding and the model always go together.
@@ -54,7 +54,7 @@ churn_decision = (y_pred >= 0.5)
 0.815471965933286
 ```
 
-![Checking the final model on the test set: encode, predict, apply the threshold, and compare with the actual labels](images/12-using-log-reg-02-test-accuracy-cropped.png)
+![Checking the final model on the test set: encode, predict, apply the threshold, and compare with the actual labels](images/12-using-log-reg-02-test-accuracy-crisp.png)
 
 Accuracy on the test set is about 81.5%. On validation we had 80.3%.
 The two numbers are close, which is what we want to see: the model
@@ -94,7 +94,7 @@ customer
  'totalcharges': 1743.5}
 ```
 
-![Using the model in production: a customer with their features goes into the model, which outputs a prediction](images/12-using-log-reg-03-score-one-customer-cropped.png)
+![Using the model in production: a customer with their features goes into the model, which outputs a prediction](images/12-using-log-reg-03-score-one-customer-crisp.png)
 
 The vectorizer expects a list of dictionaries, so we wrap the customer
 in a list. `transform` - not `fit_transform`, because the vectorizer is
