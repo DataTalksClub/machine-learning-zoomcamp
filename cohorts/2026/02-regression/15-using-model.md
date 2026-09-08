@@ -70,7 +70,7 @@ w0, w = train_linear_regression_reg(X_full_train, y_full_train, r=0.001)
 
 This is our final model, and these are its weights.
 
-![Training the final model on X_full_train and y_full_train with r=0.001, and the weights it produces](images/15-using-model-03-final-model-weights.jpg)
+![Training the final model on X_full_train and y_full_train with r=0.001, and the weights it produces](images/15-using-model-03-final-model-weights-cropped.png)
 
 ## Checking the model on test data
 
