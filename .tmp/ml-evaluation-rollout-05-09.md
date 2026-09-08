@@ -43,3 +43,17 @@ bounded conceptual illustrations after deterministic crop/source inspection.
 ## No image references
 
 - `09-explore-more.md` contains no Markdown image references; no asset was skipped.
+
+## Final validation
+
+- 23 unique source references were inspected across lessons 05–08 (20 active
+  Markdown occurrences because `TPR_FPR.png` is referenced twice); 19 unique
+  assets remain and all 19 resolve. Four redundant or caption-mismatched
+  sources were removed.
+- 17 active assets were replaced: 15 deterministic crop/re-exports and 2
+  imagegen illustrations. Two already-clean assets were retained.
+- Originals remain for every active replacement. `git diff --check` and the
+  missing-reference scan passed before the final checkpoint.
+- Known limitations are recorded inline: a few source-edge-truncated exact
+  lines remain, and the final-model crop retains one native text-selection
+  highlight because removing it could damage exact numeric output.
