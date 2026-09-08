@@ -21,7 +21,7 @@ The interpretation of the reference points follows straight from the shape of th
 
 A real model lands between 0.5 and 1: the closer its curve is to the top-left corner, the larger the area under it. As a rule of thumb, an AUC around 0.8 is considered good, 0.9 is great, and 0.6 is poor.
 
-![The area under the ROC curve: 0.5 for a random model, 1.0 for an ideal one, with 0.8, 0.9 and 0.6 in between](images/06-auc-02-auc-values.jpg)
+![The area under the ROC curve: 0.5 for a random model, 1.0 for an ideal one, with 0.8, 0.9 and 0.6 in between](images/06-auc-02-auc-values-imagegen.png)
 
 Scikit-learn computes the area with `auc`, which works for any curve, not only ROC curves:
 
