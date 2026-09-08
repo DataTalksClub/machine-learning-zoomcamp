@@ -133,7 +133,7 @@ First we install the dependencies. We need `grpcio` for talking gRPC,
 !pip install keras-image-helper
 ```
 
-![Installing the libraries in the notebook](images/02-tensorflow-serving-04-install-libraries.jpg)
+![Installing the libraries in the notebook](images/02-tensorflow-serving-04-install-libraries-cropped.png)
 
 Then we import what we need and create a gRPC channel to the server:
 

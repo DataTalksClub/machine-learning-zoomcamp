@@ -94,3 +94,12 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-03-docker-run-source-clean.png`, initial `460x265+20+30`, then top `8px` shaved; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `docker run`, `8500:8500`, `./`, `clothing-model`, `clothing-model-v4.h5`, `/models/clothing-model`, and version `1` remain exact; handwritten `NAME`/`VERSION` annotations are preserved.
 - Output: `images/02-tensorflow-serving-03-docker-run-cropped.png`.
+
+### `02-tensorflow-serving-04-install-libraries.jpg`
+
+- Lesson: `02-tensorflow-serving.md`; caption: Installing the libraries in the notebook.
+- Disposition: deterministic crop/prep; exact package names and versions are the source of truth.
+- Source inspection: `594x360`; notebook chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-04-install-libraries-source-clean.png`, coordinates `500x205+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `%autosave 0`, `grpcio==1.42.0`, `tensorflow-serving-api==2.7.0`, `keras-image-helper`, and the visible `import` cell remain exact.
+- Output: `images/02-tensorflow-serving-04-install-libraries-cropped.png`.
