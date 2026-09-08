@@ -52,7 +52,7 @@ The benefit is the size. Let's actually look at it. The TF-Lite
 runtime wheel is tiny - about 2-3 MB. There are precompiled wheels for
 different Python and TensorFlow versions:
 
-![The precompiled TF-Lite runtime wheels for different Python versions](images/08-summary-04-tflite-wheels.jpg)
+![The precompiled TF-Lite runtime wheels for different Python versions](images/08-summary-04-tflite-wheels-cropped.png)
 
 Now compare that with TensorFlow: the TensorFlow 2.7.0 wheel is a
 couple hundred megabytes, almost 500 MB - and that's packed, unpacked

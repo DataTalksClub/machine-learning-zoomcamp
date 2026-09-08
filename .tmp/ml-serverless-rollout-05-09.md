@@ -242,3 +242,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and selection were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `set_tensor`, `invoke`, `get_tensor`, and `float_predictions` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 08-summary-04-tflite-wheels.jpg
+
+- **Disposition:** `crop/replace` → `images/08-summary-04-tflite-wheels-cropped.png`
+- **Teaching point:** the TF-Lite repository lists precompiled runtime wheels for multiple Python versions and TF-Lite releases.
+- **Source inspection:** 594×360; crop `+0+52 550×265` removes browser chrome, webcam tile, footer, and side frame while retaining the full wheel list.
+- **Method:** deterministic Lanczos upscale to 1100×530 with light sharpening; exact filenames, Python tags, and version labels were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `tflite_runtime` rows across 2.4.4, 2.5.2, 2.6.2, and 2.7.0 remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
