@@ -108,8 +108,6 @@ T    decision LEFT   impurity LEFT   decision RIGHT  impurity RIGHT  AVG
 The best threshold is `T = 3000`: the average impurity is only 10%. So
 the best split for this column is `assets > 3000`.
 
-![The impurity table for all thresholds of both features; assets > 3000 wins](images/04-decision-tree-learning-05-impurity-table-prepared.png)
-
 ```text
        ASSETS > 3000 
         /         \                            
