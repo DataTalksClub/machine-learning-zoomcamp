@@ -131,7 +131,7 @@ This gives us a dictionary with all the information about the car:
  'popularity': 2031}
 ```
 
-![The car dictionary: a Toyota Sienna extracted from the test set](images/15-using-model-06-car-dictionary.jpg)
+![The car dictionary: a Toyota Sienna extracted from the test set](images/15-using-model-06-car-dictionary-cropped.png)
 
 Usually we don't get a dataframe when we want to make a prediction. In a real
 life scenario it could be a website or an app where people enter the values
