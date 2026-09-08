@@ -267,3 +267,13 @@ crops and upscaling.
 - Invariants checked: client, gateway service, model service, cluster, two nodes, gateway and TF-Serving pods, and the handwritten same-image/config annotations remain visible; recording overlays are excluded.
 - Limitation: deterministic preparation preserves the source's hand-drawn lettering and source-edge composition; no text or topology was reconstructed.
 - Output: `images/05-kubernetes-intro-03-services-cropped.png`.
+
+### `05-kubernetes-intro-04-external-internal-ingress.jpg`
+
+- Lesson: `05-kubernetes-intro.md`; caption: External and internal services, with ingress in front of the cluster.
+- Disposition: deterministic crop/upscale; exact service boundaries, arrows, labels, and pod placement are the source of truth.
+- Source inspection: `950x720` prepared source-clean crop; webcam face and black side bars are excluded.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/05-kubernetes-intro-04-external-internal-ingress-source-clean.png`, full prepared crop; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `INGRESS`, `EXTERNAL`, `INTERNAL`, gateway/model services, two nodes, both deployments, pod placement, request arrows, and same-image/config annotations remain unchanged.
+- Limitation: deterministic processing preserves the source's hand-drawn lettering and presentation-control artifact in the prepared source; no labels or topology were reconstructed.
+- Output: `images/05-kubernetes-intro-04-external-internal-ingress-cropped.png`.
