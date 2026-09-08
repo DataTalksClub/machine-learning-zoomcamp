@@ -143,7 +143,7 @@ On the training set the smallest learning rate `0.0001` learns too
 slowly: after 10 epochs it reaches only about 80% accuracy, while the
 others are higher.
 
-![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy.jpg)
+![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy-cropped.png)
 
 Now the same for validation:
 
