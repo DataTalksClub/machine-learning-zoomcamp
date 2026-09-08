@@ -34,7 +34,7 @@ X⁻¹Xw = X⁻¹y
     w = X⁻¹y
 ```
 
-![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution-cropped.png)
+![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution-crisp.png)
 
 The inverse "cancels" `X`, and we get the weights directly.
 
@@ -76,7 +76,7 @@ w = (XᵀX)⁻¹Xᵀy
 
 This is the normal equation:
 
-![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation-cropped.png)
+![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation-crisp.png)
 
 This `w` is not the solution to the original system - that solution
 doesn't exist - but it is the closest possible solution. There are
@@ -110,7 +110,7 @@ The first step of the normal equation is the Gram matrix:
 XTX = X.T.dot(X)
 ```
 
-![Computing the Gram matrix on the toy feature matrix](images/07-linear-regression-training-04-gram-matrix-code-cropped.png)
+![Computing the Gram matrix on the toy feature matrix](images/07-linear-regression-training-04-gram-matrix-code-crisp.png)
 
 Then its inverse:
 
@@ -131,7 +131,7 @@ array([[ 1., -0.,  0.],
        [ 0.,  0.,  1.]])
 ```
 
-![Checking that the Gram matrix times its inverse gives the identity matrix](images/07-linear-regression-training-05-inverse-check-cropped.png)
+![Checking that the Gram matrix times its inverse gives the identity matrix](images/07-linear-regression-training-05-inverse-check-crisp.png)
 
 We see ones on the diagonal and values that are extremely close to zero
 elsewhere. They are not exactly zero because floating-point numbers
@@ -168,7 +168,7 @@ The `np.column_stack` function stacks the vector of ones and the
 feature matrix together as columns, so the ones become the first
 column of `X`.
 
-![Adding the column of ones with np.column_stack](images/07-linear-regression-training-06-ones-column-stack-cropped.png)
+![Adding the column of ones with np.column_stack](images/07-linear-regression-training-06-ones-column-stack-crisp.png)
 
 The result `w_full` contains all the weights: the first element is the
 bias term, the rest are the feature weights. We can split them apart:
@@ -184,7 +184,7 @@ weight means the opposite - as the feature value grows, the predicted
 price goes down. If this feature were the age of a car, that would make
 perfect sense: the older the car, the lower the price.
 
-![Splitting w_full into the bias term and the feature weights](images/07-linear-regression-training-07-train-function-cropped.png)
+![Splitting w_full into the bias term and the feature weights](images/07-linear-regression-training-07-train-function-crisp.png)
 
 Finally, let's wrap everything into a function. The function takes `X`
 and `y`, adds the column of ones internally, applies the normal
