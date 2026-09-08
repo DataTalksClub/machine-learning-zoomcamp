@@ -197,3 +197,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1100×510 from the response source; exact score fragments, response headers, and `POST /predict` logs were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**. The ref/source mismatch was corrected so the lesson now shows the content described by its caption.
 - **Validation:** output inspected; response-score text, `Response Headers`, and execution logs remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The uppermost score rows are outside the source viewport crop.
+
+## 07-api-gateway-06-deploy-stage.jpg
+
+- **Disposition:** `crop/replace` → `images/07-api-gateway-06-deploy-stage-cropped.png`
+- **Teaching point:** API Gateway deploys the API to a new stage named `test`.
+- **Source inspection:** 592×360; focused crop `+80+30 380×245` isolates the deployment dialog and removes browser chrome, webcam tile, page clutter, and black frame.
+- **Method:** deterministic Lanczos upscale to 760×490 with light sharpening; exact stage fields and `Deploy` control were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `Deploy API`, `[New Stage]`, stage name `test`, and `Deploy` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
