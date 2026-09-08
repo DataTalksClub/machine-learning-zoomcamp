@@ -146,7 +146,7 @@ validation accuracy. We can delete all the other files and keep only
 this one: it's the best model we have so far, trained with the learning
 rate we tuned.
 
-![Keeping only the best checkpoint: xception_v1_06_0.836.h5](images/07-checkpointing-07-best-model.jpg)
+![Keeping only the best checkpoint: xception_v1_06_0.836.h5](images/07-checkpointing-07-best-model-cropped.png)
 
 In the next lesson we will increment the version - v1 becomes v2 - by
 adding more layers: right now we have only one dense layer, and we'll
