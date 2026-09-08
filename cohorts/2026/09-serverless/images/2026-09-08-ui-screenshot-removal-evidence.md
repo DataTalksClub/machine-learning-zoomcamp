@@ -1,11 +1,11 @@
 # Serverless UI screenshot removal evidence
 
-This record covers the remaining AWS-console screenshots after
+This record covers the AWS-console screenshot decisions after
 `bc153ae`. The source JPGs and bounded crops were inspected together
-with the current `*-crisp.png` files. The current PNGs are enlarged
-versions of the bounded crops, not imagegen redraws: the crop dimensions
-are exactly one third of the PNG dimensions for every target in this
-batch.
+with the current `*-crisp.png` files. Batches 1 and 2 below document
+removals: those old PNGs were enlarged versions of the bounded crops,
+not imagegen redraws. Batch 3 documents a separate, successful imagegen
+redraw of the five API Gateway references.
 
 The decision rule is strict: retain a visual only when it adds useful
 instructional information that cannot be represented clearly in native
@@ -44,3 +44,22 @@ prose and code.
 | `02-aws-lambda-04-test-pong-response-crisp.png` | `d2291c249b53df8719ac6c635dea101d6ff0d067c5eac6aa9b22bc027acc4735` | `f9d54f44aceaded08fbb642f2b6e85960d41a5b249eb0ba1fbfd1f68d1f290a0` | `bd247661b605cd8887c3dc80374225f6496c31448bd9d1d4886d6f07aac8b6cb` | Remove: exact test-console UI; `PONG` and event logging are native prose/code |
 | `02-aws-lambda-05-pants-response-crisp.png` | `f0c906ed44329d99b7ddd9ce7113e835b40a733e33cf0d666aaa5a4a0d743fe0` | `b7dedabfba5acbc82bd19afa83405030fe720b142363f0fb700ce2ec0740919e` | `3d13a23ce712d1a71fd14442d374c78c82af991fc0c9aa5f73f851dfe5962248` | Remove: exact test-console UI; response is now a native JSON block |
 | `02-aws-lambda-08-invite-link-function-crisp.png` | `541e02cd68547799fc4ff86d1b97a3670ed634970edb079a1e17413b34936796` | `f15dd32b8d93d0deb2ab84d9071aeede866f29c9ca2f7be01ede8bb69e28c442` | `8fde69edfc1fa83d7824db595d2c3ba15275ea9e546ab8d50cad36278495a7b6` | Remove: exact account UI; redirect and API Gateway trigger are native prose |
+
+## Batch 3: API Gateway redraws
+
+The five remaining references in `07-api-gateway.md` were inspected with
+their original JPGs and bounded crops. Each source contained a webcam
+inset or low-resolution console capture. Imagegen was tested with both
+inputs, with the crop treated as the authoritative instructional region.
+All five redraws below preserved the lesson facts without copying the
+camera inset, browser chrome, or uncertain request IDs and timestamps.
+They are genuine redraws, not enlarged or sharpened screenshots, and
+contain C2PA metadata identifying the OpenAI image-generation service.
+
+| Reference | Source JPG SHA-256 | Bounded crop SHA-256 | Imagegen PNG SHA-256 | Disposition |
+| --- | --- | --- | --- | --- |
+| `07-api-gateway-01-create-rest-api-crisp.png` | `333e3a90976ff6cae69e3d73d91bab8a2e06c98f30d6680e8fb0c9581679ff45` | `2edac7e09527e6443a764117513c09100a1c25341899d0ac6fb647f0aff24136` | `5155d18d1757da023ced5bddc499602d1a31ac61d230379ee3d7b33a963af462` | Keep: clean redraw preserves the REST API choices, Settings form, and Regional endpoint |
+| `07-api-gateway-02-create-resource-crisp.png` | `fc58b24df98f1f32621e369f6c3d9fc00e1f458247eb0199e2025a1f3dc` | `0e719e37ee598cbb26f356e17e1176e99009c8d3814c1c4934b96d050f8a447c` | `977d13ea4a6b038c532453be5666517722e8c1527320d59fc89b1051595a871b` | Keep: clean redraw preserves the `predict` resource, `/predict` path, and unchecked proxy/CORS controls |
+| `07-api-gateway-04-method-test-crisp.png` | `810292ea5e06d780520f80d25021057be5d6fd129479135d550f19591afdb4bc` | `f228f9076fbf3a7f789c8eaf2f1d2c46aa7da70788fca391b71245cf6ee4bf4a` | `e5b9408059ce65f1a2947f99610752a5a382c783c2b46fc3242f1a927d46ce8b` | Keep: clean redraw preserves `POST /predict`, the test form, and the exact pants request body |
+| `07-api-gateway-05-test-response-crisp.png` | `ec556c6addd08614104a9fe51bc8beba24f9ce715ccde45db62767d99348ee89` | `2e4ae52f141d77fcd5c854989fc0e9de3f979613d3fa9cba0c9c7c0ddbbcfbc2` | `17427b85e7adcd37341c5f46d2d48bfef8e71e4092fd85f6edbcdbbcdd927fef` | Keep: clean redraw preserves all ten class scores, `pants` as the highest score, response headers, and `/predict` logs |
+| `07-api-gateway-06-deploy-stage-crisp.png` | `c23a55f392f3132ffef54866385b6903afc2c17f327d477654d70c2c4ae84435` | `248c24a19e1f22cb52652b5b9f987291ef9bbc25a389e69cf88db6bd662f6ded` | `3a970abce3eb3137b9add273c9e199072e636a9686416db4d3e8e5a36586b7d1` | Keep: clean redraw preserves the new stage form and exact stage name `test` |
