@@ -85,7 +85,7 @@ for C in tqdm([0.001, 0.01, 0.1, 0.5, 1, 5, 10]):
     print('C=%s %.3f +- %.3f' % (C, np.mean(scores), np.std(scores)))
 ```
 
-![The parameter-tuning loop: five-fold cross-validation for each value of C](images/07-cross-validation-04-tuning-loop.jpg)
+![The parameter-tuning loop: five-fold cross-validation for each value of C](images/07-cross-validation-04-tuning-loop-cropped.png)
 
 The `tqdm` wrapper draws a progress bar so we can see the loop moving. The output:
 
