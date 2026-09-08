@@ -5,6 +5,27 @@ the module's screenshot-derived assets were already crisp are withdrawn.
 
 ## Accepted repair
 
+### `05-transfer-learning-05-pooling-vectors-crisp.png`
+
+- **Status:** accepted after native and simulated 608px inspection.
+- **Source JPG:** `05-transfer-learning-05-pooling-vectors.jpg`
+  - SHA-256: `8a68f52b57ce87e5302ad73e159da793411f18c6a3f497b55a7d08ed6af05de3`
+- **Bounded crop:** `05-transfer-learning-05-pooling-vectors-cropped.png`
+  - SHA-256: `45beb4289cc7e7940b81a0fff9ffe659bfbc09f37b81832ec08162ab2044b44a`
+- **Generated output:** `05-transfer-learning-05-pooling-vectors-crisp.png`
+  - SHA-256: `975adb5a347bd205be20f32ca66c4495714b4740f0d9721187bd31c10ee6d692`
+  - Dimensions: `1942x809`
+- **Method:** built-in imagegen redraw using the original JPG and bounded crop as
+  references. The result is a clean typeset diagram, not a resize or sharpened
+  copy.
+- **Semantic checks:** exact batch shapes `32 × 150 × 150 × 3` and
+  `32 × 2048`; exact single-image feature-map shape `5 × 5 × 2048`; and the
+  lower inset's `5 × 5` spatial slices averaged into `2048` vector values,
+  labeled `3D` to `1D`. The base-model → global-average-pooling → vectors
+  direction is complete and readable at 608px.
+- **Metadata:** generated PNG contains C2PA metadata identifying the OpenAI
+  image-generation service.
+
 ### `04-conv-neural-nets-06-logistic-regression-crisp.png`
 
 - **Status:** accepted after native and simulated 608px inspection.
@@ -27,7 +48,7 @@ the module's screenshot-derived assets were already crisp are withdrawn.
 
 ## Pending targets
 
-The remaining nine targets from the strict 68-reference audit are not claimed
+The remaining eight targets from the strict 68-reference audit are not claimed
 as repaired here. They require the same original-JPG-plus-bounded-crop
 workflow and independent visual/semantic review:
 
@@ -38,6 +59,4 @@ workflow and independent visual/semantic review:
 - `09-dropout-07-dropout-02-vs-train-imagegen.png`
 - `09-dropout-08-no-regularization-overfit-imagegen.png`
 - `08-more-layers-02-activation-functions-crisp.png`
-- `05-transfer-learning-05-pooling-vectors-crisp.png`
 - `05-transfer-learning-08-history-plot-crisp.png`
-
