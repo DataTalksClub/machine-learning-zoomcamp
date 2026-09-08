@@ -19,7 +19,7 @@ First, `make_model` gets one more parameter, `input_size`, which is
 used in the input shape - both for the input layer and for the base
 model. The default of 150 keeps the old behaviour:
 
-![The notebook with make_model: the input size becomes a parameter, used in both input shapes](images/11-large-model-01-input-size-parameter-cropped.png)
+![The notebook with make_model: the input size becomes a parameter, used in both input shapes](images/11-large-model-01-input-size-parameter-crisp.png)
 
 ```python
 def make_model(input_size=150, learning_rate=0.01, size_inner=100,
@@ -72,7 +72,7 @@ The generators now produce images of `input_size` x `input_size`. The
 augmentation is reduced to a few gentle transformations: a bit of
 shear, a small zoom and a horizontal flip:
 
-![The train generator with shear_range=10, zoom_range=0.1 and horizontal_flip=True](images/11-large-model-02-generators-shear-zoom-flip-cropped.png)
+![The train generator with shear_range=10, zoom_range=0.1 and horizontal_flip=True](images/11-large-model-02-generators-shear-zoom-flip-crisp.png)
 
 ```python
 train_gen = ImageDataGenerator(
@@ -108,7 +108,7 @@ Since training takes long and we don't want to lose the best model,
 we bring back the checkpoint callback - the filename pattern encodes
 the epoch and the validation accuracy:
 
-![The checkpoint callback saving xception_v4_1 models by validation accuracy](images/11-large-model-03-checkpoint-callback-cropped.png)
+![The checkpoint callback saving xception_v4_1 models by validation accuracy](images/11-large-model-03-checkpoint-callback-crisp.png)
 
 ```python
 checkpoint = keras.callbacks.ModelCheckpoint(
@@ -133,7 +133,7 @@ learning rate went down from 0.001 to 0.0005, because with 0.001 the
 validation score was too jumpy. The final parameters: inner size 100,
 droprate 0.2, and 50 epochs:
 
-![The first run: one step now takes about 700ms instead of 150ms, and validation accuracy is already 0.85 after the first epoch](images/11-large-model-04-first-run-step-time-cropped.png)
+![The first run: one step now takes about 700ms instead of 150ms, and validation accuracy is already 0.85 after the first epoch](images/11-large-model-04-first-run-step-time-crisp.png)
 
 ```python
 learning_rate = 0.0005
@@ -160,12 +160,12 @@ augmentation, validation sometimes even beats training accuracy: the
 model sees a slightly different variation of every image at each
 epoch, so it memorizes them less easily.
 
-![Training output: training accuracy grows past 0.94 while validation stays around 0.86-0.89](images/11-large-model-05-training-output-cropped.png)
+![Training output: training accuracy grows past 0.94 while validation stays around 0.86-0.89](images/11-large-model-05-training-output-crisp.png)
 
 The best checkpoint of this run is `xception_v4_1_13_0.903.h5` -
 0.903 validation accuracy at epoch 13:
 
-![The saved checkpoints: the best one is xception_v4_1_13_0.903.h5](images/11-large-model-06-checkpoint-files-cropped.png)
+![The saved checkpoints: the best one is xception_v4_1_13_0.903.h5](images/11-large-model-06-checkpoint-files-crisp.png)
 
 In all the experiments before,
 80% was the best we could squeeze out of the 150x150 models; the
