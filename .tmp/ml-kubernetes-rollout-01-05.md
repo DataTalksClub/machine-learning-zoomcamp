@@ -57,3 +57,13 @@ crops and upscaling.
 - Invariants checked: gateway/Flask/CPU assignment, TF-Serving/C++/GPU assignment, Kubernetes boundary, `URL`, `X`, `gRPC`, return arrows, `10 NUMBERS`, and `DOWNLOADING IMAGES RESIZING THEM`.
 - Prompt iteration: first generation accepted after visual inspection; no face, camera tile, chrome, cursor, watermark, or extra service remains.
 - Output: `images/01-overview-05-cpu-gpu-imagegen.png`.
+
+### `01-overview-06-plan.jpg`
+
+- Lesson: `01-overview.md`; caption: The lesson plan for this module.
+- Disposition: deterministic crop/prep; the exact lesson headings and bullet text are the source of truth.
+- Source inspection: `594x360`; VS Code UI, webcam tile, and black right strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/01-overview-06-plan-source-clean.png`, coordinates `500x360+0+0`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: exact headings and bullets for sections 10.5–10.7 remain readable; no generated text used.
+- Limitation: the source is a screen capture, so the VS Code frame/status bar remains part of the exact UI context; the webcam tile and right strip are removed.
+- Output: `images/01-overview-06-plan-cropped.png`.
