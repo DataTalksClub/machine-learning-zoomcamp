@@ -136,7 +136,7 @@ input x is the vector representation of the image, and the target y is
 regression: g(x) is a sigmoid. The weights are trained, and the output
 is the probability that x is a t-shirt:
 
-![Each element of x is multiplied by its weight, everything is summed, and sigmoid turns the sum into a probability](images/04-conv-neural-nets-06-logistic-regression.jpg)
+![Each element of x is multiplied by its weight, everything is summed, and sigmoid turns the sum into a probability](images/04-conv-neural-nets-06-logistic-regression-cropped.png)
 
 Concretely: the elements of x are x1, x2, x3, up to xn. We multiply
 each of them by its weight - w1, w2, w3, and so on - and sum everything
