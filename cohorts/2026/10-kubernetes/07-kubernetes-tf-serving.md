@@ -158,7 +158,7 @@ spec:
             value: tf-serving-clothing-model.default.svc.cluster.local:8500 # kubernetes naming convention
 ```
 
-![The gateway deployment: the TF_SERVING_HOST env var points to the model service](images/07-kubernetes-tf-serving-05-gateway-deployment.jpg)
+![The gateway deployment: the TF_SERVING_HOST env var points to the model service](images/07-kubernetes-tf-serving-05-gateway-deployment-cropped.png)
 
 Load the gateway image into kind and create the gateway deployment:
 
