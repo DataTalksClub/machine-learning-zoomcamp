@@ -56,7 +56,6 @@ n, n_val, n_test, n_train
 (11914, 2382, 2382, 7150)
 ```
 
-![Calculating the sizes of the three parts](images/04-validation-framework-02-split-sizes-crisp.png)
 
 ## Taking a part of the dataframe with iloc
 
@@ -86,7 +85,6 @@ cars are ordered by make, so validation now contains all the BMWs at the
 beginning and all the Porsches at the end, and there are no BMWs in train at
 all:
 
-![A sequential split puts all the BMWs and Porsches into validation](images/04-validation-framework-03-sequential-split-crisp.png)
 
 We see that there is some order in this dataset, and we need to break it. In
 general it is always a good idea to shuffle the data: if there is some
@@ -99,7 +97,6 @@ it will return the rows in that order. So we can take the numbers from 0 to
 n-1, reshuffle them, and then take the first 20% of the shuffled numbers for
 validation, the next 20% for test, and the rest for train:
 
-![Take numbers 0 to n-1 and shuffle them, then use them as row indices](images/04-validation-framework-04-shuffle-numbers-crisp.png)
 
 To generate the sequence of numbers we use `np.arange` from NumPy, and to
 shuffle it we use `np.random.shuffle`:
@@ -121,7 +118,6 @@ df_test = df.iloc[idx[n_train+n_val:]]
 We take the first `n_train` numbers for train, the next `n_val` numbers for
 validation, and everything that is left for test:
 
-![Splitting the dataframe using the shuffled indices](images/04-validation-framework-05-split-with-shuffled-idx-crisp.png)
 
 There is one more problem with this code: when you run it on your computer, you
 will get different records - your first car will not be a Porsche or a GMC, but
@@ -165,7 +161,6 @@ df_test = df_test.reset_index(drop=True)
 
 Now the index goes from 0 to 7149 again.
 
-![Resetting the index after the shuffle](images/04-validation-framework-06-reset-index-crisp.png)
 
 ## Preparing y and removing msrp
 
@@ -197,7 +192,6 @@ This happened to me many times, so after splitting the data I always take the
 target out into a separate variable and delete it from the dataframe
 completely.
 
-![Creating y with log1p and deleting msrp from the dataframes](images/04-validation-framework-07-y-target-and-delete-msrp-crisp.png)
 
 That is the whole validation framework. We implemented it manually, without any
 library - just plain pandas and NumPy. We saw how to split the dataset into

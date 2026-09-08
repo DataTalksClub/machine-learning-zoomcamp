@@ -53,7 +53,6 @@ engine_hp
 356
 ```
 
-![The loop that prints unique values and their counts for every column](images/03-eda-01-explore-columns-crisp.png)
 
 Walking through the output: make is the manufacturer of a car — BMW, Audi,
 Fiat, Mercedes-Benz, Chrysler, 48 of them in total. Model is more granular:
@@ -87,7 +86,6 @@ import seaborn as sns
 %matplotlib inline
 ```
 
-![Importing matplotlib and seaborn](images/03-eda-02-import-plotting-libraries-crisp.png)
 
 We want to see the distribution of prices — how many cars cost what. A
 histogram shows exactly that: it splits the value range into buckets and
@@ -223,7 +221,6 @@ msrp                    0
 dtype: int64
 ```
 
-![Counting missing values per column](images/03-eda-07-missing-values-crisp.png)
 
 For quite a few cars we don't know the fuel type, the market category, the
 horsepower or the number of cylinders. We need to keep this in mind: before

@@ -25,7 +25,6 @@ data = 'https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/
 wget fetches the file and puts it in the current directory, so now we have
 data.csv locally.
 
-![Downloading data.csv with wget](images/02-data-preparation-01-download-data-crisp.png)
 
 ## Loading the data
 
@@ -45,7 +44,6 @@ this is what head() is for:
 df.head()
 ```
 
-![read_csv and df.head() show the first five rows](images/02-data-preparation-02-read-csv-crisp.png)
 
 We see the manufacturer of the car, the model, the year and a lot of other
 characteristics. And this — MSRP, the manufacturer suggested retail price —
@@ -99,7 +97,6 @@ df.columns = df.columns.str.lower().str.replace(' ', '_')
 
 Now the column names are uniform: all lowercase, no spaces. Cleaner.
 
-![Lowercasing column names and replacing spaces](images/02-data-preparation-03-lowercase-columns-crisp.png)
 
 ## Finding the string columns
 
@@ -114,7 +111,6 @@ every column, what type it is:
 df.dtypes
 ```
 
-![df.dtypes shows the type of every column](images/02-data-preparation-04-dtypes-crisp.png)
 
 The type we are interested in is object — in pandas, that is how strings are
 stored. It can technically be other objects, but when we read data from a CSV
@@ -148,9 +144,7 @@ strings
  'vehicle_style']
 ```
 
-![Selecting the columns of type object](images/02-data-preparation-05-string-columns-crisp.png)
 
-![The list of column names that contain strings](images/02-data-preparation-06-strings-list-crisp.png)
 
 ## Normalizing the string values
 
@@ -170,7 +164,6 @@ values are replaced with underscores:
 df.head()
 ```
 
-![The normalized string values](images/02-data-preparation-07-normalize-values-crisp.png)
 
 The dataset is prepared, and in the next lesson we take a closer look at it
 with [exploratory data analysis](03-eda.md).
