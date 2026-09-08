@@ -236,7 +236,7 @@ numbers per image, because we have 10 classes:
 outputs = keras.layers.Dense(10)(vectors)
 ```
 
-![The dense layer with 10 outputs; the predictions have shape (32, 10)](images/05-transfer-learning-06-dense-10-outputs.jpg)
+![The dense layer with 10 outputs; the predictions have shape (32, 10)](images/05-transfer-learning-06-dense-10-outputs-cropped.png)
 
 So the whole picture: the t-shirt image goes to inputs, from there to
 the base model, which produces the 5x5x2048 thing; pooling turns it
