@@ -147,7 +147,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual.jpg)
+![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual-cropped.png)
 
 The lesson to take away: the closer the curve hugs the top-left corner - high true positive rate at a low false positive rate - the better the model. A curve sitting on the diagonal belongs to a random model.
 
