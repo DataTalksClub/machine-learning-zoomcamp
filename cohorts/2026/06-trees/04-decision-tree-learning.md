@@ -49,15 +49,11 @@ df_example = pd.DataFrame(data, columns=['assets', 'status'])
 We want to build a decision stump - a tree with one condition,
 `assets > T`. The question is: which threshold `T` is the best?
 
-![A decision stump: one condition, assets > T - but which T?](images/04-decision-tree-learning-01-best-threshold-crisp.png)
-
 The condition splits the data into two parts: the left side where the
 condition is false (`assets <= T`) and the right side where it is true
 (`assets > T`). The candidate thresholds are the values in the middle
 between the observed values - if we sort by `assets`, the candidates
 are:
-
-![Sorting by assets and marking the left and right sides](images/04-decision-tree-learning-02-candidate-thresholds-crisp.png)
 
 ```python
 Ts = [0, 2000, 3000, 4000, 5000, 8000]
@@ -81,13 +77,9 @@ print(df_right.status.value_counts(normalize=True))
 The left side has four customers: three `default` and one `ok`. The
 right side: three `ok` and one `default`.
 
-![Splitting the toy dataset with T = 4000](images/04-decision-tree-learning-03-split-t4000-crisp.png)
-
 For each side we predict the majority class - the most frequent status.
 Left: `default`. Right: `ok`. The mistake rate on the left is 1/4 =
 25% (the one `ok` customer), and on the right also 1/4 = 25%.
-
-![Left predicts default with 25% mistakes, right predicts ok with 25%](images/04-decision-tree-learning-04-misclassification-rate-crisp.png)
 
 This mistake rate is called the misclassification rate, and it is one
 way of measuring how impure a group is. A pure group contains only one
@@ -180,15 +172,11 @@ FOR each feature in FEATURES:
 SELECT the condition with the LOWEST IMPURITY
 ```
 
-![The split-finding algorithm in pseudocode](images/04-decision-tree-learning-06-split-algorithm-crisp.png)
-
 The misclassification rate is not the only impurity measure.
 Scikit-learn uses more sensitive criteria: Gini impurity and entropy.
 For regression trees the equivalent is MSE. The idea stays the same:
 pick the split with the lowest impurity. And while we looked at
 classification here, decision trees can also solve regression problems.
-
-![Impurity criteria in the scikit-learn documentation](images/04-decision-tree-learning-07-impurity-criteria-crisp.png)
 
 ## Stopping criteria
 

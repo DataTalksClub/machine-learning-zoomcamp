@@ -22,8 +22,6 @@ two that matter most are:
   prevents the tree from creating leaves that cover just one or two
   customers.
 
-![The parameters of DecisionTreeClassifier](images/05-decision-tree-tuning-01-parameters-crisp.png)
-
 Tuning means selecting the values that give the best score on the
 validation set - AUC in our case.
 
@@ -62,8 +60,6 @@ Depths 4, 5 and 6 are the best (AUC around 0.76). Trees that are too
 shallow underfit; deep trees overfit and end up worse than the simple
 ones.
 
-![Validation AUC for different values of max_depth](images/05-decision-tree-tuning-02-max-depth-scores-crisp.png)
-
 ## Adding min_samples_leaf
 
 Now we take the promising depths - 4, 5 and 6 - and for each of them
@@ -83,8 +79,6 @@ for depth in [4, 5, 6]:
         
         scores.append((depth, s, auc))
 ```
-
-![Trying all combinations of max_depth and min_samples_leaf](images/05-decision-tree-tuning-03-grid-search-crisp.png)
 
 Then we put the scores into a dataframe:
 
@@ -115,8 +109,6 @@ min_samples_leaf
 200               0.747  0.759  0.768
 500               0.680  0.680  0.680
 ```
-
-![The pivot table with the best cell, 0.785](images/05-decision-tree-tuning-04-pivot-crisp.png)
 
 Even easier to read as a heatmap - the best cell is the lightest one:
 
@@ -178,8 +170,6 @@ One caution: when you scan the results, watch out for parameter values
 that don't make sense, like `nan` creeping into the grid. A
 combination can show a good score by accident - check that the values
 you pick actually control the size of the tree the way you intend.
-
-![Sorting by AUC puts a row with max_depth=NaN on top](images/05-decision-tree-tuning-06-nan-warning-crisp.png)
 
 ## Materials
 

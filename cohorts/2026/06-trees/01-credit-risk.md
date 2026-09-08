@@ -66,8 +66,6 @@ customers: how much they earn, what their assets and debt are, whether
 they have records of previous defaults, and so on. The target column is
 `status` - it says whether the customer defaulted or not.
 
-![The columns of the credit scoring dataset](images/01-credit-risk-04-dataset-columns-crisp.png)
-
 The dataset is available on
 [GitHub](https://github.com/gastonstat/CreditScoring).
 
@@ -85,8 +83,6 @@ This week is about decision trees and tree-based ensemble methods:
 
 Everything is illustrated with the credit risk scoring project: we
 train the models, compare them, and pick the best one.
-
-![The plan of the module, as a table of contents in the notebook](images/01-credit-risk-05-module-plan-crisp.png)
 
 ## Materials
 
