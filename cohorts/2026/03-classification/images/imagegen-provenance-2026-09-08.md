@@ -78,3 +78,52 @@ and an incorrect chart scale.
   deterministic SVG with ImageMagick `convert`.
 - The final PNG was checked at native `1400x820` and simulated `608x356`
   lesson size; no screenshot overlays or camera artifacts are present.
+
+## Focused correction: 2026-09-09
+
+Two classification illustrations were regenerated after an independent audit
+found an incorrect probability and unsupported invented content. The original
+published PNGs were not used as imagegen inputs.
+
+### `12-using-log-reg-04-production-diagram-imagegen.png`
+
+- Imagegen inputs were the retained original JPG
+  `12-using-log-reg-04-production-diagram.jpg` and the bounded crop
+  `12-using-log-reg-04-production-diagram-imagegen-crop.jpg`.
+- The crop geometry is `(10, 35, 480, 285)` from the `598x360` original.
+- Imagegen output: `exec-dd4d8a99-c139-4a78-9d60-92d580dfba99`.
+- The probability is now exactly `0.5968852088293909`; the prior published
+  image incorrectly displayed `0.596885208293909`.
+- The threshold flow is explicit: `p >= 0.5?` → `CHURN` →
+  `PROMOTIONAL EMAIL`; the negative branch is `NO CHURN`.
+- Source SHA-256:
+  `c664421034f1332ee6d299fc314b0ea9f9952000e6f3b03d133fefe576635dcf`.
+- Crop SHA-256:
+  `76f93089d4d860fb903097080e053bd8dd74d6ca0cd2f625967ed3f559486b44`.
+- Final SHA-256:
+  `f382a888c202088abfc44e509f27a1f689eb46f02afbd031119771bd2fe14992`.
+- Native output is `2163x727`; the output contains C2PA metadata identifying
+  OpenAI image generation. It was inspected natively and at a simulated
+  `608px` lesson width.
+
+### `14-explore-more-01-preprocessing-model-comparison-imagegen.png`
+
+- No original JPG or bounded crop exists for this illustration: it was added
+  as a standalone generated asset in `e1337ff`.
+- It was regenerated from the exact lesson concepts, without using the prior
+  invented illustration as an imagegen input.
+- Imagegen output:
+  `exec-e1caf79f-87a8-4c14-a41e-02d51f3b1adc`.
+- The replacement contains only lesson-grounded concepts: excluding least
+  useful features; a scikit-learn train/validation/test split; OneHotEncoding;
+  StandardScaler for `lbfgs`; LinearRegression; RidgeRegression; finding the
+  best regularization parameter; and comparison on validation data.
+- It intentionally contains no invented dataset rows, model leaderboard,
+  validation scores, or unsupported model names.
+- Previous final SHA-256:
+  `83ab0805858c0509da3cad0cecc048e5dc0daa66ed5c025d3f2c44c7b844aa35`.
+- Final SHA-256:
+  `830ba83b35d13c9213ef33d6bfe1d8920be245eb3c58c8d7e1b1e34167a31df9`.
+- Native output is `1536x1024`; the output contains C2PA metadata identifying
+  OpenAI image generation. It was inspected natively and at a simulated
+  `608px` lesson width.
