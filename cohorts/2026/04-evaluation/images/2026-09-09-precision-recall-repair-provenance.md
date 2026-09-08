@@ -8,6 +8,24 @@ and a bounded crop that excluded the camera inset, screen borders, and recording
 controls. The final PNGs were inspected at native resolution and in simulated
 608px-wide renders.
 
+## Reproducible crop record
+
+The two bounded crops are retained in this directory as tracked audit artifacts;
+they were copied byte-for-byte from the verified worker crops in the ignored
+temporary directory. The crop coordinates are `(x, y, width, height)` relative to
+the unchanged 598×360 source JPGs:
+
+| Source | Coordinates | Retained crop |
+|---|---:|---|
+| `04-precision-recall-01-precision-definition.jpg` | `(18, 0, 470, 355)` | `04-precision-recall-01-precision-definition-imagegen-crop.jpg` |
+| `04-precision-recall-06-precision-recall-table.jpg` | `(15, 0, 490, 350)` | `04-precision-recall-06-precision-recall-table-imagegen-crop.jpg` |
+
+Run `2026-09-09-precision-recall-crops.sh` from this directory with an output
+directory to reproduce both crops. It uses ImageMagick `convert` with JPEG
+quality 90 and `2x2,1x1,1x1` sampling; this reproduces the retained crop bytes
+and their SHA-256 values below. The script SHA-256 is
+`7cb7660a69720b4eb036e35efd06de0b523913dd2c9ab057b8542294937761b6`.
+
 ## Precision definition
 
 Target: `04-precision-recall-01-precision-definition-crisp.png`
@@ -20,7 +38,7 @@ predicted-positive partition.
 | Artifact | SHA-256 |
 |---|---|
 | Original JPG `04-precision-recall-01-precision-definition.jpg` | `011540d437f3dab2bd0133c345428cbf5cb823deebd76a46c2f868d2bac10df1` |
-| Bounded crop (temporary) | `90f2da1f7d41c2adda5c8fe8a25d6e32aea52c3b15c78964466b9e03ac516847` |
+| Retained crop `04-precision-recall-01-precision-definition-imagegen-crop.jpg` | `90f2da1f7d41c2adda5c8fe8a25d6e32aea52c3b15c78964466b9e03ac516847` |
 | Final PNG `04-precision-recall-01-precision-definition-crisp.png` | `a9c1c17c3f1b665355f89701d0f3d05385c1a8e2c9681f944714e79c1a14ad4b` |
 
 Validation:
@@ -41,7 +59,7 @@ actual-positive row `RECALL`, with the original `TN`, `FP`, `FN`, and `TP` cells
 | Artifact | SHA-256 |
 |---|---|
 | Original JPG `04-precision-recall-06-precision-recall-table.jpg` | `6a6671d0d41b134fefc7ba035f60da38244437002c9ff764f9b272230894a3a7` |
-| Bounded crop (temporary) | `c671c9595b5c18a7cde8fbffd82d5814bdc89e9d615a9e929ec81c159e7b4e79` |
+| Retained crop `04-precision-recall-06-precision-recall-table-imagegen-crop.jpg` | `c671c9595b5c18a7cde8fbffd82d5814bdc89e9d615a9e929ec81c159e7b4e79` |
 | Final PNG `04-precision-recall-06-precision-recall-table-crisp.png` | `795de7c988e33653ef9c1b73dde4dfb261af726e1927097279b8cf336b8b0267` |
 
 Validation:
