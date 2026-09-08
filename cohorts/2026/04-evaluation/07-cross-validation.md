@@ -39,7 +39,7 @@ def predict(df, dv, model):
     return y_pred
 ```
 
-![The train and predict functions in the notebook, with C as a parameter of train](images/07-cross-validation-02-train-predict.jpg)
+![Applying predict and initializing KFold in the notebook](images/07-cross-validation-02-train-predict-cropped.png)
 
 ## K-fold cross-validation
 
