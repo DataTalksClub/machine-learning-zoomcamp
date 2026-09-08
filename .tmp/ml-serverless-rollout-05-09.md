@@ -224,3 +224,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and selected handler block were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; `lambda_handler`, `event['url']`, `predict(url)`, and `return result` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
+
+## 08-summary-02-summary-points.jpg
+
+- **Disposition:** `crop/replace` → `images/08-summary-02-summary-points-cropped.png`
+- **Teaching point:** the module summary emphasizes Lambda deployment, TF-Lite inference, Docker packaging, and API Gateway exposure.
+- **Source inspection:** 594×360; crop `+0+0 500×315` removes the webcam tile, right-side black frame, and bottom status strip while retaining the summary heading and bullets.
+- **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact summary text and heading were preserved.
+- **Rubric:** instructional contribution 1, relevance 2, readability 2, complementarity 1, durability 2, caption/accessibility 2 — **10/12; keep**. It is a recap, so it complements the lesson rather than adding a new procedure.
+- **Validation:** output inspected; the four summary bullets and `Explore more` heading remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.

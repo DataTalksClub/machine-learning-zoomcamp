@@ -33,7 +33,7 @@ make sure that the environment you have locally works. After verifying
 that everything is fine, you deploy it to Lambda - and you will not
 have any surprises there.
 
-![The summary points of this module](images/08-summary-02-summary-points.jpg)
+![The summary points of this module](images/08-summary-02-summary-points-cropped.png)
 
 After deploying, the only things left to do were giving the function
 more RAM, increasing the timeout, and exposing it with API Gateway.
