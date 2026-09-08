@@ -181,7 +181,7 @@ plt.xticks(np.arange(10))
 plt.legend()
 ```
 
-![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001.jpg)
+![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001-cropped.png)
 
 It turns out `0.01` is better on the training data, but worse on
 validation - the gap between its train and validation curves is bigger.
