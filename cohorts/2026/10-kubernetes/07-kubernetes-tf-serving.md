@@ -77,7 +77,7 @@ connects to `localhost:8500` by default, so we get predictions.
 
 ![Loading the model image into kind, applying the deployment](images/07-kubernetes-tf-serving-02-model-deployment-cropped.png)
 
-![Testing the model deployment: port-forwarding to the pod and running gateway.py](images/07-kubernetes-tf-serving-03-model-test-cropped.png)
+![Testing the model deployment: port-forwarding to the pod and running gateway.py](images/07-kubernetes-tf-serving-03-model-test-crisp.png)
 
 ## Creating the model service
 

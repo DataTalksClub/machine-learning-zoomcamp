@@ -258,7 +258,7 @@ The result for the picture of pants:
 
 'pants' clearly wins, so the model classified the image correctly.
 
-![Turning the raw scores into class names](images/02-tensorflow-serving-07-prediction-cropped.png)
+![Turning the raw scores into class names](images/02-tensorflow-serving-07-prediction-crisp.png)
 
 In the next lesson we turn this notebook into a pre-processing service.
 
