@@ -4,7 +4,8 @@ This ledger records durable source-to-crop provenance for the eleven
 illustrations in this queue. Seven published PNGs retain their previously
 accepted bytes. The four `10-summary` PNGs are regenerated in focused commits
 from their original non-crisp JPGs and bounded crops; their previous PNGs are
-never used as imagegen inputs.
+never used as imagegen inputs. The final-model semantic correction to the
+`10-summary-06` output is recorded below.
 
 ## Method
 
@@ -30,7 +31,8 @@ existing redraw. The crop-script SHA-256 is
 ## Published assets and hashes
 
 `Crop` is `(x, y, width, height)` in source-JPG pixels. The output hash is the
-hash of the PNG already present before this commit.
+hash of the currently published PNG. Historical replacement hashes are
+recorded in the relevant sections below.
 
 | Published PNG | Source JPG | Crop JPG | Crop | Source SHA-256 | Crop SHA-256 | Published PNG SHA-256 |
 |---|---|---|---|---|---|---|
@@ -44,7 +46,7 @@ hash of the PNG already present before this commit.
 | `10-summary-01-summary-slide-imagegen.png` | `10-summary-01-summary-slide.jpg` | `10-summary-01-summary-slide-imagegen-crop.jpg` | `(90, 135, 480, 125)` | `f040bfcfe6907dceaf329142ecb5de1683b8fab8412566154ad78a6ee9fcf58c` | `9ea172f06fed75a05ed857c7ccf0a323e81d92136d677464fa2328a555c04507` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` |
 | `10-summary-04-random-forest-imagegen.png` | `10-summary-04-random-forest.jpg` | `10-summary-04-random-forest-imagegen-crop.jpg` | `(90, 119, 480, 88)` | `ffac132afa9bfd82af2badefc39aba56764fa31171e572be2050b44ce9dddf8b` | `0696e80a8bf60017d6d6bcf9b849977cc737797eb083507d6e9bc7272723a826` | `d8e3c86b1db44f081c9bc46a0af68d83adcfe74c82c9a5841d6e39d185d99f62` |
 | `10-summary-05-gradient-boosting-imagegen.png` | `10-summary-05-gradient-boosting.jpg` | `10-summary-05-gradient-boosting-imagegen-crop.jpg` | `(90, 112, 480, 100)` | `e683e67e1f523516b904e4352ca263d5f92562b88ab4e7c81643a9fddadec028` | `335bf92b80a656cca19a2ef3a98a56db133428acc29f1e01b189c55f116b6e51` | `8c1f0c5cc57c66a2dc61595ad24f9351a0df92fac3791c1add5b5d9812b8eeac` |
-| `10-summary-06-xgb-parameters-imagegen.png` | `10-summary-06-xgb-parameters.jpg` | `10-summary-06-xgb-parameters-imagegen-crop.jpg` | `(90, 78, 465, 185)` | `cda4ecf0d53f519cf4a6a423e400fa5c774021ac590edbf024b76c7cc28bd509` | `49bece48d65fe5ddc2b0cb978def7bc65fbd20905964def263dcc07c132e36a2` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` |
+| `10-summary-06-xgb-parameters-imagegen.png` | `10-summary-06-xgb-parameters.jpg` | `10-summary-06-xgb-parameters-imagegen-crop.jpg` | `(90, 78, 465, 185)` | `cda4ecf0d53f519cf4a6a423e400fa5c774021ac590edbf024b76c7cc28bd509` | `49bece48d65fe5ddc2b0cb978def7bc65fbd20905964def263dcc07c132e36a2` | `f7ef946bcb3e94af5ef8961a00b8d7829fc60e6de2a6e6e9f7f2abbb3a8801a8` |
 
 ## Summary regeneration verification
 
@@ -58,7 +60,7 @@ markers and the `gpt-image`/`OpenAI` signer strings in the PNG bytes.
 | `10-summary-01-summary-slide-imagegen.png` | `exec-57e53a3e-351e-4ff0-9a04-ce4467526661` | `1672×941` | `608×342` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` | `gpt-image` / `OpenAI` markers present |
 | `10-summary-04-random-forest-imagegen.png` | `exec-f401ea09-8eb2-4616-a02c-60178685a757` | `1672×941` | `608×342` | `d8e3c86b1db44f081c9bc46a0af68d83adcfe74c82c9a5841d6e39d185d99f62` | `gpt-image` / `OpenAI` markers present |
 | `10-summary-05-gradient-boosting-imagegen.png` | `exec-c4e4c248-3b52-4b58-961c-9cba8d1a480f` | `1672×941` | `608×342` | `8c1f0c5cc57c66a2dc61595ad24f9351a0df92fac3791c1add5b5d9812b8eeac` | `gpt-image` / `OpenAI` markers present |
-| `10-summary-06-xgb-parameters-imagegen.png` | `exec-32a5a077-a052-45c6-b465-ec7d1dc7885a` | `1672×941` | `608×342` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` | `gpt-image` / `OpenAI` markers present |
+| `10-summary-06-xgb-parameters-imagegen.png` | `exec-4f510fe9-bc65-43bc-a6c6-a6f91fd9cbcb` | `1672×941` | `608×342` | `f7ef946bcb3e94af5ef8961a00b8d7829fc60e6de2a6e6e9f7f2abbb3a8801a8` | `gpt-image` / `OpenAI` markers present |
 
 ## Verification
 
@@ -96,3 +98,22 @@ are `1495×1052`; a simulated `608px` render was inspected and kept all
 parameter text, stages, arrows, and the `0.3` annotation readable. The
 replacement changes the published PNG intentionally; the eleven provenance-
 only PNGs above remain byte-for-byte unchanged.
+
+## XGBoost final-model semantic correction
+
+An independent review found that the previous `10-summary-06` redraw called
+baseline values (`eta=0.3`, `max_depth=6`, `num_boost_round=200`) settings from
+the final model. The replacement was generated with the built-in imagegen tool
+from the original JPG and the tracked bounded crop only; neither the previous
+crisp PNG nor an enlarged version was used as an input.
+
+The replacement uses the exact final-model values from `08-xgb-tuning.md`:
+`eta=0.1`, `max_depth=3`, `min_child_weight=1`, and
+`num_boost_round=175`. It was inspected at native `1672×941` and at a
+simulated `608×342` render. The parameter cards and code panel remain readable,
+and the output has C2PA metadata identifying `gpt-image` / OpenAI image
+generation.
+
+| Asset | Previous PNG SHA-256 | Replacement PNG SHA-256 | Imagegen execution |
+|---|---|---|---|
+| `10-summary-06-xgb-parameters-imagegen.png` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` | `f7ef946bcb3e94af5ef8961a00b8d7829fc60e6de2a6e6e9f7f2abbb3a8801a8` | `exec-4f510fe9-bc65-43bc-a6c6-a6f91fd9cbcb` |
