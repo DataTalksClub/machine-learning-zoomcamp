@@ -211,7 +211,7 @@ three-dimensional. We want to turn it into a one-dimensional vector.
 For that we can slice this 5x5x2048 thing into 2048 squares of 5x5,
 take the average of each square, and put that average into the vector:
 
-![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors.jpg)
+![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors-cropped.png)
 
 Taking something and representing it in a smaller dimensionality is
 called pooling. Here we need average pooling, because we take an
