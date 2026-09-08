@@ -48,7 +48,7 @@ Rolls-Royce Phantom Drophead Coupe manufactured in 2015, and it has a lot of
 characteristics. We take just three of them: engine horsepower, city miles per
 gallon and popularity:
 
-![The features of car number 10: 453 horsepower, 11 miles per gallon in the city, popularity 86](images/05-linear-regression-simple-02-car-10-features-cropped.png)
+![The features of car number 10: 453 horsepower, 11 miles per gallon in the city, popularity 86](images/05-linear-regression-simple-02-car-10-features-crisp.png)
 
 So for this car the feature vector is:
 
@@ -73,7 +73,7 @@ without knowing anything about the car. But we do know something, so each
 feature is multiplied by its weight: horsepower gets weight w<sub>1</sub>,
 miles per gallon gets w<sub>2</sub>, popularity gets w<sub>3</sub>.
 
-![The linear regression formula written for our three features](images/05-linear-regression-simple-03-regression-formula-cropped.png)
+![The linear regression formula written for our three features](images/05-linear-regression-simple-03-regression-formula-crisp.png)
 
 The part with the features is a sum, so we can write the formula more
 compactly. Because we already use i for the car, we use j for the features, and
@@ -81,7 +81,7 @@ it goes from 1 to n (in our example, 3):
 
 $$g(x_i) = w_0 + \sum_{j=1}^{n} w_j \cdot x_{ij}$$
 
-![The same formula written with a sum](images/05-linear-regression-simple-04-sum-notation-cropped.png)
+![The same formula written with a sum](images/05-linear-regression-simple-04-sum-notation-crisp.png)
 
 ## Implementing it in Python
 
@@ -115,7 +115,7 @@ so our loop goes from 0 to n-1. That's the whole implementation - it simply
 adds up w<sub>j</sub> times x<sub>ij</sub> for every element of the feature
 vector.
 
-![The linear_regression function in the notebook](images/05-linear-regression-simple-05-implementation-cropped.png)
+![The linear_regression function in the notebook](images/05-linear-regression-simple-05-implementation-crisp.png)
 
 ## What the prediction is made of
 
@@ -131,7 +131,7 @@ linear_regression(xi)
 
 To make sense of this number, let's look at the parts it is made of:
 
-![The prediction as a sum: 7.17 + 453·0.01 + 11·0.04 + 86·0.002](images/05-linear-regression-simple-06-weights-interpretation-cropped.png)
+![The prediction as a sum: 7.17 + 453·0.01 + 11·0.04 + 86·0.002](images/05-linear-regression-simple-06-weights-interpretation-crisp.png)
 
 - We start with the bias term, 7.17. This is what we predict for an average
   car if we don't know anything about it.
@@ -173,7 +173,7 @@ np.log1p(222347.2221101062)
 12.312
 ```
 
-![Applying the model to our car and undoing the log transformation](images/05-linear-regression-simple-07-prediction-undo-log-cropped.png)
+![Applying the model to our car and undoing the log transformation](images/05-linear-regression-simple-07-prediction-undo-log-crisp.png)
 
 That's linear regression for one car: we implemented the formula on a small
 feature vector of size three. In the next lesson we generalize it to all the
