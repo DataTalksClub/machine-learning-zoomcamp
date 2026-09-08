@@ -164,7 +164,7 @@ The prediction is:
 10.63249250912739
 ```
 
-![Creating a one-row dataframe from the car dictionary and predicting: 10.63, the logarithm of the price](images/15-using-model-07-single-car-prediction.jpg)
+![Creating a one-row dataframe from the car dictionary and predicting: 10.63, the logarithm of the price](images/15-using-model-07-single-car-prediction-cropped.png)
 
 There is just one single car, so we take the first number of the array. And
 remember: this is the logarithm of the price, not the price itself. To undo the
