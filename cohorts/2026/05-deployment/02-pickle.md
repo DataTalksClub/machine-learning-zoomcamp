@@ -10,7 +10,7 @@ In this unit we save the trained churn model to a file with pickle, load it
 back, and turn the notebook into a Python script - so the model can be used
 later without training it again.
 
-![The plan of the module: saving and loading the model](images/02-pickle-01-module-plan-cropped.jpg)
+![The plan of the module: saving and loading the model](images/02-pickle-01-module-plan-crisp.png)
 
 ## Why we need to save the model
 
@@ -39,14 +39,14 @@ with open(output_file, 'wb') as f_out:
     pickle.dump((dv, model), f_out)
 ```
 
-![Saving the vectorizer and the model as a tuple with pickle](images/02-pickle-02-pickle-dump-cropped.jpg)
+![Saving the vectorizer and the model as a tuple with pickle](images/02-pickle-02-pickle-dump-crisp.png)
 
 The `'wb'` mode means write-binary - pickle produces binary data, so we must
 not open the file in text mode. We name the file with the value of `C` we
 used, because after tuning in the previous module we know this parameter, and
 it is useful to see it in the filename: `model_C=1.0.bin`.
 
-![The filename contains the value of C](images/02-pickle-03-model-filename-cropped.jpg)
+![The filename contains the value of C](images/02-pickle-03-model-filename-crisp.png)
 
 The vectorizer has to travel with the model. It was fitted on the training
 data and it "remembers" which categorical values map to which feature columns
@@ -67,7 +67,7 @@ Here `'rb'` is read-binary. `pickle.load` returns the tuple we saved, and we
 unpack it into `dv` and `model`. From this point we can score customers
 without running any training code.
 
-![Loading the model back: the tuple unpacks into the vectorizer and the model](images/02-pickle-04-loaded-model-cropped.jpg)
+![Loading the model back: the tuple unpacks into the vectorizer and the model](images/02-pickle-04-loaded-model-crisp.png)
 
 One warning: never unpickle a file from a source you do not trust. Pickle
 files can contain code, and loading one executes it - only load files you
@@ -86,7 +86,7 @@ notebook:
 - cross-validation with `KFold` to report the AUC for `C=1.0`,
 - training the final model and saving it with pickle.
 
-![The train.py script: the predict function and the cross-validation loop](images/02-pickle-05-train-py-cropped.jpg)
+![The train.py script: the predict function and the cross-validation loop](images/02-pickle-05-train-py-crisp.png)
 
 A script is what we will actually run on a server: it is reproducible, it can
 be executed by a scheduler or a CI job, and it does not require a running

@@ -12,7 +12,7 @@ In this unit we wrap the churn model into a Flask web service: it loads the
 pickled model, listens for POST requests with customer data, and replies with
 the churn probability.
 
-![The plan of the module: serving the churn model with Flask](images/04-flask-deployment-01-module-plan-cropped.jpg)
+![The plan of the module: serving the churn model with Flask](images/04-flask-deployment-01-module-plan-crisp.png)
 
 ## The web service
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=9696)
 ```
 
-![The predict.py service in the editor](images/04-flask-deployment-02-predict-py-cropped.jpg)
+![The predict.py service in the editor](images/04-flask-deployment-02-predict-py-crisp.png)
 
 The parts worth noting:
 
@@ -72,7 +72,7 @@ The parts worth noting:
   cannot serialize them.
 - `jsonify(result)` turns the dictionary into a JSON response.
 
-![Flask cannot serialize NumPy types to JSON, so we cast to native Python types](images/04-flask-deployment-03-json-serializable-error-cropped.jpg)
+![Flask cannot serialize NumPy types to JSON, so we cast to native Python types](images/04-flask-deployment-03-json-serializable-error-crisp.png)
 
 ## Testing the service
 
@@ -110,7 +110,7 @@ body. Running the script prints:
 not sending promo email to xyz-123
 ```
 
-![Sending a test request with the requests library](images/04-flask-deployment-04-test-request-cropped.jpg)
+![Sending a test request with the requests library](images/04-flask-deployment-04-test-request-crisp.png)
 
 This is exactly how a marketing service would talk to our model: send
 customer data as JSON, get the churn decision back, act on it.
@@ -124,7 +124,7 @@ not built for heavy load. A WSGI server is the production replacement. WSGI
 are served: the WSGI server imports our `app` object and handles all the
 network work around it.
 
-![Flask warns that the development server is not for production](images/04-flask-deployment-05-dev-server-warning-cropped.jpg)
+![Flask warns that the development server is not for production](images/04-flask-deployment-05-dev-server-warning-crisp.png)
 
 The common choice is gunicorn:
 
@@ -145,7 +145,7 @@ pip install waitress
 waitress-serve --listen=0.0.0.0:9696 predict:app
 ```
 
-![gunicorn fails on Windows because of the fcntl module; waitress is the alternative](images/04-flask-deployment-06-waitress-windows-cropped.jpg)
+![gunicorn fails on Windows because of the fcntl module; waitress is the alternative](images/04-flask-deployment-06-waitress-windows-crisp.png)
 
 The [next unit](05-pipenv.md) deals with the remaining piece: keeping the
 project's library versions under control.
