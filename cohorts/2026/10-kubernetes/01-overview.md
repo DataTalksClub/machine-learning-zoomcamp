@@ -47,7 +47,7 @@ gateway post-processes these numbers into human-readable predictions and
 sends them back. The website then uses them to suggest a category to the
 user.
 
-![Website, gateway and TensorFlow Serving](images/01-overview-02-architecture.jpg)
+![Website, gateway and TensorFlow Serving](images/01-overview-02-architecture-imagegen.png)
 
 The gateway itself we implement in Flask - that gives us full control over
 the pre- and post-processing code. TensorFlow Serving is C++, so we don't
