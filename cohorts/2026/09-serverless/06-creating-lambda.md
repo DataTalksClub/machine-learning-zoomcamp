@@ -33,7 +33,7 @@ aws ecr create-repository --repository-name clothing-tflite-images
 installed it with `pip install awscli`.) The response contains the
 details of the repository we just created:
 
-![Creating the ECR repository and installing the AWS CLI](images/06-creating-lambda-01-ecr-create-repository-cropped.png)
+![Creating the ECR repository and installing the AWS CLI](images/06-creating-lambda-01-ecr-create-repository-crisp.png)
 
 ```text
 "registryId": "387546586013",
@@ -116,7 +116,7 @@ docker push ${REMOTE_URI}
 I'm pushing from an EC2 instance, so it's quite fast. Afterwards,
 refreshing the ECR page in the console shows the image with our tag.
 
-![docker push uploading the image layers to our ECR registry](images/06-creating-lambda-02-docker-push-cropped.png)
+![docker push uploading the image layers to our ECR registry](images/06-creating-lambda-02-docker-push-crisp.png)
 
 ## Creating the function
 
@@ -132,7 +132,7 @@ change anything else. Click "Create function".
 One difference from the first function we created: there is no code
 preview, because the code now lives in the container image.
 
-![Creating the function from a container image; the console stores the image digest, and x86_64 is selected](images/06-creating-lambda-03-create-function-cropped.png)
+![Creating the function from a container image; the console stores the image digest, and x86_64 is selected](images/06-creating-lambda-03-create-function-crisp.png)
 
 ## Testing and configuring
 
@@ -151,7 +151,7 @@ Click "Test". It fails:
 Task timed out after 3.00 seconds
 ```
 
-![The execution result: Task timed out after 3.00 seconds](images/06-creating-lambda-04-timeout-error-cropped.png)
+![The execution result: Task timed out after 3.00 seconds](images/06-creating-lambda-04-timeout-error-crisp.png)
 
 Three seconds is the default timeout, and it's not sufficient for us.
 To change it, go to "Configuration", then "General configuration", and
@@ -160,7 +160,7 @@ more memory - 1024 MB, that is 1 GB. The first invocation needs this:
 it has to initialize everything, download the image, import the
 libraries and load the model. Save.
 
-![Editing the configuration: 1024 MB of memory and a 30 second timeout](images/06-creating-lambda-05-configure-timeout-memory-cropped.png)
+![Editing the configuration: 1024 MB of memory and a 30 second timeout](images/06-creating-lambda-05-configure-timeout-memory-crisp.png)
 
 Test again - it's successful. We see the output we know: the
 predictions with "pants" having the highest score. But this time it
@@ -173,7 +173,7 @@ init duration: the function is already warm. It did all the imports
 and loaded the model, so it's ready to serve requests. The first
 invocation is usually slower, the consequent ones are faster.
 
-![The second invocation: Duration 2226 ms, 1024 MB configured, at most 270 MB actually used](images/06-creating-lambda-06-test-success-cropped.png)
+![The second invocation: Duration 2226 ms, 1024 MB configured, at most 270 MB actually used](images/06-creating-lambda-06-test-success-crisp.png)
 
 ## Pricing
 
@@ -185,14 +185,14 @@ pay for every millisecond the function runs, multiplied by the amount
 of memory. The pricing page has a table with the price per 1ms for
 each memory setting.
 
-![The AWS Lambda pricing page for Europe (Ireland): price per 1ms by memory](images/06-creating-lambda-07-lambda-pricing-cropped.png)
+![The AWS Lambda pricing page for Europe (Ireland): price per 1ms by memory](images/06-creating-lambda-07-lambda-pricing-crisp.png)
 
 Our function is configured with 1024 MB of memory - in my test run it
 actually used at most 270 MB - and takes about two seconds to classify
 an image. At 1024 MB we pay $0.000000167 per millisecond. Let's do a
 quick calculation in Python:
 
-![The calculation in IPython: price per image, per 10,000 images, per 1 million images on x86 and on ARM](images/06-creating-lambda-08-price-calculation-cropped.png)
+![The calculation in IPython: price per image, per 10,000 images, per 1 million images on x86 and on ARM](images/06-creating-lambda-08-price-calculation-crisp.png)
 
 - One image costs about 0.0000334 dollars ($0.000000167 x 2000 ms).
 - Classifying 10,000 images costs about 33 cents.
