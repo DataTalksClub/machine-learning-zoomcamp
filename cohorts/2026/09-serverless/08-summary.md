@@ -16,7 +16,7 @@ that takes the request and returns the response. It doesn't even have
 to be called `lambda_handler`; we can name it whatever we want. We
 deploy it to Lambda, and AWS takes care of everything else.
 
-![The lambda handler and the predict function we wrote in this session](images/08-summary-01-lambda-handler-code.jpg)
+![The lambda handler and the predict function we wrote in this session](images/08-summary-01-lambda-handler-code-cropped.png)
 
 We only pay when the function is actually doing something: a request
 comes in, the function computes the answer and replies. We don't pay

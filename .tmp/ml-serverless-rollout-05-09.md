@@ -215,3 +215,12 @@ sheets stay under `.tmp/` and are not committed.
 - **Method:** deterministic Lanczos upscale to 1104×616 with light sharpening; exact URL prefix, payload, and terminal values were preserved.
 - **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
 - **Validation:** output inspected; the API Gateway URL, commented local URL, and `/predict` context remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves. The final URL characters are clipped by the original editor viewport.
+
+## 08-summary-01-lambda-handler-code.jpg
+
+- **Disposition:** `crop/replace` → `images/08-summary-01-lambda-handler-code-cropped.png`
+- **Teaching point:** the final Lambda handler reads `event['url']`, calls `predict(url)`, and returns the result.
+- **Source inspection:** 594×360; crop `+0+0 500×315` removes the webcam tile, right-side black frame, and bottom status strip while retaining the handler and prediction function.
+- **Method:** deterministic Lanczos upscale to 1000×630 with light sharpening; exact code and selected handler block were preserved.
+- **Rubric:** instructional contribution 2, relevance 2, readability 2, complementarity 2, durability 1, caption/accessibility 2 — **11/12; keep**.
+- **Validation:** output inspected; `lambda_handler`, `event['url']`, `predict(url)`, and `return result` remain readable, no face/camera/recording overlay remains, and the Markdown reference resolves.
