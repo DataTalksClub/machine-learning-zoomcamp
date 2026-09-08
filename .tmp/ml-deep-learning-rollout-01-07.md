@@ -47,3 +47,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `04-conv-neural-nets-07-dense-layer.jpg` → `04-conv-neural-nets-07-dense-layer-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved `DENSE LAYER`, ordered `x1`, `x2`, `x3`, `xn` inputs, fully connected lines, and `INPUT`/`OUTPUT` labels; removed presenter/camera/recording chrome.
 - `04-conv-neural-nets-08-summary.jpg` → `04-conv-neural-nets-08-summary-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved the exact image → `CONV LAYERS` → `VECTOR REPRESENTATION` → `DENSE LAYERS` → `PRED` stage order and arrows; removed presenter/camera/recording chrome.
 - `04-conv-neural-nets-06-logistic-regression.jpg` → `04-conv-neural-nets-06-logistic-regression-cropped.png`: deterministic whiteboard crop `+44+0 445x360`, upscaled 2× with Lanczos and mild sharpening. Preserved exact x/w inputs, sum, sigmoid, and `PROB T-SHIRT` formula flow; removed black border and playback control without regenerating mathematical notation.
+
+## 05-transfer-learning
+
+- `05-transfer-learning-01-transfer-learning-idea.jpg` → `05-transfer-learning-01-transfer-learning-idea-imagegen.png`: imagegen illustration. Source inspected and cropped to `+44+0 456x360`; preserved the pretrained generic CONV/vector group, task-specific DENSE group, exact ImageNet annotations, arrow flow, and removed presenter/camera/recording chrome.
