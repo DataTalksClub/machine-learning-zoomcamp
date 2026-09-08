@@ -106,8 +106,6 @@ into the command, giving us the absolute path to the folder with the
 model. When TF-Serving starts successfully, it prints
 `entering the event loop` and `status success`.
 
-![Volume mapping: the model name and the version](images/02-tensorflow-serving-03-docker-run-crisp.png)
-
 ## gRPC and protobuf
 
 TensorFlow Serving uses a special protocol called `gRPC`, which is
