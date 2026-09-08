@@ -78,7 +78,7 @@ plt.ylim(0.8, 0.84)
 plt.legend()
 ```
 
-![Comparing validation AUC for eta of 0.3, 1.0, 0.1, 0.05 and 0.01: eta=0.1 reaches the top and stays stable, while eta=1.0 falls below the zoom window](images/08-xgb-tuning-02-tuning-eta-cropped.png)
+![Comparing validation AUC for eta of 0.3, 1.0, 0.1, 0.05 and 0.01: eta=0.1 reaches the top and stays stable, while eta=1.0 falls below the zoom window](images/08-xgb-tuning-02-tuning-eta-crisp.png)
 
 The learning rate controls how fast the model learns. With `eta=1.0` the
 model takes the full correction from each new tree and quickly saturates -
@@ -111,7 +111,7 @@ Then we plot the remaining curves again, zooming in with
 is a small one - `max_depth=3` gives the highest and most stable validation
 AUC.
 
-![Validation AUC for max_depth of 6, 3 and 4: depth 3 keeps climbing and stays on top, while deeper trees degrade](images/08-xgb-tuning-03-max-depth-curves-cropped.png)
+![Validation AUC for max_depth of 6, 3 and 4: depth 3 keeps climbing and stays on top, while deeper trees degrade](images/08-xgb-tuning-03-max-depth-curves-crisp.png)
 
 ## Tuning min_child_weight
 
@@ -149,7 +149,7 @@ The three curves are close to each other even after zooming in with
 `plt.ylim(0.82, 0.84)`: for this parameter the differences are small. So we
 keep the default value, `min_child_weight=1`.
 
-![Validation AUC for min_child_weight of 1, 10 and 30: the three curves are close to each other](images/08-xgb-tuning-04-min-child-weight-curves-cropped.png)
+![Validation AUC for min_child_weight of 1, 10 and 30: the three curves are close to each other](images/08-xgb-tuning-04-min-child-weight-curves-crisp.png)
 
 ## The final model
 
