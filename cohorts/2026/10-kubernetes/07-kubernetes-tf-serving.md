@@ -12,7 +12,7 @@ each service we create a deployment (the pods) and a service (the entry
 point to the pods). To keep things tidy we put the Kubernetes
 configuration files in a separate folder `kube-config`.
 
-![The kube-config folder with the configuration files, and the deployment template](images/07-kubernetes-tf-serving-01-kube-config.jpg)
+![The kube-config folder with the configuration files, and the deployment template](images/07-kubernetes-tf-serving-01-kube-config-cropped.png)
 
 ## Deploying the TF-Serving model
 
