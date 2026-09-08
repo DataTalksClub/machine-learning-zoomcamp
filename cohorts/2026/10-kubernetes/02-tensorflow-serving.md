@@ -163,7 +163,7 @@ from the outside. We won't cover secure channels in this course.
 The stub is the thing we use for invoking the remote service - it's what
 we'll use for making predictions.
 
-![Connecting to TensorFlow Serving: host, channel and stub](images/02-tensorflow-serving-05-grpc-stub.jpg)
+![Connecting to TensorFlow Serving: host, channel and stub](images/02-tensorflow-serving-05-grpc-stub-cropped.png)
 
 For pre-processing we use `keras-image-helper`. It downloads the image from
 a URL, resizes it to 299 by 299 and applies the Xception pre-processing:

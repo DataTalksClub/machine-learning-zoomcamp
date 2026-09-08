@@ -103,3 +103,12 @@ crops and upscaling.
 - Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-04-install-libraries-source-clean.png`, coordinates `500x205+0+20`; resized 2x with Lanczos and light unsharp masking.
 - Invariants checked: `%autosave 0`, `grpcio==1.42.0`, `tensorflow-serving-api==2.7.0`, `keras-image-helper`, and the visible `import` cell remain exact.
 - Output: `images/02-tensorflow-serving-04-install-libraries-cropped.png`.
+
+### `02-tensorflow-serving-05-grpc-stub.jpg`
+
+- Lesson: `02-tensorflow-serving.md`; caption: Connecting to TensorFlow Serving: host, channel and stub.
+- Disposition: deterministic crop/prep; exact imports, host, and channel code are the source of truth.
+- Source inspection: `594x360`; notebook chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/02-tensorflow-serving-05-grpc-stub-source-clean.png`, coordinates `500x275+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: package installs, `import grpc`, TensorFlow Serving protobuf imports, `host = 'localhost:8500'`, and `grpc.insecure_channel` remain exact.
+- Output: `images/02-tensorflow-serving-05-grpc-stub-cropped.png`.
