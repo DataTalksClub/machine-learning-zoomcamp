@@ -36,8 +36,6 @@ predict_positive = (y_pred >= t)
 predict_negative = (y_pred < t)
 ```
 
-![Defining the actual classes and the positive/negative predictions at threshold 0.5](images/03-confusion-table-02-prediction-conditions-crisp.png)
-
 Each cell is the number of customers where the two conditions hold at the same time. The `&` operator is the element-wise logical AND:
 
 ```python
@@ -47,8 +45,6 @@ tn = (predict_negative & actual_negative).sum()
 fp = (predict_positive & actual_negative).sum()
 fn = (predict_negative & actual_positive).sum()
 ```
-
-![The element-wise AND of the two conditions: only True and True gives True](images/03-confusion-table-03-and-operator-crisp.png)
 
 For our model this gives tp = 210, tn = 922, fp = 101 and fn = 176 - and indeed 210 + 922 + 101 + 176 = 1409, all customers accounted for.
 
@@ -73,8 +69,6 @@ array([[922, 101],
        [176, 210]])
 ```
 
-![The confusion matrix as a NumPy array, with a promo email sketched next to the false positives](images/03-confusion-table-05-confusion-matrix-output-crisp.png)
-
 |                | Predicted negative | Predicted positive |
 |----------------|--------------------|--------------------|
 | Actual negative | TN = 922          | FP = 101           |
@@ -92,8 +86,6 @@ The output:
 array([[0.65, 0.07],
        [0.12, 0.15]])
 ```
-
-![Turning the confusion matrix into fractions of the whole validation set](images/03-confusion-table-06-normalized-confusion-matrix-crisp.png)
 
 So 65% of all customers are true negatives, 7% false positives, 12% false negatives and 15% true positives.
 

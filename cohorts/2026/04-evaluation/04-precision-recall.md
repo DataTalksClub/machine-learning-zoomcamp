@@ -27,8 +27,6 @@ p
 
 This gives `0.6752411575562701` - precision of about 67%.
 
-![Computing precision in the notebook: 210 correct out of 311 positive predictions](images/04-precision-recall-02-precision-notebook-crisp.png)
-
 In the terms of the churn problem: we send a retention email to everyone predicted to churn. That is 210 + 101 = 311 people, but only 210 of them (the true positives) were actually going to leave. The other 101 - about a third of all emails - go to customers who were never at risk, and the discount we send them is wasted.
 
 ![Precision as a pie: the green TP slice and the red FP slice of the predicted-to-churn customers](images/04-precision-recall-03-precision-pie-crisp.png)
@@ -63,8 +61,6 @@ Recall what accuracy said: 80% correct, only 4 points above the dummy model. Pre
 ![Precision looks at the predicted-positive column, recall at the actual-positive row of the confusion table](images/04-precision-recall-06-precision-recall-table-crisp.png)
 
 These numbers reflect the errors of our model that accuracy did not notice because of class imbalance: churners are only 27% of the data, so the 12% of false negatives barely move the accuracy number, yet they are half of all the customers we care about. When the classes are imbalanced - churn, fraud, medical diagnosis - precision and recall are the metrics to look at.
-
-![Precision 67%, recall 54%, accuracy 80% - the three numbers together](images/04-precision-recall-07-metrics-summary-crisp.png)
 
 ## Materials
 

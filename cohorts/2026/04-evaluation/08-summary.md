@@ -14,8 +14,6 @@ In this final lesson of module 4 we wrap up everything we learned about evaluati
 - ROC AUC: the area under the ROC curve - 0.5 for a random model, 1.0 for an ideal one; interpretable as the probability that a random positive scores higher than a random negative
 - K-Fold CV: a more reliable estimate for performance (mean + std), used for parameter tuning
 
-![The summary slide in the notebook: the metrics of this module in one list](images/08-summary-01-metrics-list-crisp.png)
-
 With the metric chosen and the parameter tuned, the model is ready: in module 5 we take this churn model and deploy it as a service. There are also a few ideas to dig deeper in [Explore more](09-explore-more.md).
 
 

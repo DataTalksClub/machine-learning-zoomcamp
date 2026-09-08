@@ -28,8 +28,6 @@ This gives `1409`. With the decision threshold at 0.5, the model made the right 
 
 This gives `0.8034066713981547`. Indeed, 1132 / 1409 is 0.8034 - about 80% of the predictions match the actual outcomes.
 
-![Computing accuracy in the notebook: 1132 correct predictions out of 1409](images/02-accuracy-03-accuracy-notebook-crisp.png)
-
 Scikit-learn has this computation built in as `accuracy_score`:
 
 ```python
@@ -39,8 +37,6 @@ accuracy_score(y_val, y_pred >= 0.5)
 ```
 
 This gives the same `0.8034066713981547`.
-
-![The same accuracy computed with sklearn accuracy_score](images/02-accuracy-04-accuracy-score-crisp.png)
 
 ## Checking different thresholds
 
@@ -105,8 +101,6 @@ The output confirms it - every single prediction is `False`:
 Counter({False: 1409})
 ```
 
-![The dummy model in the notebook: predicting no churn for all 1409 customers](images/02-accuracy-05-dummy-counter-crisp.png)
-
 What accuracy does this dummy model get? The answer is the fraction of customers who did not churn:
 
 ```python
@@ -114,8 +108,6 @@ What accuracy does this dummy model get? The answer is the fraction of customers
 ```
 
 This gives `0.7260468417317246` - 73%.
-
-![The accuracy of the dummy model: one minus the churn rate](images/02-accuracy-06-dummy-accuracy-crisp.png)
 
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
 
