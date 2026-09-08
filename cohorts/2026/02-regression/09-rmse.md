@@ -126,7 +126,6 @@ rmse(y_train, y_pred)
 0.7554192603920132
 ```
 
-![Implementing rmse and evaluating the baseline model](images/09-rmse-06-rmse-implementation-crisp.png)
 
 The RMSE of the baseline model is about 0.76. This single number is
 much easier to work with than a chart: whenever we change something -

@@ -59,7 +59,6 @@ The point of this function is that we prepare the data in the same way
 regardless of whether it is the training, validation or test dataset. It works
 on any dataframe - that is why the argument is just `df` and not `df_train`.
 
-![The prepare_X function in the notebook](images/10-car-price-validation-02-prepare-x-function-crisp.png)
 
 ## Computing the RMSE on validation data
 
@@ -83,7 +82,6 @@ This gives us:
 0.7616530991301577
 ```
 
-![Training the model and computing the RMSE on the validation set](images/10-car-price-validation-03-train-and-validate-crisp.png)
 
 The number is pretty similar to what we had on the training data. That is what
 we want to see: the model behaves on unseen data about as well as on the data it
@@ -91,7 +89,6 @@ learned from.
 
 Looking at the code, we can see the two parts clearly:
 
-![The training part and the validation part of the code](images/10-car-price-validation-04-train-vs-validation-parts-crisp.png)
 
 - The training part only touches the training dataset: we prepare the matrix and
   learn the weights.

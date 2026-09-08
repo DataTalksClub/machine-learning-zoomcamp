@@ -32,11 +32,9 @@ We go through this list, and for every `r` we train the model and compute the
 RMSE on the validation data. For each value we print the regularization
 parameter itself, the bias term, and the score:
 
-![The loop over r values and the RMSE printed for each of them](images/14-tuning-model-01-r-values-loop-crisp.png)
 
 ## Reading the results
 
-![The RMSE for each value of r: 266 for zero regularization, about 0.46 for the rest](images/14-tuning-model-02-rmse-per-r-crisp.png)
 
 What we see: for zero regularization the bias term is huge and the RMSE is huge
 too - 266. That is the broken model with the duplicated columns problem. But for
@@ -50,7 +48,6 @@ degrade in performance there, and it's not too large. To be honest, it doesn't
 really matter here - it could be this one or the one next to it. We can just go
 with 0.001.
 
-![Choosing r equals 0.001](images/14-tuning-model-03-choosing-r-crisp.png)
 
 ## Training the final model
 
@@ -67,7 +64,6 @@ score = rmse(y_val, y_pred)
 score
 ```
 
-![Training the model with the selected r of 0.001](images/14-tuning-model-04-final-model-crisp.png)
 
 We selected the best regularization parameter, trained the model with it, and we
 saw that it works on the validation set:

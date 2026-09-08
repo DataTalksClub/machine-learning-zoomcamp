@@ -18,7 +18,6 @@ strings: `make`, `model`, `engine_fuel_type`, `transmission_type`,
 `driven_wheels` and others. If we look at the data types, all the columns of
 type `object` are categorical variables.
 
-![The columns with the object type are the categorical variables](images/12-categorical-variables-01-object-columns-crisp.png)
 
 There is one variable that looks numerical but is not: `number_of_doors`. It
 contains 2, 3 and 4 - numbers - but these numbers are distinct categories of
@@ -89,7 +88,6 @@ def prepare_X(df):
 Now the features list contains the baseline features, then `age`, and then the
 three new features: `num_doors_2`, `num_doors_3` and `num_doors_4`.
 
-![The prepare_X function with the number-of-doors columns added](images/12-categorical-variables-03-doors-loop-crisp.png)
 
 We validate the model with the same code as before:
 
@@ -111,7 +109,6 @@ The previous result was 0.5172, and now we get:
 It improved only slightly - the improvement is almost negligible. The number of
 doors feature is not that useful.
 
-![The RMSE after adding the door features: 0.5158, almost no improvement](images/12-categorical-variables-04-doors-rmse-crisp.png)
 
 ## Adding the make
 
@@ -123,7 +120,6 @@ popular ones with `value_counts`:
 df.make.value_counts().head()
 ```
 
-![The five most popular car makes: chevrolet, ford, volkswagen, toyota, dodge](images/12-categorical-variables-05-top-makes-crisp.png)
 
 The output shows the counts, and the names themselves are in the index, so we
 wrap it in a list:
@@ -167,7 +163,6 @@ for c in categorical_variables:
     categories[c] = list(df_train[c].value_counts().head().index)
 ```
 
-![The categories dictionary with the most popular values of each categorical variable](images/12-categorical-variables-06-categories-dict-crisp.png)
 
 Then we take `prepare_X` and throw in all the categories. We need two loops: one
 over the key-value pairs of the dictionary, and inside it another loop over the
@@ -180,7 +175,6 @@ for c, values in categories.items():
         features.append('%s_%s' % (c, v))
 ```
 
-![The prepare_X function with loops over all categorical variables](images/12-categorical-variables-07-prepare-x-all-categories-crisp.png)
 
 ## Something went wrong
 
@@ -197,7 +191,6 @@ Something went wrong. If we look at the weights that our
 around 10 to the power of 15. We wanted to improve our model by adding more
 variables, but we just made it worse.
 
-![The RMSE of 41.45 and the huge weights of the model](images/12-categorical-variables-08-broken-weights-crisp.png)
 
 In the [next unit](13-regularization.md) we will see why that happened and how
 to fix it.

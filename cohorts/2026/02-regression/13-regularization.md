@@ -42,7 +42,6 @@ X = [
 When we compute the Gram matrix, we see that it also has duplicate columns - the
 second and the third are the same:
 
-![The feature matrix with duplicate columns and its Gram matrix](images/13-regularization-02-duplicate-columns-crisp.png)
 
 When something like that happens, the inverse simply doesn't exist. In linear
 algebra they say that one column is a linear combination of the other columns -
@@ -73,14 +72,12 @@ so the matrix is not exactly singular anymore. It becomes at least numerically
 invertible, and NumPy finds an inverse. But look at what it comes up with: the
 numbers in the inverse are huge, around 10 to the power of 14.
 
-![The noisy Gram matrix and its inverse full of huge numbers](images/13-regularization-03-noisy-gram-matrix-crisp.png)
 
 When we use this inverse to compute the weights, the weights for the duplicated
 features turn out to be very large numbers too. The weight for the unique first
 feature is fine - 0.62 - but for the second and third features we get something
 like 3.4 million and -3.4 million.
 
-![The weights for the duplicated features are millions apart](images/13-regularization-04-huge-weights-crisp.png)
 
 So whenever we have duplicates - or near-duplicates - in our feature matrix, we
 get this problem.
@@ -101,7 +98,6 @@ XTX = [
 If we try to invert it, NumPy refuses: it complains that the matrix is singular
 and it cannot compute the inverse:
 
-![NumPy raising LinAlgError: Singular matrix for a matrix with duplicate columns](images/13-regularization-05-singular-matrix-crisp.png)
 
 Now let's do the same trick as before and add a tiny bit of noise:
 
@@ -134,7 +130,6 @@ matrix, the diagonal increases by one:
 XTX + np.eye(3)
 ```
 
-![Adding the identity matrix puts ones on the diagonal](images/13-regularization-06-eye-diagonal-crisp.png)
 
 To add only a small number, we multiply the identity matrix by that number first:
 
@@ -172,7 +167,6 @@ def train_linear_regression_reg(X, y, r=0.001):
 Everything stays the same except one line: after computing the Gram matrix, we
 add `r` to the main diagonal.
 
-![The train_linear_regression_reg function with the regularization parameter r](images/13-regularization-07-regularized-training-crisp.png)
 
 Let's take the code from the previous unit and replace the training function
 with this new one, using `r=0.01`:
@@ -194,7 +188,6 @@ the categorical variables:
 0.4608208286209523
 ```
 
-![The RMSE with regularization: 0.46, better than everything before](images/13-regularization-08-rmse-result-crisp.png)
 
 By adding a number to the diagonal we were able to control our weights and
 regularize the model. But `r` is a parameter: if we set it too high, the model
