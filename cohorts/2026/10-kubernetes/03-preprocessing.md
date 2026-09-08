@@ -36,7 +36,7 @@ parts: preparing the request, sending it, and preparing the response.
 We can run the script right away to check that it still works - it
 prints the predictions, with `pants` on top.
 
-![Converting the notebook with jupyter nbconvert](images/03-preprocessing-01-nbconvert.jpg)
+![Converting the notebook with jupyter nbconvert](images/03-preprocessing-01-nbconvert-cropped.png)
 
 To prepare the request we put the model name, the signature and our
 protobuf tensor into a `PredictRequest`:

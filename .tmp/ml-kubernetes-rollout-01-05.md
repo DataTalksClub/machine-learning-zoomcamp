@@ -131,3 +131,13 @@ crops and upscaling.
 - Invariants checked: the visible repository listing remains exact; no generated text or inferred prediction output was added.
 - Limitation: the supplied source does not show raw scores or class names despite the caption; the crop removes unrelated avatars/chrome but cannot repair this source-content mismatch.
 - Output: `images/02-tensorflow-serving-07-prediction-cropped.png`.
+
+### `03-preprocessing-01-nbconvert.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: Converting the notebook with jupyter nbconvert.
+- Disposition: deterministic crop/prep; exact terminal command and server output are the source of truth.
+- Source inspection: `594x360`; browser/editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-01-nbconvert-source-clean.png`, coordinates `490x285+10+25`, then top `14px` shaved; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: the notebook server output, model files, `jupyter nbconvert` command, and visible status lines remain exact.
+- Limitation: the source itself truncates the first character of the directory path and the lower conversion output; no text was guessed or reconstructed.
+- Output: `images/03-preprocessing-01-nbconvert-cropped.png`.
