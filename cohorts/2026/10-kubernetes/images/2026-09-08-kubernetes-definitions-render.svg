@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+  <rect width="1800" height="1120" fill="#ffffff"/>
+  <rect x="18" y="18" width="1764" height="1084" rx="26" fill="#fdfcf5" stroke="#8bc7ed" stroke-width="6"/>
+
+  <g fill="#0d2e63" font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="70" y="112" font-size="50" font-weight="700">NODE</text>
+    <text x="465" y="112" font-size="42">≈ SERVER / COMPUTER (EC2 INSTANCE)</text>
+    <line x1="52" y1="150" x2="1748" y2="150" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="238" font-size="50" font-weight="700">POD</text>
+    <text x="465" y="238" font-size="42">≈ DOCKER CONTAINER, RUNS ON A NODE</text>
+    <line x1="52" y1="276" x2="1748" y2="276" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="362" font-size="46" font-weight="700">DEPLOYMENT</text>
+    <text x="520" y="352" font-size="38">= GROUP OF PODS WITH THE</text>
+    <text x="520" y="398" font-size="38">SAME IMAGE AND CONFIGURATION</text>
+    <rect x="520" y="420" width="590" height="48" rx="18" fill="#e2effb"/>
+    <text x="548" y="453" font-size="30">same image and configuration</text>
+    <line x1="52" y1="492" x2="1748" y2="492" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="578" font-size="50" font-weight="700">SERVICE</text>
+    <text x="465" y="560" font-size="38">≈ THE ENTRY POINT OF AN APPLICATION,</text>
+    <text x="520" y="606" font-size="38">ROUTES REQUESTS TO PODS</text>
+    <line x1="52" y1="642" x2="1748" y2="642" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="730" font-size="46" font-weight="700">EXTERNAL</text>
+    <text x="465" y="730" font-size="42">= </text>
+    <text x="520" y="730" font-size="42">LoadBalancer</text>
+    <line x1="52" y1="768" x2="1748" y2="768" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="844" font-size="46" font-weight="700">INTERNAL</text>
+    <text x="465" y="844" font-size="42">= </text>
+    <text x="520" y="844" font-size="42">ClusterIP</text>
+    <line x1="52" y1="882" x2="1748" y2="882" stroke="#8bc7ed" stroke-width="4"/>
+
+    <text x="70" y="970" font-size="46" font-weight="700">INGRESS</text>
+    <text x="465" y="970" font-size="42">= THE ENTRY POINT TO THE CLUSTER</text>
+  </g>
+</svg>
