@@ -1,6 +1,7 @@
 # Serverless screenshot rollout: lessons 05–09
 
-Capability check: this worker has the `imagegen` skill. These 28 assets are
+Capability check: this worker has the `imagegen` skill. These 29 source
+references are
 exact technical screenshots: code, commands, URLs, AWS/GitHub/PyPI UI,
 plots, and numeric output. Per the rollout rubric, deterministic crops and
 Lanczos upscaling are used for every asset; imagegen is not used because it
