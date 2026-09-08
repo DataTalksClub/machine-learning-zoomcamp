@@ -10,7 +10,7 @@ In this unit we package the churn service into a Docker container, so it runs
 the same way everywhere - with the same Python version and the same
 dependencies, independent of the host machine.
 
-![The plan of the module: environment management with Docker](images/06-docker-01-module-plan-cropped.png)
+![The plan of the module: environment management with Docker](images/06-docker-01-module-plan-crisp.png)
 
 ## Installing Docker
 
@@ -74,7 +74,7 @@ EXPOSE 9696
 ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
 ```
 
-![Choosing the python:3.8.12-slim base image on Docker Hub](images/06-docker-03-base-image-docker-hub-cropped.png)
+![Choosing the python:3.8.12-slim base image on Docker Hub](images/06-docker-03-base-image-docker-hub-crisp.png)
 
 Instruction by instruction:
 
@@ -105,7 +105,7 @@ Instruction by instruction:
 Note the double quotes in the exec form of ENTRYPOINT - the JSON array form
 is what makes Docker run the command directly, without a shell wrapping it.
 
-![Writing the Dockerfile for the churn service](images/06-docker-04-dockerfile-cropped.png)
+![Writing the Dockerfile for the churn service](images/06-docker-04-dockerfile-crisp.png)
 
 ## Building and running
 
