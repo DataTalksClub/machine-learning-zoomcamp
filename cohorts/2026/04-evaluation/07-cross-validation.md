@@ -39,7 +39,7 @@ def predict(df, dv, model):
     return y_pred
 ```
 
-![Applying predict and initializing KFold in the notebook](images/07-cross-validation-02-train-predict-cropped.png)
+![Applying predict and initializing KFold in the notebook](images/07-cross-validation-02-train-predict-crisp.png)
 
 ## K-fold cross-validation
 
@@ -57,7 +57,7 @@ kfold = KFold(n_splits=5, shuffle=True, random_state=1)
 
 `kfold.split(df_full_train)` is a Python generator: each call to `next` yields the next split as two arrays of row indices - the indices to train on and the indices to validate on. We slice the dataframe with `iloc`, train, predict and score with AUC:
 
-![Demonstrating the split generator: every split gives a training and a validation part](images/07-cross-validation-03-split-generator-cropped.png)
+![Demonstrating the split generator: every split gives a training and a validation part](images/07-cross-validation-03-split-generator-crisp.png)
 
 ```python
 from tqdm.auto import tqdm
@@ -85,7 +85,7 @@ for C in tqdm([0.001, 0.01, 0.1, 0.5, 1, 5, 10]):
     print('C=%s %.3f +- %.3f' % (C, np.mean(scores), np.std(scores)))
 ```
 
-![The parameter-tuning loop: five-fold cross-validation for each value of C](images/07-cross-validation-04-tuning-loop-cropped.png)
+![The parameter-tuning loop: five-fold cross-validation for each value of C](images/07-cross-validation-04-tuning-loop-crisp.png)
 
 The `tqdm` wrapper draws a progress bar so we can see the loop moving. The output:
 
@@ -99,7 +99,7 @@ C=5 0.841 +- 0.008
 C=10 0.841 +- 0.008
 ```
 
-![The tuning results: mean and standard deviation of AUC for each C](images/07-cross-validation-05-tuning-results-cropped.png)
+![The tuning results: mean and standard deviation of AUC for each C](images/07-cross-validation-05-tuning-results-crisp.png)
 
 For each value of `C` we get the mean AUC across the 5 folds and the standard deviation. The mean tells us the average performance; the standard deviation tells us how spread out the scores are across the folds - how stable the model is. For example, for the last run (`C=10`) the five fold scores were:
 
@@ -131,7 +131,7 @@ auc
 
 This gives `0.8572386167896259`. That is slightly better than the cross-validation average - a small difference like this is normal.
 
-![Training the final model on the full training data and evaluating it on the test set: AUC 0.857](images/07-cross-validation-06-final-model-cropped.png)
+![Training the final model on the full training data and evaluating it on the test set: AUC 0.857](images/07-cross-validation-06-final-model-crisp.png)
 
 ## When to use cross-validation
 
