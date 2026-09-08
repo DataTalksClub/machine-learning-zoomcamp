@@ -39,3 +39,7 @@ bounded conceptual illustrations after deterministic crop/source inspection.
 - `08-summary-01-metrics-list.jpg` — **crop/replace**, score 9/12. The summary box gives a compact visual checklist of the module’s metrics and their roles. Cropped at `(x=0, y=130, w=577, h=155)` from the 598×360 source to isolate the summary box and remove browser/camera chrome, then exported at 2× as `08-summary-01-metrics-list-cropped.png`; all five metric bullets were checked. Original preserved.
 - `08-summary-02-confusion-table-recap.jpg` — **remove**, score 2/12 and hard-gated out. The caption promises an 80% confusion-table diagonal, but the inspected frame shows TPR/FPR notebook code and outputs instead; it is also redundant with the dedicated ROC lesson. Cropping cannot repair the mismatch, so the Markdown reference and source were removed.
 - `08-summary-03-cross-validation.jpg` — **remove**, score 3/12 and hard-gated out. The caption promises a three-fold train/validation diagram, but the inspected frame shows a score list, final-model code, and summary heading with no fold relationship; it is neither a useful recap nor a caption match. The Markdown reference and source were removed.
+
+## No image references
+
+- `09-explore-more.md` contains no Markdown image references; no asset was skipped.
