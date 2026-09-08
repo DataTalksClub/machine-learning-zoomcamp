@@ -90,7 +90,7 @@ in the batch, 299 by 299 pixels, 3 color channels.
 preds = model.predict(X)
 ```
 
-![Preparing the image with load_img and preprocess_input, then running model.predict](images/03-tensorflow-lite-02-keras-predictions-crisp.png)
+![Keras prediction scores, with pants highest, followed by converting the Keras model to TF-Lite and saving clothing-model.tflite](images/03-tensorflow-lite-02-03-predictions-to-tflite-crisp.png)
 
 The raw predictions are scores for each class. To make them
 meaningful, we combine them with the class names from the previous
@@ -135,8 +135,6 @@ SavedModel - TensorFlow's format for serializing models - and then
 converts the SavedModel to TF-Lite. After this we have two files on
 disk: the original `clothing-model.h5` and the converted
 `clothing-model.tflite`.
-
-![The "Convert Keras to TF-Lite" cell: TFLiteConverter writes the converted model to clothing-model.tflite](images/03-tensorflow-lite-03-convert-to-tflite-crisp.png)
 
 ![The sizes: clothing-model.h5 is 83M, the converted clothing-model.tflite is 81M](images/03-tensorflow-lite-04-model-sizes-crisp.png)
 
