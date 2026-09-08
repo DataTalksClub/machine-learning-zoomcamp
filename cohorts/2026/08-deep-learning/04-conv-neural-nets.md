@@ -160,7 +160,7 @@ and as a result we got a neural network.
 This layer is called a dense layer. The input to the layer is the
 vector representation, and the output is the predictions:
 
-![A dense layer connects each element of the input with each element of the output](images/04-conv-neural-nets-07-dense-layer.jpg)
+![A dense layer connects each element of the input with each element of the output](images/04-conv-neural-nets-07-dense-layer-imagegen.png)
 
 It's called "dense" because each element of the input is connected to
 each element of the output - there are a lot of connections, the area
