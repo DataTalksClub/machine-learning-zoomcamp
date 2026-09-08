@@ -6,7 +6,7 @@ video_url: https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8
 In this optional unit we deploy the Docker image of the churn service to AWS
 Elastic Beanstalk, which makes it reachable from anywhere on the internet.
 
-![The plan of the module: deployment to the cloud with AWS Elastic Beanstalk](images/07-aws-eb-01-module-plan-cropped.png)
+![The plan of the module: deployment to the cloud with AWS Elastic Beanstalk](images/07-aws-eb-01-module-plan-crisp.png)
 
 ## Why the cloud
 
@@ -51,7 +51,7 @@ eb init -p docker -r eu-north-1 churn-serving
 - `-r eu-north-1` - the AWS region; pick the one closest to your users.
 - `churn-serving` - the name of the application.
 
-![Initializing the EB application with eb init](images/07-aws-eb-03-eb-init-cropped.png)
+![Initializing the EB application with eb init](images/07-aws-eb-03-eb-init-crisp.png)
 
 You can look at the generated configuration with `less
 .elasticbeanstalk/config.yml`. Before deploying to the cloud, we can check
@@ -61,7 +61,7 @@ that everything works locally - EB builds the Docker image and runs it:
 eb local run --port 9696
 ```
 
-![Testing the service locally: the test script gets a prediction from the container](images/07-aws-eb-04-eb-local-test-cropped.png)
+![Testing the service locally: the test script gets a prediction from the container](images/07-aws-eb-04-eb-local-test-crisp.png)
 
 The test script from the [earlier unit](04-flask-deployment.md) can test it
 as before. When it works, create the real environment in AWS:
@@ -70,7 +70,7 @@ as before. When it works, create the real environment in AWS:
 eb create churn-serving-env
 ```
 
-![Creating the environment: EB starts instances, a load balancer and an auto scaling group](images/07-aws-eb-05-eb-create-cropped.png)
+![Creating the environment: EB starts instances, a load balancer and an auto scaling group](images/07-aws-eb-05-eb-create-crisp.png)
 
 This takes a few minutes: EB starts the instances, deploys the container and
 creates a URL for the environment. That URL is the endpoint for the
@@ -78,7 +78,7 @@ prediction requests - update the host in the test script to use it. No port
 number is needed: EB accepts requests on the standard HTTP port and routes
 them to the container.
 
-![The test script now points to the Elastic Beanstalk environment URL](images/07-aws-eb-06-eb-url-test-cropped.png)
+![The test script now points to the Elastic Beanstalk environment URL](images/07-aws-eb-06-eb-url-test-crisp.png)
 
 Two things to keep in mind. The environment URL is public - anyone who finds
 it can call our service, so a real production deployment needs authentication
@@ -90,7 +90,7 @@ instances:
 eb terminate churn-serving-env
 ```
 
-![Terminating the environment from the EB console when it is no longer needed](images/07-aws-eb-07-terminate-environment-cropped.png)
+![Terminating the environment from the EB console when it is no longer needed](images/07-aws-eb-07-terminate-environment-crisp.png)
 
 ## Materials
 
