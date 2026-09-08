@@ -37,3 +37,13 @@ Capability: this worker has the `imagegen` skill and read its instructions. Exac
 - `09-summary-02-local-alternatives.jpg` → `09-summary-02-local-alternatives-cropped.png`: deterministic crop `503x347+0+0`, Lanczos 2× upscale and light sharpening. Preserves the exact lesson bullets, tool names, URLs, and cloud-provider list while removing the camera tile, its lower remnant, and the bottom status bar. Original preserved. Teaching point: comparing local Kubernetes options and related tools. Long lines remain clipped at the source editor edge; no text was regenerated.
 - `09-summary-03-rancher.jpg` → `09-summary-03-rancher-cropped.png`: deterministic crop `503x311+0+36`, Lanczos 2× upscale and light sharpening. Preserves the exact Rancher Desktop page headline, demo thumbnail, install button, and “Great For” cards while removing the camera tile and browser address bar. Original preserved. Teaching point: Rancher Desktop as a Kubernetes/container-management alternative. The underlying page remains a low-resolution web capture; no UI text was regenerated.
 - `09-summary-04-managed-kubernetes.jpg` → `09-summary-04-managed-kubernetes-cropped.png`: deterministic crop `503x347+0+0`, Lanczos 2× upscale and light sharpening. Preserves the exact Google query, provider result, related questions, and managed-Kubernetes search results while removing the camera tile and bottom status bar. Original preserved. Teaching point: discovering managed Kubernetes providers. A native mouse pointer remains in the “People also ask” area; exact UI was preserved rather than painted over.
+
+## Lesson 10
+
+- `10-explore-more.md` contains no Markdown image references; no asset required.
+
+## Final audit
+
+- 24/24 owned references resolve; 24/24 report entries cover accepted screenshots.
+- All 24 original `.jpg` sources remain in place.
+- `git diff --check` passes; disposable crops remain outside the committed asset paths.
