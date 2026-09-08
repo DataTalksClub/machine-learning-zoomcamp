@@ -57,3 +57,29 @@ The imagegen outputs remain subject to the independent visual verdict already
 recorded in the strict audit: crisp and semantically correct. This ledger
 supplies the previously missing durable source/crop/output chain; it does not
 make a new claim that the crops themselves are imagegen outputs.
+
+## XGBoost semantic repair
+
+The strict audit found one semantic defect in the existing XGBoost parameter
+illustration: it used equality wording for `min_child_weight` and
+`min_samples_leaf`. The replacement below was generated with the built-in
+imagegen tool from the original JPG and the bounded crop only. The old PNG was
+not used as an input. The replacement says `MIN_CHILD_WEIGHT — ROUGH ANALOGUE
+OF MIN_SAMPLES_LEAF IN RF`, preserves the four-stage error-feedback flow, and
+retains the green `0.3` annotation.
+
+The crop is reproducible with
+[`2026-09-09-xgb-repair-crop.sh`](2026-09-09-xgb-repair-crop.sh), whose
+SHA-256 is `56b2bcb0f3341c794b8ab62f9e548c6ac22559be7fa8fbc7ab2a81bf1e9517bb`.
+The previous PNG hash is included to make the semantic replacement explicit.
+
+| Asset | Source JPG | Crop JPG | Crop `(x, y, width, height)` | Source SHA-256 | Crop SHA-256 | Previous PNG SHA-256 | Replacement PNG SHA-256 |
+|---|---|---|---|---|---|---|---|
+| `08-xgb-tuning-01-parameters-imagegen.png` | `08-xgb-tuning-01-parameters.jpg` | `08-xgb-tuning-01-parameters-imagegen-crop.jpg` | `(22, 16, 980, 690)` | `e9b4f5de1afa5b2056e94fc982e3171868aa3ae22b284341b348f6f46b196c8c` | `689cc01254d5e09bbeebb3203cef168e3dea483e52f8f051eec1716830c446e8` | `c555d68c99aa89e70f04c77d094ac40faa5c1e2d617087230b2e6c3aef4732a4` | `d8ad1d617aa0483d4fa3cc3677fed84822e71c533f03d15696cab88760ff8b53` |
+
+Imagegen execution: `exec-8f42295c-8408-42af-84ae-7ece5c751291`. The output
+contains C2PA metadata identifying OpenAI image generation. Native dimensions
+are `1495×1052`; a simulated `608px` render was inspected and kept all
+parameter text, stages, arrows, and the `0.3` annotation readable. The
+replacement changes the published PNG intentionally; the eleven provenance-
+only PNGs above remain byte-for-byte unchanged.
