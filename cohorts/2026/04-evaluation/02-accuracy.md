@@ -111,8 +111,6 @@ This gives `0.7260468417317246` - 73%.
 
 So a model that doesn't look at the data at all scores 73%, and our logistic regression scores 80%. The improvement over the dummy baseline is much smaller than "80% correct" made it sound.
 
-![The accuracy curve with both ends marked: 0.27 at threshold 0 and 0.73 at threshold 1](images/02-accuracy-07-thresholds-endpoints-crisp.png)
-
 ## Why accuracy fails here: class imbalance
 
 The reason is that the classes are unbalanced: only 27% of the customers in the validation set churned, and 73% stayed. This is called class imbalance - there are many more instances of one class than of the other.
