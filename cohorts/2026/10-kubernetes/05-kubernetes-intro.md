@@ -93,7 +93,7 @@ to the cluster.
 
 ![The whiteboard definitions: node, pod, deployment, service, ingress](images/05-kubernetes-intro-05-definitions-cropped.png)
 
-![External and internal services, with ingress in front of the cluster](images/05-kubernetes-intro-04-external-internal-ingress-cropped.png)
+![External and internal services, with ingress in front of the cluster](images/05-kubernetes-intro-04-external-internal-ingress-imagegen.png)
 
 ## Scaling
 
