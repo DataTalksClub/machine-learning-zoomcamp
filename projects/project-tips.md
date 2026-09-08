@@ -41,7 +41,20 @@ If a Kaggle notebook already solves a similar task, it's likely doable in 2 week
 - Start with a **baseline** (Logistic/Linear model or shallow tree).  
 - Train at least **3 models**, tune key hyperparameters, and select the best.  
 - Use **cross-validation** and keep a summary table of scores.
-- Avoid data leakage — don't include target-derived features.
+- **Check for label leakage** — don't include target-derived features:
+  - For every feature, ask: *would I actually know this value at prediction time?*
+    Columns recorded after the outcome (actual delivery days, discharge date,
+    final status) encode the answer instead of predicting it.
+  - Quick test: train a model on **each feature alone**. If one feature by
+    itself gets near-perfect scores, it's almost certainly leaking the target.
+  - Treat a suspiciously high score as a symptom, not a success. A real
+    example from a popular capstone dataset: DataCo late-delivery prediction
+    scores ~97% with the shipping-time columns included — but the label is
+    *computed from* those columns, so the model just restates the definition.
+    With only the features knowable at order time, the same models get ~69%
+    ([audit with reproduction scripts](https://github.com/ipezygj/dataco-late-delivery-audit)).
+    The lower number is the real one — and it's the one worth putting in
+    your README, with a sentence explaining why.
 
 ## 5. From Notebook → Script
 
