@@ -1,9 +1,10 @@
 # 06-trees durable provenance — 2026-09-09
 
-This ledger closes the provenance-only queue from the strict visual audit. It
-covers the eleven published illustrations that were already visually crisp and
-semantically accepted, but did not have a durable source-to-crop record. The
-published PNGs were not regenerated or modified in this commit.
+This ledger records durable source-to-crop provenance for the eleven
+illustrations in this queue. Seven published PNGs retain their previously
+accepted bytes. The four `10-summary` PNGs are regenerated in focused commits
+from their original non-crisp JPGs and bounded crops; their previous PNGs are
+never used as imagegen inputs.
 
 ## Method
 
@@ -12,16 +13,14 @@ from that JPG with the checked-in
 [`2026-09-09-provenance-crops.sh`](2026-09-09-provenance-crops.sh) script and
 ImageMagick's `-crop WIDTHxHEIGHT+X+Y` geometry. The camera tile, recorder
 controls, browser chrome, and unrelated notebook cells are outside the crop
-where applicable. The source JPG, crop JPG, and already-published imagegen PNG
-are all retained together.
+where applicable. The source JPG, crop JPG, and published imagegen PNG are all
+retained together.
 
 The seven diagram crops use the coordinates recorded in the original rollout
-notes. The four summary crops are bounded reconstructions from the original
-notebook screenshots: the earlier rollout recorded the source/output pairing
-but not the crop coordinates, so this commit makes the selected content region
-durable without rewriting the existing PNG. That distinction is recorded here
-instead of treating a newly reconstructed crop as proof of an unavailable
-historical temporary file.
+notes. The four summary crops are bounded content regions from the original
+notebook screenshots. Each regenerated summary output is made with imagegen
+using the original JPG and its matching bounded crop only; the old crisp PNG is
+not supplied as a reference.
 
 No sharpening, upscaling, or imagegen operation is performed by the crop
 script. It only preserves the source content region needed to audit the
@@ -42,10 +41,21 @@ hash of the PNG already present before this commit.
 | `06-random-forest-02-random-forest-imagegen.png` | `06-random-forest-02-random-forest.jpg` | `06-random-forest-02-random-forest-imagegen-crop.jpg` | `(0, 0, 1024, 724)` | `75f8d5658760dcdfaefea7c973b4cf8a746fd9c6e375d5ddfe0eccb4d4e12456` | `b1cceb35bebee384489d14b7327d09617b59f6b57b2678cb4f05cb42849d452c` | `d6e1789d6fbff579082d24d5eb5918b6b57c454a6528771bd4422468fb19cf58` |
 | `07-boosting-01-boosting-vs-random-forest-imagegen.png` | `07-boosting-01-boosting-vs-random-forest.jpg` | `07-boosting-01-boosting-vs-random-forest-imagegen-crop.jpg` | `(22, 16, 980, 690)` | `865043939c7a052fec06ed06dc994e9c3d5058203c222eb797d77b01ff1f375a` | `31e31a0d364d275c4b22a4a56a9ddf4975f7ff5a35a11ed540bb70efc9f11f07` | `9cbaf92f0b4873c4f490ccbf156992bf64c4ba2812141835b00cf621d7eeed0c` |
 | `07-boosting-02-gradient-boosting-trees-imagegen.png` | `07-boosting-02-gradient-boosting-trees.jpg` | `07-boosting-02-gradient-boosting-trees-imagegen-crop.jpg` | `(22, 16, 980, 690)` | `2dfcf562c63bd65aa96d3be0e72525562ef79be972323d7e07ab48db3bb338b0` | `bddd9f8e349170110548d7af16cfe05ce47e77ddb6bdad2659032ebfec7c7e09` | `a8619de22d048dbb82e6eaecb874fc0b411c91e3220b8e9bbb1bf1b7aa3394ff` |
-| `10-summary-01-summary-slide-imagegen.png` | `10-summary-01-summary-slide.jpg` | `10-summary-01-summary-slide-imagegen-crop.jpg` | `(90, 135, 480, 125)` | `f040bfcfe6907dceaf329142ecb5de1683b8fab8412566154ad78a6ee9fcf58c` | `9ea172f06fed75a05ed857c7ccf0a323e81d92136d677464fa2328a555c04507` | `f9087032532993fba784c1b6a5bc10c62d8f64f257d18ffe74166e2348e4ab15` |
+| `10-summary-01-summary-slide-imagegen.png` | `10-summary-01-summary-slide.jpg` | `10-summary-01-summary-slide-imagegen-crop.jpg` | `(90, 135, 480, 125)` | `f040bfcfe6907dceaf329142ecb5de1683b8fab8412566154ad78a6ee9fcf58c` | `9ea172f06fed75a05ed857c7ccf0a323e81d92136d677464fa2328a555c04507` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` |
 | `10-summary-04-random-forest-imagegen.png` | `10-summary-04-random-forest.jpg` | `10-summary-04-random-forest-imagegen-crop.jpg` | `(90, 119, 480, 88)` | `ffac132afa9bfd82af2badefc39aba56764fa31171e572be2050b44ce9dddf8b` | `0696e80a8bf60017d6d6bcf9b849977cc737797eb083507d6e9bc7272723a826` | `13be16cd3710a309b94ed85290c67aa26e05d124ec086bf6ddf35b0dfd473952` |
 | `10-summary-05-gradient-boosting-imagegen.png` | `10-summary-05-gradient-boosting.jpg` | `10-summary-05-gradient-boosting-imagegen-crop.jpg` | `(90, 112, 480, 100)` | `e683e67e1f523516b904e4352ca263d5f92562b88ab4e7c81643a9fddadec028` | `335bf92b80a656cca19a2ef3a98a56db133428acc29f1e01b189c55f116b6e51` | `65d9564776a5655b8b2e62d964d8a795d003ea52eeac1070764177dd6eed2c6a` |
 | `10-summary-06-xgb-parameters-imagegen.png` | `10-summary-06-xgb-parameters.jpg` | `10-summary-06-xgb-parameters-imagegen-crop.jpg` | `(90, 78, 465, 185)` | `cda4ecf0d53f519cf4a6a423e400fa5c774021ac590edbf024b76c7cc28bd509` | `49bece48d65fe5ddc2b0cb978def7bc65fbd20905964def263dcc07c132e36a2` | `cd72aee95feb68e91c1ae663bbe75856a2bca33e7449d84d02c07c5d6b342d3e` |
+
+## Summary regeneration verification
+
+Each regenerated PNG was created with the built-in imagegen tool from the
+listed original JPG and bounded crop. Native output and a simulated 608px-wide
+render were inspected. The C2PA check looks for the embedded `c2pa` manifest
+markers and the `gpt-image`/`OpenAI` signer strings in the PNG bytes.
+
+| Asset | Imagegen execution | Native | 608px render | Output SHA-256 | C2PA |
+|---|---|---:|---:|---|---|
+| `10-summary-01-summary-slide-imagegen.png` | `exec-57e53a3e-351e-4ff0-9a04-ce4467526661` | `1672×941` | `608×342` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` | `gpt-image` / `OpenAI` markers present |
 
 ## Verification
 
