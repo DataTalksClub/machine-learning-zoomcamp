@@ -141,3 +141,12 @@ crops and upscaling.
 - Invariants checked: the notebook server output, model files, `jupyter nbconvert` command, and visible status lines remain exact.
 - Limitation: the source itself truncates the first character of the directory path and the lower conversion output; no text was guessed or reconstructed.
 - Output: `images/03-preprocessing-01-nbconvert-cropped.png`.
+
+### `03-preprocessing-02-gateway-script.jpg`
+
+- Lesson: `03-preprocessing.md`; caption: Preparing the request and invoking the model in the gateway script.
+- Disposition: deterministic crop/prep; exact Python, URL, model, signature, and timeout code are the source of truth.
+- Source inspection: `594x360`; editor chrome, webcam tile, and right-side strip present.
+- Preparation crop: `.tmp/ml-kubernetes-rollout-01-05-crops/03-preprocessing-02-gateway-script-source-clean.png`, coordinates `500x320+0+20`; resized 2x with Lanczos and light unsharp masking.
+- Invariants checked: `clothing-model`, `serving_default`, `input_8`, `np_to_protobuf`, the pants URL, and `timeout=20.0` remain exact.
+- Output: `images/03-preprocessing-02-gateway-script-cropped.png`.

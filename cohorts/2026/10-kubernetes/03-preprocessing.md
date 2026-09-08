@@ -83,7 +83,7 @@ def predict(url):
     return response
 ```
 
-![Preparing the request and invoking the model in the gateway script](images/03-preprocessing-02-gateway-script.jpg)
+![Preparing the request and invoking the model in the gateway script](images/03-preprocessing-02-gateway-script-cropped.png)
 
 For the Flask app we can reuse the code from session 5 - the churn
 prediction service. We copy the Flask imports and the endpoint pattern,
