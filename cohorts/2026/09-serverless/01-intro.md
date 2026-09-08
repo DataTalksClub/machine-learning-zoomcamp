@@ -54,7 +54,7 @@ later in the module.
 
 Here's what we'll cover in this module:
 
-![The module plan: deploy the clothes classification model trained previously](images/01-intro-04-module-plan-cropped.png)
+![The module plan: deploy the clothes classification model trained previously](images/01-intro-04-module-plan-crisp.png)
 
 - What AWS Lambda actually is, and how it differs from other approaches
   to deploying models
@@ -66,7 +66,7 @@ Here's what we'll cover in this module:
   Lambda
 - Exposing the Lambda function as a web service using API Gateway
 
-![The plan continues: creating the lambda function and exposing it with API Gateway](images/01-intro-05-module-plan-lambda-gateway-cropped.png)
+![The plan continues: creating the lambda function and exposing it with API Gateway](images/01-intro-05-module-plan-lambda-gateway-crisp.png)
 
 That's the plan. In the next lesson we start with AWS Lambda: what it
 is and how it's different from other approaches.
