@@ -92,7 +92,7 @@ When we execute this cell, it says that in the train folder it found
 
 We can look at which classes it found with `train_ds.class_indices`:
 
-![The class indices: dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt, t-shirt](images/05-transfer-learning-03-class-indices-one-hot.jpg)
+![The class indices: dress, hat, longsleeve, outwear, pants, shirt, shoes, shorts, skirt, t-shirt](images/05-transfer-learning-03-class-indices-one-hot-cropped.png)
 
 The first class is dress, then hat, longsleeve, outwear, pants, and so
 on - t-shirt is the last one. These are the same names as the folders
