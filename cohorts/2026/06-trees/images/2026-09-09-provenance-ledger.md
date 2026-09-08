@@ -44,7 +44,7 @@ hash of the PNG already present before this commit.
 | `10-summary-01-summary-slide-imagegen.png` | `10-summary-01-summary-slide.jpg` | `10-summary-01-summary-slide-imagegen-crop.jpg` | `(90, 135, 480, 125)` | `f040bfcfe6907dceaf329142ecb5de1683b8fab8412566154ad78a6ee9fcf58c` | `9ea172f06fed75a05ed857c7ccf0a323e81d92136d677464fa2328a555c04507` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` |
 | `10-summary-04-random-forest-imagegen.png` | `10-summary-04-random-forest.jpg` | `10-summary-04-random-forest-imagegen-crop.jpg` | `(90, 119, 480, 88)` | `ffac132afa9bfd82af2badefc39aba56764fa31171e572be2050b44ce9dddf8b` | `0696e80a8bf60017d6d6bcf9b849977cc737797eb083507d6e9bc7272723a826` | `d8e3c86b1db44f081c9bc46a0af68d83adcfe74c82c9a5841d6e39d185d99f62` |
 | `10-summary-05-gradient-boosting-imagegen.png` | `10-summary-05-gradient-boosting.jpg` | `10-summary-05-gradient-boosting-imagegen-crop.jpg` | `(90, 112, 480, 100)` | `e683e67e1f523516b904e4352ca263d5f92562b88ab4e7c81643a9fddadec028` | `335bf92b80a656cca19a2ef3a98a56db133428acc29f1e01b189c55f116b6e51` | `8c1f0c5cc57c66a2dc61595ad24f9351a0df92fac3791c1add5b5d9812b8eeac` |
-| `10-summary-06-xgb-parameters-imagegen.png` | `10-summary-06-xgb-parameters.jpg` | `10-summary-06-xgb-parameters-imagegen-crop.jpg` | `(90, 78, 465, 185)` | `cda4ecf0d53f519cf4a6a423e400fa5c774021ac590edbf024b76c7cc28bd509` | `49bece48d65fe5ddc2b0cb978def7bc65fbd20905964def263dcc07c132e36a2` | `cd72aee95feb68e91c1ae663bbe75856a2bca33e7449d84d02c07c5d6b342d3e` |
+| `10-summary-06-xgb-parameters-imagegen.png` | `10-summary-06-xgb-parameters.jpg` | `10-summary-06-xgb-parameters-imagegen-crop.jpg` | `(90, 78, 465, 185)` | `cda4ecf0d53f519cf4a6a423e400fa5c774021ac590edbf024b76c7cc28bd509` | `49bece48d65fe5ddc2b0cb978def7bc65fbd20905964def263dcc07c132e36a2` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` |
 
 ## Summary regeneration verification
 
@@ -58,6 +58,7 @@ markers and the `gpt-image`/`OpenAI` signer strings in the PNG bytes.
 | `10-summary-01-summary-slide-imagegen.png` | `exec-57e53a3e-351e-4ff0-9a04-ce4467526661` | `1672×941` | `608×342` | `2acae31c29ac3efa6133c5a8e784bbf59eb6fb8503d51496b92464b74a0a9d29` | `gpt-image` / `OpenAI` markers present |
 | `10-summary-04-random-forest-imagegen.png` | `exec-f401ea09-8eb2-4616-a02c-60178685a757` | `1672×941` | `608×342` | `d8e3c86b1db44f081c9bc46a0af68d83adcfe74c82c9a5841d6e39d185d99f62` | `gpt-image` / `OpenAI` markers present |
 | `10-summary-05-gradient-boosting-imagegen.png` | `exec-c4e4c248-3b52-4b58-961c-9cba8d1a480f` | `1672×941` | `608×342` | `8c1f0c5cc57c66a2dc61595ad24f9351a0df92fac3791c1add5b5d9812b8eeac` | `gpt-image` / `OpenAI` markers present |
+| `10-summary-06-xgb-parameters-imagegen.png` | `exec-32a5a077-a052-45c6-b465-ec7d1dc7885a` | `1672×941` | `608×342` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` | `gpt-image` / `OpenAI` markers present |
 
 ## Verification
 
