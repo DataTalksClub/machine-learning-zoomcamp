@@ -46,7 +46,7 @@ learning models: if we set the learning rate too high we risk
 overfitting, if we set it too low training takes forever, and we need
 to find the right balance.
 
-![The book analogy: reading fast is a high learning rate and validates poorly (overfit), reading slowly is a low learning rate and also validates poorly (underfit)](images/06-learning-rate-01-book-analogy.jpg)
+![The book analogy: reading fast is a high learning rate and validates poorly (overfit), reading slowly is a low learning rate and also validates poorly (underfit)](images/06-learning-rate-01-book-analogy-imagegen.png)
 
 ## Wrapping the model in a function
 

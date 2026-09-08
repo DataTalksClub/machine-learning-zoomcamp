@@ -58,3 +58,7 @@ Each accepted screenshot below records the source, disposition, crop/preparation
 - `05-transfer-learning-06-dense-10-outputs.jpg` → `05-transfer-learning-06-dense-10-outputs-cropped.png`: deterministic notebook crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact `(150, 150, 3)` input, GlobalAveragePooling2D, Dense(10), and `(32, 10)` prediction shape; removed webcam/black recording chrome.
 - `05-transfer-learning-07-training-output.jpg` → `05-transfer-learning-07-training-output-cropped.png`: deterministic notebook/output crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact epoch logs, losses, accuracies, and validation accuracies; removed webcam/black recording chrome. The lower part remains source-truncated.
 - `05-transfer-learning-08-history-plot.jpg` → `05-transfer-learning-08-history-plot-cropped.png`: deterministic plot crop `+0+0 500x360`, upscaled 2× with Lanczos and mild sharpening. Preserved the exact validation curve, axes, legend, and plotting code; removed webcam/black recording chrome without regenerating numeric data.
+
+## 06-learning-rate
+
+- `06-learning-rate-01-book-analogy.jpg` → `06-learning-rate-01-book-analogy-imagegen.png`: imagegen illustration. Source inspected and cropped to `+22+0 478x360`; preserved the fast/high → poorly, medium → OK, and slow/low reading analogy plus exact labels; removed presenter/camera/recording chrome.
