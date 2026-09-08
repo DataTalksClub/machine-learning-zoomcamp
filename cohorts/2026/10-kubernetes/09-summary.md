@@ -66,8 +66,6 @@ from the beginning. One is
 [Rancher Desktop](https://rancherdesktop.io/) - similar to Docker
 Desktop, but for Kubernetes.
 
-![Rancher Desktop: Kubernetes and container management on the desktop](images/09-summary-03-rancher-crisp.png)
-
 By the way, speaking of Docker Desktop: it also ships some sort of
 Kubernetes cluster. If you use Windows, that may be easier than setting
 up kind. And the other tool is
@@ -83,8 +81,6 @@ DigitalOcean, and I think Oracle Cloud and IBM Cloud. Probably any cloud
 provider you can think of has Kubernetes as a service. Look up
 "managed Kubernetes" and you will see many options - the one from
 DigitalOcean, for example, starts at $10 per month.
-
-![Searching for managed Kubernetes offers](images/09-summary-04-managed-kubernetes-crisp.png)
 
 The good thing about Kubernetes is that the configuration files we
 created in this session work on any Kubernetes. You will only need to
