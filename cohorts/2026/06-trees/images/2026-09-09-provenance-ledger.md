@@ -199,6 +199,6 @@ resize-only copy.
 
 | Published PNG | Lesson reference | Current PNG SHA-256 | Native | 608px | C2PA | Decision |
 |---|---|---|---:|---:|---|---|
-| `11-explore-more-01-ensemble-experiments-imagegen.png` | `11-explore-more.md:6` | `ec08605928cb35a3cf3ad47e3517df2d4e5596523b7d4dd49bb7daa8608f153f` | `1672x941` | `608x342` | `urn:c2pa:bb311753-4a6f-4e4c-8d34-f63a69a2dc76` | Retained byte-for-byte. This is a brand-new conceptual infographic with no original non-crisp JPG in the module. Its embedded C2PA record proves direct imagegen; native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, or selection overlay. The illustrated whiteboard frame and tray are part of the composition, not capture chrome. |
+| `11-explore-more-01-ensemble-experiments-imagegen.png` | `11-explore-more.md:4` | `ec08605928cb35a3cf3ad47e3517df2d4e5596523b7d4dd49bb7daa8608f153f` | `1672x941` | `608x342` | `urn:c2pa:bb311753-4a6f-4e4c-8d34-f63a69a2dc76` | Retained byte-for-byte. This is a brand-new conceptual infographic with no original non-crisp JPG in the module. Its embedded C2PA record proves direct imagegen; native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, or selection overlay. The illustrated whiteboard frame and tray are part of the composition, not capture chrome. |
 
 No source/crop pair is fabricated for this direct imagegen asset.
