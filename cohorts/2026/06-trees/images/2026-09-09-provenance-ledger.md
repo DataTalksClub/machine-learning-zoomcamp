@@ -6,7 +6,8 @@ accepted bytes. The four `10-summary` PNGs are regenerated in focused commits
 from their original non-crisp JPGs and bounded crops; their previous PNGs are
 never used as imagegen inputs. The final-model semantic correction to the
 `10-summary-06` output and the later eta-plot semantic correction are recorded
-below.
+below. The remaining strict-audit queue is recorded at the end: three
+source-backed redraws and one retained direct-imagegen output.
 
 ## Method
 
@@ -28,7 +29,7 @@ bounded crop only; the old crisp PNG is not supplied as a reference.
 No sharpening, upscaling, or imagegen operation is performed by the crop
 script. It only preserves the source content region needed to audit the
 existing redraw. The crop-script SHA-256 is
-`6b4abd9aed9ae0b9ccd49a7018dc8bd07158e0b1f407ea8c6ca2252d33d6077d`.
+`bd0219c40c9d4fe979ac2002d5268b4174270f68b49410b5e05d46add97fcd70`.
 
 ## Published assets and hashes
 
@@ -151,3 +152,53 @@ sizes retained all five legend labels and all axis tick labels. The output
 contains no camera, face, browser, cursor, selection, or decorative overlay.
 The normalized comparison against the source crop after resizing was
 `0.205028` RMSE, confirming that the result is not a simple enlargement.
+
+## Remaining strict-audit provenance queue — 2026-09-09
+
+The strict audit classified four current `06-trees` references as
+`PROVENANCE-BLOCKED`. Three had original non-crisp JPG sources and were
+regenerated with built-in imagegen using the original JPG plus a matching
+bounded native crop. The remaining `11-explore-more` infographic was already a
+direct imagegen illustration with C2PA metadata and no underlying JPG; it is
+retained byte-for-byte and documented separately.
+
+The checked-in
+[`2026-09-09-provenance-crops.sh`](2026-09-09-provenance-crops.sh) script now
+also reproduces these three crops. Its current SHA-256 is
+`bd0219c40c9d4fe979ac2002d5268b4174270f68b49410b5e05d46add97fcd70`.
+It uses only native `-crop WIDTHxHEIGHT+X+Y`; it does not resize, Lanczos,
+sharpen, or otherwise enhance the source. The prior published PNGs were not
+supplied as imagegen references. Native outputs and temporary simulated 608px
+lesson-width renders were inspected; the temporary renders are not published.
+
+`RMSE` below is the normalized ImageMagick comparison against a temporary
+resized crop and is included only to show that the published output is not a
+resize-only copy.
+
+### Source-backed redraws
+
+| Published PNG | Lesson reference | Source JPG | Crop JPG | Crop `(x, y, width, height)` | Source SHA-256 | Crop SHA-256 | Previous PNG SHA-256 | Current PNG SHA-256 | Native | 608px | Imagegen execution | C2PA | RMSE |
+|---|---|---|---|---|---|---|---|---|---:|---:|---|---|---:|
+| `01-credit-risk-02-historical-data-imagegen.png` | `01-credit-risk.md:32` | `01-credit-risk-02-historical-data.jpg` | `01-credit-risk-02-historical-data-imagegen-crop.jpg` | `(120, 0, 260, 330)` | `24427766041b29b14f199161c5d2205b0afcb8fa002034d61eb5166753fe1652` | `ead8304237a173181970ea199bda83698c591548a978f84ecef94b82818055fc` | `b20b77d18c5b3d9c2ad33de2140ad03e26acdd56277e86c171e31bacfaf1c4df` | `e517ab930e53cdb67ca5fc78cfd09087c00e7a61a5363cedfaaee234f1b0cd56` | `1024x1536` | `405x608` | `exec-35aaff53-3193-4a18-89c9-383354616612` | `urn:c2pa:bbb51f0d-6766-4f0f-a385-aab83aeed6fb` | `0.207549` |
+| `01-credit-risk-03-probability-of-default-imagegen.png` | `01-credit-risk.md:60` | `01-credit-risk-03-probability-of-default.jpg` | `01-credit-risk-03-probability-of-default-imagegen-crop.jpg` | `(100, 0, 300, 330)` | `a098b20d62c5b8348c1d133764233863b44f81c078add1d9401ad247b6dd3b6a` | `417a26931c8f79b000a42c74411a72c6becfdcc0071503ae1f6544974b0f3e4f` | `223559a26a08366b31587be8d377741ee6743955592848062f4a264b57caa5c4` | `70259e761f8d477171dcd88fec22e4b21c0271d715f3f723922a48848336b917` | `1536x1024` | `608x405` | `exec-be7eb770-89fa-485e-87a8-b8a8257cd077` | `urn:c2pa:a6dbd073-1e72-4615-9dc0-c344f189e9f0` | `0.237373` |
+| `09-final-model-01-comparing-validation-imagegen.png` | `09-final-model.md:19` | `09-final-model-01-comparing-validation.jpg` | `09-final-model-01-comparing-validation-imagegen-crop.jpg` | `(0, 38, 500, 322)` | `c34252012dcc810d04ba5d122600703536ec59ead2bf79f0b1f70eb15adea179` | `4d1c65604abeae8bb20ae6b6ec06112b1887e98e2d4bcefab1e6fc82a8183c1d` | `bf7b4a3556e16fdd72a435c22a614dc02aaf7e85fe1e9b70838a5f6dff7be0a5` | `2e10aa735c2a3c0c2cf1f977e710b24c13aba2cd9bfcdb94c1c96ddb3a300e63` | `1617x973` | `608x366` | `exec-6164d31d-9258-40a8-9bc6-599e779bc709` | `urn:c2pa:0595c755-54e8-48cb-9f35-310258ccc0d3` | `0.256670` |
+
+### Preserved invariants and removed artifacts
+
+- Historical outcomes remain exactly `OK`, `OK`, `DEFAULT`, `DEFAULT`, `OK`.
+- The probability illustration retains `y`, `y ∈ {0,1}`, the `OK`/`DEFAULT`
+  mapping, and `g(xᵢ) → PROB OF DEFAULT`.
+- The final-model comparison retains the exact validation AUC values
+  `0.7850802838390931`, `0.8249709379767989`, and `0.8360387251459157`, the
+  exact tuned parameters, and the XGBoost winner callout.
+- Webcam tiles, color-wheel controls, browser/editor chrome, cursors, play
+  controls, selection overlays, and notebook framing were removed from all
+  three redraws.
+
+### Retained direct imagegen output
+
+| Published PNG | Lesson reference | Current PNG SHA-256 | Native | 608px | C2PA | Decision |
+|---|---|---|---:|---:|---|---|
+| `11-explore-more-01-ensemble-experiments-imagegen.png` | `11-explore-more.md:6` | `ec08605928cb35a3cf3ad47e3517df2d4e5596523b7d4dd49bb7daa8608f153f` | `1672x941` | `608x342` | `urn:c2pa:bb311753-4a6f-4e4c-8d34-f63a69a2dc76` | Retained byte-for-byte. This is a brand-new conceptual infographic with no original non-crisp JPG in the module. Its embedded C2PA record proves direct imagegen; native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, or selection overlay. The illustrated whiteboard frame and tray are part of the composition, not capture chrome. |
+
+No source/crop pair is fabricated for this direct imagegen asset.

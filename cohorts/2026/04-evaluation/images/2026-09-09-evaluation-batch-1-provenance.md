@@ -37,5 +37,8 @@ labels, complete compositions, exact percentages/scores, and no webcam,
 browser, cursor, overlay, or simple-upscale artifacts.
 
 The three outputs are a completed focused batch, not a repository-wide
-crispness approval. The remaining worker-owned references are listed in the
-task checkpoint and must be processed separately.
+crispness approval. The two remaining strict-audit references are now
+documented in
+[`2026-09-09-remaining-provenance.md`](2026-09-09-remaining-provenance.md),
+which records their source/crop/output chain or direct-imagegen retention
+decision.

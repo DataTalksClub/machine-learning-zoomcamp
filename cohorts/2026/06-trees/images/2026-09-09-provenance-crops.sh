@@ -51,3 +51,16 @@ crop "10-summary-05-gradient-boosting.jpg" \
 crop "10-summary-06-xgb-parameters.jpg" \
      "10-summary-06-xgb-parameters-imagegen-crop.jpg" \
      "465x185+90+78"
+
+# Remaining strict-audit queue. These bounds retain the lesson content while
+# excluding the webcam tile, color-wheel control, browser/editor chrome, and
+# cursor where the source frame contains them.
+crop "01-credit-risk-02-historical-data.jpg" \
+     "01-credit-risk-02-historical-data-imagegen-crop.jpg" \
+     "260x330+120+0"
+crop "01-credit-risk-03-probability-of-default.jpg" \
+     "01-credit-risk-03-probability-of-default-imagegen-crop.jpg" \
+     "300x330+100+0"
+crop "09-final-model-01-comparing-validation.jpg" \
+     "09-final-model-01-comparing-validation-imagegen-crop.jpg" \
+     "500x322+0+38"
