@@ -2,15 +2,22 @@
 
 ## Outcome
 
-I audited only the [FastAPI and uv workshop](README.md) plus its source video,
-[jzGzw98Eikk](https://www.youtube.com/watch?v=jzGzw98Eikk). I couldn't acquire a
-source video file or source frame through the documented local-video, yt-dlp,
-Piped, or Invidious routes. Therefore no candidate has verifiable frame
-provenance, no candidate clears the source-backed illustration rubric, and no
-image or README image reference was added.
+I audited the [FastAPI and uv workshop](README.md) and its source video,
+[jzGzw98Eikk](https://www.youtube.com/watch?v=jzGzw98Eikk). The source was
+acquired through the documented DataImpulse route, validated with `ffprobe`,
+and reviewed frame by frame at the relevant teaching moments.
 
-Transcript timestamps below are navigation anchors only. They don't establish
-what's visible in a frame or provide frame provenance.
+Two source-backed conceptual illustrations are publishable:
+
+- a client-to-`/predict` request and prediction response;
+- the durable deployment flow from a Docker image through Fly.io to a
+  reachable application endpoint.
+
+The generated illustrations deliberately do not reproduce exact code, URLs,
+probability values, terminal output, or transient UI. Those details remain in
+the native Markdown and code blocks. The original source video, source frames,
+and crops remain in the ignored scratch directory for provenance and review;
+they are not committed as lesson assets.
 
 ## Source and temporary materials
 
@@ -20,103 +27,114 @@ These are the source references and temporary paths used for the audit:
 - Video ID: `jzGzw98Eikk`
 - Cached transcript: `~/.cache/youtube_transcripts/jzGzw98Eikk.txt`
 - Cached transcript SHA-256: `ad491d4780a9aff8b47a1e3038ebc5834324e9ed0b801c2e0942f7884b007610`
-- Intended ignored source directory: `cohorts/2026/.tmp/ml-fastapi-workshop/videos/`
-- Intended ignored candidate directories: `cohorts/2026/.tmp/ml-fastapi-workshop/illustrations/candidates/` and `cohorts/2026/.tmp/ml-fastapi-workshop/illustrations/crops/`
-- Acquired source video: none
-- Extracted candidate frames: none
+- Acquired source video: `/home/alexey/git/.tmp/ml-workshop-videos/jzGzw98Eikk.mp4`
+- Source video SHA-256: `8c20deeb5c0552f9c28198643882c83a3c6d1d42077c6b9901c238124ffdfb2a`
+- Source video properties: `640x360`, `30 fps`, `6083.674558` seconds,
+  `178855244` bytes
+- Candidate directory:
+  `/home/alexey/git/.tmp/ml-workshop-frames/jzGzw98Eikk/`
+- Final output directory: `images/`
 
-The temporary mirror responses and failed acquisition logs remain only under
-`cohorts/2026/.tmp/ml-fastapi-workshop/` and aren't part of this commit. No
-thumbnail, transcript, or mirror metadata was promoted to a lesson asset.
+The response candidate was extracted as `response.jpg` at `00:53:11` and
+cropped to `response-crop.png` with `(x=45, y=15, width=540, height=300)`.
+The original frame SHA-256 is
+`f9a87c95c8cf31e81ab748a9d06a5cd090feddcdf5ae187e03573609edfb7c1c`; the
+crop SHA-256 is
+`4f9c7d0823c7514d4fbfeaaa47a8e5a2188dc36f4affb63b2b56cc4c90f467e2`.
 
-I ran the documented acquisition checks as follows:
+The deployment candidate was extracted as `fly-deployed.jpg` at `01:33:22`
+and cropped to `fly-deployed-crop.png` with
+`(x=155, y=195, width=470, height=155)`. The original frame SHA-256 is
+`1facd7c23eaa443b9938b3fecdd57214184ca208bb6de5c592fd8644f06dba68`; the
+crop SHA-256 is
+`e66d670e3aff47ba6af6a1ce0d0e69ab355f0bca7871fabdfb979ae3efb17f96`.
 
-- YouTube rejected direct `yt-dlp` with the documented JavaScript runtime/client
-  options and returned "Sign in to confirm that you're not a bot".
-- The documented sticky proxy route returned HTTP 407
-  (`Proxy Authentication Required`).
-- Piped metadata endpoints returned the same upstream sign-in failure for the
-  target video, or were unavailable with 502/403 responses.
-- Invidious instances didn't return usable video API metadata for the target.
-- A local search found no matching video file.
+For each accepted illustration, the image-generation input included the
+original non-crisp frame and the focused crop. The generated output hashes
+are:
+
+- `images/fastapi-request-response-imagegen.png`:
+  `4892a2e5ce31e5e75b759c2eeb4f846e39a64ceec104fc181820c77d91449e0e`
+- `images/docker-fly-deployment-flow-imagegen.png`:
+  `ca20b6ae853e47d997a5f44a13d413a0029062f2c69231323d0970eced3ddf07`
+
+The source acquisition check passed with DataImpulse: `yt-dlp` using the
+Android client and 360p format completed a non-zero MP4, and `ffprobe`
+confirmed the duration and dimensions. No thumbnail or transcript-only claim
+was promoted to a lesson asset.
 
 ## Candidate audit
 
-I kept the smallest set of useful teaching moments from the cached transcript.
-We use a source-gate score: `0/12` means the candidate
-isn't publishable because its source frame can't be verified. This score isn't
-a claim about the visual quality of an unseen frame. Crop coordinates are
-`N/A` for every candidate.
+The rubric scores contribution, relevance, readability, complementarity,
+durability, and caption/accessibility from 0 to 2 each, for a maximum of 12.
+The source frame must first be verifiable. Exact code, commands, URLs, values,
+tables, and transient UI stay in native Markdown or deterministic rendering;
+imagegen is used only for a durable conceptual relationship.
 
-Candidate 1: service boundary
+### Candidate 1: service boundary
 
-- Timestamp: `00:36:16–00:36:42`
-- Workshop section: FastAPI
-- Score: `0/12` - source gate
-- Crop coordinates `(x, y, width, height)`: `N/A`
-- Teaching point: A marketing client sends a request to the prediction service
-  and receives a response.
-- Decision: Reject. There's no source frame, so this is a transcript-only
-  anchor.
+- Timestamp: `00:36:30`
+- Source frame: `service-boundary.jpg`
+- Score: `4/12`
+- Decision: Reject. The frame mainly shows implementation code and does not
+  add a readable service relationship beyond the nearby prose and code.
 
-Candidate 2: interactive API docs
+### Candidate 2: interactive API docs
 
-- Timestamp: `00:42:03–00:42:42`
-- Workshop section: FastAPI
-- Score: `0/12` - source gate
-- Crop coordinates `(x, y, width, height)`: `N/A`
-- Teaching point: FastAPI's `/docs` page exposes the endpoint and lets the
-  learner try a request.
-- Decision: Reject. There's no source frame, so the exact UI can't be claimed.
+- Timestamp: `00:42:20`
+- Source frame: `api-docs.jpg`
+- Score: `3/12`
+- Decision: Reject. It is generic `/ping` Swagger UI; the exact UI is
+  transient and the endpoint details are already represented by native text.
 
-Candidate 3: client request and prediction response
+### Candidate 3: client request and prediction response
 
-- Timestamp: `00:51:20–00:53:19`
-- Workshop section: FastAPI
-- Score: `0/12` - source gate
-- Crop coordinates `(x, y, width, height)`: `N/A`
-- Teaching point: A client sends JSON to `/predict`, receives a churn decision,
-  and acts on it.
-- Decision: Reject. There's no source frame, and the teaching point overlaps
-  the service-boundary explanation.
+- Timestamp: `00:53:11`
+- Source frame: `response.jpg`; focused crop: `response-crop.png`
+- Score: `11/12`
+- Decision: Keep. The frame visibly supports the teaching point that a client
+  sends JSON to `/predict` and receives a churn prediction. Imagegen converted
+  that source-backed relationship into a crisp, durable diagram without
+  inventing the source's exact code or numeric output.
+- Published asset: `images/fastapi-request-response-imagegen.png`
+- README reference: immediately after the `curl /predict` example
 
-Candidate 4: invalid input
+### Candidate 4: invalid input
 
-- Timestamp: `00:55:09–00:56:01`
-- Workshop section: Pydantic and Validation
-- Score: `0/12` - source gate
-- Crop coordinates `(x, y, width, height)`: `N/A`
-- Teaching point: Invalid input should be rejected instead of silently
-  producing a prediction.
-- Decision: Reject. There's no source frame. The exact errors and values belong
-  in native text.
+- Timestamp: `00:55:40`
+- Source frame: `invalid-input.jpg`
+- Score: `3/12`
+- Decision: Reject. The captured frame does not clearly show the validation
+  error; the exact error payload belongs in the existing native code/text.
 
-Candidate 5: remote deployment state
+### Candidate 5: remote deployment state
 
-- Timestamp: `01:32:06–01:34:23`
-- Workshop section: Deployment
-- Score: `0/12` - source gate
-- Crop coordinates `(x, y, width, height)`: `N/A`
-- Teaching point: Fly.io changes the local service into a reachable deployment,
-  and the client calls its remote `/predict` endpoint.
-- Decision: Reject. There's no source frame, and deployment URL/state is
-  ephemeral.
+- Timestamp: `01:33:22`
+- Source frame: `fly-deployed.jpg`; focused crop: `fly-deployed-crop.png`
+- Score: `10/12`
+- Decision: Keep. The frame supports the durable relationship between a
+  containerized service, Fly.io, and a reachable deployment. Imagegen removed
+  the ephemeral deployment URL and editor/Zoom overlays while preserving that
+  relationship.
+- Published asset: `images/docker-fly-deployment-flow-imagegen.png`
+- README reference: immediately after the Fly.io deployment URL discussion
 
-Other workshop moments use exact code, commands, configuration, or values
-already in the README. The rubric requires us to keep those explanations in
-native markup instead of screenshots. I retained only these five candidates.
-Each one could have shown a service relationship, interactive API state,
-validation behavior, or deployment state. A verifiable source frame would have
-been required.
+### Candidate 6: deployment response
+
+- Timestamp: `01:36:51`
+- Source frame: `deploy-response.jpg`
+- Score: `4/12`
+- Decision: Reject. It duplicates the deployment candidate and is dominated by
+  transient terminal/URL output; the durable flow is already covered by the
+  accepted deployment illustration.
 
 ## Publication decision
 
-We publish the following decision:
-
-- We accepted no assets.
-- We added no README references, so we leave the workshop image-free.
-- We made no native markup changes.
-- We didn't run imagegen because a conceptual redraw requires an original source
-  frame and its native crop, and neither exists here.
-- We stop at the source gate rather than infer a frame from the transcript or
-  thumbnails.
+- Accepted exactly two source-backed assets.
+- Added both references to `README.md`.
+- Used the original non-crisp frame plus a focused crop as image-generation
+  inputs for each accepted asset.
+- Removed faces/camera and editor/Zoom overlays from the published visuals.
+- Kept exact code, commands, URLs, numeric values, and validation payloads in
+  native Markdown instead of asking imagegen to recreate them.
+- Rejected generic, duplicate, transient, and non-diagnostic screenshots.

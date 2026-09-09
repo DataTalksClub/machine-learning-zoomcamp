@@ -322,6 +322,11 @@ curl -X 'POST' 'http://localhost:9696/predict' \
 }'
 ```
 
+The request crosses the `/predict` service boundary and comes back as a
+prediction response:
+
+![A Python client sends customer data to a FastAPI /predict endpoint and receives a churn probability and decision.](images/fastapi-request-response-imagegen.png)
+
 We need to include headers -- FastAPI is more strict about schemas and 
 validation than Flask.
 
@@ -658,6 +663,11 @@ Visit your newly deployed app at https://mlzoomcamp-flask-uv.fly.dev/
 
 Put the url into test.py and check that it works.
 
+The deployment flow is: package the service as a Docker image, deploy it to
+Fly.io, and use the resulting reachable endpoint:
+
+![A Dockerized prediction service is deployed to Fly.io and exposed as a reachable endpoint.](images/docker-fly-deployment-flow-imagegen.png)
+
 Now you can terminate the deployment
 
 ```bash
@@ -674,5 +684,3 @@ In this workshop we dockerized our ML model and deployed it to the cloud.
 
 If you want to learn more about ML Engineering, check our
 [ML Zoomcamp course](https://github.com/DataTalksClub/machine-learning-zoomcamp/).
-
-
