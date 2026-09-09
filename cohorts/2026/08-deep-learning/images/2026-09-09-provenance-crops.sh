@@ -64,9 +64,11 @@ convert "$work/zoom-x.png" -fx '((u.b-u.r)>0.08) ? p{i,j+12} : u' "$work/zoom-x-
 convert "$work/zoom-y.png" -fx '((u.b-u.r)>0.08) ? p{i,j+12} : u' "$work/zoom-y-clean.png"
 convert "$work/zoom-x-clean.png" "$work/zoom-y-clean.png" -append "$root/10-augmentation-03-zoom-grid-native-crop.png"
 convert "$root/10-augmentation-03-zoom-grid-native-crop.png" -quality 92 "$root/10-augmentation-03-zoom-grid-native-crop.jpg"
-cp "$root/10-augmentation-03-zoom-grid-native-crop.png" "$root/10-augmentation-03-zoom-grid-imagegen.png"
+# The active PNG is a true imagegen redraw recorded in the repair ledger. Keep
+# this command limited to durable native crop evidence so rerunning it cannot
+# replace the imagegen output with a crop-only derivative.
 
 convert "$root/10-augmentation-06-val-stuck-077.jpg" -crop 300x185+90+100 +repage "$root/10-augmentation-06-val-stuck-077-native-crop.jpg"
-convert "$root/10-augmentation-06-val-stuck-077.jpg" -crop 300x185+90+100 +repage "$root/10-augmentation-06-val-stuck-077-imagegen.png"
+# The active PNG is a true imagegen redraw recorded in the repair ledger.
 convert "$root/12-using-model-03-load-img-pants.jpg" -crop 290x220+105+125 +repage "$root/12-using-model-03-load-img-pants-native-crop.jpg"
 convert "$root/12-using-model-03-load-img-pants.jpg" -crop 290x220+105+125 +repage "$root/12-using-model-03-load-img-pants-imagegen.png"

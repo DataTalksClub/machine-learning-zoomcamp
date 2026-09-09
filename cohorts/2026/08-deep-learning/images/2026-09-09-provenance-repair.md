@@ -2,10 +2,15 @@
 
 This ledger records the 28 provenance-blocked active refs in module 08 from
 the strict visual audit (44 active image refs in this module; 56 across
-modules 08–09). The 21 refs that the audit accepted were left byte-for-byte
+modules 08–09). Before this repair, module 08 was `44 = 28 blocked + 16
+accepted`; module 09 was `12 = 7 blocked + 5 accepted`; combined, `56 = 35
+blocked + 21 accepted`. The 21 already accepted refs were left byte-for-byte
 unchanged; their current evidence remains in
 `2026-09-08-imagegen-repair-provenance.md` and the deterministic repair ledger
-already tracked there.
+already tracked there. After the two independent-review repairs below, the
+arithmetic is module 08 `44 = 0 blocked + 44 accepted`, module 09
+`12 = 0 blocked + 12 accepted`, combined `56 = 0 blocked + 56 accepted`;
+all 35 formerly blocked active refs are now accepted.
 
 ## Method
 
@@ -58,7 +63,7 @@ and code/diagram meaning while excluding the presenter, face, camera,
 browser/editor chrome, cursor, play/selection/recording UI, page counters,
 and black borders.
 
-## Five deterministic/native replacements
+## Three deterministic/native replacements
 
 These are exact plots or screenshot artifacts, so imagegen was not used for
 the published replacement:
@@ -67,13 +72,25 @@ the published replacement:
 |---|---|
 | `07-checkpointing-04-save-best-only-imagegen.png` | Direct native crop of `07-checkpointing-04-save-best-only.jpg`, `438x305+22+0`; exact `VAL ACCURACY`, `75%`/`80%`, curve, save annotations, ticks, and `EPOCH` retained. |
 | `10-augmentation-02-flip-rotation-shift-grids-imagegen.png` | Native source regions `410x88+35+15`, `410x92+35+145`, `410x82+35+278`, appended without scaling; notebook controls excluded. |
-| `10-augmentation-03-zoom-grid-imagegen.png` | Native source regions `410x78+35+100` and `410x78+35+225`, appended without scaling; only blue selection/arrow pixels are locally removed. |
-| `10-augmentation-06-val-stuck-077-imagegen.png` | Direct native plot crop `300x185+90+100`; exact `val`/`train` curves, legend, axes, and values retained. |
 | `12-using-model-03-load-img-pants-imagegen.png` | Direct native image crop `290x220+105+125`; only the exact pants result is retained, without notebook chrome. |
 
-The native PNG replacements are produced directly from source crops in the
-crop script; the `*-native-crop.jpg` files are durable human-auditable crop
-evidence. No resize or sharpening is involved.
+The three native PNG replacements are produced directly from source crops in
+the crop script; the `*-native-crop.jpg` files are durable human-auditable
+crop evidence. No resize or sharpening is involved. The two independent-review
+targets below are deliberately excluded from this deterministic set: their
+active PNGs are true imagegen outputs.
+
+## Independent-review imagegen replacements (2)
+
+These two active refs correct the independent review of `db44278`. Each call
+supplied the original non-crisp JPG and the durable native crop only; the old
+active PNG was not an input. The crop script now reproduces crop evidence only
+and cannot overwrite either imagegen output.
+
+| Active output | Source JPG — SHA-256; dimensions; bytes | Native crop — SHA-256; dimensions; bytes | Imagegen output — SHA-256; dimensions; bytes | Execution / C2PA | Byte equality / checks |
+|---|---|---|---|---|---|
+| `10-augmentation-03-zoom-grid-imagegen.png` | `10-augmentation-03-zoom-grid.jpg` — `f1496e64afc5fd5c32506fa5af40d3fd1c00c2cb65ef145e86b5dd2ac543dbb9`; `592x360`; `35309` | `10-augmentation-03-zoom-grid-native-crop.jpg` — `c30f7e941be939c01259446cf8f3199f7e01b6923aadfee2a4b4584cb0494d7e`; `410x156`; `25738`; native regions `410x78+35+100` and `410x78+35+225`, cleaned and appended without scaling | `d0845dd9053a32c99750a5524101826b0afb72c6ac4c77b9b5847c831c32f711`; `2033x773`; `1255310` | `exec-054f571f-d9dc-4871-9f96-ea318631b60d`; `urn:c2pa:03909910-8e89-491f-a082-222261f30420` | Active bytes equal the imagegen cache (`cmp=PASS`) and differ from the pre-repair target (`cmp=PASS`). Native and 608px overlay/semantic checks pass; blue/black selection-arrow residue absent; crop reproducibility passes; no resize/sharpen-only path. |
+| `10-augmentation-06-val-stuck-077-imagegen.png` | `10-augmentation-06-val-stuck-077.jpg` — `1c63184adada36d3ccd1279112edad49cb32ba930b0cab6caa3bacc058ea9b4`; `592x360`; `24873` | `10-augmentation-06-val-stuck-077-native-crop.jpg` — `51e1d55e930fb537907478b0cb018fd92cc65d503a375272286c096d6045fca1`; `300x185`; `9195`; native crop `300x185+90+100` without scaling | `4c31b5b7958e60e3fe1c29d7726df69d762eab9714957580e9d2968526aebb24`; `1597x985`; `848383` | `exec-916545d5-e907-414b-a4e2-488cc0217961`; `urn:c2pa:86b5b33c-dbec-4fa3-b24c-fcc1d0485bf1` | Active bytes equal the imagegen cache (`cmp=PASS`) and differ from the pre-repair target (`cmp=PASS`). Native and 608px overlay/semantic checks pass; `val`/`train`, axes, ticks, and the 0.70–0.77 validation behavior retained; cursor absent; crop reproducibility passes; no resize/sharpen-only path. |
 
 ## Two current direct-imagegen refs left unchanged
 
