@@ -114,3 +114,81 @@ removal time are:
 No replacement image was generated. This is an intentional removal of the
 Markdown reference only; the original, crop, and prior PNG remain available
 for historical/source inspection.
+
+## Remaining strict-audit provenance queue — 2026-09-09
+
+The strict audit classified seven visually usable active references as
+`PROVENANCE-BLOCKED`. Six were screenshot-derived diagrams whose prior
+imagegen outputs had no durable native bounded crop recorded in this module.
+They were regenerated with built-in imagegen using only the original
+non-crisp JPG and the matching native crop below. The seventh reference is a
+direct conceptual imagegen illustration with no underlying JPG; its C2PA
+record and native/608px evidence were already valid, so it remains
+byte-for-byte unchanged.
+
+The checked-in crop script is
+[`2026-09-09-kubernetes-remaining-provenance-crops.sh`](2026-09-09-kubernetes-remaining-provenance-crops.sh),
+with SHA-256
+`b6f069162da08cc39c633ecfbd6ef673178dc53102250711691ca98597c3c4d5`.
+It uses only ImageMagick `-crop 475x360+23+0` and `+repage` on the original
+JPGs. It performs no resize, Lanczos pass, sharpening, or other enhancement.
+The previous published PNGs were not supplied as imagegen references.
+
+`RMSE` is the normalized ImageMagick comparison against a temporary crop
+resized to the published output dimensions. That resize exists only for the
+comparison and is not a generation step. Native outputs and temporary
+simulated 608px lesson-width renders were inspected; the temporary renders
+are not published.
+
+### Source-backed redraws
+
+`Crop` is `(x, y, width, height)` in source-JPG pixels. The accepted imagegen
+execution is the final generation after any rejected punctuation/count
+candidate; no prior PNG was used as an input.
+
+| Published PNG | Lesson reference | Source JPG | Crop JPG | Crop | Source SHA-256 | Crop SHA-256 | Previous PNG SHA-256 | Current PNG SHA-256 | Native | 608px | Imagegen execution | C2PA | RMSE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `01-overview-01-tf-serving-inference-imagegen.png` | `01-overview.md:32` | `01-overview-01-tf-serving-inference.jpg` | `01-overview-01-tf-serving-inference-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `52bc165a6f5ff7ebdeb6b500305c99539fe377ddcee267e82b04b08b82d391df` | `8fa51cd9dcf205e4ef2186d9646be430f1d509a77b20db08497079593a5a5eb8` | `e8b58f08b7f062601d87af6f1adbf57f25134a8089fd12eddb8fbfc26ffc0a3a` | `c4f0273103c931235407144edb01a3481bcc82d442fb6232fb2b6d53e57347e1` | `1611x976` | `608x368` | `exec-a4b98d91-1f8c-4a73-baf9-69b20cdca23a` | `urn:c2pa:5e5f9f3f-9fd0-4967-b0a8-c3a691570ae6` | `0.171616` |
+| `01-overview-02-architecture-imagegen.png` | `01-overview.md:50` | `01-overview-02-architecture.jpg` | `01-overview-02-architecture-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `19d43fa5991cb5b015fcca856c52944d43d3689a157f5632b450ebba661bc393` | `009f947ca9ab47a95426ba9e8135e61b077e7edc194c3bb45065f5a6423cf352` | `db231786c8faf838b8631512af7ded392cfe8f5775b6037ee554c5aecc086ae6` | `c1e7944c16fb528af49a04409525662cb051cb9f02c5f7feb34e04532c380da9` | `1734x907` | `608x318` | `exec-89dbd4bd-8327-4e15-8ae0-62dbd6d4fed5` | `urn:c2pa:89dc36ce-aecb-4e9a-9e3e-921852e146cd` | `0.240921` |
+| `01-overview-03-grpc-imagegen.png` | `01-overview.md:56` | `01-overview-03-grpc.jpg` | `01-overview-03-grpc-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `3a4263e5b798ad0c9e88d59fb01abcafb5449a926ff612899129ecfdb6321d69` | `2745d42c733a5c5c570205d56684843ac340b1242b5de0e8712ebded6900f0db` | `2e244f01603f884a6dc50836f1b8e3cda64bd9ac0c6e119b836a5f1a53e3b534` | `53fc0a2a9a0e219d785fd14a0beba4ae3f063c343644240f349fbe491dad3403` | `1615x974` | `608x367` | `exec-c5de28b5-4395-43ea-be54-9d04d01811b2` | `urn:c2pa:c217274b-d43c-427d-830b-149ef81684f5` | `0.234913` |
+| `01-overview-04-kubernetes-imagegen.png` | `01-overview.md:84` | `01-overview-04-kubernetes.jpg` | `01-overview-04-kubernetes-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `fadcba2ea3d41aacd0431409188cd9b2f4718defb26bce993a025391533ef530` | `58bf950ba1c69ac6879057b75606032d79bae2e51632bfc6aaba461f74968288` | `208697c52d7abd8a9c8b9539ae1f3ad7f7c089c3302ef0b2a272b49d4715a80d` | `055379857302dcb924a38375ee3b6d3ffc01f06d5a04025df1ebc4a18bf89977` | `1615x974` | `608x367` | `exec-69a5b988-9d5a-4335-b0bc-a14b0c2d8393` | `urn:c2pa:8b04e4f2-2879-4964-b41c-6fd7cc1a5fd6` | `0.264473` |
+| `05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png` | `05-kubernetes-intro.md:34` | `05-kubernetes-intro-01-cluster-nodes-pods.jpg` | `05-kubernetes-intro-01-cluster-nodes-pods-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `58cd777b900a3be4f7ace1c831c2f41146dd129aca8d150ff928c8c76cc094e3` | `8536ec5a7d912af194c03cda3fc122e4bc816e97d20514aa20f5e0b5410f339f` | `aeaee13aaefad5df9948aa283853073aef825fb8a7e71c2bd717a367d34c7137` | `1c99dd9488aa5a83a928e0c3127d42747e82872989e2970ffe984ae2b0b29f98` | `1441x1092` | `608x461` | `exec-81033f07-303e-4000-a08b-2f509f748f82` | `urn:c2pa:9468c0c9-4322-47ef-a436-5b9ac3b45129` | `0.215700` |
+| `05-kubernetes-intro-02-deployments-imagegen.png` | `05-kubernetes-intro.md:48` | `05-kubernetes-intro-02-deployments.jpg` | `05-kubernetes-intro-02-deployments-imagegen-crop.jpg` | `(23, 0, 475, 360)` | `dee2c002ba15a9987a92b4302fb0917e11e97f830b1e28cbfbace31672c0f52f` | `52d7e6a2f90856c4a07c6a8e458e800dc6b86cd3eb02450c171f658bec048435` | `53f3a9271ded0fe0fb8de5d5f6f4500fb47ce8d0f45e0d5624a94431cb045c08` | `3c226f2d03d6ee30fe372a1317120cb647495b298f0d193b33ef9adee8931ff7` | `1441x1092` | `608x461` | `exec-94ab12dc-7733-4e30-b211-4c2e8f94a87b` | `urn:c2pa:ce868a1f-3926-43c1-892b-eb664fe2a70b` | `0.313808` |
+
+### Preserved invariants and removed artifacts
+
+- The inference diagram keeps the one input arrow, `X`, `INFERENCE`,
+  `TF-SERVING`, `C++`, and `CLOTHING MODEL`.
+- The architecture and gRPC diagrams keep the exact website → gateway →
+  TF-Serving routing, both return arrows, `URL`, `X`, `gRPC`, `10 NUMBERS`,
+  and the visible response notation `"pants": 9.88,...`.
+- The Kubernetes-boundary diagram keeps the website outside one Kubernetes
+  boundary, the gateway/Flask and TF-Serving/C++ boxes inside it, and the
+  request/response arrows and labels.
+- The nodes/pods diagram contains exactly two nodes and four pod boxes.
+- The deployments diagram contains exactly two nodes, two deployment
+  boundaries, and exactly four pods: two Gateway pods and two TF-Serving pods,
+  with both `SAME IMAGE & CONFIG` arrow relationships.
+- Faces, webcam/camera tiles, black capture bars, browser/editor/recorder
+  chrome, cursors, play controls, page indicators, selection overlays, and
+  watermarks were removed from all six redraws.
+
+### Retained direct imagegen output
+
+| Published PNG | Lesson reference | Current PNG SHA-256 | Native | 608px | C2PA | Decision |
+| --- | --- | --- | --- | --- | --- | --- |
+| `10-explore-more-01-cluster-options-imagegen.png` | `10-explore-more.md:4` | `216afd9b895871b913de353aa95858b8d0eef87bad4f14916da2a7179a7054f1` | `1672x941` | `608x342` | `urn:c2pa:dfb0341e-c583-42dd-9340-a15611ab0e60` | Retained byte-for-byte. This is a brand-new conceptual local/managed-cloud Kubernetes infographic with no original non-crisp JPG. Its C2PA record proves direct imagegen; native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, selection overlay, or watermark. |
+
+No source/crop pair was fabricated for this direct imagegen asset.
+
+### Verification checkpoint
+
+- All seven audited active references resolve from the lesson Markdown.
+- All six source-backed outputs carry C2PA metadata and have a durable
+  original JPG → native crop → imagegen output chain.
+- All six source-backed output/crop comparisons are materially different
+  from a resized crop (`RMSE` `0.171616`–`0.313808`), so no resize-only,
+  Lanczos-only, or sharpen-only output was accepted.
+- Native and simulated 608px visual inspection confirmed legible labels,
+  routing/arrows, exact pod counts, and no capture overlays. The temporary
+  608px renders are not committed.
