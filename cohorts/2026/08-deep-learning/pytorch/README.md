@@ -692,6 +692,11 @@ Common transformations:
 - Shifting
 - Shearing
 
+These transformations create varied training views while preserving the
+underlying class label:
+
+![Training-time augmentation creates rotated, cropped, and flipped views of the same pants image while keeping the pants label.](images/training-time-augmentation-imagegen.png)
+
 Important rules:
 - ✅ Apply ONLY to training data
 - ❌ Never augment validation/test data
@@ -882,4 +887,3 @@ We will use it in the Serverless module.
 ## Credits
 
 This workshop is based on the ML Zoomcamp Deep Learning module by [Alexey Grigorev](https://github.com/alexeygrigorev), adapted to use PyTorch instead of TensorFlow/Keras.
-

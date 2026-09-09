@@ -1,51 +1,46 @@
-# PyTorch workshop visual audit
+# Workshop illustration audit — Deep Learning / PyTorch
 
-Date: 2026-09-09
-Scope: [PyTorch workshop README](README.md) and source video `Ne25VujHRLA` only
+Audit date: 2026-09-09
 
-## Result
+The source video was sampled for durable teaching moments. Direct screenshots
+were rejected because the 640x360 recording includes presenter, Zoom, browser,
+editor, play-button, and exact-code artifacts. The accepted visual is a
+conceptual imagegen redraw of the strongest candidate, using the original frame
+and a focused crop as imagegen references. It is not an enlarged screenshot.
 
-No image is published. The README had no image references before this audit and
-still has none. Six transcript-backed moments were worth checking, but no frame
-could be acquired for visual review, so none can pass the rubric's readability,
-fidelity, or caption hard gates. No imagegen regeneration was run without an
-original frame and native crop.
+## Source and accepted asset
 
-## Source and temporary provenance
+- YouTube video: `Ne25VujHRLA`
+- Source: `/home/alexey/git/.tmp/ml-workshop-videos/Ne25VujHRLA.mp4`
+- Source SHA-256:
+  `bb1f04ece85783fd25fe8b72923e2dcb84c0401ffc5a8c00b2919c684d12538`
+- Source properties: `640x360`, `5114.984490` seconds
+- Timestamp: approximately `01:08:00` (coarse sample, C05)
+- Original frame: `source-frames/coarse/frame-0069.jpg`
+- Original frame SHA-256:
+  `71e595ac7da2d2b3d342efecf4d457782d6dd4d1f52d4c1496dfd5990c73c485`
+- Focused crop: `crops/c05-augmentation-rotation-clean.jpg`,
+  `(x=201, y=47, width=270, height=250)`
+- Focused crop SHA-256:
+  `f0d81013a38246ef5ebc44912b63909fc14a3d2b8f15c6929c4186eb0e553923`
+- Published asset:
+  `images/training-time-augmentation-imagegen.png`
+- Published asset SHA-256:
+  `492853fe5b868aa37e5d6e51b1ba347949ea21aeedffdd5ebeb50be46592d996`
 
-- Source: `https://www.youtube.com/watch?v=Ne25VujHRLA`
-- Transcript: `/home/alexey/.cache/youtube_transcripts/Ne25VujHRLA.txt`
-- Temporary source/candidate workspace: `/home/alexey/git/.tmp/mlzoomcamp-pytorch-audit/`
-- Local source video: not acquired; no source video or candidate frame was copied into the repository.
-- Route A (`yt-dlp` through the documented sticky Oxylabs session): unavailable with the documented `407 Proxy Authentication Required` quota response.
-- Route B (the documented Piped/Invidious mirror rotation): no usable stream metadata; Piped returned bot-block/error responses and the available Invidious endpoints were disabled, blocked, or challenge pages. The browser embed also returned `LOGIN_REQUIRED`.
+Both the original frame and the focused crop were supplied to imagegen. The
+redraw preserves only the supported relationship: rotation, cropping, and
+flipping produce varied training views of the same pants image while retaining
+the class label. It removes the presenter, camera/Zoom overlay, editor canvas,
+checkerboard residue, exact code, and invented numeric values.
 
-The strict `0/12` scores below mean “not reviewable and therefore rejected,”
-not that the transcript-backed teaching point is inherently worthless. Crop
-coordinates are `—` because no source frame exists to crop.
+## Review decision
 
-## Candidate ledger
+The raw C05 screenshot scored `23/30` as a redraw seed but failed direct
+publication because it was an editor screenshot with residue and showed only a
+single transformed view. The conceptual redraw passed the independent review:
+it is crisp and legible at normal lesson width, accurately complements the
+transformation list, contains no faces or transient UI, and is recommended for
+publication immediately after the list of common transformations.
 
-| Timestamp | Workshop section | Teaching point | Score | Crop coordinates | Disposition |
-| --- | --- | --- | ---: | --- | --- |
-| 18:30 | 3. Pre-trained Models | A pretrained ImageNet model produces ranked class predictions for a clothing image before task-specific training. | 0/12 | — | Reject: no frame to verify the output or readability; exact output would require native source rendering. |
-| 31:16 | 5. Transfer Learning | Freeze the pretrained feature extractor, pool its 1,280 features, and replace the original head with 10 clothing outputs. | 0/12 | — | Reject: no frame to inspect; if recovered, this conceptual relationship is eligible for crop plus imagegen regeneration. |
-| 41:18 | 5. Transfer Learning | The manual PyTorch loop reports train/validation loss and accuracy across epochs. | 0/12 | — | Reject: no frame to verify the measured result; exact logs are source data, not imagegen material. |
-| 45:42 | 6. Tuning the Learning Rate | The reading-speed analogy explains why an overly high or low learning rate can hurt training. | 0/12 | — | Reject: no frame to inspect; if the drawn analogy is present, it is eligible for crop plus imagegen regeneration. |
-| 67:45 | 10. Data Augmentation | Rotation, cropping, flipping, zooming, and related variants create new training views from one image. | 0/12 | — | Reject: no frame to inspect; if the transformation visual is present, it is eligible for crop plus imagegen regeneration. |
-| 79:24 | 11. Using the Trained Model | The final model maps a preprocessed image to clothing-class scores, with pants as the winning class. | 0/12 | — | Reject: no frame to verify the exact scores; exact values must remain native/deterministic. |
-
-These are the minimum plausible candidates from the transcript. Setup screens,
-browser/Colab navigation, repeated code cells, checkpoint filenames, and the
-ONNX export cell were excluded because they are already expressible in the
-README or fail the rubric's complementarity hard gate.
-
-## Reopening this audit
-
-When a local source becomes available, extract only the six timestamps above
-plus nearby `±3 s` candidates under `.tmp`, inspect every frame at lesson size,
-record real source dimensions and crop coordinates here, and publish only a
-candidate that scores at least 7/12 without a hard-gate violation. Preserve
-exact code, UI, plots, numbers, and outputs deterministically; use imagegen
-only for a bounded conceptual diagram after retaining both the original frame
-and native crop.
+Independent review: `/home/alexey/git/.tmp/workshop-processing/ml-2026-deep-learning/INDEPENDENT-REVIEW.md`.
