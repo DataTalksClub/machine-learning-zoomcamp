@@ -6,72 +6,89 @@ Audit date: 2026-09-09
 
 ## Decision
 
-No image was accepted and no image reference was added to the workshop README.
-The transcript contains useful teaching moments, but the source video could not
-be downloaded or mirrored in this environment. Without a source frame, there is
-no defensible crop, readability check, or source-backed visual score. The
-accepted set is therefore empty.
+The source video was acquired through the documented DataImpulse route and
+validated with `ffprobe`. Two clean conceptual illustrations are published:
 
-For the candidate table below, `0/12 (hard-gated)` is an audit score, not a
-claim that the underlying video scene has no instructional value: an absent
-source frame cannot pass the rubric's crop, readability, caption, or provenance
-gates. Crop coordinates are recorded as `N/A` rather than guessed.
+1. a customer event invoking an AWS Lambda function and receiving a prediction
+   response;
+2. the framework-to-ONNX-to-ONNX Runtime interoperability relationship.
+
+The raw screenshots are not published. They contain transient AWS/browser/
+editor state, exact code or values, presenter/Zoom overlays, or a misleading
+web search panel. Exact code, commands, URLs, JSON, tables, and numeric output
+remain native README content.
 
 ## Source and workflow provenance
 
+- Source file: `/home/alexey/git/.tmp/ml-workshop-videos/sHQaeVm5hT8.mp4`
+- Source SHA-256:
+  `06fb0c38bede2f7e98aae97c1e5095be7ade0cfb7f2745eb0d1acedcf027786e`
+- Source properties: `640x360`, H.264/AAC, `5528.903401` seconds,
+  `184016612` bytes
 - Transcript: `/home/alexey/.cache/youtube_transcripts/sHQaeVm5hT8.txt`
-  (SHA-256 `26c7964e50743faae5ad39803a1f55cfac4054253e726bdd53d427b88ed51f06`).
-- Scratch root: `.tmp/ml-serverless-audit/` (gitignored through the local
-  repository exclude). The source-video destination was
-  `.tmp/ml-serverless-audit/videos/sHQaeVm5hT8.mp4`; no video was written.
-- Route A, the documented `yt-dlp` + Oxylabs workflow, failed with HTTP `407`
-  (`Tunnel connection failed: Proxy Authentication Required`).
-- Route B, the documented Piped/Invidious workflow, was probed against the
-  documented and current public instances. Responses were `LOGIN_REQUIRED`,
-  `403`, Cloudflare challenge, gateway errors, or unavailable hosts; no valid
-  stream metadata or downloadable media was obtained.
-- A direct `yt-dlp` run, YouTube Innertube client variants, and available local
-  video search were also checked. They produced no usable local source.
-- YouTube title/auto-thumbnail files were retained only in scratch for source
-  checking. They show a title card, presenter/browser chrome, repository
-  navigation, or AWS chrome; they are not candidate teaching assets and have no
-  reliable video timestamps.
-- No imagegen regeneration was run. The only conceptual candidate (the ONNX
-  framework relationship) had no original frame and native crop to provide to
-  imagegen. Exact UI, code, commands, values, and outputs remain native README
-  material rather than generated pixels.
+  (SHA-256 `26c7964e50743faae5ad39803a1f55cfac4054253e726bdd53d427b88ed51f06`)
+- Scratch audit: `/home/alexey/git/.tmp/workshop-processing/ml-2026-serverless-kubernetes/serverless/AUDIT.md`
+- Independent review:
+  `/home/alexey/git/.tmp/workshop-processing/ml-2026-serverless-kubernetes/INDEPENDENT-REVIEW.md`
+
+The Lambda source frame is `s02-lambda-prediction.png` at `00:17:07`, with
+SHA-256
+`21e86b4709fc57b3073f614737df3b297eaa95a6f7f3ce793fb319e860d07cfc`.
+The focused crop uses `(x=0, y=70, width=640, height=245)` and has SHA-256
+`ac572b7c5151270c3d47c07774044be1cdd7862313dea8232b1fa6debce43afb`.
+The original frame and crop were both supplied to imagegen. The generated
+asset has SHA-256
+`85ecab48466ebca2ba1a2e395a223864aaaae4d91fe203457c4529e689b90884` and is
+`images/aws-lambda-invocation-prediction-imagegen.png`.
+
+The ONNX source frame is `s09-onnx-framework-diagram.png` at `00:52:15`, with
+SHA-256
+`b865b3d7d80bf314bb94ea5cd2ff3840a0760afff6796e9ffbdeaeafd90126fe`.
+The focused crop uses `(x=350, y=100, width=270, height=190)` and has SHA-256
+`fce33e375c4b9710da95e21a38b14ac9d6c5bcc5f3c9a2202479a14558e6cb1c`.
+The original frame and crop were supplied to imagegen as source context, but
+the published diagram is explicitly a prompt-native conceptual illustration,
+not a literal redraw of the crop: the crop is a Google results page and ONNX
+knowledge panel, not a framework-flow diagram. The generated asset has
+SHA-256
+`ff97513fcfbc8a569eceb31ce6b430e3bb052775a84542c14ea25c93ca381a28` and is
+`images/onnx-framework-interoperability-imagegen.png`.
+
+Generation guardrails for both assets: remove presenter/webcam, Zoom/browser/
+editor chrome, cursor, account/workspace identifiers, exact code, URLs,
+numbers, and transient UI; use only durable concepts supported by the workshop
+README and the reviewed source context. The imagegen outputs carry their own
+C2PA generation assertions; the output hashes above are the repository-file
+checksums.
 
 ## Candidate register
 
-The timestamps are transcript-backed ranges. A candidate is a teaching moment
-that would have been frame-extracted and scored if the source video had been
-available. Every candidate is rejected at the source-frame hard gate; none was
-published.
+The six-part rubric scores contribution, relevance, readability,
+complementarity, durability, and accessibility from 0 to 2 each. A raw frame
+must pass the source and cleanliness gates before it can seed a regeneration.
 
-| ID | Timestamp | Workshop section | Score | Crop coordinates | Teaching point | Decision |
-| --- | --- | --- | --- | --- | --- | --- |
-| S01 | 00:10:09–00:11:20 | Scikit-Learn Models | 0/12 (hard-gated) | N/A — no source frame | Training produces `model.bin`, the model artifact later packaged for Lambda. | Reject: exact artifact/file state is already stated in the README; no frame to verify. |
-| S02 | 00:15:01–00:15:09 | AWS Lambda | 0/12 (hard-gated) | N/A — no source frame | A first Lambda test succeeds and returns a response. | Reject: exact test response is already native JSON in the README; no frame to verify. |
-| S03 | 00:17:05–00:17:29 | AWS Lambda | 0/12 (hard-gated) | N/A — no source frame | The simple handler returns `0.56` and `churn: true` before the real model is installed. | Reject: exact values are already native JSON/code; no frame to verify. |
-| S04 | 00:21:19–00:25:08 | AWS Lambda with Docker: Running Locally | 0/12 (hard-gated) | N/A — no source frame | Docker packages the Lambda handler, model, and dependencies; `CMD` identifies the handler entry point. | Hold only as a possible conceptual visual; no original frame/crop for a faithful regeneration. |
-| S05 | 00:26:57–00:30:45 | AWS Lambda with Docker: Running Locally | 0/12 (hard-gated) | N/A — no source frame | The first local invocation exposes the virtual-environment dependency mistake and the system-install fix. | Reject: exact error and commands belong in native code/terminal text; no frame to verify. |
-| S06 | 00:31:07–00:31:35 | AWS Lambda with Docker: Running Locally | 0/12 (hard-gated) | N/A — no source frame | The model works inside the local Docker container after dependencies are installed correctly. | Reject pending a clean, readable result frame; no frame to verify. |
-| S07 | 00:32:49–00:40:58 | AWS Lambda: Deployment | 0/12 (hard-gated) | N/A — no source frame | The image moves from a local Docker tag through ECR authentication and push. | Reject: commands and registry values are exact material already represented natively; no frame to verify. |
-| S08 | 00:46:25–00:48:12 | AWS Lambda: Deployment | 0/12 (hard-gated) | N/A — no source frame | A container-backed Lambda has a slower cold start, then faster warm invocations because the image/model remains loaded. | Hold as the strongest state-change candidate; no frame to verify readability or caption match. |
-| S09 | 00:52:00–00:52:42 | AWS Lambda: TensorFlow Models | 0/12 (hard-gated) | N/A — no source frame | Keras, PyTorch, and other frameworks converge on ONNX, which ONNX Runtime serves. | Reject: conceptual diagram would require the original frame plus native crop for imagegen; neither is available. |
-| S10 | 00:54:06–01:00:22 | AWS Lambda: TensorFlow Models | 0/12 (hard-gated) | N/A — no source frame | Keras model → SavedModel → ONNX conversion, isolated in Docker to control dependencies. | Reject: process can be expressed natively and no original frame is available for a faithful visual. |
-| S11 | 01:01:17–01:08:29 | AWS Lambda: TensorFlow Models | 0/12 (hard-gated) | N/A — no source frame | ONNX Runtime receives a preprocessed clothing image and produces ten class scores, with pants highest. | Hold as a possible result visual; no frame to verify the image, scores, or legibility. |
-| S12 | 01:19:19–01:20:04 | AWS Lambda: PyTorch Models | 0/12 (hard-gated) | N/A — no source frame | PyTorch exports directly to ONNX and can reuse the ONNX serving path. | Reject: relationship is concise native prose/code and no source frame is available. |
-| S13 | 01:26:55–01:27:08 | AWS Lambda: PyTorch Models | 0/12 (hard-gated) | N/A — no source frame | After the input-size fix, the PyTorch-backed classifier again predicts pants with the highest score. | Hold as a possible result visual; no frame to verify the output. |
+| ID | Timestamp | Visible source state | Raw decision | Published treatment |
+| --- | --- | --- | --- | --- |
+| S01 | `00:14:53` | Lambda starter code/test-event chooser | Reject: exact transient UI/code | None |
+| S02 | `00:17:07` | Lambda editor and JSON prediction response; raw `4/12` | Reject as screenshot: exact code/values and overlay | Keep conceptual flow; `aws-lambda-invocation-prediction-imagegen.png` passes independent review |
+| S03–S08 | `00:25:14`–`00:47:58` | Dockerfile, ECR commands, Lambda console, cold/warm invocation states | Reject: exact code/commands/values or transient UI | Native README/code only |
+| S09 | `00:52:15` | Google results page and ONNX knowledge panel; preliminary crop candidate | Reject crop: small/misdescribed web panel | Keep only a separate prompt-native ONNX concept, with provenance correction recorded above |
+| S10–S15 | `00:59:04`–`01:26:55` | Conversion code/logs, image input, exact prediction values and tables | Reject: native exact material and overlays | Native README/code only |
+| S16 | `01:28:44` | GitHub `keras_image_helper` code view with presenter/Zoom overlay | Reject: code screenshot; earlier audit label corrected | Native README/code only |
 
 ## Review gate
 
-Implementer pass: transcript-only candidate register completed; no candidate
-was promoted without a local source frame, native crop coordinates, and a
-normal-size readability check.
+Independent review result:
 
-Independent adversarial review: **REJECT / NO ASSET**. The proposed set would
-either duplicate exact README material, rely on an unverified screenshot, or
-require inventing pixels and crop coordinates. Publishing nothing is the only
-rubric-compliant outcome until a valid local video or mirror is available.
+- Lambda conceptual diagram: **PASS**. It is crisp at lesson width, source/
+  README-supported, and contains no face, webcam, Zoom, browser, or editor
+  overlay.
+- ONNX conceptual diagram: **PASS after provenance correction**. Its visual
+  content is supported by the README's Keras/PyTorch → ONNX → ONNX Runtime
+  flow, but it must not be described as a literal redraw of S09.
+- S09 raw crop: **FAIL** and not published.
+- Kubernetes workshop: no image; the independent reviewer confirmed that
+  native YAML, commands, JSON, and status tables are the correct treatment.
 
+The rejected source frames remain in ignored scratch storage for traceability;
+none is a final lesson asset.

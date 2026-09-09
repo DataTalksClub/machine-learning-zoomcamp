@@ -124,6 +124,11 @@ We see the predictions:
 }
 ```
 
+The durable flow is a customer event invoking the Lambda function and
+returning a prediction response:
+
+![A customer event invokes an AWS Lambda function and receives a prediction response with a probability and decision.](images/aws-lambda-invocation-prediction-imagegen.png)
+
 Invoking with CLI: 
 
 ```bash
@@ -392,6 +397,11 @@ Invoking the function is the same as before. See [`invoke.py`](lambda-sklearn/in
 Previously we used TF-lite for AWS Lambda. 
 
 In this workshop, we'll use an alternative - ONNX (Open Neural Network Exchange).
+
+The interoperability idea is that models from different frameworks can be
+converted to one exchange format and served through the same runtime:
+
+![Keras, PyTorch, and other frameworks can produce an ONNX model that runs with ONNX Runtime.](images/onnx-framework-interoperability-imagegen.png)
 
 We need will use the same Keras model as before.
 It was retrained for the newest TF version, you
@@ -689,4 +699,3 @@ We covered:
 - Implement monitoring and logging with CloudWatch
 - Consider using AWS Step Functions for complex ML workflows
 - Explore other serverless services like AWS Batch for training
-
