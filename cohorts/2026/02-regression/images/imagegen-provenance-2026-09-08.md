@@ -47,3 +47,41 @@ Rejected during visual review: the first validation redraw used subscript-like
 labels; an MSRP redraw changed visible table values; and two under-100,000
 histogram redraws contained stray punctuation/line artifacts. None of those
 outputs is published.
+
+## Focused current-reference audit: 2026-09-09
+
+The current `*imagegen*.png` reference set contains exactly twelve published
+targets across modules 02 and 03. This section records the four regression
+targets; the eight classification targets are recorded in the corresponding
+classification ledger. The three rows marked `REGENERATED` now have durable
+target-specific evidence from the unchanged original JPG, a bounded native
+crop, and a fresh built-in imagegen output. The previous published PNG was not
+used as an imagegen input.
+
+| Published target | Original source | Crop `(x,y,width,height)` | Retained crop | Imagegen output | Source SHA-256 | Crop SHA-256 | Final SHA-256 | Final dimensions | Disposition |
+|---|---|---:|---|---|---|---|---|---:|---|
+| `05-linear-regression-simple-01-one-car-one-price-imagegen-pilot.png` | `05-linear-regression-simple-01-one-car-one-price.jpg` | `(25,0,470,340)` | `05-linear-regression-simple-01-one-car-one-price-imagegen-crop.jpg` | `exec-65bf2408-9fe3-4f95-aaae-1a171db00530` | `194180f3da215af459ed369029319d44d309ebb4559aaac314c6d39510b20d91` | `61a5b901691f74323965cea5284ac9e785c6fcb21bf02d419b1bda9ea3ea7752` | `88953eb79f8c0ca8eb7a35b6f8f0259ef71c716ac36004356cdc74bb13bb7daf` | `1475x1067` | **REGENERATED / ACCEPT** |
+| `11-feature-engineering-01-feature-engineering-imagegen.png` | `11-feature-engineering-01-year-column.jpg` | `(15,80,480,260)` | `11-feature-engineering-01-feature-engineering-imagegen-crop.jpg` | `exec-30b04bdd-9000-45de-b5c6-b42035e2e835` | `f5df307802221f1da8e1fc9537db31d8e578584cdb6c07b19ee18c75be22d737` | `13dec6cff48bc8c60cee880aa031de9b29a618c94a526c5d7668bbf63445f18d` | `09eb22ad57c57f260cf95296f8d45908ab04cf6e90fe0218acf1688a23e24f98` | `1942x809` | **REGENERATED / ACCEPT** |
+| `15-using-model-05-website-request-diagram-imagegen.png` | `15-using-model-05-website-request-diagram.jpg` | `(20,5,485,330)` | `15-using-model-05-website-request-diagram-imagegen-crop.jpg` | `exec-a898c763-66c5-4454-bd0c-998124bb9591` | `745465a2ca409edfc6fdaca5602d1a2fe98c8d35f7a9590fec0ec5182ce09c32` | `fdd65bee01a701c29481c290985c1e845c86247dcc6f0271de71dac03352f9ec` | `384bc5828616c1e4814d1a83c31d733f0cd2588e22369991317e4e39bab04fc0` | `1677x938` | **REGENERATED / ACCEPT** |
+| `17-explore-more-01-feature-experiments-imagegen.png` | `N/A — standalone generated asset; no target-specific source JPG exists` | `N/A` | `N/A — no source crop exists` | `C2PA claim `urn:c2pa:97ea80b6-608a-4041-97f5-334a5122b325`; execution ID not retained | `N/A` | `N/A` | `2a61cbd5a94153f2d5d1a6a7999890eb657e3ec576e1355dbf3b5149998d382e` | `1672x941` | **UNCHANGED / ACCEPT** — existing OpenAI C2PA imagegen output; no prior target was used |
+
+### Inspection and invariants
+
+- The three regenerated outputs were copied byte-for-byte from the built-in
+  imagegen results. They were inspected at native size and at simulated 608px
+  lesson width: `05` at `608x440`, `11` at `608x253`, and `15` at `608x340`.
+- `05` preserves `g(x_i) ≈ y_i`, the `A CAR` and `ITS PRICE` labels, arrows,
+  and the visible lower fragment `x_i = (x_i1`. `11` preserves `year` with
+  `2008`, `2012`, `2016`, the exact `2017 − year` transformation, `age` with
+  `9`, `5`, `1`, and the `Model` / `Input Matrix` endpoint. `15` preserves
+  `TOYOTA`, `SIENNA`, the empty form fields, arrow, braces, and ellipsis.
+- Face, camera, browser/editor chrome, cursor, playback, selection, black
+  border, and watermark overlays were removed. No upscale, Lanczos resize, or
+  sharpening was used to create a published target.
+- `17` was already a valid standalone built-in imagegen output with OpenAI
+  C2PA metadata, so it was left byte-identical. Its existing native and 608px
+  inspections passed; no original JPG or bounded crop is available for this
+  standalone illustration by design.
+- The three original JPGs and three bounded native crops remain in this
+  directory. Their source and crop hashes above provide the reproducible
+  input chain for the regenerated targets.

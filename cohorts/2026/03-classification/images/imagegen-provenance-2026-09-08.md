@@ -127,3 +127,39 @@ published PNGs were not used as imagegen inputs.
 - Native output is `1536x1024`; the output contains C2PA metadata identifying
   OpenAI image generation. It was inspected natively and at a simulated
   `608px` lesson width.
+
+## Focused current-reference audit: 2026-09-09
+
+The current `*imagegen*.png` reference set contains exactly twelve published
+targets across modules 02 and 03. This section records the eight
+classification targets; the four regression targets are recorded in the
+regression ledger. The existing target-specific records below were verified
+against the committed/published bytes and left unchanged because they already
+demonstrate valid imagegen provenance or, for the standalone illustration,
+contain durable OpenAI C2PA evidence.
+
+| Published target | Original source | Crop `(x,y,width,height)` | Retained crop | Imagegen output or C2PA evidence | Source SHA-256 | Crop SHA-256 | Final SHA-256 | Final dimensions | Disposition |
+|---|---|---:|---|---|---|---|---|---:|---|
+| `05-risk-03-difference-vs-risk-ratio-imagegen-pilot.png` | `05-risk-03-difference-vs-risk-ratio.jpg` | `(10,0,490,350)` | `05-risk-03-difference-vs-risk-ratio-imagegen-crop.jpg` | `exec-ae484b62-9986-4c3b-9999-c747e7ef0aeb` | `1e7f5d511bdd6780623065702a82f02dec57ab002f3ef16d83f8b79a0ea3efbe` | `56c155574e8778f92534b6f7c1dbca0549d2d0d1ae70b5dbedb8b6aa0a614dc0` | `12f2b1156249142115a6b1a922575e7eac77102194a4c7a35c09f45a4cd5b5b7` | `1619x971` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `06-mutual-info-01-mutual-information-wikipedia-imagegen-pilot.png` | `06-mutual-info-01-mutual-information-wikipedia.jpg` | `(105,65,440,270)` | `06-mutual-info-01-mutual-information-wikipedia-imagegen-crop.jpg` | `exec-ca46d1d9-63e8-42c4-9bf6-546310985c94` | `64c7d86a57e0899d5ee759b526cdaec17802bb5b405c72ce1952e80c79a1e60b` | `b4a26ffbf558ea6ddbbfbaf0d8d363cf80b82d87249fd9c0be12136eb02b29bf` | `9b93593622941301cbac9d08005b108f603b5dda1a1dbff841ea5e04de85af26` | `1536x1024` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `07-correlation-01-correlation-coefficient-imagegen-pilot.png` | `07-correlation-01-correlation-coefficient.jpg` | `(10,0,480,350)` | `07-correlation-01-correlation-coefficient-imagegen-crop.jpg` | `exec-97148a95-9cf8-42f4-8be7-d169e31f1c23` | `a88754f900a64e14d96f74ecc36a26f6e2322310ab9769ba83cdf7fb87f96316` | `dff673f926140e05f95bfa3c3b805dedd27a4398009a5b2915de8da0d00d1581` | `f6cbcf961aab153b1463e2a3c951655a3bc3f160f8ce280c8f98cafe80a01380` | `1774x887` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `07-correlation-02-binary-target-imagegen-pilot.png` | `07-correlation-02-binary-target.jpg` | `(45,0,450,350)` | `07-correlation-02-binary-target-imagegen-crop.jpg` | `exec-5f193c35-4edd-440e-9576-56e27118fd67` | `74867c70734f8e679b4f02f58bfa1f2aa30a33f5b7c934a0894f773f9f7f8848` | `b9d95a058f5a4b3d39fc452251fe57bce976e9da789f3130c0e42cd6fced87e8` | `c50ad5128ea626cb0fe864ee7388b89736280dba132a85c459c72e9f10611e4c` | `1619x971` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `11-log-reg-interpretation-06-second-example-imagegen.png` | `11-log-reg-interpretation-06-second-example-slide.jpg` | `(15,0,490,300)` | `11-log-reg-interpretation-06-second-example-imagegen-crop.jpg` | `exec-f038c40d-be8b-4c8e-a297-1f39a87fe554` | `c59aced91bc0f594b433dd1ab7a1c3eaae113f0e7d3453ba48e68423315a8082` | `3387f67f83e28bdb216b1dcea296e9d12d872b4f10e068336910dd2bb6b3f75a` | `4cb3aae78f2de1965ed44d77f0b449c01ae088b49c6acff5e14e20de42d380c5` | `2172x724` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `12-using-log-reg-04-production-diagram-imagegen.png` | `12-using-log-reg-04-production-diagram.jpg` | `(10,35,480,285)` | `12-using-log-reg-04-production-diagram-imagegen-crop.jpg` | `exec-dd4d8a99-c139-4a78-9d60-92d580dfba99` | `c664421034f1332ee6d299fc314b0ea9f9952000e6f3b03d133fefe576635dcf` | `76f93089d4d860fb903097080e053bd8dd74d6ca0cd2f625967ed3f559486b44` | `f382a888c202088abfc44e509f27a1f689eb46f02afbd031119771bd2fe14992` | `2163x727` | **UNCHANGED / ACCEPT** — focused correction already has target-specific imagegen ledger |
+| `13-summary-01-churn-prediction-imagegen.png` | `13-summary-01-churn-prediction-slide.jpg` | `(10,0,520,340)` | `13-summary-01-churn-prediction-imagegen-crop.jpg` | `exec-cfdf6aa4-d261-470e-9422-d31591a98c6d` | `6990dac4951ec303e71dfd997469a3181cbe3515a9596aebc0b73298b8cfada7` | `8ffb2de138d970ee6a4a98cafafd1f607b8a1408237858a605794537f54be9e2` | `050e5d9a2c91505c34aadf842cb2df18356f1acd76c4a1fc2f99a1f1a63d9f43` | `1617x973` | **UNCHANGED / ACCEPT** — existing target-specific imagegen ledger |
+| `14-explore-more-01-preprocessing-model-comparison-imagegen.png` | `N/A — standalone generated asset; no target-specific source JPG exists` | `N/A` | `N/A — no source crop exists` | `C2PA claim `urn:c2pa:a45f683a-71ac-408e-8285-0cdd35a4476f`; execution ID not retained | `N/A` | `N/A` | `830ba83b35d13c9213ef33d6bfe1d8920be245eb3c58c8d7e1b1e34167a31df9` | `1536x1024` | **UNCHANGED / ACCEPT** — existing OpenAI C2PA imagegen output; no prior target was used |
+
+### Inspection and invariants
+
+- All eight classification targets were inspected at native resolution and at
+  simulated 608px lesson width. Existing imagegen rows were byte-identical to
+  their recorded final hashes and were therefore not regenerated.
+- Their existing records preserve the exact formulas, percentages, labels,
+  row order, binary values, plots, and relationship directions. Face, camera,
+  browser/editor chrome, cursor, playback, and selection overlays are absent.
+- `14` is intentionally a standalone generated illustration: no original JPG
+  or bounded crop exists, but the committed/published PNG has OpenAI C2PA
+  metadata identifying `gpt-image`. It was left unchanged rather than using
+  an invented source chain or feeding the prior target back into imagegen.
+- No imagegen target in this classification slice was created by upscaling,
+  Lanczos resizing, or sharpening the previous published PNG.
