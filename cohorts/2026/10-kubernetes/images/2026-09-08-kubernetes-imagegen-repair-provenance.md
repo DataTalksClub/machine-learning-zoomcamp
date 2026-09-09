@@ -26,6 +26,22 @@ camera/overlay artifact, or changed the lesson semantics.
 | `05-kubernetes-intro-05-definitions-imagegen.png` | `95e50001a296373cd57506d21b7a3a1cd4adb3d0f2ed41de59d0fc0d75ba76ab` | `e1924137355016b9bb893d2bba83c251a4c3d8de4af24f77de14981517f3d2c5` | `49b317270d98e95052627e594d570106a4f108f486def43a63f2991ee162ae71` | 1800×1120 | Imagegen candidate from the original JPG and bounded crop was inspected, then replaced with the deterministic SVG render in `2026-09-08-kubernetes-definitions-render.svg` to guarantee exact `LoadBalancer`, `ClusterIP`, and `same image and configuration` text. Native and 608px renders were inspected. |
 | `05-kubernetes-intro-06-scaling-imagegen.png` | `3ea3155a7773393f96812103e49c2e55295bcd25f1ec8d022970a5d633cc031e` | `622b030f08fe70cec29a2e191477dc9b4360c9b91760298982401ac65ce8c0fa` | `5b14fe6ab51034d6f71f76e911eaea2b4440636103c070590b16b0ff37876477` | 1619×971 | Follow-up imagegen redraw from the original JPG and bounded crop; native and 608px review confirmed the exact request chain and multiple TF-Serving replicas, with no camera/overlay artifacts. |
 
+## Focused semantic repair batch — 2026-09-09
+
+These five outputs supersede the prior published PNGs for the same targets.
+Each was generated with the original non-crisp JPG **and** the retained
+bounded crop as imagegen inputs. The final PNGs were inspected at native
+resolution and at a simulated 608px lesson width. C2PA metadata was checked
+in each published output; the URN is recorded below.
+
+| Target | Original JPG SHA-256 | Bounded crop SHA-256 | Final SHA-256 | Final size | Method, semantic repair, and C2PA |
+| --- | --- | --- | --- | --- | --- |
+| `01-overview-05-cpu-gpu-imagegen.png` | `87dbe2e8a72ec1bc89615cd3407c5377f40071a22de35521dfbf7017773209a0` | `243e74a87c059ef534d842a0dc7ab34c2c0a7ba4343b6923a2147e809d39ee79` | `17d74fcdaf9626dea93745158b5aa09f4e9cac697e25e3da25d0db3ae7a5d79b` | 1611×976 | Imagegen redraw; corrected the gateway label to `5 CPU`, added explicit `DOWNLOADING IMAGES`, `RESIZING THEM`, and `PREPARING INPUT` processing, preserved post-processing and the request/response flow, and removed capture artifacts. C2PA `urn:c2pa:06a51f90-5d10-4874-93ec-19e491c9cc6c`. |
+| `04-docker-compose-03-isolated-containers-imagegen.png` | `32dcfa3e6eb390610e06ceac339eab15213bf7ec4521d84b4972c4c56b8e70f2` | `d4c9ab950bac40a8d5d9b7ad5241f0adfcab7514bf5f001f9673b643032e1271` | `09d294b11b1ff4a4d2906cc6a7e9c6babac4c7045d50fd3b79f4e6f1d43d3e9b` | 1612×976 | Imagegen redraw; shows separate gateway and TF-Serving containers, both host-port mappings, and the failed `localhost:8500` path with `NO DIRECT CONNECTION`/`CONNECTION ERROR` before Compose. C2PA `urn:c2pa:37cacdb3-af8d-49a8-b9f3-3e92730acf10`. |
+| `05-kubernetes-intro-03-services-crisp.png` | `893104fcec6a51dffc72cd1ad928e66d6d6805e57ff7cbe2440ddfd9e760c972` | `498241af3fcacb5692a72d576413023e774544692bab6f0fb2e43ec76c0445d7` | `a661f79f118b9a71a2806a3c93080a15750af521755e77e34a179808b2a97be2` | 1614×974 | Imagegen redraw; makes the complete `USER → GATEWAY SERVICE → GATEWAY POD → MODEL SERVICE → TF-SERVING POD` routing explicit and keeps the replica pods visible. C2PA `urn:c2pa:4e0fce40-ea97-44aa-92b2-905e700a693b`. |
+| `05-kubernetes-intro-06-scaling-imagegen.png` | `3ea3155a7773393f96812103e49c2e55295bcd25f1ec8d022970a5d633cc031e` | `622b030f08fe70cec29a2e191477dc9b4360c9b91760298982401ac65ce8c0fa` | `bef002d3e7ca5809b530c2996c16be2c846819b34ad725a0597a65a601318f4d` | 1581×995 | Imagegen redraw; one cluster now contains one gateway deployment with three gateway replicas and one TF-Serving deployment with three replicas, with HPA and `MORE PODS` annotations. C2PA `urn:c2pa:2c22f9ca-d1ee-4be3-85e4-8649e4ba3a4d`. |
+| `09-summary-01-architecture-imagegen.png` | `24bff239d26d4b0f501a738ccf5b085497536f971838f83db2682abf75791196` | `e13f5c1ffb4482b01fa362e8a61f25e1fb94d51779f456629b03809aa08d844` | `cbe8248072a7f769c4a229e1afd47f6f3a82101cea35eb33b19dee6f3a17bfe6` | 1614×975 | Imagegen redraw; corrected the gateway to `5 CPU`, TF-Serving to `2 GPU`, and retained the four preprocessing/post-processing labels with no capture artifacts. C2PA `urn:c2pa:9073adb7-f9d5-40dc-a9f8-22536276a0c7`. |
+
 ### Checkpoint status
 
 All three requested assets are now checkpointed. The ingress and scaling
