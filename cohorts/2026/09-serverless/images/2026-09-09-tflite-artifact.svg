@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <rect x="36" y="36" width="740" height="828" rx="18" fill="#ffffff" stroke="#4f9ee8" stroke-width="6"/>
+  <rect x="824" y="36" width="740" height="828" rx="18" fill="#ffffff" stroke="#35a866" stroke-width="6"/>
+  <text x="74" y="104" font-family="DejaVu Sans" font-size="38" font-weight="700" fill="#163b72">Keras prediction scores</text>
+  <line x1="74" y1="132" x2="738" y2="132" stroke="#d7e7f7" stroke-width="3"/>
+  <text x="74" y="192" font-family="DejaVu Sans Mono" font-size="30" fill="#202b3f">preds = model.predict(X)</text>
+  <text x="74" y="260" font-family="DejaVu Sans Mono" font-size="30" fill="#202b3f">preds</text>
+  <rect x="64" y="296" width="684" height="284" rx="12" fill="#f4fbf7" stroke="#b9e8cf" stroke-width="4"/>
+  <text x="86" y="350" font-family="DejaVu Sans Mono" font-size="26" fill="#1d5b38">array([[-1.8682902, -4.7611245,</text>
+  <text x="86" y="394" font-family="DejaVu Sans Mono" font-size="26" fill="#1d5b38">       -2.3169835, -1.0625703,  9.887159,</text>
+  <text x="86" y="438" font-family="DejaVu Sans Mono" font-size="26" fill="#1d5b38">       -2.8124335, -3.666283,   3.2003615,</text>
+  <text x="86" y="482" font-family="DejaVu Sans Mono" font-size="26" fill="#1d5b38">       -2.6023383, -4.8350453]],</text>
+  <text x="86" y="526" font-family="DejaVu Sans Mono" font-size="26" fill="#1d5b38">      dtype=float32)</text>
+  <text x="74" y="642" font-family="DejaVu Sans" font-size="25" fill="#40536b">Ten class scores; the pants score is the largest.</text>
+  <text x="862" y="104" font-family="DejaVu Sans" font-size="38" font-weight="700" fill="#073d2d">Convert Keras to TF-Lite</text>
+  <line x1="862" y1="132" x2="1526" y2="132" stroke="#d6f0df" stroke-width="3"/>
+  <rect x="858" y="170" width="672" height="394" rx="12" fill="#fbfcfd" stroke="#d6dde5" stroke-width="4"/>
+  <text x="884" y="236" font-family="DejaVu Sans Mono" font-size="17" fill="#202b3f">converter = tf.lite.TFLiteConverter.from_keras_model(model)</text>
+  <text x="884" y="306" font-family="DejaVu Sans Mono" font-size="26" fill="#202b3f">tflite_model = converter.convert()</text>
+  <text x="884" y="402" font-family="DejaVu Sans Mono" font-size="17" fill="#202b3f">with open('clothing-model.tflite', 'wb') as f_out:</text>
+  <text x="884" y="446" font-family="DejaVu Sans Mono" font-size="26" fill="#202b3f">    f_out.write(tflite_model)</text>
+  <rect x="884" y="622" width="612" height="88" rx="12" fill="#e9f8ee"/>
+  <text x="914" y="678" font-family="DejaVu Sans Mono" font-size="27" font-weight="700" fill="#1b6e3d">clothing-model.tflite</text>
+</svg>
