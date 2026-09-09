@@ -16,7 +16,7 @@ render, or the documented prompt-native conceptual exception.
 | 4 | `01-overview.md:84` | `01-overview-04-kubernetes-imagegen.png` | 1615×974 | 608×367 | Original JPG + retained native crop → imagegen redraw | `055379857302dcb924a38375ee3b6d3ffc01f06d5a04025df1ebc4a18bf89977` | `urn:c2pa:8b04e4f2-2879-4964-b41c-6fd7cc1a5fd6` |
 | 5 | `01-overview.md:75` | `01-overview-05-cpu-gpu-imagegen.png` | 1611×976 | 608×368 | Original JPG + retained native crop → imagegen redraw | `17d74fcdaf9626dea93745158b5aa09f4e9cac697e25e3da25d0db3ae7a5d79b` | `urn:c2pa:06a51f90-5d10-4874-93ec-19e491c9cc6c` |
 | 6 | `04-docker-compose.md:99` | `04-docker-compose-03-isolated-containers-imagegen.png` | 1612×976 | 608×368 | Original JPG + retained native crop → imagegen redraw | `09d294b11b1ff4a4d2906cc6a7e9c6babac4c7045d50fd3b79f4e6f1d43d3e9b` | `urn:c2pa:37cacdb3-af8d-49a8-b9f3-3e92730acf10` |
-| 7 | `05-kubernetes-intro.md:34` | `05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png` | 1441×1092 | 608×461 | Original JPG + retained native crop → imagegen redraw | `1c99dd9488aa5a83a928e0c3127d42747e82872989e2970ffe984ae2b0b29f98` | `urn:c2pa:9468c0c9-4322-47ef-a436-5b9ac3b45129` |
+| 7 | `05-kubernetes-intro.md:34` | `05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png` | 1441×1092 | 608×461 | Original JPG + retained native crop → imagegen redraw | `ffc7e25fef32911599389766d2f0ebfa0a04a01ac58f0b57d1aeec96876e9d29` | `urn:c2pa:c15870f3-d8b8-4ec5-8793-14f2e69178af` |
 | 8 | `05-kubernetes-intro.md:48` | `05-kubernetes-intro-02-deployments-imagegen.png` | 1441×1092 | 608×461 | Original JPG + retained native crop → imagegen redraw | `3c226f2d03d6ee30fe372a1317120cb647495b298f0d193b33ef9adee8931ff7` | `urn:c2pa:ce868a1f-3926-43c1-892b-eb664fe2a70b` |
 | 9 | `05-kubernetes-intro.md:74` | `05-kubernetes-intro-03-services-crisp.png` | 1630×965 | 608×360 | Original JPG + new native crop → imagegen redraw | `0e4c6e304e31393bac50b32378ab6b0995e6b47be5d30afa76fb8e320a0a3093` | `urn:c2pa:daf3f04d-fee8-402e-867f-9d41a80ac580` |
 | 10 | `05-kubernetes-intro.md:96` | `05-kubernetes-intro-04-external-internal-ingress-imagegen.png` | 1614×974 | 608×367 | Original JPG + new native crop → imagegen redraw | `90f66576aa3208d515692b0e0898ab49a4fcd7b0bee56622ae1ebc010285bc1a` | `urn:c2pa:b769ad55-76ea-479c-83bf-21b75b02d3ff` |
@@ -39,12 +39,12 @@ other enhancement. The script includes the six earlier source-backed crops,
 the two repaired screenshot-derived inputs, and the definitions source-evidence
 crop.
 
-The two repaired outputs used both the full original JPG and the matching
+The three repaired outputs used both the full original JPG and the matching
 native crop as imagegen inputs. The accepted built-in imagegen executions were
-`exec-2a0b1faa-ba35-401d-9ec9-452e281f7f47` for Services and
-`exec-caadcb9c-ee07-4a48-9522-03fd206900e9` for External/Internal/Ingress.
-Rejected imagegen candidates were not used as inputs to either published
-output.
+`exec-2a0b1faa-ba35-401d-9ec9-452e281f7f47` for Services,
+`exec-caadcb9c-ee07-4a48-9522-03fd206900e9` for External/Internal/Ingress, and
+`exec-76fef7e7-e5bf-494d-adf9-2723eec3903a` for Cluster/Nodes/Pods. Rejected
+imagegen candidates were not used as inputs to any published output.
 
 | Source JPG | Native crop | Crop size | Source SHA-256 | Crop SHA-256 |
 | --- | --- | ---: | --- | --- |
@@ -104,5 +104,6 @@ references above.
 | --- | --- | --- |
 | `05-kubernetes-intro-03-services-crisp.png` | `a661f79f118b9a71a2806a3c93080a15750af521755e77e34a179808b2a97be2` | Replaced by `0e4c6e...`; prior output lacked the required retained native crop chain. |
 | `05-kubernetes-intro-04-external-internal-ingress-imagegen.png` | `be6dd20c163ff4062225639e4ca60da9a83016293a5092aeef7c02abec85b93d` | Replaced by `90f665...`; prior output lacked the required retained native crop chain. |
+| `05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png` | `1c99dd9488aa5a83a928e0c3127d42747e82872989e2970ffe984ae2b0b29f98` | Superseded after independent review found an open lower-right pod and two missing `POD` labels; replaced by `ffc7e25...` with four closed, labeled pods. |
 | `05-kubernetes-intro-06-scaling-imagegen.png` | `5b14fe6ab51034d6f71f76e911eaea2b4440636103c070590b16b0ff37876477` | Superseded after the first redraw; replica topology was incorrect. |
 | `05-kubernetes-intro-06-scaling-imagegen.png` | `cc58404b4e743e2febb9e60ff5493003d3be5c7e80b1e835ee6f33e8e96cd13b` | Replaced by `db14cf...`; that redraw showed four Gateway and three TF-Serving replicas instead of five and two. |
