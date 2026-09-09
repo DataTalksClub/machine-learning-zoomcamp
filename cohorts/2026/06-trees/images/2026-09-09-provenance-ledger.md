@@ -1,11 +1,12 @@
 # 06-trees durable provenance — 2026-09-09
 
-This ledger records durable source-to-crop provenance for the eleven
+This ledger records durable source-to-crop provenance for the twelve
 illustrations in this queue. Seven published PNGs retain their previously
 accepted bytes. The four `10-summary` PNGs are regenerated in focused commits
 from their original non-crisp JPGs and bounded crops; their previous PNGs are
 never used as imagegen inputs. The final-model semantic correction to the
-`10-summary-06` output is recorded below.
+`10-summary-06` output and the later eta-plot semantic correction are recorded
+below.
 
 ## Method
 
@@ -17,11 +18,12 @@ controls, browser chrome, and unrelated notebook cells are outside the crop
 where applicable. The source JPG, crop JPG, and published imagegen PNG are all
 retained together.
 
-The seven diagram crops use the coordinates recorded in the original rollout
-notes. The four summary crops are bounded content regions from the original
-notebook screenshots. Each regenerated summary output is made with imagegen
-using the original JPG and its matching bounded crop only; the old crisp PNG is
-not supplied as a reference.
+The seven earlier diagram crops use the coordinates recorded in the original
+rollout notes. The eta plot has its own checked-in crop script because its
+published output required a semantic repair. The four summary crops are
+bounded content regions from the original notebook screenshots. Each
+regenerated imagegen output is made using the original JPG and its matching
+bounded crop only; the old crisp PNG is not supplied as a reference.
 
 No sharpening, upscaling, or imagegen operation is performed by the crop
 script. It only preserves the source content region needed to audit the
@@ -96,8 +98,8 @@ Imagegen execution: `exec-8f42295c-8408-42af-84ae-7ece5c751291`. The output
 contains C2PA metadata identifying OpenAI image generation. Native dimensions
 are `1495×1052`; a simulated `608px` render was inspected and kept all
 parameter text, stages, arrows, and the `0.3` annotation readable. The
-replacement changes the published PNG intentionally; the eleven provenance-
-only PNGs above remain byte-for-byte unchanged.
+replacement changes the published PNG intentionally; the eleven previously
+recorded provenance-only PNGs above remain byte-for-byte unchanged.
 
 ## XGBoost final-model semantic correction
 
@@ -117,3 +119,35 @@ generation.
 | Asset | Previous PNG SHA-256 | Replacement PNG SHA-256 | Imagegen execution |
 |---|---|---|---|
 | `10-summary-06-xgb-parameters-imagegen.png` | `7b1cd924614f2247e6bd1b5bae299e5f9a2e000b00f977dcb673145970f969e7` | `f7ef946bcb3e94af5ef8961a00b8d7829fc60e6de2a6e6e9f7f2abbb3a8801a8` | `exec-4f510fe9-bc65-43bc-a6c6-a6f91fd9cbcb` |
+
+## XGBoost eta plot semantic repair
+
+The previous published plot was crisp but contradicted the lesson: the source
+JPG's red trajectory was labeled `eta=0.05` and sat slightly above the green
+`eta=0.1` trajectory, while the lesson caption and prose say that `eta=0.1`
+reaches the top and stays stable. The replacement follows the lesson's stated
+label semantics while retaining the source plot's five trajectories, axis
+bounds, ticks, colors, and exact parameter labels. No new numeric values or
+curves were invented; the conflicting red/green label assignment is recorded
+explicitly rather than silently treated as a crispness pass.
+
+The original JPG and its bounded crop were the only image references supplied
+to imagegen. The previous published PNG was not used as an input, and the
+output is a redraw rather than an enlargement or sharpened crop. The crop is
+reproducible with
+[`2026-09-09-xgb-eta-repair-crop.sh`](2026-09-09-xgb-eta-repair-crop.sh),
+whose SHA-256 is
+`f81babe3822d0744354d1018ce3e78feedf555bcb17fa4d3778d22d08611d618`.
+
+| Asset | Source JPG | Crop JPG | Crop `(x, y, width, height)` | Source SHA-256 | Crop SHA-256 | Previous PNG SHA-256 | Replacement PNG SHA-256 |
+|---|---|---|---|---|---|---|---|
+| `08-xgb-tuning-02-tuning-eta-imagegen.png` | `08-xgb-tuning-02-tuning-eta.jpg` | `08-xgb-tuning-02-tuning-eta-imagegen-crop.jpg` | `(35, 35, 680, 500)` | `262bf7aad0ab9d0c70075321ee297ac56a4a1d51564c88c2942da89203f44085` | `d938225f7ed47593d6f71782dc9cc492a116b9df836247c437879fb45f8f9734` | `76d5073a442e076832bf59352991639b24bd3ac167b86d75a8454ea41d7de702` | `25a3a81a27ef43b96635edd2cca6f9bc2bc97d07f5a90455f4006da64981bfdd` |
+
+Imagegen execution: `exec-55f38be5-de6e-4622-8ed2-9c7c36c712fe`. The output
+contains C2PA metadata with URN
+`urn:c2pa:7c94cf0c-ba5a-4da2-853f-bc8ba592c53b`. Native dimensions are
+`1463×1075`; a simulated `608×447` lesson render was inspected. OCR at both
+sizes retained all five legend labels and all axis tick labels. The output
+contains no camera, face, browser, cursor, selection, or decorative overlay.
+The normalized comparison against the source crop after resizing was
+`0.205028` RMSE, confirming that the result is not a simple enlargement.
