@@ -170,3 +170,24 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 ```
 
 |=============================================================================|
+
+## No local GPU? Use Kaggle or Colab
+
+You don't need a GPU on your own machine for this module — a free notebook with a T4 GPU is enough.
+
+### Kaggle
+
+- Create or import your notebook on [Kaggle](https://www.kaggle.com/).
+- Click the three dots at the top right, select "Accelerator", and choose "T4 GPU".
+
+![Kaggle: selecting the T4 GPU accelerator](images/kaggle-gpu-accelerator.png)
+
+### Google Colab
+
+1. Create or import your notebook in [Google Colab](https://colab.research.google.com/).
+2. Open the drop-down at the top right (or go to "Runtime" → "Change runtime type").
+3. Choose "T4 GPU".
+
+![Colab: changing the runtime type](images/colab-gpu-menu.png)
+
+![Colab: selecting the T4 GPU](images/colab-gpu-t4.png)
