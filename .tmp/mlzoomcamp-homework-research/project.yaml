@@ -1,0 +1,10 @@
+schema_version: 1
+id: mlzoomcamp-homework-research
+title: "ML Zoomcamp 2025 homework reliability and realistic-data redesign"
+mode: building
+status: verified
+created: 2026-09-10
+seed_sha256: 3e3c6337ff79832b2c6d11eb2d8365a7160b342d7638f26ec5682f8299e44b10
+source_roots:
+  - "/tmp/mlzoomcamp-analysis.zofibE"
+target_repo: "/home/alexey/git/machine-learning-zoomcamp"

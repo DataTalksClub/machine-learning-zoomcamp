@@ -1,0 +1,68 @@
+schema_version: 1
+sources:
+  - id: slack-export-2025-homework
+    title: "Slack export: 2025 homework questions and responses"
+    type: slack-export
+    locator: "/home/alexey/.pocketshell/attachments/machine-learning-zoomcamp/main/20260910-123157-01-course-ml-zoomcamp.zip"
+    captured: 2026-09-10
+    authority: personal
+    summary: "Selected 2025 threads document homework answer mismatches, data/lecture confusion, synthetic-data concerns, and Alexey's workarounds or corrections."
+    page: wiki/sources/slack-export-2025-homework.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Daily Slack JSON export; selected threads are identified by Slack thread timestamp."
+  - id: homework-2025-repo
+    title: "ML Zoomcamp repository: 2025 homework and git history"
+    type: repository
+    locator: "/home/alexey/git/machine-learning-zoomcamp"
+    captured: 2026-09-10
+    authority: primary
+    summary: "2025 homework files and git history expose post-publication edits and markdown/notebook contradictions in addition to the student-reported data issues."
+    page: wiki/sources/homework-2025-repo.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Working tree was treated as read-only; existing user changes were preserved."
+  - id: datasets-2025-snapshot
+    title: "Datasets repository and raw 2025 homework CSV snapshot"
+    type: dataset
+    locator: "https://github.com/alexeygrigorev/datasets"
+    captured: 2026-09-10
+    authority: primary
+    summary: "Pinned hashes and reference calculations reproduce the rounded HW2 RMSE tie, HW3 accuracy mismatch, and same-C behavior."
+    page: wiki/sources/datasets-2025-snapshot.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Raw files were downloaded and hashed; see the source page for hashes and limitations."
+  - id: datagen-generator-repo
+    title: "datagen synthetic dataset generator"
+    type: repository
+    locator: "https://github.com/alexeygrigorev/datagen"
+    captured: 2026-09-10
+    authority: primary
+    summary: "The linked generator samples feature marginals independently, leaves its correlation hook inert, thresholds classification targets, and lacks educational answerability tests."
+    page: wiki/sources/datagen-generator-repo.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Reviewed shallow clone at commit 6a5e69b; Slack explicitly linked this repository as the generator used for the car-data discussion."
+  - id: homework-2026-draft
+    title: "2026 homework drafts carried over from 2025"
+    type: repository
+    locator: "/home/alexey/git/machine-learning-zoomcamp/cohorts/2026/homework"
+    captured: 2026-09-10
+    authority: primary
+    summary: "The current 2026 homework copies are still drafts carried over from 2025 and retain the same car/lead datasets."
+    page: wiki/sources/homework-2026-draft.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Draft files explicitly say questions, datasets, and models will be updated before the module starts."
+  - id: mlzoomcamp-2026-data-release
+    title: "ML Zoomcamp 2026 generated data release and validation"
+    type: repository-artifact
+    locator: "/home/alexey/git/machine-learning-zoomcamp/cohorts/2026/data"
+    captured: 2026-09-10
+    authority: personal
+    summary: "Pinned car and lead datasets, reviewed generation plans, reports, data card, and reference validation outputs for the redesigned homeworks."
+    page: wiki/sources/mlzoomcamp-2026-data-release.md
+    status: selected
+    consulted: 2026-09-10
+    notes: "Generated keylessly from the sibling datagen working tree; the page records hashes and verification commands."
