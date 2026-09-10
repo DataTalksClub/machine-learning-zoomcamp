@@ -3,7 +3,7 @@ content_id: fece53eb-f5c4-4b1c-8c98-0559d891c002
 slug: hw08
 title: "Homework 8: Neural Networks and Deep Learning"
 instructions_path: homework.md
-due_at: 2026-11-23T23:00:00Z
+due_at: "2026-11-23T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

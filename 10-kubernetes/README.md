@@ -17,7 +17,6 @@ You don't need to watch any of the module videos. But lessons 10.5 and 10.8 may 
 - 10.8 [Deploying to EKS](08-eks.md)
 - 10.9 [Summary](09-summary.md)
 - 10.10 [Explore more](10-explore-more.md)
-- 10.11 [Homework](homework.md)
 
 
 ## Community notes

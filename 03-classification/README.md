@@ -14,7 +14,6 @@
 - 3.12 [Using the model](12-using-log-reg.md)
 - 3.13 [Summary](13-summary.md)
 - 3.14 [Explore more](14-explore-more.md)
-- 3.15 [Homework](homework.md)
 
 
 

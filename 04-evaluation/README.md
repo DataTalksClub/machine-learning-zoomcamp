@@ -9,7 +9,6 @@
 - 4.7 [Cross-Validation](07-cross-validation.md)
 - 4.8 [Summary](08-summary.md)
 - 4.9 [Explore more](09-explore-more.md)
-- 4.10 [Homework](homework.md)
 
 ## Community notes
 

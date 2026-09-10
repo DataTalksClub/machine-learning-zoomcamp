@@ -19,7 +19,6 @@ part is all covered in the workshop.
 - 5.7 [Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md)
 - 5.8 [Summary](08-summary.md)
 - 5.9 [Explore more](09-explore-more.md)
-- 5.10 [Homework](homework.md)
 
 
 How to watch it:

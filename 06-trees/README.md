@@ -11,7 +11,6 @@
 - 6.9 [Selecting the best model](09-final-model.md)
 - 6.10 [Summary](10-summary.md)
 - 6.11 [Explore more](11-explore-more.md)
-- 6.12 [Homework](homework.md)
 
 
 ## Community notes

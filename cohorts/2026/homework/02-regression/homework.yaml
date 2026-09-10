@@ -3,7 +3,7 @@ content_id: 123e1d55-38a7-4a51-9024-d9d391097896
 slug: hw02
 title: "Homework 2: Machine Learning for Regression"
 instructions_path: homework.md
-due_at: 2026-09-28T23:00:00Z
+due_at: "2026-09-28T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

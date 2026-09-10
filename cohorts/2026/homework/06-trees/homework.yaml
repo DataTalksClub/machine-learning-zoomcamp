@@ -3,7 +3,7 @@ content_id: 3ba0fb4f-acd5-48ad-a9f4-3853c32554d0
 slug: hw06
 title: "Homework 6: Decision Trees and Ensemble Learning"
 instructions_path: homework.md
-due_at: 2026-10-26T23:00:00Z
+due_at: "2026-10-26T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

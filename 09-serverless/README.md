@@ -18,7 +18,6 @@ use the workshop materials. Also, unit 9.7 could still be relevant.
 - 9.7 [API Gateway: exposing the lambda function](07-api-gateway.md)
 - 9.8 [Summary](08-summary.md)
 - 9.9 [Explore more](09-explore-more.md)
-- 9.10 [Homework](homework.md)
 
 
 

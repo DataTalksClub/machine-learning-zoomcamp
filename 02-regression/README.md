@@ -17,7 +17,6 @@
 - 2.15 [Using the model](15-using-model.md)
 - 2.16 [Car price prediction project summary](16-summary.md)
 - 2.17 [Explore more](17-explore-more.md)
-- 2.18 [Homework](homework.md)
 
 
 

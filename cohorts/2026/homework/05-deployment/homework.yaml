@@ -3,7 +3,7 @@ content_id: 21a6d4b6-337c-4c58-88a3-0c0473ff3676
 slug: hw05
 title: "Homework 5: Deploying Machine Learning Models"
 instructions_path: homework.md
-due_at: 2026-10-19T23:00:00Z
+due_at: "2026-10-19T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

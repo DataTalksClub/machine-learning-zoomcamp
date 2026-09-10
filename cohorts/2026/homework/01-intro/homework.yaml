@@ -3,7 +3,7 @@ content_id: 248479ab-22f0-47a4-8c08-07a80520d881
 slug: hw01
 title: "Homework 1: Introduction to Machine Learning"
 instructions_path: homework.md
-due_at: 2026-09-21T23:00:00Z
+due_at: "2026-09-21T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

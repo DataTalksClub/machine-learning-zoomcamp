@@ -32,7 +32,6 @@ TensorFlow module videos:
 - 8.12 [Using the model](12-using-model.md)
 - 8.13 [Summary](13-summary.md)
 - 8.14 [Explore more](14-explore-more.md)
-- 8.15 [Homework](homework.md)
 
 ## Community notes
 

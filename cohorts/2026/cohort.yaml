@@ -4,8 +4,8 @@ identifier: "2026"
 course: ml-zoomcamp
 delivery: live
 published: true
-start_date: 2026-09-14
-end_date: 2027-01-25
+start_date: "2026-09-14"
+end_date: "2027-01-25"
 curriculum: current
 homework:
   - module: 01-intro

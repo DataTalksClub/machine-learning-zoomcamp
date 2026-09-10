@@ -3,7 +3,7 @@ content_id: bda1b644-cbc1-43bd-b4cc-aee1f816ed6f
 slug: hw03
 title: "Homework 3: Machine Learning for Classification"
 instructions_path: homework.md
-due_at: 2026-10-05T23:00:00Z
+due_at: "2026-10-05T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

@@ -3,7 +3,7 @@ content_id: a64ed73a-9a4b-4475-9378-47f05a0ae85d
 slug: hw10
 title: "Homework 10: Kubernetes and TensorFlow Serving"
 instructions_path: homework.md
-due_at: 2026-12-07T23:00:00Z
+due_at: "2026-12-07T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

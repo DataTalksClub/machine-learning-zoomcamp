@@ -3,7 +3,7 @@ content_id: 447d42cd-b7fb-45b8-986b-7e9ca016252b
 slug: hw04
 title: "Homework 4: Evaluation Metrics for Classification"
 instructions_path: homework.md
-due_at: 2026-10-12T23:00:00Z
+due_at: "2026-10-12T23:00:00Z"
 initial_state: open
 form:
   homework_url: true

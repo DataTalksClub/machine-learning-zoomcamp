@@ -3,7 +3,7 @@ content_id: 38e7e34c-9fb3-41f8-877d-5d55f64a8669
 slug: hw09
 title: "Homework 9: Serverless Deep Learning"
 instructions_path: homework.md
-due_at: 2026-11-30T23:00:00Z
+due_at: "2026-11-30T23:00:00Z"
 initial_state: open
 form:
   homework_url: true
