@@ -354,8 +354,6 @@ You are encouraged to share what you learn through blog posts, videos, project u
 
 Learning in public can help you clarify concepts, document your progress, receive feedback, and build a professional portfolio. During the live cohort, you can also earn additional points for sharing your learning experience.
 
-Learn more in the [Learning in Public guide](learning-in-public.md).
-
 ## Sponsors
 
 Interested in sponsoring Machine Learning Zoomcamp? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
