@@ -140,7 +140,7 @@ Mutual information is a concept from information theory, which measures how much
 * `df[x].apply(y)` - apply a y function to the x series of the df dataframe. 
 * ` df.sort_values(ascending=False).to_frame(name='x')` - sort values in an ascending order and called the column as x. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/03-classification/notebook.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
 
 <table>
    <tr>

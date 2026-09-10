@@ -164,7 +164,7 @@ Logistic regression is similar to linear regression because both models take int
 
 In this way, the sigmoid function allows transforming a score into a probability. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/03-classification/notebook.ipynb). 
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
 
 <table>
    <tr>

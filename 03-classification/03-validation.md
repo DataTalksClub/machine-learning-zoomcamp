@@ -111,7 +111,7 @@ Splitting the dataset with **Scikit-Learn**.
 * `df.x.values` - extract the values from x series
 * `del df['x']` - delete x series from a dataframe 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/03-classification/notebook.ipynb).
+The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb).
 
 <table>
    <tr>
