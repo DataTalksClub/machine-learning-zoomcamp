@@ -15,8 +15,9 @@ description: |
   skills used in industry. All materials stay available for self-paced study
   between cohorts.
 outcome: Build, evaluate, and deploy practical machine learning systems.
-repository_url: https://github.com/DataTalksClub/machine-learning-zoomcamp
-docs_url: https://datatalks.club/docs/courses/ml-zoomcamp/
-faq_url: https://datatalks.club/faq/machine-learning-zoomcamp.html
+urls:
+  repository: https://github.com/DataTalksClub/machine-learning-zoomcamp
+  docs: https://datatalks.club/docs/courses/ml-zoomcamp/
+  faq: https://datatalks.club/faq/machine-learning-zoomcamp.html
 hashtag: mlzoomcamp
 published: true
