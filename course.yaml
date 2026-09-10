@@ -3,6 +3,24 @@ content_id: deae4813-0ff6-4839-b6ed-bf6e1ea516bd
 slug: ml-zoomcamp
 title: Machine Learning Zoomcamp
 current_cohort: "2026"
+cohorts:
+  - identifier: "2026"
+    content: root
+  - identifier: "2025"
+    content: cohorts/2025
+    legacy: true
+  - identifier: "2024"
+    content: cohorts/2024
+    legacy: true
+  - identifier: "2023"
+    content: cohorts/2023
+    legacy: true
+  - identifier: "2022"
+    content: cohorts/2022
+    legacy: true
+  - identifier: "2021"
+    content: cohorts/2021
+    legacy: true
 description: |
   Machine Learning Zoomcamp is a free, hands-on course on machine learning
   engineering. Across its modules you work through regression, classification,
