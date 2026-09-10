@@ -6,7 +6,9 @@ one delivery of the course: dates, homework, and (for a past cohort) a frozen
 copy of the curriculum as it was taught that year.
 
 **2026 is the current cohort. Fix curriculum at the repository root, not
-inside `cohorts/2026/`.**
+inside `cohorts/2026/`.** This is recorded once, machine-readably, at the
+root: `course.yaml:current_cohort` names it, and it must match the one
+`cohorts/<year>/cohort.yaml` that declares `curriculum: current`.
 
 ## Layout
 

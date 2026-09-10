@@ -2,6 +2,7 @@ schema_version: 2
 content_id: deae4813-0ff6-4839-b6ed-bf6e1ea516bd
 slug: ml-zoomcamp
 title: Machine Learning Zoomcamp
+current_cohort: "2026"
 description_path: SITE.md
 outcome: Build, evaluate, and deploy practical machine learning systems.
 repository_url: https://github.com/DataTalksClub/machine-learning-zoomcamp
