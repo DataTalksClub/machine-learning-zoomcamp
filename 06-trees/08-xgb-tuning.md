@@ -184,11 +184,6 @@ Other parameters worth knowing about:
 The full list is in the
 [XGBoost parameter documentation](https://xgboost.readthedocs.io/en/latest/parameter.html).
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
-
 ## Notes
 
 XGBoost has various tunable parameters but the three most important ones are:
@@ -262,17 +257,3 @@ for eta in etas:
     key = f'eta={eta}'
     scores[key] = df_results
 ```
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/27/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-12/)
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/28/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-13/)

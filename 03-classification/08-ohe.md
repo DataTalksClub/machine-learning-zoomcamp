@@ -153,10 +153,6 @@ dataframes directly instead of dictionaries. We show how to combine it
 with feature scaling in the second notebook for this module
 (`notebook-scaling-ohe.ipynb`).
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise. 
@@ -168,15 +164,3 @@ One-Hot Encoding allows encoding categorical variables in numerical ones. This m
 * `DictVectorizer().get_feature_names()` -  return the names of the columns in the sparse matrix.  
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/29/ml-zoomcamp-2023-machine-learning-for-classification-part-8/)

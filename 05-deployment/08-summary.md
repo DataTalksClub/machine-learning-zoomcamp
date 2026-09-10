@@ -43,10 +43,6 @@ In the next module we look at tree-based models - decision trees, random
 forests and gradient boosting - as a different way of building the prediction
 model that we deploy in this module.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
-
 ## Notes
 In this chapter we learned these topics:
 - We learned how to save the model and load it to re-use it without running the previous code.
@@ -56,13 +52,3 @@ In this chapter we learned these topics:
 - How to deploy our code in a public web service and access it externally from outside a local computer.
 
 In the next chapter we will learn the algorithms such as Decision trees, Random forests and Gradient boosting as an alternative way of combining decision tress.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

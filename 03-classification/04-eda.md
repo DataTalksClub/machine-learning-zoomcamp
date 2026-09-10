@@ -157,10 +157,6 @@ Most variables have two or three values; `paymentmethod` has four - it
 is the most diverse one. The number of categories matters later: it
 determines how many columns we get after one-hot encoding.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 The EDA for this project consisted of: 
@@ -176,15 +172,3 @@ The EDA for this project consisted of:
 * `df[x].nunique()` - returns the number of unique values in x series 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/27/ml-zoomcamp-2023-machine-learning-for-classification-part-4/)

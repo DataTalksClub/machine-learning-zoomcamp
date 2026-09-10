@@ -171,10 +171,6 @@ that don't make sense, like `nan` creeping into the grid. A
 combination can show a good score by accident - check that the values
 you pick actually control the size of the tree the way you intend.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, `max_depth` and `min_samples_leaf` have a greater importance than the others. We will further see how we first tune `max_depth` parameter and then move to tuning other parameters will help. After that, a dataframe will be created with all possible combinations of `max_depth`, `min_sample_leaf` and the auc score corresponding to them. These results will be visualized using a heatmap by pivoting the dataframe to easily determine the best possible `max_depth` and `min_samples_leaf` combination. Finally, the DT will be retrained using the identified parameter combination. The DT so trained will be viewed as a tree diagram, for visualizing decision rules.     
@@ -205,15 +201,3 @@ reducing the chance of creating nodes that are too specific to the training data
       
 It's then important to find the right balance between `max_depth` and `min_samples_leaf` to achieve optimal model performance.
 This involves a trade-off between bias and variance, and the best values depend on the specific dataset and problem.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/23/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-8/)

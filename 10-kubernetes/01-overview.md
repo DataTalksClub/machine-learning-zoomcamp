@@ -107,10 +107,6 @@ Here is what we will do in this module:
   will use EKS, the Kubernetes offering from AWS, but in principle this
   should work with any cloud provider.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
-
 ## Notes
 
 * same use case as in the session before: classifying images of clothes
@@ -125,13 +121,3 @@ Here is what we will do in this module:
 * running kubernetes on your local machine (lesson six)
 * deploy the two services to kubernetes (lesson seven)
 * move from local to cloud (lesson eight)
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

@@ -75,24 +75,8 @@ saw that it works on the validation set:
 Now what we need to do is check it on the test dataset as well - and this is
 what we will do in the [next unit](15-using-model.md).
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 ## Notes
 
 Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/24/ml-zoomcamp-2023-machine-learning-for-regression-part-12/)

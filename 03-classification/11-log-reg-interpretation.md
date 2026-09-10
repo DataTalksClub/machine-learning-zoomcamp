@@ -187,10 +187,6 @@ positive, the customer is more likely to churn than not; if it is
 negative, less likely. In the example above the score was -0.33, just
 below the middle.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 This video was about the interpretation of coefficients, and training a model with fewer features. 
@@ -202,15 +198,3 @@ In the formula of the logistic regression model, only one of the one-hot encoded
 * `zip(x,y)` - returns a new list with elements from x joined with their corresponding elements on y 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/01/ml-zoomcamp-2023-machine-learning-for-classification-part-11/)

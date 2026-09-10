@@ -77,10 +77,6 @@ cohort we walk through the notebook lesson by lesson; for this module it is
 Next, we take the CSV file and do a bit of data preparation — that is the
 next lesson, [data preparation](02-data-preparation.md).
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-21-car-price-prediction-project)
-
 ## Notes
 
 This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this 
@@ -97,15 +93,3 @@ kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 * Using the model 
 
 The code and dataset are available at this [link](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/chapter-02-car-price). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/18/ml-zoomcamp-2023-machine-learning-for-regression-part-1/)

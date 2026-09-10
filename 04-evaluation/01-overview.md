@@ -72,24 +72,8 @@ This gives us `0.8034066713981547` - the model agrees with the actual outcomes a
 
 The whole module walks through one notebook, [notebook.ipynb](notebook.ipynb) - the same churn prediction project as in module 3.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
-
 ## Notes
 
 The fourth week of Machine Learning Zoomcamp is about different metrics to evaluate a binary classifier. These measures include accuracy, confusion table, precision, recall, ROC curves(TPR, FRP, random model, and ideal model), AUROC, and cross-validation. 
 
 For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/telco-customer-churn) about churn prediction. 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/02/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-1/)

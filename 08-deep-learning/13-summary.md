@@ -57,15 +57,3 @@ library for more kinds of augmentations, other architectures from
 `keras.applications` such as ResNet50 or MobileNet, and other
 frameworks like PyTorch. In the homework you'll apply the same
 approach to a different dataset - cats vs dogs.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

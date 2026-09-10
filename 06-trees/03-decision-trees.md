@@ -188,10 +188,6 @@ The question is: how does the learning algorithm decide which
 condition and which threshold to use at each split? That's the topic of
 the next unit.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 Decision Trees are powerful algorithms, capable of fitting complex datasets. The decision trees make predictions based on the bunch of *if/else* statements by splitting a node into two or more sub-nodes.
@@ -209,16 +205,3 @@ A decision tree with a depth of 1 is called `decision stump` and has only one sp
 - `export_text`: method from `sklearn.tree` class to display the text report showing the rules of a decision tree.
 
 *Note*: we have already covered `DictVectorizer` in session 3 and `roc_auc_score` in session 4 respectively.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/19/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-4/)
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/20/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-5/)

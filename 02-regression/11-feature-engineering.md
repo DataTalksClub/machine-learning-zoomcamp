@@ -127,25 +127,9 @@ We can add even more features. In the
 [next unit](12-categorical-variables.md) we will talk about categorical
 variables - columns like `model`, `make` and so on.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 ## Notes
 
 The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
 This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/22/ml-zoomcamp-2023-machine-learning-for-regression-part-9/)

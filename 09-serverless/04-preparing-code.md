@@ -158,17 +158,3 @@ Before uploading anything to Lambda, we want to package everything in
 a Docker container and make sure the container has TensorFlow Lite,
 keras-image-helper, NumPy and so on. That's what we'll do in the next
 lesson: create the Dockerfile and test it locally.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/03/ml-zoomcamp-2023-serverless-part-4/)

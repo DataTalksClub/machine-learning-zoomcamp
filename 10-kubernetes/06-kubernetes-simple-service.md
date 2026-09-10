@@ -332,23 +332,9 @@ curl <LB_IP>:80/ping
 This should again answer `PONG` - but now the request goes through the
 external load balancer, the way it would in a real cluster.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
-
 ## Notes
 
 * kind = local kubernetes cluster https://github.com/kubernetes-sigs/kind
 * kubectl = tool for interacting with kubernetes cluster https://kubernetes.io/docs/reference/kubectl/
 * yaml kubernetes configuration: allocating resources (RAM, CPU), templates, port labels
 * kubernetes ports/pods: requests, responses, forwarding, connection refusal
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

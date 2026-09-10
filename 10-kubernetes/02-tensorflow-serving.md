@@ -247,15 +247,3 @@ The result for the picture of pants:
 'pants' clearly wins, so the model classified the image correctly.
 
 In the next lesson we turn this notebook into a pre-processing service.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

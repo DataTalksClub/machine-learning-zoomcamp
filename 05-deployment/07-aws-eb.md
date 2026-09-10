@@ -179,15 +179,3 @@ web: gunicorn churn_serving:app
 
 I've put my heroku app files in this repository:
 https://github.com/amindadgar/customer-churn-app 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/15/ml-zoomcamp-2023-deploying-machine-learning-models-part-7/)

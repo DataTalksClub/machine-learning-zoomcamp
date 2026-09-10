@@ -85,10 +85,6 @@ Jupyter instance.
 In the [next unit](03-flask-intro.md) we create our first web service with
 Flask.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
-
 ## Notes
 **In this session we'll cover the idea "How to use the model in future without training and evaluating the code"**
 - To save the model we made before there is an option using the pickle library:
@@ -110,15 +106,3 @@ Flask.
     ## Note: never open a binary file you do not trust the source!
     ```
    - With unpacking the model and the dict_vectorizer, We're able to predict again for new input values without training a new model by re-running the code.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/10/ml-zoomcamp-2023-deploying-machine-learning-models-part-2/)

@@ -154,10 +154,6 @@ so `predict` returns the raw scores, the logits. They still tell us
 how likely each class is relative to the others - and if we want
 actual probabilities, we can apply softmax ourselves.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 Earlier we used **h5 format** to save our model when creating the checkpoint. The HDF5 format contains the model's architecture, weights values, and `compile()` information. The saved model can be loaded and used for prediction with `keras.models.load_model(path/to/saved_model)` method.
@@ -197,15 +193,3 @@ The model performance can be evaluated on test data with `model.evaluate(test_ds
 - `keras.models.load_model()`: method to load saved model
 - `model.evaluate()`: method to evaluate the performance of the model based on the evaluation metrics
 - `model.predict()`: method to make predictions of output depending on the input
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/29/ml-zoomcamp-2023-deep-learning-part-14/)

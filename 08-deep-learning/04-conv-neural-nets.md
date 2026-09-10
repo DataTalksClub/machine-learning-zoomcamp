@@ -205,10 +205,6 @@ In the next lesson we will see how this theory is useful: how to use
 the convolutional part for extracting the vector representation and
 how to train dense layers for our purpose.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 A convolutional neural network, also know as CNN or ConvNet, is a feed-forward neural network that is generally used to analyze visual images by processing data with grid-like topology. A CNN is used to detect and classify objects in an image. In CNNs, every image is represented in the form of an array of pixel values.
@@ -291,15 +287,3 @@ The next step in the process is called flattening. Flattening is used to convert
 * chaining layers of simple and complex filters allows the CNN to "learn"
 * resulting in vector representation of image
 * activation functions sigmoid for binary classification and softmax for multiclass
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/20/ml-zoomcamp-2023-deep-learning-part-5/)

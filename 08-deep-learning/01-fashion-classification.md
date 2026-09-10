@@ -126,15 +126,3 @@ There are 13 videos in this module. Let's get started.
 * see corresponding medium.com article https://medium.com/data-science-insider/clothing-dataset-5b72cd7c3f1f
 * deep learning with tensorflow and keras
 * parameters, layers, regularization
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/18/ml-zoomcamp-2023-deep-learning-part-1/)

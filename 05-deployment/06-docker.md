@@ -131,10 +131,6 @@ the containerized service - same URL, same response, but everything inside
 the container came from the image. In the [next
 unit](07-aws-eb.md) we deploy this container to the cloud.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
-
 ## Notes
 
 - Once our project was packed in a Docker container, we're able to run our project on any machine.
@@ -194,15 +190,3 @@ Flag explanations:
 - `--entrypoint=bash`: After running Docker, we will now be able to communicate with the container using bash (as you would normally do with the Terminal). Default is `python`.
 
 At last you've deployed your prediction app inside a Docker container. Congratulations 🥳
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/14/ml-zoomcamp-2023-deploying-machine-learning-models-part-6/)

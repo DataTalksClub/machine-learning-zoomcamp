@@ -135,10 +135,6 @@ In the lesson we talked about iterators and generators in Python. You can read m
 - https://anandology.com/python-practice-book/iterators.html
 - https://www.google.com/search?q=python+iterators+and+generators
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
-
 ## Notes
 
 **Cross-validations** refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the **parameter tuning** step, which is the process of selecting the best parameter.
@@ -154,15 +150,3 @@ In general, if the dataset is large, we should use the hold-out validation datas
 - `for i in tqdm()` - library for showing the progress of each i iteration in a for loop.
 
 The code of this project is available in [this jupyter notebook](notebook.ipynb).
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-- [Notes from Peter Ernicke](https://knowmledge.com/2023/10/08/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-7/)

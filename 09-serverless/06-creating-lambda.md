@@ -201,17 +201,3 @@ around 1,000 dollars per month for one model - a significant sum.
 We now have a working Lambda function. But we can't use it as a web
 service yet - that's what we'll do in the next lesson with API
 Gateway.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/05/ml-zoomcamp-2023-serverless-part-6/)

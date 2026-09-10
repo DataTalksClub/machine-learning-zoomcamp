@@ -205,10 +205,6 @@ Putting everything together:
 In the next unit we tune `max_depth` and `min_samples_leaf` for our
 credit scoring project.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 This lesson first reviews the topics learned in the previous lesson about how to train a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data. 
@@ -241,16 +237,3 @@ composed of **nodes** (which contain conditions) and **branches** (which represe
 *   At a node, find the best split.
 *   Stop if max\_depth is reached.
 *   For each child node, if the node is sufficiently large and not pure, repeat the process from the beginning.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/21/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-6/)
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/22/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-7/)

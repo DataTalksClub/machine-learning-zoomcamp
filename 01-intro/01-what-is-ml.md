@@ -70,10 +70,6 @@ To summarize: machine learning is a process of extracting patterns from data. Th
 
 In the next lesson we compare machine learning with rule-based systems, using a spam detection example.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-11-introduction-to-machine-learning)
-
 ## Notes
 
 The concept of ML is depicted with an example of predicting the price of a car. The ML model
@@ -88,15 +84,3 @@ In summary, ML is a process of **extracting patterns from data**, which is of tw
 * target (property to predict for unseen objects). 
 
 Therefore, new feature values are presented to the model, and it makes **predictions** from the learned patterns.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/09/ml-zoomcamp-2023-introduction-to-machine-learning-part-1/)

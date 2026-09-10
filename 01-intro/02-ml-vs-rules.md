@@ -95,10 +95,6 @@ So in usual software we hard-code the outcome in the code. In machine learning t
 
 In the next lesson we talk about supervised machine learning: price prediction and spam detection - the two examples we have seen so far - are both examples of it.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-12-ml-vs-rulebased-systems)
-
 ## Notes
 
 The difference between ML and Rule-Based systems is explained with the example of a **spam filter**.
@@ -117,16 +113,3 @@ Each email can be encoded (converted) to the values of its features and target.
 
 ### 3. Train and use the model
 A machine learning algorithm can then be applied to the encoded emails to build a model that can predict whether a new email is spam or not spam. The **predictions are probabilities**, and to make a decision it is necessary to define a threshold to classify emails as spam or not spam. 
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/10/ml-zoomcamp-2023-introduction-to-machine-learning-part-2/)

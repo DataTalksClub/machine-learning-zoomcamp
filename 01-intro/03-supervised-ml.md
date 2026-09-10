@@ -96,10 +96,6 @@ In this course we focus mostly on classification, but the next lesson is about r
 
 In the next lesson we zoom out and look at a methodology for organizing machine learning projects, called CRISP-DM.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-13-supervised-machine-learning)
-
 ## Notes
 
 In Supervised Machine Learning (SML) there are always labels associated with certain features.
@@ -121,17 +117,3 @@ The model can be represented as a function, **g**, that takes the feature matrix
 * **Ranking:** the output is the top scores associated with corresponding items. It is applied in recommender systems. 
 
 In summary, SML is about teaching the model by showing it different examples, and the goal is to come up with a function, that takes the feature matrix as input, and makes predictions of values as close as possible to the **y** targets. 
-
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/11/ml-zoomcamp-2023-introduction-to-machine-learning-part-3/)

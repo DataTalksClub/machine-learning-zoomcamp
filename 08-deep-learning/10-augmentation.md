@@ -143,10 +143,6 @@ Which augmentations should you use? A few guidelines:
 
 And remember: tuning neural networks is more art than science.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 Data augmentation is a process of artifically increasing the amount of data by generating new images from existing images. This includes adding minor alterations to images by flipping, cropping, adding brightness and/or contrast, and many more.
@@ -175,15 +171,3 @@ train_ds = train_gen.flow_from_directory(directory=train_imgs_dir,
 - Augmentations are hyperparameters: like many other hyperparameters, often times we need to test whether image augmentations are useful for the model or not. If the model doesn't improve or have same performance after certain epochs (let's say 20), in that case we don't use it.
 
 Usually augmented data required training for longer.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/27/ml-zoomcamp-2023-deep-learning-part-12/)

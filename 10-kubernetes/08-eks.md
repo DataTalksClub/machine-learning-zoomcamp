@@ -182,15 +182,3 @@ This also takes a few minutes, and it deletes the load balancer together
 with the cluster. Afterwards we can check the console: the load balancer
 is gone, the EC2 instance shows as terminated, and there are no clusters
 in EKS.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

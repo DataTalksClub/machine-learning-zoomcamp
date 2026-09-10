@@ -138,10 +138,6 @@ which makes the output interpretable as a probability.
 In the next lesson we stop implementing things by hand and train this
 model with Scikit-Learn.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 In general, supervised models can be represented with this formula: 
@@ -165,15 +161,3 @@ Logistic regression is similar to linear regression because both models take int
 In this way, the sigmoid function allows transforming a score into a probability. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/30/ml-zoomcamp-2023-machine-learning-for-classification-part-9/)

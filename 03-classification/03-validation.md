@@ -96,10 +96,6 @@ as a feature when we train the model. Note that we keep `churn` inside
 `df_full_train` for now - we need it in the next unit, where we do
 exploratory data analysis.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 Splitting the dataset with **Scikit-Learn**. 
@@ -112,15 +108,3 @@ Splitting the dataset with **Scikit-Learn**.
 * `del df['x']` - delete x series from a dataframe 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb).
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/27/ml-zoomcamp-2023-machine-learning-for-classification-part-3/)

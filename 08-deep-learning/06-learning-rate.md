@@ -198,10 +198,6 @@ In the next lesson we'll talk about checkpointing. Now that we know the
 validation accuracy oscillates - goes up, then down - we want to save
 the model at the good iterations, not just the last one.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 One of the most important hyperparameters of deep learning models is the learning rate. It is a tuning parameter in an optimization function that determines the step size (how big or small) at each iteration while moving toward a mininum of a loss function.
@@ -267,15 +263,3 @@ Visualizing the training and validation accuracies help us to determine which le
 * learning rate analogy: the speed of reading a book
 * reading fast (skimming thus missing details) vs reading slow (not much progress and leaving out books)
 * finding the optimal learning rate
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/23/ml-zoomcamp-2023-deep-learning-part-8/)

@@ -490,18 +490,3 @@ That's it for this session. The next video is not a lesson - it's a summary of e
 
 - [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
 - [Pandas Cheat sheet](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet)
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke - Part 1/2](https://knowmledge.com/2023/09/16/ml-zoomcamp-2023-introduction-to-machine-learning-part-12/)
-* [Notes from Peter Ernicke - Part 2/2](https://knowmledge.com/2023/09/17/ml-zoomcamp-2023-introduction-to-machine-learning-part-13/)

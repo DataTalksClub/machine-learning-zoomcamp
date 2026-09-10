@@ -111,10 +111,6 @@ is still tied to our machine is Python itself and everything outside Python
 packages. In the [next unit](06-docker.md) we put the whole environment - the
 Python version included - into a Docker container.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
-
 ## Notes
 In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it.
 - Every time we're running a file from a directory we're using the executive files from a global directory. When we install python on our machine the executable files that are able to run our codes will go to somewhere like _/home/username/python/bin/_. The pip command, for example, may go to _/home/username/python/bin/pip_.
@@ -129,15 +125,3 @@ In this session we're going to make virtual environments for our project. So Let
 - Installing and using the libraries such as gunicorn is the same as the last session.
 - Until here we made a virtual environment for our libraries with a required specified version. To seperate this environment more, such as making gunicorn be able to run in windows machines we need another way. The other way is using Docker. Docker allows us to seperate everything more than before and make any project able to run on any machine that supports Docker smoothly.
 - In the next session we'll go in detail of how Docker works and how to use it.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/13/ml-zoomcamp-2023-deploying-machine-learning-models-part-5/)

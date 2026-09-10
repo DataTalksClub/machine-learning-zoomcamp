@@ -235,10 +235,6 @@ del df_test['status']
 
 The data is ready. In the next unit we train our first decision tree.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 In this section we clean and prepare the [dataset](https://github.com/gastonstat/CreditScoring/raw/master/CreditScoring.csv) for the model which involves the following steps:
@@ -251,16 +247,3 @@ In this section we clean and prepare the [dataset](https://github.com/gastonstat
 - Split the data in a two-step process which finally leads to the distribution of 60% train, 20% validation, and 20% test sets with random seed to `11`.
 - Prepare target variable `status` by converting it from categorical to binary, where 0 represents `ok` and 1 represents `default`.
 - Finally delete the target variable from the train/val/test dataframe.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/17/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-2/)
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/18/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-3/)

@@ -148,10 +148,6 @@ always worth it. Before deciding, it helps to try regularizing the
 more complex model first. That's exactly what we'll do in the next
 unit: regularization and dropout.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 It is also possible to add more layers between the `vector representation layer` and the `output layer` to perform intermediate processing of the vector representation. These layers are the same dense layers as the output but the difference is that these layers use `relu` activation function for non-linearity.
@@ -222,15 +218,3 @@ In the next section, we'll try different regularization technique to improve the
 * sigmoid: negativ input --> zero, positive input --> straight line
 * relu
 * softmax
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/25/ml-zoomcamp-2023-deep-learning-part-10/)

@@ -121,10 +121,6 @@ With such an imbalance, a model can get a high accuracy by always predicting the
 
 So for this problem, accuracy alone cannot tell us how good the model is. We need metrics that look at the errors in more detail - that is what the confusion table in the next lesson is for.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
-
 ## Notes
 
 **Accuracy** measures the fraction of correct predictions. Specifically, it is the number of correct predictions divided by the total number of predictions. 
@@ -142,15 +138,3 @@ Therefore, in this problem accuracy can not tell us how good is the model becaus
 * `accuracy_score(x, y)` - sklearn.metrics class for calculating the accuracy of a model, given a predicted `x` dataset and a target `y` dataset. 
 
 The entire code of this project is available in [this jupyter notebook](notebook.ipynb).  
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/03/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-2/)

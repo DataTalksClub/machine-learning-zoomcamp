@@ -131,10 +131,6 @@ An accuracy of 80% is a reasonable start for this problem. The choice
 of the 0.5 threshold affects this number - we will see how to pick a
 better threshold when we look at classification metrics in more detail.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy. 
@@ -148,15 +144,3 @@ This video was about training a logistic regression model with Scikit-Learn, app
 * `LogisticRegression().predict_proba[x]` - make predictions on the x dataset by returning two columns with their probabilities for the two categories - soft predictions
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb).
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/30/ml-zoomcamp-2023-machine-learning-for-classification-part-10/)

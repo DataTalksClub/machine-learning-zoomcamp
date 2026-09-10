@@ -91,10 +91,6 @@ So 65% of all customers are true negatives, 7% false positives, 12% false negati
 
 Accuracy fits right back in: it is the sum of the diagonal - the correct decisions TN and TP - divided by the total. Here (922 + 210) / 1409 = 0.8034, the same 80% as before. What the table adds is the split of the remaining 20% into 7% of false positives and 12% of false negatives - two errors with very different business costs.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
-
 ## Notes
 
 Confusion table is a way of measuring different types of errors and correct decisions that binary classifiers can make. Considering this information, it is possible to evaluate the quality of the model by different strategies.

@@ -110,15 +110,3 @@ And in the next session we will talk about Kubeflow. It's a simpler
 alternative that sits on top of Kubernetes: we don't need to write so
 much YAML, it takes care of some things for us and lets us develop and
 deploy things to Kubernetes faster.
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

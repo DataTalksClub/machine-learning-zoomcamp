@@ -191,10 +191,6 @@ improving. This plot is what we will use in the next unit for tuning: the
 number of boosting rounds where the validation AUC peaks tells us how many
 rounds to use.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 **Gradient Boosting**
@@ -219,19 +215,6 @@ XGBoost is one of the libraries which implements the gradient boosting technique
 - `xgb_params`: key-value pairs of hyperparameters to train xgboost model.
 - `watchlist`: list to store training and validation data to evaluate the performance of the model after each training iteration. The list takes tuple of train and validation set from DMatrix wrapper, for example, `watchlist = [(dtrain, 'train'), (dval, 'val')]`.
 - `%%capture output`: IPython magic command which captures the standard output and standard error of a cell.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-- [Notes from Peter Ernicke](https://knowmledge.com/2023/10/25/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-10/)
-- [Notes from Peter Ernicke](https://knowmledge.com/2023/10/26/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-11/)
 
 ### Extracting results from `xgb.train(..)`
 

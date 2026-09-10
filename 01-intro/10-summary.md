@@ -106,10 +106,6 @@ That's what we covered in this session. It was more abstract: what you can do wi
 
 In the next session we will do something practical: we will actually work on a project and predict the price of a car. Stay tuned.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-110-summary)
-
 ## Notes
 ---
 
@@ -151,14 +147,3 @@ In the next session we will do something practical: we will actually work on a p
    Pandas is a Python library used for processing and analyzing tabular data efficiently.
 
 ---
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-* [Notes from Maximilien Eyengue](https://github.com/maxim-eyengue/Python-Codes/blob/main/ML_Zoomcamp_2024/01_intro/Summary_Session_01.md)

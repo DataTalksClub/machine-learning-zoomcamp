@@ -358,10 +358,6 @@ most important parameter is eta - the learning rate - the same is true
 for neural networks. The learning rate is the most important parameter
 to tune, and that's exactly what we'll do in the next lesson.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Usually a pretrained model is trained with large volume of images and that is why the convolutional layers and vector representation of this model can be used for other tasks as well. However, the dense layers need to be retrained because they are specific to the dataset to make predictions with. In our problem, we want to keep convoluational layers but we want to train new dense layers.
@@ -468,16 +464,3 @@ history = model.fit(train_ds, epochs=10, validation_data=val_ds)
 * categorical cross entropy
 * changing accuracy during several training epochs
 * overfitting
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/21/ml-zoomcamp-2023-deep-learning-part-6/)
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/22/ml-zoomcamp-2023-deep-learning-part-7/)

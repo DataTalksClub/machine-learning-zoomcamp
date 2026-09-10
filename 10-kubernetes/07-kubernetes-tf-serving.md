@@ -254,13 +254,3 @@ the people who run Kubernetes and talk this problem through with them.
 * tensorflow serving in C++, gateway service as flask app
 * gateway service: image preprocessing (i.e. resizing), prepare matrix, numpy arr, convert to protobuf, gRPC to communicate with tensorflow serving; postprocessing
 * using telnet to check kubernetes pod
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

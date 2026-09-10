@@ -70,16 +70,3 @@ There are more things you can explore on your own:
 
 That's all I have about this topic. Next week we'll talk about
 Kubernetes as an alternative way of deploying machine learning models.
-
-
-## Notes
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

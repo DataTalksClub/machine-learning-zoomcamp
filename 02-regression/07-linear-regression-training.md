@@ -203,10 +203,6 @@ need to worry about the bias term: they pass the plain feature matrix,
 and the function takes care of the rest. In the next unit we finally
 use this function on the car price dataset.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 ## Notes
 
 Obtaining predictions as close as possible to $y$ target values requires the calculation of weights from the general
@@ -228,15 +224,3 @@ $X^TX$ is the Gram Matrix
 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/21/ml-zoomcamp-2023-machine-learning-for-regression-part-6/)

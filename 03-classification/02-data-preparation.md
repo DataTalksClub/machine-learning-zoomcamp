@@ -203,10 +203,6 @@ Now `churn` is 1 for customers who churned and 0 for those who stayed.
 The data is ready for the next step: splitting it into train,
 validation and test sets.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
-
 ## Notes
 
 This session covered data obtention and some procedures of data preparation. 
@@ -227,16 +223,3 @@ This session covered data obtention and some procedures of data preparation.
 * `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/03-classification/notebook.ipynb).
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/26/ml-zoomcamp-2023-machine-learning-for-classification-part-2/)

@@ -134,10 +134,6 @@ What we will actually need in this module are pods, deployments and
 services - that's what we'll set up to deploy things to Kubernetes. In
 the next lesson we deploy a simple application to a Kubernetes cluster.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-10-kubernetes)
-
 ## Notes
 
 * kubernetes is open source system for automating deployment scaling and management of containerized applications
@@ -152,13 +148,3 @@ the next lesson we deploy a simple application to a Kubernetes cluster.
 * HPA horizontal pod autoscaler = allocating resources depending on demand
 * Ingress
 * kubernetes configuration
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

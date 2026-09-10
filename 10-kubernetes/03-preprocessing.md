@@ -206,13 +206,3 @@ what we cover in the next lesson.
 * be aware of the library sizes: tensorflow 1.7 GB, tensorflow CPU ~400 MB, tensorflow serving
 * turn numpy array into protobuf format
 * tensorflow protobuf
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>

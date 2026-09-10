@@ -231,16 +231,3 @@ This link explains the difference between them: https://stackoverflow.com/a/3424
 
 In case of the lambda base pacakge, the authors already specified the entrypoint and
 we only need to overwrite the arguments passed to the entrypoint,
-
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/12/04/ml-zoomcamp-2023-serverless-part-5/)

@@ -84,10 +84,6 @@ This week is about decision trees and tree-based ensemble methods:
 Everything is illustrated with the credit risk scoring project: we
 train the models, compare them, and pick the best one.
 
-## Materials
-
-- [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
-
 ## Notes
 
 In this session we'll learn about decision trees and ensemble learning algorithms. The questions that we try to address this week are, "What are decision trees? How are they different from ensemble algorithms? How can we implement and fine-tune these models to make binary classification predictions?"
@@ -97,15 +93,3 @@ To be specific, we'll use [credit scoring data](https://github.com/gastonstat/Cr
 In the credit scoring classification problem, 
 - if the model returns 0, this means, the client is very likely to payback the loan and the bank will approve the loan.  
 - if the model returns 1, then the client is considered as a `defaulter` and the bank may not approve the loan.
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/10/16/ml-zoomcamp-2023-decision-trees-and-ensemble-learning-part-1/)

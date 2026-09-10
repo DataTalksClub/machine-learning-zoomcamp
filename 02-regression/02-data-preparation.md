@@ -168,10 +168,6 @@ df.head()
 The dataset is prepared, and in the next lesson we take a closer look at it
 with [exploratory data analysis](03-eda.md).
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
-
 ## Notes
 
 **Pandas attributes and methods:** 
@@ -185,15 +181,3 @@ with [exploratory data analysis](03-eda.md).
 * `df.index` -> retrieve indices of a dataframe
 
 The entire code of this project is available in [this jupyter notebook](notebook.ipynb).
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/09/18/ml-zoomcamp-2023-machine-learning-for-regression-part-1/)

@@ -168,10 +168,6 @@ In the end, `droprate=0.2` is the choice: it's not too large, the
 performance is reasonably good, and unlike plain 0.0 it actually
 fights overfitting. This is the value we use in the following units.
 
-## Materials
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
-
 ## Notes
 
 Dropout is a technique that prevents overfitting in neural networks by randomly dropping nodes of a layer during training. As a result, the trained model works as an ensemble model consisting of multiple neural networks.
@@ -253,15 +249,3 @@ Note: Because we introduce dropout in the neural networks, we will need to train
 * hiding parts of the images (freeze) from being seen by the learning neural network
 * dropout = randomly freezing parts of the image
 * comparing different performance parameters while changing dropout rate and regularization
-
-<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>
-
-* [Notes from Peter Ernicke](https://knowmledge.com/2023/11/26/ml-zoomcamp-2023-deep-learning-part-11/)
