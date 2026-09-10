@@ -1,0 +1,12 @@
+schema_version: 2
+content_id: "16263f7f-e4ec-4be2-b951-92a38ee0000c"
+identifier: "2021"
+course: ml-zoomcamp
+delivery: live
+published: true
+start_date: "2021-09-06"
+end_date: "2022-02-02"
+curriculum: github_archive
+archive:
+  notice_path: cohorts/2021/leaderboard.md
+homework: []
