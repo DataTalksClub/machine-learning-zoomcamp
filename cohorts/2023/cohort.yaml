@@ -1,0 +1,12 @@
+schema_version: 2
+content_id: "af15de0f-7f2d-436d-b1c9-dafa4f111fed"
+identifier: "2023"
+course: ml-zoomcamp
+delivery: live
+published: true
+start_date: "2023-09-11"
+end_date: "2024-02-01"
+curriculum: github_archive
+archive:
+  notice_path: cohorts/2023/README.md
+homework: []
