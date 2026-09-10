@@ -149,4 +149,3 @@ In general, if the dataset is large, we should use the hold-out validation datas
 - `Kfold.split(x)` - sklearn.Kfold method for splitting the x dataset with the attributes established in the Kfold's object construction.
 - `for i in tqdm()` - library for showing the progress of each i iteration in a for loop.
 
-The code of this project is available in [this jupyter notebook](notebook.ipynb).

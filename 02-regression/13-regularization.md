@@ -205,8 +205,6 @@ This technique
 works because the addition of small values to the diagonal makes it less likely to have duplicated columns. The regularization value is a hyperparameter of the model. After applying 
 regularization the model performance improved. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
-
 ## Comments
 ### Linear combination
 

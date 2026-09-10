@@ -214,4 +214,3 @@ In general, the dataset is splitted into three parts: training, validation, and 
 * `np.random.shuffle()` -> return a shuffled array
 * `np.random.seed()` -> set a seed for reproducibility
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 

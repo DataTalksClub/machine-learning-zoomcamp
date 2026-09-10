@@ -223,4 +223,3 @@ $X^TX$ is the Gram Matrix
 
 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 

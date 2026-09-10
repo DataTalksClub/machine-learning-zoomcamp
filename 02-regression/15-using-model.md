@@ -201,4 +201,3 @@ After finding the best model and its parameters, it was trained with training an
 
 Finally, the final model was used to predict the price of new cars. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  

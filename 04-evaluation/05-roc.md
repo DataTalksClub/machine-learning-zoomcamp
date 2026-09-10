@@ -208,4 +208,3 @@ We need to compare the ROC curves against a point of reference to evaluate its p
 * `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values first, and then a w number of y values. 
 * `roc_curve(x, y)` - sklearn.metrics class for calculating the false positive rates, true positive rates, and thresholds, given a target x dataset and a predicted y dataset. 
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/notebook.ipynb). 

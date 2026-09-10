@@ -146,4 +146,3 @@ exactly what we will do in the next unit with RMSE.
 * Once the weights are calculated, then we apply them on  $$\\\\ \large g(X) = w_0 + X \cdot w$$ to derive the predicted y vector.
 * Then we plot both predicted y and the actual y on the same histogram for a visual comparison.
 
-The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb).  
