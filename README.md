@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" src="images/ml-zoomcamp.png" alt="Machine Learning Zoomcamp cover image">
+  <img width="500" src="images/ml-zoomcamp.jpg" alt="Machine Learning Zoomcamp cover image">
 </p>
 
 <h1 align="center">

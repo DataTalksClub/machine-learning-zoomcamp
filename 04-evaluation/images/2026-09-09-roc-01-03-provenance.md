@@ -5,7 +5,7 @@ outside this repair and were not modified.
 
 - `05-roc-01-tpr-fpr-vs-threshold-crisp.jpg`
 - `05-roc-02-random-model-tpr-fpr-crisp.jpg`
-- `05-roc-03-ideal-model-tpr-fpr-crisp.png`
+- `05-roc-03-ideal-model-tpr-fpr-crisp.jpg`
 
 ## Source of truth
 
@@ -88,7 +88,7 @@ axes, and no camera, browser, cursor, overlay, or screenshot artifacts.
 |---|---:|---:|---|---|
 | `05-roc-01-tpr-fpr-vs-threshold-crisp.jpg` | `1510x1030` | `608x415` | `39ffa6dbe8f4d84a34230c295e9015e8536b3270f0f697712d0837b2cefe4d06` | `e5fad46bc39a4edeec0845ca45fba18b057f2ccbe255e3e6d33eb8386c51301b` |
 | `05-roc-02-random-model-tpr-fpr-crisp.jpg` | `1510x1030` | `608x415` | `a7f2c2cf457dacbfaee988596642fc0fb103619ee3b14bcaf9d6346dbb3e29bc` | `19289e22be543f645664469aa129797cb58c33edcf807ffa6d04073f69288007` |
-| `05-roc-03-ideal-model-tpr-fpr-crisp.png` | `1510x1030` | `608x415` | `abffffe11b9cfc7f7e6c554933c99ac1da6458db263f7fc4cffffd3204535933` | `75d75f60a2395c63639636bc932849fdf44da804fcdc689bedf42f9155bbe127` |
+| `05-roc-03-ideal-model-tpr-fpr-crisp.jpg` | `1510x1030` | `608x415` | `abffffe11b9cfc7f7e6c554933c99ac1da6458db263f7fc4cffffd3204535933` | `75d75f60a2395c63639636bc932849fdf44da804fcdc689bedf42f9155bbe127` |
 
 The ROC source JPGs remain preserved for historical comparison. The output
 PNGs are deterministic code renders, so C2PA/imagegen metadata is not

@@ -4,7 +4,7 @@
 
 This record covers one published illustration and one Markdown reference:
 
-- `02-accuracy-01-accuracy-vs-threshold-crisp.png` was rebuilt from the 21 values printed in `../02-accuracy.md`.
+- `02-accuracy-01-accuracy-vs-threshold-crisp.jpg` was rebuilt from the 21 values printed in `../02-accuracy.md`.
 - The image reference to `03-confusion-table-07-accuracy-from-table-crisp.jpg` was removed from `../03-confusion-table.md` because the lesson already contains the native confusion table/output and the screenshot contains the incorrect `FP 8%` value. The JPG and PNG source assets were intentionally left in place.
 
 The other 16 unresolved evaluation assets are out of scope and are not being marked complete by this repair.
@@ -34,7 +34,7 @@ The published PNG was rendered from that SVG with ImageMagick:
 ```bash
 convert -background white -alpha remove -alpha off \
   02-accuracy-01-accuracy-vs-threshold-source.svg \
-  -depth 8 02-accuracy-01-accuracy-vs-threshold-crisp.png
+  -depth 8 02-accuracy-01-accuracy-vs-threshold-crisp.jpg
 ```
 
 No imagegen, enlargement, sharpening, or screenshot-derived curve was used. The original JPG remains preserved for historical/source comparison.

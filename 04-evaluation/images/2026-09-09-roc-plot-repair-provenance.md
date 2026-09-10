@@ -3,8 +3,8 @@
 This record covers only the three active ROC references in `05-roc.md`:
 
 - `05-roc-04-model-vs-ideal-tpr-fpr-crisp.jpg`
-- `05-roc-05-roc-curve-manual-crisp.png`
-- `05-roc-06-roc-curve-sklearn-crisp.png`
+- `05-roc-05-roc-curve-manual-crisp.jpg`
+- `05-roc-06-roc-curve-sklearn-crisp.jpg`
 
 The original JPGs were inspected for content and retained unchanged. No crop
 was used for this batch: these are deterministic native plots, not imagegen

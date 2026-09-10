@@ -52,12 +52,12 @@ imagegen tool.
 
 | Published target | Source of truth | Render result SHA-256 |
 |---|---|---|
-| `05-decision-tree-tuning-05-heatmap-imagegen.png` | `05-decision-tree-tuning.md` printed 8×3 AUC table; columns `4, 5, 6` | `4c1a5932a29254150714ea1bed8b70014b137ae52fb2a22b102689fc598c1927` |
-| `05-decision-tree-tuning-07-wider-search-imagegen.png` | Original `05-decision-tree-tuning-07-wider-search.jpg` output table; columns `None, 4, 5, 6, 7, 10, 15, 20` | `84548dcabdae52a4a1197c3ddd428b98da4fa924b2f1e8ee75ddee9df7de2ac5` |
-| `06-random-forest-03-auc-vs-trees-imagegen.png` | `06-random-forest.md` `RandomForestClassifier(n_estimators=n, random_state=1)` loop | `bbb1f1ae91cea91a230e819554789e70e72385038356559554c6dc8342084775` |
+| `05-decision-tree-tuning-05-heatmap-imagegen.jpg` | `05-decision-tree-tuning.md` printed 8×3 AUC table; columns `4, 5, 6` | `4c1a5932a29254150714ea1bed8b70014b137ae52fb2a22b102689fc598c1927` |
+| `05-decision-tree-tuning-07-wider-search-imagegen.jpg` | Original `05-decision-tree-tuning-07-wider-search.jpg` output table; columns `None, 4, 5, 6, 7, 10, 15, 20` | `84548dcabdae52a4a1197c3ddd428b98da4fa924b2f1e8ee75ddee9df7de2ac5` |
+| `06-random-forest-03-auc-vs-trees-imagegen.jpg` | `06-random-forest.md` `RandomForestClassifier(n_estimators=n, random_state=1)` loop | `bbb1f1ae91cea91a230e819554789e70e72385038356559554c6dc8342084775` |
 | `06-random-forest-04-tuning-max-depth-imagegen.jpg` | `06-random-forest.md` depths `5, 10, 15` loop | `732bdc6d1bd4bd488893b53df58b40084a81f2ce7009f883b4a2435380f33c8a` |
 | `06-random-forest-05-tuning-min-samples-leaf-imagegen.jpg` | `06-random-forest.md` leaf sizes `1, 3, 5, 10, 50` loop | `00cf98cbe36d066bec564713f656b6eabdecd15a4037823708426951cb5d14ca` |
-| `07-boosting-03-train-val-auc-imagegen.png` | `07-boosting.md` XGBoost monitoring plot, `eta=0.3`, `max_depth=6`, `min_child_weight=1` | `430ea8c3b0753c995daf5c93aaa86efff9feddd30e3e96bc69b7bc7bcc596dd6` |
+| `07-boosting-03-train-val-auc-imagegen.jpg` | `07-boosting.md` XGBoost monitoring plot, `eta=0.3`, `max_depth=6`, `min_child_weight=1` | `430ea8c3b0753c995daf5c93aaa86efff9feddd30e3e96bc69b7bc7bcc596dd6` |
 | `08-xgb-tuning-02-tuning-eta-imagegen.jpg` | `08-xgb-tuning.md` eta values `0.3, 1.0, 0.1, 0.05, 0.01` | `76d5073a442e076832bf59352991639b24bd3ac167b86d75a8454ea41d7de702` |
 | `08-xgb-tuning-03-max-depth-curves-imagegen.jpg` | `08-xgb-tuning.md` max depths `6, 3, 4` after removing `10` | `0b0831412394b16c2ed94903551c2b90a00ad80e0e4da4554f3936550b87cc30` |
 | `08-xgb-tuning-04-min-child-weight-curves-imagegen.jpg` | `08-xgb-tuning.md` child weights `1, 10, 30` | `6bbc5b0260f6c26a306e1bca6002094382c132a653a7f4f766d96303b5ec8ae3` |

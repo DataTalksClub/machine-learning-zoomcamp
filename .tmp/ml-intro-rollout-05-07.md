@@ -105,8 +105,8 @@
 
 ### 10 — add-code-for-datafile-download
 
-- Source: `cohorts/2026/01-intro/images/add-code-for-datafile-download.png` (1299×564 PNG)
-- Disposition: accepted deterministic sibling `add-code-for-datafile-download-cropped.png`
+- Source: `cohorts/2026/01-intro/images/add-code-for-datafile-download.jpg` (1299×564 PNG)
+- Disposition: accepted deterministic sibling `add-code-for-datafile-download-cropped.jpg`
 - Crop: `1200×440+70+90` (trims outer notebook chrome while retaining the exact import cell, `wget` URL, `pd.read_csv('data.csv')`, output, and red instructional highlight)
 - Path: deterministic lossless PNG crop; imagegen not used because exact Python, shell command, URL, output, and annotation are the source of truth
 - Invariants: `!wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv`; `df = pd.read_csv('data.csv')`; `len(df)` output `11914`; red highlight
@@ -189,7 +189,7 @@
 ### 08 — sample-code
 
 - Source: `cohorts/2026/01-intro/images/sample-code.jpg` (1299×550 PNG)
-- Disposition: accepted deterministic sibling `sample-code-cropped.png`
+- Disposition: accepted deterministic sibling `sample-code-cropped.jpg`
 - Crop: `930×450+70+100` (trims notebook navigation/sidebar while retaining the code cells, output, and red instructional highlight)
 - Path: deterministic lossless PNG crop; imagegen not used because exact Python code, output, and UI annotation are the source of truth
 - Invariants: `import pandas as pd`; `import numpy as np`; `import seaborn as sns`; `df = pd.read_csv('data.csv')`; `len(df)` output `11914`; red highlight around the CSV read

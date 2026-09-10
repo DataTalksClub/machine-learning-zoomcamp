@@ -109,7 +109,7 @@ accuracy_score(y_ideal, y_ideal_pred >= 0.726)
 
 This gives `1.0` - perfect predictions, as an ideal model should. Its TPR and FPR vs threshold:
 
-![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr-crisp.png)
+![TPR and FPR of the ideal model at different thresholds](images/05-roc-03-ideal-model-tpr-fpr-crisp.jpg)
 
 The ideal TPR stays at 1.0 for every threshold below 0.726 - it catches all churners while they all score higher than any non-churner - and only then drops. The ideal FPR falls to 0 at that same point.
 
@@ -145,7 +145,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual-crisp.png)
+![ROC curve of the model against the random baseline](images/05-roc-05-roc-curve-manual-crisp.jpg)
 
 The lesson to take away: the closer the curve hugs the top-left corner - high true positive rate at a low false positive rate - the better the model. A curve sitting on the diagonal belongs to a random model.
 
@@ -173,7 +173,7 @@ plt.ylabel('TPR')
 plt.legend()
 ```
 
-![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn-crisp.png)
+![ROC curve computed with sklearn roc_curve](images/05-roc-06-roc-curve-sklearn-crisp.jpg)
 
 What kind of information do we get from this curve - and how do we boil it down to a single number? That is the ROC AUC metric, the topic of the next lesson.
 

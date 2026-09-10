@@ -141,7 +141,7 @@ On the training set the smallest learning rate `0.0001` learns too
 slowly: after 10 epochs it reaches only about 80% accuracy, while the
 others are higher.
 
-![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy-crisp.png)
+![Training accuracy for the four learning rates: 0.0001 is the slow blue curve at the bottom](images/06-learning-rate-04-train-accuracy-crisp.jpg)
 
 Now the same for validation:
 
@@ -157,14 +157,14 @@ Again `0.0001` is too slow - after 10 epochs it's still below 80% - and
 `0.1` is the worst of all four. Let's remove both from `scores` and
 compare only `0.001` and `0.01`:
 
-![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy-crisp.png)
+![Validation accuracy for the four learning rates: the slow 0.0001 curve is still catching up](images/06-learning-rate-05-val-accuracy-crisp.jpg)
 
 ```python
 del scores[0.1]
 del scores[0.0001]
 ```
 
-![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation-crisp.png)
+![Validation accuracy for 0.001 and 0.01 after deleting the other two learning rates from scores](images/06-learning-rate-06-two-lr-validation-crisp.jpg)
 
 `0.001` is better on validation in general - it's better in all cases
 except one, where `0.01` just got lucky. Out of curiosity we can also
@@ -179,7 +179,7 @@ plt.xticks(np.arange(10))
 plt.legend()
 ```
 
-![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001-crisp.png)
+![Comparing train and validation curves for 0.001 and 0.01: the gap is bigger for 0.01](images/06-learning-rate-07-select-001-crisp.jpg)
 
 It turns out `0.01` is better on the training data, but worse on
 validation - the gap between its train and validation curves is bigger.
