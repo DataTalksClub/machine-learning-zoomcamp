@@ -1,15 +1,11 @@
-## Homework 4 [DRAFT]
+## Homework 4
 
 > [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-> Note: sometimes your answer doesn't match one of 
-> the options exactly. That's fine. 
-> Select the option that's closest to your solution.
-> If it's exactly in between two options, select the higher value.
+> This homework uses the pinned 2026 lead-scoring release in the course
+> repository. The plan and report are available in `cohorts/2026/data/`.
 
 
-In this homework, we will use the lead scoring dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv).
+In this homework, we will use the 2026 lead-scoring dataset. Download it from [here](https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/course_lead_scoring_2026.csv).
 
 
 In this dataset our desired target for classification task will be `converted` variable - has the client signed up to the platform or not. 
@@ -18,11 +14,18 @@ In this dataset our desired target for classification task will be `converted` v
 
 * Check if the missing values are presented in the features.
 * If there are missing values:
-    * For caterogiral features, replace them with 'NA'
+    * For categorical features, replace them with 'NA'
     * For numerical features, replace with with 0.0 
 
 
-Split the data into 3 parts: train/validation/test with 60%/20%/20% distribution. Use `train_test_split` function for that with `random_state=1`
+Split the data into 3 parts with these exact calls:
+
+```python
+df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)
+df_train, df_val = train_test_split(
+    df_full_train, test_size=0.25, random_state=1
+)
+```
 
 
 ### Question 1: ROC AUC feature importance
@@ -58,10 +61,10 @@ LogisticRegression(solver='liblinear', C=1.0, max_iter=1000)
 
 What's the AUC of this model on the validation dataset? (round to 3 digits)
 
-- 0.32
-- 0.52
-- 0.72
-- 0.92
+- 0.532
+- 0.632
+- 0.732
+- 0.832
 
 
 ### Question 3: Precision and Recall
@@ -72,12 +75,14 @@ Now let's compute precision and recall for our model.
 * For each threshold, compute precision and recall
 * Plot them
 
-At which threshold precision and recall curves intersect?
+At which threshold precision and recall curves intersect? Ignore thresholds at
+which both metrics are zero, and choose the threshold with the smallest
+absolute difference between precision and recall.
 
-* 0.145
-* 0.345
-* 0.545
-* 0.745
+* 0.43
+* 0.63
+* 0.73
+* 0.83
 
 
 ### Question 4: F1 score
@@ -94,10 +99,10 @@ Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
 
 At which threshold F1 is maximal?
 
-- 0.14
-- 0.34
-- 0.54
-- 0.74
+- 0.21
+- 0.41
+- 0.61
+- 0.81
 
 
 ### Question 5: 5-Fold CV
@@ -116,10 +121,10 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 
 How large is standard deviation of the scores across different folds?
 
-- 0.0001
-- 0.006
-- 0.06
-- 0.36
+- 0.001
+- 0.007
+- 0.013
+- 0.060
 
 
 ### Question 6: Hyperparameter Tuning
@@ -129,9 +134,10 @@ Now let's use 5-Fold cross-validation to find the best parameter `C`
 * Iterate over the following `C` values: `[0.000001, 0.001, 1]`
 * Initialize `KFold` with the same parameters as previously
 * Use these parameters for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
-* Compute the mean score as well as the std (round the mean and std to 3 decimal digits)
+* Compute the mean ROC AUC as well as the std (round the mean and std to 3
+  decimal digits).
 
-Which `C` leads to the best mean score?
+Which `C` leads to the best mean ROC AUC?
 
 - 0.000001
 - 0.001
@@ -142,4 +148,4 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+* The numerical options are calculated from the pinned 2026 release. Use the value that matches your calculation; do not choose a merely close value.

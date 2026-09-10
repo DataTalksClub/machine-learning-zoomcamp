@@ -1,20 +1,16 @@
-## Homework 2 [DRAFT]
+## Homework 2
 
 > [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-> Note: sometimes your answer doesn't match one of 
-> the options exactly. That's fine. 
-> Select the option that's closest to your solution.
-> If it's exactly in between two options, select the higher value.
+> This homework uses the pinned 2026 car fuel-efficiency release in the course
+> repository. The plan and report are available in `cohorts/2026/data/`.
 
 ### Dataset
 
-For this homework, we'll use the Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
+For this homework, we'll use the 2026 Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv'>here</a>.
 
 You can do it with wget:
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
+wget https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv
 ```
 
 The goal of this homework is to create a regression model for predicting the car fuel efficiency (column `'fuel_efficiency_mpg'`).
@@ -47,17 +43,31 @@ There's one column with missing values. What is it?
 
 What's the median (50% percentile) for variable `'horsepower'`?
 
-- 49
-- 99
-- 149
-- 199
+- 204
+- 254
+- 304
+- 354
 
 ### Prepare and split the dataset
 
-* Shuffle the dataset (the filtered one you created above), use seed `42`.
-* Split your data in train/val/test sets, with 60%/20%/20% distribution.
+Shuffle the filtered dataset and create the split exactly as in the lecture:
 
-Use the same code as in the lectures
+```python
+n = len(df)
+n_val = int(n * 0.2)
+n_test = int(n * 0.2)
+n_train = n - n_val - n_test
+
+np.random.seed(42)
+idx = np.arange(n)
+np.random.shuffle(idx)
+
+df_train = df.iloc[idx[:n_train]]
+df_val = df.iloc[idx[n_train:n_train + n_val]]
+df_test = df.iloc[idx[n_train + n_val:]]
+```
+
+For Q5, repeat the same block with each listed seed. For Q6, use seed `9`.
 
 
 ### Question 3
@@ -67,7 +77,8 @@ Use the same code as in the lectures
 * Try both options. For each, train a linear regression model without regularization using the code from the lessons.
 * For computing the mean, use the training only!
 * Use the validation dataset to evaluate the models and compare the RMSE of each option.
-* Round the RMSE scores to 2 decimal digits using `round(score, 2)`
+* Round the RMSE scores to 3 decimal digits using `round(score, 3)`. This
+  keeps the imputation difference visible in this release.
 * Which option gives better RMSE?
 
 Options:
@@ -83,7 +94,8 @@ Options:
 * For this question, fill the NAs with 0. 
 * Try different values of `r` from this list: `[0, 0.01, 0.1, 1, 5, 10, 100]`.
 * Use RMSE to evaluate the model on the validation dataset.
-* Round the RMSE scores to 2 decimal digits.
+* Round the RMSE scores to 4 decimal digits. This keeps the small but real
+  regularization differences visible instead of turning several choices into a tie.
 * Which `r` gives the best RMSE?
 
 If multiple options give the same best RMSE, select the smallest `r`.
@@ -92,7 +104,9 @@ Options:
 
 - 0
 - 0.01
+- 0.1
 - 1
+- 5
 - 10
 - 100
 
@@ -109,10 +123,10 @@ Options:
 
 What's the value of std?
 
-- 0.001
 - 0.006
-- 0.060
-- 0.600
+- 0.016
+- 0.029
+- 0.036
 
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
@@ -129,12 +143,12 @@ What's the value of std?
 
 Options:
 
-- 0.15
-- 0.515
-- 5.15
-- 51.5
+- 0.236
+- 2.236
+- 22.10
+- 221.0
 
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw02
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+* The numerical options are calculated from the pinned 2026 release. Use the value that matches your calculation; do not choose a merely close value.

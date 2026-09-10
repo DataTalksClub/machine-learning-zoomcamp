@@ -1,23 +1,19 @@
-## Homework 6 [DRAFT]
+## Homework 6
 
 > [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-> Note: sometimes your answer doesn't match one of 
-> the options exactly. That's fine. 
-> Select the option that's closest to your solution.
-> If it's exactly in between two options, select the higher value.
+> This homework uses the pinned 2026 car fuel-efficiency release in the course
+> repository. The plan and report are available in `cohorts/2026/data/`.
 
 
 ### Dataset
 
 In this homework, we continue using the fuel efficiency dataset.
-Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
+Download it from <a href='https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv'>here</a>.
 
 You can do it with wget:
 
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
+wget https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv
 ```
 
 The goal of this homework is to create a regression model for predicting the car fuel efficiency (column `'fuel_efficiency_mpg'`).
@@ -29,8 +25,15 @@ The goal of this homework is to create a regression model for predicting the car
 Preparation:
 
 * Fill missing values with zeros.
-* Do train/validation/test split with 60%/20%/20% distribution. 
-* Use the `train_test_split` function and set the `random_state` parameter to 1.
+* Do the split with these exact calls:
+
+```python
+df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=1)
+df_train, df_val = train_test_split(
+    df_full_train, test_size=0.25, random_state=1
+)
+```
+
 * Use `DictVectorizer(sparse=True)` to turn the dataframes into matrices.
 
 
@@ -41,7 +44,9 @@ Let's train a decision tree regressor to predict the `fuel_efficiency_mpg` varia
 * Train a model with `max_depth=1`.
 
 
-Which feature is used for splitting the data?
+Which original feature is used for splitting the data? If you use
+`DictVectorizer`, map a one-hot feature such as `origin=USA` back to its
+original column name.
 
 
 * `'vehicle_weight'`
@@ -61,31 +66,28 @@ Train a random forest regressor with these parameters:
 
 What's the RMSE of this model on the validation data?
 
-* 0.045
-* 0.45
-* 4.5
-* 45.0
+* 0.1837
+* 1.837
+* 18.37
+* 183.7
 
 
 ## Question 3
 
 Now let's experiment with the `n_estimators` parameter
 
-* Try different values of this parameter from 10 to 200 with step 10.
+* Try these values of this parameter: `[10, 50, 100, 150]`.
 * Set `random_state` to `1`.
 * Evaluate the model on the validation dataset.
 
 
-After which value of `n_estimators` does RMSE stop improving?
-Consider 3 decimal places for calculating the answer.
+Which value gives the lowest validation RMSE? Consider 3 decimal places for
+calculating the answer.
 
 - 10
-- 25
-- 80
-- 200
-
-If it doesn't stop improving, use the latest iteration number in
-your answer.
+- 50
+- 100
+- 150
 
 
 ## Question 4
@@ -94,7 +96,7 @@ Let's select the best `max_depth`:
 
 * Try different values of `max_depth`: `[10, 15, 20, 25]`
 * For each of these values,
-  * try different values of `n_estimators` from 10 till 200 (with step 10)
+  * try different values of `n_estimators` from `[10, 50, 100, 150]`
   * calculate the mean RMSE 
 * Fix the random seed: `random_state=1`
 
@@ -171,4 +173,4 @@ Which eta leads to the best RMSE score on the validation dataset?
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+* The numerical options are calculated from the pinned 2026 release. Use the value that matches your calculation; do not choose a merely close value.

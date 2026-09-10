@@ -7,8 +7,9 @@ The cohort starts on 14 September 2026.
 * [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html)
 * [Leaderboard](https://courses.datatalks.club/ml-zoomcamp-2026/leaderboard)
 
-Homework assignments marked `[DRAFT]` are carried over from the 2025 cohort and will be
-finalized before the module starts.
+Homework assignments still marked `[DRAFT]` are carried over from the 2025 cohort and
+will be finalized before the module starts. The first four assignments and the
+trees assignment use the reviewed 2026 data release under `data/`.
 
 ### Deadlines
 
@@ -41,22 +42,22 @@ You need two passing projects for a certificate: midterm and one capstone, or bo
 [**1. Introduction to Machine Learning**](../../01-intro/)
 
 * [Module materials](../../01-intro)
-* [Homework](homework/01-intro/homework.md) [DRAFT]
+* [Homework](homework/01-intro/homework.md)
 
 [**2. Machine Learning for Regression**](../../02-regression/)
 
 * [Module materials](../../02-regression)
-* [Homework](homework/02-regression/homework.md) [DRAFT]
+* [Homework](homework/02-regression/homework.md)
 
 [**3. Machine Learning for Classification**](../../03-classification/)
 
 * [Module materials](../../03-classification)
-* [Homework](homework/03-classification/homework.md) [DRAFT]
+* [Homework](homework/03-classification/homework.md)
 
 [**4. Evaluation Metrics for Classification**](../../04-evaluation/)
 
 * [Module materials](../../04-evaluation)
-* [Homework](homework/04-evaluation/homework.md) [DRAFT]
+* [Homework](homework/04-evaluation/homework.md)
 
 [**5. Deploying Machine Learning Models**](../../05-deployment/)
 
@@ -66,7 +67,7 @@ You need two passing projects for a certificate: midterm and one capstone, or bo
 [**6. Decision Trees and Ensemble Learning**](../../06-trees/)
 
 * [Module materials](../../06-trees)
-* [Homework](homework/06-trees/homework.md) [DRAFT]
+* [Homework](homework/06-trees/homework.md)
 
 [**Midterm Project**](projects.md#midterm-project)
 

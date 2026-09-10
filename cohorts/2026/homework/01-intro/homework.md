@@ -1,8 +1,8 @@
-# Homework 1 [DRAFT]
+# Homework 1
 
 > [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
+> This homework uses the pinned 2026 car fuel-efficiency release in the course
+> repository. The plan and report are available in `cohorts/2026/data/`.
 ## Set up the environment
 
 You need to install Python, NumPy, Pandas, Matplotlib, and Seaborn. For that, you can use the instructions from
@@ -20,11 +20,11 @@ pd.__version__
 
 ## Getting the data 
 
-For this homework, we'll use the Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv'>here</a>.
+For this homework, we'll use the 2026 Car Fuel Efficiency dataset. Download it from <a href='https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv'>here</a>.
 
 You can do it with wget:
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/car_fuel_efficiency.csv
+wget https://raw.githubusercontent.com/DataTalksClub/machine-learning-zoomcamp/main/cohorts/2026/data/car_fuel_efficiency_2026.csv
 ```
 
 Or just open it with your browser and click "Save as...".
@@ -35,10 +35,10 @@ Now read it with Pandas.
 
 How many records are in the dataset?
 
-- 4704
-- 8704
-- 9704
-- 17704
+- 5000
+- 9000
+- 10000
+- 15000
 
 ## Q3. Fuel types
 
@@ -63,10 +63,10 @@ How many columns in the dataset have missing values?
 
 What's the maximum fuel efficiency of cars from Asia?
 
-- 13.75
-- 23.75
-- 33.75
-- 43.75
+- 21.2
+- 31.2
+- 41.2
+- 51.2
 
 ## Q6. Median value of horsepower
 
@@ -97,10 +97,10 @@ Has it changed?
 
 > **Note**: You just implemented linear regression. We'll talk about it in the next lesson.
 
-- 0.051
-- 0.51
-- 5.1
-- 51
+- 0.0369
+- 0.369
+- 3.69
+- 36.9
 
 ## Learning in Public
 
@@ -179,4 +179,4 @@ Here’s what I learned 👇
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw01
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+* The numerical options are calculated from the pinned 2026 release. Use the value that matches your calculation.
