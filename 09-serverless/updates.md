@@ -9,7 +9,7 @@ in the course work successfully with this setup.
 
 Here's how you do it
 
-![Python, NumPy, and the TensorFlow Lite runtime form a compatible pinned stack; mixing incompatible generations causes runtime problems.](images/updates-01-runtime-compatibility-imagegen.png)
+![Python, NumPy, and the TensorFlow Lite runtime form a compatible pinned stack; mixing incompatible generations causes runtime problems.](images/updates-01-runtime-compatibility-imagegen.jpg)
 
 *Figure: Pin and test the runtime components together instead of mixing incompatible generations.*
 

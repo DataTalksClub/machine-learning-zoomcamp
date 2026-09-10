@@ -6,7 +6,7 @@ This installation guide is specific to the use case as in the pre-requisites. I'
 
 Also, welcome to edit and make corrections directly (via PRs) or let me know via Slack.
 
-![The installation stack moves from a Windows host through WSL2, CUDA and cuDNN, and TensorFlow to a GPU verification check.](images/install-01-gpu-stack-imagegen.png)
+![The installation stack moves from a Windows host through WSL2, CUDA and cuDNN, and TensorFlow to a GPU verification check.](images/install-01-gpu-stack-imagegen.jpg)
 
 *Figure: Install the GPU-enabled stack in layers, then verify that TensorFlow can access the GPU.*
 
@@ -180,7 +180,7 @@ You don't need a GPU on your own machine for this module — a free notebook wit
 - Create or import your notebook on [Kaggle](https://www.kaggle.com/).
 - Click the three dots at the top right, select "Accelerator", and choose "T4 GPU".
 
-![Kaggle: selecting the T4 GPU accelerator](images/kaggle-gpu-accelerator.png)
+![Kaggle: selecting the T4 GPU accelerator](images/kaggle-gpu-accelerator.jpg)
 
 ### Google Colab
 
@@ -188,6 +188,6 @@ You don't need a GPU on your own machine for this module — a free notebook wit
 2. Open the drop-down at the top right (or go to "Runtime" → "Change runtime type").
 3. Choose "T4 GPU".
 
-![Colab: changing the runtime type](images/colab-gpu-menu.png)
+![Colab: changing the runtime type](images/colab-gpu-menu.jpg)
 
-![Colab: selecting the T4 GPU](images/colab-gpu-t4.png)
+![Colab: selecting the T4 GPU](images/colab-gpu-t4.jpg)

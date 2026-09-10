@@ -24,7 +24,7 @@ and a focused crop as imagegen references. It is not an enlarged screenshot.
 - Focused crop SHA-256:
   `f0d81013a38246ef5ebc44912b63909fc14a3d2b8f15c6929c4186eb0e553923`
 - Published asset:
-  `images/training-time-augmentation-imagegen.png`
+  `images/training-time-augmentation-imagegen.jpg`
 - Published asset SHA-256:
   `492853fe5b868aa37e5d6e51b1ba347949ea21aeedffdd5ebeb50be46592d996`
 

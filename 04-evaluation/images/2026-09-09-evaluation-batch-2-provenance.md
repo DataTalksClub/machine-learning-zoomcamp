@@ -2,9 +2,9 @@
 
 This ledger covers these three active references only:
 
-- `03-confusion-table-04-confusion-counts-crisp.png`
-- `04-precision-recall-03-precision-pie-crisp.png`
-- `04-precision-recall-05-recall-example-crisp.png`
+- `03-confusion-table-04-confusion-counts-crisp.jpg`
+- `04-precision-recall-03-precision-pie-crisp.jpg`
+- `04-precision-recall-05-recall-example-crisp.jpg`
 
 Each output was generated with imagegen from the unchanged original JPG and
 the tracked bounded crop. The prompts required exact lesson values and labels,

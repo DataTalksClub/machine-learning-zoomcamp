@@ -18,13 +18,13 @@ need different versions of the same library. An old project may need
 scikit-learn 0.24, while a new one wants the latest 1.0 - upgrade for one, and
 the other breaks.
 
-![Two services sharing one system Python: upgrading scikit-learn for one breaks the other](images/05-pipenv-02-version-conflict-imagegen.png)
+![Two services sharing one system Python: upgrading scikit-learn for one breaks the other](images/05-pipenv-02-version-conflict-imagegen.jpg)
 
 The fix is a virtual environment: a private set of packages for one project.
 Each project gets its own versions, and they don't interfere with each other
 or with the system Python.
 
-![Each service gets its own virtual environment - no conflicts](images/05-pipenv-03-isolated-environments-imagegen.png)
+![Each service gets its own virtual environment - no conflicts](images/05-pipenv-03-isolated-environments-imagegen.jpg)
 
 There are many tools for this - `venv`, `conda`, `poetry`. In this course we
 use Pipenv, because besides creating the environment it also records the exact

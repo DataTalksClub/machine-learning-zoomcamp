@@ -22,13 +22,13 @@ CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a met
 
 The process has six steps. Let's go through each of them.
 
-![The CRISP-DM process diagram](images/04-crisp-dm-02-process-diagram-imagegen-pilot.png)
+![The CRISP-DM process diagram](images/04-crisp-dm-02-process-diagram-imagegen-pilot.jpg)
 
 ## Step 1: Business understanding
 
 The goal of this step is to identify the problem we want to solve.
 
-![Business understanding in the CRISP-DM diagram](images/04-crisp-dm-03-business-understanding-imagegen-pilot.png)
+![Business understanding in the CRISP-DM diagram](images/04-crisp-dm-03-business-understanding-imagegen-pilot.jpg)
 
 For our spam example: the problem is that users complain about spam. First, we want to understand to what extent it is a problem - do a lot of users complain, or is it just one user? This helps us understand how impactful the project is and whether it is worth investing time into it.
 
@@ -59,7 +59,7 @@ At this point we know we have enough good data. Now we transform it in such a wa
 
 For our spam detection system: we have all the emails and the spam marks, and the pipeline puts everything together into a table where we clearly see the sender, the receiver, the subject, the body, and - most importantly - the target variable.
 
-![Data preparation: raw emails go through a processing pipeline into a table](images/04-crisp-dm-04-data-preparation-imagegen-pilot.png)
+![Data preparation: raw emails go through a processing pipeline into a table](images/04-crisp-dm-04-data-preparation-imagegen-pilot.jpg)
 
 From this table we extract features - like "does the body contain the word deposit" - and get the feature vectors. The last column of each vector is the target: spam or not.
 

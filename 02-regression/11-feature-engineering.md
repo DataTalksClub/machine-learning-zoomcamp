@@ -10,7 +10,7 @@ Feature engineering is the process of creating new features from the ones we
 already have. In this unit we create our first new feature - the age of a car -
 and see it improve the RMSE of our model quite a bit.
 
-![Feature engineering turns a year column into an age feature before modeling](images/11-feature-engineering-01-feature-engineering-imagegen.png)
+![Feature engineering turns a year column into an age feature before modeling](images/11-feature-engineering-01-feature-engineering-imagegen.jpg)
 
 *Figure: Subtracting each car's year from 2017 creates the `age` feature that enters the model input matrix.*
 

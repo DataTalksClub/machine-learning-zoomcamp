@@ -21,7 +21,7 @@ For churn prediction, each customer in the validation set falls into one of four
 
 Reading the names: "positive"/"negative" is what we predicted, "true"/"false" is whether that prediction was correct. A false positive is a customer we sent a promotional email to, but who was never going to leave. A false negative is a customer who left without us ever flagging them - often the more costly mistake.
 
-![The four outcomes of a churn prediction: true negative, false negative, false positive and true positive](images/03-confusion-table-01-four-outcomes-crisp.png)
+![The four outcomes of a churn prediction: true negative, false negative, false positive and true positive](images/03-confusion-table-01-four-outcomes-crisp.jpg)
 
 ## Computing the counts
 
@@ -48,7 +48,7 @@ fn = (predict_negative & actual_positive).sum()
 
 For our model this gives tp = 210, tn = 922, fp = 101 and fn = 176 - and indeed 210 + 922 + 101 + 176 = 1409, all customers accounted for.
 
-![The four groups in the validation set: 922 true negatives, 101 false positives, 176 false negatives and 210 true positives](images/03-confusion-table-04-confusion-counts-crisp.png)
+![The four groups in the validation set: 922 true negatives, 101 false positives, 176 false negatives and 210 true positives](images/03-confusion-table-04-confusion-counts-crisp.jpg)
 
 ## The table
 

@@ -72,7 +72,7 @@ plt.plot(df_scores.threshold, df_scores['fpr'], label='FPR')
 plt.legend()
 ```
 
-![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold-crisp.png)
+![TPR and FPR of the model at different thresholds](images/05-roc-01-tpr-fpr-vs-threshold-crisp.jpg)
 
 ## The random model
 
@@ -85,7 +85,7 @@ y_rand = np.random.uniform(0, 1, size=len(y_val))
 
 Its accuracy at threshold 0.5 is `0.5017743080198722` - a coin flip, as expected. Computing the TPR/FPR table for these random scores (with the same loop, wrapped in a reusable function `tpr_fpr_dataframe`) and plotting gives two almost straight lines going down together:
 
-![TPR and FPR of the random model at different thresholds](images/05-roc-02-random-model-tpr-fpr-crisp.png)
+![TPR and FPR of the random model at different thresholds](images/05-roc-02-random-model-tpr-fpr-crisp.jpg)
 
 For the random model, at any threshold the fraction of positives we catch is the same as the fraction of negatives we bother - it cannot tell the two groups apart.
 
@@ -127,7 +127,7 @@ plt.plot(df_ideal.threshold, df_ideal['fpr'], label='FPR ideal')
 plt.legend()
 ```
 
-![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr-crisp.png)
+![Model TPR and FPR against the ideal model](images/05-roc-04-model-vs-ideal-tpr-fpr-crisp.jpg)
 
 ## The ROC curve
 

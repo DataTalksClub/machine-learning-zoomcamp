@@ -21,7 +21,7 @@ about past customers. For each of them we know what they asked for and
 what happened afterwards - did they pay back the loan, or did they
 default? For example:
 
-![A client applies for a loan, the bank answers yes or no](images/01-credit-risk-01-loan-application-imagegen.png)
+![A client applies for a loan, the bank answers yes or no](images/01-credit-risk-01-loan-application-imagegen.jpg)
 
 - Customer A - OK
 - Customer B - OK
@@ -29,7 +29,7 @@ default? For example:
 - Customer D - DEFAULT
 - Customer E - OK
 
-![Historical data: customers and whether they paid back](images/01-credit-risk-02-historical-data-imagegen.png)
+![Historical data: customers and whether they paid back](images/01-credit-risk-02-historical-data-imagegen.jpg)
 
 We use this data to train a model. Then, when a new customer applies
 for a loan, the model looks at their information and predicts the risk
@@ -57,7 +57,7 @@ returns a value close to 0, the client is likely to pay back and the
 bank can approve the loan. If it returns a value close to 1, the client
 is a likely defaulter and the bank may decline the application.
 
-![The target y is 0 for OK and 1 for default; g(x) is the probability of default](images/01-credit-risk-03-probability-of-default-imagegen.png)
+![The target y is 0 for OK and 1 for default; g(x) is the probability of default](images/01-credit-risk-03-probability-of-default-imagegen.jpg)
 
 ## The dataset
 

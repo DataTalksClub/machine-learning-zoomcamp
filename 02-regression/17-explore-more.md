@@ -1,7 +1,7 @@
 
 # Explore more
 
-![Two feature sets flow through separate models into a validation comparison board.](images/17-explore-more-01-feature-experiments-imagegen.png)
+![Two feature sets flow through separate models into a validation comparison board.](images/17-explore-more-01-feature-experiments-imagegen.jpg)
 
 *Figure: Test a compact and an expanded feature set by comparing their validation results.*
 

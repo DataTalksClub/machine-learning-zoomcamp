@@ -3,7 +3,7 @@
 This unit has no video. It lists a few things you can try on your own to go
 deeper into the topics of this module:
 
-![A classifier score distribution connects a threshold to confusion counts, precision, recall, and the precision-recall curve.](images/09-explore-more-01-threshold-precision-recall-imagegen.png)
+![A classifier score distribution connects a threshold to confusion counts, precision, recall, and the precision-recall curve.](images/09-explore-more-01-threshold-precision-recall-imagegen.jpg)
 
 *Figure: Changing the threshold changes the precision-recall trade-off.*
 

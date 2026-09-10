@@ -7,7 +7,7 @@ In this module we built a complete churn prediction project. This is a
 quick recap of everything we did, from the raw dataset to a model that
 scores customers.
 
-![The churn prediction project: a telecom company wants to identify the customers likely to leave, and send a promotional email only to them](images/13-summary-01-churn-prediction-imagegen.png)
+![The churn prediction project: a telecom company wants to identify the customers likely to leave, and send a promotional email only to them](images/13-summary-01-churn-prediction-imagegen.jpg)
 
 ## What we did
 

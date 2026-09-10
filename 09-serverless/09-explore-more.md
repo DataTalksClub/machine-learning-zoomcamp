@@ -1,6 +1,6 @@
 # Explore more
 
-![A packaged model branches to serverless functions on several cloud providers and can support different model types.](images/09-explore-more-01-serverless-models-imagegen.png)
+![A packaged model branches to serverless functions on several cloud providers and can support different model types.](images/09-explore-more-01-serverless-models-imagegen.jpg)
 
 *Figure: The serverless request-to-prediction pattern generalizes across providers and models.*
 

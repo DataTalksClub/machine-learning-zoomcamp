@@ -23,7 +23,7 @@ gateway that takes care of all the pre-processing, converts whatever the
 user sends us into the protobuf format, and talks to TensorFlow Serving
 over gRPC.
 
-![The two-tier architecture: gateway and TensorFlow Serving inside Kubernetes](images/09-summary-01-architecture-imagegen.png)
+![The two-tier architecture: gateway and TensorFlow Serving inside Kubernetes](images/09-summary-01-architecture-imagegen.jpg)
 
 Having two components instead of one makes the system more complex, but
 it also gives us benefits: we can split the inference part from the

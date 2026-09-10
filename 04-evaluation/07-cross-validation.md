@@ -43,7 +43,7 @@ def predict(df, dv, model):
 
 The idea of k-fold cross-validation: split the full training dataset into k partitions (folds). Train the model on k-1 folds, evaluate on the remaining one. Repeat k times, so every fold serves as the validation set once, and average the scores.
 
-![K-fold cross-validation with three folds: train on two, validate on the remaining one, then average the AUCs](images/07-cross-validation-01-kfold-diagram-pilot.png)
+![K-fold cross-validation with three folds: train on two, validate on the remaining one, then average the AUCs](images/07-cross-validation-01-kfold-diagram-pilot.jpg)
 
 Scikit-learn implements the splitting with `KFold`. With `shuffle=True` the rows are shuffled before splitting, and `random_state=1` makes the shuffle reproducible:
 

@@ -3,7 +3,7 @@
 
 More things
 
-![A classification experiment bench for selecting features, encoding categories, scaling numbers, and comparing models.](images/14-explore-more-01-preprocessing-model-comparison-imagegen.png)
+![A classification experiment bench for selecting features, encoding categories, scaling numbers, and comparing models.](images/14-explore-more-01-preprocessing-model-comparison-imagegen.jpg)
 
 *Figure: Try alternative preprocessing and models, then compare them on validation data.*
 

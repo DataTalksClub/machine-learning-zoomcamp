@@ -12,7 +12,7 @@ more training images from the existing ones by applying random
 transformations, so the network never sees the same image twice in
 exactly the same form.
 
-![Data augmentation: from one t-shirt image we generate more different images](images/10-augmentation-01-generate-more-images-imagegen.png)
+![Data augmentation: from one t-shirt image we generate more different images](images/10-augmentation-01-generate-more-images-imagegen.jpg)
 
 ## What augmentations look like
 
@@ -24,9 +24,9 @@ There are many transformations we can apply, and we can combine them:
 - zooming in or out
 - changing brightness and contrast
 
-![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-imagegen.png)
+![The same shirt flipped horizontally, vertically and both, and rotated and shifted by different amounts](images/10-augmentation-02-flip-rotation-shift-grids-imagegen.jpg)
 
-![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid-imagegen.png)
+![Zooming: zoom_x and zoom_y values from 0.25 to 4 applied to the same shirt](images/10-augmentation-03-zoom-grid-imagegen.jpg)
 
 The idea is similar to the dropout picture from the previous unit:
 augmentation can randomly hide parts of the image, and it changes
@@ -125,7 +125,7 @@ while the CPU prepares the next batch. We can watch this with
 well below the 95% we saw before:
 
 
-![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077-imagegen.png)
+![The result: training accuracy keeps growing to about 0.95 while validation stays around 0.70-0.77](images/10-augmentation-06-val-stuck-077-imagegen.jpg)
 
 ## How to select augmentations
 

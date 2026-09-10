@@ -16,7 +16,7 @@ Precision tells us the fraction of positive predictions that are correct. It loo
 P = TP / (TP + FP)
 ```
 
-![The definition of precision: the fraction of positive predictions that are correct](images/04-precision-recall-01-precision-definition-crisp.png)
+![The definition of precision: the fraction of positive predictions that are correct](images/04-precision-recall-01-precision-definition-crisp.jpg)
 
 For our model:
 
@@ -29,7 +29,7 @@ This gives `0.6752411575562701` - precision of about 67%.
 
 In the terms of the churn problem: we send a retention email to everyone predicted to churn. That is 210 + 101 = 311 people, but only 210 of them (the true positives) were actually going to leave. The other 101 - about a third of all emails - go to customers who were never at risk, and the discount we send them is wasted.
 
-![Precision as a pie: the green TP slice and the red FP slice of the predicted-to-churn customers](images/04-precision-recall-03-precision-pie-crisp.png)
+![Precision as a pie: the green TP slice and the red FP slice of the predicted-to-churn customers](images/04-precision-recall-03-precision-pie-crisp.jpg)
 
 ## Recall
 
@@ -50,13 +50,13 @@ This gives `0.5440414507772021` - recall of about 54%.
 
 Again in the terms of the problem: 210 + 176 = 386 customers actually churned, but our model flagged only 210 of them. For the remaining 176 - about 46% of all churners - we did nothing: no email, no discount, and the customer left. This is the part accuracy never showed us.
 
-![A recall example: three of the four actual churners are flagged, one is missed](images/04-precision-recall-05-recall-example-crisp.png)
+![A recall example: three of the four actual churners are flagged, one is missed](images/04-precision-recall-05-recall-example-crisp.jpg)
 
 ## Why not just accuracy
 
 Recall what accuracy said: 80% correct, only 4 points above the dummy model. Precision and recall explain where the model actually stands: of the customers we alert, two thirds are real (precision 67%), but we miss almost half of the customers who leave (recall 54%).
 
-![Precision looks at the predicted-positive column, recall at the actual-positive row of the confusion table](images/04-precision-recall-06-precision-recall-table-crisp.png)
+![Precision looks at the predicted-positive column, recall at the actual-positive row of the confusion table](images/04-precision-recall-06-precision-recall-table-crisp.jpg)
 
 These numbers reflect the errors of our model that accuracy did not notice because of class imbalance: churners are only 27% of the data, so the 12% of false negatives barely move the accuracy number, yet they are half of all the customers we care about. When the classes are imbalanced - churn, fraud, medical diagnosis - precision and recall are the metrics to look at.
 

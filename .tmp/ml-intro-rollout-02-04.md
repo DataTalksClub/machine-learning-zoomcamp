@@ -13,7 +13,7 @@ remain in place; accepted replacements are sibling assets.
   `promotions@online.com`; `URGENT: tax review` from `tax@online.com`; the
   tax-review warning, URL, and `Tax office.` remain readable.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-01-spam-examples-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-01-spam-examples-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; exact headers, URL,
   warning, and two-card relationship checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
@@ -39,7 +39,7 @@ remain in place; accepted replacements are sibling assets.
   `Business Understanding`, `Data Understanding`, `Data Preparation`,
   `Modeling`, `Evaluation`, `Deployment`; circular and feedback arrows remain.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `04-crisp-dm-02-process-diagram-imagegen-pilot.png`.
+- Output: `04-crisp-dm-02-process-diagram-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; all six labels, stage
   relationships, data cylinder, circular iteration, and feedback arrows
   checked; face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
@@ -52,7 +52,7 @@ remain in place; accepted replacements are sibling assets.
   in order with feedback arrows; `Deployment` has the red dashed highlight.
 - Crop: `598x300+0+30`, with the camera and black right bar masked, from the
   598x360 source.
-- Output: `04-crisp-dm-06-summary-imagegen-pilot.png`.
+- Output: `04-crisp-dm-06-summary-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; all bullet text,
   stage labels/order, feedback flow, and Deployment highlight checked; face,
   webcam, browser/Zoom chrome, cursor, watermark, toolbar, black bars, and
@@ -68,7 +68,7 @@ remain in place; accepted replacements are sibling assets.
   column.
 - Crop: `510x300+20+30`, with the camera area masked, from the 598x360
   source.
-- Output: `04-crisp-dm-05-features-target-imagegen-pilot.png`.
+- Output: `04-crisp-dm-05-features-target-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; email teaching point,
   all 24 vector values, row order, target column, and arrow checked; face,
   webcam, browser/Zoom chrome, cursor, watermark, toolbar, annotation, and
@@ -83,7 +83,7 @@ remain in place; accepted replacements are sibling assets.
   `sender`, `receiver`, `subject`, `...`, `spam`; TRUE/FALSE target values.
 - Crop: `570x300+0+30`, with the camera area masked, from the 598x360
   source.
-- Output: `04-crisp-dm-04-data-preparation-imagegen-pilot.png`.
+- Output: `04-crisp-dm-04-data-preparation-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; title, input labels,
   arrows, pipeline, table schema, and boolean target column checked; face,
   webcam, browser/Zoom chrome, cursor, watermark, toolbar, black bars, and
@@ -97,7 +97,7 @@ remain in place; accepted replacements are sibling assets.
   solve it`; `Business Understanding` is highlighted within the same six-stage
   CRISP-DM loop and central `Data` remains visible.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `04-crisp-dm-03-business-understanding-imagegen-pilot.png`.
+- Output: `04-crisp-dm-03-business-understanding-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; explanatory text,
   highlighted stage, six-stage loop, arrows, and Data label checked; face,
   webcam, browser/Zoom chrome, cursor, watermark, toolbar, and recording
@@ -111,7 +111,7 @@ remain in place; accepted replacements are sibling assets.
   explicit score axis; axis direction is exactly `0` on the left to `1` on
   the right; higher score means more relevant.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `03-supervised-ml-06-ranking-imagegen-pilot.png`.
+- Output: `03-supervised-ml-06-ranking-imagegen-pilot.jpg`.
 - Validation: first generation rejected because it reversed the score axis;
   second generation inspected at lesson size and passed with `0 → 1`.
   Face, webcam, browser/Zoom chrome, cursor, watermark, toolbar, and
@@ -125,7 +125,7 @@ remain in place; accepted replacements are sibling assets.
   `category`/classification, and `ranking`/ranking-recommenders.
 - Crop: `550x300+20+30`, with the camera area masked, from the 598x360
   source.
-- Output: `03-supervised-ml-07-summary-imagegen-pilot.png`.
+- Output: `03-supervised-ml-07-summary-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; formula, three output
   types, and branch relationships checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
@@ -138,7 +138,7 @@ remain in place; accepted replacements are sibling assets.
   `OUTCOME`; directions and central box relationship are unchanged.
 - Crop: `598x300+0+30`, with the camera area masked, from the 598x360
   source.
-- Output: `02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; labels, arrows, and
   relationship checked; face, webcam, browser/Zoom chrome, cursor, watermark,
   toolbar, black bars, and recording overlays absent.
@@ -150,7 +150,7 @@ remain in place; accepted replacements are sibling assets.
   `MODEL`; the bottom statement is `DATA + MODEL => OUTCOME`.
 - Crop: `598x300+0+30`, with the camera area masked, from the 598x360
   source.
-- Output: `02-ml-vs-rules-08-ml-summary-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-08-ml-summary-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; labels, arrows, and
   bottom relationship checked; face, webcam, browser/Zoom chrome, cursor,
   watermark, toolbar, black bars, and recording overlays absent.
@@ -167,7 +167,7 @@ remain in place; accepted replacements are sibling assets.
 - Crop: `475x300+50+30`, with the camera sliver masked, from the 598x360
   source. The first generation was rejected because it omitted the sixth
   feature column; the second generation passed.
-- Output: `03-supervised-ml-01-features-target-imagegen-pilot.png`.
+- Output: `03-supervised-ml-01-features-target-imagegen-pilot.jpg`.
 - Validation: final image inspected at lesson size; all 36 feature values,
   six target values, headers, and row alignment checked; no face, webcam,
   browser/Zoom chrome, cursor, watermark, annotations, toolbar, or recording
@@ -182,7 +182,7 @@ remain in place; accepted replacements are sibling assets.
   are features, matrix is `X`, target vector is `y`.
 - Crop: `475x300+50+30`, with the camera sliver masked, from the 598x360
   source.
-- Output: `03-supervised-ml-02-feature-matrix-imagegen-pilot.png`.
+- Output: `03-supervised-ml-02-feature-matrix-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; all 36 feature
   values, six targets, row/column labels, X/y labels, and arrows checked;
   face, webcam, browser/Zoom chrome, cursor, watermark, annotations,
@@ -211,7 +211,7 @@ remain in place; accepted replacements are sibling assets.
   right-pointing arrow, and exact numeric output `$50k`.
 - Crop: `550x300+20+30`, with the camera area masked, from the 598x360
   source.
-- Output: `03-supervised-ml-04-regression-imagegen-pilot.png`.
+- Output: `03-supervised-ml-04-regression-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; label, input/output
   relationship, arrow direction, and `$50k` checked; face, webcam,
   browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
@@ -225,7 +225,7 @@ remain in place; accepted replacements are sibling assets.
   `dog`, `car`.
 - Crop: `550x300+20+30`, with the camera area masked, from the 598x360
   source.
-- Output: `03-supervised-ml-05-multiclass-imagegen-pilot.png`.
+- Output: `03-supervised-ml-05-multiclass-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; heading, label,
   arrow, input, and category order checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
@@ -238,7 +238,7 @@ remain in place; accepted replacements are sibling assets.
   predictions `0.8`, `0.6`, `0.1`, `0.01`, `0.7`, `0.4`; headings for
   features, predictions, and final outcome; no invented decision values.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-06-predictions-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-06-predictions-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; every matrix row,
   probability, heading, and arrow checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
@@ -252,7 +252,7 @@ remain in place; accepted replacements are sibling assets.
   `prince@test.com`, transfer message, and `Congratulations again!` remain
   readable.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-03-more-spam-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-03-more-spam-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; exact amount, dollar
   fee, email addresses, and single-card relationship checked; face, webcam,
   browser/Zoom chrome, cursor, watermark, toolbar, and recording overlays
@@ -266,7 +266,7 @@ remain in place; accepted replacements are sibling assets.
   sender addresses, `test.com`, and `deposit`; the `Rules` cue remains on the
   right.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-04-features-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-04-features-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; all six labels and
   the `Rules` cue checked verbatim; face, webcam, browser/Zoom chrome,
   cursor, watermark, toolbar, and recording overlays absent.
@@ -279,7 +279,7 @@ remain in place; accepted replacements are sibling assets.
   promotions@online.com? False`; exact vector `[1, 1, 0, 0, 1, 1]`; arrow
   from the sender feature to the vector.
 - Crop: `505x300+0+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-05-encode-email-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-05-encode-email-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; email labels, vector
   values/order, badge, and mapping checked; face, webcam, browser/Zoom
   chrome, cursor, watermark, toolbar, and recording overlays absent.
@@ -292,7 +292,7 @@ remain in place; accepted replacements are sibling assets.
   `promotions@online.com`, `tax review`, `online.com`, `spam`, and
   `good email`.
 - Crop: `480x280+20+30` from the 598x360 source.
-- Output: `02-ml-vs-rules-02-rules-imagegen-pilot.png`.
+- Output: `02-ml-vs-rules-02-rules-imagegen-pilot.jpg`.
 - Validation: imagegen output inspected at lesson size; all three bullets and
   order checked verbatim; face, webcam, browser/Zoom chrome, cursor,
   watermark, toolbar, and recording overlays absent.

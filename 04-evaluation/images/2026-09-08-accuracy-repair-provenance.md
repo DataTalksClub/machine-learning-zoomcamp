@@ -5,7 +5,7 @@
 This record covers one published illustration and one Markdown reference:
 
 - `02-accuracy-01-accuracy-vs-threshold-crisp.png` was rebuilt from the 21 values printed in `../02-accuracy.md`.
-- The image reference to `03-confusion-table-07-accuracy-from-table-crisp.png` was removed from `../03-confusion-table.md` because the lesson already contains the native confusion table/output and the screenshot contains the incorrect `FP 8%` value. The JPG and PNG source assets were intentionally left in place.
+- The image reference to `03-confusion-table-07-accuracy-from-table-crisp.jpg` was removed from `../03-confusion-table.md` because the lesson already contains the native confusion table/output and the screenshot contains the incorrect `FP 8%` value. The JPG and PNG source assets were intentionally left in place.
 
 The other 16 unresolved evaluation assets are out of scope and are not being marked complete by this repair.
 

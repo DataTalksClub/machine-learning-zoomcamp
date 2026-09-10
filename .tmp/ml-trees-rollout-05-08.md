@@ -186,7 +186,7 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   `1/n Σ pᵢ`; no extra model or metric may be introduced.
 - Path: imagegen skill was available and read completely; built-in imagegen
   edit used the inspected crop as the reference. Final sibling
-  `cohorts/2026/06-trees/images/06-random-forest-01-board-of-experts-imagegen.png`;
+  `cohorts/2026/06-trees/images/06-random-forest-01-board-of-experts-imagegen.jpg`;
   original JPG preserved.
 - Prompt/iteration: one structured `scientific-educational` generation with
   exact labels, values, relationships, and negative constraints. The accepted
@@ -213,7 +213,7 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   the averaging formula `1/3 (p₁ + p₂ + p₃)`.
 - Path: imagegen skill was available and read completely; built-in imagegen
   edit used the inspected full source. Final sibling
-  `cohorts/2026/06-trees/images/06-random-forest-02-random-forest-imagegen.png`;
+  `cohorts/2026/06-trees/images/06-random-forest-02-random-forest-imagegen.jpg`;
   original JPG preserved.
 - Prompt/iteration: one structured `scientific-educational` generation with
   exact labels, feature-pair order, arrows, formula, and negative constraints.
@@ -285,7 +285,7 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   error-feedback arrows; and the green annotation `0.3` beneath `PRED 2`.
 - Path: imagegen skill was available and read completely; built-in imagegen
   edit used the inspected crop. Final sibling
-  `cohorts/2026/06-trees/images/08-xgb-tuning-01-parameters-imagegen.png`;
+  `cohorts/2026/06-trees/images/08-xgb-tuning-01-parameters-imagegen.jpg`;
   original JPG preserved.
 - Prompt/iteration: one structured `scientific-educational` generation with
   exact labels, four-stage order, feedback arrows, and negative constraints.
@@ -385,7 +385,7 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   labels `RF`, `PARALLEL`, `BOOSTING`, `SEQUENTIAL`; and `FINAL PREDICTION`.
 - Path: imagegen skill was available and read completely; built-in imagegen
   edit used the inspected crop. Final sibling
-  `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest-imagegen.png`;
+  `cohorts/2026/06-trees/images/07-boosting-01-boosting-vs-random-forest-imagegen.jpg`;
   original JPG preserved.
 - Prompt/iteration: one structured `scientific-educational` generation with
   exact labels, arrow directions, average formula, stage count, and negative
@@ -411,7 +411,7 @@ through `06-trees/08-xgb-tuning.md`; this report covers those 19 references.
   `PRED 4`; every arrow direction; and `FINAL PREDICTION`.
 - Path: imagegen skill was available and read completely; built-in imagegen
   edit used the inspected crop. Final sibling
-  `cohorts/2026/06-trees/images/07-boosting-02-gradient-boosting-trees-imagegen.png`;
+  `cohorts/2026/06-trees/images/07-boosting-02-gradient-boosting-trees-imagegen.jpg`;
   original JPG preserved.
 - Prompt/iteration: one structured `scientific-educational` generation with
   exact labels, four-stage order, curved error-feedback arrows, and negative

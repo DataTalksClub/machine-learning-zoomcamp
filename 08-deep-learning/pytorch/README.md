@@ -695,7 +695,7 @@ Common transformations:
 These transformations create varied training views while preserving the
 underlying class label:
 
-![Training-time augmentation creates rotated, cropped, and flipped views of the same pants image while keeping the pants label.](images/training-time-augmentation-imagegen.png)
+![Training-time augmentation creates rotated, cropped, and flipped views of the same pants image while keeping the pants label.](images/training-time-augmentation-imagegen.jpg)
 
 Important rules:
 - ✅ Apply ONLY to training data

@@ -24,12 +24,12 @@ learns to fix the mistakes of the first one. The third model fixes the errors
 of the second one, and so on. The final prediction combines what all the
 models in the sequence have learned.
 
-![Random forest trains models in parallel; boosting trains them sequentially, each model learning the errors of the previous one](images/07-boosting-01-boosting-vs-random-forest-imagegen.png)
+![Random forest trains models in parallel; boosting trains them sequentially, each model learning the errors of the previous one](images/07-boosting-01-boosting-vs-random-forest-imagegen.jpg)
 
 When the models in this sequence are decision trees, the method is called
 gradient boosting trees:
 
-![Gradient boosting trees: each tree is trained on the errors of the previous model, and the final prediction combines all of them](images/07-boosting-02-gradient-boosting-trees-imagegen.png)
+![Gradient boosting trees: each tree is trained on the errors of the previous model, and the final prediction combines all of them](images/07-boosting-02-gradient-boosting-trees-imagegen.jpg)
 
 ## Installing XGBoost
 

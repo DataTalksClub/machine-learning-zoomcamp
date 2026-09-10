@@ -19,13 +19,13 @@ A REST API is organized into resources. Usually resources are nouns -
 ours `predict`, following what we did in the Flask lessons, where the
 endpoint was `/predict`.
 
-![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api-crisp.png)
+![Creating a new REST API in API Gateway](images/07-api-gateway-01-create-rest-api-crisp.jpg)
 
 So: create a resource called `predict`. We don't need to configure
 anything else - in particular, we don't need to make it a proxy
 resource.
 
-![Creating the predict resource](images/07-api-gateway-02-create-resource-crisp.png)
+![Creating the predict resource](images/07-api-gateway-02-create-resource-crisp.jpg)
 
 ## Adding a POST method
 
@@ -53,7 +53,7 @@ Click it and put the request body in - the JSON payload from our
 }
 ```
 
-![The method test page for POST /predict](images/07-api-gateway-04-method-test-crisp.png)
+![The method test page for POST /predict](images/07-api-gateway-04-method-test-crisp.jpg)
 
 Run the test. It took about four seconds, and the response body
 contains what we already know - the scores for all ten classes, with
@@ -61,7 +61,7 @@ contains what we already know - the scores for all ten classes, with
 we don't care about.) Testing one more time is faster, as usual, since
 the function is already warm.
 
-![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response-crisp.png)
+![The test response: the class scores in the response body, and the execution logs](images/07-api-gateway-05-test-response-crisp.jpg)
 
 ## Deploying the API
 
@@ -73,7 +73,7 @@ AWS now gives us a URL for this stage. Let's take it and update our
 `test.py` script: comment out the local address and use the gateway
 URL instead, followed by `/predict` - the resource we created:
 
-![Deploying the API to a new stage called "test"](images/07-api-gateway-06-deploy-stage-crisp.png)
+![Deploying the API to a new stage called "test"](images/07-api-gateway-06-deploy-stage-crisp.jpg)
 
 ```python
 import requests

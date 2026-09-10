@@ -121,7 +121,7 @@ vectorizer, and asks the model for a probability. If it is above the
 threshold - for example, 0.5 - the business sends this customer a
 promotional email with a discount, hoping to keep them.
 
-![The production scenario: a customer service event sends the customer's data to the model, and the prediction decides whether to send a promotional email](images/12-using-log-reg-04-production-diagram-imagegen.png)
+![The production scenario: a customer service event sends the customer's data to the model, and the prediction decides whether to send a promotional email](images/12-using-log-reg-04-production-diagram-imagegen.jpg)
 
 The model itself is just numbers - weights and the bias term - and the
 vectorizer with the list of categories. To use it outside the notebook

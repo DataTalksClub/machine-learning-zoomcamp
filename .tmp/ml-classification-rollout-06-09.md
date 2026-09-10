@@ -14,7 +14,7 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
 ### 06-mutual-info.md
 
 - `06-mutual-info-01-mutual-information-wikipedia.jpg` →
-  `06-mutual-info-01-mutual-information-wikipedia-imagegen-pilot.png`
+  `06-mutual-info-01-mutual-information-wikipedia-imagegen-pilot.jpg`
   - Disposition: imagegen conceptual replacement.
   - Prep: reference crop `.tmp/ml-classification-rollout-06-09-crops/06-mutual-info-01-reference.png`, coordinates `505x300+0+42`.
   - Invariants: clean overlap diagram; exact labels `X`, `Y`, and `Mutual information`; no people, camera, browser, or extra metrics.
@@ -40,13 +40,13 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
 ### 07-correlation.md
 
 - `07-correlation-01-correlation-coefficient.jpg` →
-  `07-correlation-01-correlation-coefficient-imagegen-pilot.png`
+  `07-correlation-01-correlation-coefficient-imagegen-pilot.jpg`
   - Disposition: imagegen bounded explanatory replacement.
   - Prep: inspected/cropped source reference `.tmp/ml-classification-rollout-06-09-crops/07-correlation-01-correlation-coefficient-cropped.png`.
   - Invariants: `-1 ≤ r ≤ 1`; negative/positive direction; LOW `0–0.2`, MEDIUM `0.2–0.5`, and STRONG `0.5–1.0` ranges; no people, camera, browser, or extra metrics.
 
 - `07-correlation-02-binary-target.jpg` →
-  `07-correlation-02-binary-target-imagegen-pilot.png`
+  `07-correlation-02-binary-target-imagegen-pilot.jpg`
   - Disposition: imagegen bounded explanatory replacement.
   - Prep: inspected/cropped source reference `.tmp/ml-classification-rollout-06-09-crops/07-correlation-02-binary-target-cropped.png`.
   - Invariants: `x = tenure`, `y = churn`, `y ∈ {0, 1}`, `x ∈ ℝ`; positive means more tenure → higher churn and negative means more tenure → less churn; no people, camera, browser, or extra metrics.
@@ -58,12 +58,12 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
   - Invariants: `corrwith` call and exact values `-0.351885`, `0.196805`, and `-0.196353` checked against the lesson.
 
 - `07-correlation-04-churn-rate-tenure.jpg` →
-  `07-correlation-04-churn-rate-tenure-clean.png`
+  `07-correlation-04-churn-rate-tenure-clean.jpg`
   - Disposition: deterministic vector redraw; source control wheel overlapped the right edge, so a crop would damage the visual.
   - Invariants: tenure groups `0–2`, `2–12`, `12+`; exact churn rates `60%`, `40%`, `17%`; decreasing relationship preserved; no camera or recording chrome.
 
 - `07-correlation-05-churn-rate-monthly-charges.jpg` →
-  `07-correlation-05-churn-rate-monthly-charges-clean.png`
+  `07-correlation-05-churn-rate-monthly-charges-clean.jpg`
   - Disposition: deterministic vector redraw; source control wheel overlapped the right edge and clipped the monthly-charge labels.
   - Invariants: monthly-charge groups `≤20`, `20–50`, `>50`; exact churn rates `8%`, `18%`, `32%`; positive relationship preserved. The reference tenure panel is retained for context; no camera or recording chrome.
 
@@ -102,17 +102,17 @@ own focused commit; crops and rejected/intermediate files stay under `.tmp/`.
 ### 09-logistic-regression.md
 
 - `09-logistic-regression-01-binary-classification.jpg` →
-  `09-logistic-regression-01-binary-classification-clean.png`
+  `09-logistic-regression-01-binary-classification-clean.jpg`
   - Disposition: deterministic vector redraw; exact binary-class labels and probability mapping retained.
   - Invariants: `y_i ∈ {0, 1}`, 0 = no churn/no spam, 1 = churn/spam, and `g(x_i) → 0–1` as probability of the positive class; no face or recording chrome.
 
 - `09-logistic-regression-02-from-linear-to-logistic.jpg` →
-  `09-logistic-regression-02-from-linear-to-logistic-clean.png`
+  `09-logistic-regression-02-from-linear-to-logistic-clean.jpg`
   - Disposition: deterministic vector redraw; mathematical notation is kept exact rather than generated.
   - Invariants: `g(x_i) = Sigmoid(w_0 + w_1 x_1 + ... + w_n x_n)`; the real-valued weighted sum passes through sigmoid to `g(x_i) ∈ [0, 1]`; no face or recording chrome.
 
 - `09-logistic-regression-03-sigmoid-formula.jpg` →
-  `09-logistic-regression-03-sigmoid-formula-clean.png`
+  `09-logistic-regression-03-sigmoid-formula-clean.jpg`
   - Disposition: deterministic vector redraw; exact sigmoid formula and curve retained.
   - Invariants: `Sigmoid(z) = 1 / (1 + exp(-z))`, score sign, 0.5 at `z = 0`, and asymptotes toward 0/1 checked; no face or recording chrome.
 

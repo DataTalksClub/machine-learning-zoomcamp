@@ -26,7 +26,7 @@ the customer information to this endpoint, and get the prediction back in the
 response. Based on that response, the marketing service can decide to send a
 promo email or do nothing.
 
-![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram-imagegen.png)
+![The marketing service asks the churn service, which uses the model, for predictions](images/01-intro-02-model-deployment-diagram-imagegen.jpg)
 
 ## The plan for this module
 
@@ -50,7 +50,7 @@ Each step removes one thing that ties the model to our laptop: the notebook,
 the development server, the system-wide Python packages, the operating system
 and finally the local machine itself.
 
-![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-imagegen.png)
+![The web service wraps the model, Pipenv wraps the Python dependencies, Docker wraps everything](images/01-intro-05-environments-imagegen.jpg)
 
 ## Notes
 

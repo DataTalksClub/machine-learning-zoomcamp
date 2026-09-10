@@ -20,17 +20,17 @@ GitHub Codespaces gives you a remote environment with almost everything we need 
 
 First, create a new repository on GitHub - for example, a repository where you will put your homework. Add a README file, make it public, and choose Python as the .gitignore template.
 
-![Creating a new repository on GitHub](images/06-environment-01-create-repo-crisp.png)
+![Creating a new repository on GitHub](images/06-environment-01-create-repo-crisp.jpg)
 
 Then open the Code dropdown, switch to the Codespaces tab, and click "Create codespace on main". GitHub creates a Visual Studio Code instance for you in the browser.
 
-![Creating a codespace on the main branch](images/06-environment-02-create-codespace-crisp.png)
+![Creating a codespace on the main branch](images/06-environment-02-create-codespace-crisp.jpg)
 
 If you don't like using the browser - it should just work there - you can open the same environment in Visual Studio Code desktop: click the button in the corner and choose "Open in VS Code". The first time you launch VS Code desktop it will prompt you to install an extension for Codespaces; if it doesn't, go to the extensions view and search for "GitHub Codespaces" - you need that extension to connect to the remote instance.
 
 Everything feels like developing locally. You can edit files, and you can open a terminal with Ctrl+` (or via the View menu). This is the usual file system of a remote Ubuntu machine - `git status`, `git commit` and `git push` all work, and pushing sends your changes back to GitHub.
 
-![The codespace opened in VS Code desktop with a terminal](images/06-environment-03-vscode-desktop-crisp.png)
+![The codespace opened in VS Code desktop with a terminal](images/06-environment-03-vscode-desktop-crisp.jpg)
 
 One trick from the video: the default prompt is quite long, so there is little space left for the command you type. You can shorten it:
 

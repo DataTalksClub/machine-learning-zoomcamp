@@ -1,7 +1,7 @@
 
 # Explore more
 
-![A Kubernetes namespace contains model and gateway services, while the same deployment idea can run locally or in managed cloud Kubernetes.](images/10-explore-more-01-cluster-options-imagegen.png)
+![A Kubernetes namespace contains model and gateway services, while the same deployment idea can run locally or in managed cloud Kubernetes.](images/10-explore-more-01-cluster-options-imagegen.jpg)
 
 *Figure: Reuse the same service deployment pattern across local clusters and managed cloud Kubernetes.*
 

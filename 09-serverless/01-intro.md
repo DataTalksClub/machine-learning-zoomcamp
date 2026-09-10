@@ -22,7 +22,7 @@ service. The service looks at the image and replies that it's pants.
 We use this answer to pre-fill the category for the user: "looks like
 you're trying to sell pants, so we'll put it in the pants category."
 
-![Clothes classification use case: a user uploads a photo of pants, the website sends it to the clothes classification service, and the service replies "pants"](images/01-intro-01-clothes-classification-use-case-imagegen.png)
+![Clothes classification use case: a user uploads a photo of pants, the website sends it to the clothes classification service, and the service replies "pants"](images/01-intro-01-clothes-classification-use-case-imagegen.jpg)
 
 In the previous session we covered the training part of this pipeline.
 We used Keras and TensorFlow to train an image classification model
@@ -41,14 +41,14 @@ picture to the model deployed with Lambda, and the service replies with
 many different classes. One of these classes will be "pants", together
 with a score. This is what we respond with to the user.
 
-![We send the picture URL to the model deployed on AWS Lambda, and it replies with classes and scores](images/01-intro-02-aws-lambda-deployment-imagegen.png)
+![We send the picture URL to the model deployed on AWS Lambda, and it replies with classes and scores](images/01-intro-02-aws-lambda-deployment-imagegen.jpg)
 
 Inside Lambda we won't use plain TensorFlow. We will use TensorFlow
 Lite instead - a lighter version of TensorFlow that is better suited
 for this particular use case. We'll talk about the reasons for that
 later in the module.
 
-![The Lambda function uses TensorFlow Lite internally to score the picture](images/01-intro-03-lambda-uses-tf-lite-imagegen.png)
+![The Lambda function uses TensorFlow Lite internally to score the picture](images/01-intro-03-lambda-uses-tf-lite-imagegen.jpg)
 
 ## The plan
 

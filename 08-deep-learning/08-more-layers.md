@@ -25,7 +25,7 @@ for non-linearity. Without it, stacking dense layers wouldn't help:
 several linear transformations in a row collapse into one linear
 transformation.
 
-![The diagram with an inner dense layer between the vector representation and the output](images/08-more-layers-01-inner-layer-diagram-imagegen.png)
+![The diagram with an inner dense layer between the vector representation and the output](images/08-more-layers-01-inner-layer-diagram-imagegen.jpg)
 
 Each activation takes the raw scores coming out of a dense layer and
 transforms them. Softmax turns raw scores into probabilities - that's
@@ -38,7 +38,7 @@ unchanged. For a good overview of activation functions, see the
 
 In formula form, the activation is `f(x) = max(0, x)`.
 
-![The CS231n notes on the ReLU activation function: f(x) = max(0, x)](images/08-more-layers-02-activation-functions-crisp.png)
+![The CS231n notes on the ReLU activation function: f(x) = max(0, x)](images/08-more-layers-02-activation-functions-crisp.jpg)
 
 Here's the updated `make_model` function - the only change is the
 `inner` layer with `size_inner` neurons and `activation='relu'`:
@@ -134,7 +134,7 @@ plt.yticks([0.78, 0.80, 0.82, 0.825, 0.83])
 plt.legend()
 ```
 
-![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot-crisp.png)
+![Validation accuracy for sizes 10, 100 and 1000: all close, no clear winner](images/08-more-layers-06-val-accuracy-plot-crisp.jpg)
 
 The curves for all three sizes are close to each other: validation
 accuracy lands somewhere between 0.78 and 0.83 for each size, and the

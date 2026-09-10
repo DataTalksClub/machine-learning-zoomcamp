@@ -22,7 +22,7 @@ company can target the customers with high scores and try to retain
 them, for example by sending an email with discounts or special
 promotions.
 
-![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem-crisp.png)
+![Churn prediction: each customer gets a churn score, and the customers with the highest scores get a discount offer](images/01-churn-project-01-churn-problem-crisp.jpg)
 
 ## Classification
 
@@ -33,7 +33,7 @@ target y:
 
 $$\large g\left(x_{i}\right) \approx y_{i}$$
 
-![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification-crisp.png)
+![Binary classification: the model g approximates the target y for each customer](images/01-churn-project-02-binary-classification-crisp.jpg)
 
 Here x is the feature vector - everything we know about the customer -
 and y is the target variable. The target is binary, so y belongs to

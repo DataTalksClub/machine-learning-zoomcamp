@@ -96,7 +96,7 @@ it. The bins parameter controls how many bars we get:
 sns.histplot(df.msrp, bins=50)
 ```
 
-![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution-crisp.png)
+![The histogram of prices has a long tail](images/03-eda-03-long-tail-distribution-crisp.jpg)
 
 The 1e6 on the x axis is scientific notation: 10 to the power of 6, that is,
 one million. And what we see is that a lot of prices are pretty cheap — most
@@ -117,7 +117,7 @@ To see the shape better, we zoom in on prices below 100,000:
 sns.histplot(df.msrp[df.msrp < 100000], bins=50)
 ```
 
-![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k-crisp.png)
+![Zooming in on prices below 100,000](images/03-eda-04-zoom-below-100k-crisp.jpg)
 
 This is the left part of the previous histogram, and it is much easier to
 read. There is a strange peak of cars that cost 1,000 — probably the minimal
@@ -178,7 +178,7 @@ Now we can plot the histogram of the logged prices:
 sns.histplot(price_logs, bins=50)
 ```
 
-![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution-crisp.png)
+![After the log transformation the tail is gone](images/03-eda-06-log1p-normal-distribution-crisp.jpg)
 
 The tail is gone. All the large prices collapsed into a small area on the
 right, and the cars for usual consumers are still concentrated around the

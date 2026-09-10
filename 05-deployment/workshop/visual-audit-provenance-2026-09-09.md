@@ -53,9 +53,9 @@ For each accepted illustration, the image-generation input included the
 original non-crisp frame and the focused crop. The generated output hashes
 are:
 
-- `images/fastapi-request-response-imagegen.png`:
+- `images/fastapi-request-response-imagegen.jpg`:
   `4892a2e5ce31e5e75b759c2eeb4f846e39a64ceec104fc181820c77d91449e0e`
-- `images/docker-fly-deployment-flow-imagegen.png`:
+- `images/docker-fly-deployment-flow-imagegen.jpg`:
   `ca20b6ae853e47d997a5f44a13d413a0029062f2c69231323d0970eced3ddf07`
 
 The source acquisition check passed with DataImpulse: `yt-dlp` using the
@@ -96,7 +96,7 @@ imagegen is used only for a durable conceptual relationship.
   sends JSON to `/predict` and receives a churn prediction. Imagegen converted
   that source-backed relationship into a crisp, durable diagram without
   inventing the source's exact code or numeric output.
-- Published asset: `images/fastapi-request-response-imagegen.png`
+- Published asset: `images/fastapi-request-response-imagegen.jpg`
 - README reference: immediately after the `curl /predict` example
 
 ### Candidate 4: invalid input
@@ -116,7 +116,7 @@ imagegen is used only for a durable conceptual relationship.
   containerized service, Fly.io, and a reachable deployment. Imagegen removed
   the ephemeral deployment URL and editor/Zoom overlays while preserving that
   relationship.
-- Published asset: `images/docker-fly-deployment-flow-imagegen.png`
+- Published asset: `images/docker-fly-deployment-flow-imagegen.jpg`
 - README reference: immediately after the Fly.io deployment URL discussion
 
 ### Candidate 6: deployment response

@@ -33,7 +33,7 @@ so the output dense layer has a size of 1000. In our problem we want
 to predict only 10 classes - and many of them, like t-shirt, don't
 even exist in ImageNet.
 
-![The convolutional layers are generic and stay; the dense layers are specific to ImageNet and get replaced](images/05-transfer-learning-01-transfer-learning-idea-imagegen.png)
+![The convolutional layers are generic and stay; the dense layers are specific to ImageNet and get replaced](images/05-transfer-learning-01-transfer-learning-idea-imagegen.jpg)
 
 So the plan is:
 
@@ -208,7 +208,7 @@ three-dimensional. We want to turn it into a one-dimensional vector.
 For that we can slice this 5x5x2048 thing into 2048 squares of 5x5,
 take the average of each square, and put that average into the vector:
 
-![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors-crisp.png)
+![Pooling: the 5x5x2048 output of the base model becomes one vector per image](images/05-transfer-learning-05-pooling-vectors-crisp.jpg)
 
 Taking something and representing it in a smaller dimensionality is
 called pooling. Here we need average pooling, because we take an

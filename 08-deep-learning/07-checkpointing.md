@@ -19,7 +19,7 @@ Look at the validation accuracy plot from the previous unit: the model
 goes up to about 82.5% around epoch 8, then drops, and after training
 for 10 epochs we end up with a model that's a bit worse - around 82%.
 
-![The validation accuracy of the tuned model reaches 82.5% around epoch 8 and ends at 82%](images/07-checkpointing-01-oscillation-crisp.png)
+![The validation accuracy of the tuned model reaches 82.5% around epoch 8 and ends at 82%](images/07-checkpointing-01-oscillation-crisp.jpg)
 
 The model at epoch 8 is sweeter - it can identify some of the pictures
 more correctly than the final one. But if we just train for 10 epochs
@@ -41,7 +41,7 @@ mechanism. We can add more things using the same mechanism. Callbacks
 live in `keras.callbacks`, and the interesting one for us is
 `ModelCheckpoint`.
 
-![After each epoch the model is evaluated on validation, and then callbacks are invoked](images/07-checkpointing-02-callbacks-imagegen.png)
+![After each epoch the model is evaluated on validation, and then callbacks are invoked](images/07-checkpointing-02-callbacks-imagegen.jpg)
 
 ## Saving a model
 
@@ -96,7 +96,7 @@ model when it's better than everything we have seen so far. If
 `save_best_only` is `False`, we save after each epoch; when it's
 `True`, we save only when there's an improvement.
 
-![The save_best_only drawing: the model is saved on improvements and skipped when the accuracy is worse than the best](images/07-checkpointing-04-save-best-only-imagegen.png)
+![The save_best_only drawing: the model is saved on improvements and skipped when the accuracy is worse than the best](images/07-checkpointing-04-save-best-only-imagegen.jpg)
 
 To decide whether the model improved, the callback needs to know which
 metric to watch - for us it's `monitor='val_accuracy'`. The last

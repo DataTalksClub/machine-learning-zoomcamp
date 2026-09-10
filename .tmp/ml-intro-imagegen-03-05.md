@@ -22,9 +22,9 @@ The right edge of the features/target and model-training crops intersects the or
 
 Each asset required one imagegen prompt and one accepted generation. Outputs were inspected at high detail after generation.
 
-- `01-what-is-ml-03-expert-or-model-imagegen-pilot.png` — 1672×941. Both DATA→expert/person→PATTERNS and DATA→ML→PATTERNS rows are present, arrows point right, and the caption `If an expert can, so can a model!` is legible. The person is a neutral educational symbol, not a webcam portrait.
-- `01-what-is-ml-04-features-target-imagegen-pilot.png` — 1690×931. The feature table preserves `1995 / GAZ / 200.000`, `1980 / VAZ / 100.000`, and `2016 / BWM / 5.000`; the separate Price column preserves `$1.1k`, `$0.6k`, and `$23k`. `Features`, `what we know about cars`, `Target`, and `what we want to predict` are legible.
-- `01-what-is-ml-05-model-training-imagegen-pilot.png` — 1536×1024. The exact title `Model training`, feature table, Price column, two inputs into `ML`, and one `ML`→`Model` output are present and readable.
+- `01-what-is-ml-03-expert-or-model-imagegen-pilot.jpg` — 1672×941. Both DATA→expert/person→PATTERNS and DATA→ML→PATTERNS rows are present, arrows point right, and the caption `If an expert can, so can a model!` is legible. The person is a neutral educational symbol, not a webcam portrait.
+- `01-what-is-ml-04-features-target-imagegen-pilot.jpg` — 1690×931. The feature table preserves `1995 / GAZ / 200.000`, `1980 / VAZ / 100.000`, and `2016 / BWM / 5.000`; the separate Price column preserves `$1.1k`, `$0.6k`, and `$23k`. `Features`, `what we know about cars`, `Target`, and `what we want to predict` are legible.
+- `01-what-is-ml-05-model-training-imagegen-pilot.jpg` — 1536×1024. The exact title `Model training`, feature table, Price column, two inputs into `ML`, and one `ML`→`Model` output are present and readable.
 
 No output contains a face/camera tile, browser or recording controls, cursor, watermark, black side chrome, or other screenshot overlay. No source JPEG or lesson Markdown was modified.
 

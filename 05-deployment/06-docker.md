@@ -46,7 +46,7 @@ environment - OS, Python, system and Python dependencies, code, model file -
 into an image. A container started from that image behaves identically on any
 machine that runs Docker.
 
-![Each container carries its own OS and Python version - complete isolation](images/06-docker-02-containers-on-host-imagegen.png)
+![Each container carries its own OS and Python version - complete isolation](images/06-docker-02-containers-on-host-imagegen.jpg)
 
 ## The Dockerfile
 
@@ -124,7 +124,7 @@ The flags here:
   machine. The first port is on our machine, the second is inside the
   container.
 
-![Port publishing: the test script talks to port 9696 on the host, which maps into the container](images/06-docker-05-port-mapping-imagegen.png)
+![Port publishing: the test script talks to port 9696 on the host, which maps into the container](images/06-docker-05-port-mapping-imagegen.jpg)
 
 The test script from the [previous unit](04-flask-deployment.md) now talks to
 the containerized service - same URL, same response, but everything inside

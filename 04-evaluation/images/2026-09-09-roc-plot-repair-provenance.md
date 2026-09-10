@@ -2,7 +2,7 @@
 
 This record covers only the three active ROC references in `05-roc.md`:
 
-- `05-roc-04-model-vs-ideal-tpr-fpr-crisp.png`
+- `05-roc-04-model-vs-ideal-tpr-fpr-crisp.jpg`
 - `05-roc-05-roc-curve-manual-crisp.png`
 - `05-roc-06-roc-curve-sklearn-crisp.png`
 

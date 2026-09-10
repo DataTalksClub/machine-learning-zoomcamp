@@ -39,7 +39,7 @@ The focused crop uses `(x=0, y=70, width=640, height=245)` and has SHA-256
 The original frame and crop were both supplied to imagegen. The generated
 asset has SHA-256
 `85ecab48466ebca2ba1a2e395a223864aaaae4d91fe203457c4529e689b90884` and is
-`images/aws-lambda-invocation-prediction-imagegen.png`.
+`images/aws-lambda-invocation-prediction-imagegen.jpg`.
 
 The ONNX source frame is `s09-onnx-framework-diagram.png` at `00:52:15`, with
 SHA-256
@@ -52,7 +52,7 @@ not a literal redraw of the crop: the crop is a Google results page and ONNX
 knowledge panel, not a framework-flow diagram. The generated asset has
 SHA-256
 `ff97513fcfbc8a569eceb31ce6b430e3bb052775a84542c14ea25c93ca381a28` and is
-`images/onnx-framework-interoperability-imagegen.png`.
+`images/onnx-framework-interoperability-imagegen.jpg`.
 
 Generation guardrails for both assets: remove presenter/webcam, Zoom/browser/
 editor chrome, cursor, account/workspace identifiers, exact code, URLs,
@@ -70,7 +70,7 @@ must pass the source and cleanliness gates before it can seed a regeneration.
 | ID | Timestamp | Visible source state | Raw decision | Published treatment |
 | --- | --- | --- | --- | --- |
 | S01 | `00:14:53` | Lambda starter code/test-event chooser | Reject: exact transient UI/code | None |
-| S02 | `00:17:07` | Lambda editor and JSON prediction response; raw `4/12` | Reject as screenshot: exact code/values and overlay | Keep conceptual flow; `aws-lambda-invocation-prediction-imagegen.png` passes independent review |
+| S02 | `00:17:07` | Lambda editor and JSON prediction response; raw `4/12` | Reject as screenshot: exact code/values and overlay | Keep conceptual flow; `aws-lambda-invocation-prediction-imagegen.jpg` passes independent review |
 | S03–S08 | `00:25:14`–`00:47:58` | Dockerfile, ECR commands, Lambda console, cold/warm invocation states | Reject: exact code/commands/values or transient UI | Native README/code only |
 | S09 | `00:52:15` | Google results page and ONNX knowledge panel; preliminary crop candidate | Reject crop: small/misdescribed web panel | Keep only a separate prompt-native ONNX concept, with provenance correction recorded above |
 | S10–S15 | `00:59:04`–`01:26:55` | Conversion code/logs, image input, exact prediction values and tables | Reject: native exact material and overlays | Native README/code only |

@@ -25,7 +25,7 @@ were inspected; the 608px files are inspection-only and are not published.
 
 | Published PNG | Lesson reference | Source JPG | Source crop | Crop `(x, y, width, height)` | Source SHA-256 | Crop SHA-256 | Previous PNG SHA-256 | Current PNG SHA-256 | Native | 608px | Imagegen execution | C2PA | RMSE vs resized crop |
 |---|---|---|---|---|---|---|---|---|---:|---:|---|---|---:|
-| `02-accuracy-02-accuracy-example-crisp.png` | `02-accuracy.md:15` | `02-accuracy-02-accuracy-example.jpg` | `02-accuracy-02-accuracy-example-imagegen-crop.jpg` | `(27, 0, 450, 330)` | `6809d80b03d165a91f90ca10a051df398eee07cbc2cea7434fbd331601108d12` | `7d8f11b9c795bb28bdfb761a55f417d4933a50a3db37b379dc19273542ec2568` | `ef3c83fcd69c4d82fa71a688d683cc689e3fd95a734f088fa3218bfdf21099f3` | `541a544e2c7740596ef6ee75611f6948595ad49ac8f664fd832a662ec14e142f` | `1617x973` | `608x366` | `exec-c21c61b9-e26d-49d1-9fbf-cf50d97fc1bd` | `urn:c2pa:1be2c010-c039-48e0-82aa-243e7eb47c6c` | `0.246923` |
+| `02-accuracy-02-accuracy-example-crisp.jpg` | `02-accuracy.md:15` | `02-accuracy-02-accuracy-example.jpg` | `02-accuracy-02-accuracy-example-imagegen-crop.jpg` | `(27, 0, 450, 330)` | `6809d80b03d165a91f90ca10a051df398eee07cbc2cea7434fbd331601108d12` | `7d8f11b9c795bb28bdfb761a55f417d4933a50a3db37b379dc19273542ec2568` | `ef3c83fcd69c4d82fa71a688d683cc689e3fd95a734f088fa3218bfdf21099f3` | `541a544e2c7740596ef6ee75611f6948595ad49ac8f664fd832a662ec14e142f` | `1617x973` | `608x366` | `exec-c21c61b9-e26d-49d1-9fbf-cf50d97fc1bd` | `urn:c2pa:1be2c010-c039-48e0-82aa-243e7eb47c6c` | `0.246923` |
 
 ### Preserved semantics and removed artifacts
 
@@ -41,7 +41,7 @@ were inspected; the 608px files are inspection-only and are not published.
 
 | Published PNG | Lesson reference | Current PNG SHA-256 | Native | 608px | C2PA | Decision |
 |---|---|---|---:|---:|---|---|
-| `09-explore-more-01-threshold-precision-recall-imagegen.png` | `09-explore-more.md:6` | `2fad10c2e0fa0ec22048ca3db939ccbe53fabee1f45fe8d4e4398582f82d89bd` | `1672x941` | `608x342` | `urn:c2pa:a71a7ae7-27fe-4d6a-b655-a09148eb7257` | Retained byte-for-byte. This is a brand-new conceptual infographic, not a redraw of a source screenshot; no original non-crisp JPG exists in the module. The embedded C2PA record proves direct imagegen, and native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, or selection overlay. |
+| `09-explore-more-01-threshold-precision-recall-imagegen.jpg` | `09-explore-more.md:6` | `2fad10c2e0fa0ec22048ca3db939ccbe53fabee1f45fe8d4e4398582f82d89bd` | `1672x941` | `608x342` | `urn:c2pa:a71a7ae7-27fe-4d6a-b655-a09148eb7257` | Retained byte-for-byte. This is a brand-new conceptual infographic, not a redraw of a source screenshot; no original non-crisp JPG exists in the module. The embedded C2PA record proves direct imagegen, and native/608px inspection found no face, camera tile, browser/editor chrome, cursor, play control, or selection overlay. |
 
 No source/crop pair is fabricated for this direct imagegen asset. Its content
 and lesson semantics remain unchanged.

@@ -106,7 +106,7 @@ The difference is expressed in absolute terms. The same idea can be
 expressed in relative terms - as a ratio between the group churn rate
 and the global churn rate:
 
-![Difference and risk ratio: two ways of comparing a group churn rate with the global one](images/05-risk-03-difference-vs-risk-ratio-imagegen-pilot.png)
+![Difference and risk ratio: two ways of comparing a group churn rate with the global one](images/05-risk-03-difference-vs-risk-ratio-imagegen-pilot.jpg)
 
 ```python
 churn_no_partner / global_churn

@@ -34,7 +34,7 @@ defaults and works part-time, we predict `default`. If they have
 records but a different job, `ok`. If they have no records, we look at
 their assets: more than 6000 means `ok`, otherwise `default`.
 
-![The same rules drawn as a tree](images/03-decision-trees-01-risk-rules-tree-imagegen.png)
+![The same rules drawn as a tree](images/03-decision-trees-01-risk-rules-tree-imagegen.jpg)
 
 Let's take one customer from the training data and check what the rules
 say about them:
@@ -117,7 +117,7 @@ customers it has seen it's perfect - but these rules don't generalize
 to unseen customers. This is overfitting: memorizing the data but
 failing to generalize.
 
-![An overfit tree memorizes each customer with very specific rules](images/03-decision-trees-05-memorizing-imagegen.png)
+![An overfit tree memorizes each customer with very specific rules](images/03-decision-trees-05-memorizing-imagegen.jpg)
 
 The reason is that we let the tree grow without limits, so it became
 very deep: it kept splitting until every leaf was pure.
@@ -176,13 +176,13 @@ This is the tree in text form: customers without records and with more
 than 6.5 years of seniority are predicted as `ok` (class 0), customers
 with records who work part-time as `default` (class 1), and so on.
 
-![The learned tree: first split on records, then job](images/03-decision-trees-06-learned-rules-imagegen.png)
+![The learned tree: first split on records, then job](images/03-decision-trees-06-learned-rules-imagegen.jpg)
 
 A tree with a depth of 1 - a single condition - is called a decision
 stump. It's not really a tree, just one split, and it's the simplest
 possible decision tree.
 
-![A deep tree versus a decision stump with one split](images/03-decision-trees-07-decision-stump-imagegen.png)
+![A deep tree versus a decision stump with one split](images/03-decision-trees-07-decision-stump-imagegen.jpg)
 
 The question is: how does the learning algorithm decide which
 condition and which threshold to use at each split? That's the topic of

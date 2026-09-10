@@ -62,7 +62,7 @@ The dot product, on the other hand, produces a number. The way we compute it: we
 u·v = 2·1 + 4·0 + 5·0 + 6·2 = 2 + 12 = 14
 ```
 
-![The dot product of u and v, computed element by element](images/08-linear-algebra-02-dot-product-crisp.png)
+![The dot product of u and v, computed element by element](images/08-linear-algebra-02-dot-product-crisp.jpg)
 
 The formula: we have a sum that goes over all elements of our vectors, from 1 to n, where n is the dimension of the vector, and inside we multiply the i-th element of `u` with the i-th element of `v`.
 
@@ -113,7 +113,7 @@ Now let's say we have a matrix `U` (capital letter) that we want to multiply by 
 
 The way we do it: take the first row of the matrix `U` and multiply it with the vector `v`. This is a row - so this is exactly the situation from the dot product: a row vector times a column vector. Let's call the rows `U[0]`, `U[1]` and so on, using the same notation as in NumPy.
 
-![Matrix-vector multiplication: each row of U times the vector v](images/08-linear-algebra-04-matrix-vector-idea-crisp.png)
+![Matrix-vector multiplication: each row of U times the vector v](images/08-linear-algebra-04-matrix-vector-idea-crisp.jpg)
 
 For each row of the matrix we do a vector-vector multiplication with `v`, and these results together are the answer. So if `U` has k rows - `U[0]` to `U[k-1]` - the result is k dot products, one per row. Of course the dimensionality should match: each row of `U` and the vector `v` must have the same number of elements, say n.
 

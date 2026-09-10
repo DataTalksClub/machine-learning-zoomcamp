@@ -17,7 +17,7 @@ When we evaluate the model in July, we want to mimic this way of using it: we wa
 
 Of course, we cannot go into the future and take the August data. But we can do something close enough: take our dataset, put aside a small part of it - say 20% - and pretend this part doesn't exist. We train on the remaining 80% only. The held-out part plays the role of the August data; we call it the validation set.
 
-![Train data is used to fit g; the validation set is used to check it](images/05-model-selection-01-train-validation-imagegen-pilot.png)
+![Train data is used to fit g; the validation set is used to check it](images/05-model-selection-01-train-validation-imagegen-pilot.jpg)
 
 From the training set we extract the feature matrix X and the target y, and we train the model g using only these. From the validation set we extract another matrix, Xv, and its target yv - the model has never seen them during training.
 
@@ -40,7 +40,7 @@ However, there can be a problem with this approach. Here is a made-up but illust
 
 We test several coins on the same validation set. A euro gets 20% correct. An American dollar gets 40%. A Polish zloty - 20%. A ruble - 20%. And then a Ukrainian hryvnia produces exactly the right sequence for all five emails and gets 100% correct.
 
-![Five coins evaluated on the same validation set](images/05-model-selection-02-multiple-comparisons-imagegen-pilot.png)
+![Five coins evaluated on the same validation set](images/05-model-selection-02-multiple-comparisons-imagegen-pilot.jpg)
 
 Looking at the numbers, the hryvnia is the best model for spam detection. But we all know this is random: the coin just got lucky and produced the same sequence as in the validation data.
 
@@ -52,7 +52,7 @@ In statistics this is called the multiple comparisons problem: when we perform t
 
 To guard against this, instead of holding out one dataset we hold out two:
 
-![The 60/20/20 split into train, validation and test](images/05-model-selection-03-train-valid-test-imagegen-pilot.png)
+![The 60/20/20 split into train, validation and test](images/05-model-selection-03-train-valid-test-imagegen-pilot.jpg)
 
 - 20% for validation
 - 20% more for testing
@@ -64,7 +64,7 @@ So we have three non-overlapping subsets: the training data, the validation data
 
 Then, to make sure this model didn't just get lucky on the validation set, we apply it to the test set - one extra round of validation. If the validation accuracy was 80% and the test accuracy is 79%, the numbers are close, and we conclude that the model indeed behaves well.
 
-![The best model is checked once more on the test set](images/05-model-selection-04-select-and-test-imagegen-pilot.png)
+![The best model is checked once more on the test set](images/05-model-selection-04-select-and-test-imagegen-pilot.jpg)
 
 This is the model selection process, and being able to set it up is one of the most important skills in machine learning. As a recipe:
 

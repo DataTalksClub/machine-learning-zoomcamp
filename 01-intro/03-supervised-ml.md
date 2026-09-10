@@ -57,7 +57,7 @@ Based on what g outputs and what the target variable looks like, there are diffe
 
 Regression is the car price case: g returns a number. The output can be any number from zero to plus infinity - or whatever range makes sense for the problem.
 
-![Regression: the output is a number](images/03-supervised-ml-04-regression-imagegen-pilot.png)
+![Regression: the output is a number](images/03-supervised-ml-04-regression-imagegen-pilot.jpg)
 
 Predicting the price of a house is another example: from the number of square meters, the number of rooms, the distance from the center and the closest subway station, we predict that the house costs, say, $1 million. Anything where the output is a number is a regression problem.
 
@@ -70,7 +70,7 @@ Classification has subclasses:
 - Binary classification: exactly two categories. Spam detection is binary - the target is 0 or 1, and g outputs a probability between 0 and 1. This is a special subtype, and it is very widely used in practice.
 - Multiclass classification: more than two categories. For example, classifying images into cats, dogs and cars. It can be ten categories, a thousand - as many as you need.
 
-![Multiclass classification: the output is one of several categories](images/03-supervised-ml-05-multiclass-imagegen-pilot.png)
+![Multiclass classification: the output is one of several categories](images/03-supervised-ml-05-multiclass-imagegen-pilot.jpg)
 
 ### Ranking
 
@@ -78,7 +78,7 @@ The last type is ranking. It usually shows up in recommender systems. Imagine yo
 
 Under the hood there is a function that scores every item - for example, the probability that you will like it, from 0 to 1. Then it takes all the items, sorts them by score and shows you the top results, for example the top six.
 
-![Ranking: items are scored and the top ones are shown](images/03-supervised-ml-06-ranking-imagegen-pilot.png)
+![Ranking: items are scored and the top ones are shown](images/03-supervised-ml-06-ranking-imagegen-pilot.jpg)
 
 Google search does something similar: when you search for "machine learning zoomcamp", it looks at all the documents containing this phrase, scores each one by how likely it is to be relevant for you, and shows the highest-scored document first. Search on marketplaces like eBay works the same way: type "iPhone" and the site shows what is most relevant for you first.
 
@@ -90,7 +90,7 @@ The goal is to come up with a function g such that when we apply it to the featu
 
 Depending on the type of the target variable, we get regression, classification - which can be multiclass or binary - and ranking.
 
-![Summary: g(X) approximates y, and y can be a number, a category, or a ranking](images/03-supervised-ml-07-summary-imagegen-pilot.png)
+![Summary: g(X) approximates y, and y can be a number, a category, or a ranking](images/03-supervised-ml-07-summary-imagegen-pilot.jpg)
 
 In this course we focus mostly on classification, but the next lesson is about regression. Binary classification is probably the most widely used type of supervised machine learning - you will definitely encounter a problem that can be solved as binary classification.
 

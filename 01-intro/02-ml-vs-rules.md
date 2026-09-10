@@ -11,7 +11,7 @@ Imagine we have an email system. People use it to talk to colleagues, do work-re
 
 We want to fight these emails. The plan: add a spam folder and send everything that is spam there. To do this we need a classifier - something that classifies each email into spam or not spam.
 
-![Examples of spam emails](images/02-ml-vs-rules-01-spam-examples-imagegen-pilot.png)
+![Examples of spam emails](images/02-ml-vs-rules-01-spam-examples-imagegen-pilot.jpg)
 
 ## The rule-based approach
 
@@ -25,7 +25,7 @@ We turn these observations into rules, write them down in Python and deploy the 
 
 It works - for a while. Then people start complaining about other kinds of unsolicited messages, for example a "prize" email that asks you to pay a small fee and deposit $10 to some account. We analyze it, notice that all these spam messages contain the word "deposit", and add a new rule: if the body contains the word "deposit", mark the message as spam.
 
-![A new kind of spam that mentions a deposit](images/02-ml-vs-rules-03-more-spam-imagegen-pilot.png)
+![A new kind of spam that mentions a deposit](images/02-ml-vs-rules-03-more-spam-imagegen-pilot.jpg)
 
 That works fine for a little while too - until a genuine user, Pedro, writes about the deposit he paid and wants to get back. His legitimate email contains the word "deposit", so our system incorrectly marks it as spam.
 
@@ -61,7 +61,7 @@ Our example has six features. Each of them can only take two values - true or fa
 
 Now we can encode every email as a vector of feature values. For the spam email below: the title is longer than 10 characters (1), the body is long (1), the sender is not `promotions@online.com` (0), it is not the hard-to-read sender (0), the sender domain is "test.com" (1), and the body contains the word "deposit" (1). And because the user marked this email as spam, the target is 1.
 
-![Encoding an email as a vector of features](images/02-ml-vs-rules-05-encode-email-imagegen-pilot.png)
+![Encoding an email as a vector of features](images/02-ml-vs-rules-05-encode-email-imagegen-pilot.jpg)
 
 We do this for every email until we have a dataset: the feature values for each email plus the target variable - spam or not spam.
 
@@ -85,11 +85,11 @@ Let's summarize the difference between the two approaches.
 
 In a rule-based system, we extract rules ourselves and write them in code. The data (emails) and the code together form the software, and the software produces the outcome: spam or not spam. The rules are hard-coded - and, as we saw, such a system becomes difficult to maintain.
 
-![Rule-based systems: data and code go into the software, which produces the outcome](images/02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.png)
+![Rule-based systems: data and code go into the software, which produces the outcome](images/02-ml-vs-rules-07-rule-based-summary-imagegen-pilot.jpg)
 
 In machine learning, the roles flip. The outcome - spam or not spam - becomes the input to the machine learning algorithm, together with the data. The algorithm produces a model. Then, for cases where we don't know the outcome, we take the data and the model, and the model produces the prediction.
 
-![Machine learning: data and outcomes go in, a model comes out](images/02-ml-vs-rules-08-ml-summary-imagegen-pilot.png)
+![Machine learning: data and outcomes go in, a model comes out](images/02-ml-vs-rules-08-ml-summary-imagegen-pilot.jpg)
 
 So in usual software we hard-code the outcome in the code. In machine learning the outcome is the input, and the rules are learned automatically from data.
 

@@ -2,7 +2,7 @@
 
 **TODO**
 
-![An image dataset can be explored through augmentation, alternative architectures, or new datasets before training and classification.](images/14-explore-more-01-learning-paths-imagegen.png)
+![An image dataset can be explored through augmentation, alternative architectures, or new datasets before training and classification.](images/14-explore-more-01-learning-paths-imagegen.jpg)
 
 *Figure: Different data and model choices create new paths to the same classification goal.*
 

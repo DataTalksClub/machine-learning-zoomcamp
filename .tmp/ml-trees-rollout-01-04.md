@@ -8,20 +8,20 @@ being inspected and assigned an imagegen or deterministic disposition.
 ## Accepted assets
 
 - `01-credit-risk-01-loan-application.jpg` →
-  `01-credit-risk-01-loan-application-imagegen.png`: imagegen regeneration.
+  `01-credit-risk-01-loan-application-imagegen.jpg`: imagegen regeneration.
   Source crop `(x=25, y=0, width=455, height=330)` removed the black frame,
   webcam tile, recorder controls, and color wheel before generation. The
   accepted correction removed an incorrect generated sign; checked labels
   `BANK`, `MONEY`, `YES / NO`, client-to-bank and bank-to-client arrows, and
   absence of people/camera/recording overlays.
 - `01-credit-risk-02-historical-data.jpg` →
-  `01-credit-risk-02-historical-data-imagegen.png`: imagegen regeneration.
+  `01-credit-risk-02-historical-data-imagegen.jpg`: imagegen regeneration.
   Source crop `(x=25, y=0, width=455, height=330)` removed the black frame,
   webcam tile, recorder controls, and color wheel. Checked five rows and exact
   outcome order `OK`, `OK`, `DEFAULT`, `DEFAULT`, `OK`; no extra rows or
   overlays remain.
 - `01-credit-risk-03-probability-of-default.jpg` →
-  `01-credit-risk-03-probability-of-default-imagegen.png`: imagegen
+  `01-credit-risk-03-probability-of-default-imagegen.jpg`: imagegen
   regeneration. Source crop `(x=25, y=0, width=480, height=270)` removed the
   black frame, webcam tile, recorder controls, and color wheel. Checked the
   five target outcomes, `y ∈ {0, 1}`, mappings to `OK`/`DEFAULT`, and the
@@ -63,7 +63,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   `(x=0, y=65, width=576, height=285)` retained the exact binary-target
   expressions and array output; browser/camera chrome was removed.
 - `03-decision-trees-01-risk-rules-tree.jpg` →
-  `03-decision-trees-01-risk-rules-tree-imagegen.png`: imagegen regeneration.
+  `03-decision-trees-01-risk-rules-tree-imagegen.jpg`: imagegen regeneration.
   Source crop `(x=25, y=0, width=480, height=260)` removed the black frame,
   webcam tile, recorder controls, and color wheel. Checked root and nested
   conditions, TRUE/FALSE directions, and all four `OK`/`DEFAULT` leaves.
@@ -85,7 +85,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   customer dictionary, probability prediction, and training AUC output while
   removing the webcam tile and browser top bar.
 - `03-decision-trees-05-memorizing.jpg` →
-  `03-decision-trees-05-memorizing-imagegen.png`: imagegen regeneration from
+  `03-decision-trees-05-memorizing-imagegen.jpg`: imagegen regeneration from
   the viewed source crop `(x=110, y=0, width=390, height=330)`, which removed
   the camera sliver and recording gauge. Checked exact title/subtitles
   `OVERFITTING`, `MEMORIZING THE DATA`, `BUT FAILING TO GENERALIZE`, the
@@ -93,13 +93,13 @@ being inspected and assigned an imagegen or deterministic disposition.
   `JOB = "FREELANCE"`, `DEBT > 0.0`, and red class `1`; no people, camera,
   browser, cursor, watermark, or extra labels remain.
 - `03-decision-trees-06-learned-rules.jpg` →
-  `03-decision-trees-06-learned-rules-imagegen.png`: imagegen regeneration
+  `03-decision-trees-06-learned-rules-imagegen.jpg`: imagegen regeneration
   from the viewed source crop `(x=110, y=0, width=390, height=330)`, removing
   the camera sliver and recording gauge. Checked the exact labels
   `RECORDS = NO` and `JOB = 1`, the two-step branching structure, and absence
   of people, camera, browser, cursor, watermark, or extra labels.
 - `03-decision-trees-07-decision-stump.jpg` →
-  `03-decision-trees-07-decision-stump-imagegen.png`: imagegen regeneration
+  `03-decision-trees-07-decision-stump-imagegen.jpg`: imagegen regeneration
   from the viewed source crop `(x=110, y=0, width=390, height=330)`, removing
   the camera sliver and recording gauge. Checked `DEPTH=3`, the deep-tree
   labels `HOME = "OWNER"`, `AGE > 35`, `RECORDS = "YES"`, the stump label
@@ -142,7 +142,7 @@ being inspected and assigned an imagegen or deterministic disposition.
   documentation page, formulas, and sidebar while removing the webcam tile at
   the right edge.
 - `04-decision-tree-learning-08-stopping-criteria.jpg` →
-  `04-decision-tree-learning-08-stopping-criteria-imagegen.png`: imagegen
+  `04-decision-tree-learning-08-stopping-criteria-imagegen.jpg`: imagegen
   regeneration from the viewed source crop `(x=25, y=0, width=455,
   height=330)`, removing the camera tile, recording gauge, and controls.
   Checked exact title `STOPPING CRITERIA` and bullets `GROUP ALREADY PURE`,

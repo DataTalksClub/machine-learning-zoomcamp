@@ -21,7 +21,7 @@ Keras is a higher-level abstraction on top of TensorFlow. It makes it
 simpler to create, train and use neural networks. Keras lives inside
 TensorFlow:
 
-![Keras is a high-level library inside TensorFlow](images/02-tensorflow-keras-01-keras-inside-tensorflow-imagegen.png)
+![Keras is a high-level library inside TensorFlow](images/02-tensorflow-keras-01-keras-inside-tensorflow-imagegen.jpg)
 
 Keras used to be a separate library, but it got absorbed into
 TensorFlow. Since TensorFlow 2.0 it is a part of TensorFlow - so make
@@ -96,7 +96,7 @@ recorded a couple of videos wearing it.
 A neural network expects an image of a certain size. Common sizes are
 299x299, 224x224, or smaller ones like 150x150:
 
-![Common input sizes for neural networks: 299x299 and 224x224](images/02-tensorflow-keras-05-image-sizes-imagegen.png)
+![Common input sizes for neural networks: 299x299 and 224x224](images/02-tensorflow-keras-05-image-sizes-imagegen.jpg)
 
 If we have an image of a different size, we need to resize it to one
 of these formats. We do that with the `target_size` parameter:
@@ -117,7 +117,7 @@ Internally, an image is just an array with three channels: red, green
 and blue. Each channel is an array, and each cell of that array is a
 number between 0 and 255 - that's one byte:
 
-![An image as three channels; the green channel is a grid of numbers from 0 to 255](images/02-tensorflow-keras-07-rgb-channels-imagegen.png)
+![An image as three channels; the green channel is a grid of numbers from 0 to 255](images/02-tensorflow-keras-07-rgb-channels-imagegen.jpg)
 
 Each pixel combines three values: one from the red channel, one from
 the green channel and one from the blue channel. Our t-shirt is almost

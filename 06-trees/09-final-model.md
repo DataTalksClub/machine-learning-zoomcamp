@@ -16,7 +16,7 @@ Each family was tuned to its best parameters in the previous units, so we
 train all three on the training data and compare their AUC on the same
 validation set.
 
-![Comparing the three tuned models on the same validation set](images/09-final-model-01-comparing-validation-imagegen.png)
+![Comparing the three tuned models on the same validation set](images/09-final-model-01-comparing-validation-imagegen.jpg)
 
 The tuned decision tree - `max_depth=6` and `min_samples_leaf=15` - gives:
 

@@ -15,7 +15,7 @@ that produces predictions for all the cars in the dataset at once.
 Remember where we are. g is our model - linear regression, X is the feature
 matrix (the training data) and y is the target, the price:
 
-![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y-crisp.png)
+![g(X) is approximately y: the model, the feature matrix and the target](images/06-linear-regression-vector-01-g-x-approx-y-crisp.jpg)
 
 Let's again write the formula for a single car first. We have the bias term and
 then a sum that goes from 1 to n, where we multiply each feature with its
@@ -31,7 +31,7 @@ with the vector of weights:
 
 $$g(x_i) = w_0 + x_i^T w$$
 
-![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation-crisp.png)
+![The sum is a dot product: g(xi) = w0 + xiT w](images/06-linear-regression-vector-02-dot-product-notation-crisp.jpg)
 
 This notation is more compact, so let's implement it. We already have the
 `linear_regression` function; let's first extract the sum into a function of
@@ -72,7 +72,7 @@ n+1 dimensional vector now. And the vector of features becomes
 x<sub>i0</sub>, x<sub>i1</sub>, x<sub>i2</sub> and so on, where
 x<sub>i0</sub> is 1:
 
-![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature-crisp.png)
+![Adding the fictional feature: w and xi both grow by one element](images/06-linear-regression-vector-04-fake-feature-crisp.jpg)
 
 Why does this work? When we do the dot product, w0 gets multiplied by 1, so it
 simply stays there, and the rest is the same dot product as before. The result
@@ -118,7 +118,7 @@ the matrix X. Because of the fictional feature, each row of this matrix starts
 with 1, followed by the features of that car: row one is car one, row two is
 car two, and so on until row m.
 
-![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication-crisp.png)
+![The feature matrix X: every row starts with 1](images/06-linear-regression-vector-06-matrix-vector-multiplication-crisp.jpg)
 
 For us X has m rows and n+1 columns. What we need to do is take each row of
 this matrix, do the dot product of that row with the vector of weights w, and

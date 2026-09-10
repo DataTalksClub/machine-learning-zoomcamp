@@ -64,19 +64,19 @@ Then we talked about the concept of supervised learning. Both examples we saw - 
 
 Our model, g, extracts patterns from data. Then, for data for which we don't know the answer - this is our feature matrix, capital X - we apply the model and get something that is as close as possible to the target.
 
-![In supervised learning, g(X) approximates the target y](images/10-summary-04-supervised-g-x-y-imagegen-pilot.png)
+![In supervised learning, g(X) approximates the target y](images/10-summary-04-supervised-g-x-y-imagegen-pilot.jpg)
 
 ## CRISP-DM and the bigger picture
 
 We also talked about the bigger picture: this g from X to y is only a part of the entire process. In addition to modeling there are many other steps: business understanding, where we need to understand the problem; understanding the data sources; preparing the data - because X needs to be prepared in the right form so we can actually put it into a model; and, of course, the deployment step - without it even the best model is not useful. Machine learning is just a part of the entire process.
 
-![The CRISP-DM diagram: modeling is only one step of the whole process](images/10-summary-05-crisp-dm-bigger-picture-imagegen-pilot.png)
+![The CRISP-DM diagram: modeling is only one step of the whole process](images/10-summary-05-crisp-dm-bigger-picture-imagegen-pilot.jpg)
 
 ## Model Selection
 
 Then we talked in more detail about the modeling step and the process of selecting the best model. We take the entire dataset and split it into three parts. We use one part - the validation dataset - for finding the best model, and another part - the test dataset - to make sure we don't accidentally pick a model that got good results just by chance.
 
-![Model selection: splitting the dataset into train, validation and test parts](images/10-summary-06-model-selection-split-imagegen-pilot.png)
+![Model selection: splitting the dataset into train, validation and test parts](images/10-summary-06-model-selection-split-imagegen-pilot.jpg)
 
 ## Setting up the Environment
 

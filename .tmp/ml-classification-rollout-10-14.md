@@ -88,7 +88,7 @@ to remove the remaining Jupyter menu bar; the coefficient crop and exact
   surrounding two-year-customer example; no generated approximation was used.
 
 - `11-log-reg-interpretation-06-second-example-slide.jpg` →
-  `11-log-reg-interpretation-06-second-example-imagegen.png` — built-in
+  `11-log-reg-interpretation-06-second-example-imagegen.jpg` — built-in
   imagegen replacement from inspected/cropped source `(0,8,508,285)`.
   Preserved the exact score equation, `1Y`/`2Y` zeroed contract terms,
   monthly-charge and tenure terms, and `-0.33` result; removed the presenter,
@@ -122,7 +122,7 @@ to remove the remaining Jupyter menu bar; the coefficient crop and exact
   notebook frame, and recording chrome.
 
 - `12-using-log-reg-04-production-diagram.jpg` →
-  `12-using-log-reg-04-production-diagram-imagegen.png` — built-in imagegen
+  `12-using-log-reg-04-production-diagram-imagegen.jpg` — built-in imagegen
   replacement from inspected/cropped source `(15,82,583,255)`. The source
   frame duplicated a customer dictionary despite the production-flow caption;
   the bounded diagram now shows `CUSTOMER DATA → DICTVECTORIZER → LOGISTIC
@@ -131,7 +131,7 @@ to remove the remaining Jupyter menu bar; the coefficient crop and exact
   invented numeric result remains.
 
 - `13-summary-01-churn-prediction-slide.jpg` →
-  `13-summary-01-churn-prediction-imagegen.png` — built-in imagegen
+  `13-summary-01-churn-prediction-imagegen.jpg` — built-in imagegen
   replacement from inspected/cropped source `(0,8,505,305)`. Preserved the
   lesson's churn-prediction teaching point, telecom company, ordered customer
   probabilities `0.20` through `0.85`, high-risk selection, and promotional

@@ -4,8 +4,8 @@
 
 Regenerated only these two versioned siblings; the original JPEG screenshots were not modified and lesson Markdown was not edited:
 
-- `cohorts/2026/01-intro/images/01-what-is-ml-01-price-field-imagegen-pilot.png`
-- `cohorts/2026/01-intro/images/01-what-is-ml-02-known-about-cars-imagegen-pilot.png`
+- `cohorts/2026/01-intro/images/01-what-is-ml-01-price-field-imagegen-pilot.jpg`
+- `cohorts/2026/01-intro/images/01-what-is-ml-02-known-about-cars-imagegen-pilot.jpg`
 
 Used the built-in `image_gen` tool with the cropped image as the reference/edit target. No CLI fallback was used.
 

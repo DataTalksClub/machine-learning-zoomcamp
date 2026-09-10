@@ -12,7 +12,7 @@ In this lesson we look at accuracy, the simplest evaluation metric: the fraction
 
 Accuracy measures the fraction of correct predictions: the number of correct predictions divided by the total number of predictions.
 
-![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example-crisp.png)
+![A toy accuracy example: 3 out of 6 predictions are correct](images/02-accuracy-02-accuracy-example-crisp.jpg)
 
 Our validation set has 1409 customers:
 
@@ -115,7 +115,7 @@ So a model that doesn't look at the data at all scores 73%, and our logistic reg
 
 The reason is that the classes are unbalanced: only 27% of the customers in the validation set churned, and 73% stayed. This is called class imbalance - there are many more instances of one class than of the other.
 
-![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance-crisp.png)
+![The class imbalance: 27% of the customers churn, 73% stay - and the dummy model predicts "no churn" for everybody](images/02-accuracy-08-class-imbalance-crisp.jpg)
 
 With such an imbalance, a model can get a high accuracy by always predicting the majority class, while being completely useless for the minority class - which is exactly the class we care about: we want to find the customers who are about to leave.
 

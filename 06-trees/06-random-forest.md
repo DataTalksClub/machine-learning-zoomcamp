@@ -23,7 +23,7 @@ application and decides: approve or reject. The final decision is made by
 majority vote. The idea is that the collective opinion of five experts is
 more reliable than the opinion of one.
 
-![Random forest: each expert sees a random subset of features, gives a probability of default, and the final prediction is the average of all probabilities](images/06-random-forest-01-board-of-experts-imagegen.png)
+![Random forest: each expert sees a random subset of features, gives a probability of default, and the final prediction is the average of all probabilities](images/06-random-forest-01-board-of-experts-imagegen.jpg)
 
 We can do the same with models. Instead of five people, we have five models
 - g1, g2 and so on - and each of them returns its probability of default.
@@ -55,7 +55,7 @@ and `price`, and the third `debt` and `price`. Each tree gives its own
 prediction - p1, p2 and p3 - and the final prediction is the average:
 1/3 (p1 + p2 + p3).
 
-![A board of three decision trees: each is trained on a different pair of features, and their predictions are averaged](images/06-random-forest-02-random-forest-imagegen.png)
+![A board of three decision trees: each is trained on a different pair of features, and their predictions are averaged](images/06-random-forest-02-random-forest-imagegen.jpg)
 
 In scikit-learn, random forest lives in the `ensemble` package. Let's take our
 credit scoring data and train a random forest with a varying number of trees -
@@ -130,7 +130,7 @@ for d in [5, 10, 15]:
 plt.legend()
 ```
 
-![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth-imagegen.png)
+![Comparing validation AUC for max_depth of 5, 10 and 15: depth 10 gives the best curve](images/06-random-forest-04-tuning-max-depth-imagegen.jpg)
 
 The curves for `max_depth=10` and `max_depth=15` are clearly better than the
 one for `max_depth=5`, and `max_depth=10` is the best of the three. So we fix
@@ -183,7 +183,7 @@ for s, col in zip(values, colors):
 plt.legend()
 ```
 
-![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf-imagegen.png)
+![Comparing validation AUC for min_samples_leaf of 1, 3, 5, 10 and 50](images/06-random-forest-05-tuning-min-samples-leaf-imagegen.jpg)
 
 The curves with small values - 1, 3 and 5 - are close to each other at the
 top, while 10 and especially 50 are worse. We take `min_samples_leaf=3`:

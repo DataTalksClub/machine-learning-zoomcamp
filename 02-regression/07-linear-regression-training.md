@@ -34,7 +34,7 @@ X⁻¹Xw = X⁻¹y
     w = X⁻¹y
 ```
 
-![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution-crisp.png)
+![Deriving the solution with the inverse of X](images/07-linear-regression-training-01-inverse-solution-crisp.jpg)
 
 The inverse "cancels" `X`, and we get the weights directly.
 
@@ -56,7 +56,7 @@ XᵀXw = Xᵀy
 
 The matrix `XᵀX` is called the Gram matrix:
 
-![The Gram matrix X-transpose-X is square: (n+1) by (n+1)](images/07-linear-regression-training-02-gram-matrix-crisp.png)
+![The Gram matrix X-transpose-X is square: (n+1) by (n+1)](images/07-linear-regression-training-02-gram-matrix-crisp.jpg)
 
 Unlike `X`, the Gram matrix is square - it has `n+1` rows and `n+1`
 columns. Square matrices usually have an inverse (not always, and we
@@ -76,7 +76,7 @@ w = (XᵀX)⁻¹Xᵀy
 
 This is the normal equation:
 
-![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation-crisp.png)
+![The normal equation: w = (XᵀX)⁻¹Xᵀy](images/07-linear-regression-training-03-normal-equation-crisp.jpg)
 
 This `w` is not the solution to the original system - that solution
 doesn't exist - but it is the closest possible solution. There are

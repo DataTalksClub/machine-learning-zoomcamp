@@ -127,7 +127,7 @@ We see the predictions:
 The durable flow is a customer event invoking the Lambda function and
 returning a prediction response:
 
-![A customer event invokes an AWS Lambda function and receives a prediction response with a probability and decision.](images/aws-lambda-invocation-prediction-imagegen.png)
+![A customer event invokes an AWS Lambda function and receives a prediction response with a probability and decision.](images/aws-lambda-invocation-prediction-imagegen.jpg)
 
 Invoking with CLI: 
 
@@ -401,7 +401,7 @@ In this workshop, we'll use an alternative - ONNX (Open Neural Network Exchange)
 The interoperability idea is that models from different frameworks can be
 converted to one exchange format and served through the same runtime:
 
-![Keras, PyTorch, and other frameworks can produce an ONNX model that runs with ONNX Runtime.](images/onnx-framework-interoperability-imagegen.png)
+![Keras, PyTorch, and other frameworks can produce an ONNX model that runs with ONNX Runtime.](images/onnx-framework-interoperability-imagegen.jpg)
 
 We need will use the same Keras model as before.
 It was retrained for the newest TF version, you

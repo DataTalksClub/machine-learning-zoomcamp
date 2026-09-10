@@ -1,7 +1,7 @@
 
 # Explore more
 
-![A dataset branches into EDA, feature importance, forests, and boosting before producing new insights.](images/11-explore-more-01-ensemble-experiments-imagegen.png)
+![A dataset branches into EDA, feature importance, forests, and boosting before producing new insights.](images/11-explore-more-01-ensemble-experiments-imagegen.jpg)
 
 *Figure: Explore several analyses and ensemble models to learn more from the same data.*
 

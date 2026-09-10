@@ -11,7 +11,7 @@ Imagine we run a website where people buy and sell used cars. A seller takes a p
 
 You don't want to put a price that is too high - nobody will buy the car. You also don't want a price that is too low - you're leaving money on the table. The seller wants a price that is just right.
 
-![The price field in the form for creating a car ad](images/01-what-is-ml-01-price-field-imagegen-pilot.png)
+![The price field in the form for creating a car ad](images/01-what-is-ml-01-price-field-imagegen-pilot.jpg)
 
 Some people go to the website, look at existing ads and pick a price based on similar cars. That works, but we - as the owners of the website - can do better and suggest a price automatically. This is a good use case for machine learning.
 
@@ -30,7 +30,7 @@ Using this information, an expert can determine the price. If you want to sell a
 
 If an expert can do this, so can a model. We take a dataset with these characteristics and the prices, put it into a machine learning algorithm, and the model learns the patterns itself. This is the essence of machine learning: we take data, and the model extracts patterns from it. This way we replicate what experts learn from data.
 
-![An expert extracts patterns from data; so does machine learning](images/01-what-is-ml-03-expert-or-model-imagegen-pilot.png)
+![An expert extracts patterns from data; so does machine learning](images/01-what-is-ml-03-expert-or-model-imagegen-pilot.jpg)
 
 ## Features and target
 
@@ -46,7 +46,7 @@ We collect the features of all the cars we have into a table, together with a co
 
 Training means taking the features and the target and giving them to a machine learning algorithm. The algorithm produces a model.
 
-![Model training: features and target go in, a model comes out](images/01-what-is-ml-05-model-training-imagegen-pilot.png)
+![Model training: features and target go in, a model comes out](images/01-what-is-ml-05-model-training-imagegen-pilot.jpg)
 
 The model encapsulates all the patterns it learned from the data. It is a single artifact we can save and use later.
 
@@ -54,7 +54,7 @@ The model encapsulates all the patterns it learned from the data. It is a single
 
 Once we have the model, we can use it to predict prices of cars for which we don't know the price. We take the features - all the information about a car except the price, because this is what we want to predict - put them into the model, and the model outputs the prediction.
 
-![Using a model: features go in, predictions come out](images/01-what-is-ml-06-using-model-imagegen-pilot.png)
+![Using a model: features go in, predictions come out](images/01-what-is-ml-06-using-model-imagegen-pilot.jpg)
 
 The model is not always able to predict the exact price of a specific car. But the predictions are usually correct on average: for a car of this year, this make and this mileage, this is roughly how much such a car costs. For a specific car it might be a bit lower or higher.
 
@@ -62,7 +62,7 @@ The model is not always able to predict the exact price of a specific car. But t
 
 Back to the seller on our website. They fill in the form with all the information about their car. We extract the features - year, make, mileage and so on - put them into the model, and it gives us the predicted price. We put this prediction into the price field for the user.
 
-![The form the model helps to fill with a suggested price](images/01-what-is-ml-07-suggest-price-imagegen-pilot.png)
+![The form the model helps to fill with a suggested price](images/01-what-is-ml-07-suggest-price-imagegen-pilot.jpg)
 
 The user is happy: they don't have to research prices themselves. If they want, they can still adjust the price - put it higher or lower - but the model gives them a good starting point.
 

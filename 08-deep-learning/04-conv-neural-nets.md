@@ -19,7 +19,7 @@ We have an image, and we want a neural network to predict what is on
 it. We feed the image to a CNN - for now, think of it as a black box -
 and it outputs a prediction: this is a t-shirt.
 
-![Image goes into a CNN with many layers and comes out as a prediction](images/04-conv-neural-nets-01-cnn-overview-imagegen.png)
+![Image goes into a CNN with many layers and comes out as a prediction](images/04-conv-neural-nets-01-cnn-overview-imagegen.jpg)
 
 Inside the box there are layers - layer one, layer two, and so on,
 possibly quite a few of them. There are two main types of layers in a
@@ -47,7 +47,7 @@ similarity.
 We record this number for each position of the filter. The resulting
 array is called a feature map:
 
-![Sliding a filter across the image and recording the similarity at each position gives a feature map](images/04-conv-neural-nets-02-feature-map-imagegen.png)
+![Sliding a filter across the image and recording the similarity at each position gives a feature map](images/04-conv-neural-nets-02-feature-map-imagegen.jpg)
 
 The feature map is the result of applying one filter to an image: we
 slide the filter across the image, compute the similarity at every
@@ -58,7 +58,7 @@ in the middle (the 9), and the rest is mostly zeros.
 We do this for each filter. If a convolutional layer has six filters,
 it produces six feature maps - one feature map per filter:
 
-![The image and three filters produce a stack of feature maps - one per filter](images/04-conv-neural-nets-03-one-feature-map-per-filter-imagegen.png)
+![The image and three filters produce a stack of feature maps - one per filter](images/04-conv-neural-nets-03-one-feature-map-per-filter-imagegen.jpg)
 
 So the input of a convolutional layer is the image, and the output is
 a set of feature maps, as many as there are filters.
@@ -71,7 +71,7 @@ the original one - and feed it to another convolutional layer. This
 layer has its own set of filters, applies them to the output of the
 first layer, and produces its own feature maps:
 
-![Chained convolutional layers: 6 filters produce 6 feature maps, then 12 filters produce 12 feature maps](images/04-conv-neural-nets-04-chained-conv-layers-imagegen.png)
+![Chained convolutional layers: 6 filters produce 6 feature maps, then 12 filters produce 12 feature maps](images/04-conv-neural-nets-04-chained-conv-layers-imagegen.jpg)
 
 Here the first layer has 6 filters and produces 6 feature maps, the
 second has 12 filters and produces 12 feature maps, and we can keep
@@ -108,7 +108,7 @@ these filters are learned automatically. We don't tell the network
 We take our image and pass it through a set of convolutional layers.
 The result of this is a vector representation of the image:
 
-![The image (299x299x3) goes through convolutional layers and comes out as a vector of 2048 numbers](images/04-conv-neural-nets-05-vector-representation-imagegen.png)
+![The image (299x299x3) goes through convolutional layers and comes out as a vector of 2048 numbers](images/04-conv-neural-nets-05-vector-representation-imagegen.jpg)
 
 If the input image is 299x299x3, the vector representation could be
 something like 2048 numbers - a one-dimensional array. The
@@ -136,7 +136,7 @@ input x is the vector representation of the image, and the target y is
 regression: g(x) is a sigmoid. The weights are trained, and the output
 is the probability that x is a t-shirt:
 
-![Each element of x is multiplied by its weight, everything is summed, and sigmoid turns the sum into a probability](images/04-conv-neural-nets-06-logistic-regression-crisp.png)
+![Each element of x is multiplied by its weight, everything is summed, and sigmoid turns the sum into a probability](images/04-conv-neural-nets-06-logistic-regression-crisp.jpg)
 
 Concretely: the elements of x are x1, x2, x3, up to xn. We multiply
 each of them by its weight - w1, w2, w3, and so on - and sum everything
@@ -160,7 +160,7 @@ and as a result we got a neural network.
 This layer is called a dense layer. The input to the layer is the
 vector representation, and the output is the predictions:
 
-![A dense layer connects each element of the input with each element of the output](images/04-conv-neural-nets-07-dense-layer-imagegen.png)
+![A dense layer connects each element of the input with each element of the output](images/04-conv-neural-nets-07-dense-layer-imagegen.jpg)
 
 It's called "dense" because each element of the input is connected to
 each element of the output - there are a lot of connections, the area
@@ -182,7 +182,7 @@ some inner representation with a dense layer, and then finally convert
 it to the output - 10 values, one per class. From this output we
 select the one with the highest value, and hopefully it's t-shirt:
 
-![The summary: convolutional layers, then the vector representation, then dense layers, then the prediction](images/04-conv-neural-nets-08-summary-imagegen.png)
+![The summary: convolutional layers, then the vector representation, then dense layers, then the prediction](images/04-conv-neural-nets-08-summary-imagegen.jpg)
 
 That's the whole picture. Of course, here I only scratched the surface
 of how convolutional neural networks work. If you want to go deeper,

@@ -22,7 +22,7 @@ ImageNet is a dataset with a lot of images. On its website we can see
 that it spans 1000 object classes and has almost 1,300,000 images in
 the training set, 50,000 in validation and 100,000 in test:
 
-![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet-crisp.png)
+![The ImageNet website: 1000 classes, over a million training images](images/03-pretrained-models-02-imagenet-crisp.jpg)
 
 We will not download it - it's huge. It contains all sorts of animals,
 objects, wheels, yachts, planes, nature, people, even clothes. It's a
@@ -50,7 +50,7 @@ between size, accuracy and speed.
 Before I was running TensorFlow locally, but now let me use SageMaker.
 I created an instance there - this instance type has a GPU:
 
-![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu-crisp.png)
+![An Amazon SageMaker notebook instance with a GPU](images/03-pretrained-models-03-sagemaker-gpu-crisp.jpg)
 
 A GPU is needed if you want to run things faster. You can run on your
 usual processor (CPU), but it will be around 8 times slower. GPUs are

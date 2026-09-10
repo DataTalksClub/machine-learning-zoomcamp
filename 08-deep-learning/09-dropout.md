@@ -22,7 +22,7 @@ can appear on a hoodie, so on the validation set this leads to
 mistakes. What we want instead is for the model to focus on the
 bigger picture: the shape of the item, not the details.
 
-![A t-shirt with a logo: training for 10 epochs means the model sees this image 10 times](images/09-dropout-01-motivation-logo-imagegen.png)
+![A t-shirt with a logo: training for 10 epochs means the model sees this image 10 times](images/09-dropout-01-motivation-logo-imagegen.jpg)
 
 ## The dropout idea
 
@@ -32,7 +32,7 @@ layer. The intuition: it's as if we hid random parts of the image with
 a black patch at each step, so the model never sees the same image
 twice.
 
-![What if we could randomly hide a part of the input - the same shirt with different parts covered](images/09-dropout-02-hiding-input-imagegen.png)
+![What if we could randomly hide a part of the input - the same shirt with different parts covered](images/09-dropout-02-hiding-input-imagegen.jpg)
 
 Take a dense layer with 4 inputs and 3 outputs. With dropout,
 each training step freezes part of this layer: some inputs are set to
@@ -40,7 +40,7 @@ zero and don't participate in that step. The next step freezes a
 different part. The output layer, on the other hand, sees all the
 parts, including the frozen ones.
 
-![The inner layer with one neuron frozen for this training step - its connections don't get updated](images/09-dropout-03-frozen-neuron-imagegen-v2.png)
+![The inner layer with one neuron frozen for this training step - its connections don't get updated](images/09-dropout-03-frozen-neuron-imagegen-v2.jpg)
 
 The `droprate` parameter controls how much is hidden: with
 `droprate=0.5`, each iteration freezes 50% of the layer. Dropout
@@ -87,7 +87,7 @@ def make_model(learning_rate=0.01, size_inner=100, droprate=0.5):
     return model
 ```
 
-![Version 3 of the model: vectors, inner Dense(100), dropout, Dense(10) outputs](images/09-dropout-04-v3-diagram-imagegen.png)
+![Version 3 of the model: vectors, inner Dense(100), dropout, Dense(10) outputs](images/09-dropout-04-v3-diagram-imagegen.jpg)
 
 ## Experimenting with droprate
 
@@ -149,7 +149,7 @@ plt.ylim(0.78, 0.86)
 plt.legend()
 ```
 
-![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout-imagegen.png)
+![Validation accuracy for the four dropout rates: 0.8 is the worst, two spikes reach almost 0.85](images/09-dropout-06-val-accuracy-dropout-imagegen.jpg)
 
 It also helps to zoom in on the two curves with the best validation
 accuracy, 0.0 and 0.2:

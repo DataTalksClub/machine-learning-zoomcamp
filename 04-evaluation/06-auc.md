@@ -19,7 +19,7 @@ The interpretation of the reference points follows straight from the shape of th
 
 A real model lands between 0.5 and 1: the closer its curve is to the top-left corner, the larger the area under it. As a rule of thumb, an AUC around 0.8 is considered good, 0.9 is great, and 0.6 is poor.
 
-![The area under the ROC curve: 0.5 for a random model, 1.0 for an ideal one, with 0.8, 0.9 and 0.6 in between](images/06-auc-02-auc-values-imagegen.png)
+![The area under the ROC curve: 0.5 for a random model, 1.0 for an ideal one, with 0.8, 0.9 and 0.6 in between](images/06-auc-02-auc-values-imagegen.jpg)
 
 Scikit-learn computes the area with `auc`, which works for any curve, not only ROC curves:
 
@@ -47,7 +47,7 @@ AUC has a second, probabilistic interpretation that makes it very intuitive: AUC
 
 In our case: pick a random customer who churned and a random customer who stayed - how likely is it that our model gave the churner the higher risk score? That probability is exactly the AUC.
 
-![The AUC interpretation: comparing the scores of a randomly selected positive and a randomly selected negative customer](images/06-auc-05-auc-interpretation-imagegen-v2.png)
+![The AUC interpretation: comparing the scores of a randomly selected positive and a randomly selected negative customer](images/06-auc-05-auc-interpretation-imagegen-v2.jpg)
 
 We can check this by simulation. First we split the predictions into the scores of negatives and positives:
 

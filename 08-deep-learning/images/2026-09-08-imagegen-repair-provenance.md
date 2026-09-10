@@ -5,14 +5,14 @@ the module's screenshot-derived assets were already crisp are withdrawn.
 
 ## Accepted repair
 
-### `05-transfer-learning-05-pooling-vectors-crisp.png`
+### `05-transfer-learning-05-pooling-vectors-crisp.jpg`
 
 - **Status:** accepted after native and simulated 608px inspection.
 - **Source JPG:** `05-transfer-learning-05-pooling-vectors.jpg`
   - SHA-256: `8a68f52b57ce87e5302ad73e159da793411f18c6a3f497b55a7d08ed6af05de3`
-- **Bounded crop:** `05-transfer-learning-05-pooling-vectors-cropped.png`
+- **Bounded crop:** `05-transfer-learning-05-pooling-vectors-cropped.jpg`
   - SHA-256: `45beb4289cc7e7940b81a0fff9ffe659bfbc09f37b81832ec08162ab2044b44a`
-- **Generated output:** `05-transfer-learning-05-pooling-vectors-crisp.png`
+- **Generated output:** `05-transfer-learning-05-pooling-vectors-crisp.jpg`
   - SHA-256: `975adb5a347bd205be20f32ca66c4495714b4740f0d9721187bd31c10ee6d692`
   - Dimensions: `1942x809`
 - **Method:** built-in imagegen redraw using the original JPG and bounded crop as
@@ -26,14 +26,14 @@ the module's screenshot-derived assets were already crisp are withdrawn.
 - **Metadata:** generated PNG contains C2PA metadata identifying the OpenAI
   image-generation service.
 
-### `04-conv-neural-nets-06-logistic-regression-crisp.png`
+### `04-conv-neural-nets-06-logistic-regression-crisp.jpg`
 
 - **Status:** accepted after native and simulated 608px inspection.
 - **Source JPG:** `04-conv-neural-nets-06-logistic-regression.jpg`
   - SHA-256: `c9f2eba9ba6a6d34fe9727d049ab1e37fa6467ed363d40f67114d302e835b5c9`
-- **Bounded crop:** `04-conv-neural-nets-06-logistic-regression-cropped.png`
+- **Bounded crop:** `04-conv-neural-nets-06-logistic-regression-cropped.jpg`
   - SHA-256: `9892e4430f3b45385eee914a53b19d26e6c5821c6ff5411b634edc350b2339b5`
-- **Generated output:** `04-conv-neural-nets-06-logistic-regression-crisp.png`
+- **Generated output:** `04-conv-neural-nets-06-logistic-regression-crisp.jpg`
   - SHA-256: `cfb07af4e6a461121a43a86367bd72d61621c5eb0d4f6f7235910f9c478a6416`
   - Dimensions: `1774x887`
 - **Method:** built-in imagegen edit/redraw using the original JPG and bounded
@@ -76,14 +76,14 @@ they are not imagegen output.
 
 ## Imagegen repair
 
-### `08-more-layers-02-activation-functions-crisp.png`
+### `08-more-layers-02-activation-functions-crisp.jpg`
 
 - **Status:** locally verified at native and simulated 608px resolution.
 - **Source JPG:** `08-more-layers-02-activation-functions.jpg`
   - SHA-256: `226feb24e2a34e73d50f74fdc9e75c8c432dbc060ab91e5c21a0b38e77fdccee`
-- **Bounded crop:** `08-more-layers-02-activation-functions-cropped.png`
+- **Bounded crop:** `08-more-layers-02-activation-functions-cropped.jpg`
   - SHA-256: `7beca8558d57b7ab881a6aa3e72db55b71b6ee1dda2130920437094e8cd8fc09`
-- **Generated output:** `08-more-layers-02-activation-functions-crisp.png`
+- **Generated output:** `08-more-layers-02-activation-functions-crisp.jpg`
   - SHA-256: `3a0f8f0404e299d9d7726b05b462daf5dd8ca4d2dbecda8ca9de5a52d2deeae9`
   - Dimensions: `1536x1024`
 - **Method:** built-in imagegen redraw using the original JPG and bounded crop

@@ -3,7 +3,7 @@
 ## Pilot asset
 
 - Source: `/home/alexey/git/machine-learning-zoomcamp/cohorts/2026/04-evaluation/images/07-cross-validation-01-kfold-diagram.jpg`
-- Output: `/home/alexey/git/machine-learning-zoomcamp/cohorts/2026/04-evaluation/images/07-cross-validation-01-kfold-diagram-pilot.png`
+- Output: `/home/alexey/git/machine-learning-zoomcamp/cohorts/2026/04-evaluation/images/07-cross-validation-01-kfold-diagram-pilot.jpg`
 - Lesson/unit: `04-evaluation/07-cross-validation.md`, section “K-fold cross-validation”.
 - Learner should notice: with `K=3`, each run trains on two folds and validates on the remaining fold; the validation fold rotates through 3, 2, and 1, and the resulting AUCs are summarized with a mean and standard deviation.
 - Crop: source crop `(x=35, y=25, width=470, height=305)` from the 598x360 JPEG. This removes the webcam tile and most browser/Zoom framing; the generator also removed the residual calibration wheel.

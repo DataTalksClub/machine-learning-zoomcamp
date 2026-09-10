@@ -2,9 +2,9 @@
 
 This ledger covers only these three active references:
 
-- `01-overview-02-churn-scenario-crisp.png`
-- `02-accuracy-08-class-imbalance-crisp.png`
-- `03-confusion-table-01-four-outcomes-crisp.png`
+- `01-overview-02-churn-scenario-crisp.jpg`
+- `02-accuracy-08-class-imbalance-crisp.jpg`
+- `03-confusion-table-01-four-outcomes-crisp.jpg`
 
 The original non-crisp JPGs remain unchanged. Each output was generated with
 imagegen using the original JPG and the tracked bounded crop as references. The

@@ -30,7 +30,7 @@ probability that `xi` belongs to the positive class. If the model
 outputs 0.8 for a customer, we say it believes there is an 80% chance
 this customer will churn.
 
-![Binary classification: the target takes values 0 or 1, and the model outputs the probability of belonging to the positive class](images/09-logistic-regression-01-binary-classification-clean.png)
+![Binary classification: the target takes values 0 or 1, and the model outputs the probability of belonging to the positive class](images/09-logistic-regression-01-binary-classification-clean.jpg)
 
 ## From linear regression to logistic regression
 
@@ -54,13 +54,13 @@ apply the sigmoid function to the weighted sum:
     $\large g\left(x_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_{2}x_{2} + ... + w_{n}x_{n}\right)$
 </p>
 
-![Logistic regression: the same weighted sum as in linear regression, passed through the sigmoid so the output lands between 0 and 1 instead of anywhere on the real line](images/09-logistic-regression-02-from-linear-to-logistic-clean.png)
+![Logistic regression: the same weighted sum as in linear regression, passed through the sigmoid so the output lands between 0 and 1 instead of anywhere on the real line](images/09-logistic-regression-02-from-linear-to-logistic-clean.jpg)
 
 <p align="center">
     $\large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$
 </p>
 
-![The sigmoid curve: scores below zero map to probabilities below 0.5, scores above zero to probabilities above 0.5](images/09-logistic-regression-03-sigmoid-formula-clean.png)
+![The sigmoid curve: scores below zero map to probabilities below 0.5, scores above zero to probabilities above 0.5](images/09-logistic-regression-03-sigmoid-formula-clean.jpg)
 
 The sigmoid squashes any real number into the range between 0 and 1.
 That turns the raw score into a probability. Both models are called
@@ -95,7 +95,7 @@ z = np.linspace(-7, 7, 51)
 plt.plot(z, sigmoid(z))
 ```
 
-![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot-crisp.png)
+![Sigmoid function](images/09-logistic-regression-04-sigmoid-plot-crisp.jpg)
 
 The curve has an S shape: scores below roughly -5 give a probability
 close to 0, scores above roughly 5 give a probability close to 1, and

@@ -20,7 +20,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; formula and code are exact instructional content, so imagegen was not used.
 - Crop: source `598x360`; `565x288+16+72`, then 2× Lanczos resize and light unsharp masking. This removes the browser header, webcam tile, recording marker, black frame edges, and controls while keeping the plot, formula, code cell, and section context.
 - Invariants/QA: preserve the full `sqrt(1/m Σ(g(x_i)-y_i)^2)` notation, `def rmse(y, y_pred):`, and visible notebook context. Final `1130x576` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/09-rmse-01-rmse-formula-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/09-rmse-01-rmse-formula-cropped.jpg`.
 
 ### Screenshot 02 — predictions and actual prices
 
@@ -30,7 +30,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; the exact values and handwritten notation are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `482x343+23+0`, then 2× Lanczos resize and light unsharp masking. This removes the recording marker, webcam tile, black side frame, and bottom controls while retaining the complete diagram.
 - Invariants/QA: preserve `g(x_i)-y_i`, `PRED`, `PRICE`, `y-pred`, `y-train`, values `10, 9, 11, …, 10` and `9, 9, 10.5, …, 11.5`, and their row alignment. Final `964x686` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/09-rmse-02-predictions-vs-actual-prices-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/09-rmse-02-predictions-vs-actual-prices-cropped.jpg`.
 
 ### Screenshot 03 — differences
 
@@ -40,7 +40,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact notation and values must remain unchanged, so imagegen was not used.
 - Crop: source `598x360`; `525x343+23+0`, then a deterministic blank-board mask over only the webcam rectangle (`local x=482..524, y=0..70`), 2× Lanczos resize, and light unsharp masking. The wider crop is needed to keep the final `-1.5` cell complete.
 - Invariants/QA: preserve the formula, both input rows, the error row `1, 0, 0.5, …, -1.5`, and row alignment. Final `1050x686` PNG inspected; the mask touches only blank board behind the camera, and no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border remains. Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/09-rmse-03-differences-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/09-rmse-03-differences-cropped.jpg`.
 
 ### Screenshot 04 — squared errors and mean
 
@@ -50,7 +50,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; the handwritten arithmetic is exact source content, so imagegen was not used.
 - Crop: source `598x360`; `525x290+23+0`, with the webcam area replaced only over blank board (`local x=482..524, y=0..70`), then 2× Lanczos resize and light unsharp masking. The crop also removes the partial next-step square-root fragment at the source bottom.
 - Invariants/QA: preserve `1, 0, 0.25, 2.25`, `(1+0+0.25+2.25)/4`, `= 0.875`, and the `SQUARED ERROR` / `MEAN SE` annotations. Final `1050x580` PNG inspected; no face, camera tile, browser/Zoom chrome, cursor, watermark, black border, or partial next-step fragment remains. Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/09-rmse-04-squared-errors-mean-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/09-rmse-04-squared-errors-mean-cropped.jpg`.
 
 ### Screenshot 05 — mean calculator
 
@@ -68,7 +68,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `565x288+16+72`, then 2× Lanczos resize and light unsharp masking. This removes the browser header, webcam tile, recording marker, black frame edges, and controls.
 - Invariants/QA: preserve the formula, complete `rmse` function, call `rmse(y_train, y_pred)`, and output `0.7554192603920132`. Final `1130x576` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/09-rmse-06-rmse-implementation-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/09-rmse-06-rmse-implementation-cropped.jpg`.
 
 ## 10 — validation data
 
@@ -80,7 +80,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; the exact labels and arrow directions are fidelity-sensitive, so imagegen was not used.
 - Crop: source `598x360`; `380x260+126+31`, then a small blank-board mask over the cursor (`local x=52..70, y=141..158`), 2× Lanczos resize, and light unsharp masking. This removes the recording marker, webcam tile, black frame, controls, and cursor.
 - Invariants/QA: preserve the `TRAIN`, `VAL`, and `TEST` partitions, model `g`, and both arrow directions. Final `760x520` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/10-car-price-validation-01-split-diagram-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-01-split-diagram-cropped.jpg`.
 
 ### Screenshot 02 — `prepare_X` function
 
@@ -90,7 +90,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x90+26+176`, then 2× Lanczos resize and light unsharp masking. This keeps only the complete `prepare_X` cell and removes browser/Zoom chrome, webcam tile, lesson headings, cursor, and recording frame.
 - Invariants/QA: preserve `def prepare_X(df)`, `df[base]`, `fillna(0)`, `.values`, and `return X` exactly. Final `1066x180` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/10-car-price-validation-02-prepare-x-function-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-02-prepare-x-function-cropped.jpg`.
 
 ### Screenshot 03 — train and validate
 
@@ -100,7 +100,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x207+26+82`, then 2× Lanczos resize and light unsharp masking. This retains the complete helper/training/validation cells and result while removing browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
 - Invariants/QA: preserve `prepare_X`, `train_linear_regression`, `df_train`, `df_val`, `rmse(y_val, y_pred)`, and `0.7616530991301577`. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/10-car-price-validation-03-train-and-validate-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-03-train-and-validate-cropped.jpg`.
 
 ### Screenshot 04 — training versus validation parts
 
@@ -110,7 +110,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact code, output, and annotations are fidelity-sensitive, so imagegen was not used.
 - Crop: source `598x360`; `533x207+26+82`, with a small notebook-background patch over the cursor (`local x=454..470, y=158..173`), then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, lesson heading, and recording frame.
 - Invariants/QA: preserve both code blocks, the `TRAIN` / `VAL` annotations and line, and result `0.7616530991301577`; the patch touches only blank cell background. Final `1066x414` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/10-car-price-validation-04-train-vs-validation-parts-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/10-car-price-validation-04-train-vs-validation-parts-cropped.jpg`.
 
 ## 11 — feature engineering
 
@@ -122,7 +122,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact table values are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `165x215+135+145`, then 2× Lanczos resize and light unsharp masking. This focuses on the complete `make`, `model`, and selected `year` columns and removes browser/Zoom chrome, webcam tile, code-cell fragments, cursor, and clipped adjacent columns.
 - Invariants/QA: preserve the `year` header, rows 0–4 and 7145–7148, and all visible make/model/year values. Final `330x430` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or partial adjacent column; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-01-year-column-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-01-year-column-cropped.jpg`.
 
 ### Screenshot 02 — car age calculation
 
@@ -132,7 +132,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact expression and values must remain unchanged, so imagegen was not used.
 - Crop: source `598x360`; `533x190+26+104`, then 2× Lanczos resize and light unsharp masking. This retains the complete expression and visible output while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve `2017 - df_train.year`, rows 0–4 and 7145–7149, their age values, and `Name: year, Length: 7150, dtype: int64`. Final `1066x380` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-02-car-age-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-02-car-age-cropped.jpg`.
 
 ### Screenshot 03 — adding `age` to `prepare_X`
 
@@ -142,7 +142,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x130+26+230`, then 2× Lanczos resize and light unsharp masking. This retains the complete function and removes the browser/Zoom frame, webcam tile, clipped lesson heading, and following-cell material.
 - Invariants/QA: preserve `df['age'] = 2017 - df.year`, `df[base]`, `fillna(0)`, `.values`, and `return X`. Final `1066x260` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-03-age-feature-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-03-age-feature-cropped.jpg`.
 
 ### Screenshot 04 — modified dataframe
 
@@ -152,7 +152,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact dtype output and selection highlight are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x245+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete `df_train.dtypes` output, selected `age` row, and `dtype: object` while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve all visible column/type pairs, especially `age int64`, the selection highlight, and the final dtype line. Final `1066x490` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-04-modified-dataframe-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-04-modified-dataframe-cropped.jpg`.
 
 ### Screenshot 05 — copying the dataframe
 
@@ -162,7 +162,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x175+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the complete `prepare_X` implementation with `df.copy()` and removes browser/Zoom chrome, webcam tile, headings, incomplete output, and recording frame.
 - Invariants/QA: preserve `df = df.copy()`, age creation, feature selection, `fillna(0)`, `.values`, and `return X`; no clipped output is presented as evidence. Final `1066x350` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-05-dataframe-copy-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-05-dataframe-copy-cropped.jpg`.
 
 ### Screenshot 06 — RMSE improvement
 
@@ -172,7 +172,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x145+26+190`, then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, preceding code, headings, and recording frame while retaining the complete validation cell and result.
 - Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and exact output `0.5172055461058291`. The source's small native selection highlight over the leading digits remains because removing it would damage the exact output; it is recorded as a limitation. Final `1066x290` PNG otherwise has no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-06-rmse-improvement-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-06-rmse-improvement-cropped.jpg`.
 
 ### Screenshot 07 — prediction/target distributions
 
@@ -182,7 +182,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; plot geometry, colors, and values are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x270+26+72`, then 2× Lanczos resize and light unsharp masking. This keeps the plotting code, output label, complete histogram, axes, and annotations while removing browser/Zoom chrome, webcam tile, headings, and recording frame.
 - Invariants/QA: preserve both histogram calls, red/blue series, bins `50`, axes, bar heights/shape, and blue arrows. Final `1066x540` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/11-feature-engineering-07-distribution-comparison-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/11-feature-engineering-07-distribution-comparison-cropped.jpg`.
 
 ## 12 — categorical variables
 
@@ -194,7 +194,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact labels and dtypes are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x268+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the complete command and dtype output while removing browser/Zoom chrome, webcam tile, cursor, headings below the output, and recording frame.
 - Invariants/QA: preserve every visible column/type pair and final `dtype: object`. Final `1066x536` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-01-object-columns-cropped.jpg`.
 
 ### Screenshot 03 — number-of-doors loop
 
@@ -204,7 +204,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x140+26+158`, then 2× Lanczos resize and light unsharp masking. This retains the complete function through the door-feature loop and removes browser/Zoom chrome, webcam tile, previous output fragment, cursor, and following incomplete lines.
 - Invariants/QA: preserve `base.copy()`, age creation, loop values `[2, 3, 4]`, comparison expression, `astype('int')`, and both feature-name expressions. Final `1066x280` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-03-doors-loop-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-03-doors-loop-cropped.jpg`.
 
 ### Screenshot 04 — RMSE after adding door features
 
@@ -214,7 +214,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact code and numeric output are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x155+26+130`, then 2× Lanczos resize and light unsharp masking. This keeps the complete validation cell and result while removing browser/Zoom chrome, webcam tile, preceding incomplete code, next heading, and recording frame.
 - Invariants/QA: preserve the training/validation calls, `rmse(y_val, y_pred)`, and `0.5157995641502978`. Final `1066x310` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes before commit.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-04-doors-rmse-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-04-doors-rmse-cropped.jpg`.
 
 ### Screenshot 05 — top car makes
 
@@ -224,7 +224,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact labels and counts are the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x115+26+153`, with a small notebook-background patch over the text caret (`local x=305..312, y=4..20`), then 2× Lanczos resize and light unsharp masking. This removes the previous output fragment, browser/Zoom chrome, webcam tile, next heading, and recording frame.
 - Invariants/QA: preserve `df.make.value_counts().head().index`, `chevrolet 1123`, `ford 881`, `volkswagen 809`, `toyota 746`, `dodge 626`, and `Name: make, dtype: int64`. Final `1066x230` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-05-top-makes-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-05-top-makes-cropped.jpg`.
 
 ### Screenshot 06 — categories dictionary
 
@@ -234,7 +234,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x135+26+143`, then 2× Lanczos resize and light unsharp masking. This retains the complete variable list and dictionary-building loop while removing browser/Zoom chrome, webcam tile, preceding dtype output, following partial cell, and recording frame.
 - Invariants/QA: preserve all seven categorical variable names, `categories = {}`, `for c in categorical_variables`, and `list(df[c].value_counts().head().index)`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped next cell; Markdown reference resolves and `git diff --check` passes.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-06-categories-dict-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-06-categories-dict-cropped.jpg`.
 
 ### Screenshot 07 — all-category `prepare_X` loops
 
@@ -244,7 +244,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact Python code is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x135+26+54`, with a white notebook-background mask over the webcam rectangle (`local x=480..532, y=0..14`), then 2× Lanczos resize and light unsharp masking. This removes browser/Zoom chrome, webcam tile, preceding partial line, validation output, heading, and recording frame.
 - Invariants/QA: preserve both loops, `df['%s_%s' % (c, v)]`, `astype('int')`, `features.append`, `df_num`, `fillna(0)`, `.values`, and `return X`. Final `1066x270` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or clipped code; Markdown reference resolves and `git diff --check` passes.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-07-prepare-x-all-categories-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-07-prepare-x-all-categories-cropped.jpg`.
 
 ### Screenshot 08 — broken weights
 
@@ -254,7 +254,7 @@ outputs, and UI are handled deterministically.
 - Disposition: `crop/replace` via deterministic raster export; exact numeric output is the source of truth, so imagegen was not used.
 - Crop: source `598x360`; `533x260+26+72`, then 2× Lanczos resize and light unsharp masking. This retains the validation result and complete visible weight array while removing browser/Zoom chrome, webcam tile, heading, and recording frame.
 - Invariants/QA: preserve `rmse(y_val, y_pred)`, `41.45414769975256`, the `w` label, all visible scientific-notation weights, and their order. Final `1066x520` PNG inspected with no face, camera tile, browser/Zoom chrome, cursor, watermark, or black border; Markdown reference resolves and `git diff --check` passes.
-- Final: `cohorts/2026/02-regression/images/12-categorical-variables-08-broken-weights-cropped.png`.
+- Final: `cohorts/2026/02-regression/images/12-categorical-variables-08-broken-weights-cropped.jpg`.
 
 ### Screenshot 02 — one-hot encoding diagram
 

@@ -29,7 +29,7 @@ image, already prepared. We download the image, turn it into a numpy array
 and apply the `prepare_input` function to get `X`. The result is a numpy
 array with 10 predictions - one score for each of the 10 classes we have.
 
-![TensorFlow Serving: C++ inference with the clothes model](images/01-overview-01-tf-serving-inference-imagegen.png)
+![TensorFlow Serving: C++ inference with the clothes model](images/01-overview-01-tf-serving-inference-imagegen.jpg)
 
 ## The gateway
 
@@ -47,13 +47,13 @@ gateway post-processes these numbers into human-readable predictions and
 sends them back. The website then uses them to suggest a category to the
 user.
 
-![Website, gateway and TensorFlow Serving](images/01-overview-02-architecture-imagegen.png)
+![Website, gateway and TensorFlow Serving](images/01-overview-02-architecture-imagegen.jpg)
 
 The gateway itself we implement in Flask - that gives us full control over
 the pre- and post-processing code. TensorFlow Serving is C++, so we don't
 have much control over what happens there; we just use it as is.
 
-![The gateway talks to TensorFlow Serving over gRPC](images/01-overview-03-grpc-imagegen.png)
+![The gateway talks to TensorFlow Serving over gRPC](images/01-overview-03-grpc-imagegen.jpg)
 
 ## Two components, two ways to scale
 
@@ -72,7 +72,7 @@ arrays, preparing the input. A usual CPU is enough for that. Applying the
 model, on the other hand, means a lot of matrix multiplication, and that
 runs much faster on a GPU.
 
-![The gateway runs on CPU, TensorFlow Serving on GPU](images/01-overview-05-cpu-gpu-imagegen.png)
+![The gateway runs on CPU, TensorFlow Serving on GPU](images/01-overview-05-cpu-gpu-imagegen.jpg)
 
 Because the components are separate, we can scale them independently. For
 example, we can have five instances of the gateway on CPU machines and two
@@ -81,7 +81,7 @@ expensive, so we don't want more TensorFlow Serving instances than we
 need. The gateway needs less powerful machines, but maybe more of them.
 With one monolithic service we couldn't do that.
 
-![Everything runs inside Kubernetes](images/01-overview-04-kubernetes-imagegen.png)
+![Everything runs inside Kubernetes](images/01-overview-04-kubernetes-imagegen.jpg)
 
 One more thing the gateway does is post-processing the output. We already
 have all this code: we wrote most of it in the previous session, when we

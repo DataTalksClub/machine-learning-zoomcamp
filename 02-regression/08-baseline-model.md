@@ -125,7 +125,7 @@ sns.histplot(y_train, color='blue', alpha=0.5, bins=50)
 The `alpha` parameter controls how transparent the bars are, so both
 histograms are visible in the same plot.
 
-![Comparing the distributions of predictions (red) and actual prices (blue)](images/08-baseline-model-06-prediction-histogram-crisp.png)
+![Comparing the distributions of predictions (red) and actual prices (blue)](images/08-baseline-model-06-prediction-histogram-crisp.jpg)
 
 Looking at the chart, the distribution of predictions does not really
 match the distribution of actual values: the red peak sits to the left

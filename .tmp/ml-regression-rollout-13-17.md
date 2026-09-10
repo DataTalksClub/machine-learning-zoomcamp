@@ -27,7 +27,7 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 | 14 | `14-tuning-model-02-rmse-per-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve every printed `r`, bias, and RMSE value; remove browser/camera frame. The source's native blue selection highlight remains over the first RMSE value without changing the text. |
 | 14 | `14-tuning-model-03-choosing-r.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the full comparison table used to justify choosing `r=0.001`; remove browser/camera frame. |
 | 14 | `14-tuning-model-04-final-model.jpg` | keep/crop | 10/12 | Crop `(x=25,y=50,w=480,h=300)`; preserve the selected `r=0.001` training cell and validation RMSE `0.46081585838957173`; remove browser/camera frame. |
-| 16 | `16-summary-01-data-cleaning.jpg` | replace/remap | 9/12 | The original file was a categorical-variable frame and failed the caption-match hard gate, so it was removed. The useful data-cleaning capture from `16-summary-02-log-transformation.jpg` was deterministically cropped `(x=20,y=65,w=550,h=290)` into `16-summary-01-data-cleaning-cropped.png`; exact `str.lower().str.replace` code and output are preserved. |
+| 16 | `16-summary-01-data-cleaning.jpg` | replace/remap | 9/12 | The original file was a categorical-variable frame and failed the caption-match hard gate, so it was removed. The useful data-cleaning capture from `16-summary-02-log-transformation.jpg` was deterministically cropped `(x=20,y=65,w=550,h=290)` into `16-summary-01-data-cleaning-cropped.jpg`; exact `str.lower().str.replace` code and output are preserved. |
 | 16 | `16-summary-02-log-transformation.jpg` | remove/reassign | 2/12 | The source is the same data-cleaning cell reused above, not a log-transformation plot; the caption-match hard gate fails. Its original file is retained only as the source for the corrected data-cleaning crop, and the misleading Markdown reference is removed. |
 | 16 | `16-summary-03-linear-regression-loop.jpg` | keep/crop | 10/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the exact single-example weights, loop, and `linear_regression` implementation; remove browser/camera frame. |
 | 16 | `16-summary-04-vector-form.jpg` | keep/crop | 10/12 | Crop `(x=20,y=65,w=550,h=290)`; preserve the `dot`, vector-form regression, and resulting weight vector; remove browser/camera frame. |
@@ -44,7 +44,7 @@ bounded website-to-model sketch is being evaluated for imagegen separately.
 - The original categorical-variable frame for `16-summary-01` was removed
   because its caption mismatched the content. The useful data-cleaning source
   formerly named `16-summary-02-log-transformation.jpg` was remapped into the
-  corrected `16-summary-01-data-cleaning-cropped.png`; its misleading original
+  corrected `16-summary-01-data-cleaning-cropped.jpg`; its misleading original
   Markdown reference was removed.
 - Broken-reference scan: 0 missing files. `git diff --check`: passed.
 - Accepted assets contain no face or camera tile. A few exact notebook crops

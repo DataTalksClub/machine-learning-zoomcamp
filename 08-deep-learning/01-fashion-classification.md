@@ -16,7 +16,7 @@ the columns were model, make, miles per gallon in the city and outside,
 and MSRP - the price we tried to predict. Linear regression, logistic
 regression and tree-based models are all made for data like this.
 
-![Tabular data from a CSV file versus an image of a t-shirt](images/01-fashion-classification-01-tabular-vs-images-imagegen.png)
+![Tabular data from a CSV file versus an image of a t-shirt](images/01-fashion-classification-01-tabular-vs-images-imagegen.jpg)
 
 This week the data is different. Instead of a table, we have images -
 pictures of clothes. Given a picture, we want to predict what kind of
@@ -31,7 +31,7 @@ The use case: an online classifieds website, the kind of website where
 people sell things. A user wants to sell a t-shirt, so they create a
 listing in the fashion category and upload a picture of it.
 
-![A user uploads a picture of a t-shirt to the website](images/01-fashion-classification-02-upload-service-imagegen.png)
+![A user uploads a picture of a t-shirt to the website](images/01-fashion-classification-02-upload-service-imagegen.jpg)
 
 On the backend we have a fashion classification service. It takes the
 picture and replies with a suggested category - in this case

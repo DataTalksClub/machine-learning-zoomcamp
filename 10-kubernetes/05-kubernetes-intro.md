@@ -31,7 +31,7 @@ image with specific parameters. Each node can have multiple pods, and
 different pods may need different amounts of resources - one pod might
 take more CPU and RAM, another one less.
 
-![A cluster with two nodes, each running pods](images/05-kubernetes-intro-01-cluster-nodes-pods-imagegen.png)
+![A cluster with two nodes, each running pods](images/05-kubernetes-intro-01-cluster-nodes-pods-imagegen.jpg)
 
 ## Deployments
 
@@ -45,7 +45,7 @@ deployment is our TensorFlow Serving model: its pods also share the same
 image and config, but they are larger - serving the model needs more
 resources.
 
-![Two deployments: gateway pods and TF-Serving pods, each with the same image and config](images/05-kubernetes-intro-02-deployments-imagegen.png)
+![Two deployments: gateway pods and TF-Serving pods, each with the same image and config](images/05-kubernetes-intro-02-deployments-imagegen.jpg)
 
 So, to write it down: a node is approximately a server or computer, a pod
 is approximately a Docker container that runs on a node, and a deployment
@@ -71,7 +71,7 @@ goes to the model service, and the model service routes the request to
 one of the TensorFlow Serving pods. That pod gets the protobuf request
 and replies with predictions, which come all the way back to the user.
 
-![The user talks to the gateway service; the gateway talks to the model service](images/05-kubernetes-intro-03-services-crisp.png)
+![The user talks to the gateway service; the gateway talks to the model service](images/05-kubernetes-intro-03-services-crisp.jpg)
 
 So we can think of a service as the main point of entry to a deployment:
 it gets the request and decides which pod should handle it.
@@ -91,9 +91,9 @@ And one technical detail: in front of the cluster there's a thing called
 routes the request to one of the external services. It's the entry point
 to the cluster.
 
-![The whiteboard definitions: node, pod, deployment, service, ingress](images/05-kubernetes-intro-05-definitions-imagegen.png)
+![The whiteboard definitions: node, pod, deployment, service, ingress](images/05-kubernetes-intro-05-definitions-imagegen.jpg)
 
-![External and internal services, with ingress in front of the cluster](images/05-kubernetes-intro-04-external-internal-ingress-imagegen.png)
+![External and internal services, with ingress in front of the cluster](images/05-kubernetes-intro-04-external-internal-ingress-imagegen.jpg)
 
 ## Scaling
 
@@ -109,7 +109,7 @@ them. And in principle it can go further: if all our nodes are already
 occupied with too many pods, it can request a new node - the new node
 gets created, and the new pods are placed there.
 
-![More users, more pods: Kubernetes scales the deployments up](images/05-kubernetes-intro-06-scaling-imagegen.png)
+![More users, more pods: Kubernetes scales the deployments up](images/05-kubernetes-intro-06-scaling-imagegen.jpg)
 
 This is the mechanism for dealing with traffic increases. Most of what we
 discussed here we won't need to set up ourselves in this course - we

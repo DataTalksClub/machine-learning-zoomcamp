@@ -88,7 +88,7 @@ in the batch, 299 by 299 pixels, 3 color channels.
 preds = model.predict(X)
 ```
 
-![Keras prediction scores, with pants highest, followed by converting the Keras model to TF-Lite and saving clothing-model.tflite](images/03-tensorflow-lite-02-03-predictions-to-tflite-crisp.png)
+![Keras prediction scores, with pants highest, followed by converting the Keras model to TF-Lite and saving clothing-model.tflite](images/03-tensorflow-lite-02-03-predictions-to-tflite-crisp.jpg)
 
 The raw predictions are scores for each class. To make them
 meaningful, we combine them with the class names from the previous
