@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "rows": 10000,
+    "columns": 11,
+    "generation_time_seconds": 0.16,
+    "seed": 20260910,
+    "domain": "automotive",
+    "task": "regression",
+    "plan_version": 2
+  },
+  "target_stats": {
+    "mean": 29.9977,
+    "std": 2.9302449289324524,
+    "min": 19.8,
+    "max": 41.2
+  },
+  "feature_stats": {
+    "model_year": {
+      "type": "numerical",
+      "mean": 1999.5495,
+      "std": 14.207925121692695,
+      "missing_rate": 0.0
+    },
+    "origin": {
+      "type": "categorical",
+      "unique_values": 3,
+      "top_values": {
+        "USA": 4202,
+        "Asia": 2994,
+        "Europe": 2804
+      },
+      "missing_rate": 0.0
+    },
+    "fuel_type": {
+      "type": "categorical",
+      "unique_values": 3,
+      "top_values": {
+        "Gasoline": 6913,
+        "Diesel": 2053,
+        "Hybrid": 1034
+      },
+      "missing_rate": 0.0
+    },
+    "drivetrain": {
+      "type": "categorical",
+      "unique_values": 3,
+      "top_values": {
+        "Front-wheel drive": 5519,
+        "Rear-wheel drive": 2455,
+        "All-wheel drive": 2026
+      },
+      "missing_rate": 0.0
+    },
+    "num_doors": {
+      "type": "numerical",
+      "mean": 3.504,
+      "std": 0.9520896215508005,
+      "missing_rate": 0.0
+    },
+    "engine_displacement": {
+      "type": "numerical",
+      "mean": 2268.807,
+      "std": 183.44735496649827,
+      "missing_rate": 0.0
+    },
+    "num_cylinders": {
+      "type": "numerical",
+      "mean": 6.0352,
+      "std": 0.542577551175778,
+      "missing_rate": 0.0
+    },
+    "horsepower": {
+      "type": "numerical",
+      "mean": 254.44601556505535,
+      "std": 22.844613385643186,
+      "missing_rate": 0.0877
+    },
+    "vehicle_weight": {
+      "type": "numerical",
+      "mean": 4286.754,
+      "std": 266.21249105374324,
+      "missing_rate": 0.0
+    },
+    "acceleration": {
+      "type": "numerical",
+      "mean": 18.888044371405094,
+      "std": 1.2795434617276908,
+      "missing_rate": 0.0264
+    }
+  },
+  "relationship_stats": {
+    "model_year->engine_displacement": {
+      "coefficient": -0.38,
+      "correlation": -0.026254268136045963
+    },
+    "engine_displacement->num_cylinders": {
+      "coefficient": 0.002,
+      "correlation": 0.6600587583919424
+    },
+    "engine_displacement->horsepower": {
+      "coefficient": 0.065,
+      "correlation": 0.7607402979956103
+    },
+    "num_cylinders->horsepower": {
+      "coefficient": 14.0,
+      "correlation": 0.6023709490240424
+    },
+    "engine_displacement->vehicle_weight": {
+      "coefficient": 0.7,
+      "correlation": 0.6856221098948364
+    },
+    "num_cylinders->vehicle_weight": {
+      "coefficient": 110.0,
+      "correlation": 0.5239500440934635
+    },
+    "num_doors->vehicle_weight": {
+      "coefficient": 60.0,
+      "correlation": 0.18030019504492564
+    },
+    "model_year->acceleration": {
+      "coefficient": -0.015,
+      "correlation": -0.1692337887752334
+    },
+    "vehicle_weight->acceleration": {
+      "coefficient": 0.0018,
+      "correlation": 0.2235468963068946
+    },
+    "horsepower->acceleration": {
+      "coefficient": -0.015,
+      "correlation": -0.04868906852411424
+    }
+  },
+  "data_quality": {
+    "missingness_rates": {
+      "horsepower": 0.0877,
+      "acceleration": 0.0264
+    },
+    "outlier_counts": {},
+    "bound_violations": {
+      "model_year": 0,
+      "num_doors": 0,
+      "engine_displacement": 0,
+      "num_cylinders": 0,
+      "horsepower": 0,
+      "vehicle_weight": 0,
+      "acceleration": 0
+    }
+  }
+}

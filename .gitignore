@@ -14,6 +14,8 @@ __pycache__/
 
 # data folders
 **data/
+!cohorts/2026/data/
+!cohorts/2026/data/**
 
 #  content-specific
 /08-deep-learning/clothing-dataset-small/

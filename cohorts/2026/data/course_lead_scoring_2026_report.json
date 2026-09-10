@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "rows": 5000,
+    "columns": 9,
+    "generation_time_seconds": 0.14,
+    "seed": 20260910,
+    "domain": "marketing",
+    "task": "classification",
+    "plan_version": 2
+  },
+  "target_stats": {
+    "class_distribution": {
+      "1": 2883,
+      "0": 2117
+    },
+    "class_balance": 0.5766
+  },
+  "feature_stats": {
+    "lead_source": {
+      "type": "categorical",
+      "unique_values": 5,
+      "top_values": {
+        "organic_search": 1251,
+        "paid_ads": 1140,
+        "social_media": 1055,
+        "referral": 790,
+        "events": 616
+      },
+      "missing_rate": 0.0296
+    },
+    "industry": {
+      "type": "categorical",
+      "unique_values": 6,
+      "top_values": {
+        "technology": 1173,
+        "retail": 925,
+        "healthcare": 840,
+        "finance": 720,
+        "education": 639
+      },
+      "missing_rate": 0.048
+    },
+    "employment_status": {
+      "type": "categorical",
+      "unique_values": 4,
+      "top_values": {
+        "employed": 2633,
+        "student": 760,
+        "self_employed": 715,
+        "unemployed": 698
+      },
+      "missing_rate": 0.0388
+    },
+    "location": {
+      "type": "categorical",
+      "unique_values": 5,
+      "top_values": {
+        "north_america": 1371,
+        "europe": 1149,
+        "asia": 1052,
+        "south_america": 749,
+        "africa": 471
+      },
+      "missing_rate": 0.0416
+    },
+    "annual_income": {
+      "type": "numerical",
+      "mean": 54533.21204923343,
+      "std": 21245.661709564883,
+      "missing_rate": 0.0738
+    },
+    "number_of_courses_viewed": {
+      "type": "numerical",
+      "mean": 2.0894,
+      "std": 1.1889871227543278,
+      "missing_rate": 0.0
+    },
+    "interaction_count": {
+      "type": "numerical",
+      "mean": 4.4726,
+      "std": 2.435905574359039,
+      "missing_rate": 0.0
+    },
+    "lead_score": {
+      "type": "numerical",
+      "mean": 0.4947673716012085,
+      "std": 0.19943133110115444,
+      "missing_rate": 0.007
+    }
+  },
+  "relationship_stats": {
+    "number_of_courses_viewed->interaction_count": {
+      "coefficient": 1.45,
+      "correlation": 0.7216090038937009
+    },
+    "number_of_courses_viewed->lead_score": {
+      "coefficient": 0.03,
+      "correlation": 0.7693520621846633
+    },
+    "interaction_count->lead_score": {
+      "coefficient": 0.06,
+      "correlation": 0.9287123432397119
+    },
+    "annual_income->lead_score": {
+      "coefficient": 1.2e-06,
+      "correlation": 0.23139586118819586
+    }
+  },
+  "data_quality": {
+    "missingness_rates": {
+      "lead_source": 0.0296,
+      "industry": 0.048,
+      "employment_status": 0.0388,
+      "location": 0.0416,
+      "annual_income": 0.0738,
+      "lead_score": 0.007
+    },
+    "outlier_counts": {},
+    "bound_violations": {
+      "annual_income": 0,
+      "number_of_courses_viewed": 0,
+      "interaction_count": 0,
+      "lead_score": 0
+    }
+  }
+}

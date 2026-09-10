@@ -1,0 +1,165 @@
+{
+  "plan_version": 2,
+  "task": "classification",
+  "name": "Course Lead Scoring 2026",
+  "description": "A controlled marketing-funnel dataset in which acquisition, engagement, income, lead score, and conversion are connected by an explicit pre-conversion story.",
+  "dataset_name": "course_lead_scoring_2026",
+  "domain": "marketing",
+  "seed": 20260910,
+  "rows": 5000,
+  "features": [
+    {
+      "name": "lead_source",
+      "type": "categorical",
+      "categories": ["paid_ads", "social_media", "organic_search", "referral", "events"],
+      "probabilities": [0.24, 0.22, 0.25, 0.17, 0.12],
+      "domain_semantics": "How the prospect first found the course",
+      "missing_rate": 0.03
+    },
+    {
+      "name": "industry",
+      "type": "categorical",
+      "categories": ["technology", "healthcare", "retail", "finance", "education", "manufacturing"],
+      "probabilities": [0.24, 0.18, 0.20, 0.15, 0.13, 0.10],
+      "domain_semantics": "Prospect industry",
+      "missing_rate": 0.05
+    },
+    {
+      "name": "employment_status",
+      "type": "categorical",
+      "categories": ["employed", "self_employed", "unemployed", "student"],
+      "probabilities": [0.55, 0.15, 0.15, 0.15],
+      "domain_semantics": "Current employment status",
+      "missing_rate": 0.04
+    },
+    {
+      "name": "location",
+      "type": "categorical",
+      "categories": ["north_america", "europe", "asia", "south_america", "africa"],
+      "probabilities": [0.28, 0.24, 0.22, 0.16, 0.10],
+      "domain_semantics": "Broad geographic region",
+      "missing_rate": 0.04
+    },
+    {
+      "name": "annual_income",
+      "type": "derived_numerical",
+      "domain_semantics": "Annual income estimated from industry, employment, and location",
+      "formula": [
+        {"kind": "constant", "value": 31000.0},
+        {"kind": "categorical", "feature": "industry", "value": "technology", "coefficient": 29000.0},
+        {"kind": "categorical", "feature": "industry", "value": "finance", "coefficient": 25000.0},
+        {"kind": "categorical", "feature": "industry", "value": "healthcare", "coefficient": 12000.0},
+        {"kind": "categorical", "feature": "industry", "value": "manufacturing", "coefficient": 5000.0},
+        {"kind": "categorical", "feature": "industry", "value": "retail", "coefficient": -5000.0},
+        {"kind": "categorical", "feature": "industry", "value": "education", "coefficient": -8000.0},
+        {"kind": "categorical", "feature": "employment_status", "value": "employed", "coefficient": 18000.0},
+        {"kind": "categorical", "feature": "employment_status", "value": "self_employed", "coefficient": 14000.0},
+        {"kind": "categorical", "feature": "employment_status", "value": "unemployed", "coefficient": -10000.0},
+        {"kind": "categorical", "feature": "employment_status", "value": "student", "coefficient": -16000.0},
+        {"kind": "categorical", "feature": "location", "value": "north_america", "coefficient": 8000.0},
+        {"kind": "categorical", "feature": "location", "value": "europe", "coefficient": 4000.0},
+        {"kind": "categorical", "feature": "location", "value": "south_america", "coefficient": -3000.0},
+        {"kind": "categorical", "feature": "location", "value": "africa", "coefficient": -5000.0},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 8500.0}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "1",
+      "bounds": {"low": 12000, "high": 180000}
+    },
+    {
+      "name": "number_of_courses_viewed",
+      "type": "derived_numerical",
+      "domain_semantics": "Number of courses viewed, influenced by acquisition source and employment status",
+      "formula": [
+        {"kind": "constant", "value": 1.0},
+        {"kind": "categorical", "feature": "lead_source", "value": "organic_search", "coefficient": 0.8},
+        {"kind": "categorical", "feature": "lead_source", "value": "referral", "coefficient": 1.0},
+        {"kind": "categorical", "feature": "lead_source", "value": "social_media", "coefficient": 0.5},
+        {"kind": "categorical", "feature": "lead_source", "value": "paid_ads", "coefficient": 0.3},
+        {"kind": "categorical", "feature": "employment_status", "value": "employed", "coefficient": 0.8},
+        {"kind": "categorical", "feature": "employment_status", "value": "self_employed", "coefficient": 0.5},
+        {"kind": "categorical", "feature": "employment_status", "value": "student", "coefficient": 0.2},
+        {"kind": "categorical", "feature": "employment_status", "value": "unemployed", "coefficient": -0.2},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 1.1}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "integer",
+      "bounds": {"low": 0, "high": 12}
+    },
+    {
+      "name": "interaction_count",
+      "type": "derived_numerical",
+      "domain_semantics": "Number of measurable interactions, correlated with course engagement",
+      "formula": [
+        {"kind": "constant", "value": 1.0},
+        {"kind": "linear", "feature": "number_of_courses_viewed", "coefficient": 1.45},
+        {"kind": "categorical", "feature": "lead_source", "value": "organic_search", "coefficient": 0.8},
+        {"kind": "categorical", "feature": "lead_source", "value": "referral", "coefficient": 1.1},
+        {"kind": "categorical", "feature": "lead_source", "value": "social_media", "coefficient": 0.3},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 1.6}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "integer",
+      "bounds": {"low": 0, "high": 25}
+    },
+    {
+      "name": "lead_score",
+      "type": "derived_numerical",
+      "domain_semantics": "Pre-conversion score built from observable engagement and income",
+      "formula": [
+        {"kind": "constant", "value": 0.08},
+        {"kind": "linear", "feature": "number_of_courses_viewed", "coefficient": 0.030},
+        {"kind": "linear", "feature": "interaction_count", "coefficient": 0.060},
+        {"kind": "linear", "feature": "annual_income", "coefficient": 0.0000012},
+        {"kind": "categorical", "feature": "lead_source", "value": "referral", "coefficient": 0.08},
+        {"kind": "categorical", "feature": "lead_source", "value": "organic_search", "coefficient": 0.04},
+        {"kind": "categorical", "feature": "lead_source", "value": "social_media", "coefficient": 0.02},
+        {"kind": "categorical", "feature": "lead_source", "value": "paid_ads", "coefficient": -0.02},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 0.05}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "0.01",
+      "bounds": {"low": 0.01, "high": 0.99}
+    }
+  ],
+  "target_name": "converted",
+  "target_formula": [
+    {"kind": "constant", "value": -3.2},
+    {"kind": "linear", "feature": "lead_score", "coefficient": 4.8},
+    {"kind": "linear", "feature": "number_of_courses_viewed", "coefficient": 0.18},
+    {"kind": "linear", "feature": "interaction_count", "coefficient": 0.09},
+    {"kind": "linear", "feature": "annual_income", "coefficient": 0.000004},
+    {"kind": "categorical", "feature": "lead_source", "value": "referral", "coefficient": 0.30},
+    {"kind": "categorical", "feature": "lead_source", "value": "organic_search", "coefficient": 0.15},
+    {"kind": "categorical", "feature": "lead_source", "value": "paid_ads", "coefficient": -0.15},
+    {"kind": "categorical", "feature": "employment_status", "value": "employed", "coefficient": 0.20},
+    {"kind": "categorical", "feature": "employment_status", "value": "student", "coefficient": -0.25},
+    {"kind": "categorical", "feature": "industry", "value": "technology", "coefficient": 0.10}
+  ],
+  "classification": {
+    "mode": "bernoulli_logistic",
+    "temperature": 1.1,
+    "target_rate": 0.58,
+    "probability_clip_low": 0.02,
+    "probability_clip_high": 0.98
+  },
+  "missingness_rules": [
+    {
+      "feature": "annual_income",
+      "rate": 0.35,
+      "condition_feature": "employment_status",
+      "condition_operator": "eq",
+      "condition_value": "student"
+    },
+    {
+      "feature": "annual_income",
+      "rate": 0.20,
+      "condition_feature": "employment_status",
+      "condition_operator": "eq",
+      "condition_value": "unemployed"
+    },
+    {
+      "feature": "lead_score",
+      "rate": 0.04,
+      "condition_feature": "lead_source",
+      "condition_operator": "eq",
+      "condition_value": "events"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "plan_version": 2,
+  "task": "regression",
+  "name": "Car Fuel Efficiency 2026",
+  "description": "A controlled automotive dataset in which vehicle specifications follow a documented generative story and fuel efficiency has physically plausible directions.",
+  "dataset_name": "car_fuel_efficiency_2026",
+  "domain": "automotive",
+  "seed": 20260910,
+  "rows": 10000,
+  "features": [
+    {
+      "name": "model_year",
+      "type": "numerical",
+      "distribution": {"kind": "uniform", "low": 1975, "high": 2024},
+      "domain_semantics": "Model year of the vehicle",
+      "rounding_precision": "1",
+      "bounds": {"low": 1975, "high": 2024}
+    },
+    {
+      "name": "origin",
+      "type": "categorical",
+      "categories": ["USA", "Europe", "Asia"],
+      "probabilities": [0.42, 0.28, 0.30],
+      "domain_semantics": "Broad manufacturing origin"
+    },
+    {
+      "name": "fuel_type",
+      "type": "categorical",
+      "categories": ["Gasoline", "Diesel", "Hybrid"],
+      "probabilities": [0.70, 0.20, 0.10],
+      "domain_semantics": "Primary fuel or powertrain type"
+    },
+    {
+      "name": "drivetrain",
+      "type": "categorical",
+      "categories": ["Front-wheel drive", "Rear-wheel drive", "All-wheel drive"],
+      "probabilities": [0.55, 0.25, 0.20],
+      "domain_semantics": "Driven wheels"
+    },
+    {
+      "name": "num_doors",
+      "type": "numerical",
+      "distribution": {"kind": "uniform", "low": 2, "high": 5},
+      "domain_semantics": "Number of passenger doors",
+      "rounding_precision": "integer",
+      "bounds": {"low": 2, "high": 5}
+    },
+    {
+      "name": "engine_displacement",
+      "type": "derived_numerical",
+      "domain_semantics": "Engine displacement in cubic centimeters, related to year, origin, and drivetrain",
+      "formula": [
+        {"kind": "constant", "value": 3000.0},
+        {"kind": "linear", "feature": "model_year", "coefficient": -0.38},
+        {"kind": "categorical", "feature": "origin", "value": "USA", "coefficient": 25.0},
+        {"kind": "categorical", "feature": "origin", "value": "Europe", "coefficient": 5.0},
+        {"kind": "categorical", "feature": "origin", "value": "Asia", "coefficient": -5.0},
+        {"kind": "categorical", "feature": "drivetrain", "value": "Rear-wheel drive", "coefficient": 28.0},
+        {"kind": "categorical", "feature": "drivetrain", "value": "All-wheel drive", "coefficient": 38.0},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 180.0}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "nearest_10",
+      "bounds": {"low": 900, "high": 5000}
+    },
+    {
+      "name": "num_cylinders",
+      "type": "derived_numerical",
+      "domain_semantics": "Cylinder count implied by engine displacement",
+      "formula": [
+        {"kind": "constant", "value": 1.5},
+        {"kind": "linear", "feature": "engine_displacement", "coefficient": 0.0020},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 0.30}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "integer",
+      "bounds": {"low": 3, "high": 8}
+    },
+    {
+      "name": "horsepower",
+      "type": "derived_numerical",
+      "domain_semantics": "Engine power, primarily determined by displacement and cylinder count",
+      "formula": [
+        {"kind": "constant", "value": 15.0},
+        {"kind": "linear", "feature": "engine_displacement", "coefficient": 0.065},
+        {"kind": "linear", "feature": "num_cylinders", "coefficient": 14.0},
+        {"kind": "categorical", "feature": "fuel_type", "value": "Diesel", "coefficient": 12.0},
+        {"kind": "categorical", "feature": "origin", "value": "USA", "coefficient": 12.0},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 12.0}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "1",
+      "bounds": {"low": 45, "high": 500}
+    },
+    {
+      "name": "vehicle_weight",
+      "type": "derived_numerical",
+      "domain_semantics": "Curb weight in pounds, related to engine size, cylinders, doors, and drivetrain",
+      "formula": [
+        {"kind": "constant", "value": 1700.0},
+        {"kind": "linear", "feature": "engine_displacement", "coefficient": 0.70},
+        {"kind": "linear", "feature": "num_cylinders", "coefficient": 110.0},
+        {"kind": "linear", "feature": "num_doors", "coefficient": 60.0},
+        {"kind": "categorical", "feature": "drivetrain", "value": "Rear-wheel drive", "coefficient": 160.0},
+        {"kind": "categorical", "feature": "drivetrain", "value": "All-wheel drive", "coefficient": 240.0},
+        {"kind": "categorical", "feature": "origin", "value": "USA", "coefficient": 80.0},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 150.0}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "nearest_10",
+      "bounds": {"low": 1800, "high": 5500}
+    },
+    {
+      "name": "acceleration",
+      "type": "derived_numerical",
+      "domain_semantics": "Seconds to accelerate; heavier vehicles are slower and more power helps",
+      "formula": [
+        {"kind": "constant", "value": 45.0},
+        {"kind": "linear", "feature": "model_year", "coefficient": -0.015},
+        {"kind": "linear", "feature": "vehicle_weight", "coefficient": 0.0018},
+        {"kind": "linear", "feature": "horsepower", "coefficient": -0.015},
+        {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 1.2}, "coefficient": 1.0}
+      ],
+      "rounding_precision": "0.1",
+      "bounds": {"low": 8, "high": 30}
+    }
+  ],
+  "target_name": "fuel_efficiency_mpg",
+  "target_formula": [
+    {"kind": "constant", "value": -155.0},
+    {"kind": "linear", "feature": "model_year", "coefficient": 0.100},
+    {"kind": "linear", "feature": "engine_displacement", "coefficient": -0.0018},
+    {"kind": "linear", "feature": "horsepower", "coefficient": -0.010},
+    {"kind": "linear", "feature": "vehicle_weight", "coefficient": -0.0020},
+    {"kind": "categorical", "feature": "origin", "value": "USA", "coefficient": -0.8},
+    {"kind": "categorical", "feature": "origin", "value": "Europe", "coefficient": 0.3},
+    {"kind": "categorical", "feature": "origin", "value": "Asia", "coefficient": 0.5},
+    {"kind": "categorical", "feature": "fuel_type", "value": "Diesel", "coefficient": 2.0},
+    {"kind": "categorical", "feature": "fuel_type", "value": "Hybrid", "coefficient": 4.0},
+    {"kind": "categorical", "feature": "drivetrain", "value": "Rear-wheel drive", "coefficient": -0.8},
+    {"kind": "categorical", "feature": "drivetrain", "value": "All-wheel drive", "coefficient": -1.2},
+    {"kind": "noise", "distribution": {"kind": "normal", "mean": 0.0, "std": 1.6}, "coefficient": 1.0}
+  ],
+  "target_rounding_precision": "0.1",
+  "target_noise_scale": 0.0,
+  "missingness_rules": [
+    {
+      "feature": "horsepower",
+      "rate": 0.35,
+      "condition_feature": "model_year",
+      "condition_operator": "lt",
+      "condition_value": 1985
+    },
+    {
+      "feature": "horsepower",
+      "rate": 0.02
+    },
+    {
+      "feature": "acceleration",
+      "rate": 0.10,
+      "condition_feature": "origin",
+      "condition_operator": "eq",
+      "condition_value": "Europe"
+    }
+  ]
+}
