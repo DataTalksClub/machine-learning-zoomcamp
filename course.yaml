@@ -3,7 +3,17 @@ content_id: deae4813-0ff6-4839-b6ed-bf6e1ea516bd
 slug: ml-zoomcamp
 title: Machine Learning Zoomcamp
 current_cohort: "2026"
-description_path: SITE.md
+description: |
+  Machine Learning Zoomcamp is a free, hands-on course on machine learning
+  engineering. Across its modules you work through regression, classification,
+  model evaluation, tree-based models, and deep learning, then deploy what you
+  build with FastAPI, Docker, AWS Lambda, and Kubernetes. A midterm project
+  and a capstone project bookend the second half of the course.
+
+  The course follows a project-first approach: theory is introduced as it is
+  needed to solve real problems, with the focus on the practical engineering
+  skills used in industry. All materials stay available for self-paced study
+  between cohorts.
 outcome: Build, evaluate, and deploy practical machine learning systems.
 repository_url: https://github.com/DataTalksClub/machine-learning-zoomcamp
 docs_url: https://datatalks.club/docs/courses/ml-zoomcamp/

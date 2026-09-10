@@ -14,8 +14,7 @@ root: `course.yaml:current_cohort` names it, and it must match the one
 
 ```
 <repo root>/
-├── course.yaml                   # course identity
-├── SITE.md                       # website course description
+├── course.yaml                   # course identity, incl. the description
 ├── 01-intro/                     # the directory name IS the module slug
 │   ├── module.yaml                # module identity and unit list
 │   ├── README.md                  # GitHub-facing module index, not published
