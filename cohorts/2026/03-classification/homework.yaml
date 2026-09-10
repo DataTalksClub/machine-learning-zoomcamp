@@ -1,5 +1,5 @@
 schema_version: 1
-content_id: 50000000-0000-4000-8000-000000000003
+content_id: ml-zoomcamp/2026/03-classification/hw03
 slug: hw03
 title: "Homework 3: Machine Learning for Classification"
 instructions_path: homework.md
@@ -12,7 +12,7 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: 60000000-0000-4000-8000-000000000003
+  - content_id: ml-zoomcamp/2026/03-classification/hw03/reflection
     id: reflection
     type: free_form_long
     answer_type: any

@@ -1,31 +1,31 @@
 schema_version: 1
-content_id: 30000000-0000-4000-8000-000000000004
+content_id: ml-zoomcamp/2026/04-evaluation
 title: "Evaluation Metrics for Classification"
 units:
-  - content_id: 40000000-0000-4000-8000-000000000401
+  - content_id: ml-zoomcamp/2026/04-evaluation/01-overview
     title: "Evaluation metrics: session overview"
     path: 01-overview.md
-  - content_id: 40000000-0000-4000-8000-000000000402
+  - content_id: ml-zoomcamp/2026/04-evaluation/02-accuracy
     title: "Accuracy and dummy model"
     path: 02-accuracy.md
-  - content_id: 40000000-0000-4000-8000-000000000403
+  - content_id: ml-zoomcamp/2026/04-evaluation/03-confusion-table
     title: "Confusion table"
     path: 03-confusion-table.md
-  - content_id: 40000000-0000-4000-8000-000000000404
+  - content_id: ml-zoomcamp/2026/04-evaluation/04-precision-recall
     title: "Precision and Recall"
     path: 04-precision-recall.md
-  - content_id: 40000000-0000-4000-8000-000000000405
+  - content_id: ml-zoomcamp/2026/04-evaluation/05-roc
     title: "ROC Curves"
     path: 05-roc.md
-  - content_id: 40000000-0000-4000-8000-000000000406
+  - content_id: ml-zoomcamp/2026/04-evaluation/06-auc
     title: "ROC AUC"
     path: 06-auc.md
-  - content_id: 40000000-0000-4000-8000-000000000407
+  - content_id: ml-zoomcamp/2026/04-evaluation/07-cross-validation
     title: "Cross-Validation"
     path: 07-cross-validation.md
-  - content_id: 40000000-0000-4000-8000-000000000408
+  - content_id: ml-zoomcamp/2026/04-evaluation/08-summary
     title: "Summary"
     path: 08-summary.md
-  - content_id: 40000000-0000-4000-8000-000000000409
+  - content_id: ml-zoomcamp/2026/04-evaluation/09-explore-more
     title: "Explore more"
     path: 09-explore-more.md

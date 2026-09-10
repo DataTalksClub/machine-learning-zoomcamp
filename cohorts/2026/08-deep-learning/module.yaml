@@ -1,49 +1,49 @@
 schema_version: 1
-content_id: 30000000-0000-4000-8000-000000000007
+content_id: ml-zoomcamp/2026/08-deep-learning
 title: "Neural Networks and Deep Learning"
 units:
-  - content_id: 40000000-0000-4000-8000-000000000701
+  - content_id: ml-zoomcamp/2026/08-deep-learning/01-fashion-classification
     title: "Fashion classification"
     path: 01-fashion-classification.md
-  - content_id: 40000000-0000-4000-8000-000000000702
+  - content_id: ml-zoomcamp/2026/08-deep-learning/02-tensorflow-keras
     title: "TensorFlow and Keras"
     path: 02-tensorflow-keras.md
-  - content_id: 40000000-0000-4000-8000-000000000703
+  - content_id: ml-zoomcamp/2026/08-deep-learning/03-pretrained-models
     title: "Pre-trained convolutional neural networks"
     path: 03-pretrained-models.md
-  - content_id: 40000000-0000-4000-8000-000000000704
+  - content_id: ml-zoomcamp/2026/08-deep-learning/04-conv-neural-nets
     title: "Convolutional neural networks"
     path: 04-conv-neural-nets.md
-  - content_id: 40000000-0000-4000-8000-000000000705
+  - content_id: ml-zoomcamp/2026/08-deep-learning/05-transfer-learning
     title: "Transfer learning"
     path: 05-transfer-learning.md
-  - content_id: 40000000-0000-4000-8000-000000000706
+  - content_id: ml-zoomcamp/2026/08-deep-learning/06-learning-rate
     title: "Adjusting the learning rate"
     path: 06-learning-rate.md
-  - content_id: 40000000-0000-4000-8000-000000000707
+  - content_id: ml-zoomcamp/2026/08-deep-learning/07-checkpointing
     title: "Checkpointing"
     path: 07-checkpointing.md
-  - content_id: 40000000-0000-4000-8000-000000000708
+  - content_id: ml-zoomcamp/2026/08-deep-learning/08-more-layers
     title: "Adding more layers"
     path: 08-more-layers.md
-  - content_id: 40000000-0000-4000-8000-000000000709
+  - content_id: ml-zoomcamp/2026/08-deep-learning/09-dropout
     title: "Regularization and dropout"
     path: 09-dropout.md
-  - content_id: 40000000-0000-4000-8000-000000000710
+  - content_id: ml-zoomcamp/2026/08-deep-learning/10-augmentation
     title: "Data augmentation"
     path: 10-augmentation.md
-  - content_id: 40000000-0000-4000-8000-000000000711
+  - content_id: ml-zoomcamp/2026/08-deep-learning/11-large-model
     title: "Training a larger model"
     path: 11-large-model.md
-  - content_id: 40000000-0000-4000-8000-000000000712
+  - content_id: ml-zoomcamp/2026/08-deep-learning/12-using-model
     title: "Using the model"
     path: 12-using-model.md
-  - content_id: 40000000-0000-4000-8000-000000000713
+  - content_id: ml-zoomcamp/2026/08-deep-learning/13-summary
     title: "Summary"
     path: 13-summary.md
-  - content_id: 40000000-0000-4000-8000-000000000714
+  - content_id: ml-zoomcamp/2026/08-deep-learning/14-explore-more
     title: "Explore more"
     path: 14-explore-more.md
-  - content_id: 40000000-0000-4000-8000-000000000715
+  - content_id: ml-zoomcamp/2026/08-deep-learning/install
     title: "Installation of TensorFlow"
     path: install.md

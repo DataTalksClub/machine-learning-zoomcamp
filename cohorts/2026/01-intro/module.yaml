@@ -1,34 +1,34 @@
 schema_version: 1
-content_id: 30000000-0000-4000-8000-000000000001
+content_id: ml-zoomcamp/2026/01-intro
 title: "Introduction to Machine Learning"
 units:
-  - content_id: 40000000-0000-4000-8000-000000000101
+  - content_id: ml-zoomcamp/2026/01-intro/01-what-is-ml
     title: "Introduction to Machine Learning"
     path: 01-what-is-ml.md
-  - content_id: 40000000-0000-4000-8000-000000000102
+  - content_id: ml-zoomcamp/2026/01-intro/02-ml-vs-rules
     title: "ML vs Rule-Based Systems"
     path: 02-ml-vs-rules.md
-  - content_id: 40000000-0000-4000-8000-000000000103
+  - content_id: ml-zoomcamp/2026/01-intro/03-supervised-ml
     title: "Supervised Machine Learning"
     path: 03-supervised-ml.md
-  - content_id: 40000000-0000-4000-8000-000000000104
+  - content_id: ml-zoomcamp/2026/01-intro/04-crisp-dm
     title: "CRISP-DM"
     path: 04-crisp-dm.md
-  - content_id: 40000000-0000-4000-8000-000000000105
+  - content_id: ml-zoomcamp/2026/01-intro/05-model-selection
     title: "Model Selection Process"
     path: 05-model-selection.md
-  - content_id: 40000000-0000-4000-8000-000000000106
+  - content_id: ml-zoomcamp/2026/01-intro/06-environment
     title: "Setting up the Environment"
     path: 06-environment.md
-  - content_id: 40000000-0000-4000-8000-000000000107
+  - content_id: ml-zoomcamp/2026/01-intro/07-numpy
     title: "Introduction to NumPy"
     path: 07-numpy.md
-  - content_id: 40000000-0000-4000-8000-000000000108
+  - content_id: ml-zoomcamp/2026/01-intro/08-linear-algebra
     title: "Linear Algebra Refresher"
     path: 08-linear-algebra.md
-  - content_id: 40000000-0000-4000-8000-000000000109
+  - content_id: ml-zoomcamp/2026/01-intro/09-pandas
     title: "Introduction to Pandas"
     path: 09-pandas.md
-  - content_id: 40000000-0000-4000-8000-000000000110
+  - content_id: ml-zoomcamp/2026/01-intro/10-summary
     title: "Summary"
     path: 10-summary.md

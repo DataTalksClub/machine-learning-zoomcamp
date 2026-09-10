@@ -1,34 +1,34 @@
 schema_version: 1
-content_id: 30000000-0000-4000-8000-000000000009
+content_id: ml-zoomcamp/2026/10-kubernetes
 title: "Kubernetes and TensorFlow Serving"
 units:
-  - content_id: 40000000-0000-4000-8000-000000000901
+  - content_id: ml-zoomcamp/2026/10-kubernetes/01-overview
     title: "Overview"
     path: 01-overview.md
-  - content_id: 40000000-0000-4000-8000-000000000902
+  - content_id: ml-zoomcamp/2026/10-kubernetes/02-tensorflow-serving
     title: "TensorFlow Serving"
     path: 02-tensorflow-serving.md
-  - content_id: 40000000-0000-4000-8000-000000000903
+  - content_id: ml-zoomcamp/2026/10-kubernetes/03-preprocessing
     title: "Creating a pre-processing service"
     path: 03-preprocessing.md
-  - content_id: 40000000-0000-4000-8000-000000000904
+  - content_id: ml-zoomcamp/2026/10-kubernetes/04-docker-compose
     title: "Running everything locally with Docker-compose"
     path: 04-docker-compose.md
-  - content_id: 40000000-0000-4000-8000-000000000905
+  - content_id: ml-zoomcamp/2026/10-kubernetes/05-kubernetes-intro
     title: "Introduction to Kubernetes"
     path: 05-kubernetes-intro.md
-  - content_id: 40000000-0000-4000-8000-000000000906
+  - content_id: ml-zoomcamp/2026/10-kubernetes/06-kubernetes-simple-service
     title: "Deploying a simple service to Kubernetes"
     path: 06-kubernetes-simple-service.md
-  - content_id: 40000000-0000-4000-8000-000000000907
+  - content_id: ml-zoomcamp/2026/10-kubernetes/07-kubernetes-tf-serving
     title: "Deploying TensorFlow models to Kubernetes"
     path: 07-kubernetes-tf-serving.md
-  - content_id: 40000000-0000-4000-8000-000000000908
+  - content_id: ml-zoomcamp/2026/10-kubernetes/08-eks
     title: "Deploying to EKS"
     path: 08-eks.md
-  - content_id: 40000000-0000-4000-8000-000000000909
+  - content_id: ml-zoomcamp/2026/10-kubernetes/09-summary
     title: "Summary"
     path: 09-summary.md
-  - content_id: 40000000-0000-4000-8000-000000000910
+  - content_id: ml-zoomcamp/2026/10-kubernetes/10-explore-more
     title: "Explore more"
     path: 10-explore-more.md

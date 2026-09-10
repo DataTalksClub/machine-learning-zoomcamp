@@ -1,37 +1,37 @@
 schema_version: 1
-content_id: 30000000-0000-4000-8000-000000000006
+content_id: ml-zoomcamp/2026/06-trees
 title: "Decision Trees and Ensemble Learning"
 units:
-  - content_id: 40000000-0000-4000-8000-000000000601
+  - content_id: ml-zoomcamp/2026/06-trees/01-credit-risk
     title: "Credit risk scoring project"
     path: 01-credit-risk.md
-  - content_id: 40000000-0000-4000-8000-000000000602
+  - content_id: ml-zoomcamp/2026/06-trees/02-data-prep
     title: "Data cleaning and preparation"
     path: 02-data-prep.md
-  - content_id: 40000000-0000-4000-8000-000000000603
+  - content_id: ml-zoomcamp/2026/06-trees/03-decision-trees
     title: "Decision trees"
     path: 03-decision-trees.md
-  - content_id: 40000000-0000-4000-8000-000000000604
+  - content_id: ml-zoomcamp/2026/06-trees/04-decision-tree-learning
     title: "Decision tree learning algorithm"
     path: 04-decision-tree-learning.md
-  - content_id: 40000000-0000-4000-8000-000000000605
+  - content_id: ml-zoomcamp/2026/06-trees/05-decision-tree-tuning
     title: "Decision trees parameter tuning"
     path: 05-decision-tree-tuning.md
-  - content_id: 40000000-0000-4000-8000-000000000606
+  - content_id: ml-zoomcamp/2026/06-trees/06-random-forest
     title: "Ensemble learning and random forest"
     path: 06-random-forest.md
-  - content_id: 40000000-0000-4000-8000-000000000607
+  - content_id: ml-zoomcamp/2026/06-trees/07-boosting
     title: "Gradient boosting and XGBoost"
     path: 07-boosting.md
-  - content_id: 40000000-0000-4000-8000-000000000608
+  - content_id: ml-zoomcamp/2026/06-trees/08-xgb-tuning
     title: "XGBoost parameter tuning"
     path: 08-xgb-tuning.md
-  - content_id: 40000000-0000-4000-8000-000000000609
+  - content_id: ml-zoomcamp/2026/06-trees/09-final-model
     title: "Selecting the best model"
     path: 09-final-model.md
-  - content_id: 40000000-0000-4000-8000-000000000610
+  - content_id: ml-zoomcamp/2026/06-trees/10-summary
     title: "Summary"
     path: 10-summary.md
-  - content_id: 40000000-0000-4000-8000-000000000611
+  - content_id: ml-zoomcamp/2026/06-trees/11-explore-more
     title: "Explore more"
     path: 11-explore-more.md
