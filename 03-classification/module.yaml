@@ -1,46 +1,46 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/03-classification
+schema_version: 2
+content_id: 2d6d7a5d-78d5-4a2a-bd5f-16bfd1fc097a
 title: "Machine Learning for Classification"
 units:
-  - content_id: ml-zoomcamp/2026/03-classification/01-churn-project
+  - content_id: 06ea70d7-1209-44be-b570-cd2588b757de
     title: "Churn prediction project"
     path: 01-churn-project.md
-  - content_id: ml-zoomcamp/2026/03-classification/02-data-preparation
+  - content_id: b26ed5e8-7099-4f9f-b1b1-f258312d521c
     title: "Data preparation"
     path: 02-data-preparation.md
-  - content_id: ml-zoomcamp/2026/03-classification/03-validation
+  - content_id: 3c58b6a4-8f65-4af9-8f7b-1703726d0888
     title: "Setting up the validation framework"
     path: 03-validation.md
-  - content_id: ml-zoomcamp/2026/03-classification/04-eda
+  - content_id: feaded66-84ab-4389-9e1a-46bfd4ce1136
     title: "EDA"
     path: 04-eda.md
-  - content_id: ml-zoomcamp/2026/03-classification/05-risk
+  - content_id: 85880112-418f-4c84-a3b2-f7cd88d61290
     title: "Feature importance: Churn rate and risk ratio"
     path: 05-risk.md
-  - content_id: ml-zoomcamp/2026/03-classification/06-mutual-info
+  - content_id: e393d174-a0a6-4ec8-bda8-a10d4d65549e
     title: "Feature importance: Mutual information"
     path: 06-mutual-info.md
-  - content_id: ml-zoomcamp/2026/03-classification/07-correlation
+  - content_id: af50e4d4-e550-4713-9147-9f2762244872
     title: "Feature importance: Correlation"
     path: 07-correlation.md
-  - content_id: ml-zoomcamp/2026/03-classification/08-ohe
+  - content_id: 3e98c52e-1ed0-45d3-b7ba-1fd4e9dd37ce
     title: "One-hot encoding"
     path: 08-ohe.md
-  - content_id: ml-zoomcamp/2026/03-classification/09-logistic-regression
+  - content_id: fa618125-32d8-4cb2-b42b-397e636e2011
     title: "Logistic regression"
     path: 09-logistic-regression.md
-  - content_id: ml-zoomcamp/2026/03-classification/10-training-log-reg
+  - content_id: d069c02b-a5db-4122-9c3f-7bdc62be7bf4
     title: "Training logistic regression with Scikit-Learn"
     path: 10-training-log-reg.md
-  - content_id: ml-zoomcamp/2026/03-classification/11-log-reg-interpretation
+  - content_id: 50b2b711-d36e-4c79-9a59-d90639b471f6
     title: "Model interpretation"
     path: 11-log-reg-interpretation.md
-  - content_id: ml-zoomcamp/2026/03-classification/12-using-log-reg
+  - content_id: c25af52f-0dc1-4664-a3f6-831e20e5b453
     title: "Using the model"
     path: 12-using-log-reg.md
-  - content_id: ml-zoomcamp/2026/03-classification/13-summary
+  - content_id: a85286b9-ac1e-46f2-936b-1e20f855cd75
     title: "Summary"
     path: 13-summary.md
-  - content_id: ml-zoomcamp/2026/03-classification/14-explore-more
+  - content_id: 7974cf85-b204-4e4d-a9ff-80d6ae201869
     title: "Explore more"
     path: 14-explore-more.md

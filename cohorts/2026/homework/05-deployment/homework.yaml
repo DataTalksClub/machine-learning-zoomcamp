@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/05-deployment/hw05
+schema_version: 2
+content_id: 21a6d4b6-337c-4c58-88a3-0c0473ff3676
 slug: hw05
 title: "Homework 5: Deploying Machine Learning Models"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/05-deployment/hw05/reflection
+  - content_id: bd453c70-b47e-484b-b586-60c781a963d7
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

@@ -1,55 +1,55 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/02-regression
+schema_version: 2
+content_id: c388fdd8-f66e-42d2-b309-b3539fbcbfeb
 title: "Machine Learning for Regression"
 units:
-  - content_id: ml-zoomcamp/2026/02-regression/01-car-price-intro
+  - content_id: e5356fe1-9a82-4c4f-b437-c3b1b55a7ec9
     title: "Car price prediction project"
     path: 01-car-price-intro.md
-  - content_id: ml-zoomcamp/2026/02-regression/02-data-preparation
+  - content_id: da3699eb-037c-4c5d-80bb-2a009737d2d8
     title: "Data preparation"
     path: 02-data-preparation.md
-  - content_id: ml-zoomcamp/2026/02-regression/03-eda
+  - content_id: 50da7003-af7e-46ef-b489-29894b38d893
     title: "Exploratory data analysis"
     path: 03-eda.md
-  - content_id: ml-zoomcamp/2026/02-regression/04-validation-framework
+  - content_id: 49fbe8de-92d7-4520-ba6e-e1b36bc6aa3a
     title: "Setting up the validation framework"
     path: 04-validation-framework.md
-  - content_id: ml-zoomcamp/2026/02-regression/05-linear-regression-simple
+  - content_id: 4e534afd-c5f8-42f2-bdff-21f8e8293cfd
     title: "Linear regression"
     path: 05-linear-regression-simple.md
-  - content_id: ml-zoomcamp/2026/02-regression/06-linear-regression-vector
+  - content_id: c57a1a1f-933d-4373-aed8-8764de33f601
     title: "Linear regression: vector form"
     path: 06-linear-regression-vector.md
-  - content_id: ml-zoomcamp/2026/02-regression/07-linear-regression-training
+  - content_id: 9d97bd66-6bf5-4ef5-9166-20fe03ac4bfd
     title: "Training linear regression: Normal equation"
     path: 07-linear-regression-training.md
-  - content_id: ml-zoomcamp/2026/02-regression/08-baseline-model
+  - content_id: c2bb130f-673a-4bbe-8580-f05d4591e6c4
     title: "Baseline model for car price prediction project"
     path: 08-baseline-model.md
-  - content_id: ml-zoomcamp/2026/02-regression/09-rmse
+  - content_id: b4011fa9-7d6c-4e9a-ab93-11ec2c21586f
     title: "Root Mean Squared Error (RMSE)"
     path: 09-rmse.md
-  - content_id: ml-zoomcamp/2026/02-regression/10-car-price-validation
+  - content_id: eb91fc18-5662-42ce-be57-0d45c234903b
     title: "Computing RMSE on validation data"
     path: 10-car-price-validation.md
-  - content_id: ml-zoomcamp/2026/02-regression/11-feature-engineering
+  - content_id: 49210d46-e0e3-4f30-8299-a1e9d5aeeed8
     title: "Feature engineering"
     path: 11-feature-engineering.md
-  - content_id: ml-zoomcamp/2026/02-regression/12-categorical-variables
+  - content_id: 59ce28f0-62fb-4e8e-bff6-02074ffccf82
     title: "Categorical variables"
     path: 12-categorical-variables.md
-  - content_id: ml-zoomcamp/2026/02-regression/13-regularization
+  - content_id: 5c641f3c-e758-4385-babf-2d8df3cafa01
     title: "Regularization"
     path: 13-regularization.md
-  - content_id: ml-zoomcamp/2026/02-regression/14-tuning-model
+  - content_id: cea2015c-a8af-47b2-a1b6-8be3a4cd3df8
     title: "Tuning the model"
     path: 14-tuning-model.md
-  - content_id: ml-zoomcamp/2026/02-regression/15-using-model
+  - content_id: 4cde2f5d-4490-466f-b1c7-78b17fad1e71
     title: "Using the model"
     path: 15-using-model.md
-  - content_id: ml-zoomcamp/2026/02-regression/16-summary
+  - content_id: 3030c99c-ded8-4303-a729-e9a75b378fb1
     title: "Car price prediction project summary"
     path: 16-summary.md
-  - content_id: ml-zoomcamp/2026/02-regression/17-explore-more
+  - content_id: 6860382c-0e39-4435-ad4e-747825281097
     title: "Explore more"
     path: 17-explore-more.md

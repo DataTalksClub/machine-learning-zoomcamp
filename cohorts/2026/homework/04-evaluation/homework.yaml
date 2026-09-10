@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/04-evaluation/hw04
+schema_version: 2
+content_id: 447d42cd-b7fb-45b8-986b-7e9ca016252b
 slug: hw04
 title: "Homework 4: Evaluation Metrics for Classification"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/04-evaluation/hw04/reflection
+  - content_id: ae7bea27-f6df-44c9-9cc0-b268eeb687e8
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

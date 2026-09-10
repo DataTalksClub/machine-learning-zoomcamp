@@ -1,34 +1,34 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/10-kubernetes
+schema_version: 2
+content_id: d74d559b-ea58-4801-a7fc-333c61b53b20
 title: "Kubernetes and TensorFlow Serving"
 units:
-  - content_id: ml-zoomcamp/2026/10-kubernetes/01-overview
+  - content_id: 42987254-0370-4923-8e04-4118c4939eb6
     title: "Overview"
     path: 01-overview.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/02-tensorflow-serving
+  - content_id: 4fb6035a-d4bf-46f9-a724-6fe5719d2812
     title: "TensorFlow Serving"
     path: 02-tensorflow-serving.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/03-preprocessing
+  - content_id: ce400a33-cc3d-4559-bf7a-6f5836665a7c
     title: "Creating a pre-processing service"
     path: 03-preprocessing.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/04-docker-compose
+  - content_id: dda2f130-a422-4ea3-915d-cdba7368a50a
     title: "Running everything locally with Docker-compose"
     path: 04-docker-compose.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/05-kubernetes-intro
+  - content_id: 965cee9b-da42-4d94-a5c1-8292dbf39359
     title: "Introduction to Kubernetes"
     path: 05-kubernetes-intro.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/06-kubernetes-simple-service
+  - content_id: 4d787837-342e-4621-b592-57ccec0411de
     title: "Deploying a simple service to Kubernetes"
     path: 06-kubernetes-simple-service.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/07-kubernetes-tf-serving
+  - content_id: 54758c88-1827-44b8-8147-a650c330b86d
     title: "Deploying TensorFlow models to Kubernetes"
     path: 07-kubernetes-tf-serving.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/08-eks
+  - content_id: cd87df8c-4413-4dae-bf09-e61eb8093319
     title: "Deploying to EKS"
     path: 08-eks.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/09-summary
+  - content_id: 2dd76d71-0ca5-4d27-9f9b-3982358c93f3
     title: "Summary"
     path: 09-summary.md
-  - content_id: ml-zoomcamp/2026/10-kubernetes/10-explore-more
+  - content_id: e8d85c7e-9444-4967-b96c-195a22fda0b5
     title: "Explore more"
     path: 10-explore-more.md

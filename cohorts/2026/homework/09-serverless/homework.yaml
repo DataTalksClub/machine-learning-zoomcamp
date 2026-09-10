@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/09-serverless/hw09
+schema_version: 2
+content_id: 38e7e34c-9fb3-41f8-877d-5d55f64a8669
 slug: hw09
 title: "Homework 9: Serverless Deep Learning"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/09-serverless/hw09/reflection
+  - content_id: 4fdf47e6-ee5c-4720-b1e2-26b50830ade6
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

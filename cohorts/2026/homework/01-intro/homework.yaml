@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/01-intro/hw01
+schema_version: 2
+content_id: 248479ab-22f0-47a4-8c08-07a80520d881
 slug: hw01
 title: "Homework 1: Introduction to Machine Learning"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/01-intro/hw01/reflection
+  - content_id: bc64e829-2b25-4383-b75d-93b050c73153
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

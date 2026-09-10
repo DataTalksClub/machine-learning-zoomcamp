@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/08-deep-learning/hw08
+schema_version: 2
+content_id: fece53eb-f5c4-4b1c-8c98-0559d891c002
 slug: hw08
 title: "Homework 8: Neural Networks and Deep Learning"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/08-deep-learning/hw08/reflection
+  - content_id: 74a341ff-922f-45dc-b00d-e3c6bcded86e
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

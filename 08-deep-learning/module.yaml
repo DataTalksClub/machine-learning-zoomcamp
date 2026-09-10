@@ -1,49 +1,49 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/08-deep-learning
+schema_version: 2
+content_id: 48838eb8-e17a-4ec3-98aa-f4497d84bcb0
 title: "Neural Networks and Deep Learning"
 units:
-  - content_id: ml-zoomcamp/2026/08-deep-learning/01-fashion-classification
+  - content_id: da041843-777a-4c12-8225-b4127e7cf763
     title: "Fashion classification"
     path: 01-fashion-classification.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/02-tensorflow-keras
+  - content_id: 59cc06ef-6b62-4204-89a9-abb258a0b50d
     title: "TensorFlow and Keras"
     path: 02-tensorflow-keras.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/03-pretrained-models
+  - content_id: 51a5be32-9af6-47cb-a992-5045930eb7b8
     title: "Pre-trained convolutional neural networks"
     path: 03-pretrained-models.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/04-conv-neural-nets
+  - content_id: bcdc7d09-ce72-4d1a-9a2a-8ceb704180da
     title: "Convolutional neural networks"
     path: 04-conv-neural-nets.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/05-transfer-learning
+  - content_id: cd92a879-2d17-496b-8e83-dd5b254c2620
     title: "Transfer learning"
     path: 05-transfer-learning.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/06-learning-rate
+  - content_id: 3360e6a4-24bb-4695-933a-c9ffa9796643
     title: "Adjusting the learning rate"
     path: 06-learning-rate.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/07-checkpointing
+  - content_id: e659ea52-a688-4501-86b5-1fad6cb919a1
     title: "Checkpointing"
     path: 07-checkpointing.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/08-more-layers
+  - content_id: 2ad07794-69d4-48ba-a3a8-e1bab1a2691b
     title: "Adding more layers"
     path: 08-more-layers.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/09-dropout
+  - content_id: 117bb518-4fd0-46da-9241-0c38ca3b8dde
     title: "Regularization and dropout"
     path: 09-dropout.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/10-augmentation
+  - content_id: 92ef4b3f-2b2a-4a2f-8f52-deb730a74edb
     title: "Data augmentation"
     path: 10-augmentation.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/11-large-model
+  - content_id: 01303e43-d53f-4e68-a7c7-5bbf307219f7
     title: "Training a larger model"
     path: 11-large-model.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/12-using-model
+  - content_id: c38d6bcc-aa1c-4533-a85a-d966a2d2e0a5
     title: "Using the model"
     path: 12-using-model.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/13-summary
+  - content_id: 6c8b0a22-e4f1-4050-985e-328048f0ae43
     title: "Summary"
     path: 13-summary.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/14-explore-more
+  - content_id: 0e968ccb-f2e7-41d0-bf66-34131bdb71fd
     title: "Explore more"
     path: 14-explore-more.md
-  - content_id: ml-zoomcamp/2026/08-deep-learning/install
+  - content_id: 222baaf2-dff3-43ab-9145-ddeadca235fe
     title: "Installation of TensorFlow"
     path: install.md

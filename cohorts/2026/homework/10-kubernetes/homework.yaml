@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/10-kubernetes/hw10
+schema_version: 2
+content_id: a64ed73a-9a4b-4475-9378-47f05a0ae85d
 slug: hw10
 title: "Homework 10: Kubernetes and TensorFlow Serving"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/10-kubernetes/hw10/reflection
+  - content_id: fe2cb1db-8250-411e-b10f-c5f32141b71b
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

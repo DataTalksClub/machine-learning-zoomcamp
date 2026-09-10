@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/06-trees/hw06
+schema_version: 2
+content_id: 3ba0fb4f-acd5-48ad-a9f4-3853c32554d0
 slug: hw06
 title: "Homework 6: Decision Trees and Ensemble Learning"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/06-trees/hw06/reflection
+  - content_id: e0d46839-9283-4ce7-b3ad-effce18bfae8
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

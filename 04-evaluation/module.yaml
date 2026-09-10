@@ -1,31 +1,31 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/04-evaluation
+schema_version: 2
+content_id: 24f9a488-f9fd-42d8-96ec-e710ed351e6a
 title: "Evaluation Metrics for Classification"
 units:
-  - content_id: ml-zoomcamp/2026/04-evaluation/01-overview
+  - content_id: e2a29515-3d39-438e-b96b-75dd1498c6af
     title: "Evaluation metrics: session overview"
     path: 01-overview.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/02-accuracy
+  - content_id: 6535c6c2-60bc-43ef-bfa2-8f93cba9350d
     title: "Accuracy and dummy model"
     path: 02-accuracy.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/03-confusion-table
+  - content_id: 56b5a4a7-b42c-4b79-9359-a92ed749aa85
     title: "Confusion table"
     path: 03-confusion-table.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/04-precision-recall
+  - content_id: 2d038cf0-6819-4bd6-bdea-ccfe7f5635a5
     title: "Precision and Recall"
     path: 04-precision-recall.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/05-roc
+  - content_id: c37a528b-dbf2-40b3-8626-336f53fb1ce7
     title: "ROC Curves"
     path: 05-roc.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/06-auc
+  - content_id: 78b639a1-136d-45d3-bf90-f920d525da1e
     title: "ROC AUC"
     path: 06-auc.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/07-cross-validation
+  - content_id: aac69079-f843-43e5-b691-646efda949d1
     title: "Cross-Validation"
     path: 07-cross-validation.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/08-summary
+  - content_id: 76ee4ae4-9939-4cbf-8e5b-db414c587081
     title: "Summary"
     path: 08-summary.md
-  - content_id: ml-zoomcamp/2026/04-evaluation/09-explore-more
+  - content_id: d6f9dc8e-4a3e-48bd-a46f-0f1de4ca9304
     title: "Explore more"
     path: 09-explore-more.md

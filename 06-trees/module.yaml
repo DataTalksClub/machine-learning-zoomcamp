@@ -1,37 +1,37 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/06-trees
+schema_version: 2
+content_id: 72c54d50-372b-4d9c-aa66-bb3cd9c3a6f6
 title: "Decision Trees and Ensemble Learning"
 units:
-  - content_id: ml-zoomcamp/2026/06-trees/01-credit-risk
+  - content_id: 02101f38-2faf-4dca-977b-dc526c5792af
     title: "Credit risk scoring project"
     path: 01-credit-risk.md
-  - content_id: ml-zoomcamp/2026/06-trees/02-data-prep
+  - content_id: 08d6acd6-d69a-4e43-a252-0391b07de9b6
     title: "Data cleaning and preparation"
     path: 02-data-prep.md
-  - content_id: ml-zoomcamp/2026/06-trees/03-decision-trees
+  - content_id: fb49aeab-7788-429e-b9a4-11a030e84cbc
     title: "Decision trees"
     path: 03-decision-trees.md
-  - content_id: ml-zoomcamp/2026/06-trees/04-decision-tree-learning
+  - content_id: a617ed83-336c-450e-bcb0-5d6ba6741691
     title: "Decision tree learning algorithm"
     path: 04-decision-tree-learning.md
-  - content_id: ml-zoomcamp/2026/06-trees/05-decision-tree-tuning
+  - content_id: 0e57b96c-fbcf-4f34-a2d0-de38c91bcedf
     title: "Decision trees parameter tuning"
     path: 05-decision-tree-tuning.md
-  - content_id: ml-zoomcamp/2026/06-trees/06-random-forest
+  - content_id: c3a0465e-234d-4304-8dac-36c91110f783
     title: "Ensemble learning and random forest"
     path: 06-random-forest.md
-  - content_id: ml-zoomcamp/2026/06-trees/07-boosting
+  - content_id: f0ecbd4b-6a7e-4953-a45c-ffe5ede3d29d
     title: "Gradient boosting and XGBoost"
     path: 07-boosting.md
-  - content_id: ml-zoomcamp/2026/06-trees/08-xgb-tuning
+  - content_id: 4b0def46-9bc9-478d-b47c-82e1189ed5fd
     title: "XGBoost parameter tuning"
     path: 08-xgb-tuning.md
-  - content_id: ml-zoomcamp/2026/06-trees/09-final-model
+  - content_id: 09421c4c-cb0f-4faf-8422-3f22133cb754
     title: "Selecting the best model"
     path: 09-final-model.md
-  - content_id: ml-zoomcamp/2026/06-trees/10-summary
+  - content_id: 58ff4b2c-2d1e-437b-8143-d5e89dfca357
     title: "Summary"
     path: 10-summary.md
-  - content_id: ml-zoomcamp/2026/06-trees/11-explore-more
+  - content_id: 30d83698-1cec-42c8-829f-32ccb14cee83
     title: "Explore more"
     path: 11-explore-more.md

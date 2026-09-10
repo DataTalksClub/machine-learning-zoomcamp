@@ -1,34 +1,34 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/01-intro
+schema_version: 2
+content_id: 8fb72bcf-b201-49ac-8668-9292155a4abe
 title: "Introduction to Machine Learning"
 units:
-  - content_id: ml-zoomcamp/2026/01-intro/01-what-is-ml
+  - content_id: 18b8dcc4-4668-4e44-8c0d-3c095d6d90e0
     title: "Introduction to Machine Learning"
     path: 01-what-is-ml.md
-  - content_id: ml-zoomcamp/2026/01-intro/02-ml-vs-rules
+  - content_id: 5ea05b76-964e-4833-a595-b1a833dce6ca
     title: "ML vs Rule-Based Systems"
     path: 02-ml-vs-rules.md
-  - content_id: ml-zoomcamp/2026/01-intro/03-supervised-ml
+  - content_id: df5b7696-586d-449d-bc36-a94cb42c1436
     title: "Supervised Machine Learning"
     path: 03-supervised-ml.md
-  - content_id: ml-zoomcamp/2026/01-intro/04-crisp-dm
+  - content_id: 371934d3-5e36-4aca-8448-13a1893825dd
     title: "CRISP-DM"
     path: 04-crisp-dm.md
-  - content_id: ml-zoomcamp/2026/01-intro/05-model-selection
+  - content_id: a983c733-e50f-428a-9936-d32866aebd9b
     title: "Model Selection Process"
     path: 05-model-selection.md
-  - content_id: ml-zoomcamp/2026/01-intro/06-environment
+  - content_id: 7aa7206e-5219-41ec-83e4-8c5c71198494
     title: "Setting up the Environment"
     path: 06-environment.md
-  - content_id: ml-zoomcamp/2026/01-intro/07-numpy
+  - content_id: 9e0e3701-950a-4f07-b50b-eea48d36f15d
     title: "Introduction to NumPy"
     path: 07-numpy.md
-  - content_id: ml-zoomcamp/2026/01-intro/08-linear-algebra
+  - content_id: 01355fa2-4bc8-4d46-89da-988fd6d45004
     title: "Linear Algebra Refresher"
     path: 08-linear-algebra.md
-  - content_id: ml-zoomcamp/2026/01-intro/09-pandas
+  - content_id: 2a34b082-71fc-4b0f-a45b-0eb50f51d1df
     title: "Introduction to Pandas"
     path: 09-pandas.md
-  - content_id: ml-zoomcamp/2026/01-intro/10-summary
+  - content_id: 844f87df-11f5-410e-b4a7-4f303cfa81ae
     title: "Summary"
     path: 10-summary.md

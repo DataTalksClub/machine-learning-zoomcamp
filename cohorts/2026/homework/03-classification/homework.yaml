@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/03-classification/hw03
+schema_version: 2
+content_id: bda1b644-cbc1-43bd-b4cc-aee1f816ed6f
 slug: hw03
 title: "Homework 3: Machine Learning for Classification"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/03-classification/hw03/reflection
+  - content_id: 797110bc-2a7c-4b0b-ae80-ce8d164da24f
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0

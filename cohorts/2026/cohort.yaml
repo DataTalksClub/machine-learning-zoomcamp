@@ -1,40 +1,28 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026
-course: ml-zoomcamp
+schema_version: 2
+content_id: a22f0aeb-323f-458f-b892-fd13e66cbfe6
 identifier: "2026"
-legacy_slug: ml-zoomcamp-2026
-year: 2026
-title: ML Zoomcamp 2026
-description: The 2026 live delivery of Machine Learning Zoomcamp.
-format: modules
+course: ml-zoomcamp
+delivery: live
 published: true
 start_date: 2026-09-14
 end_date: 2027-01-25
-flow:
-  - module:
-      source: cohorts/2026/01-intro/module.yaml
-      homework: cohorts/2026/01-intro/homework.yaml
-  - module:
-      source: cohorts/2026/02-regression/module.yaml
-      homework: cohorts/2026/02-regression/homework.yaml
-  - module:
-      source: cohorts/2026/03-classification/module.yaml
-      homework: cohorts/2026/03-classification/homework.yaml
-  - module:
-      source: cohorts/2026/04-evaluation/module.yaml
-      homework: cohorts/2026/04-evaluation/homework.yaml
-  - module:
-      source: cohorts/2026/05-deployment/module.yaml
-      homework: cohorts/2026/05-deployment/homework.yaml
-  - module:
-      source: cohorts/2026/06-trees/module.yaml
-      homework: cohorts/2026/06-trees/homework.yaml
-  - module:
-      source: cohorts/2026/08-deep-learning/module.yaml
-      homework: cohorts/2026/08-deep-learning/homework.yaml
-  - module:
-      source: cohorts/2026/09-serverless/module.yaml
-      homework: cohorts/2026/09-serverless/homework.yaml
-  - module:
-      source: cohorts/2026/10-kubernetes/module.yaml
-      homework: cohorts/2026/10-kubernetes/homework.yaml
+curriculum: current
+homework:
+  - module: 01-intro
+    source: cohorts/2026/homework/01-intro/homework.yaml
+  - module: 02-regression
+    source: cohorts/2026/homework/02-regression/homework.yaml
+  - module: 03-classification
+    source: cohorts/2026/homework/03-classification/homework.yaml
+  - module: 04-evaluation
+    source: cohorts/2026/homework/04-evaluation/homework.yaml
+  - module: 05-deployment
+    source: cohorts/2026/homework/05-deployment/homework.yaml
+  - module: 06-trees
+    source: cohorts/2026/homework/06-trees/homework.yaml
+  - module: 08-deep-learning
+    source: cohorts/2026/homework/08-deep-learning/homework.yaml
+  - module: 09-serverless
+    source: cohorts/2026/homework/09-serverless/homework.yaml
+  - module: 10-kubernetes
+    source: cohorts/2026/homework/10-kubernetes/homework.yaml

@@ -1,5 +1,5 @@
-schema_version: 1
-content_id: ml-zoomcamp/2026/02-regression/hw02
+schema_version: 2
+content_id: 123e1d55-38a7-4a51-9024-d9d391097896
 slug: hw02
 title: "Homework 2: Machine Learning for Regression"
 instructions_path: homework.md
@@ -12,9 +12,9 @@ form:
   faq_contribution: true
   learning_in_public_cap: 7
 questions:
-  - content_id: ml-zoomcamp/2026/02-regression/hw02/reflection
+  - content_id: 1a552cb2-5991-462a-b21f-2e3261653197
     id: reflection
     type: free_form_long
     answer_type: any
-    prompt: Describe one practical idea you took from this module.
+    prompt: "Describe one practical idea you took from this module."
     points: 0
