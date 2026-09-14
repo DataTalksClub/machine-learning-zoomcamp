@@ -7,9 +7,10 @@ The cohort starts on 14 September 2026.
 * [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html)
 * [Leaderboard](https://courses.datatalks.club/ml-zoomcamp-2026/leaderboard)
 
-Homework assignments still marked `[DRAFT]` are carried over from the 2025 cohort and
-will be finalized before the module starts. The first four assignments and the
-trees assignment use the reviewed 2026 data release under `data/`.
+The 2026 homework uses reviewed, checksummed data and reference artifacts. The
+tabular assignments use the generated release under `data/`; deployment,
+deep-learning, serverless, and Kubernetes assignments include pinned runtime
+instructions and smoke-test paths.
 
 ### Deadlines
 
@@ -62,7 +63,7 @@ You need two passing projects for a certificate: midterm and one capstone, or bo
 [**5. Deploying Machine Learning Models**](../../05-deployment/)
 
 * [Module materials](../../05-deployment)
-* [Homework](homework/05-deployment/homework.md) [DRAFT]
+* [Homework](homework/05-deployment/homework.md)
 
 [**6. Decision Trees and Ensemble Learning**](../../06-trees/)
 
@@ -77,19 +78,19 @@ You need two passing projects for a certificate: midterm and one capstone, or bo
 [**8. Neural Networks and Deep Learning**](../../08-deep-learning/)
 
 * [Module materials](../../08-deep-learning)
-* [Homework](homework/08-deep-learning/homework.md) [DRAFT]
+* [Homework](homework/08-deep-learning/homework.md)
 
 
 [**9. Serverless Deep Learning**](../../09-serverless/)
 
 * [Module materials](../../09-serverless)
-* [Homework](homework/09-serverless/homework.md) [DRAFT]
+* [Homework](homework/09-serverless/homework.md)
 
 
 [**10. Kubernetes and TensorFlow Serving**](../../10-kubernetes/)
 
 * [Module materials](../../10-kubernetes)
-* [Homework](homework/10-kubernetes/homework.md) [DRAFT]
+* [Homework](homework/10-kubernetes/homework.md)
 
 
 [**Capstone Project**](projects.md#capstone-1)

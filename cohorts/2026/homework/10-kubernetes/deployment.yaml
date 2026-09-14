@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: subscription
+spec:
+  selector:
+    matchLabels:
+      app: subscription
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: subscription
+    spec:
+      containers:
+        - name: subscription
+          image: zoomcamp-model:2026-hw10
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 9696
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 9696
+            initialDelaySeconds: 2
+            periodSeconds: 5

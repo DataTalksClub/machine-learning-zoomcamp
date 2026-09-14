@@ -1,270 +1,213 @@
-## Homework 10 [DRAFT]
+## Homework 10: Kubernetes and Model Serving
 
-> [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-In this homework, we'll deploy the lead scoring model from the homework 5.
+In this homework we deploy the same lead-scoring API from Homework 5 to a
+local Kubernetes cluster created with `kind`. The 2026 release fixes the image
+tag, application port, service selector, resource requests, and HPA bounds.
+The checked-in manifests are executable starting points; there are no
+references to the 2025 directory or to a prior model.
 
-We already have a docker image for this model - we'll use it for 
-deploying the model to Kubernetes.
+## Build the 2026 image
 
-
-## Building the image
-
-Clone the course repo if you haven't:
-
-```
-git clone https://github.com/DataTalksClub/machine-learning-zoomcamp.git
-```
-
-Go to the `course-zoomcamp/cohorts/2025/05-deployment/homework` folder and 
-execute the following:
-
+From the repository root:
 
 ```bash
-docker build -f Dockerfile_full -t zoomcamp-model:3.13.10-hw10 .
+cd cohorts/2026/homework/05-deployment
+docker build -t zoomcamp-model:2026-hw10 .
+docker run --rm -p 9696:9696 zoomcamp-model:2026-hw10
 ```
 
-
-## Question 1
-
-Run it to test that it's working locally:
-
-```bash
-docker run -it --rm -p 9696:9696 zoomcamp-model:3.13.10-hw10
-```
-
-And in another terminal, execute `q6_test.py` file:
+In another terminal, verify the API:
 
 ```bash
 python q6_test.py
 ```
 
-You should see this:
+The request uses a complete 2026 lead record and the response schema is:
 
-```python
-{'conversion_probability': <value>, 'conversion': False}
+```json
+{
+  "conversion_probability": 0.0,
+  "conversion": false
+}
 ```
 
-Here `<value>` is the probability of getting a subscription. You need to choose the right one.
+The probability is deterministic for the checked-in artifact. Stop the local
+container before creating the Kubernetes service, then move to the manifest
+directory:
 
-* 0.29
-* 0.49
-* 0.69
-* 0.89
+```bash
+cd ../10-kubernetes
+```
 
-Now you can stop the container running in Docker.
+## Question 1 — local container schema
 
+Run the container and `q6_test.py`. Report `conversion_probability` rounded to
+three decimal places. The grader accepts an absolute error of `0.005`.
 
 ## Installing `kubectl` and `kind`
 
-You need to install:
+Install `kubectl` and `kind` using their official installation instructions if
+they are not already available. Record their versions in your notes. Version
+checks are setup diagnostics, not graded answers, because the client binaries
+are maintained independently of this homework.
 
-* `kubectl` - https://kubernetes.io/docs/tasks/tools/ (you might already have it - check before installing)
-* `kind` - https://kind.sigs.k8s.io/docs/user/quick-start/
+## Question 2 — environment check
 
-
-## Question 2
-
-What's the version of `kind` that you have? 
-
-Use `kind --version` to find out.
-
-
-## Creating a cluster
-
-Now let's create a cluster with `kind`:
+Run:
 
 ```bash
-kind create cluster
+kind --version
+kubectl version --client
 ```
 
-And check with `kubectl` that it was successfully created:
+Record the output. Do not submit a version-specific multiple-choice answer.
+
+## Create a cluster
+
+Use a named cluster so that the commands do not accidentally target an
+unrelated local cluster:
 
 ```bash
-kubectl cluster-info
+kind create cluster --name mlzoomcamp-2026
+kubectl cluster-info --context kind-mlzoomcamp-2026
 ```
 
+## Question 3 — Kubernetes primitives
 
-## Question 3
+What is the smallest deployable computing unit that Kubernetes creates and
+manages?
 
-What's the smallest deployable computing unit that we can create and manage 
-in Kubernetes (`kind` in our case)?
+- Node
+- Pod
+- Deployment
+- Service
 
-* Node
-* Pod
-* Deployment
-* Service
+## Question 4 — default service type
 
-
-## Question 4
-
-Now let's test if everything works. Use `kubectl` to get the list of running services.
-
-What's the `Type` of the service that is already running there?
-
-* NodePort
-* ClusterIP
-* ExternalName
-* LoadBalancer
-
-
-## Question 5
-
-To be able to use the docker image we previously created (`zoomcamp-model:3.13.10-hw10`),
-we need to register it with `kind`.
-
-What's the command we need to run for that?
-
-* `kind create cluster`
-* `kind build node-image`
-* `kind load docker-image`
-* `kubectl apply`
-
-
-## Question 6
-
-Now let's create a deployment config (e.g. `deployment.yaml`):
-
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: subscription
-spec:
-  selector:
-    matchLabels:
-      app: subscription
-  replicas: 1
-  template:
-    metadata:
-      labels:
-        app: subscription
-    spec:
-      containers:
-      - name: subscription
-        image: <Image>
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "100m"            
-          limits:
-            memory: <Memory>
-            cpu: <CPU>
-        ports:
-        - containerPort: <Port>
-```
-
-Replace `<Image>`, `<Memory>`, `<CPU>`, `<Port>` with the correct values.
-
-What is the value for `<Port>`?
-
-Apply this deployment using the appropriate command and get a list of running Pods. 
-You can see one running Pod.
-
-
-## Question 7
-
-Let's create a service for this deployment (`service.yaml`):
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: <Service name>
-spec:
-  type: LoadBalancer
-  selector:
-    app: <???>
-  ports:
-  - port: 80
-    targetPort: <PORT>
-```
-
-Fill it in. What do we need to write instead of `<???>`?
-
-Apply this config file.
-
-
-## Testing the service
-
-We can test our service locally by forwarding the port 9696 on our computer 
-to the port 80 on the service:
+List the services in the new cluster:
 
 ```bash
-kubectl port-forward service/<Service name> 9696:80
+kubectl get services --context kind-mlzoomcamp-2026
 ```
 
-Run `q6_test.py` (from the homework 5) once again to verify that everything is working. 
-You should get the same result as in Question 1.
+What is the `TYPE` of the service named `kubernetes`?
 
+- `NodePort`
+- `ClusterIP`
+- `ExternalName`
+- `LoadBalancer`
+
+This is a property of the named kind cluster's default service, not of an
+external cloud provider.
+
+## Question 5 — load the local image
+
+Kind nodes cannot automatically see images in the host Docker daemon. Load the
+exact image into the named cluster:
+
+```bash
+kind load docker-image zoomcamp-model:2026-hw10 \
+  --name mlzoomcamp-2026
+```
+
+Which command performs this operation?
+
+- `kind create cluster`
+- `kind build node-image`
+- `kind load docker-image`
+- `kubectl apply`
+
+## Question 6 — deploy the API
+
+Apply the checked-in deployment:
+
+```bash
+kubectl apply -f deployment.yaml --context kind-mlzoomcamp-2026
+kubectl rollout status deployment/subscription --context kind-mlzoomcamp-2026
+kubectl get pods --context kind-mlzoomcamp-2026
+```
+
+The deployment uses image `zoomcamp-model:2026-hw10`, listens on container port
+`9696`, and has a readiness probe on `/health`.
+
+What value is used for the container port?
+
+- `80`
+- `8080`
+- `9000`
+- `9696`
+
+## Question 7 — expose the deployment
+
+Apply the checked-in service:
+
+```bash
+kubectl apply -f service.yaml --context kind-mlzoomcamp-2026
+kubectl get service subscription --context kind-mlzoomcamp-2026
+```
+
+The service deliberately uses `ClusterIP`, which works on every kind install;
+we will access it with port forwarding rather than relying on a cloud
+`LoadBalancer` implementation.
+
+Which selector value routes traffic to the deployment?
+
+- `app: api`
+- `app: subscription`
+- `app: lead-scoring`
+- `app: zoomcamp-model`
+
+Forward the service port and run the same client:
+
+```bash
+kubectl port-forward service/subscription 9696:80 \
+  --context kind-mlzoomcamp-2026
+python ../05-deployment/q6_test.py
+```
+
+The probability should match Question 1 within `0.005`.
 
 ## Autoscaling
 
-Now we're going to use a [HorizontalPodAutoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/) 
-(HPA for short) that automatically updates a workload resource (such as our deployment), 
-with the aim of automatically scaling the workload to match demand.
-
-Use the following command to create the HPA:
+The supplied `hpa.yaml` uses the current `autoscaling/v2` API and declares a
+fixed range of one to three replicas:
 
 ```bash
-kubectl autoscale deployment subscription --name subscription-hpa --cpu-percent=20 --min=1 --max=3
+kubectl apply -f hpa.yaml --context kind-mlzoomcamp-2026
+kubectl get hpa subscription-hpa --context kind-mlzoomcamp-2026
 ```
 
-You can check the current status of the new HPA by running:
+If the CPU target is `unknown`, the cluster needs a metrics-server installation
+and the HPA cannot yet make a scaling decision. This is an infrastructure
+status, not an answer to submit.
+
+## Question 8 — HPA configuration
+
+What `maxReplicas` is declared in `hpa.yaml`?
+
+- `1`
+- `2`
+- `3`
+- `4`
+
+This checks the version-controlled configuration instead of asking how many
+replicas happened to appear during an uncontrolled load test. As an optional
+experiment, run a loop that posts requests to the forwarded service and watch
+`kubectl get hpa subscription-hpa --watch`; the observed replica count is not
+graded.
+
+## Clean up
+
+When finished:
 
 ```bash
-kubectl get hpa
+kind delete cluster --name mlzoomcamp-2026
 ```
-
-The output should be similar to the next:
-
-```bash
-NAME               REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
-subscription-hpa   Deployment/subscription   1%/20%    1         3         1          27s
-```
-
-`TARGET` column shows the average CPU consumption across all the Pods controlled by the corresponding deployment.
-Current CPU consumption is about 0% as there are no clients sending requests to the server.
-> 
->Note: In case the HPA instance doesn't run properly, try to install the latest Metrics Server release 
-> from the `components.yaml` manifest:
-> ```bash
-> kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
->```
-
-
-## Increase the load
-
-Let's see how the autoscaler reacts to increasing the load. To do this, we can slightly modify the existing
-`q6_test.py` script by putting the operator that sends the request to the subscription service into a loop.
-
-```python
-while True:
-    sleep(0.1)
-    response = requests.post(url, json=client).json()
-    print(response)
-```
-
-Now you can run this script.
-
-
-## Question 8 (optional)
-
-Run `kubectl get hpa subscription-hpa --watch` command to monitor how the autoscaler performs. 
-Within a minute or so, you should see the higher CPU load; and then - more replicas. 
-What was the maximum amount of the replicas during this test?
-
-
-* 1
-* 2
-* 3
-* 4
-
-> Note: It may take a few minutes to stabilize the number of replicas. Since the amount of load is not controlled 
-> in any way it may happen that the final number of replicas will differ from initial.
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+Submit the results here:
+<https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10>.
+
+Numeric probabilities use the tolerance
+stated above; environment versions and live HPA observations are not graded.
