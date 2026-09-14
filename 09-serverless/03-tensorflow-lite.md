@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=OzZA4mSBE0Q&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: code/tensorflow-model.ipynb
+prev_url: 02-aws-lambda.md
+next_url: 04-preparing-code.md
 ---
 # TensorFlow Lite
 

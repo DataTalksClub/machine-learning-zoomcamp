@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=mn0BcXJlRFM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 12-using-model.md
+next_url: 14-explore-more.md
 ---
 # Summary
 

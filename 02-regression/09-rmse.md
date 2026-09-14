@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 08-baseline-model.md
+next_url: 10-car-price-validation.md
 ---
 # Root Mean Squared Error (RMSE)
 

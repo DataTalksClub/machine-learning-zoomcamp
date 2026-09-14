@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=_u2YaGT6RN0&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 05-risk.md
+next_url: 07-correlation.md
 ---
 # Feature importance: Mutual information
 

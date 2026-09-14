@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=0j3XK5PsnxA&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebooks/09-pandas.ipynb
+prev_url: 08-linear-algebra.md
+next_url: 10-summary.md
 ---
 # Introduction to Pandas
 

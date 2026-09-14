@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=bu3nPiHCNLU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 07-api-gateway.md
+next_url: 09-explore-more.md
 ---
 # Summary
 

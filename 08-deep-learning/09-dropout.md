@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=74YmhVM6FTM&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 08-more-layers.md
+next_url: 10-augmentation.md
 ---
 # Regularization and dropout
 

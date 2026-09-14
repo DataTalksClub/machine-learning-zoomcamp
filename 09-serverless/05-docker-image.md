@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=y4_YQjfOsDo&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Test script
     path: code/test.py
+prev_url: 04-preparing-code.md
+next_url: 06-creating-lambda.md
 ---
 # Preparing a Docker image
 

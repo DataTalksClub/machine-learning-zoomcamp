@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=xFarGClszEM&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 06-random-forest.md
+next_url: 08-xgb-tuning.md
 ---
 # Gradient boosting and XGBoost
 

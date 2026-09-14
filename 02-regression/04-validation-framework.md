@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=ck0IfiPaQi0&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 03-eda.md
+next_url: 05-linear-regression-simple.md
 ---
 # Setting up the validation framework
 

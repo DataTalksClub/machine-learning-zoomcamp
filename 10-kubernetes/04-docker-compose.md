@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=ZhQQfpWfkKY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 03-preprocessing.md
+next_url: 05-kubernetes-intro.md
 ---
 # Running everything locally with Docker-compose
 

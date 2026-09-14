@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=qGDXEz-cr6M&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 02-tensorflow-keras.md
+next_url: 04-conv-neural-nets.md
 ---
 # Pre-trained convolutional neural networks
 

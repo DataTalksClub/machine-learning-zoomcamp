@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=vM3SqPNlStE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=12"
+prev_url: ../01-intro/10-summary.md
+next_url: 02-data-preparation.md
 ---
 # Car price prediction project
 

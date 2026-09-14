@@ -1,3 +1,7 @@
+---
+prev_url: 08-summary.md
+next_url: ../10-kubernetes/01-overview.md
+---
 # Explore more
 
 ![A packaged model branches to serverless functions on several cloud providers and can support different model types.](images/09-explore-more-01-serverless-models-imagegen.jpg)

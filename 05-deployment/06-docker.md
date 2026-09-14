@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=wAtyYZ6zvAs&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Dockerfile
     path: code/Dockerfile
+prev_url: 05-pipenv.md
+next_url: 07-aws-eb.md
 ---
 # Environment management: Docker
 

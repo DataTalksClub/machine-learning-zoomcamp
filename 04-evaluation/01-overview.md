@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=gmg5jw1bM8A&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: ../03-classification/14-explore-more.md
+next_url: 02-accuracy.md
 ---
 # Evaluation metrics: session overview
 

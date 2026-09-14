@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=BN-fnYzbdc8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 03-pretrained-models.md
+next_url: 05-transfer-learning.md
 ---
 # Convolutional neural networks
 

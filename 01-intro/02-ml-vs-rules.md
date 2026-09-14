@@ -1,5 +1,7 @@
 ---
 video_url: https://www.youtube.com/watch?v=CeukwyUdaz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=3
+prev_url: 01-what-is-ml.md
+next_url: 03-supervised-ml.md
 ---
 # ML vs Rule-Based Systems
 

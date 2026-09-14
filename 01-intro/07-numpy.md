@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebooks/07-numpy.ipynb
+prev_url: 06-environment.md
+next_url: 08-linear-algebra.md
 ---
 # Introduction to NumPy
 

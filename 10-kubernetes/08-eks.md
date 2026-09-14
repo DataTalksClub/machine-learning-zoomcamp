@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=89jxeddZtC0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 07-kubernetes-tf-serving.md
+next_url: 09-summary.md
 ---
 # Deploying to EKS
 

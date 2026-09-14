@@ -5,6 +5,8 @@ code:
     path: code/gateway.py
   - label: Protobuf helper
     path: code/proto.py
+prev_url: 02-tensorflow-serving.md
+next_url: 04-docker-compose.md
 ---
 # Creating a pre-processing service
 

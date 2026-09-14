@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=R6o_CUmoN9Q&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 01-fashion-classification.md
+next_url: 03-pretrained-models.md
 ---
 # TensorFlow and Keras
 

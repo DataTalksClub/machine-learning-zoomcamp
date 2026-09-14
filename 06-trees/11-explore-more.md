@@ -1,3 +1,7 @@
+---
+prev_url: 10-summary.md
+next_url: ../08-deep-learning/01-fashion-classification.md
+---
 
 # Explore more
 

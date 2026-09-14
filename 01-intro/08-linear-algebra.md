@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=zZyKUeOR4Gg&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebooks/08-linear-algebra.ipynb
+prev_url: 07-numpy.md
+next_url: 09-pandas.md
 ---
 # Linear Algebra Refresher
 

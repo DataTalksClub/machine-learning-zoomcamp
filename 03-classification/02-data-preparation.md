@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 01-churn-project.md
+next_url: 03-validation.md
 ---
 # Data preparation
 

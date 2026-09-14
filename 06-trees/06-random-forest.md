@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=FZhcmOfNNZE&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 05-decision-tree-tuning.md
+next_url: 07-boosting.md
 ---
 # Ensemble learning and random forest
 

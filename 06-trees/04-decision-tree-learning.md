@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=XODz6LwKY7g&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 03-decision-trees.md
+next_url: 05-decision-tree-tuning.md
 ---
 # Decision tree learning algorithm
 

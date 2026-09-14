@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=2gPmRRGz0Hc&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 05-transfer-learning.md
+next_url: 07-checkpointing.md
 ---
 # Adjusting the learning rate
 

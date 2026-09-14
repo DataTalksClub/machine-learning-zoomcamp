@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=dnBZLk53sQI&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 04-precision-recall.md
+next_url: 06-auc.md
 ---
 # ROC Curves
 

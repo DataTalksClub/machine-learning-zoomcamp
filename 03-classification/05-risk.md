@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=fzdzPLlvs40&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 04-eda.md
+next_url: 06-mutual-info.md
 ---
 # Feature importance: Churn rate and risk ratio
 

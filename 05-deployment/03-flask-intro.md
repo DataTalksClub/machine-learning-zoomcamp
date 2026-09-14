@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=W7ubna1Rfv8&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Ping app
     path: code/ping.py
+prev_url: 02-pickle.md
+next_url: 04-flask-deployment.md
 ---
 # Web services: introduction to Flask
 

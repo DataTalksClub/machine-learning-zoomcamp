@@ -1,5 +1,7 @@
 ---
 video_url: https://www.youtube.com/watch?v=agIFak9A3m8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+prev_url: ../04-evaluation/09-explore-more.md
+next_url: 02-pickle.md
 ---
 # Intro / Session overview
 

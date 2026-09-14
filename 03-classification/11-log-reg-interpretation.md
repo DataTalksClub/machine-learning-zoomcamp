@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=OUrlxnUAAEA&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 10-training-log-reg.md
+next_url: 12-using-log-reg.md
 ---
 # Model interpretation
 

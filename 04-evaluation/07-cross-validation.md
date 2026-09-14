@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=BIIZaVtUbf4&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 06-auc.md
+next_url: 08-summary.md
 ---
 # Cross-Validation
 

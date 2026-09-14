@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=_qI01YXbyro&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 15-using-model.md
+next_url: 17-explore-more.md
 ---
 # Car price prediction project summary
 

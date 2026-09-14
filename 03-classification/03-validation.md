@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=_lwz34sOnSE&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 02-data-preparation.md
+next_url: 04-eda.md
 ---
 # Setting up the validation framework
 

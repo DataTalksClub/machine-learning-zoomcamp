@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=k6k8sQ0GhPM&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 02-data-preparation.md
+next_url: 04-validation-framework.md
 ---
 # Exploratory data analysis
 

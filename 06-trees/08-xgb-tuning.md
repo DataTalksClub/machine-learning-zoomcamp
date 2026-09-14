@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=VX6ftRzYROM&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 07-boosting.md
+next_url: 09-final-model.md
 ---
 # XGBoost parameter tuning
 

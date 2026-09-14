@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=WKHylqfNmq4&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 04-conv-neural-nets.md
+next_url: 06-learning-rate.md
 ---
 # Transfer learning
 

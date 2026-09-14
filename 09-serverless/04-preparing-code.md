@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=XXBUivsHhec&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Lambda function
     path: code/lambda_function.py
+prev_url: 03-tensorflow-lite.md
+next_url: 05-docker-image.md
 ---
 # Preparing the code for Lambda
 

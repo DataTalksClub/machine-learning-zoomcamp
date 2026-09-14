@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=Dn1eTQLsOdA&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 04-validation-framework.md
+next_url: 06-linear-regression-vector.md
 ---
 # Linear regression
 

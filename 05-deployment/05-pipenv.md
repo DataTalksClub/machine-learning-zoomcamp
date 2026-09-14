@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=BMXh8JGROHM&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Pipfile
     path: code/Pipfile
+prev_url: 04-flask-deployment.md
+next_url: 06-docker.md
 ---
 # Python virtual environment: Pipenv
 

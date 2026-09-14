@@ -1,3 +1,7 @@
+---
+prev_url: 08-summary.md
+next_url: ../06-trees/01-credit-risk.md
+---
 # Explore more
 
 This unit has no video. It lists a few things you can try on your own to go

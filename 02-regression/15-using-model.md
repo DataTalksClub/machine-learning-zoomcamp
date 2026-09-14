@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=KT--uIJozes&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 14-tuning-model.md
+next_url: 16-summary.md
 ---
 # Using the model
 

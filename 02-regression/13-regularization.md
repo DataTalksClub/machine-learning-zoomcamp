@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=91ve3EJlHBc&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 12-categorical-variables.md
+next_url: 14-tuning-model.md
 ---
 # Regularization
 

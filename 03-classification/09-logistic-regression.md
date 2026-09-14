@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=7KFE2ltnBAg&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 08-ohe.md
+next_url: 10-training-log-reg.md
 ---
 # Logistic regression
 

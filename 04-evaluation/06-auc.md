@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=hvIQPAwkVZo&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 05-roc.md
+next_url: 07-cross-validation.md
 ---
 # ROC AUC
 

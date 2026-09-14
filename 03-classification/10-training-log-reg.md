@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=hae_jXe2fN0&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 09-logistic-regression.md
+next_url: 11-log-reg-interpretation.md
 ---
 # Training logistic regression with Scikit-Learn
 

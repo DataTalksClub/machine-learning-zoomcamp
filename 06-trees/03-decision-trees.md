@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=YGiQvFbSIg8&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 02-data-prep.md
+next_url: 04-decision-tree-learning.md
 ---
 # Decision trees
 

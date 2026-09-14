@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=XJaxwH50Qok&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 04-decision-tree-learning.md
+next_url: 06-random-forest.md
 ---
 # Decision trees parameter tuning
 

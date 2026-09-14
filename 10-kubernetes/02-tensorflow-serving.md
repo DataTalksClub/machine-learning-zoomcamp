@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=deXR2fThYDw&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: code/tf-serving-connect.ipynb
+prev_url: 01-overview.md
+next_url: 03-preprocessing.md
 ---
 # TensorFlow Serving
 

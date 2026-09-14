@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=bSRRrorvAZs&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 07-checkpointing.md
+next_url: 09-dropout.md
 ---
 # Adding more layers
 

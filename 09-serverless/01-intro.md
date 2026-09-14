@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=JLIVwIsU6RA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: ../08-deep-learning/14-explore-more.md
+next_url: 02-aws-lambda.md
 ---
 # Introduction to Serverless
 

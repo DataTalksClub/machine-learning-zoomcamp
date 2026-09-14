@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=UjVkpszDzgk&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 04-docker-compose.md
+next_url: 06-kubernetes-simple-service.md
 ---
 # Introduction to Kubernetes
 

@@ -1,5 +1,7 @@
 ---
 video_url: "https://www.youtube.com/watch?v=wyZ9aqQOXvs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+prev_url: 06-creating-lambda.md
+next_url: 08-summary.md
 ---
 # API Gateway: exposing the lambda function
 

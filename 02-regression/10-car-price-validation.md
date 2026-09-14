@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=rawGPXg2ofE&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 09-rmse.md
+next_url: 11-feature-engineering.md
 ---
 # Computing RMSE on validation data
 

@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=Crm_5n4mvmg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=2
+next_url: 02-ml-vs-rules.md
 ---
 # Introduction to Machine Learning
 

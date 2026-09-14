@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=cM1WHKae1wo&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 11-large-model.md
+next_url: 13-summary.md
 ---
 # Using the model
 

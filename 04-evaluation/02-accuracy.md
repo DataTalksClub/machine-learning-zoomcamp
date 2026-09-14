@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=FW_l7lB0HUI&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 01-overview.md
+next_url: 03-confusion-table.md
 ---
 # Accuracy and dummy model
 

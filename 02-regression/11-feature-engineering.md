@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=-aEShw4ftB0&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 10-car-price-validation.md
+next_url: 12-categorical-variables.md
 ---
 # Feature engineering
 

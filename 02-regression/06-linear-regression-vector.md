@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=YkyevnYyAww&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 05-linear-regression-simple.md
+next_url: 07-linear-regression-training.md
 ---
 # Linear regression: vector form
 

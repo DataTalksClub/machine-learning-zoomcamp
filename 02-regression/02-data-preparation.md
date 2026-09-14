@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=Kd74oR4QWGM&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 01-car-price-intro.md
+next_url: 03-eda.md
 ---
 # Data preparation
 

@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=_QpDGJwFjYA&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 10-augmentation.md
+next_url: 12-using-model.md
 ---
 # Training a larger model
 

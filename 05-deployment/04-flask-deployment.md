@@ -5,6 +5,8 @@ code:
     path: code/predict.py
   - label: Test script
     path: code/predict-test.py
+prev_url: 03-flask-intro.md
+next_url: 05-pipenv.md
 ---
 # Serving the churn model with Flask
 

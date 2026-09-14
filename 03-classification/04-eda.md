@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=BNF1wjBwTQA&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 03-validation.md
+next_url: 05-risk.md
 ---
 # EDA
 

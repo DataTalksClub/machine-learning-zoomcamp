@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=hx6nak-Y11g&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 06-linear-regression-vector.md
+next_url: 08-baseline-model.md
 ---
 # Training linear regression: Normal equation
 

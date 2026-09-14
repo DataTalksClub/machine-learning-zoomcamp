@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=lqdnyIVQq-M&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 08-xgb-tuning.md
+next_url: 10-summary.md
 ---
 # Selecting the best model
 

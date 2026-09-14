@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=NRpGUx0o3Ps&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 06-learning-rate.md
+next_url: 08-more-layers.md
 ---
 # Checkpointing
 

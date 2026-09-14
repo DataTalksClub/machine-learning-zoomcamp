@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=SvPpMMYtYbU&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 07-linear-regression-training.md
+next_url: 09-rmse.md
 ---
 # Baseline model for car price prediction project
 

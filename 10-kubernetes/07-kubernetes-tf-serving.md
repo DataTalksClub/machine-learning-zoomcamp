@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=6vHLMdnjO2w&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Test script
     path: code/test.py
+prev_url: 06-kubernetes-simple-service.md
+next_url: 08-eks.md
 ---
 # Deploying TensorFlow models to Kubernetes
 

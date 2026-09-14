@@ -3,6 +3,8 @@ video_url: https://www.youtube.com/watch?v=sGLAToAAMa4&list=PL3MmuxUbc_hIhxl5Ji8
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 11-feature-engineering.md
+next_url: 13-regularization.md
 ---
 # Categorical variables
 

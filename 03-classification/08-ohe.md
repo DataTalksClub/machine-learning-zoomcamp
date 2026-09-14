@@ -5,6 +5,8 @@ code:
     path: notebook.ipynb
   - label: Notebook (scaling and OneHotEncoder)
     path: notebook-scaling-ohe.ipynb
+prev_url: 07-correlation.md
+next_url: 09-logistic-regression.md
 ---
 # One-hot encoding
 

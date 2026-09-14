@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: "notebook.ipynb"
     path: "notebook.ipynb"
+prev_url: 02-accuracy.md
+next_url: 04-precision-recall.md
 ---
 # Confusion table
 

@@ -3,6 +3,8 @@ video_url: "https://www.youtube.com/watch?v=aoPfVsS3BDE&list=PL3MmuxUbc_hIhxl5Ji
 code:
   - label: Notebook
     path: notebook.ipynb
+prev_url: 09-dropout.md
+next_url: 11-large-model.md
 ---
 # Data augmentation
 
