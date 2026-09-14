@@ -142,6 +142,23 @@ computed answer appears in the corresponding Markdown options. That check
 found and corrected one stale HW1 row-count option and two HW2 options before
 this release was considered verified.
 
-[OPEN] Deployment image-size questions and stochastic deep-learning/environment
-issues remain outside this tabular data release and should be handled in a
-separate environment/artifact pass before the cohort opens.
+[FACT homework-2026-implementation] The separate environment/artifact pass is
+now implemented for HW5, HW8, HW9, and HW10. HW5 uses a checksummed model
+trained from the 2026 lead CSV, a locked Python environment, a health/predict
+API, and a pinned container. HW8 fixes the CPU framework, dataset counts, seed,
+loader workers, binary-logit/loss convention, held-out evaluation transform,
+and tolerance-based history grading. HW9 freezes the ONNX pair and image,
+aligns explicit bilinear preprocessing with HW8, and runs the same handler in a
+Lambda-compatible container. HW10 uses the 2026 HW5 image, a named kind
+cluster, ClusterIP port forwarding, checked-in manifests, and a bounded
+autoscaling/v2 HPA.
+
+[FACT homework-2026-implementation] Local API, Docker, direct Lambda, and
+Lambda-container smoke tests passed. The release and tabular homework
+validators still pass. The repository index no longer labels these four
+assignments as `[DRAFT]`.
+
+[OPEN homework-2026-implementation] `kind` and `kubectl` were unavailable in
+the verification environment, so live Kubernetes rollout and HPA behavior
+remain a clean-checkout/CI check rather than a completed local test. External
+assets should also be mirrored or tagged immutably before opening submissions.

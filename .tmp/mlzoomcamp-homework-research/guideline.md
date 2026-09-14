@@ -100,5 +100,18 @@ reports, a data card with SHA-256 hashes, and a release validator.
 [FACT mlzoomcamp-2026-data-release] HW1–HW4 and HW6 now point to the 2026
 release and state their metric, split, precision, and tie behavior. Fragile
 “choose the closest” wording was removed from those redesigned assignments;
-option sets were regenerated from the reference replay. Deployment/image-size
-and deep-learning stochastic-environment issues remain separate follow-up work.
+option sets were regenerated from the reference replay.
+
+[FACT homework-2026-implementation] HW5 now ships a lead model trained from the
+2026 CSV, a lockfile, checksummed metadata, a FastAPI health/predict interface,
+and a container smoke path. HW8 now ships a checksummed dataset manifest, CPU
+wheel pins, a deterministic reference trainer, a fixed logit/loss convention,
+and tolerance-based metrics. HW9 freezes the ONNX pair and sample image,
+explicitly shares bilinear preprocessing between local and Lambda paths, and
+tests the Lambda-compatible container. HW10 points at the 2026 image and ships
+fixed kind manifests with ClusterIP service access and an autoscaling/v2 HPA.
+
+[OPEN homework-2026-implementation] A live kind/kubectl rollout was not run in
+the implementation environment because those binaries were unavailable. The
+external assets and course forms should be rechecked from a clean public
+checkout before opening submissions.

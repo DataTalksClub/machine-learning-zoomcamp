@@ -16,7 +16,9 @@
 - [OPEN] The Slack export may omit private conversations and does not quantify how many students experienced each issue.
 - [OPEN] Raw URLs may change in the future; the measured hashes identify this analysis snapshot but do not create a public immutable release.
 - [OPEN] The generator repository was reviewed at one shallow commit and may have changed since; recommendations should be rechecked against the exact generator version selected for 2026.
-- [INFERENCE slack-export-2025-homework] The report intentionally leaves deep-learning conceptual difficulty separate from the generated-tabular-data diagnosis; those modules need their own reproducibility review.
+- [FACT homework-2026-implementation] Deep-learning and deployment concerns
+  were reviewed separately from the tabular-data diagnosis, then addressed in
+  the 2026 artifact and assessment pass.
 
 ## Implementation review
 
@@ -36,3 +38,19 @@
 - [OPEN] The generator modifications are not yet tagged in the sibling git
   repository. Before public publication, tag or vendor that exact revision and
   rerun the checksum gate from a clean checkout.
+
+## Follow-up implementation review
+
+- [FACT homework-2026-implementation] The remaining draft assignments now have
+  concrete 2026 paths instead of copied 2025 references. HW5 and HW10 share the
+  same generated lead artifact and API. HW8 and HW9 share an explicit image
+  preprocessing definition, while HW9 grades a frozen ONNX asset rather than a
+  student's stochastic export.
+- [FACT homework-2026-implementation] Deployment and Lambda builds were run
+  locally. The API and Lambda container returned the same checksummed-model
+  outputs as direct inference. The release and tabular homework validators
+  still pass after these changes.
+- [OPEN homework-2026-implementation] Live Kubernetes behavior remains
+  unverified in this environment because `kind` and `kubectl` are not installed.
+  The manifests are syntactically valid and should be smoke-tested in CI or by
+  a clean-checkout reviewer.
