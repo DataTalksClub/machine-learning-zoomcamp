@@ -1,0 +1,21 @@
+{
+  "url": "https://github.com/SVizor42/ML_Zoomcamp/releases/download/straight-curly-data/data.zip",
+  "sha256": "9e53453e3017502f22860cb08558f0cdb343e102fb61feab75960616185e7d67",
+  "archive_entries": 1009,
+  "image_files": 1002,
+  "imagefolder_files": 1001,
+  "classes": {
+    "curly": {
+      "train": 410,
+      "test": 103
+    },
+    "straight": {
+      "train": 390,
+      "test": 98
+    }
+  },
+  "class_index": {
+    "curly": 0,
+    "straight": 1
+  }
+}

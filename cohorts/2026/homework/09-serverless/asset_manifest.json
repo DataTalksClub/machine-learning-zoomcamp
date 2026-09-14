@@ -1,0 +1,21 @@
+{
+  "model": {
+    "url": "https://github.com/alexeygrigorev/large-datasets/releases/download/hairstyle/hair_classifier_v1.onnx",
+    "sha256": "2b1adcb51745b73609ac7efebf3b6199483a931ed6dfe35ab925978f4357c2d8"
+  },
+  "external_data": {
+    "url": "https://github.com/alexeygrigorev/large-datasets/releases/download/hairstyle/hair_classifier_v1.onnx.data",
+    "sha256": "6ba88582d6098a535f918d9a56ad23800f919ad7bd5aad67e5b2bb3e289e5a7e"
+  },
+  "sample_image": {
+    "url": "https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg",
+    "sha256": "6b3ae4003b5b6d54b51ee4d5fc5f183126bb1be0bf7066e5a846785fdcbfd2f5"
+  },
+  "input": {
+    "name": "input",
+    "shape": ["batch", 3, 200, 200],
+    "dtype": "float32",
+    "output_name": "output",
+    "output_semantics": "probability of straight hair"
+  }
+}

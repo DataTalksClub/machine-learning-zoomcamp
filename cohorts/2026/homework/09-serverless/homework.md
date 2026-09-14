@@ -1,203 +1,194 @@
-## Homework 9 [DRAFT]
+## Homework 9: Serverless Deep Learning
 
-> [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-In this homework, we'll deploy the Straight vs Curly Hair Type model we trained in the
-[previous homework](../08-deep-learning/homework.md).
+In this homework we package the hair classifier behind an AWS Lambda-compatible
+handler and run it locally in a Lambda container. The model and sample image
+are frozen by SHA-256 checksums. Use the provided reference ONNX model for the
+graded inference questions; do not export a different local checkpoint from a
+stochastic training run.
 
-Download the model files from here: 
+## Download the reference assets
 
-* https://github.com/alexeygrigorev/large-datasets/releases/download/hairstyle/hair_classifier_v1.onnx.data
-* https://github.com/alexeygrigorev/large-datasets/releases/download/hairstyle/hair_classifier_v1.onnx
-
-With wget:
+Run these commands in this directory:
 
 ```bash
 PREFIX="https://github.com/alexeygrigorev/large-datasets/releases/download/hairstyle"
-DATA_URL="${PREFIX}/hair_classifier_v1.onnx.data"
-MODEL_URL="${PREFIX}/hair_classifier_v1.onnx"
-wget ${DATA_URL}
-wget ${MODEL_URL}
+curl -fL -o hair_classifier_v1.onnx.data "${PREFIX}/hair_classifier_v1.onnx.data"
+curl -fL -o hair_classifier_v1.onnx "${PREFIX}/hair_classifier_v1.onnx"
+curl -fL -o sample.jpeg \
+  "https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg"
 ```
 
+Verify the files against `asset_manifest.json`:
 
-## Question 1
+```bash
+sha256sum hair_classifier_v1.onnx hair_classifier_v1.onnx.data sample.jpeg
+```
 
-To be able to use this model, we need to know the name of the input and output nodes. 
+The ONNX file and its external-data file must remain next to each other with
+these exact names. The sample image is 1024x1024 RGB JPEG. The manifest records
+all three checksums and the model graph interface.
 
-What's the name of the output:
+Install the pinned local dependencies if you want to run the handler directly:
 
-* `output`
-* `sigmoid`
-* `softmax`
-* `prediction`
+```bash
+python -m pip install -r requirements.txt
+```
 
+## Question 1 — look at the ONNX graph
 
-## Preparing the image
+Load the model with ONNX Runtime and look at `session.get_inputs()` and
+`session.get_outputs()`. What is the output node name?
 
-You'll need some code for downloading and resizing images. You can use 
-this code:
+- `output`
+- `sigmoid`
+- `softmax`
+- `prediction`
+
+The input node is `input` and has shape `(batch, 3, 200, 200)`. The output is a
+single float: the probability of the `straight` class (`straight=1`).
+
+## Image preprocessing
+
+Use the same preprocessing as the fixed deep-learning reference setup:
 
 ```python
 from io import BytesIO
 from urllib import request
 
+import numpy as np
 from PIL import Image
 
+
 def download_image(url):
-    with request.urlopen(url) as resp:
-        buffer = resp.read()
-    stream = BytesIO(buffer)
-    img = Image.open(stream)
-    return img
+    with request.urlopen(url, timeout=30) as response:
+        return Image.open(BytesIO(response.read())).convert("RGB")
 
 
-def prepare_image(img, target_size):
-    if img.mode != 'RGB':
-        img = img.convert('RGB')
-    img = img.resize(target_size, Image.NEAREST)
-    return img
+def prepare_image(image):
+    image = image.resize((200, 200), Image.Resampling.BILINEAR)
+    array = np.asarray(image, dtype=np.float32) / 255.0
+    array = (array - np.array([0.485, 0.456, 0.406], dtype=np.float32)) / np.array(
+        [0.229, 0.224, 0.225], dtype=np.float32
+    )
+    return np.transpose(array, (2, 0, 1))[None, ...]
 ```
 
-For that, you'll need to have `pillow` installed:
+The interpolation method, RGB conversion, channel order, normalization, and
+`float32` conversion are part of the interface. In 2025 the interpolation was
+left implicit in one homework and set to `NEAREST` in the next one, which made
+the first pixel and model output disagree. Here both modules explicitly use
+bilinear resizing.
+
+## Question 2 — target size
+
+What target size does `prepare_image` use?
+
+- `64x64`
+- `128x128`
+- `200x200`
+- `256x256`
+
+## Question 3 — normalized input
+
+Download `sample.jpeg`, run `prepare_image`, and report the first value of the
+R channel (`tensor[0, 0, 0, 0]`) rounded to three decimal places. The grader
+accepts an absolute error of `0.01`.
+
+## Question 4 — local ONNX inference
+
+Run the session with:
+
+```python
+import onnxruntime as ort
+
+session = ort.InferenceSession(
+    "hair_classifier_v1.onnx",
+    providers=["CPUExecutionProvider"],
+)
+output = session.run(
+    ["output"],
+    {"input": prepare_image(download_image(SAMPLE_URL))},
+)[0]
+```
+
+Report the output probability rounded to three decimal places. The grader
+accepts an absolute error of `0.02`. Because the model, image, and preprocessing
+are checksummed and CPU inference is used, this is no longer a choice between
+platform-dependent options.
+
+## Lambda handler
+
+The provided `lambda_function.py` implements the complete handler. Read it and
+test it locally with:
 
 ```bash
-pip install pillow
+python smoke_test.py
 ```
 
-## Question 2: Target size
+The handler accepts either a direct event or an API Gateway-style event. The
+request payload is:
 
-Let's download and resize this image: 
-
-https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg
-
-Based on the previous homework, what should be the target size for the image?
-
-* 64x64
-* 128x128
-* 200x200
-* 256x256
-
-
-## Question 3
-
-Now we need to turn the image into numpy array and pre-process it. 
-
-> Tip: Check the previous homework. What was the pre-processing 
-> we did there?
-
-After the pre-processing, what's the value in the first pixel, the R channel?
-
-* -10.73
-* -1.073
-* 1.073
-* 10.73
-
-
-## Question 4
-
-Now let's apply this model to this image. What's the output of the model?
-
-* 0.09
-* 0.49
-* 0.69
-* 0.89
-
-## Prepare the lambda code 
-
-Now you need to copy all the code into a separate python file. You will 
-need to use this file for the next two questions.
-
-Tip: you can test this file locally with `ipython` or Jupyter Notebook 
-by importing the file and invoking the function from this file.  
-
-
-## Docker 
-
-For the next two questions, we'll use a Docker image that we already 
-prepared. This is the Dockerfile that we used for creating the image:
-
-```docker
-FROM public.ecr.aws/lambda/python:3.13
-
-COPY hair_classifier_empty.onnx.data .
-COPY hair_classifier_empty.onnx .
+```json
+{
+  "image_url": "https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg"
+}
 ```
 
-Note that it uses Python 3.13.
+It returns HTTP status `200` and a JSON body containing
+`straight_probability` and the boolean `straight` prediction.
 
-The docker image is published to [`agrigorev/model-2025-hairstyle:v1`](https://hub.docker.com/r/agrigorev/model-2025-hairstyle).
+## Container
 
-A few notes:
+Build the Lambda-compatible image from the checked-in Dockerfile:
 
-* The image already contains a model and it's not the same model
-  as the one we used for questions 1-4.
+```bash
+docker build -t mlzoomcamp-2026-serverless .
+docker run --rm -p 9000:8080 mlzoomcamp-2026-serverless
+```
 
+Invoke it from another terminal:
 
-## Question 5
+```bash
+curl -s \
+  -XPOST 'http://localhost:9000/2015-03-31/functions/function/invocations' \
+  -H 'Content-Type: application/json' \
+  -d '{"image_url":"https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg"}'
+```
 
-Download the base image `agrigorev/model-2025-hairstyle:v1`. You can do it with [`docker pull`](https://docs.docker.com/engine/reference/commandline/pull/).
+The Dockerfile uses the AWS Lambda Python 3.13 base image, installs the
+exact runtime dependencies from `requirements-lambda.txt`, and copies the same
+checksummed ONNX pair. It does not substitute an empty or different model.
 
-So what's the size of this base image?
+## Question 5 — look at the Lambda configuration
 
-* 88 Mb
-* 208 Mb
-* 608 Mb
-* 1208 Mb
+Which runtime base image is declared in the Dockerfile?
 
-You can get this information when running `docker images` - it'll be in the "SIZE" column.
+- `public.ecr.aws/lambda/python:3.9`
+- `public.ecr.aws/lambda/python:3.11`
+- `public.ecr.aws/lambda/python:3.13`
+- `python:3.13-slim-bookworm`
 
+The local image's displayed size is intentionally not graded: it depends on
+architecture, Docker version, and cached layers.
 
-## Question 6
+## Question 6 — invoke the container
 
-Now let's extend this docker image, install all the required libraries
-and add the code for lambda.
+Inspect the JSON string in the Lambda response body and report
+`straight_probability` rounded to three decimal places. The grader accepts an
+absolute error of `0.02`. It must match Question 4 because both paths use the
+same model, image, preprocessing, and CPU execution provider.
 
-You don't need to include the model in the image. It's already included. 
-The name of the file with the model is `hair_classifier_empty.onnx` and it's 
-in the current workdir in the image (see the Dockerfile above for the 
-reference). 
-The provided model requires the same preprocessing for images regarding target size and rescaling the value range than used in homework 8.
+## Optional AWS deployment
 
-Now run the container locally.
-
-Score this image: https://habrastorage.org/webt/yf/_d/ok/yf_dokzqy3vcritme8ggnzqlvwa.jpeg
-
-What's the output from the model?
-
-* -1.0
-* -0.10
-* 0.10
-* 1.0
-
-
-## Publishing it to AWS
-
-Now you can deploy your model to AWS!
-
-* Publish your image to ECR
-* Create a lambda function in AWS, use the ECR image
-* Give it more RAM and increase the timeout 
-* Test it
-* Expose the lambda function using API Gateway
-
-This is optional and not graded.
-
+You may publish the image to ECR, create a Lambda function from it, and expose
+it through API Gateway. Use an immutable image digest when deploying. The AWS
+step is optional and not graded; the local container invocation is the
+reproducible local path.
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+Submit the results here:
+<https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09>.
 
-## Publishing to Docker hub
-
-Just for the reference, this is how we published our image to Docker hub:
-
-```bash
-docker build -t model-2025-hairstyle -f homework.dockerfile .
-docker tag model-2025-hairstyle:latest agrigorev/model-2025-hairstyle:v1
-docker push agrigorev/model-2025-hairstyle:v1
-```
-
-(You don't need to execute this code)
+Numeric answers use the precision and tolerance stated in each question. There
+numeric answers use the tolerance stated in each question.

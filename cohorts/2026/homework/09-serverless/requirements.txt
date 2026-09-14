@@ -1,0 +1,10 @@
+numpy==2.3.3
+onnxruntime==1.23.2
+Pillow==11.3.0
+coloredlogs==15.0.1
+flatbuffers==25.12.19
+humanfriendly==10.0
+packaging==26.3
+protobuf==7.36.1
+sympy==1.14.0
+mpmath==1.3.0
