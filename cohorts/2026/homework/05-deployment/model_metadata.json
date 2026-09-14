@@ -1,0 +1,28 @@
+{
+  "dataset": "course_lead_scoring_2026.csv",
+  "dataset_sha256": "2d9da196bdefd2a45aa0a17ca21c19f06a5d9d56af628be1f04bbb3531cc12e9",
+  "rows": 5000,
+  "features": [
+    "lead_source",
+    "industry",
+    "employment_status",
+    "location",
+    "number_of_courses_viewed",
+    "annual_income",
+    "interaction_count",
+    "lead_score"
+  ],
+  "target": "converted",
+  "model": "DictVectorizer + LogisticRegression(solver=liblinear, C=1.0)",
+  "random_state": 42,
+  "scikit_learn": "1.7.2",
+  "numeric_imputation": "training-set median",
+  "numeric_defaults": {
+    "number_of_courses_viewed": 2.0,
+    "annual_income": 55051.0,
+    "interaction_count": 4.0,
+    "lead_score": 0.49
+  },
+  "model_sha256": "1646bbdcd38d4f044da6b630c5b332c93a314245a8c21929011c42de51f629f1",
+  "feature_defaults_sha256": "1694f842b908fac9f53c0cc19be6d91f934befc63af23cc32fefafde69acd0cd"
+}

@@ -1,0 +1,14 @@
+[project]
+name = "mlzoomcamp-2026-deployment"
+version = "0.1.0"
+description = "Reference deployment project for ML Zoomcamp 2026"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "fastapi==0.119.1",
+    "numpy==2.3.3",
+    "scikit-learn==1.7.2",
+    "uvicorn==0.38.0",
+]
+
+[tool.uv]
+exclude-newer = "2026-09-14T23:59:59Z"

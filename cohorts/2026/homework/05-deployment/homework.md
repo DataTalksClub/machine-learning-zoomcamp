@@ -1,234 +1,185 @@
-## Homework 5 [DRAFT]
+## Homework 5: Deploying Machine Learning Models
 
-> [!NOTE]
-> This is a draft carried over from the 2025 cohort. The questions, datasets and
-> models will be updated before the module starts.
-> Note: sometimes your answer doesn't match one of the options exactly. 
-> That's fine. 
-> Select the option that's closest to your solution.
-> If it's exactly in between two options, select the higher value.
+This homework uses a frozen lead-scoring release for the 2026 cohort. The
+artifact, dataset checksum, training script, API, and container definition are
+in this directory. No prior-cohort model or generated answer set is used.
 
-We recommend using python 3.12 or 3.13 in this homework.
+The model was trained from
+[`course_lead_scoring_2026.csv`](../../data/course_lead_scoring_2026.csv) with
+the following observable features:
 
-In this homework, we're going to continue working with the lead scoring dataset. You don't need the dataset: we will provide the model for you.
+| Feature | Type | Missing-value rule |
+| --- | --- | --- |
+| `lead_source` | categorical | `NA` |
+| `industry` | categorical | `NA` |
+| `employment_status` | categorical | `NA` |
+| `location` | categorical | `NA` |
+| `number_of_courses_viewed` | integer | training-set median |
+| `annual_income` | number | training-set median |
+| `interaction_count` | integer | training-set median |
+| `lead_score` | number | training-set median |
 
+We use a `DictVectorizer` followed by
+`LogisticRegression(solver="liblinear", C=1.0)`. The training script records
+the data checksum and imputation values in `model_metadata.json`.
+`lead_score` is available before conversion and `converted` is the target.
 
-## Question 1
+## Setup
 
-* Install `uv`
-* What's the version of uv you installed?
-* Use `--version` to find out
-
-
-## Initialize an empty uv project
-
-You should create an empty folder for homework
-and do it there. 
-
-
-## Question 2
-
-* Use uv to install Scikit-Learn version 1.6.1 
-* What's the first hash for Scikit-Learn you get in the lock file?
-* Include the entire string starting with sha256:, don't include quotes
-
-
-## Models
-
-We have prepared a pipeline with a dictionary vectorizer and a model.
-
-It was trained (roughly) using this code:
-
-```python
-categorical = ['lead_source']
-numeric = ['number_of_courses_viewed', 'annual_income']
-
-df[categorical] = df[categorical].fillna('NA')
-df[numeric] = df[numeric].fillna(0)
-
-train_dict = df[categorical + numeric].to_dict(orient='records')
-
-pipeline = make_pipeline(
-    DictVectorizer(),
-    LogisticRegression(solver='liblinear')
-)
-
-pipeline.fit(train_dict, y_train)
-```
-
-> **Note**: You don't need to train the model. This code is just for your reference.
-
-And then saved with Pickle. Download it [here](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/cohorts/2025/05-deployment/homework/pipeline_v1.bin).
-
-With `wget`:
+Use Python 3.11.15 and `uv`:
 
 ```bash
-wget https://github.com/DataTalksClub/machine-learning-zoomcamp/raw/refs/heads/main/cohorts/2025/05-deployment/homework/pipeline_v1.bin
+cd cohorts/2026/homework/05-deployment
+uv sync --locked
+uv run python smoke_test.py
 ```
 
+The smoke test loads the checked-in model and verifies that inference is
+deterministic. Check the artifact before using it:
 
-## Question 3
+```bash
+sha256sum pipeline.bin
+```
 
-Let's use the model!
+It must be:
 
-* Write a script for loading the pipeline with pickle
-* Score this record:
+```text
+1646bbdcd38d4f044da6b630c5b332c93a314245a8c21929011c42de51f629f1  pipeline.bin
+```
+
+## Question 1 — environment check
+
+Run `uv --version` and record the version in your notes. This is a setup check,
+not a graded answer: your local `uv` version is not a property of the model.
+
+## Question 2 — locked dependency
+
+Open `pyproject.toml` and `uv.lock`. Which Scikit-Learn version is part of the
+2026 reference environment?
+
+- `1.6.1`
+- `1.7.2`
+- `1.8.0`
+- `2.0.0`
+
+Do not regenerate the lockfile for the graded run; use `uv sync --locked`.
+
+## Question 3 — load the model
+
+Write a Python script that loads `pipeline.bin` with `pickle` and calls
+`predict_proba` for this lead:
 
 ```json
 {
-    "lead_source": "paid_ads",
-    "number_of_courses_viewed": 2,
-    "annual_income": 79276.0
+  "lead_source": "paid_ads",
+  "industry": "technology",
+  "employment_status": "employed",
+  "location": "north_america",
+  "number_of_courses_viewed": 2,
+  "annual_income": 79276.0,
+  "interaction_count": 4,
+  "lead_score": 0.41
 }
 ```
 
-What's the probability that this lead will convert? 
+Report the probability of conversion rounded to three decimal places. The
+grader accepts an absolute error of at most `0.005`; do not choose the nearest
+answer from a list.
 
-* 0.333
-* 0.533
-* 0.733
-* 0.933
+## Question 4 — serve the model
 
-If you're getting errors when unpickling the files, check their checksum:
+Start the provided API:
 
 ```bash
-$ md5sum pipeline_v1.bin
-7d17d2e4dfbaf1e408e1a62e6e880d49 *pipeline_v1.bin
+uv run uvicorn predict:app --host 0.0.0.0 --port 9696
 ```
 
+The API has `GET /health` and `POST /predict`. Send this second lead:
 
-## Question 4
-
-Now let's serve this model as a web service
-
-* Install FastAPI
-* Write FastAPI code for serving the model
-* Now score this client using `requests`:
-
-```python
-url = "YOUR_URL"
-client = {
-    "lead_source": "organic_search",
-    "number_of_courses_viewed": 4,
-    "annual_income": 80304.0
+```json
+{
+  "lead_source": "organic_search",
+  "industry": "technology",
+  "employment_status": "employed",
+  "location": "europe",
+  "number_of_courses_viewed": 4,
+  "annual_income": 80304.0,
+  "interaction_count": 7,
+  "lead_score": 0.74
 }
-requests.post(url, json=client).json()
 ```
 
-What's the probability that this client will get a subscription?
+For example:
 
-* 0.334
-* 0.534
-* 0.734
-* 0.934
-
-
-## Docker
-
-Install [Docker](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/05-deployment/06-docker.md). 
-We will use it for the next two questions.
-
-For these questions, we prepared a base image: `agrigorev/zoomcamp-model:2025`. 
-You'll need to use it (see Question 5 for an example).
-
-This image is based on `3.13.5-slim-bookworm` and has
-a pipeline with logistic regression (a different one)
-as well a dictionary vectorizer inside. 
-
-This is how the Dockerfile for this image looks like:
-
-```docker 
-FROM python:3.13.5-slim-bookworm
-WORKDIR /code
-COPY pipeline_v2.bin .
-```
-
-We already built it and then pushed it to [`agrigorev/zoomcamp-model:2025`](https://hub.docker.com/r/agrigorev/zoomcamp-model).
-
-> **Note**: You don't need to build this docker image, it's just for your reference.
-
-
-## Question 5
-
-Download the base image `agrigorev/zoomcamp-model:2025`. You can easily make it by using [docker pull](https://docs.docker.com/engine/reference/commandline/pull/) command.
-
-So what's the size of this base image?
-
-* 45 MB
-* 121 MB
-* 245 MB
-* 330 MB
-
-You can get this information when running `docker images` - it'll be in the "SIZE" column.
-
-
-## Dockerfile
-
-Now create your own `Dockerfile` based on the image we prepared.
-
-It should start like that:
-
-```docker
-FROM agrigorev/zoomcamp-model:2025
-# add your stuff here
-```
-
-Now complete it:
-
-* Install all the dependencies from pyproject.toml
-* Copy your FastAPI script
-* Run it with uvicorn 
-
-After that, you can build your docker image.
-
-
-## Question 6
-
-Let's run your docker container!
-
-After running it, score this client once again:
-
-```python
-url = "YOUR_URL"
-client = {
+```bash
+curl -s http://localhost:9696/predict \
+  -H 'Content-Type: application/json' \
+  -d '{
     "lead_source": "organic_search",
+    "industry": "technology",
+    "employment_status": "employed",
+    "location": "europe",
     "number_of_courses_viewed": 4,
-    "annual_income": 80304.0
-}
-requests.post(url, json=client).json()
+    "annual_income": 80304.0,
+    "interaction_count": 7,
+    "lead_score": 0.74
+  }'
 ```
 
-What's the probability that this lead will convert?
+Report `conversion_probability` rounded to three decimal places. The same
+`0.005` absolute tolerance applies. The response must contain a probability in
+`[0, 1]` and a boolean `conversion` field.
 
-* 0.39
-* 0.59
-* 0.79
-* 0.99
+## Container
 
+The checked-in `Dockerfile` is the canonical 2026 container configuration. It uses
+Python `3.11.15-slim-bookworm`, `uv 0.10.11`, and the checked-in `uv.lock`.
+It copies the frozen artifact and starts the API on port `9696`.
+
+Build and run it:
+
+```bash
+docker build -t zoomcamp-model:2026-hw5 .
+docker run --rm -p 9696:9696 zoomcamp-model:2026-hw5
+```
+
+## Question 5 — look at the container configuration
+
+Which Python base-image tag is declared in the Dockerfile?
+
+- `python:3.9-slim-bullseye`
+- `python:3.11.15-slim-bookworm`
+- `python:3.12-slim-bookworm`
+- `python:3.13.10-slim-bookworm`
+
+This question checks a version-controlled declaration. The displayed size of a
+local Docker image is not graded because it varies by platform, architecture,
+Docker version, and cached layers.
+
+## Question 6 — run the container
+
+Run the same request from Question 4 against the container. You can use the
+provided smoke client:
+
+```bash
+python q6_test.py
+```
+
+Report `conversion_probability` rounded to three decimal places. The expected
+result is the same reference inference as Question 4, with the same `0.005`
+absolute tolerance. Also verify that:
+
+```bash
+curl -s http://localhost:9696/health
+```
+
+returns `{"status":"ok", ...}` and the model checksum recorded in
+`model_metadata.json`.
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05
-* If your answer doesn't match options exactly, select the closest one. If the answer is exactly in between two options, select the higher value.
+Submit the results here:
+<https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05>.
 
-
-
-## Publishing to Docker hub
-
-This is just for reference, this is how we published an image to Docker hub.
-
-`Dockerfile_base`: 
-
-```dockerfile
-FROM python:3.13.5-slim-bookworm
-WORKDIR /code
-COPY pipeline_v2.bin .
-```
-
-Publishing:
-
-```bash
-docker build -t mlzoomcamp2025_hw5 -f Dockerfile_base .
-docker tag mlzoomcamp2025_hw5:latest agrigorev/zoomcamp-model:2025
-docker push agrigorev/zoomcamp-model:2025
-```
+Submit numeric probabilities to three decimal places. The tolerance is part of
+the grading policy, so numeric answers use the stated tolerance.
