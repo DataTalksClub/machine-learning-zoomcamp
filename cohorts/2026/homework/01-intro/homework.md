@@ -119,6 +119,7 @@ DTC on social media: [LinkedIn](https://www.linkedin.com/company/datatalks-club/
 
 ### LinkedIn Template
 
+```text
 I just completed Module 1: Introduction to Machine Learning from ML Zoomcamp 2026 🎉
 
 This module covered:
@@ -142,12 +143,15 @@ This module covered:
 ➡️ Next step → Module 2: [your personal goal or excitement]
 
 #mlzoomcamp @Alexey Grigorev
+```
 
 ---
 
 ### Twitter / X Template
 
 #### Single tweet version
+
+```text
 Just wrapped up Module 1 of #mlzoomcamp 🚀
 
 Learned about:
@@ -165,8 +169,11 @@ Learned about:
 ➡️ Next up: Module 2!
 
 @Al_Grigor
+```
 
 #### Thread starter
+
+```text
 Day 1 of #mlzoomcamp ✅
 
 Module 1: Intro to ML
@@ -174,6 +181,7 @@ Module 1: Intro to ML
 Here’s what I learned 👇
 
 (then add 2–3 tweets: 💡 takeaway, 🤔 challenge, 🚀 goal for Module 2)
+```
 
 
 ## Submit the results
