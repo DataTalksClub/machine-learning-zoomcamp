@@ -104,7 +104,7 @@ Has it changed?
 
 ## Learning in Public
 
-As part of this course, we encourage you to learn in public. Sharing your progress helps you reflect, stay accountable, and connect with others.
+As part of this course, we encourage you to learn in public. Sharing your progress helps you reflect, stay accountable, and connect with others. Read the [learning in public guide](../../../../learning-in-public.md) for more examples and submission guidance. After publishing, submit the post link with your homework.
 
 Write posts on your social media about Module 1 of this course.
 

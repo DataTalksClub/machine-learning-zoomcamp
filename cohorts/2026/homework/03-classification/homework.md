@@ -118,6 +118,41 @@ Which of these `C` leads to the best accuracy on the validation set?
 
 > **Note**: If there are multiple options, select the smallest `C`.
 
+## Learning in Public
+
+Share what you learned from this homework in a short post, screenshot, or
+notebook excerpt. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
+submit the post link with your homework. Don't share credentials, private
+data, or other secrets.
+
+See the [learning in public guide](../../../../learning-in-public.md) for more
+ideas and examples.
+
+### Example post for LinkedIn
+
+```text
+🚀 Completed Module 3 of Machine Learning Zoomcamp 2026!
+
+I built a lead-scoring classifier and learned how mutual information, one-hot
+encoding, feature elimination, and regularization affect logistic regression.
+
+My repo: <LINK>
+
+#mlzoomcamp @Alexey Grigorev
+```
+
+### Example post for X
+
+```text
+Built a lead-scoring classifier in Module 3 of #mlzoomcamp.
+
+✅ Compared categorical features with mutual information
+✅ Trained logistic regression with one-hot encoding
+✅ Tested feature removal and regularization
+
+My repo: <LINK>
+```
+
 ## Submit the results
 
 - Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03

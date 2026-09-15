@@ -145,6 +145,41 @@ Which `C` leads to the best mean ROC AUC?
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
 
+## Learning in Public
+
+Share what you learned from this homework in a short post, screenshot, or
+notebook excerpt. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
+submit the post link with your homework. Don't share credentials, private
+data, or other secrets.
+
+See the [learning in public guide](../../../../learning-in-public.md) for more
+ideas and examples.
+
+### Example post for LinkedIn
+
+```text
+🚀 Completed Module 4 of Machine Learning Zoomcamp 2026!
+
+I evaluated a classifier with ROC AUC, precision, recall, and F1, then used
+cross-validation to measure score variation and tune a parameter.
+
+My repo: <LINK>
+
+#mlzoomcamp @Alexey Grigorev
+```
+
+### Example post for X
+
+```text
+Evaluated a classifier in Module 4 of #mlzoomcamp.
+
+✅ Compared ROC AUC and threshold-based metrics
+✅ Found a useful precision/recall trade-off
+✅ Used 5-fold cross-validation for tuning
+
+My repo: <LINK>
+```
+
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04

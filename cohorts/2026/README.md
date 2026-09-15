@@ -12,6 +12,13 @@ tabular assignments use the generated release under `data/`; deployment,
 deep-learning, serverless, and Kubernetes assignments include pinned runtime
 instructions and smoke-test paths.
 
+### Learning in Public
+
+Share what you learn with `#mlzoomcamp` and tag Alexey Grigorev or
+DataTalksClub. After publishing a post, submit its link with your homework on
+the course platform. See the [learning in public guide](../../learning-in-public.md)
+for examples and the submission process.
+
 ### Deadlines
 
 All deadlines are on Mondays at 23:00 UTC. Submit everything on the [course platform](https://courses.datatalks.club/ml-zoomcamp-2026/).

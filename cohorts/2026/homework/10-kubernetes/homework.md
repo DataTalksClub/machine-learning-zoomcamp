@@ -204,6 +204,42 @@ When finished:
 kind delete cluster --name mlzoomcamp-2026
 ```
 
+## Learning in Public
+
+Share what you learned from this homework in a short post, screenshot, or
+terminal recording. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
+submit the post link with your homework. Remove credentials, private data, and
+other secrets before you publish logs or configuration.
+
+See the [learning in public guide](../../../../learning-in-public.md) for more
+ideas and examples.
+
+### Example post for LinkedIn
+
+```text
+🚀 Completed Module 10 of Machine Learning Zoomcamp 2026!
+
+I deployed a lead-scoring API to Kubernetes with kind, loaded a local image,
+exposed the service with port-forwarding, and configured an HPA with explicit
+replica bounds.
+
+My repo: <LINK>
+
+#mlzoomcamp @Alexey Grigorev
+```
+
+### Example post for X
+
+```text
+Deployed an ML API to Kubernetes in Module 10 of #mlzoomcamp.
+
+✅ Loaded the image into kind
+✅ Exposed the service with port-forwarding
+✅ Configured and inspected an HPA
+
+My repo: <LINK>
+```
+
 ## Submit the results
 
 Submit the results here:

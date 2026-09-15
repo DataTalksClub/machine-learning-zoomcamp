@@ -254,6 +254,42 @@ The tolerances cover minor CPU wheel differences, while the fixed seed, loader,
 split, architecture, and inference transform prevent the large uncontrolled
 variation from the 2025 exercise.
 
+## Learning in Public
+
+Share what you learned from this homework in a short post, screenshot, or
+training-curve plot. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub,
+and submit the post link with your homework. Don't publish private images,
+credentials, or other secrets.
+
+See the [learning in public guide](../../../../learning-in-public.md) for more
+ideas and examples.
+
+### Example post for LinkedIn
+
+```text
+🚀 Completed Module 8 of Machine Learning Zoomcamp 2026!
+
+I trained an image classifier with a fixed PyTorch pipeline, recorded baseline
+metrics, and measured the effect of data augmentation on a deterministic
+evaluation set.
+
+My repo: <LINK>
+
+#mlzoomcamp @Alexey Grigorev
+```
+
+### Example post for X
+
+```text
+Trained an image classifier in Module 8 of #mlzoomcamp.
+
+✅ Fixed the seed and evaluation transform
+✅ Recorded baseline loss and accuracy
+✅ Compared training with data augmentation
+
+My repo: <LINK>
+```
+
 ## Submit the results
 
 Submit the results here:

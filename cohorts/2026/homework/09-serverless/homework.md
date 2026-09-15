@@ -185,6 +185,42 @@ it through API Gateway. Use an immutable image digest when deploying. The AWS
 step is optional and not graded; the local container invocation is the
 reproducible local path.
 
+## Learning in Public
+
+Share what you learned from this homework in a short post, screenshot, or
+terminal recording. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
+submit the post link with your homework. Remove credentials, private data, and
+other secrets before you publish logs or configuration.
+
+See the [learning in public guide](../../../../learning-in-public.md) for more
+ideas and examples.
+
+### Example post for LinkedIn
+
+```text
+🚀 Completed Module 9 of Machine Learning Zoomcamp 2026!
+
+I ran a checksummed ONNX image model locally, reproduced its preprocessing,
+wrapped it in an AWS Lambda-compatible handler, and invoked the Lambda
+container without needing a cloud account.
+
+My repo: <LINK>
+
+#mlzoomcamp @Alexey Grigorev
+```
+
+### Example post for X
+
+```text
+Ran serverless ML locally in Module 9 of #mlzoomcamp.
+
+✅ Reproduced ONNX preprocessing
+✅ Tested the Lambda-compatible handler
+✅ Invoked the container locally
+
+My repo: <LINK>
+```
+
 ## Submit the results
 
 Submit the results here:

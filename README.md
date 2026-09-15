@@ -350,9 +350,11 @@ To keep discussions useful and organized:
 
 ### Learning in Public
 
-You are encouraged to share what you learn through blog posts, videos, project updates, and social media posts using `#mlzoomcamp`.
+Share your progress through blog posts, videos, project updates, and social media posts using `#mlzoomcamp`. Tag Alexey Grigorev or DataTalksClub so other learners can find your work.
 
 Learning in public can help you clarify concepts, document your progress, receive feedback, and build a professional portfolio. During the live cohort, you can also earn additional points for sharing your learning experience.
+
+See the [learning in public guide](learning-in-public.md) for examples and the [course logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/) for the submission process.
 
 ## Sponsors
 
