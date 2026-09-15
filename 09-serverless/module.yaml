@@ -31,4 +31,4 @@ units:
     path: 09-explore-more.md
   - content_id: c411f121-48db-470d-86ad-bfec083bd4d8
     title: "Python 3.12 vs TF Lite 2.17"
-    path: updates.md
+    path: 10-updates.md

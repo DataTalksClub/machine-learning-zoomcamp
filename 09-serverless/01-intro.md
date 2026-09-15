@@ -1,6 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=JLIVwIsU6RA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
-prev_url: ../08-deep-learning/14-explore-more.md
+prev_url: ../08-deep-learning/15-install.md
 next_url: 02-aws-lambda.md
 ---
 # Introduction to Serverless
@@ -10,7 +10,7 @@ session we trained a neural network for classifying images of clothes.
 Now we take that model and deploy it as a web service using AWS Lambda
 and TensorFlow Lite.
 
-Refer to [updates.md](updates.md) for info on running TF lite in 2024.
+Refer to [updates.md](10-updates.md) for info on running TF lite in 2024.
 
 ## The use case
 

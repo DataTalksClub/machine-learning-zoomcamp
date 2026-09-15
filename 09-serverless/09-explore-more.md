@@ -1,6 +1,6 @@
 ---
 prev_url: 08-summary.md
-next_url: ../10-kubernetes/01-overview.md
+next_url: 10-updates.md
 ---
 # Explore more
 

@@ -1,3 +1,7 @@
+---
+prev_url: 09-explore-more.md
+next_url: ../10-kubernetes/01-overview.md
+---
 # Python 3.12 vs TF Lite 2.17
 
 The latest versions of TF Lite don't support Python 3.12 yet. 

@@ -46,4 +46,4 @@ units:
     path: 14-explore-more.md
   - content_id: 222baaf2-dff3-43ab-9145-ddeadca235fe
     title: "Installation of TensorFlow"
-    path: install.md
+    path: 15-install.md

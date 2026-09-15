@@ -1,3 +1,7 @@
+---
+prev_url: 14-explore-more.md
+next_url: ../09-serverless/01-intro.md
+---
 # Installation of tensorflow
 
 date: 2023 Nov 12

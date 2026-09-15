@@ -1,6 +1,6 @@
 ---
 prev_url: 13-summary.md
-next_url: ../09-serverless/01-intro.md
+next_url: 15-install.md
 ---
 # Explore more
 

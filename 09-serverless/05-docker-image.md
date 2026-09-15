@@ -187,7 +187,7 @@ AWS Lambda.
 
 ## Notes
 
-Refer to [updates.md](updates.md) for info on running TF lite
+Refer to [updates.md](10-updates.md) for info on running TF lite
 in 2024. 
 
 ### Using `pip install` for TF-Lite binaries

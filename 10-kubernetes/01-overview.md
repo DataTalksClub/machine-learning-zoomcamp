@@ -1,6 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=mvPER7YfTkw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
-prev_url: ../09-serverless/09-explore-more.md
+prev_url: ../09-serverless/10-updates.md
 next_url: 02-tensorflow-serving.md
 ---
 # Overview
