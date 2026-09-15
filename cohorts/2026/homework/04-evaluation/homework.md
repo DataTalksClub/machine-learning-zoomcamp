@@ -152,7 +152,7 @@ notebook excerpt. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
 submit the post link with your homework. Don't share credentials, private
 data, or other secrets.
 
-See the [learning in public guide](../../../../learning-in-public.md) for more
+See the [learning in public guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/) for more
 ideas and examples.
 
 ### Example post for LinkedIn

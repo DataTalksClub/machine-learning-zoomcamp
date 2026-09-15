@@ -192,7 +192,7 @@ terminal recording. Use `#mlzoomcamp`, tag Alexey Grigorev or DataTalksClub, and
 submit the post link with your homework. Remove credentials, private data, and
 other secrets before you publish logs or configuration.
 
-See the [learning in public guide](../../../../learning-in-public.md) for more
+See the [learning in public guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/) for more
 ideas and examples.
 
 ### Example post for LinkedIn

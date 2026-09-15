@@ -16,7 +16,7 @@ instructions and smoke-test paths.
 
 Share what you learn with `#mlzoomcamp` and tag Alexey Grigorev or
 DataTalksClub. After publishing a post, submit its link with your homework on
-the course platform. See the [learning in public guide](../../learning-in-public.md)
+the course platform. See the [learning in public guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/)
 for examples and the submission process.
 
 ### Deadlines

@@ -354,7 +354,7 @@ Share your progress through blog posts, videos, project updates, and social medi
 
 Learning in public can help you clarify concepts, document your progress, receive feedback, and build a professional portfolio. During the live cohort, you can also earn additional points for sharing your learning experience.
 
-See the [learning in public guide](learning-in-public.md) for examples and the [course logistics guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/) for the submission process.
+See the [learning in public guide](https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/) for examples and the submission process.
 
 ## Sponsors
 
