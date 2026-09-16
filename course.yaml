@@ -33,6 +33,8 @@ description: |
   skills used in industry. All materials stay available for self-paced study
   between cohorts.
 outcome: Build, evaluate, and deploy practical machine learning systems.
+starting_point: You have programming experience and want to move into machine learning engineering.
+prerequisites: You have at least one year of programming experience and are comfortable using the command line.
 urls:
   repository: https://github.com/DataTalksClub/machine-learning-zoomcamp
   docs: https://datatalks.club/docs/courses/ml-zoomcamp/
