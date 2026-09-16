@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 24f9a488-f9fd-42d8-96ec-e710ed351e6a
 title: "Evaluation Metrics for Classification"
+summary: "Evaluate classifiers with confusion tables, precision, recall, ROC AUC, and cross-validation."
 units:
   - content_id: e2a29515-3d39-438e-b96b-75dd1498c6af
     title: "Evaluation metrics: session overview"

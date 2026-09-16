@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 2d6d7a5d-78d5-4a2a-bd5f-16bfd1fc097a
 title: "Machine Learning for Classification"
+summary: "Build a customer-churn classifier with exploratory analysis, feature selection, and logistic regression."
 units:
   - content_id: 06ea70d7-1209-44be-b570-cd2588b757de
     title: "Churn prediction project"

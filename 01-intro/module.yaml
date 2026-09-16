@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 8fb72bcf-b201-49ac-8668-9292155a4abe
 title: "Introduction to Machine Learning"
+summary: "Frame supervised-learning problems, choose models, and set up a practical Python ML environment."
 units:
   - content_id: 18b8dcc4-4668-4e44-8c0d-3c095d6d90e0
     title: "Introduction to Machine Learning"

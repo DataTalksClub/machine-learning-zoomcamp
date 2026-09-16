@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 061dd46b-7726-44fb-8bf9-f8617c7af476
 title: "Deploying Machine Learning Models"
+summary: "Save a trained model and serve it through a Flask API in a reproducible container."
 units:
   - content_id: cd023a51-cec1-49d6-99cc-2436e0d163ca
     title: "Intro / Session overview"

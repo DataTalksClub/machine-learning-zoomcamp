@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 48838eb8-e17a-4ec3-98aa-f4497d84bcb0
 title: "Neural Networks and Deep Learning"
+summary: "Train image classifiers with TensorFlow, Keras, convolutional networks, and transfer learning."
 units:
   - content_id: da041843-777a-4c12-8225-b4127e7cf763
     title: "Fashion classification"

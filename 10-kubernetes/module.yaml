@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: d74d559b-ea58-4801-a7fc-333c61b53b20
 title: "Kubernetes and TensorFlow Serving"
+summary: "Serve a TensorFlow model with a preprocessing service, Docker Compose, and Kubernetes."
 units:
   - content_id: 42987254-0370-4923-8e04-4118c4939eb6
     title: "Overview"

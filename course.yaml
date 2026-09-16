@@ -35,6 +35,13 @@ description: |
 outcome: Build, evaluate, and deploy practical machine learning systems.
 starting_point: You have programming experience and want to move into machine learning engineering.
 prerequisites: You have at least one year of programming experience and are comfortable using the command line.
+progression:
+  - heading: I can program, but models still live in notebooks
+    description: I want to move from experimenting with data to building machine learning systems that solve real problems.
+  - heading: I turn data into evaluated models
+    description: I practice regression, classification, model selection, deep learning, and the engineering around them.
+  - heading: I deploy a practical machine learning system
+    description: I package and publish a project that takes a model beyond the notebook and into an application.
 urls:
   repository: https://github.com/DataTalksClub/machine-learning-zoomcamp
   docs: https://datatalks.club/docs/courses/ml-zoomcamp/

@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 72c54d50-372b-4d9c-aa66-bb3cd9c3a6f6
 title: "Decision Trees and Ensemble Learning"
+summary: "Model credit risk with decision trees, random forests, XGBoost, and parameter tuning."
 units:
   - content_id: 02101f38-2faf-4dca-977b-dc526c5792af
     title: "Credit risk scoring project"

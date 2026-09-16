@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: c388fdd8-f66e-42d2-b309-b3539fbcbfeb
 title: "Machine Learning for Regression"
+summary: "Prepare car-price data, train linear regression models, and evaluate them with RMSE."
 units:
   - content_id: e5356fe1-9a82-4c4f-b437-c3b1b55a7ec9
     title: "Car price prediction project"

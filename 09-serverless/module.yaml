@@ -1,6 +1,7 @@
 schema_version: 2
 content_id: 713bd48d-5d8f-40da-bed3-c9000306919e
 title: "Serverless Deep Learning"
+summary: "Prepare a TensorFlow Lite model and deploy it to AWS Lambda in a Docker image."
 units:
   - content_id: 669ae9df-307c-4513-8aeb-7d9bf8b38bc0
     title: "Introduction to Serverless"
