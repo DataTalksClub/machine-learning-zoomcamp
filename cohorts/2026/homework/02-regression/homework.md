@@ -88,14 +88,32 @@ Options:
 - Both are equally good
 
 
-### Question 4
+### Question 4.1
 
-* Now let's train a regularized linear regression.
+* Now let's train a regularized linear regression (ridge).
 * For this question, fill the NAs with 0. 
 * Try different values of `r` from this list: `[0, 0.01, 0.1, 1, 5, 10, 100]`.
 * Use RMSE to evaluate the model on the validation dataset.
 * Round the RMSE scores to 4 decimal digits. This keeps the small but real
   regularization differences visible instead of turning several choices into a tie.
+* Which `r` gives the best RMSE?
+
+If multiple options give the same best RMSE, select the smallest `r`.
+
+Options:
+
+- 0
+- 0.01
+- 0.1
+- 1
+- 5
+- 10
+- 100
+
+
+### Question 4.2
+
+* Now train a regularized linear regression (lasso) using the same parameters. 
 * Which `r` gives the best RMSE?
 
 If multiple options give the same best RMSE, select the smallest `r`.
