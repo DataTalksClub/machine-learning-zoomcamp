@@ -153,14 +153,14 @@ Let's test it:
 
 ```python
 >>> matrix_vector_multiplication(U, v)
-array([14.,  5.,  5.])
+[20. ,  6. ,  8.5]
 ```
 
 We get a one-dimensional array - a vector. And again, in NumPy we don't want to write this function every time: we use `dot` again. Because we invoke it on a two-dimensional array, NumPy knows it needs to do a matrix-vector product:
 
 ```python
 >>> U.dot(v)
-array([14,  5,  5])
+array([20. ,  6. ,  8.5])
 ```
 
 Same result.
