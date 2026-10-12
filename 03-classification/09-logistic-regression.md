@@ -145,7 +145,7 @@ model with Scikit-Learn.
 In general, supervised models can be represented with this formula: 
 
 <p align="center">
-    $\large g\left(x_{i}\right) = y_{i}$
+    $\large g\left(\mathbb{x}_{i}\right) = y_{i}$
 </p>
 
 Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of $x_i$ belonging to the positive class.  
@@ -153,12 +153,26 @@ Depending on what is the type of target variable, the supervised task can be reg
 Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula. 
 
 <p align="center">
-    $\large g\left(x_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_{2}x_{2} + ... + w_{n}x_{n}\right)$
+    $\large g\left(\mathbf{x}_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_{2}x_{2} + ... + w_{n}x_{n}\right)$
 </p>
 
 <p align="center">
     $\large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$
 </p>
 
-In this way, the sigmoid function allows transforming a score into a probability. 
+In this way, the sigmoid function allows transforming a score into a probability. Unlike linear regression, logistic regression does not minimize the mean squared error between the predicted and actual output values. Rather, it somehow minimizes the dissimilarity between them by optimizing the cross-entropy
 
+<p align="center">
+    $\large H = \frac{1}{N_{\text{s}}} \, \sum\limits_{i=1}^{N_{\text{s}}} \Big[ -y_i \, \log \left( g\left(\mathbf{x}_{i}\right) \right) - \left(1-y_i\right) \, \log \left( 1-g\left(\mathbf{x}_{i}\right) \right) \Big]$,
+
+</p>
+
+which is a more suitable measure when dealing with probabilities. Note that this quantity is zero if $g\left(\mathbf{x}_{i}\right)$ matches $y_i$ with values $0$ or $1$ for all samples. The cross-entropy is internally minimized in scikit-learn.
+
+In addition, we can prevent the algorithm from exploring large values for the weights $w_{1}, \, ..., \, w_n$, which could lead to overflow issues, and less accurate predictions. This is can be achieved by adding a regularization term to the cross-entropy, such as
+
+<p align="center">
+    $\frac{1}{C}\, \left( w_1^2 + w_2^2 + ... + w_n^2\right)$,
+</p>
+
+where $C$ is a constant which inverse determines the regularization strenght. In scikit-learn, $C=1$ by default, and can modified if required.
