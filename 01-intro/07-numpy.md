@@ -326,7 +326,7 @@ In the next lesson we quickly go through the basics of linear algebra, where we 
 
 ## Materials
 
-- [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-c-numpy.ipynb)
+- [Notebook](notebooks/07-numpy.ipynb)
 - [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
 - [NumPy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
 
