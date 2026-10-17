@@ -15,7 +15,7 @@ def make_tensor_proto(data):
     proto_dtype = dtypes_as_dtype(data.dtype)
 
     tensor_proto = tensor_pb2.TensorProto(dtype=proto_dtype, tensor_shape=proto_shape)
-    tensor_proto.tensor_content = data.tostring()
+    tensor_proto.tensor_content = data.tobytes()
 
     return tensor_proto
 
