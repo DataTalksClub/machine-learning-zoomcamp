@@ -121,10 +121,11 @@ X_test = dv.transform(dicts_test)
 ```
 
 ```python
+feature_names = dv.get_feature_names_out().tolist()
 dfulltrain = xgb.DMatrix(X_full_train, label=y_full_train,
-                    feature_names=dv.get_feature_names_out())
+                    feature_names=feature_names)
 
-dtest = xgb.DMatrix(X_test, feature_names=dv.get_feature_names_out())
+dtest = xgb.DMatrix(X_test, feature_names=feature_names)
 ```
 
 Then we train the final model and look at its AUC on the test data:
