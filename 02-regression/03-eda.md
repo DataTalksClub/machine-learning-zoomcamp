@@ -146,7 +146,7 @@ exist. If there is a zero in the data, numpy complains — it returns negative
 infinity and prints a warning:
 
 ```python
-np.log([0 + 1, 1 + 1, 10 + 1, 1000 + 1, 100000 + 1])
+np.log([0, 1, 10, 1000, 100000])
 ```
 
 ```
