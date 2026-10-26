@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Send authenticated push event
+      - name: Send minimal signed repository event
         env:
           WEBHOOK_URL: ${{ secrets.COURSE_REPOSITORY_WEBHOOK_URL }}
           WEBHOOK_SECRET: ${{ secrets.COURSE_REPOSITORY_WEBHOOK_SECRET }}
@@ -27,21 +27,53 @@ jobs:
           delivery_id="$({
             printf '%s' "${GITHUB_REPOSITORY}:${GITHUB_RUN_ID}:${GITHUB_RUN_ATTEMPT}:${GITHUB_SHA}"
           } | sha256sum | cut -d' ' -f1)"
+
+          payload_file="$(mktemp)"
+          response_body="$(mktemp)"
+          trap 'rm -f "${payload_file}" "${response_body}"' EXIT
+
+          # The platform pulls whatever it needs from the repository itself,
+          # so only identifiers are sent: forwarding the full push event
+          # exceeds the 8 KiB WAF body limit. Keep the body under 2 KiB.
+          payload_size="$({
+            PAYLOAD_FILE="${payload_file}" python3 - <<'PY'
+          import json
+          import os
+
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as event_file:
+              event = json.load(event_file)
+          repository = event.get("repository") or {}
+          minimal = {
+              "repository": {"full_name": repository.get("full_name", "")},
+              "ref": event.get("ref", ""),
+              "before": event.get("before", ""),
+              "after": event.get("after", ""),
+              "deleted": event.get("deleted", False),
+          }
+          if not minimal["ref"] or not minimal["after"]:
+              raise SystemExit("push event is missing ref/after; nothing to notify")
+          body = json.dumps(minimal, separators=(",", ":")).encode("utf-8")
+          if len(body) >= 2048:
+              raise SystemExit(f"minimal payload too large: {len(body)} bytes")
+          with open(os.environ["PAYLOAD_FILE"], "wb") as payload_file:
+              payload_file.write(body)
+          print(len(body))
+          PY
+          })"
+          echo "Webhook payload size: ${payload_size} bytes."
+
           signature="$({
-            python3 - <<'PY'
+            PAYLOAD_FILE="${payload_file}" python3 - <<'PY'
           import hashlib
           import hmac
           import os
 
-          with open(os.environ["GITHUB_EVENT_PATH"], "rb") as payload_file:
+          with open(os.environ["PAYLOAD_FILE"], "rb") as payload_file:
               payload = payload_file.read()
           secret = os.environ["WEBHOOK_SECRET"].encode("utf-8")
           print(hmac.new(secret, payload, hashlib.sha256).hexdigest())
           PY
           })"
-
-          response_body="$(mktemp)"
-          trap 'rm -f "${response_body}"' EXIT
 
           if ! http_code="$(curl \
               --retry 4 \
@@ -56,7 +88,7 @@ jobs:
               --header 'X-GitHub-Event: push' \
               --header "X-GitHub-Delivery: ${delivery_id}" \
               --header "X-Hub-Signature-256: sha256=${signature}" \
-              --data-binary "@${GITHUB_EVENT_PATH}" \
+              --data-binary "@${payload_file}" \
               --output "${response_body}" \
               --write-out '%{http_code}' \
               "${WEBHOOK_URL}")"; then
