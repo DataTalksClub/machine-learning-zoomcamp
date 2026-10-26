@@ -40,36 +40,45 @@ jobs:
           PY
           })"
 
-          if ! http_code="$({
-            curl \
-              --silent \
-              --fail \
+          response_body="$(mktemp)"
+          trap 'rm -f "${response_body}"' EXIT
+
+          if ! http_code="$(curl \
               --retry 4 \
               --retry-all-errors \
               --retry-delay 2 \
               --retry-max-time 90 \
               --connect-timeout 10 \
               --max-time 60 \
+              --show-error \
               --request POST \
               --header 'Content-Type: application/json' \
               --header 'X-GitHub-Event: push' \
               --header "X-GitHub-Delivery: ${delivery_id}" \
               --header "X-Hub-Signature-256: sha256=${signature}" \
               --data-binary "@${GITHUB_EVENT_PATH}" \
-              --output /dev/null \
+              --output "${response_body}" \
               --write-out '%{http_code}' \
-              "${WEBHOOK_URL}" 2>/dev/null
-          })"; then
-            echo "Course-platform webhook request failed." >&2
+              "${WEBHOOK_URL}")"; then
+            echo "Course-platform webhook request failed (curl error)." >&2
+            echo "HTTP status: ${http_code:-unknown}" >&2
+            echo "Response body (first 2000 bytes):" >&2
+            head -c 2000 "${response_body}" >&2 || true
+            echo "" >&2
             exit 1
           fi
+
+          echo "HTTP status: ${http_code}"
+          echo "Response body (first 2000 bytes):"
+          head -c 2000 "${response_body}" || true
+          echo ""
 
           case "${http_code}" in
             2??)
               echo "Course-platform webhook accepted (HTTP ${http_code})."
               ;;
             *)
-              echo "Course-platform webhook returned a non-success status." >&2
+              echo "Course-platform webhook returned non-2xx status HTTP ${http_code}." >&2
               exit 1
               ;;
           esac
