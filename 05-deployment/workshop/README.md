@@ -21,7 +21,7 @@ In this workshop, we will follow the same order as in the module:
 - Input validation with Pydantic (new)
 - Virtual environment management - uv (instead of Pipenv)
 - Containerization - Docker
-- Deployment with Fly.io
+- Deployment with Fly.io (instead of AWS EBS)
 
 
 ## Environment
