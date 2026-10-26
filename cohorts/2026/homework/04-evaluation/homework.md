@@ -183,4 +183,4 @@ My repo: <LINK>
 ## Submit the results
 
 * Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04
-* The numerical options are calculated from the pinned 2026 release. Use the value that matches your calculation; do not choose a merely close value.
+* The numerical options are calculated from the pinned 2026 release. If your answer doesn't match any option exactly, select the closest one. If it's exactly in between two options, select the higher value.
