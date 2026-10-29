@@ -75,7 +75,7 @@ For Q5, repeat the same block with each listed seed. For Q6, use seed `9`.
 * We need to deal with missing values for the column from Q1.
 * We have two options: fill it with 0 or with the mean of this variable.
 * Try both options. For each, train a linear regression model without regularization using the code from the lessons.
-* For computing the mean, use the training only!
+* For computing the mean, use the training set only!
 * Use the validation dataset to evaluate the models and compare the RMSE of each option.
 * Round the RMSE scores to 3 decimal digits using `round(score, 3)`. This
   keeps the imputation difference visible in this release.
