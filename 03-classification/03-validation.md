@@ -41,7 +41,7 @@ df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=
 
 Note that here we use 0.25, not 0.2. The second split gets only 80% of
 the original data, and we want the validation set to be 20% of the
-original. Since 20% of 80% is 25%, `test_size=0.25` gives us exactly
+original. Since 25% of 80% is 20%, `test_size=0.25` gives us exactly
 what we need - and that's why validation and test end up the same size:
 
 ```python
