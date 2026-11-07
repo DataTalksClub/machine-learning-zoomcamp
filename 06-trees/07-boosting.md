@@ -261,7 +261,7 @@ Be careful: this will install a version of libomp that does not work with `xgboo
 This shows in one of two ways after attempting to run `xgb.DMatrix(X_train, label=y_train, feature_names=features)`:
 
 - **python script:** Segmentation fault: 11
-- **jupyter notebook:** Never finished running, and notebook is unresponsive until kernal restart. However confusingly it sometimes works
+- **jupyter notebook:** Never finished running, and notebook is unresponsive until kernel restart. However confusingly it sometimes works
 
 #### Conda
 
