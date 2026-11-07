@@ -89,6 +89,46 @@ class - zero misclassification rate. We can compute the rates for both
 sides with `value_counts(normalize=True)` and average them, weighted by
 the group sizes:
 
+```python
+for T in Ts:
+    print(T)
+    df_left = df_example[df_example.assets <= T]
+    df_right = df_example[df_example.assets > T]
+    
+    display(df_left)
+    print(df_left.status.value_counts(normalize=True))
+    display(df_right)
+    print(df_right.status.value_counts(normalize=True))
+
+    print()
+```
+
+To visualize it in an easier way:
+
+```python
+print(f"{'T':<5}{'decision LEFT':<16}{'impurity LEFT':<16}{'decision RIGHT':<16}{'impurity RIGHT':<16}{'AVG':<5}")
+
+rows = []
+for T in Ts:
+    df_left = df_example[df_example.assets <= T]
+    df_right = df_example[df_example.assets > T]
+    
+    ok_left = (df_left.status == 'ok').mean() if len(df_left) > 0 else 0.0
+    ok_right = (df_right.status == 'ok').mean() if len(df_right) > 0 else 0.0
+    
+    dec_l = 'ok' if ok_left > 0.5 else 'default'
+    imp_l = ok_left if dec_l == 'default' else (1.0 - ok_left)
+    
+    dec_r = 'ok' if ok_right >= 0.5 else 'default'
+    imp_r = ok_right if dec_r == 'default' else (1.0 - ok_right)
+    
+    imp_l_pct = round(imp_l * 100)
+    imp_r_pct = round(imp_r * 100)
+    avg_pct = (imp_l_pct + imp_r_pct) // 2
+
+    print(f"{T:<5}{dec_l:<16}{f'{imp_l_pct}%':<16}{dec_r:<16}{f'{imp_r_pct}%':<16}{f'{avg_pct}%':<5}")
+```
+
 ```text
 T    decision LEFT   impurity LEFT   decision RIGHT  impurity RIGHT  AVG
 0    default         0%              ok              43%             21%
