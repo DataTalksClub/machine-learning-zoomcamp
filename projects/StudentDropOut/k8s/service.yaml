@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dropout-api
+spec:
+  type: ClusterIP
+  selector:
+    app: dropout-api
+  ports:
+    - port: 80
+      targetPort: 9696
