@@ -1,0 +1,11 @@
+.venv
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+.claude
+tests
+k8s
+course-instructions
+notebook.ipynb
+model.bin
+*.md
