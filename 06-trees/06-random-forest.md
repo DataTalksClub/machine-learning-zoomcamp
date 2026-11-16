@@ -241,3 +241,7 @@ In random forests, the decision trees are trained independently to each other.
 
 - `from sklearn.ensemble import RandomForestClassifier`: random forest classifier from sklearn ensemble class.
 - `plt.plot(x, y)`: draw line plot for the values of y against x values.
+
+<!-- nav:start -->
+[← Previous: Decision trees parameter tuning](05-decision-tree-tuning.md) · [Next: Gradient boosting and XGBoost →](07-boosting.md)
+<!-- nav:end -->

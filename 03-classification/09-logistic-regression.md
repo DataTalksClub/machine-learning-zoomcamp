@@ -162,3 +162,6 @@ Logistic regression is similar to linear regression because both models take int
 
 In this way, the sigmoid function allows transforming a score into a probability. 
 
+<!-- nav:start -->
+[← Previous: One-hot encoding](08-ohe.md) · [Next: Training logistic regression with Scikit-Learn →](10-training-log-reg.md)
+<!-- nav:end -->

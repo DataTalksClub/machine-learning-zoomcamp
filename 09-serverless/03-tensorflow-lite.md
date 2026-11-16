@@ -291,3 +291,7 @@ wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/downloa
 * there are size limits of cloud services and docker container
 * tensorflow lite is small in size and limited to using a model to make predictions (inference)
 * convert tensorflow keras model to a tensorflow lite model
+
+<!-- nav:start -->
+[← Previous: AWS Lambda](02-aws-lambda.md) · [Next: Preparing the code for Lambda →](04-preparing-code.md)
+<!-- nav:end -->

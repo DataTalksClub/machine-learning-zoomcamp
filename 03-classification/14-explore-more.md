@@ -25,3 +25,7 @@ Other projects
 
 * Lead scoring - https://www.kaggle.com/ashydv/leads-dataset
 * Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
+<!-- nav:start -->
+[← Previous: Summary](13-summary.md) · [Next: Evaluation metrics: session overview →](../04-evaluation/01-overview.md)
+<!-- nav:end -->

@@ -474,3 +474,7 @@ std_deviation = arr.std()  # Standard deviation
 ```
 
 In conclusion, Numpy is an essential library for anyone working with numerical data in Python. It simplifies array creation, manipulation, and mathematical operations, making it a powerful tool for scientific computing and data analysis. With the basics covered in this article, you're well on your way to harnessing Numpy's capabilities.
+
+<!-- nav:start -->
+[← Previous: Setting up the Environment](06-environment.md) · [Next: Linear Algebra Refresher →](08-linear-algebra.md)
+<!-- nav:end -->

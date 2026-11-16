@@ -192,3 +192,6 @@ Positive Correlation vs. Negative Correlation
 
 * `df[x].corrwith(y)` - returns the correlation between x and y series. This is a function from pandas.
 
+<!-- nav:start -->
+[← Previous: Feature importance: Mutual information](06-mutual-info.md) · [Next: One-hot encoding →](08-ohe.md)
+<!-- nav:end -->

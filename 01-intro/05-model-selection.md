@@ -111,3 +111,7 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 6. Compare the performance metrics of validation and test
 
 <u>NB:</u> Note that it is possible to reuse the validation data. After selecting the best model (step 4), the validation and training datasets can be combined to form a single training dataset for the chosen model before testing it on the test set.
+
+<!-- nav:start -->
+[← Previous: CRISP-DM](04-crisp-dm.md) · [Next: Setting up the Environment →](06-environment.md)
+<!-- nav:end -->

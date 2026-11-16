@@ -222,6 +222,6 @@ Where:
 
 $X^TX$ is the Gram Matrix
 
-
-
-
+<!-- nav:start -->
+[← Previous: Linear regression: vector form](06-linear-regression-vector.md) · [Next: Baseline model for car price prediction project →](08-baseline-model.md)
+<!-- nav:end -->

@@ -251,3 +251,7 @@ Note: Because we introduce dropout in the neural networks, we will need to train
 * hiding parts of the images (freeze) from being seen by the learning neural network
 * dropout = randomly freezing parts of the image
 * comparing different performance parameters while changing dropout rate and regularization
+
+<!-- nav:start -->
+[← Previous: Adding more layers](08-more-layers.md) · [Next: Data augmentation →](10-augmentation.md)
+<!-- nav:end -->

@@ -259,3 +259,7 @@ for eta in etas:
     key = f'eta={eta}'
     scores[key] = df_results
 ```
+
+<!-- nav:start -->
+[← Previous: Gradient boosting and XGBoost](07-boosting.md) · [Next: Selecting the best model →](09-final-model.md)
+<!-- nav:end -->

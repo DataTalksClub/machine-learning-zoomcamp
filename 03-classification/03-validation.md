@@ -109,3 +109,6 @@ Splitting the dataset with **Scikit-Learn**.
 * `df.x.values` - extract the values from x series
 * `del df['x']` - delete x series from a dataframe 
 
+<!-- nav:start -->
+[← Previous: Data preparation](02-data-preparation.md) · [Next: EDA →](04-eda.md)
+<!-- nav:end -->

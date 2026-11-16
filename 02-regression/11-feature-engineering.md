@@ -134,3 +134,6 @@ variables - columns like `model`, `make` and so on.
 The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
 This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
 
+<!-- nav:start -->
+[← Previous: Computing RMSE on validation data](10-car-price-validation.md) · [Next: Categorical variables →](12-categorical-variables.md)
+<!-- nav:end -->

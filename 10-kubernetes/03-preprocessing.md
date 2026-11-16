@@ -208,3 +208,7 @@ what we cover in the next lesson.
 * be aware of the library sizes: tensorflow 1.7 GB, tensorflow CPU ~400 MB, tensorflow serving
 * turn numpy array into protobuf format
 * tensorflow protobuf
+
+<!-- nav:start -->
+[← Previous: TensorFlow Serving](02-tensorflow-serving.md) · [Next: Running everything locally with Docker-compose →](04-docker-compose.md)
+<!-- nav:end -->

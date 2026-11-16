@@ -177,3 +177,7 @@ Steps for Google Colab are same as that for Kaggle, except for some changes in S
 2. To open the notebook in Google Colab, in your web browser launch paste the URL as shown in below example. (*note the https://github.com/ in the URL of the notebook is replaced by https://colab.research.google.com/github/*)
 
    https://colab.research.google.com/github/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb
+
+<!-- nav:start -->
+[← Previous: Model Selection Process](05-model-selection.md) · [Next: Introduction to NumPy →](07-numpy.md)
+<!-- nav:end -->

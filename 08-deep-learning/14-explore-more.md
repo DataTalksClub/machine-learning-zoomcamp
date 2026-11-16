@@ -20,3 +20,7 @@ next_url: 15-install.md
 - cats vs dogs
 - Hotdog vs not hotdog
 - Category of images
+
+<!-- nav:start -->
+[← Previous: Summary](13-summary.md) · [Next: Installation of tensorflow →](15-install.md)
+<!-- nav:end -->

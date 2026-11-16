@@ -249,3 +249,7 @@ The result for the picture of pants:
 'pants' clearly wins, so the model classified the image correctly.
 
 In the next lesson we turn this notebook into a pre-processing service.
+
+<!-- nav:start -->
+[← Previous: Overview](01-overview.md) · [Next: Creating a pre-processing service →](03-preprocessing.md)
+<!-- nav:end -->

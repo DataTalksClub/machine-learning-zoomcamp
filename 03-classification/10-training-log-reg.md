@@ -145,3 +145,6 @@ This video was about training a logistic regression model with Scikit-Learn, app
 * `LogisticRegression().predict[x]` - make predictions on the x dataset 
 * `LogisticRegression().predict_proba[x]` - make predictions on the x dataset by returning two columns with their probabilities for the two categories - soft predictions
 
+<!-- nav:start -->
+[← Previous: Logistic regression](09-logistic-regression.md) · [Next: Model interpretation →](11-log-reg-interpretation.md)
+<!-- nav:end -->

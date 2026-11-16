@@ -187,3 +187,7 @@ from tensorflow.keras.utils import load_img
 * encoding images as numpy arrays
 * image size (i.e. 150 x 150 pixels) multiplied by number of colors (i.e. RGB) equals shape of array
 * numpy array dtype as unsigned int8 (uint8) which includes the range from 0 to 255
+
+<!-- nav:start -->
+[← Previous: Fashion classification](01-fashion-classification.md) · [Next: Pre-trained convolutional neural networks →](03-pretrained-models.md)
+<!-- nav:end -->

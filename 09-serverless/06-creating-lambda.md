@@ -203,3 +203,7 @@ around 1,000 dollars per month for one model - a significant sum.
 We now have a working Lambda function. But we can't use it as a web
 service yet - that's what we'll do in the next lesson with API
 Gateway.
+
+<!-- nav:start -->
+[← Previous: Preparing a Docker image](05-docker-image.md) · [Next: API Gateway: exposing the lambda function →](07-api-gateway.md)
+<!-- nav:end -->

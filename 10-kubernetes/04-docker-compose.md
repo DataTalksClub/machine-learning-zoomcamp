@@ -151,3 +151,7 @@ test it by posting an image URL to `localhost:9696/predict`:
 - `docker-compose up -d`: run docker compose in detached mode
 - `docker ps`: to see the running containers
 - `docker-compose down`: stop the docker compose
+
+<!-- nav:start -->
+[← Previous: Creating a pre-processing service](03-preprocessing.md) · [Next: Introduction to Kubernetes →](05-kubernetes-intro.md)
+<!-- nav:end -->

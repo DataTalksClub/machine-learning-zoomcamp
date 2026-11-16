@@ -149,3 +149,7 @@ In the next session we will do something practical: we will actually work on a p
    Pandas is a Python library used for processing and analyzing tabular data efficiently.
 
 ---
+
+<!-- nav:start -->
+[← Previous: Introduction to Pandas](09-pandas.md) · [Next: Car price prediction project →](../02-regression/01-car-price-intro.md)
+<!-- nav:end -->

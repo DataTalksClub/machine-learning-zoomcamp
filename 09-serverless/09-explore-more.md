@@ -56,3 +56,7 @@ Instead of assembling the container and Lambda by hand, you can use the [AWS SAM
 
 6. Deploy with `sam deploy --guided` — SAM creates the ECR repository and the Lambda function for you.
  
+
+<!-- nav:start -->
+[← Previous: Summary](08-summary.md) · [Next: Python 3.12 vs TF Lite 2.17 →](10-updates.md)
+<!-- nav:end -->

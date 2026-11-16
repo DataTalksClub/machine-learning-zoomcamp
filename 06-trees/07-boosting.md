@@ -302,3 +302,7 @@ brew list --version libomp
 ```
 
 to check that everything worked, it should now state `libomp 11.1.0`, and your code should now be able to run.
+
+<!-- nav:start -->
+[← Previous: Ensemble learning and random forest](06-random-forest.md) · [Next: XGBoost parameter tuning →](08-xgb-tuning.md)
+<!-- nav:end -->

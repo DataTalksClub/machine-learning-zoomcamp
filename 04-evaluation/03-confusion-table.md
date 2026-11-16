@@ -146,3 +146,7 @@ The **accuracy** corresponds to the sum of TN and TP divided by the total of obs
 </table>
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/10/04/ml-zoomcamp-2023-evaluation-metrics-for-classification-part-3/)
+
+<!-- nav:start -->
+[← Previous: Accuracy and dummy model](02-accuracy.md) · [Next: Precision and Recall →](04-precision-recall.md)
+<!-- nav:end -->

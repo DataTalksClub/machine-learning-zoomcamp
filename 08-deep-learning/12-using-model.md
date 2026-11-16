@@ -195,3 +195,7 @@ The model performance can be evaluated on test data with `model.evaluate(test_ds
 - `keras.models.load_model()`: method to load saved model
 - `model.evaluate()`: method to evaluate the performance of the model based on the evaluation metrics
 - `model.predict()`: method to make predictions of output depending on the input
+
+<!-- nav:start -->
+[← Previous: Training a larger model](11-large-model.md) · [Next: Summary →](13-summary.md)
+<!-- nav:end -->

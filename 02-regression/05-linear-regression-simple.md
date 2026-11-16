@@ -206,3 +206,6 @@ If we look at the $\displaystyle\sum_{j=1}^{n} w_j \cdot x_{ij}$ part in the abo
 
 We need to assure that the result is shown on the untransformed scale by using the inverse function `exp()`. 
 
+<!-- nav:start -->
+[← Previous: Setting up the validation framework](04-validation-framework.md) · [Next: Linear regression: vector form →](06-linear-regression-vector.md)
+<!-- nav:end -->

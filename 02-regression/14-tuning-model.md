@@ -81,3 +81,6 @@ what we will do in the [next unit](15-using-model.md).
 
 Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value. 
 
+<!-- nav:start -->
+[← Previous: Regularization](13-regularization.md) · [Next: Using the model →](15-using-model.md)
+<!-- nav:end -->

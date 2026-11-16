@@ -74,3 +74,7 @@ is and how it's different from other approaches.
 In the last session, we built and trained a clothes classification deep learning model using `Keras` and `TensorFlow`. This session focuses on deploying it. The model categorizes images of clothing items (e.g., 👕 t-shirts, 👖 pants, etc.) uploaded by users on a website. Deployment will be done using **AWS Lambda**, a serverless solution to execute code without managing servers, and instead of `TensorFlow`, we will use `TensorFlow-lite`.
 
 * introduction to the topic of the week: deploying a deep learning model to the cloud, aws lambda and tensorflow lite
+
+<!-- nav:start -->
+[← Previous: Installation of tensorflow](../08-deep-learning/15-install.md) · [Next: AWS Lambda →](02-aws-lambda.md)
+<!-- nav:end -->

@@ -160,3 +160,7 @@ Before uploading anything to Lambda, we want to package everything in
 a Docker container and make sure the container has TensorFlow Lite,
 keras-image-helper, NumPy and so on. That's what we'll do in the next
 lesson: create the Dockerfile and test it locally.
+
+<!-- nav:start -->
+[← Previous: TensorFlow Lite](03-tensorflow-lite.md) · [Next: Preparing a Docker image →](05-docker-image.md)
+<!-- nav:end -->

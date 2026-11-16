@@ -260,3 +260,6 @@ before training a model we need to make sure we can validate it — see
 
 Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible. 
 
+<!-- nav:start -->
+[← Previous: Data preparation](02-data-preparation.md) · [Next: Setting up the validation framework →](04-validation-framework.md)
+<!-- nav:end -->

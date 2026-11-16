@@ -150,3 +150,7 @@ the next lesson we deploy a simple application to a Kubernetes cluster.
 * HPA horizontal pod autoscaler = allocating resources depending on demand
 * Ingress
 * kubernetes configuration
+
+<!-- nav:start -->
+[← Previous: Running everything locally with Docker-compose](04-docker-compose.md) · [Next: Deploying a simple service to Kubernetes →](06-kubernetes-simple-service.md)
+<!-- nav:end -->

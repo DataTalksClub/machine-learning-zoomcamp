@@ -218,3 +218,7 @@ In this session, we talked about implementing the functionality of prediction to
    -  to run the waitress wgsi server use the command ```waitress-serve --listen=0.0.0.0:9696 churn:app```.
    -  To test it, you can run the code above and the result will be the same.
  - So until here you were able to make a production server that predicts the churn value for new customers. In the next session, we can see how to solve library version conflicts in each machine and manage dependencies for production environments.
+
+<!-- nav:start -->
+[← Previous: Web services: introduction to Flask](03-flask-intro.md) · [Next: Python virtual environment: Pipenv →](05-pipenv.md)
+<!-- nav:end -->

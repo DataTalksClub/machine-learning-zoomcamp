@@ -108,3 +108,7 @@ Flask.
     ## Note: never open a binary file you do not trust the source!
     ```
    - With unpacking the model and the dict_vectorizer, We're able to predict again for new input values without training a new model by re-running the code.
+
+<!-- nav:start -->
+[← Previous: Intro / Session overview](01-intro.md) · [Next: Web services: introduction to Flask →](03-flask-intro.md)
+<!-- nav:end -->

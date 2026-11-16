@@ -59,3 +59,7 @@ for image classification.
 - Finding the best split: select the least impure split. This algorithm can overfit, that's why we control it by limiting the max depth and the size of the group.
 - Random forest is a way of combining multiple decision trees. It should have a diverse set of models to make good predictions.
 - Gradient boosting trains model sequentially: each model tries to fix errors of the previous model. XGBoost is an implementation of gradient boosting.
+
+<!-- nav:start -->
+[← Previous: Selecting the best model](09-final-model.md) · [Next: Explore more →](11-explore-more.md)
+<!-- nav:end -->

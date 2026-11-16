@@ -108,3 +108,6 @@ with [feature engineering](11-feature-engineering.md).
 Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's 
 performance. 
 
+<!-- nav:start -->
+[← Previous: Root Mean Squared Error (RMSE)](09-rmse.md) · [Next: Feature engineering →](11-feature-engineering.md)
+<!-- nav:end -->

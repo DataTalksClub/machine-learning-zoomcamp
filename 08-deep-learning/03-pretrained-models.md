@@ -204,3 +204,7 @@ work.
 - [Renting a GPU with AWS SageMaker](https://livebook.manning.com/book/machine-learning-bookcamp/appendix-e/23)
 - [Keras Applications](https://keras.io/api/applications/) provide a list of pre-trained deep learning models
 - [ImageNet](https://www.image-net.org/) is an image database that has 1,431,167 images of 1000 classes
+
+<!-- nav:start -->
+[← Previous: TensorFlow and Keras](02-tensorflow-keras.md) · [Next: Convolutional neural networks →](04-conv-neural-nets.md)
+<!-- nav:end -->

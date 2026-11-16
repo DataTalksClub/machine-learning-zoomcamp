@@ -98,3 +98,7 @@ For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/te
 |---|:-:|
 
 * [Notes from Peter Ernicke](https://knowmledge.com/2023/09/25/ml-zoomcamp-2023-machine-learning-for-classification-part-1/)
+
+<!-- nav:start -->
+[← Previous: Explore more](../02-regression/17-explore-more.md) · [Next: Data preparation →](02-data-preparation.md)
+<!-- nav:end -->

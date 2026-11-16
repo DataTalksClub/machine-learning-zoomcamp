@@ -182,3 +182,6 @@ with [exploratory data analysis](03-eda.md).
 * `df.dtypes` -> retrieve data types of all features 
 * `df.index` -> retrieve indices of a dataframe
 
+<!-- nav:start -->
+[← Previous: Car price prediction project](01-car-price-intro.md) · [Next: Exploratory data analysis →](03-eda.md)
+<!-- nav:end -->

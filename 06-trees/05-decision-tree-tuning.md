@@ -203,3 +203,7 @@ reducing the chance of creating nodes that are too specific to the training data
       
 It's then important to find the right balance between `max_depth` and `min_samples_leaf` to achieve optimal model performance.
 This involves a trade-off between bias and variance, and the best values depend on the specific dataset and problem.
+
+<!-- nav:start -->
+[← Previous: Decision tree learning algorithm](04-decision-tree-learning.md) · [Next: Ensemble learning and random forest →](06-random-forest.md)
+<!-- nav:end -->

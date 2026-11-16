@@ -95,3 +95,7 @@ kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 * Using the model 
 
 The code and dataset are available at this [link](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/chapter-02-car-price). 
+
+<!-- nav:start -->
+[← Previous: Summary](../01-intro/10-summary.md) · [Next: Data preparation →](02-data-preparation.md)
+<!-- nav:end -->

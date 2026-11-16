@@ -72,3 +72,7 @@ There are more things you can explore on your own:
 
 That's all I have about this topic. Next week we'll talk about
 Kubernetes as an alternative way of deploying machine learning models.
+
+<!-- nav:start -->
+[← Previous: API Gateway: exposing the lambda function](07-api-gateway.md) · [Next: Explore more →](09-explore-more.md)
+<!-- nav:end -->

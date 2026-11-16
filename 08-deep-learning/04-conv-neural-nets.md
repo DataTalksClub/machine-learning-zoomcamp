@@ -289,3 +289,7 @@ The next step in the process is called flattening. Flattening is used to convert
 * chaining layers of simple and complex filters allows the CNN to "learn"
 * resulting in vector representation of image
 * activation functions sigmoid for binary classification and softmax for multiclass
+
+<!-- nav:start -->
+[← Previous: Pre-trained convolutional neural networks](03-pretrained-models.md) · [Next: Transfer learning →](05-transfer-learning.md)
+<!-- nav:end -->

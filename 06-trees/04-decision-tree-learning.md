@@ -239,3 +239,7 @@ composed of **nodes** (which contain conditions) and **branches** (which represe
 *   At a node, find the best split.
 *   Stop if max\_depth is reached.
 *   For each child node, if the node is sufficiently large and not pure, repeat the process from the beginning.
+
+<!-- nav:start -->
+[← Previous: Decision trees](03-decision-trees.md) · [Next: Decision trees parameter tuning →](05-decision-tree-tuning.md)
+<!-- nav:end -->

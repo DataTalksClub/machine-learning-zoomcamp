@@ -115,3 +115,7 @@ Each email can be encoded (converted) to the values of its features and target.
 
 ### 3. Train and use the model
 A machine learning algorithm can then be applied to the encoded emails to build a model that can predict whether a new email is spam or not spam. The **predictions are probabilities**, and to make a decision it is necessary to define a threshold to classify emails as spam or not spam. 
+
+<!-- nav:start -->
+[← Previous: Introduction to Machine Learning](01-what-is-ml.md) · [Next: Supervised Machine Learning →](03-supervised-ml.md)
+<!-- nav:end -->

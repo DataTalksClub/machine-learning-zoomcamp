@@ -83,3 +83,7 @@ $$R = \cfrac{TP}{TP + FN}$$
 - Precision : From the `pre`dicted positives, how many we predicted right. See how the word `pre`cision is similar to the word `pre`diction? 
 
 - Recall : From the `real` positives, how many we predicted right. See how the word `re`c`al`l is similar to the word `real`?
+
+<!-- nav:start -->
+[← Previous: Confusion table](03-confusion-table.md) · [Next: ROC Curves →](05-roc.md)
+<!-- nav:end -->

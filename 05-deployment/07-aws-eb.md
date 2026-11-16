@@ -181,3 +181,7 @@ web: gunicorn churn_serving:app
 
 I've put my heroku app files in this repository:
 https://github.com/amindadgar/customer-churn-app 
+
+<!-- nav:start -->
+[← Previous: Environment management: Docker](06-docker.md) · [Next: Summary →](08-summary.md)
+<!-- nav:end -->

@@ -195,3 +195,7 @@ the next unit.
 ## Notes
 
 In this section we increase the image input size from `150` to `299`, reduce the amount of data augmentation parameters and lower the learning rate. This gives us the best results than any previous experiments.
+
+<!-- nav:start -->
+[← Previous: Data augmentation](10-augmentation.md) · [Next: Using the model →](12-using-model.md)
+<!-- nav:end -->

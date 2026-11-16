@@ -139,3 +139,6 @@ Therefore, in this problem accuracy can not tell us how good is the model becaus
 * `Counter(x)` - collection class that counts the number of instances that satisfy the `x` condition
 * `accuracy_score(x, y)` - sklearn.metrics class for calculating the accuracy of a model, given a predicted `x` dataset and a target `y` dataset. 
 
+<!-- nav:start -->
+[← Previous: Evaluation metrics: session overview](01-overview.md) · [Next: Confusion table →](03-confusion-table.md)
+<!-- nav:end -->

@@ -127,3 +127,7 @@ In general, ML projects require many iterations.
 * Start simple
 * Learn from the feedback
 * Improve
+
+<!-- nav:start -->
+[← Previous: Supervised Machine Learning](03-supervised-ml.md) · [Next: Model Selection Process →](05-model-selection.md)
+<!-- nav:end -->

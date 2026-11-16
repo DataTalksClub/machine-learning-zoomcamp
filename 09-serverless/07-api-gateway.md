@@ -106,3 +106,7 @@ deploying something like this for real.
 
 That's it for this lesson and for the demos of this session. In the
 next video we summarize everything we learned.
+
+<!-- nav:start -->
+[← Previous: Creating the lambda function](06-creating-lambda.md) · [Next: Summary →](08-summary.md)
+<!-- nav:end -->

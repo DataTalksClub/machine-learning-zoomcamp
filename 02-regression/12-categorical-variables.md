@@ -212,3 +212,7 @@ This transformation from categorical to numerical variables is known as One-Hot 
 
 This way of encoding categorical features is called "one-hot encoding".
 We'll learn more about it in Session 3. 
+
+<!-- nav:start -->
+[← Previous: Feature engineering](11-feature-engineering.md) · [Next: Regularization →](13-regularization.md)
+<!-- nav:end -->

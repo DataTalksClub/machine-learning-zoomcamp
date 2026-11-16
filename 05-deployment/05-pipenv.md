@@ -127,3 +127,7 @@ In this session we're going to make virtual environments for our project. So Let
 - Installing and using the libraries such as gunicorn is the same as the last session.
 - Until here we made a virtual environment for our libraries with a required specified version. To seperate this environment more, such as making gunicorn be able to run in windows machines we need another way. The other way is using Docker. Docker allows us to seperate everything more than before and make any project able to run on any machine that supports Docker smoothly.
 - In the next session we'll go in detail of how Docker works and how to use it.
+
+<!-- nav:start -->
+[← Previous: Serving the churn model with Flask](04-flask-deployment.md) · [Next: Environment management: Docker →](06-docker.md)
+<!-- nav:end -->

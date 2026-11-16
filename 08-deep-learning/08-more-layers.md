@@ -220,3 +220,7 @@ In the next section, we'll try different regularization technique to improve the
 * sigmoid: negativ input --> zero, positive input --> straight line
 * relu
 * softmax
+
+<!-- nav:start -->
+[← Previous: Checkpointing](07-checkpointing.md) · [Next: Regularization and dropout →](09-dropout.md)
+<!-- nav:end -->

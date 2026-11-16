@@ -197,3 +197,7 @@ AWS Lambda is a **serverless computing service** that lets you execute code with
 
 ### Free Tier Usage
 Note that `AWS Lambda` offers a free tier that includes a certain number of free requests (1 million requests per month), and free compute time (400,000 GB-seconds per month).
+
+<!-- nav:start -->
+[← Previous: Introduction to Serverless](01-intro.md) · [Next: TensorFlow Lite →](03-tensorflow-lite.md)
+<!-- nav:end -->

@@ -195,3 +195,7 @@ You don't need a GPU on your own machine for this module — a free notebook wit
 ![Colab: changing the runtime type](images/colab-gpu-menu.jpg)
 
 ![Colab: selecting the T4 GPU](images/colab-gpu-t4.jpg)
+
+<!-- nav:start -->
+[← Previous: Explore more](14-explore-more.md) · [Next: Introduction to Serverless →](../09-serverless/01-intro.md)
+<!-- nav:end -->

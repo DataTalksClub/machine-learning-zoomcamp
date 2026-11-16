@@ -203,3 +203,6 @@ After finding the best model and its parameters, it was trained with training an
 
 Finally, the final model was used to predict the price of new cars. 
 
+<!-- nav:start -->
+[← Previous: Tuning the model](14-tuning-model.md) · [Next: Car price prediction project summary →](16-summary.md)
+<!-- nav:end -->

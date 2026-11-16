@@ -20,3 +20,7 @@ next_url: ../08-deep-learning/01-fashion-classification.md
 ## Notes
 
 Add notes from the video (PRs are welcome)
+
+<!-- nav:start -->
+[← Previous: Summary](10-summary.md) · [Next: Fashion classification →](../08-deep-learning/01-fashion-classification.md)
+<!-- nav:end -->

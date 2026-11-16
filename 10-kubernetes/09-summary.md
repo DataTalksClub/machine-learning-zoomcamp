@@ -112,3 +112,7 @@ And in the next session we will talk about Kubeflow. It's a simpler
 alternative that sits on top of Kubernetes: we don't need to write so
 much YAML, it takes care of some things for us and lets us develop and
 deploy things to Kubernetes faster.
+
+<!-- nav:start -->
+[← Previous: Deploying to EKS](08-eks.md) · [Next: Explore more →](10-explore-more.md)
+<!-- nav:end -->

@@ -19,3 +19,7 @@ prev_url: 09-summary.md
 ## Notes
 
 Add notes from the video (PRs are welcome)
+
+<!-- nav:start -->
+[← Previous: Summary](09-summary.md)
+<!-- nav:end -->

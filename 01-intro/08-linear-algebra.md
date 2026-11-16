@@ -393,3 +393,7 @@ V = np.array([
 ])
 inv = np.linalg.inv(V)
 ~~~~
+
+<!-- nav:start -->
+[← Previous: Introduction to NumPy](07-numpy.md) · [Next: Introduction to Pandas →](09-pandas.md)
+<!-- nav:end -->

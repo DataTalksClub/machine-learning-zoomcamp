@@ -196,3 +196,6 @@ The formula of linear regression can be synthesized with the dot product between
 
 When all the records are included, the linear regression can be calculated with the dot product between ***feature matrix*** and ***vector of weights***, obtaining the `y` vector of predictions. 
 
+<!-- nav:start -->
+[← Previous: Linear regression](05-linear-regression-simple.md) · [Next: Training linear regression: Normal equation →](07-linear-regression-training.md)
+<!-- nav:end -->

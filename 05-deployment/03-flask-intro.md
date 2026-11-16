@@ -130,3 +130,7 @@ In this session we talked about what is a web service and how to create a simple
    - With the code above we made a simple web server and created a route named ping that would send pong string.
    - To test it, just use the `cURL` command in a new terminal by typing ```curl http://localhost:9696/ping```, or simply open your browser and search ```localhost:9696/ping```, You'll see that the 'PONG' string is received. Congrats You've made a simple web server 🥳.
 - To use our web server to predict new values we must modify it. See how in the next session.
+
+<!-- nav:start -->
+[← Previous: Saving and loading the model](02-pickle.md) · [Next: Serving the churn model with Flask →](04-flask-deployment.md)
+<!-- nav:end -->

@@ -59,3 +59,7 @@ library for more kinds of augmentations, other architectures from
 `keras.applications` such as ResNet50 or MobileNet, and other
 frameworks like PyTorch. In the homework you'll apply the same
 approach to a different dataset - cats vs dogs.
+
+<!-- nav:start -->
+[← Previous: Using the model](12-using-model.md) · [Next: Explore more →](14-explore-more.md)
+<!-- nav:end -->

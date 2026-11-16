@@ -19,3 +19,7 @@ deeper into the topics of this module:
 ## Other projects
 
 * Calculate the metrics for the suggested datasets from the previous week
+
+<!-- nav:start -->
+[← Previous: Summary](08-summary.md) · [Next: Intro / Session overview →](../05-deployment/01-intro.md)
+<!-- nav:end -->

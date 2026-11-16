@@ -140,4 +140,6 @@ $$RMSE = \sqrt{ \frac{1}{m} \sum_{i=1}^{m} {(g(x_i) - y_i)^2}}$$
 - $y_i$ is the actual value
 - $m$ is the number of observations in the dataset (i.e. cars)
 
-
+<!-- nav:start -->
+[← Previous: Baseline model for car price prediction project](08-baseline-model.md) · [Next: Computing RMSE on validation data →](10-car-price-validation.md)
+<!-- nav:end -->

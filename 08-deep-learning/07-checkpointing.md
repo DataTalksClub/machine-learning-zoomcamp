@@ -190,3 +190,7 @@ add another one to see if it helps.
 * checkpointing saves the model after each training iteration
 * checkpoint conditions may include reaching the best performance
 * keras callbacks
+
+<!-- nav:start -->
+[← Previous: Adjusting the learning rate](06-learning-rate.md) · [Next: Adding more layers →](08-more-layers.md)
+<!-- nav:end -->

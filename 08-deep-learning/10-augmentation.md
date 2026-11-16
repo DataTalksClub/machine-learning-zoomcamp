@@ -173,3 +173,7 @@ train_ds = train_gen.flow_from_directory(directory=train_imgs_dir,
 - Augmentations are hyperparameters: like many other hyperparameters, often times we need to test whether image augmentations are useful for the model or not. If the model doesn't improve or have same performance after certain epochs (let's say 20), in that case we don't use it.
 
 Usually augmented data required training for longer.
+
+<!-- nav:start -->
+[← Previous: Regularization and dropout](09-dropout.md) · [Next: Training a larger model →](11-large-model.md)
+<!-- nav:end -->

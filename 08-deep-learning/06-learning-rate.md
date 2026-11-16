@@ -265,3 +265,7 @@ Visualizing the training and validation accuracies help us to determine which le
 * learning rate analogy: the speed of reading a book
 * reading fast (skimming thus missing details) vs reading slow (not much progress and leaving out books)
 * finding the optimal learning rate
+
+<!-- nav:start -->
+[← Previous: Transfer learning](05-transfer-learning.md) · [Next: Checkpointing →](07-checkpointing.md)
+<!-- nav:end -->

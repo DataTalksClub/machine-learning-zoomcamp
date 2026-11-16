@@ -492,3 +492,7 @@ That's it for this session. The next video is not a lesson - it's a summary of e
 
 - [Notebook](notebooks/09-pandas.ipynb)
 - [Pandas Cheat sheet](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet)
+
+<!-- nav:start -->
+[← Previous: Linear Algebra Refresher](08-linear-algebra.md) · [Next: Summary →](10-summary.md)
+<!-- nav:end -->

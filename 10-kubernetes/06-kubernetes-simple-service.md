@@ -340,3 +340,7 @@ external load balancer, the way it would in a real cluster.
 * kubectl = tool for interacting with kubernetes cluster https://kubernetes.io/docs/reference/kubectl/
 * yaml kubernetes configuration: allocating resources (RAM, CPU), templates, port labels
 * kubernetes ports/pods: requests, responses, forwarding, connection refusal
+
+<!-- nav:start -->
+[← Previous: Introduction to Kubernetes](05-kubernetes-intro.md) · [Next: Deploying TensorFlow models to Kubernetes →](07-kubernetes-tf-serving.md)
+<!-- nav:end -->

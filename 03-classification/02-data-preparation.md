@@ -224,3 +224,6 @@ This session covered data obtention and some procedures of data preparation.
 * `df.fillna()` - replace NAs with some value 
 * `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
 
+<!-- nav:start -->
+[← Previous: Churn prediction project](01-churn-project.md) · [Next: Setting up the validation framework →](03-validation.md)
+<!-- nav:end -->

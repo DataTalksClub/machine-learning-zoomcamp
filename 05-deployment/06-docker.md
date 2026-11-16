@@ -192,3 +192,7 @@ Flag explanations:
 - `--entrypoint=bash`: After running Docker, we will now be able to communicate with the container using bash (as you would normally do with the Terminal). Default is `python`.
 
 At last you've deployed your prediction app inside a Docker container. Congratulations 🥳
+
+<!-- nav:start -->
+[← Previous: Python virtual environment: Pipenv](05-pipenv.md) · [Next: Deployment to the cloud: AWS Elastic Beanstalk (optional) →](07-aws-eb.md)
+<!-- nav:end -->

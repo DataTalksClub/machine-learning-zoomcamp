@@ -128,3 +128,7 @@ There are 13 videos in this module. Let's get started.
 * see corresponding medium.com article https://medium.com/data-science-insider/clothing-dataset-5b72cd7c3f1f
 * deep learning with tensorflow and keras
 * parameters, layers, regularization
+
+<!-- nav:start -->
+[← Previous: Explore more](../06-trees/11-explore-more.md) · [Next: TensorFlow and Keras →](02-tensorflow-keras.md)
+<!-- nav:end -->

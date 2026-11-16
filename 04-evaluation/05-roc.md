@@ -210,3 +210,6 @@ We need to compare the ROC curves against a point of reference to evaluate its p
 * `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values first, and then a w number of y values. 
 * `roc_curve(x, y)` - sklearn.metrics class for calculating the false positive rates, true positive rates, and thresholds, given a target x dataset and a predicted y dataset. 
 
+<!-- nav:start -->
+[← Previous: Precision and Recall](04-precision-recall.md) · [Next: ROC AUC →](06-auc.md)
+<!-- nav:end -->

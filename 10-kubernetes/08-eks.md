@@ -184,3 +184,7 @@ This also takes a few minutes, and it deletes the load balancer together
 with the cluster. Afterwards we can check the console: the load balancer
 is gone, the EC2 instance shows as terminated, and there are no clusters
 in EKS.
+
+<!-- nav:start -->
+[← Previous: Deploying TensorFlow models to Kubernetes](07-kubernetes-tf-serving.md) · [Next: Summary →](09-summary.md)
+<!-- nav:end -->

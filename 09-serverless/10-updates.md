@@ -42,6 +42,6 @@ If you don't do it, pip will try to upgdate the version of numpy
 and your code won't work (as the tflite runtime was compiled 
 with numpy 1, not numpy 2).
 
-
-
-
+<!-- nav:start -->
+[← Previous: Explore more](09-explore-more.md) · [Next: Overview →](../10-kubernetes/01-overview.md)
+<!-- nav:end -->

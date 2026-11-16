@@ -233,3 +233,7 @@ This link explains the difference between them: https://stackoverflow.com/a/3424
 
 In case of the lambda base pacakge, the authors already specified the entrypoint and
 we only need to overwrite the arguments passed to the entrypoint,
+
+<!-- nav:start -->
+[← Previous: Preparing the code for Lambda](04-preparing-code.md) · [Next: Creating the lambda function →](06-creating-lambda.md)
+<!-- nav:end -->

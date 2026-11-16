@@ -123,3 +123,7 @@ Here is what we will do in this module:
 * running kubernetes on your local machine (lesson six)
 * deploy the two services to kubernetes (lesson seven)
 * move from local to cloud (lesson eight)
+
+<!-- nav:start -->
+[← Previous: Python 3.12 vs TF Lite 2.17](../09-serverless/10-updates.md) · [Next: TensorFlow Serving →](02-tensorflow-serving.md)
+<!-- nav:end -->

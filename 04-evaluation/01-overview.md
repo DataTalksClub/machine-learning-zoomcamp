@@ -79,3 +79,7 @@ The whole module walks through one notebook, [notebook.ipynb](notebook.ipynb) - 
 The fourth week of Machine Learning Zoomcamp is about different metrics to evaluate a binary classifier. These measures include accuracy, confusion table, precision, recall, ROC curves(TPR, FRP, random model, and ideal model), AUROC, and cross-validation. 
 
 For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/telco-customer-churn) about churn prediction. 
+
+<!-- nav:start -->
+[← Previous: Explore more](../03-classification/14-explore-more.md) · [Next: Accuracy and dummy model →](02-accuracy.md)
+<!-- nav:end -->

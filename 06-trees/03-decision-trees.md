@@ -207,3 +207,7 @@ A decision tree with a depth of 1 is called `decision stump` and has only one sp
 - `export_text`: method from `sklearn.tree` class to display the text report showing the rules of a decision tree.
 
 *Note*: we have already covered `DictVectorizer` in session 3 and `roc_auc_score` in session 4 respectively.
+
+<!-- nav:start -->
+[← Previous: Data cleaning and preparation](02-data-prep.md) · [Next: Decision tree learning algorithm →](04-decision-tree-learning.md)
+<!-- nav:end -->

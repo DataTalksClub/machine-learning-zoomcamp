@@ -199,3 +199,6 @@ In the formula of the logistic regression model, only one of the one-hot encoded
 
 * `zip(x,y)` - returns a new list with elements from x joined with their corresponding elements on y 
 
+<!-- nav:start -->
+[← Previous: Training logistic regression with Scikit-Learn](10-training-log-reg.md) · [Next: Using the model →](12-using-log-reg.md)
+<!-- nav:end -->

@@ -85,3 +85,7 @@ In summary, ML is a process of **extracting patterns from data**, which is of tw
 * target (property to predict for unseen objects). 
 
 Therefore, new feature values are presented to the model, and it makes **predictions** from the learned patterns.
+
+<!-- nav:start -->
+[Next: ML vs Rule-Based Systems →](02-ml-vs-rules.md)
+<!-- nav:end -->

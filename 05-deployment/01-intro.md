@@ -69,3 +69,7 @@ To deploy the model in a server there are some steps:
    - **Pipenv**: Create isolated environments to manage the Python dependencies of the web service, ensuring they don't interfere with other services on the machine.
    - **Docker**: Package the service in a Docker container, which includes both system and Python dependencies, making it easier to deploy consistently across different environments. 
 4. **Deploy to the Cloud**: Finally, deploy the Docker container to a cloud service like AWS to make the model accessible globally, ensuring scalability and reliability.
+
+<!-- nav:start -->
+[← Previous: Explore more](../04-evaluation/09-explore-more.md) · [Next: Saving and loading the model →](02-pickle.md)
+<!-- nav:end -->

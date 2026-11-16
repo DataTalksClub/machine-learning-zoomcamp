@@ -29,3 +29,7 @@ General definitions:
 * K-Fold CV: More reliable estimate for performance (mean + std)
 
 In brief, this weeks was about different metrics to evaluate a binary classifier. These measures included accuracy, confusion table, precision, recall, ROC curves(TPR, FPR, random model, and ideal model), and AUROC. Also, we talked about a different way to estimate the performance of the model and make the parameter tuning with cross-validation. 
+
+<!-- nav:start -->
+[← Previous: Cross-Validation](07-cross-validation.md) · [Next: Explore more →](09-explore-more.md)
+<!-- nav:end -->

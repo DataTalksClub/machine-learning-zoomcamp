@@ -216,3 +216,6 @@ In general, the dataset is splitted into three parts: training, validation, and 
 * `np.random.shuffle()` -> return a shuffled array
 * `np.random.seed()` -> set a seed for reproducibility
 
+<!-- nav:start -->
+[← Previous: Exploratory data analysis](03-eda.md) · [Next: Linear regression →](05-linear-regression-simple.md)
+<!-- nav:end -->

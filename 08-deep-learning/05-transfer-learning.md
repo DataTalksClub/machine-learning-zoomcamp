@@ -466,3 +466,7 @@ history = model.fit(train_ds, epochs=10, validation_data=val_ds)
 * categorical cross entropy
 * changing accuracy during several training epochs
 * overfitting
+
+<!-- nav:start -->
+[← Previous: Convolutional neural networks](04-conv-neural-nets.md) · [Next: Adjusting the learning rate →](06-learning-rate.md)
+<!-- nav:end -->

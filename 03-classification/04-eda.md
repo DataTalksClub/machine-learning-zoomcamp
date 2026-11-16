@@ -173,3 +173,6 @@ The EDA for this project consisted of:
 * `round(x, y)` - round an x number with y decimal places
 * `df[x].nunique()` - returns the number of unique values in x series 
 
+<!-- nav:start -->
+[← Previous: Setting up the validation framework](03-validation.md) · [Next: Feature importance: Churn rate and risk ratio →](05-risk.md)
+<!-- nav:end -->

@@ -247,3 +247,6 @@ that we need mutual information, which is the next unit.
 * `df.groupby('x').y.agg([mean()])` - returns a dataframe with mean of y series grouped by x series 
 * `display(x)` displays an output in the cell of a jupyter notebook. 
 
+<!-- nav:start -->
+[← Previous: EDA](04-eda.md) · [Next: Feature importance: Mutual information →](06-mutual-info.md)
+<!-- nav:end -->

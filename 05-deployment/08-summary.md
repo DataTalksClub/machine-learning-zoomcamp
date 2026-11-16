@@ -54,3 +54,7 @@ In this chapter we learned these topics:
 - How to deploy our code in a public web service and access it externally from outside a local computer.
 
 In the next chapter we will learn the algorithms such as Decision trees, Random forests and Gradient boosting as an alternative way of combining decision tress.
+
+<!-- nav:start -->
+[← Previous: Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md) · [Next: Explore more →](09-explore-more.md)
+<!-- nav:end -->

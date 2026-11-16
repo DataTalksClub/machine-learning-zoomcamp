@@ -148,3 +148,6 @@ exactly what we will do in the next unit with RMSE.
 * Once the weights are calculated, then we apply them on  $$\\\\ \large g(X) = w_0 + X \cdot w$$ to derive the predicted y vector.
 * Then we plot both predicted y and the actual y on the same histogram for a visual comparison.
 
+<!-- nav:start -->
+[← Previous: Training linear regression: Normal equation](07-linear-regression-training.md) · [Next: Root Mean Squared Error (RMSE) →](09-rmse.md)
+<!-- nav:end -->

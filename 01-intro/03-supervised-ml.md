@@ -119,3 +119,7 @@ The model can be represented as a function, **g**, that takes the feature matrix
 * **Ranking:** the output is the top scores associated with corresponding items. It is applied in recommender systems. 
 
 In summary, SML is about teaching the model by showing it different examples, and the goal is to come up with a function, that takes the feature matrix as input, and makes predictions of values as close as possible to the **y** targets. 
+
+<!-- nav:start -->
+[← Previous: ML vs Rule-Based Systems](02-ml-vs-rules.md) · [Next: CRISP-DM →](04-crisp-dm.md)
+<!-- nav:end -->
