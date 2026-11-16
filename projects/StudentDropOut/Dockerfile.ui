@@ -1,0 +1,22 @@
+FROM python:3.12.9-slim
+
+COPY --from=ghcr.io/astral-sh/uv:0.11.26 /uv /bin/uv
+
+WORKDIR /app
+
+# Only the UI dependency group (streamlit brings pandas and requests); no model libraries needed
+COPY pyproject.toml uv.lock ./
+RUN uv sync --locked --only-group ui --no-install-project
+ENV PATH="/app/.venv/bin:$PATH"
+
+COPY features.py streamlit_app.py ./
+COPY data ./data
+COPY examples ./examples
+
+RUN useradd --create-home appuser
+USER appuser
+
+ENV API_URL=http://api:9696
+EXPOSE 8501
+
+CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true", "--browser.gatherUsageStats=false"]

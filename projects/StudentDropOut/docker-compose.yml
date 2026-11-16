@@ -1,0 +1,19 @@
+services:
+  api:
+    build: .
+    image: dropout-api:v1
+    ports:
+      - "9696:9696"
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    image: dropout-ui:v1
+    environment:
+      API_URL: http://api:9696
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy

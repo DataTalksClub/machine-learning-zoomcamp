@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dropout-api
+  labels:
+    app: dropout-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dropout-api
+  template:
+    metadata:
+      labels:
+        app: dropout-api
+    spec:
+      containers:
+        - name: dropout-api
+          image: dropout-api:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9696
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 9696
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 9696
+            initialDelaySeconds: 15
+            periodSeconds: 20
