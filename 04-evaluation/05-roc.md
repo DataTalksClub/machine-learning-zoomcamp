@@ -117,7 +117,7 @@ The ideal TPR stays at 1.0 for every threshold below 0.726 - it catches all chur
 
 ## Putting everything together
 
-Plotting our model together with the ideal one makes the comparison obvious: the black TPR curve of our model is clearly below the ideal, and the blue FPR curve above the ideal - the gap between them is the room our model still has to improve:
+Plotting our model together with the ideal one makes the comparison obvious: the black TPR curve of our model is clearly below the ideal, and the blue FPR curve below the ideal - the gap between them is the room our model still has to improve:
 
 ```python
 plt.plot(df_scores.threshold, df_scores['tpr'], label='TPR', color='black')
