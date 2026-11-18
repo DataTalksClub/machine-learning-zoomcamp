@@ -164,9 +164,7 @@ print(export_text(dt, feature_names=list(dv.get_feature_names_out())))
 ...
 ```
 
-This tree is still readable, unlike the unlimited one from before: it
-starts with `records`, then looks at `seniority`, `amount`, `price` and
-`assets` to decide whether a customer is likely to default.
+This tree is still readable, unlike the unlimited one from before.
 
 One caution: when you scan the results, watch out for parameter values
 that don't make sense, like `nan` creeping into the grid. A
