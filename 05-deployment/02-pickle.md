@@ -44,6 +44,16 @@ not open the file in text mode. We name the file with the value of `C` we
 used, because after tuning in the previous module we know this parameter, and
 it is useful to see it in the filename: `model_C=1.0.bin`.
 
+We use `'with'` to ensure that the file is properly closed after we finish working with it, even if an exception occurs. Closing the file releases the associated operating system resources. It is not primarily about preventing memory leaks.
+
+Without with, we would need to close the file manually using close():
+
+f_out = open(output_file, 'wb')
+pickle.dump((dv, model), f_out)
+f_out.close()
+
+The main disadvantage is that if an exception occurs during pickle.dump(), f_out.close() will never be executed, and the file may remain open. The with statement handles closing the file automatically, making the code safer and less error-prone.
+
 The vectorizer has to travel with the model. It was fitted on the training
 data and it "remembers" which categorical values map to which feature columns
 - without it, we cannot prepare a new customer record the same way.
