@@ -1,0 +1,38 @@
+[project]
+name = "student-dropout-prediction"
+version = "1.0.0"
+description = "Predicting student dropout risk from first-year data (ML Zoomcamp midterm project)"
+authors = [{ name = "Muhammad Elias Muhammadi" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi==0.115.6",
+    "numpy==2.4.6",
+    "pandas==2.3.3",
+    "pydantic==2.10.4",
+    "scikit-learn==1.9.0",
+    "uvicorn==0.34.0",
+    "xgboost==3.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "httpx==0.28.1",
+    "ipykernel==7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib==3.11.0",
+    "nbconvert==7.17.1",
+    "pytest==9.2.0",
+    "requests==2.34.2",
+    "seaborn==0.13.2",
+]
+ui = [
+    "streamlit==1.50.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
