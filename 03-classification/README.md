@@ -1,19 +1,19 @@
 ﻿## 3. Machine Learning for Classification
 
-- 3.1 [Churn prediction project](01-churn-project.md)
-- 3.2 [Data preparation](02-data-preparation.md)
-- 3.3 [Setting up the validation framework](03-validation.md)
-- 3.4 [EDA](04-eda.md)
-- 3.5 [Feature importance: Churn rate and risk ratio](05-risk.md)
-- 3.6 [Feature importance: Mutual information](06-mutual-info.md)
-- 3.7 [Feature importance: Correlation](07-correlation.md)
-- 3.8 [One-hot encoding](08-ohe.md)
-- 3.9 [Logistic regression](09-logistic-regression.md)
-- 3.10 [Training logistic regression with Scikit-Learn](10-training-log-reg.md)
-- 3.11 [Model interpretation](11-log-reg-interpretation.md)
-- 3.12 [Using the model](12-using-log-reg.md)
-- 3.13 [Summary](13-summary.md)
-- 3.14 [Explore more](14-explore-more.md)
+- 3.1 [Churn prediction project](01-churn-project.md) - Introduce the churn prediction problem as binary classification, using the Telco customer dataset.
+- 3.2 [Data preparation](02-data-preparation.md) - Load the Telco churn data, normalize names and values, convert totalcharges to numbers, and encode churn as 0 or 1.
+- 3.3 [Setting up the validation framework](03-validation.md) - Split the churn data into 60/20/20 train, validation, and test sets with scikit-learn, and separate the target.
+- 3.4 [EDA](04-eda.md) - Check missing values, the churn rate, and the numerical and categorical columns of the full training set.
+- 3.5 [Feature importance: Churn rate and risk ratio](05-risk.md) - Compare churn rates across categories using differences and risk ratios to judge which categorical features matter.
+- 3.6 [Feature importance: Mutual information](06-mutual-info.md) - Measure each categorical feature's importance with mutual information and rank the features against churn.
+- 3.7 [Feature importance: Correlation](07-correlation.md) - Rank numerical churn features by absolute Pearson correlation and check churn rates across tenure and charge groups.
+- 3.8 [One-hot encoding](08-ohe.md) - Encode categorical churn features as one-hot columns with DictVectorizer, fitting on train and transforming validation.
+- 3.9 [Logistic regression](09-logistic-regression.md) - Explain how logistic regression applies a sigmoid to a linear score, and implement the sigmoid and model in Python.
+- 3.10 [Training logistic regression with Scikit-Learn](10-training-log-reg.md) - Train a scikit-learn LogisticRegression on encoded data and measure validation accuracy at a 0.5 threshold.
+- 3.11 [Model interpretation](11-log-reg-interpretation.md) - Pair logistic regression weights with feature names, then train a three-feature model and score a customer by hand.
+- 3.12 [Using the model](12-using-log-reg.md) - Retrain on train and validation data, check test accuracy, and score one customer's churn probability.
+- 3.13 [Summary](13-summary.md) - Recap the churn project, covering data preparation, feature importance, one-hot encoding, logistic regression, and interpretation.
+- 3.14 [Explore more](14-explore-more.md) - Suggest ways to extend the churn project with scikit-learn Ridge, OneHotEncoder, and StandardScaler, plus other datasets.
 
 
 

@@ -1,15 +1,15 @@
 ## 1. Introduction to Machine Learning
 
-- 1.1 [Introduction to Machine Learning](01-what-is-ml.md)
-- 1.2 [ML vs Rule-Based Systems](02-ml-vs-rules.md)
-- 1.3 [Supervised Machine Learning](03-supervised-ml.md)
-- 1.4 [CRISP-DM](04-crisp-dm.md)
-- 1.5 [The Modelling Step (Model Selection Process)](05-model-selection.md)
-- 1.6 [Setting up the Environment](06-environment.md)
-- 1.7 [Introduction to NumPy](07-numpy.md)
-- 1.8 [Linear Algebra Refresher](08-linear-algebra.md)
-- 1.9 [Introduction to Pandas](09-pandas.md)
-- 1.10 [Summary](10-summary.md)
+- 1.1 [Introduction to Machine Learning](01-what-is-ml.md) - Introduce machine learning with a car price example, covering features, targets, training and predictions.
+- 1.2 [ML vs Rule-Based Systems](02-ml-vs-rules.md) - Compare rule-based spam filtering with machine learning, using features and a trained model instead of hand-written rules.
+- 1.3 [Supervised Machine Learning](03-supervised-ml.md) - Define features, targets, and the feature matrix, then classify supervised problems as regression, classification, or ranking.
+- 1.4 [CRISP-DM](04-crisp-dm.md) - Walk through the six CRISP-DM steps for a spam detection project, from business understanding to deployment.
+- 1.5 [The Modelling Step (Model Selection Process)](05-model-selection.md) - Split data into train, validation, and test sets to select a model and avoid the multiple comparisons problem.
+- 1.6 [Setting up the Environment](06-environment.md) - Set up a Python environment for the course with Codespaces, local Ubuntu, Anaconda, cloud, or notebook services.
+- 1.7 [Introduction to NumPy](07-numpy.md) - Create, index, and transform NumPy arrays with element-wise, comparison, and summary operations.
+- 1.8 [Linear Algebra Refresher](08-linear-algebra.md) - Implement vector and matrix multiplication from scratch, then compare with NumPy and compute an identity matrix and inverse.
+- 1.9 [Introduction to Pandas](09-pandas.md) - Work with Pandas DataFrames and Series to index, filter, clean strings, handle missing values, and group data.
+- 1.10 [Summary](10-summary.md) - Recap the first session covering ML basics, CRISP-DM, model selection, the environment, NumPy, linear algebra, and Pandas.
 
 
 ## Community notes

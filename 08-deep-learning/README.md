@@ -18,20 +18,21 @@ How to watch it:
 
 TensorFlow module videos:
 
-- 8.1 [Fashion classification](01-fashion-classification.md)
-- 8.2 [TensorFlow and Keras](02-tensorflow-keras.md)
-- 8.3 [Pre-trained convolutional neural networks](03-pretrained-models.md)
-- 8.4 [Convolutional neural networks](04-conv-neural-nets.md)
-- 8.5 [Transfer learning](05-transfer-learning.md)
-- 8.6 [Adjusting the learning rate](06-learning-rate.md)
-- 8.7 [Checkpointing](07-checkpointing.md)
-- 8.8 [Adding more layers](08-more-layers.md)
-- 8.9 [Regularization and dropout](09-dropout.md)
-- 8.10 [Data augmentation](10-augmentation.md)
-- 8.11 [Training a larger model](11-large-model.md)
-- 8.12 [Using the model](12-using-model.md)
-- 8.13 [Summary](13-summary.md)
-- 8.14 [Explore more](14-explore-more.md)
+- 8.1 [Fashion classification](01-fashion-classification.md) - Introduce the fashion classification project, its clothing dataset, and the plan for the deep learning module.
+- 8.2 [TensorFlow and Keras](02-tensorflow-keras.md) - Install TensorFlow, import Keras, and load, resize and convert a clothing image into a NumPy array.
+- 8.3 [Pre-trained convolutional neural networks](03-pretrained-models.md) - Run a clothing image through the pre-trained Xception model on ImageNet and decode its predictions.
+- 8.4 [Convolutional neural networks](04-conv-neural-nets.md) - Explain how convolutional and dense layers turn an image into a vector and then a prediction.
+- 8.5 [Transfer learning](05-transfer-learning.md) - Reuse Xception's convolutional layers with a frozen base, a new pooling and dense head, and train it on clothing images.
+- 8.6 [Adjusting the learning rate](06-learning-rate.md) - Compare several Adam learning rates on the transfer learning model and select the best one from validation accuracy.
+- 8.7 [Checkpointing](07-checkpointing.md) - Save the best model during training with Keras ModelCheckpoint, keeping the epoch with the highest validation accuracy.
+- 8.8 [Adding more layers](08-more-layers.md) - Add an inner dense layer with ReLU activation and compare layer sizes of 10, 100 and 1000 on validation accuracy.
+- 8.9 [Regularization and dropout](09-dropout.md) - Add a dropout layer to the model and compare dropout rates from 0.0 to 0.8, choosing 0.2 for later units.
+- 8.10 [Data augmentation](10-augmentation.md) - Add image augmentation to the training generator only, train for 50 epochs, and review how to choose augmentations.
+- 8.11 [Training a larger model](11-large-model.md) - Train the final Xception model on 299x299 images with an inner layer, dropout, light augmentation and a lower learning rate.
+- 8.12 [Using the model](12-using-model.md) - Load the saved h5 checkpoint, evaluate it on the test set, and predict the class of one pants image.
+- 8.13 [Summary](13-summary.md) - Recap the transfer learning, tuning and checkpointing steps behind the clothing classifier, which reaches about 90% test accuracy.
+- 8.14 [Explore more](14-explore-more.md) - Suggest next steps covering more data, Albumentations augmentation, PyTorch, other architectures and other image projects.
+- 8.15 [Installation of TensorFlow](15-install.md) - Install a GPU-enabled TensorFlow 2.14 stack on WSL2 with CUDA, cuDNN and micromamba, then verify GPU access.
 
 ## Community notes
 

@@ -10,15 +10,15 @@ the module content, focus on the theory part. The practical
 part is all covered in the workshop. 
 
 
-- 5.1 [Intro / Session overview](01-intro.md)
-- 5.2 [Saving and loading the model](02-pickle.md)
-- 5.3 [Web services: introduction to Flask](03-flask-intro.md)
-- 5.4 [Serving the churn model with Flask](04-flask-deployment.md)
-- 5.5 [Python virtual environment: Pipenv](05-pipenv.md)
-- 5.6 [Environment management: Docker](06-docker.md)
-- 5.7 [Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md)
-- 5.8 [Summary](08-summary.md)
-- 5.9 [Explore more](09-explore-more.md)
+- 5.1 [Intro / Session overview](01-intro.md) - Outline the module plan for turning the churn model into a web service with pickle, Flask, Pipenv, and Docker.
+- 5.2 [Saving and loading the model](02-pickle.md) - Save the trained DictVectorizer and model with pickle, load them back, and move the training code into a script.
+- 5.3 [Web services: introduction to Flask](03-flask-intro.md) - Build a minimal Flask ping service with a GET route that returns PONG, then test it with curl.
+- 5.4 [Serving the churn model with Flask](04-flask-deployment.md) - Serve churn predictions from a Flask POST endpoint, test it with requests, and run it under gunicorn or waitress.
+- 5.5 [Python virtual environment: Pipenv](05-pipenv.md) - Pin project dependencies in a Pipenv virtual environment with Pipfile and Pipfile.lock, then run the service inside it.
+- 5.6 [Environment management: Docker](06-docker.md) - Package the churn service into a Docker image with a Dockerfile, then build and run it with port 9696 published.
+- 5.7 [Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md) - Deploy the churn Docker image to AWS Elastic Beanstalk with the EB CLI, then test and terminate the environment.
+- 5.8 [Summary](08-summary.md) - Recap the deployment module, from pickle and Flask to Pipenv, Docker, and AWS Elastic Beanstalk.
+- 5.9 [Explore more](09-explore-more.md) - Suggest alternatives to explore, including FastAPI, conda or poetry, and other cloud or hosting platforms.
 
 
 How to watch it:

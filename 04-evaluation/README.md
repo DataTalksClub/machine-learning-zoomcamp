@@ -1,14 +1,14 @@
 ## 4. Evaluation Metrics for Classification
 
-- 4.1 [Evaluation metrics: session overview](01-overview.md)
-- 4.2 [Accuracy and dummy model](02-accuracy.md)
-- 4.3 [Confusion table](03-confusion-table.md)
-- 4.4 [Precision and Recall](04-precision-recall.md)
-- 4.5 [ROC Curves](05-roc.md)
-- 4.6 [ROC AUC](06-auc.md)
-- 4.7 [Cross-Validation](07-cross-validation.md)
-- 4.8 [Summary](08-summary.md)
-- 4.9 [Explore more](09-explore-more.md)
+- 4.1 [Evaluation metrics: session overview](01-overview.md) - Recap the churn model, then introduce the metrics used to evaluate binary classifiers.
+- 4.2 [Accuracy and dummy model](02-accuracy.md) - Compute accuracy, test decision thresholds, and compare the model with a dummy model that predicts no churn.
+- 4.3 [Confusion table](03-confusion-table.md) - Count true and false positives and negatives in a confusion table for the churn model.
+- 4.4 [Precision and Recall](04-precision-recall.md) - Compute precision and recall for the churn model and explain what each reveals beyond accuracy.
+- 4.5 [ROC Curves](05-roc.md) - Build TPR and FPR across all thresholds, compare with random and ideal models, and plot the ROC curve.
+- 4.6 [ROC AUC](06-auc.md) - Compute ROC AUC as a single score and interpret it as the chance a positive outranks a negative.
+- 4.7 [Cross-Validation](07-cross-validation.md) - Tune the C parameter with k-fold cross-validation, then train the final model and score it on the test set.
+- 4.8 [Summary](08-summary.md) - Recap the evaluation metrics for the churn model, from accuracy and precision to ROC AUC and cross-validation.
+- 4.9 [Explore more](09-explore-more.md) - Suggest extra practice on the F1 score, precision-recall curves, and the area under the PR curve.
 
 ## Community notes
 
