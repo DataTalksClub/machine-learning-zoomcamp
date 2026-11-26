@@ -48,3 +48,7 @@ urls:
   faq: https://datatalks.club/faq/machine-learning-zoomcamp.html
 hashtag: mlzoomcamp
 published: true
+instructors:
+  - name: Alexey Grigorev
+    url: https://linkedin.com/in/agrigorev
+weekly_commitment: Free. Plan for 10 to 15 hours a week during the cohort.
