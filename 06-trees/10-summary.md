@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=JZ6sRZ_5j_c&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 258
 prev_url: 09-final-model.md
 next_url: 11-explore-more.md
 ---

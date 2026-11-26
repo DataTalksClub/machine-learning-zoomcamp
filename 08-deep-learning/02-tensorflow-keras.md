@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=R6o_CUmoN9Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 591
 code:
   - label: Notebook
     path: notebook.ipynb

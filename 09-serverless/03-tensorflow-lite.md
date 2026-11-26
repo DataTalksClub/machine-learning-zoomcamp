@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=OzZA4mSBE0Q&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 1419
 code:
   - label: Notebook
     path: code/tensorflow-model.ipynb

@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=deXR2fThYDw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 1191
 code:
   - label: Notebook
     path: code/tf-serving-connect.ipynb

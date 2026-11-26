@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=EJpqZ7OlwFU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 937
 code:
   - label: Training script
     path: code/train.py

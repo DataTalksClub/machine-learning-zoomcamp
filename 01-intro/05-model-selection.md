@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6
+video_duration_seconds: 1292
 prev_url: 04-crisp-dm.md
 next_url: 06-environment.md
 ---

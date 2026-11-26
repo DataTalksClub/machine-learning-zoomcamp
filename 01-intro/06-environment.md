@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=pqQFlV3f9Bo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 534
 prev_url: 05-model-selection.md
 next_url: 07-numpy.md
 ---

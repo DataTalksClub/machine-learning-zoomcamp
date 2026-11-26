@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=VRrEEVeJ440&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=10
+video_duration_seconds: 406
 prev_url: 09-pandas.md
 next_url: ../02-regression/01-car-price-intro.md
 ---

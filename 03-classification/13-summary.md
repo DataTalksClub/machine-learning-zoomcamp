@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=Zz6oRGsJkW4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 365
 prev_url: 12-using-log-reg.md
 next_url: 14-explore-more.md
 ---

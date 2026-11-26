@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=7
+video_duration_seconds: 1309
 code:
   - label: Notebook
     path: notebooks/07-numpy.ipynb

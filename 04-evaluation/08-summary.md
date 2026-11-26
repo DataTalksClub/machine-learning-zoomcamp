@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=-v8XEQ2AHvQ&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 402
 prev_url: 07-cross-validation.md
 next_url: 09-explore-more.md
 ---

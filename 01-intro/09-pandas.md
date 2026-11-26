@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=0j3XK5PsnxA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=9
+video_duration_seconds: 1714
 code:
   - label: Notebook
     path: notebooks/09-pandas.ipynb

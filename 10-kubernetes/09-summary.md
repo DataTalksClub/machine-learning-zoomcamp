@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=J5LMRTIu4jY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 508
 prev_url: 08-eks.md
 next_url: 10-explore-more.md
 ---

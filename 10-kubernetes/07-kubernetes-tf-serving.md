@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=6vHLMdnjO2w&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 1481
 code:
   - label: Test script
     path: code/test.py

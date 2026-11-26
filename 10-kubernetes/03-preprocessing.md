@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=OIlrS14Zi0o&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 699
 code:
   - label: Gateway
     path: code/gateway.py

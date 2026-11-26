@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=it1Lu7NmMpw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 415
 prev_url: ../06-trees/11-explore-more.md
 next_url: 02-tensorflow-keras.md
 ---

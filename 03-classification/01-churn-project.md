@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=0Zw04wdeTQo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 566
 prev_url: ../02-regression/17-explore-more.md
 next_url: 02-data-preparation.md
 ---

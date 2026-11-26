@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=_UX8-2WhHZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 437
 prev_url: 01-intro.md
 next_url: 03-tensorflow-lite.md
 ---

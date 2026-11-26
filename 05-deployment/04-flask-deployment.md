@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=Q7ZWPgPnRz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 997
 code:
   - label: Flask app
     path: code/predict.py

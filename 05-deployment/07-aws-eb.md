@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 994
 prev_url: 06-docker.md
 next_url: 08-summary.md
 ---

@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=ZhQQfpWfkKY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 1442
 prev_url: 03-preprocessing.md
 next_url: 05-kubernetes-intro.md
 ---

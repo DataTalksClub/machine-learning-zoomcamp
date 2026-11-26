@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=sSAqYSk7Br4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 109
 prev_url: 07-aws-eb.md
 next_url: 09-explore-more.md
 ---

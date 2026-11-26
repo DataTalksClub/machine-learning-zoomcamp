@@ -1,5 +1,6 @@
 ---
 video_url: "https://www.youtube.com/watch?v=kBch5oD5BkY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"
+video_duration_seconds: 840
 prev_url: 05-docker-image.md
 next_url: 07-api-gateway.md
 ---

@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=W7ubna1Rfv8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 399
 code:
   - label: Ping app
     path: code/ping.py

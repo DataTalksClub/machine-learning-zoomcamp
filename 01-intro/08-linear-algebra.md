@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=zZyKUeOR4Gg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=8
+video_duration_seconds: 1656
 code:
   - label: Notebook
     path: notebooks/08-linear-algebra.ipynb

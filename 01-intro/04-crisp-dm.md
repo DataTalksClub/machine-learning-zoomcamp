@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5
+video_duration_seconds: 1257
 prev_url: 03-supervised-ml.md
 next_url: 05-model-selection.md
 ---

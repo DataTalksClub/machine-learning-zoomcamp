@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=j9kcEuGcC2Y&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=4
+video_duration_seconds: 1173
 prev_url: 02-ml-vs-rules.md
 next_url: 04-crisp-dm.md
 ---

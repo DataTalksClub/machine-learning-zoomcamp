@@ -1,5 +1,6 @@
 ---
 video_url: https://www.youtube.com/watch?v=BMXh8JGROHM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR
+video_duration_seconds: 942
 code:
   - label: Pipfile
     path: code/Pipfile
